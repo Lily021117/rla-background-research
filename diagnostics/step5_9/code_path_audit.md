@@ -2,7 +2,7 @@
 
 路径下文使用占位符：`VLA_WORKTREE` 为已验收独立 VLA worktree；`EXP` 为本研究实验根目录；`RLA_ROOT` 为官方 RLA checkout。源码SHA和实际路径保存在本地 source/protection inventory；分享版本使用相对路径。
 
-实际入口是 `VLA_WORKTREE/run_math_step57.sh:20` → `train_math_step57.py:10`，后者只执行 `validate_step0.py` 在 `grads={};i=selected[0]` 之前的初始化、真实数据加载和公平性检查。不是旧 SparseHead trainer。Git HEAD为 `23fa0c9c159e2aa04341cdd3e924f44061311060`；实验脚本是未跟踪的新文件，所以HEAD单独不足以复现，必须同时保留源文件SHA和快照。
+实际入口是 `VLA_WORKTREE/run_math_step57.sh:16` → `train_math_step57.py:10`，后者只执行 `validate_step0.py` 在 `grads={};i=selected[0]` 之前的初始化、真实数据加载和公平性检查。不是旧 SparseHead trainer。Git HEAD为 `23fa0c9c159e2aa04341cdd3e924f44061311060`；实验脚本是未跟踪的新文件，所以HEAD单独不足以复现，必须同时保留源文件SHA和快照。
 
 ```mermaid
 flowchart LR
@@ -37,7 +37,7 @@ flowchart LR
 ## 训练、部署和数据处理
 
 - `causal_unified.py:63`仅VLM LoRA/action_queries可训练；native action head整个模块与proprio projector均可训练。辅助头在三组保留，B权重0。`:119`每次更新两个microbatch，各2样本，loss各除2累积；`:130`成功optimizer step后计数。
-- 实际 batch来源为 `EXP/step4_5_3.../batches.py:6`读取Step4.5.2构造逻辑；`step4_5_2.../validate.py:91`使用`state[s:s+8]`的FK、`actions[s:s+8]`，在`:104`执行原libero标准化、归一化，在`:107`chunk；`:111`将顶点在左上的重渲染RGB水平翻转。Step5.1.1修复的是任务语言，图像/动作/FK/target不变。
+- 实际 batch来源为 `EXP/step4_5_3.../batches.py:6`读取Step4.5.2构造逻辑；`step4_5_2.../validate.py:88`使用`state[s:s+8]`的FK、`actions[s:s+8]`，在`:95`执行原libero标准化、`:96`归一化、`:98`chunk；`:101`将左上为原点的重渲染RGB水平翻转。Step5.1.1修复的是任务语言，图像/动作/FK/target不变。
 - `prismatic/vla/datasets/rlds/oxe/transforms.py:827`：夹爪由原始−1开/+1闭转换为0闭/1开。`rlds/utils/data_utils.py:67`：BOUNDS_Q99及裁剪。`modeling_prismatic.py:786`：反归一化，无额外输出clamp。`experiments/robot/robot_utils.py:151`及`:182`将夹爪转换并翻转为环境约定。
 - `rollout_step58.py:infer`使用同样当前双相机、FK归一化、任务语言；chunk8全部执行后重规划。使用Math SDPA、eval/inference mode；没有辅助target前向输入。每个trial完整reset并核对1e-8历史geometry。成功来自`env.check_success()`。
 - 原生 `prismatic/models/action_heads.py:69`在phase=Training加入每次新建的Normal(0,0.02)扰动，Inference不加。该临时Parameter不属于持久module，optimizer不会更新它；扰动仍影响训练梯度。这是上游设计差异，本轮没有证据证明它导致退化。
