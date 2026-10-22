@@ -1,0 +1,41 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED",
+  "unique_between_arm_change": "native action-head LR multiplied by0.1",
+  "control_LR": {
+    "VLM": 0.0001,
+    "native_action_head": 0.0001,
+    "proprio": 0.0001,
+    "auxiliary": 0.0001
+  },
+  "experimental_LR": {
+    "VLM": 0.0001,
+    "native_action_head": 1e-05,
+    "proprio": 0.0001,
+    "auxiliary": 0.0001
+  },
+  "same_explicit_optimizer_groups_in_both": true,
+  "initialization": "same validated B step0 model parameters with new empty AdamW state; never B step1",
+  "successful_updates_each": 10,
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10
+  ],
+  "seed": 20261021,
+  "data_order": "first10 rows of original frozen100-row sampling_order.json",
+  "microbatch": 2,
+  "accumulation": 2,
+  "effective_batch": 4,
+  "loss": "BC action L1 only; same unified auxiliary head retained with weight0",
+  "common_STOP": "append STOP2 to training input_ids and labels, attention_mask1; both arms same; preflight exact training/deployment equivalence in eval",
+  "dtype_backend": "unchanged BF16 native/FP32 LoRA, Math SDPA",
+  "optimizer": "same AdamW betas(.9,.999),eps1e-8,weight_decay0; constantLR, no clipping",
+  "native_training_phase_perturbation": "unchanged original Training-mode0.02 noise, same RNG rule",
+  "extra_losses": [],
+  "all_other_data_model_augmentation_seeds_trainables_equal": true,
+  "main_checkpoint": 10,
+  "no_validation_checkpoint_selection": true,
+  "historical_noSTOP_run_not_strict_control": true,
+  "not_authorization_to_train": true
+}

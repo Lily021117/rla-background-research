@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fixed_samples": 14,
+  "training_samples": 8,
+  "validation_samples": 6,
+  "parameter_rows": 1335,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "new_rollouts": 0
+}

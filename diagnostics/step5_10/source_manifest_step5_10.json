@@ -1,0 +1,197 @@
+{
+  "base_commit": "c3e0dde39d362b76b21c5d6f8619de4a95d63f66",
+  "branch": "diagnostics/step5-10",
+  "entries": [
+    {
+      "file": "README.md",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "6d514584c9a18fbd3fbd3d834d731bb72900be2c6b93b9d83c0ac7cb9d559837",
+      "shared_SHA256": "6d514584c9a18fbd3fbd3d834d731bb72900be2c6b93b9d83c0ac7cb9d559837",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "analyze.py",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "6463a512d9a67b921ff35450f73764860f608b27b208e581c3368208933a6260",
+      "shared_SHA256": "6463a512d9a67b921ff35450f73764860f608b27b208e581c3368208933a6260",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "common.py",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "a508ee692f3e87678b6a2e2e0b65ad163e524f2a1897c7f75de88981144e2f75",
+      "shared_SHA256": "a508ee692f3e87678b6a2e2e0b65ad163e524f2a1897c7f75de88981144e2f75",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "prepare.py",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "4dbd2a8aebb8060a29520bb3e1aa45ac5abedee44e3dfaaad7393cca07ef3798",
+      "shared_SHA256": "4dbd2a8aebb8060a29520bb3e1aa45ac5abedee44e3dfaaad7393cca07ef3798",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "run.sh",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "a9d698753feb37098564d94f72d19458809ca34ddb9ee847e85e43c1c479c26f",
+      "shared_SHA256": "a9d698753feb37098564d94f72d19458809ca34ddb9ee847e85e43c1c479c26f",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "swap.py",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "0b7e16a0ec35968b91cccf15e9be2e4f509fa5c426f3fdb43f717812df08ae9a",
+      "shared_SHA256": "14b78c3c5c26406db514da4439605e81f725921ea85cfd240b21baa469089486",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "verify_local.py",
+      "origin": "diagnostic script/document",
+      "source_SHA256": "c9377dbc589d1cfee3e8184831b93614fe62c4f2b546a586bb89345ae2c657e8",
+      "shared_SHA256": "c9377dbc589d1cfee3e8184831b93614fe62c4f2b546a586bb89345ae2c657e8",
+      "redaction": "server paths/device UUID only; executed original retained locally"
+    },
+    {
+      "file": "report.md",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "d30dc6e8757ea7d7472aaa63e4fdfaf76a1939b3e41c6a3405518c2e1f1c6341",
+      "shared_SHA256": "d30dc6e8757ea7d7472aaa63e4fdfaf76a1939b3e41c6a3405518c2e1f1c6341",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "component_inventory.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "42defdbe3e72a9cf7eb6939d905776c80801ea30705fa615aaba1b0cb166f36b",
+      "shared_SHA256": "369fe6d060d93d0603506f5ff59cf8a51bc084f2ab986176764cd2ca45bd1549",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "checkpoint_provenance.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "3c13519fd18552467842cf297e320096d30c1d1901df53767fe3e17f7613edb1",
+      "shared_SHA256": "eb23610f23e0e2a8902c77a106c9ebf1ab65b1071849ac2850d3336a6dfa81df",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "fixed_sample_manifest.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "963c70537c67c748fda25d37dca63bfabc96111499fdc2a030e1accd11a54efa",
+      "shared_SHA256": "3a13dac3a2355b093b9aad0395f01cfb40245bda730ae494ec0f91b00a213fe2",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "component_swap_metrics.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "ae58c1667a47d41b4e05edc58468dcf1f2a1ce2d01b3cd42c50941088b69325e",
+      "shared_SHA256": "ae58c1667a47d41b4e05edc58468dcf1f2a1ce2d01b3cd42c50941088b69325e",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "per_demo_metrics.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "0c2346e3edfd20bd24b5429062d12100c7735c367f568d9e75f60e06a6b775cb",
+      "shared_SHA256": "0c2346e3edfd20bd24b5429062d12100c7735c367f568d9e75f60e06a6b775cb",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "parameter_update_statistics.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "fc3e5dbc4f71fd1f251387bcdd41731f7ec82b70b0851031b13e785c8e947fbf",
+      "shared_SHA256": "fc3e5dbc4f71fd1f251387bcdd41731f7ec82b70b0851031b13e785c8e947fbf",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "optimizer_first_step_audit.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "b8c8e9801386934fb98c6a5127b0e017a499794c6a43654c7c4dc4c66b26ee73",
+      "shared_SHA256": "b8c8e9801386934fb98c6a5127b0e017a499794c6a43654c7c4dc4c66b26ee73",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "next_experiment_proposal.md",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "916f68d18dc910da037f036227948108130410d2d4942fcdfba807008ca29a86",
+      "shared_SHA256": "916f68d18dc910da037f036227948108130410d2d4942fcdfba807008ca29a86",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "delivery_verification.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "a3d67b8ed16b5dec511bc1c24e070fabf1e6883245dcfb384cafbed3c2d2099e",
+      "shared_SHA256": "a225559ad61b1ec62279f132df1195b1dbe9a411869bd28119797ca021a1f426",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "component_update_summary.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "b3f0100106dc379742a10bbbc5ed1b9e799f6c5425d1425722e8cbce1ca0f965",
+      "shared_SHA256": "b3f0100106dc379742a10bbbc5ed1b9e799f6c5425d1425722e8cbce1ca0f965",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "task_metrics.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "9f0d54bb84e39ebf61a9121ef4b5084ddced7f51c59a8074c4ac238e86209807",
+      "shared_SHA256": "9f0d54bb84e39ebf61a9121ef4b5084ddced7f51c59a8074c4ac238e86209807",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "chunk_position_summary.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "bd1990f89cd9d9c2b710bdc878647d743c3fd308bc3e8bb60e5d1dd0de7b81f0",
+      "shared_SHA256": "bd1990f89cd9d9c2b710bdc878647d743c3fd308bc3e8bb60e5d1dd0de7b81f0",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "conditional_component_effects.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "680e37efa3705d1486fa9607e6caf91d0bd6f82ddf69c0c775179fa1aa9e78ae",
+      "shared_SHA256": "680e37efa3705d1486fa9607e6caf91d0bd6f82ddf69c0c775179fa1aa9e78ae",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "component_interactions.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "757bd3ffc30028c4ac1ac63a0c8b8fac3e623b2438a45a39c6e8c6f54e5e2875",
+      "shared_SHA256": "757bd3ffc30028c4ac1ac63a0c8b8fac3e623b2438a45a39c6e8c6f54e5e2875",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "analysis_summary.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "27d9f089bbb75002884890deae6be04d1e071c7c8d8da3d4b83d1961b9dcbd63",
+      "shared_SHA256": "27d9f089bbb75002884890deae6be04d1e071c7c8d8da3d4b83d1961b9dcbd63",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "inference_acceptance.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "02bcea884008ad4974661a7d5085fe2de25079bb6de87c26774c1390a1146b97",
+      "shared_SHA256": "68e0887d18a3b87b6132f1600d6c883dc2e8e22df65f1e8c43754c868013de73",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "preparation_acceptance.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "b050873d6d37b3573d94efda0139ad871c397a3b704fd7bbba63eba3d4810597",
+      "shared_SHA256": "b050873d6d37b3573d94efda0139ad871c397a3b704fd7bbba63eba3d4810597",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "cross_run_reference_check.csv",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "01bf05e84c259dd2ec29e47bba8df0541309ba1b6f871a04c351b69d51f26a8d",
+      "shared_SHA256": "01bf05e84c259dd2ec29e47bba8df0541309ba1b6f871a04c351b69d51f26a8d",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    },
+    {
+      "file": "next_short_training_config.json",
+      "origin": "local diagnostic artifact",
+      "source_SHA256": "56dd8ebe60dd1cfed21a8633143f99d410bcb6de0891ac4bd6447d7b4d9ad28d",
+      "shared_SHA256": "56dd8ebe60dd1cfed21a8633143f99d410bcb6de0891ac4bd6447d7b4d9ad28d",
+      "redaction": "paths/device IDs; memory-object IDs omitted from component inventory"
+    }
+  ],
+  "no_weights_datasets_raw_arrays_videos_trajectories_credentials": true,
+  "editorial_report_changes": "wording and BF16 monitoring clarification after numeric report generation; no numerical changes"
+}

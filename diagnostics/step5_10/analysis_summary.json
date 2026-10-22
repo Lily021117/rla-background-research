@@ -1,0 +1,100 @@
+{
+  "metric_0155_definition": {
+    "space": "published normalized action coordinates, float32 diagnostic",
+    "samples": 14,
+    "independent_demonstrations": 7,
+    "train_demos": 4,
+    "validation_demos": 3,
+    "two_current_cameras_per_input": true,
+    "chunk_positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "dimensions": 7,
+    "denominator": 784,
+    "padding": 0,
+    "mask": "all8 actual actions valid; no action padding",
+    "reduction": "mean absolute difference over appearance instances x8x7; equivalent demo-equal because exactly2 appearances per demo",
+    "stochastic_inference": false,
+    "native_training_phase_noise_enabled_in_this_diagnostic": false,
+    "seed": 20261021,
+    "baseline_error": 0.14987239770458213,
+    "step1_error": 0.23412872997245618,
+    "step1_drift": 0.15525729315621511
+  },
+  "component_drift_by_dimension_group": {
+    "000": {
+      "translation_drift": 0.0,
+      "rotation_drift": 0.0,
+      "gripper_drift": 0.0,
+      "max_abs": 0.0
+    },
+    "100": {
+      "translation_drift": 0.029776141047477722,
+      "rotation_drift": 0.026995988562703133,
+      "gripper_drift": 0.0034528460819274187,
+      "max_abs": 0.2354278564453125
+    },
+    "010": {
+      "translation_drift": 0.1511203497648239,
+      "rotation_drift": 0.1165313720703125,
+      "gripper_drift": 0.1822684109210968,
+      "max_abs": 0.23876953125
+    },
+    "001": {
+      "translation_drift": 0.00076349574374035,
+      "rotation_drift": 0.0007790497620590031,
+      "gripper_drift": 0.0008370535797439516,
+      "max_abs": 0.0078125
+    },
+    "110": {
+      "translation_drift": 0.16744740307331085,
+      "rotation_drift": 0.13360978662967682,
+      "gripper_drift": 0.1836635023355484,
+      "max_abs": 0.41015625
+    },
+    "101": {
+      "translation_drift": 0.029729831963777542,
+      "rotation_drift": 0.026956547051668167,
+      "gripper_drift": 0.003662109375,
+      "max_abs": 0.2365875244140625
+    },
+    "011": {
+      "translation_drift": 0.15124750137329102,
+      "rotation_drift": 0.11645269393920898,
+      "gripper_drift": 0.1823381632566452,
+      "max_abs": 0.2384033203125
+    },
+    "111": {
+      "translation_drift": 0.16741064190864563,
+      "rotation_drift": 0.13363520801067352,
+      "gripper_drift": 0.1836635023355484,
+      "max_abs": 0.41064453125
+    }
+  },
+  "gripper_target_min_max": [
+    1.0,
+    1.0
+  ],
+  "max_cross_GPU_prior_first_action_delta": 0.0,
+  "component_order": [
+    "VLM",
+    "action_head",
+    "proprio"
+  ],
+  "decoded_units": {
+    "decoded_translation_command_L1": "dimensionless OSC command",
+    "decoded_rotation_command_L1": "dimensionless OSC command",
+    "controller_translation_delta_L1_m": "m of commanded delta after controller input clipping/scaling, not measured robot displacement",
+    "controller_rotation_delta_L1_rad": "rad per rotation-vector command component after clipping/scaling, not geodesic orientation error",
+    "gripper_command_L1": "absolute difference in binary{-1,+1},0 at exact threshold; not finger displacement"
+  },
+  "all_saturation_ratios_are_descriptive": true,
+  "combinations_do_not_prove_longterm_causality": true
+}
