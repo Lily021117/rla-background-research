@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "two_separately_constructed_models_same_seed_hash": "6707fe08f42a7dd919e6f56e60468a68038357ded36c66db6730cb30505d0e60",
+  "entry_lambda0_loss_gradient_exact_equal": true,
+  "optimizer_updates": 0,
+  "backward_calls": 2,
+  "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo",
+  "train_episodes": 4,
+  "train_windows": 40,
+  "validation_episodes": 1,
+  "validation_windows": 10,
+  "normalizer_fit": "selected task train only; reused unchanged for validation",
+  "parameters_unchanged": true,
+  "loss": 0.32699650526046753,
+  "consistency": 0.00012171798152849078,
+  "note": "broader audit fits190 global training windows; public per-task entry fits only selected task. Both audited separately."
+}

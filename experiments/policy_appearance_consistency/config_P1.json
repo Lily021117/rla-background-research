@@ -1,0 +1,94 @@
+{
+  "reference_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "model": {
+    "action_dim": 7,
+    "state_dim": 8,
+    "num_cameras": 1,
+    "horizon": 12,
+    "n_obs_steps": 1,
+    "n_action_steps": 8,
+    "per_camera_dim": 512,
+    "use_group_norm": true,
+    "share_backbone": false,
+    "img_size": 128,
+    "resize_shape": [
+      128,
+      128
+    ],
+    "crop_shape": null,
+    "random_crop": true,
+    "imagenet_norm": false,
+    "state_hidden_dim": 256,
+    "state_output_dim": 256,
+    "spatial_hidden_dim": 256,
+    "spatial_num_blocks": 6,
+    "spatial_num_heads": 8,
+    "spatial_mlp_ratio": 4.0,
+    "num_output_queries": 16,
+    "shared_mlp_dim": 2048,
+    "mlp_dropout": 0.1,
+    "loss_type": "mse",
+    "use_latent_head": false
+  },
+  "init": "random: torchvision resnet18(weights=None), all other policy layers default initialization",
+  "seed": 42,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0001
+  },
+  "scheduler": {
+    "name": "cosine",
+    "warmup_steps": 200
+  },
+  "paired_rng": "matched Python/NumPy/torch RNG per branch; no EMA teacher or detach",
+  "batch_physical_pairs": 4,
+  "successful_updates_proposed": 100,
+  "run_training": false,
+  "use_ema_proposed": true,
+  "normalization": "official limits [-1,1], fit selected task training episodes only; validation reuses unchanged stats",
+  "active_action_mask": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "camera": "agentview",
+  "language_input": false,
+  "multi_task_training_allowed": false,
+  "scope": "per-task only; architecture lacks language conditioning",
+  "reference_differences": [
+    "LIBERO OSC 7D instead of ManiSkill joint-position target",
+    "FK8 instead of joint-qpos robot-specific state",
+    "agentview instead of front_lower_camera",
+    "128px existing render instead of 512px source resized128",
+    "background retained rather than foreground masked",
+    "8 verified actions supervised in unchanged12-output horizon; last4 excluded",
+    "small fixed budget and paired batch4 vs reference batch64",
+    "train-only normalizer fit avoids using validation episodes"
+  ],
+  "arm": "P1",
+  "lambda_cons": 0.0,
+  "training_appearances": [
+    "clean",
+    "background"
+  ],
+  "image_exposures_per_update": 8,
+  "resume": false,
+  "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo",
+  "init_checkpoint": null,
+  "implementation_scope": "loss/dataset/gradient entry audited; optimizer loop not executed or implemented in this round"
+}

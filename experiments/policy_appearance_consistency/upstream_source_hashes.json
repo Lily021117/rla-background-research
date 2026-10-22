@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/mlzxy/rla-wm",
+  "commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "files": {
+    "policies/config/fs_bc.yaml": "6310ed09fc2b4fe78d3fb346de5e4b1239d837ce3bcbb68088d6882088f99bbe",
+    "policies/config/fs_bc_rla.yaml": "888fa40c8d0319f900ab53b4f0fecaebe056483372da55869e021e1ea111f032",
+    "policies/policy/vla_bc_policy_rla_unified.py": "fef7eab01e5da15163cbf031f7695ea592ad77446b162fd69e2e3dba0ecc5dbc",
+    "policies/policy/utils.py": "94c0888dbe90a2713a60fe73770b28de130cd5769b468d8ca71825a9af43a439",
+    "policies/dataset/maniskill_sequence_dataset.py": "c814daa797c2fe49e7a6f9b1f7933af8bb570639e5006e0b2cdcafe6fabf66b5",
+    "policies/workspace/train_vla_bc_workspace.py": "3c026280f231de58db5f828f0d02a0f1c4460238c31fdbcc6e4134a3f66a582c",
+    "src/models/attention_block.py": "dd98e872c5ad1d2234bcce4b250279d3c16bfd49578842b87d8e6401ba1f9b95"
+  }
+}

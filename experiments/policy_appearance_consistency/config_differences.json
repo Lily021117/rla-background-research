@@ -1,0 +1,31 @@
+{
+  "P0_to_P1": {
+    "arm": {
+      "P0": "P0",
+      "P1": "P1"
+    },
+    "training_appearances": {
+      "P0": [
+        "clean"
+      ],
+      "P1": [
+        "clean",
+        "background"
+      ]
+    },
+    "image_exposures_per_update": {
+      "P0": 4,
+      "P1": 8
+    }
+  },
+  "P1_to_P2": {
+    "arm": {
+      "P1": "P1",
+      "P2": "P2"
+    },
+    "lambda_cons": {
+      "P1": 0.0,
+      "P2": 0.1
+    }
+  }
+}

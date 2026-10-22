@@ -1,0 +1,43 @@
+{
+  "status": "PASS_LIMITED_INTERFACE",
+  "formal_training_authorized_by_this_result": false,
+  "baseline_identity": "original BC-ResNet architecture, random initialization; LIBERO interface adaptation explicitly disclosed",
+  "optimizer_updates": 0,
+  "optimizer_created": false,
+  "backward_calls": 14,
+  "new_closed_loop": 0,
+  "heldout_read_or_scored": 0,
+  "future_RGB_read": 0,
+  "RLA_target_read": 0,
+  "new_checkpoints": 0,
+  "GPU_used": false,
+  "original_files_hash_checked": 187,
+  "original_hashes_unchanged": true,
+  "P1_P2_config_difference_fields": [
+    "arm",
+    "lambda_cons"
+  ],
+  "source_files": {
+    "dataset.py": "07d19fd0a80beffdf80f3ec4826b21f947880796e554a0aee7d0f0d63bcaf337",
+    "reference_fs_bc.yaml": "6310ed09fc2b4fe78d3fb346de5e4b1239d837ce3bcbb68088d6882088f99bbe",
+    "entry_audit.py": "fe9494c1f2edec4813ccb133844021334d62f7e5c51a6e019a8cdabc7d65d74c",
+    "config_P1.json": "de349a70cc6bf233a73c5bd786f6663b2e0ccd58f9fa27a13e5c0442d0a4f4ba",
+    "baseline_provenance.md": "5df19f466b8b33d7cd83829c552fe5b8389ede86e799003964fcece1fda57a67",
+    "pairing_and_gradient_audit.json": "977c38e3ed12353545789cfa5430532c46994ca17ce626a1c718e2791b986a31",
+    "run_audit.sh": "671d2b146bb6347cad1e9c33ec7caadd192d218770c961d3d63940ce1d6c3db3",
+    "method_and_controls.md": "1e7fa5b7ba1e7fb89f41ddf4a551b52ec9397f82601c58fe39ba92a1eff3d7e8",
+    "entry_audit.json": "23590ee053793cc19c85880bba000cfdd8200d27bb1576366320424168e5d9d4",
+    "method.py": "68ae76326567f1f38c6bab67e15a10933748c2ab3e08370cdb1e4beafbe7ed17",
+    "next_training_plan.md": "b9af4819026c6b1a43cf119bae2061ab28418ec45bcb13e9b01afb49aabe788a",
+    "config_P0.json": "7a5180a2e9d854c6ac86f30758b62ed4964650a4680a2341c14562f03e22ba18",
+    "report.md": "cb27c1ba418d9893f19beefce57cc060619acbe9080da069268945c097ed880a",
+    "config_P2.json": "95e5eb2dfce36d7e34192cba351c11000f46560efc84b4ce8d4235ce4300a354",
+    "entry.py": "644b3a4c48c5e52ab27f1e7b2360123c000962f00604035cbc61f5e7e3064a6c",
+    "audit.py": "61662c697c8e7b428cd1598879e79bf827486d44ca246f80dae5067d3a45dbe3",
+    "upstream_source_hashes.json": "0b60fd278390d0318ed27cacc7af33bedcc6d097ec64841342ab87b227f3e608",
+    "config_differences.json": "27b49712647f6e0b6410cb668a18a02bc21bc642ac81219bb02fce72ecfaf728",
+    "README.md": "21a7a9b6a2b55c426137ef1a8b9e4541a622d9a48392d6ff2b7c6acfe58d1d08"
+  },
+  "train_plan_only": true,
+  "conditional_next_step": "per-task training loop/save-resume/resource checks required before100updates"
+}
