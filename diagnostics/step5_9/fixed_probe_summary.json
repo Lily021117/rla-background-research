@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "arm": "A",
+      "step": 0,
+      "samples": 14,
+      "training_path_action_L1": 0.14998966668333327,
+      "deployment_path_action_L1": 0.14987239933439664,
+      "train_deploy_normalized_action_L1": 0.0015895355442937995,
+      "deployment_shift_from_A_L1": 0.0
+    },
+    {
+      "arm": "B",
+      "step": 1,
+      "samples": 14,
+      "training_path_action_L1": 0.2342021922980036,
+      "deployment_path_action_L1": 0.2341287327664239,
+      "train_deploy_normalized_action_L1": 0.001615025568753481,
+      "deployment_shift_from_A_L1": 0.15525729315621511
+    },
+    {
+      "arm": "B",
+      "step": 100,
+      "samples": 14,
+      "training_path_action_L1": 0.13680650746183737,
+      "deployment_path_action_L1": 0.1368538127946002,
+      "train_deploy_normalized_action_L1": 0.001469357288442552,
+      "deployment_shift_from_A_L1": 0.07356640749744006
+    },
+    {
+      "arm": "B",
+      "step": 50,
+      "samples": 14,
+      "training_path_action_L1": 0.1315652398126466,
+      "deployment_path_action_L1": 0.13162390461989812,
+      "train_deploy_normalized_action_L1": 0.0012918637699580618,
+      "deployment_shift_from_A_L1": 0.07934174739888736
+    },
+    {
+      "arm": "C",
+      "step": 100,
+      "samples": 14,
+      "training_path_action_L1": 0.1286574854914631,
+      "deployment_path_action_L1": 0.12857480320547307,
+      "train_deploy_normalized_action_L1": 0.0014036674942222557,
+      "deployment_shift_from_A_L1": 0.07413666269608907
+    },
+    {
+      "arm": "D",
+      "step": 100,
+      "samples": 14,
+      "training_path_action_L1": 0.13325320237449237,
+      "deployment_path_action_L1": 0.13316648613129342,
+      "train_deploy_normalized_action_L1": 0.0013006426909539317,
+      "deployment_shift_from_A_L1": 0.08280860153692109
+    }
+  ],
+  "stop_augmented_max_abs": 0.0,
+  "prefix_IDs_equal": true,
+  "sample_unit": "14 fixed task/split/appearance representatives, not independent demonstration statistics"
+}

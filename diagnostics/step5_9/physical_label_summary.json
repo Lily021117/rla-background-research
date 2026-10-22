@@ -1,0 +1,102 @@
+{
+  "train": {
+    "bowl": {
+      "available": 190,
+      "total_transitions": 190,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.009929034493795025,
+        0.10175722775516173,
+        0.11848315689907968
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "gap": {
+      "available": 190,
+      "total_transitions": 190,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        4.951009920702715e-08,
+        0.0005275350009842708,
+        0.05423030452416867,
+        0.06460548375638993
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "drawer": {
+      "available": 190,
+      "total_transitions": 190,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.0,
+        1.929569453403644e-05,
+        0.018421242582394137
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "stove": {
+      "available": 190,
+      "total_transitions": 190,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    }
+  },
+  "validation": {
+    "bowl": {
+      "available": 30,
+      "total_transitions": 30,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.006321078327365868,
+        0.09557004815899205,
+        0.09799219365311929
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "gap": {
+      "available": 30,
+      "total_transitions": 30,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        3.7908735485824713e-06,
+        0.00047177838630260704,
+        0.05319951799206231,
+        0.06063294605873508
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "drawer": {
+      "available": 30,
+      "total_transitions": 30,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.0,
+        0.0005092748256599307,
+        0.005154059428289309
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    },
+    "stove": {
+      "available": 30,
+      "total_transitions": 30,
+      "coverage": 1.0,
+      "magnitude_q0_q50_q95_q100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "matched XML+exact saved state endpoints; body origin/finger qpos/fixture joint, not independently measured external truth"
+    }
+  }
+}

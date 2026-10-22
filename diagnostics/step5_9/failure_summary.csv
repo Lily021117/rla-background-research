@@ -1,0 +1,25 @@
+arm,appearance,descriptive_stage,trials,method
+A,clean,SUCCESS_ENV_SIGNAL,16,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+A,clean,LIFT_OCCURRED_BUT_NO_SUCCESS,4,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+A,background,SUCCESS_ENV_SIGNAL,18,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+A,background,LIFT_OCCURRED_BUT_NO_SUCCESS,2,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,clean,LIFT_OCCURRED_BUT_NO_SUCCESS,6,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,clean,SUCCESS_ENV_SIGNAL,2,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,clean,NEAR_TARGET_WITHOUT_2CM_LIFT,10,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,clean,APPROACH_NOT_WITHIN_10CM,2,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,background,LIFT_OCCURRED_BUT_NO_SUCCESS,6,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,background,NEAR_TARGET_WITHOUT_2CM_LIFT,7,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,background,SUCCESS_ENV_SIGNAL,3,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+B,background,APPROACH_NOT_WITHIN_10CM,4,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,clean,LIFT_OCCURRED_BUT_NO_SUCCESS,7,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,clean,SUCCESS_ENV_SIGNAL,4,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,clean,NEAR_TARGET_WITHOUT_2CM_LIFT,9,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,background,LIFT_OCCURRED_BUT_NO_SUCCESS,6,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,background,NEAR_TARGET_WITHOUT_2CM_LIFT,10,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+C,background,SUCCESS_ENV_SIGNAL,4,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,clean,SUCCESS_ENV_SIGNAL,7,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,clean,LIFT_OCCURRED_BUT_NO_SUCCESS,8,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,clean,NEAR_TARGET_WITHOUT_2CM_LIFT,5,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,background,SUCCESS_ENV_SIGNAL,6,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,background,LIFT_OCCURRED_BUT_NO_SUCCESS,9,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth
+D,background,NEAR_TARGET_WITHOUT_2CM_LIFT,5,state-derived description; 10cm approach/2cm lift thresholds fixed before trajectories inspected; no contact/grasp truth

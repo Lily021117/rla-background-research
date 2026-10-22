@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "samples_per_checkpoint": 14,
+  "checkpoint_versions": 2,
+  "Math_SDPA": true,
+  "optimizer_updates": 0,
+  "backward_calls": 0,
+  "new_rollouts": 0,
+  "parameters_unchanged": true,
+  "ECC_unchanged": true,
+  "peak_GPU_allocated": 3946365952,
+  "UUID": "${GPU_UUID}",
+  "scope": "matched current pixel/proprio/language, actual training forward vs deployment predict_action; no future target in either forward"
+}

@@ -1,0 +1,125 @@
+{
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0
+  },
+  "scheduler": "constant LambdaLR",
+  "gradient_clipping": false,
+  "amp_scaler": false,
+  "precision": "BF16 native model/head/proprio, FP32 PEFT LoRA",
+  "trainable_parameter_counts": {
+    "vlm": 51954432,
+    "head": 218095647,
+    "proprio": 811776
+  },
+  "total_trainable": 270861855,
+  "full_names_file": "trainable_parameters.csv",
+  "microbatch": 2,
+  "accumulation": 2,
+  "effective_batch": 4,
+  "updates": {
+    "B": 100,
+    "C": 100,
+    "D": 100
+  },
+  "replayed": 0,
+  "skipped": 0,
+  "exposures_per_arm": 400,
+  "available_train_appearance_windows": 380,
+  "unique_sampled_appearance_windows": 250,
+  "unique_physical_transitions_sampled": 173,
+  "unique_episodes_sampled": 19,
+  "appearance_counts": {
+    "background": 200,
+    "clean": 200
+  },
+  "sample_exposure_min": 1,
+  "sample_exposure_max": 5,
+  "exposure_task_counts": {
+    "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": 124,
+    "pick up the black bowl on the stove and place it on the plate": 109,
+    "pick up the black bowl on the ramekin and place it on the plate": 86,
+    "pick up the black bowl on the cookie box and place it on the plate": 81
+  },
+  "validation_episodes": 3,
+  "missing_validation_task": "stove",
+  "step0_weighted_aux_gradient_norms": {
+    "B": {
+      "shared_backbone": {
+        "norm": 0.0,
+        "nonzero": 0,
+        "grad_hash": "956e6b87cc98776b5285a0d998a96badbcff7c1fddfc12589431857b8bb74b66"
+      },
+      "action_branch": {
+        "norm": 0.0,
+        "nonzero": 0,
+        "grad_hash": "631230cd7bd5e68a997604958fcc0f802bb40a30f596cd5c2f28ebf48de3ff87"
+      },
+      "auxiliary_head": {
+        "norm": 0.0,
+        "nonzero": 0,
+        "grad_hash": "6420fc6d3caf745689973bbb88d6eb8b37ca5b81ca7c562b488d4432278b343d"
+      },
+      "proprio": {
+        "norm": 0.0,
+        "nonzero": 0,
+        "grad_hash": "b53cc8506db815f11ba27a6a9b28077cd1d60d76bc94dd713c55f3112c4d5db8"
+      }
+    },
+    "C": {
+      "shared_backbone": {
+        "norm": 0.0015396981465344186,
+        "nonzero": 370,
+        "grad_hash": "c0b0bf237755379e06b95d12dfb37ca45ad74561ccecac1b5f44491fa45656de"
+      },
+      "action_branch": {
+        "norm": 0.01011788925789569,
+        "nonzero": 510,
+        "grad_hash": "dadc7edb12bb3c7663132535f47796d84e21817f5f337181f70e4c10c02ad828"
+      },
+      "auxiliary_head": {
+        "norm": 0.04531879639533142,
+        "nonzero": 4,
+        "grad_hash": "1d1101335c6022f1fc199158129ad4b08b518b9be101c9327e7230a262177ba6"
+      },
+      "proprio": {
+        "norm": 7.141123622145679e-07,
+        "nonzero": 4,
+        "grad_hash": "1afc7cea96acaa2a292de68a299bf95608428d8d43745559c5f54b20429ed78d"
+      }
+    },
+    "D": {
+      "shared_backbone": {
+        "norm": 0.0016862461033838253,
+        "nonzero": 370,
+        "grad_hash": "48d170a27d61f2c64ca74a2fbed3cf77f3f00ef4ff15c7a20e3d21d71e122771"
+      },
+      "action_branch": {
+        "norm": 0.010799443982551992,
+        "nonzero": 510,
+        "grad_hash": "e5f407d0fd45da23ee32d62e743c530bbc846ad7cd4bd7a96fbfea2ff9850632"
+      },
+      "auxiliary_head": {
+        "norm": 0.047930539490459466,
+        "nonzero": 4,
+        "grad_hash": "6dfd8f9c2663957786f6a57db144521d4dadad30e1b70dbac192771f7c114d14"
+      },
+      "proprio": {
+        "norm": 7.757510233992458e-07,
+        "nonzero": 4,
+        "grad_hash": "85e566df9abd4931c93f49a237494804b5951a67b479b24a91196f677567b6a6"
+      }
+    }
+  },
+  "fixed_batch_target_loss": {
+    "B": 0.9100924730300903,
+    "C": 0.9100924730300903,
+    "D": 0.8874698877334595
+  }
+}

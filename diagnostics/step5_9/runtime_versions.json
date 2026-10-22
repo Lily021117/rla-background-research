@@ -1,0 +1,12 @@
+{
+  "torch": "2.2.0+cu121",
+  "transformers": "4.40.1",
+  "peft": "0.11.1",
+  "numpy": "1.26.4",
+  "mujoco": "3.3.2",
+  "tensorflow": "2.15.0",
+  "robosuite": "1.4.1",
+  "h5py": "3.16.0",
+  "Pillow": "12.3.0",
+  "imageio": "2.38.0"
+}

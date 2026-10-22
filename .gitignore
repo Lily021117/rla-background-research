@@ -1,0 +1,17 @@
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.npy
+*.hdf5
+*.h5
+*.mp4
+*.mkv
+*.png
+*.jpg
+*.env
+.env*
+__pycache__/
+/cache/
+/data/
+/checkpoints/

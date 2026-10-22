@@ -1,0 +1,57 @@
+{
+  "status": "FROZEN_BEFORE_SCORING",
+  "user_clarification": "use first training texture scheme with inherent indirect reflection allowed",
+  "tasks": 4,
+  "states_per_task": 5,
+  "models": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "appearances": [
+    "clean",
+    "background"
+  ],
+  "trials": 160,
+  "repeats_per_state_condition": 1,
+  "max_policy_steps": 220,
+  "settle_steps": 10,
+  "settle_action": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1
+  ],
+  "control_frequency_Hz": 20,
+  "action_chunk": 8,
+  "background": "only tex-table and tex-wall texture file replacement, original paired XML",
+  "reflection": 1,
+  "MSAA": 4,
+  "render_resolution": 128,
+  "policy_image_transform": "same PIL processor.apply_transform on horizontal-flipped top-left render; no new center crop",
+  "success": "env.check_success(), not reward or manual judgement",
+  "timeout": "success false at step220",
+  "smoke": "first state Clean A/B/C/D; included in160; no parameter changes",
+  "confidence": "Wilson per cell descriptive; task/state paired cluster bootstrap for differences, seed20261022; no iid transition assumption",
+  "previously_inspected_holdout": true,
+  "no_training": true,
+  "GPU_UUID": "${GPU_UUID}",
+  "minimum_free_GiB": 26,
+  "checkpoint_selection": "fixed final step100",
+  "research_definition": "背景材质干预下的视觉鲁棒性",
+  "state_use": "exploratory_reused_states",
+  "order": "state_id ascending; clean A B C D, then background A B C D",
+  "inference_backend": "Math SDPA for all four",
+  "invalid_rule": "record INVALID, stop all remaining trials; no automatic retry; invalid excluded from SR, never count as failure",
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261022,
+    "unit": "resample five initial states with replacement within each of four fixed tasks, keeping all eight paired outcomes",
+    "limitations": "conditional on these four tasks; not a new-task or training-seed CI"
+  },
+  "original_geometry_reference": "${RLA_PROJECT_ROOT}/experiments/rla_background_invariance/step5_2_closed_loop/run_20261022_02/geometry"
+}
