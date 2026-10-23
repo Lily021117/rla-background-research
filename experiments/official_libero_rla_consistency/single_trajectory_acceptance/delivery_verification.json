@@ -1,0 +1,22 @@
+{
+  "status": "PASS_SINGLE_TRAJECTORY_INTERFACE",
+  "formal_training_ready": false,
+  "frames": 93,
+  "valid_full_chunks": 85,
+  "RGB_images": 372,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "policy_rollouts": 0,
+  "heldout_reads": 0,
+  "historical_source_hashes_unchanged": true,
+  "GPU_ECC_increment": false,
+  "official_source_unmodified": true,
+  "documented_changes": [
+    "correct K timestep-camera index",
+    "native224 horizontal-mirror geometry convention",
+    "same-state FK derived identity",
+    "variant-isolated stores",
+    "STOP/mask caller boundary repair",
+    "DDP-equivalent device transfer for no-DDP smoke"
+  ]
+}

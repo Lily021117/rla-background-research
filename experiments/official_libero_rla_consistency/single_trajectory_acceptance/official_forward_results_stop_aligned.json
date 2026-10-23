@@ -1,0 +1,96 @@
+{
+  "status": "PASS_FORWARD_NOT_POLICY_QUALITY",
+  "results": [
+    {
+      "path": "baseline",
+      "appearance": "clean",
+      "action_shape": [
+        1,
+        8,
+        7
+      ],
+      "loss": 0.67578125,
+      "metrics": {
+        "loss_value": 0.67578125,
+        "curr_action_l1_loss": 0.61328125,
+        "next_actions_l1_loss": 0.68359375
+      },
+      "auxiliary": null
+    },
+    {
+      "path": "baseline",
+      "appearance": "background",
+      "action_shape": [
+        1,
+        8,
+        7
+      ],
+      "loss": 0.6875,
+      "metrics": {
+        "loss_value": 0.6875,
+        "curr_action_l1_loss": 0.625,
+        "next_actions_l1_loss": 0.6953125
+      },
+      "auxiliary": null
+    },
+    {
+      "path": "RLA",
+      "appearance": "clean",
+      "action_shape": [
+        1,
+        8,
+        7
+      ],
+      "loss": 0.82421875,
+      "metrics": {
+        "loss_value": 0.82421875,
+        "curr_action_l1_loss": 0.58984375,
+        "next_actions_l1_loss": 0.671875
+      },
+      "auxiliary": {
+        "rla_loss": 0.671875,
+        "rla_lambda": 0.24609375,
+        "rla_share": 0.20029574861367838,
+        "action_l1": 0.66015625
+      }
+    },
+    {
+      "path": "RLA",
+      "appearance": "background",
+      "action_shape": [
+        1,
+        8,
+        7
+      ],
+      "loss": 0.8125,
+      "metrics": {
+        "loss_value": 0.8125,
+        "curr_action_l1_loss": 0.57421875,
+        "next_actions_l1_loss": 0.65625
+      },
+      "auxiliary": {
+        "rla_loss": 0.6640625,
+        "rla_lambda": 0.244140625,
+        "rla_share": 0.2000150599574556,
+        "action_l1": 0.6484375
+      }
+    }
+  ],
+  "isolation": {
+    "numeric_action_labels_and_z_changed": true,
+    "action_output_max_difference": 0.0,
+    "future_RGB_in_batch": false,
+    "scope": "supervised target isolation, not a closed-loop evaluation"
+  },
+  "initialization": "official Prismatic multimodal checkpoint plus pretrained vision; fresh action/proprio/LoRA",
+  "missing_source_policy_queries": [
+    "action_queries.weight"
+  ],
+  "strict_assembled_load": true,
+  "peak_GPU_allocated": 4038890496,
+  "peak_GPU_reserved": 5079302144,
+  "ECC_increment": false,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "rollouts": 0
+}

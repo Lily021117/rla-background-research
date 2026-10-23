@@ -1,0 +1,106 @@
+{
+  "pretrained_components": [
+    {
+      "repo": "models--timm--vit_large_patch14_reg4_dinov2.lvd142m",
+      "revision": "f3c408e77602bb412aa65fb03dfa0d5f95cb3832",
+      "files": [
+        {
+          "file": "model.safetensors",
+          "bytes": 1217515128,
+          "SHA256": "c893d72294d4c327e631ff92f428dbc14c4f93cb5581b6c5f9d89bb5d17def27"
+        }
+      ]
+    },
+    {
+      "repo": "models--timm--ViT-SO400M-14-SigLIP",
+      "revision": "9179d15177ece40964c50492136eda2f3e0c9f61",
+      "files": [
+        {
+          "file": "open_clip_model.safetensors",
+          "bytes": 3509517656,
+          "SHA256": "0a04a48b797e187a568335ab67e57a8958c32cee5a707a3feb6d4c97149dcd9c"
+        }
+      ]
+    },
+    {
+      "repo": "models--Qwen--Qwen2.5-0.5B",
+      "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 681,
+          "SHA256": "479dcf0c5286339e41ad3992cd08ae88a467c4187587936248e2b7c96283484b"
+        },
+        {
+          "file": "merges.txt",
+          "bytes": 1671839,
+          "SHA256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+        },
+        {
+          "file": "model.safetensors",
+          "bytes": 988097824,
+          "SHA256": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 7031645,
+          "SHA256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 7228,
+          "SHA256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9"
+        },
+        {
+          "file": "vocab.json",
+          "bytes": 2776833,
+          "SHA256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ]
+    }
+  ],
+  "processor_files": [
+    {
+      "file": "added_tokens.json",
+      "SHA256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "file": "config.json",
+      "SHA256": "0662cde30dc0a629c40367608b018a2d93b976dd3020b55cac87a16414334376"
+    },
+    {
+      "file": "generation_config.json",
+      "SHA256": "22b1e8f1af84f4ceeefb4c886c7fbc1a5e69edac61472e66aca45f10e881ac7e"
+    },
+    {
+      "file": "merges.txt",
+      "SHA256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "file": "preprocessor_config.json",
+      "SHA256": "17015fefc1243e5a0262d72bea24f4e36ab7ef8bbbfc17fd503343a23e49c8a3"
+    },
+    {
+      "file": "processor_config.json",
+      "SHA256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "SHA256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9"
+    },
+    {
+      "file": "tokenizer.json",
+      "SHA256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "SHA256": "17095d1043538febf025746cc081d4d00fd269cc25f285491cf676214d565e31"
+    },
+    {
+      "file": "vocab.json",
+      "SHA256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "processor_source_commit": "23fa0c9c159e2aa04341cdd3e924f44061311060",
+  "note": "Official loader used append-only existing data-disk HF cache due inherited HF_HUB_CACHE/TRANSFORMERS_CACHE; no system cache or historical model replacement. HF_HOME/TORCH/XDG/TMP were task-specific."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_OFFICIAL_LOAD",
+  "repo": "Stanford-ILIAD/prism-qwen25-extra-dinosiglip-224px-0_5b",
+  "revision": "5cfd2cc6da00c06e0be7abf35d43ec792d8e9498",
+  "checkpoint_SHA256": "d86525b8d21865b2e83d4a403ee9d1b641579bb41259111d7e3cc7f7ed46564a",
+  "scope": "Prismatic llm/projector checkpoint plus officially specified frozen DINOv2+SigLIP pretrained vision; not Spatial-Pro",
+  "parameters": 1252496448,
+  "new_optimizer_updates": 0
+}

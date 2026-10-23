@@ -1,0 +1,78 @@
+{
+  "status": "PASS_NUMERICAL_INTERFACE_ONLY",
+  "reconstruction": [
+    {
+      "appearance": "clean",
+      "input_shape": [
+        1,
+        2,
+        2,
+        3,
+        224,
+        224
+      ],
+      "latent_shape": [
+        1,
+        16,
+        64
+      ],
+      "decoder_shape": [
+        1,
+        2,
+        196,
+        1024
+      ],
+      "repeat_max": 0.0,
+      "latent_norm": 88.62982177734375,
+      "latent_variance": 7.622034549713135,
+      "per_camera_L1": [
+        0.04712611809372902,
+        0.07321605086326599
+      ],
+      "per_camera_MSE": [
+        0.004215930588543415,
+        0.00870590377599001
+      ]
+    },
+    {
+      "appearance": "background",
+      "input_shape": [
+        1,
+        2,
+        2,
+        3,
+        224,
+        224
+      ],
+      "latent_shape": [
+        1,
+        16,
+        64
+      ],
+      "decoder_shape": [
+        1,
+        2,
+        196,
+        1024
+      ],
+      "repeat_max": 0.0,
+      "latent_norm": 86.50907897949219,
+      "latent_variance": 7.272754192352295,
+      "per_camera_L1": [
+        0.09168445318937302,
+        0.12384577840566635
+      ],
+      "per_camera_MSE": [
+        0.014920813031494617,
+        0.02687406912446022
+      ]
+    }
+  ],
+  "step": 90000,
+  "not_paper_step40000": true,
+  "peak_GPU_allocated": 2173961216,
+  "peak_GPU_reserved": 2382364672,
+  "ECC_increment": false,
+  "optimizer_updates": 0,
+  "backward": 0
+}
