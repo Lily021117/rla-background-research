@@ -31,7 +31,7 @@ before=ecc();(o/'ecc_before.txt').write_text(before)
 cu=ctypes.CDLL('libcuda.so.1');cu.cuInit(0);dev=ctypes.c_int();assert cu.cuDeviceGet(ctypes.byref(dev),0)==0
 buf=(ctypes.c_ubyte*16)();assert cu.cuDeviceGetUuid_v2(ctypes.byref(buf),dev)==0
 assert str(uuid.UUID(bytes=bytes(buf)))==os.environ['RLA_GPU_UUID'].removeprefix('GPU-')
-assert torch.cuda.mem_get_info()[0]>=26*1024**3
+assert torch.cuda.mem_get_info()[0]>=float(os.environ.get('RLA_MIN_FREE_GIB','26'))*1024**3
 torch.cuda.set_per_process_memory_fraction(.49)
 torch.backends.cuda.enable_flash_sdp(False);torch.backends.cuda.enable_mem_efficient_sdp(False);torch.backends.cuda.enable_math_sdp(True)
 seed=20261023;random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed)

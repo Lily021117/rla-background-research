@@ -1,0 +1,613 @@
+{
+  "status": "FROZEN_STATIC_CHECKED",
+  "new_seeds": [
+    2026102300,
+    2026102301,
+    2026102302,
+    2026102303,
+    2026102304,
+    2026102305,
+    2026102306,
+    2026102307,
+    2026102308,
+    2026102309,
+    2026102310,
+    2026102311,
+    2026102312,
+    2026102313,
+    2026102314,
+    2026102315,
+    2026102316,
+    2026102317,
+    2026102318,
+    2026102319
+  ],
+  "conditions": [
+    "clean",
+    "seen_background",
+    "unseen_warm_teal"
+  ],
+  "historical_regression_episodes": [
+    "derived_cookie_demo_15_v4",
+    "derived_cookie_demo_21_v4",
+    "derived_cookie_demo_31_v4",
+    "sealed_185_demo_34",
+    "derived_cookie_demo_46_v4"
+  ],
+  "state_checks": [
+    {
+      "seed": 2026102300,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.155120642006803,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 31.018109587585034,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102301,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.828666427508505,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.52863919005102,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102302,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.647925967261905,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.300608524659864,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102303,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.738653273809526,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.4923170440051,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102304,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.053770727040817,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.75617160926871,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102305,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.838907047193878,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.58369207057823,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102306,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.22040417729592,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 31.120744977678573,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102307,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.829443691539115,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.54876169217687,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102308,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.79583200467687,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.498266103316325,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102309,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.700165417729593,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.36142113095238,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102310,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.840165949192176,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.528283774447278,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102311,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.549944196428573,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.3516388977466,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102312,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.094889322916668,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.89973294005102,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102313,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.034143149447278,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.691492612670068,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102314,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 26.08166586947279,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.871057211947278,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102315,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.891584954294217,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.622568558673468,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102316,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.669280798256803,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.38534691220238,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102317,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.69590375212585,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.284774261267007,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102318,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.6968537414966,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.47356637967687,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    },
+    {
+      "seed": 2026102319,
+      "status": "PASS_STATIC_NOT_POLICY",
+      "robot_pose_fixed": true,
+      "conditions": [
+        {
+          "condition": "clean",
+          "RGB_MAE_vs_clean": 0.0,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "seen_background",
+          "RGB_MAE_vs_clean": 25.52967222045068,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        },
+        {
+          "condition": "unseen_warm_teal",
+          "RGB_MAE_vs_clean": 30.178674399447278,
+          "geometry_match": true,
+          "segmentation_match": true,
+          "depth_match": true
+        }
+      ]
+    }
+  ],
+  "unseen_RGB": {
+    "tex-table": [
+      178,
+      132,
+      82
+    ],
+    "tex-wall": [
+      84,
+      127,
+      132
+    ]
+  },
+  "independence": "new reset seeds, no exact equality to allowed stored states if checked; not proof of independent distribution or no sealed-state overlap",
+  "policy_rollouts": 0
+}

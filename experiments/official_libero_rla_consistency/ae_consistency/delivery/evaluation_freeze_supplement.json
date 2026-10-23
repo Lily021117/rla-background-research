@@ -1,0 +1,29 @@
+{
+  "frozen_before_policy_scoring": true,
+  "models": ["B20_final600", "C_future_final600", "D_future_final600"],
+  "primary_new_development": {
+    "states": 20,
+    "conditions": ["clean", "seen_background", "unseen_warm_teal"],
+    "trials": 180,
+    "state_source": "evaluation_protocol.json fixed20 reset seeds"
+  },
+  "historical_regression": {
+    "states": 5,
+    "conditions": ["clean", "seen_background"],
+    "trials": 30,
+    "simulator_seed": 0,
+    "state_source": "frozen source episode state0 from existing5 development; exact identities in evaluation_protocol.json"
+  },
+  "planned_total_trials": 210,
+  "group_reporting": "new180 and historical30 reported separately, not pooled as independent test",
+  "order": "within each state: clean then seen then unseen where applicable; B20,C,D within appearance",
+  "max_control_steps": 220,
+  "execution_chunk": 8,
+  "success": "env.check_success()",
+  "postprocessing": "unchanged official process_action(openvla)",
+  "paired_reset_tolerance": 1e-8,
+  "invalid_trial_rule": "stop, retain evidence, no silent retry or state replacement",
+  "checkpoint_selection": "predeclared final600 only",
+  "scores_used_to_choose_states_or_background": false,
+  "policy_rollouts_executed_this_run": 0
+}

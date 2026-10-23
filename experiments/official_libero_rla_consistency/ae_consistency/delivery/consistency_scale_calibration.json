@@ -1,0 +1,32 @@
+{
+  "episode": "derived_cookie_demo_6_v4",
+  "fixed_samples": [
+    [
+      0,
+      1
+    ],
+    [
+      37,
+      2
+    ],
+    [
+      55,
+      4
+    ],
+    [
+      102,
+      8
+    ]
+  ],
+  "reconstruction": 0.10133526474237442,
+  "raw_consistency": 1.1101830005645752,
+  "lambda_cons": 0.009127798272072366,
+  "weighted_consistency": 0.010133526474237443,
+  "reconstruction_gradient_norm": 0.28078623700419625,
+  "raw_consistency_gradient_norm": 7.680963099636951,
+  "weighted_consistency_gradient_norm": 0.07011028170871776,
+  "weighted_gradient_ratio": 0.2496927287346708,
+  "optimizer_updates": 0,
+  "seconds": 1.5836255550384521,
+  "peak_allocated": 7108572672
+}

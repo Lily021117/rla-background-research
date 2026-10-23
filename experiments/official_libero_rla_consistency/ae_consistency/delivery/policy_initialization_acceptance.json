@@ -1,0 +1,85 @@
+{
+  "status": "PASS_ZERO_UPDATES",
+  "base_step0": "${LOCAL_PATH}",
+  "common_parameters_exact": true,
+  "new_parameters_common_seed": 20261024,
+  "new_head_creation_preserves_baseline_RNG": true,
+  "shared_head_keys_copied": 536,
+  "official_gate_shape_expansions": [
+    "model.mlp_resnet_blocks.0.gating_factor",
+    "model.mlp_resnet_blocks.1.gating_factor",
+    "model.mlp_resnet_blocks.2.gating_factor",
+    "model.mlp_resnet_blocks.3.gating_factor",
+    "model.mlp_resnet_blocks.4.gating_factor",
+    "model.mlp_resnet_blocks.5.gating_factor",
+    "model.mlp_resnet_blocks.6.gating_factor",
+    "model.mlp_resnet_blocks.7.gating_factor",
+    "model.mlp_resnet_blocks.8.gating_factor",
+    "model.mlp_resnet_blocks.9.gating_factor",
+    "model.mlp_resnet_blocks.10.gating_factor",
+    "model.mlp_resnet_blocks.11.gating_factor",
+    "model.mlp_resnet_blocks.12.gating_factor",
+    "model.mlp_resnet_blocks.13.gating_factor",
+    "model.mlp_resnet_blocks.14.gating_factor",
+    "model.mlp_resnet_blocks.15.gating_factor",
+    "model.mlp_resnet_blocks.16.gating_factor",
+    "model.mlp_resnet_blocks.17.gating_factor",
+    "model.mlp_resnet_blocks.18.gating_factor",
+    "model.mlp_resnet_blocks.19.gating_factor",
+    "model.mlp_resnet_blocks.20.gating_factor",
+    "model.mlp_resnet_blocks.21.gating_factor",
+    "model.mlp_resnet_blocks.22.gating_factor",
+    "model.mlp_resnet_blocks.23.gating_factor"
+  ],
+  "C_D_outputs_equal": true,
+  "action_only_gradient_relative_difference": 0.0,
+  "auxiliary_gradient_reaches_shared_backbone": true,
+  "target_isolation_action_difference": 0.0,
+  "new_RLA_structure_not_claimed_equal_to_B_baseline_outputs": true,
+  "parameter_hash_before_after": "b3bd3a5c612dcb48b713be6e867d9b1a5afcdbc4175a0f0ebead465452083af3",
+  "strict_save_reload": true,
+  "lambda_aux": 0.22408536585365854,
+  "lambda_auto_formula": "0.25*detached(actionL1)/clamp(detached(auxL1),1e-6), normally every update",
+  "choice": "once calibrated on C fixed training batch; exact fixed lambda and common C-based target normalization for C/D",
+  "target_statistics": {
+    "C": {
+      "norm": 68.82850646972656,
+      "mean": -0.027316641062498093,
+      "variance": 0.2884170413017273
+    },
+    "D": {
+      "norm": 61.08803939819336,
+      "mean": 0.027316734194755554,
+      "variance": 0.22703544795513153
+    }
+  },
+  "results": [
+    {
+      "arm": "C",
+      "action_l1": 0.57421875,
+      "auxiliary_l1": 0.640625,
+      "lambda_aux": 0.22408536585365854,
+      "weighted_auxiliary": 0.1435546875,
+      "auxiliary_gradient_norms": {
+        "vla": 0.4016081318478111,
+        "proprio": 6.022695755674832e-05,
+        "head": 1.1712257487231168
+      }
+    },
+    {
+      "arm": "D",
+      "action_l1": 0.57421875,
+      "auxiliary_l1": 0.6171875,
+      "lambda_aux": 0.22408536585365854,
+      "weighted_auxiliary": 0.13830268673780488,
+      "auxiliary_gradient_norms": {
+        "vla": 0.5616935709145928,
+        "proprio": 7.595462072494254e-05,
+        "head": 1.5025955382248266
+      }
+    }
+  ],
+  "policy_optimizer_updates": 0,
+  "policy_rollouts": 0,
+  "peak_allocated": 15323938304
+}

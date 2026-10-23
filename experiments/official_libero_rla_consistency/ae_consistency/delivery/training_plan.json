@@ -1,0 +1,68 @@
+{
+  "frozen": true,
+  "seed": 20261023,
+  "updates": 600,
+  "microbatch_physical": 1,
+  "accumulation": 8,
+  "effective_physical_batch": 8,
+  "effective_appearance_batch": 16,
+  "physical_exposures": 4800,
+  "appearance_exposures": 9600,
+  "train_window_equivalent_epochs": 2.5396825396825395,
+  "all_horizon_pool_epochs": 0.31746031746031744,
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "horizon_sampling": "seeded permutation of (episode,valid_anchor,h1..8); identical C/D sequence",
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.0,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "master_parameters": "official inflat_all utility, FP32 master over official mixed-FP16 model",
+  "loss_scale": 256.0,
+  "loss_scale_growth": 0.0,
+  "loss_scale_deviation": "fixed conservative2^8 rather than official initial2^20 dynamic growth; train-only finite-gradient calibration; identical arms",
+  "lambda_cons": 0.009127798272072366,
+  "lambda_selection": "min(0.01,0.1*train_batch_reconstruction/train_batch_raw_consistency), once, no development results",
+  "reconstruction": "0.5*((L1+MSE)(clean_future_pred,clean_future_DINO)+(L1+MSE)(background_future_pred,background_future_DINO)); mean across B/views/patches/channels",
+  "consistency": "mean((z_clean-z_background)^2) over B/16queries/64dims",
+  "freeze": [
+    "DINO",
+    "image_decoder_not_loaded"
+  ],
+  "unfreeze": [
+    "all official encoder",
+    "all matching decoder"
+  ],
+  "checkpoint_steps": [
+    0,
+    300,
+    600
+  ],
+  "validation_steps": [
+    0,
+    600
+  ],
+  "final_checkpoint": 600,
+  "initial_step": 90000,
+  "reference": "frozen step90000, not paperstep40000",
+  "budget_reason": "same4800 physical-transition exposure scale as B20 pilot; resource-bounded600x8 vs official128 batch/1M max; not convergence claim",
+  "horizon_deviation": "paired pilot h1..8 instead of official training h2..64; matches policy target support",
+  "stop_conditions": [
+    "nonfinite gradients/loss",
+    "OOM",
+    "ECC increment",
+    "identity mismatch"
+  ]
+}

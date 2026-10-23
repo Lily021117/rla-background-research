@@ -1,0 +1,11 @@
+{
+  "source_checkpoint_step": 300,
+  "prior_logged_successful_updates": 380,
+  "replayed_successful_updates": 80,
+  "checked_steps": [301, 380],
+  "comparison": "all80 reconstruction, consistency, weighted consistency, total, encoder and decoder gradient norms",
+  "max_absolute_difference": 0,
+  "same_master_optimizer_RNG_sampling_restored": true,
+  "final_effective_trajectory_budget": 600,
+  "expected_total_successful_update_computation_D_including_replay": 680
+}

@@ -1,0 +1,35 @@
+{
+  "arm": "C",
+  "shared_protocol": "shared_training_protocol.json",
+  "updates_next_turn_only": 600,
+  "init": "${RUN_DIR}/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+  "target_roots": {
+    "clean": "${RUN_DIR}/sidecars/C/clean",
+    "background": "${RUN_DIR}/sidecars/C/background"
+  },
+  "lambda_aux": 0.22408536585365854,
+  "action_weight": 1.0,
+  "same_B20_data": true,
+  "seed": 20261023,
+  "lr": 0.0002,
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "batch": 8,
+  "accumulation": 2,
+  "backend": "Math SDPA",
+  "STOP": "inference-aligned",
+  "norm": "common20train action/proprio; common AE-C training-only RLA center",
+  "checkpoint_steps": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "RLA_shape": [
+    8,
+    16,
+    64
+  ],
+  "stage": "joint action+auxiliary from commonstep0; no RLA-only stage1, explicit deviation to match B20 budget",
+  "optimizer_updates_this_run": 0
+}

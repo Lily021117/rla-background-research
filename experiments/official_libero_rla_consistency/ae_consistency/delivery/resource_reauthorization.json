@@ -1,0 +1,14 @@
+{
+  "GPU_0_allowed_free_memory": "approximately24.6 GiB, explicitly authorized after initial26 GiB block; remained unavailable at3.8 GiB",
+  "GPU_1_and_GPU_3_allowed_minimum_free_GiB": 15,
+  "authorization": "user explicitly reauthorized GPU1/GPU3 after GPU1 CUDA launch failure",
+  "hardware_repair_not_claimed": true,
+  "selected_UUID": "GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419",
+  "selected_device_free_MiB_at_recovery_start": 81065,
+  "ECC_baseline": "correctable2, uncorrectable parity1, SRAM SM1",
+  "GPU_3_used": false,
+  "GPU_2_used": false,
+  "other_processes_terminated": false,
+  "driver_or_GPU_reset": false,
+  "on_new_failure": "stop and preserve evidence; no automatic failover"
+}

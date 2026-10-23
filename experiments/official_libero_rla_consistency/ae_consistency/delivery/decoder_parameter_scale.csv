@@ -1,0 +1,10 @@
+model,parameter,norm
+reference,token_proj.weight,11.361008644104004
+reference,token_proj.bias,0.4128420352935791
+reference,out_layer.weight,23.20047950744629
+C,token_proj.weight,11.362162590026855
+C,token_proj.bias,0.4162985384464264
+C,out_layer.weight,23.234254837036133
+D,token_proj.weight,11.515049934387207
+D,token_proj.bias,0.40925195813179016
+D,out_layer.weight,23.232576370239258

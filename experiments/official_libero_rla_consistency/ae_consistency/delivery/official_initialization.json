@@ -1,0 +1,10 @@
+{
+  "config": "${LOCAL_PATH}",
+  "config_sha256": "ef8922585a96aa7070b5c4518a9343cb0e380bb4cdd3a2282c4625829c786892",
+  "encoder": "${LOCAL_PATH}",
+  "encoder_sha256": "a22efe9311f1588675f19c83f5a2af3afb1dd221e59c8170fb64ced60037086c",
+  "decoder": "${LOCAL_PATH}",
+  "decoder_sha256": "916952b1da241492db095d959ce850eed2f77693b380e9f8b9756b1c7612ff1d",
+  "step": 90000,
+  "not_paper_step40000": true
+}

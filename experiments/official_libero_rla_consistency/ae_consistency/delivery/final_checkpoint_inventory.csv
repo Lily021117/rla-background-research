@@ -1,0 +1,6 @@
+model,kind,step,initial_official_step,file,sha256,bytes
+C,encoder,600,90000,${RUN_DIR}/AE_C/encoder_step0600.pt,dffad21ff624260657ca907a41f3ab3caf403fe5a43f37a0c75f7a705b30cc6f,307206356
+C,decoder,600,90000,${RUN_DIR}/AE_C/decoder_step0600.pt,778f95099b5e101b194f2c20136b731a1616cd00371a2ce3468159b0bf2688bd,311409250
+D,encoder,600,90000,${RUN_DIR}/AE_D_recovery_01/encoder_step0600.pt,cb73071e20ea624bc77cb72381fc0e1bf93330a963f301fbf2e54d1c796fa58e,307206356
+D,decoder,600,90000,${RUN_DIR}/AE_D_recovery_01/decoder_step0600.pt,d2cae743b399e76950754cb877f72424262443ddcaed53f5999ebbdc3af2d24d,311409250
+policy_C_D_common,trainable_deltas,0,0,${RUN_DIR}/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt,ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66,645677557

@@ -1,0 +1,15 @@
+{
+  "status": "STOPPED_CUDA_FAILURE",
+  "GPU_UUID": "GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419",
+  "error": "CUDA unspecified launch failure during loss/backward after completed update380",
+  "completed_C_updates": 600,
+  "completed_D_updates": 380,
+  "recoverable_D_step": 300,
+  "unpersisted_successful_updates": 80,
+  "ECC_increment_observed": false,
+  "baseline_and_after": "SRAM correctable2 / uncorrectable parity1 / SM1",
+  "GPU0_free_MiB_at_stop": 25174,
+  "required_free_MiB": 26624,
+  "automatic_GPU_failover": false,
+  "restart_performed": false
+}
