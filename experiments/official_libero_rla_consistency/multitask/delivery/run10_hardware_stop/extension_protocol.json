@@ -1,0 +1,120 @@
+{
+  "frozen_before_any_new_model_scoring": true,
+  "primary": "D-C per task and task-equal average",
+  "secondary": [
+    "C-B",
+    "D-B"
+  ],
+  "historical_task": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_09/report.md",
+  "historical_states_role": "retain prior20 as regression result; no rerun or tuning",
+  "selection_rule": "metadata completeness>=25 nonprotected demos; predeclared context priority drawer then stove then ramekin; no model outcomes",
+  "task_candidates": [
+    {
+      "source": "${PROJECT_ROOT}/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+      "context": "confined_open_drawer_retrieval",
+      "eligible_by_metadata": 42,
+      "total": 50
+    },
+    {
+      "source": "${PROJECT_ROOT}/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5",
+      "context": "historical_cookie_box",
+      "eligible_by_metadata": 43,
+      "total": 50
+    },
+    {
+      "source": "${PROJECT_ROOT}/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+      "context": "elevated_ramekin_support",
+      "eligible_by_metadata": 39,
+      "total": 50
+    },
+    {
+      "source": "${PROJECT_ROOT}/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5",
+      "context": "stovetop_fixture_retrieval",
+      "eligible_by_metadata": 35,
+      "total": 50
+    }
+  ],
+  "selected_contexts": [
+    "confined_open_drawer_retrieval",
+    "stovetop_fixture_retrieval"
+  ],
+  "limits": "All available original tasks are bowl pick-and-place; differences are confined retrieval and support context, not new action primitives",
+  "seed": 20261023,
+  "train_demos": 20,
+  "development_demos": 5,
+  "AE_updates": 600,
+  "policy_updates": 600,
+  "lambda_cons": 0.009127798272072366,
+  "lambda_aux": 0.22408536585365854,
+  "AE_initial": "official LIBERO step90000",
+  "policy_initial": "original B20 step0; never trained B20",
+  "normalization": "per-task train-only; shared B/C/D action and proprio; common AE-C train-only RLA normalization for C/D",
+  "AE_plan": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/training_plan.json",
+  "policy_plan": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_09/run_plan.json",
+  "conditions": [
+    "clean",
+    "seen_background",
+    "unseen_background"
+  ],
+  "unseen_palette": [
+    {
+      "id": "warm_teal",
+      "tex-table": [
+        178,
+        132,
+        82
+      ],
+      "tex-wall": [
+        84,
+        127,
+        132
+      ]
+    },
+    {
+      "id": "cool_navy",
+      "tex-table": [
+        87,
+        117,
+        154
+      ],
+      "tex-wall": [
+        143,
+        151,
+        164
+      ]
+    },
+    {
+      "id": "muted_rose",
+      "tex-table": [
+        149,
+        105,
+        117
+      ],
+      "tex-wall": [
+        115,
+        142,
+        121
+      ]
+    }
+  ],
+  "palette_assignment": "state ordinal modulo3; frozen, no policy score selection",
+  "texture_changes_only": [
+    "tex-table",
+    "tex-wall"
+  ],
+  "reflection": 1,
+  "MSAA": 4,
+  "max_control_steps": 220,
+  "chunk_execution": 8,
+  "valid_trials_per_task": 180,
+  "total_new_valid_trials": 360,
+  "invalid_rule": "retain original infrastructure failure and stop for diagnosis; retries only after identified infrastructure repair, same model/state/condition, never task failures",
+  "heldout_read": false,
+  "task_equal_statistics": "three fixed tasks descriptive; state clusters within task, task heterogeneity explicit; no claim across all LIBERO tasks",
+  "future_seeds": [
+    20261023,
+    20261024,
+    20261025
+  ],
+  "future_seed_scope": "retrain both AE and policies with matching seeds; policy-only seed variation is conditional on fixed AE"
+}

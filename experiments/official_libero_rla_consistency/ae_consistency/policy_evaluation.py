@@ -16,20 +16,21 @@ def execute(g):
  root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==180
  basehead=g['head'].cpu();_,_,_=initialize(g);rlahead=g['head'];rlahead.cpu();torch.cuda.empty_cache();model=g['model'];prop=g['prop'];mods=g['mods']
  registry=json.loads((root/'policy_registry.json').read_text());paths={k:Path(v) for k,v in registry.items()}
- for arm in ('C','D'):assert json.loads((paths[arm].parent/'training_acceptance.json').read_text())['successful_updates']==600
+ for arm in paths:
+  if arm!='B20':assert json.loads((paths[arm].parent/'training_acceptance.json').read_text())['successful_updates']==600
  def sha(p):
   h=hashlib.sha256()
   with p.open('rb') as f:
    for x in iter(lambda:f.read(8*1024**2),b''):h.update(x)
   return h.hexdigest()
  hashes={k:sha(p) for k,p in paths.items()};g['save']('checkpoint_inventory.json',{k:dict(path=str(v),sha256=hashes[k],global_step=600) for k,v in paths.items()})
- with (prev.parent/'run_20261023_06/checkpoint_inventory.csv').open() as f:
-  baseline_inventory=list(csv.DictReader(f))
- assert any(r.get('sha256')==hashes['B20'] and 'B20' in r.values() for r in baseline_inventory),'B20 final hash does not match frozen inventory'
+ if 'B20' in paths:
+  with (prev.parent/'run_20261023_06/checkpoint_inventory.csv').open() as f:baseline_inventory=list(csv.DictReader(f))
+  assert any(r.get('sha256')==hashes['B20'] and 'B20' in r.values() for r in baseline_inventory),'B20 final hash does not match frozen inventory'
  checkpoints={k:torch.load(p,map_location='cpu') for k,p in paths.items()}
  for ck in checkpoints.values():assert ck['global_step']==600
  frozen=json.loads((prev/'development_protocol/evaluation_protocol.json').read_text());stats=json.loads(Path(plan['inputs']['action_proprio_statistics']).read_text());model.base_model.model.norm_stats={'derived':stats}
- bddl=Path(get_libero_path('bddl_files'))/'libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl';language='pick up the black bowl on the cookie box and place it on the plate'
+ bddl=Path(get_libero_path('bddl_files'))/'libero_spatial'/protocol.get('bddl','pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl');language=protocol.get('task','pick up the black bowl on the cookie box and place it on the plate')
  def proprio(m,d):return np.r_[d.site_xpos[m.site('gripper0_grip_site').id],Rotation.from_quat(np.roll(d.xquat[m.body('robot0_right_hand').id],-1)).as_rotvec(),[d.qpos[m.joint('gripper0_finger_joint'+str(i)).qposadr[0]] for i in (1,2)]].astype(np.float32)
  def infer(images,p,head):
   prompt=g['QwenPromptBuilder']('openvla');prompt.add_turn('human',f'What action should the robot take to {language}?');prompt.add_turn('gpt','');tokens=g['tokenizer'](prompt.get_prompt(),add_special_tokens=True).input_ids;del tokens[-3:]
@@ -47,7 +48,7 @@ def execute(g):
    for arm in protocol['models']:
     dest=out/f'{seed}_{condition}_{arm}';dest.mkdir(exist_ok=False);env=render=video=None;executed=[];chunks=[];states=[];ee=[];bowl=[];result=dict(model=arm,seed=seed,condition=condition,checkpoint_sha256=hashes[arm],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,video=str(dest/'video.mp4'),trajectory=str(dest/'trajectory.npz'));start=time.time()
     try:
-     basehead.cpu();rlahead.cpu();head=basehead if arm=='B20' else rlahead;head.to('cuda');mods['head']=head
+     basehead.cpu();rlahead.cpu();head=basehead if arm in ('B20','B') else rlahead;head.to('cuda');mods['head']=head
      ck=checkpoints[arm]
      for k,m in mods.items():
       full=m.state_dict();assert set(ck['parameters'][k]).issubset(full);full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True);m.eval().requires_grad_(False)

@@ -1,0 +1,78 @@
+{
+  "status": "PARTIAL_HARDWARE_STOP_NOT_METHOD_RESULT",
+  "datasets": [
+    {
+      "task": "drawer",
+      "train_episodes": 20,
+      "development_episodes": 5,
+      "frames": 3684,
+      "train_chunks": 2786,
+      "development_chunks": 698,
+      "new_reset_development_states": 20,
+      "geometry": "PASS",
+      "sealed_overlap": 0
+    },
+    {
+      "task": "stove",
+      "train_episodes": 20,
+      "development_episodes": 5,
+      "frames": 3458,
+      "train_chunks": 2555,
+      "development_chunks": 703,
+      "new_reset_development_states": 20,
+      "geometry": "PASS",
+      "sealed_overlap": 0
+    }
+  ],
+  "incident": {
+    "status": "STOPPED_NEW_ECC_INCREMENT",
+    "GPU_UUID": "GPU-ddacf049-4261-ed6e-5772-bc75bd71dcf9",
+    "volatile_correctable_before": 8,
+    "volatile_correctable_after": 9,
+    "aggregate_correctable_before": 31,
+    "aggregate_correctable_after": 32,
+    "uncorrectable_aggregate_unchanged": 15,
+    "reason": "Any ECC increment triggers stop, even correctable",
+    "cache_status": "drawer partial unaccepted, stove complete accepted on GPU1 before fault",
+    "AE": [
+      {
+        "task": "stove",
+        "arm": "C",
+        "logged_successful_optimizer_updates": 44,
+        "durable_resume_step": 0,
+        "unpersisted_logged_updates": 44,
+        "possibly_inflight_update_unconfirmed": true,
+        "final600_complete": false,
+        "resume_checkpoint": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C/resume_step0000.pt",
+        "optimizer_scheduler_note": "AdamW and model/master/RNG/sample position saved; no scheduler or AMP scaler in fixed-loss-scale AE recipe",
+        "maximum_logged_seconds": 98.33107686042786
+      },
+      {
+        "task": "stove",
+        "arm": "D",
+        "logged_successful_optimizer_updates": 44,
+        "durable_resume_step": 0,
+        "unpersisted_logged_updates": 44,
+        "possibly_inflight_update_unconfirmed": true,
+        "final600_complete": false,
+        "resume_checkpoint": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D/resume_step0000.pt",
+        "optimizer_scheduler_note": "AdamW and model/master/RNG/sample position saved; no scheduler or AMP scaler in fixed-loss-scale AE recipe",
+        "maximum_logged_seconds": 97.28408098220825
+      }
+    ],
+    "policy_optimizer_updates": 0,
+    "new_policy_rollouts": 0,
+    "other_processes_terminated": false,
+    "device_reset": false,
+    "automatic_GPU_failover": false,
+    "historical_outputs_modified": false
+  },
+  "AE_final_complete": false,
+  "sidecars_generated": false,
+  "policy_updates": 0,
+  "new_closed_loop_trials": 0,
+  "GPU_processes_released": true,
+  "old_results": "Preserved; no historical output writes. Not claiming a new full historical-tree before/after hash census.",
+  "source_base_commit": "e1d56f7eedfe95c89f995bf526c3385eb492cba2",
+  "next_required": "Explicit safe-device recovery and all remaining fixed budgets; do not infer D-C from incomplete training"
+}

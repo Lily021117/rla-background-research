@@ -30,6 +30,8 @@ def load(project):
     return ext,root
 def entries(run):return json.loads((Path(run)/'data_manifest.json').read_text())['episodes']
 def armdir(run,arm):
+    versions=sorted((Path(run)/'model_registry_versions').glob('*.json'))
+    if versions:return Path(json.loads(versions[-1].read_text())[arm])
     registry=Path(run)/'active_models.json'
     return Path(json.loads(registry.read_text())[arm]) if registry.exists() else Path(run)/('AE_'+arm)
 @lru_cache(maxsize=128)

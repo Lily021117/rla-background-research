@@ -39,7 +39,7 @@ if a.mode=='evaluate':
             for name,p in ext.models['decoder'].named_parameters():
                 if 'token_proj' in name or 'out_layer.weight'==name:parameter_scale.append(dict(model=arm,parameter=name,norm=float(p.float().norm())))
             print('REPRESENTATION',arm,'DONE',flush=True);assert counters(before)==counters(ecc())
-    csvout('reconstruction_metrics.csv',rows);csvout('latent_distribution_metrics.csv',distribution);csvout('decoder_ablation_metrics.csv',ablations);csvout('decoder_parameter_scale.csv',parameter_scale);save(a.run/'representation_acceptance.json',dict(status='PASS_DIAGNOSTIC_NOT_METHOD',samples=len(fixed),episodes=5,models=['reference','C','D'],optimizer_updates=0,policy_rollouts=0))
+    csvout('reconstruction_metrics.csv',rows);csvout('latent_distribution_metrics.csv',distribution);csvout('decoder_ablation_metrics.csv',ablations);csvout('decoder_parameter_scale.csv',parameter_scale);save(a.run/'representation_acceptance.json',dict(status='PASS_DIAGNOSTIC_NOT_METHOD',samples=len(fixed),episodes=sum(e['split']=='validation' for e in es),models=['reference','C','D'],optimizer_updates=0,policy_rollouts=0))
 else:
     roots={};provenance=[];checks=[];moments={}
     with torch.inference_mode():

@@ -34,13 +34,14 @@ masters=make_master_params(params);opt=torch.optim.AdamW(masters,lr=plan['lr'],w
 pool=[(e['episode'],t,h) for e in train for t in range(e['valid_chunks']) for h in range(1,9)];rng=np.random.RandomState(plan['seed']);order=[pool[i] for i in rng.permutation(len(pool))[:4800]];save(out/'sampling_order.json',order);byid={e['episode']:e for e in train}
 start_step=0
 if a.resume_from:
-    assert a.arm=='D' and a.output_name
-    ck=torch.load(a.resume_from,map_location='cpu',weights_only=False);start_step=ck['global_step'];assert start_step==300 and ck['plan']==plan and ck['lambda_cons']==lam
+    assert a.output_name
+    ck=torch.load(a.resume_from,map_location='cpu',weights_only=False);start_step=ck['global_step'];assert 0<=start_step<600 and ck['plan']==plan and ck['lambda_cons']==lam
     for k,m in mods.items():m.load_state_dict(torch.load(a.resume_from.parent/f'{k}_step{start_step:04}.pt',map_location='cuda',weights_only=True),strict=True)
     masters[0].data.copy_(ck['master'].cuda());opt.load_state_dict(ck['optimizer']);master_params_to_model_params(params,masters)
     torch.set_rng_state(ck['torch_rng']);torch.cuda.set_rng_state_all(ck['cuda_rng']);np.random.set_state(ck['numpy_rng']);random.setstate(ck['python_rng'])
     assert order==[tuple(x) for x in json.loads((a.resume_from.parent/'sampling_order.json').read_text())]
-    save(out/'recovery_provenance.json',dict(resume=str(a.resume_from),restored_step=start_step,restored_master_and_optimizer_and_rng=True,original_logged_successful_updates=380,replayed_unpersisted_successful_updates=80,remaining_persisted_trajectory_updates=300,final_effective_updates=600,budget_unchanged=True,GPU_UUID=os.environ['RLA_GPU_UUID'],minimum_free_GiB=float(os.environ.get('RLA_MIN_FREE_GIB','26'))));del ck
+    original_rows=list(csv.DictReader((a.resume_from.parent/'training_metrics.csv').open()));original_max=max([int(x['step']) for x in original_rows]+[start_step])
+    save(out/'recovery_provenance.json',dict(resume=str(a.resume_from),restored_step=start_step,restored_master_and_optimizer_and_rng=True,original_logged_successful_updates=original_max,replayed_unpersisted_successful_updates=original_max-start_step,remaining_persisted_trajectory_updates=600-start_step,final_effective_updates=600,budget_unchanged=True,GPU_UUID=os.environ['RLA_GPU_UUID'],minimum_free_GiB=float(os.environ.get('RLA_MIN_FREE_GIB','26'))));del ck
 def snapshot(step):
     for k,m in mods.items():torch.save(m.state_dict(),out/f'{k}_step{step:04}.pt')
     torch.save(dict(master=masters[0].detach().cpu(),optimizer=opt.state_dict(),global_step=step,torch_rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state_all(),numpy_rng=np.random.get_state(),python_rng=random.getstate(),plan=plan,lambda_cons=lam,next_sample=step*8),out/f'resume_step{step:04}.pt')
@@ -58,4 +59,9 @@ for step in range(start_step+1,601):
 f.close();assert counters(before)==counters(ecc())
 for k,m in mods.items():m.load_state_dict(torch.load(out/f'{k}_step0600.pt',map_location='cuda',weights_only=True),strict=True)
 save(out/'acceptance.json',dict(status='PASS_TRAINING_NOT_METHOD',successful_updates=600,lambda_cons=lam,strict_matching_encoder_decoder_reload=True,ECC_increment=False,peak_allocated=torch.cuda.max_memory_allocated(),seconds=time.time()-start))
-if a.resume_from:save(a.run/'active_models.json',dict(C=str(a.run/'AE_C'),D=str(out)))
+if a.resume_from:
+    active={k:str(armdir(a.run,k)) for k in ('C','D')}
+    active[a.arm]=str(out)
+    # Append a new selection version; existing recovery registries remain intact.
+    folder=a.run/'model_registry_versions';folder.mkdir(exist_ok=True)
+    save(folder/f'{len(list(folder.glob("*.json"))):04}.json',active)

@@ -1,0 +1,8 @@
+{
+  "accepted": 25,
+  "train": 20,
+  "development": 5,
+  "failures": [],
+  "criterion": "unchanged strict full sequence: every view/frame intervention nonzero, exact geometry/depth, same-state FK, source and camera projections verified",
+  "model_updates": 0
+}

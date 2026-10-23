@@ -1,0 +1,6 @@
+{
+  "train_development_overlap": 0,
+  "protected_overlap": 0,
+  "appearances_follow_episode": true,
+  "protected_contents_read": false
+}

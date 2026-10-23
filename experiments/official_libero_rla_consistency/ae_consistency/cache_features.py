@@ -21,4 +21,4 @@ with torch.inference_mode():
             inventory.append(dict(episode=e['episode'],split=e['split'],appearance=c,frames=e['frames'],shape=list(tokens.shape),dtype=str(tokens.dtype),file=str(path),sha256=sha(path),source_root=str(root)))
             del tokens,rgb
         assert counters(before)==counters(ecc());print('CACHE',e['episode'],len(inventory),time.time()-start,flush=True)
-save(a.run/'feature_manifest.json',inventory);save(a.run/'feature_acceptance.json',dict(status='PASS',episodes=25,appearance_sequences=50,RGB_images=sum(e['frames']*4 for e in manifest['episodes']),ECC_increment=False,peak_allocated=torch.cuda.max_memory_allocated(),seconds=time.time()-start))
+save(a.run/'feature_manifest.json',inventory);save(a.run/'feature_acceptance.json',dict(status='PASS',episodes=len(manifest['episodes']),appearance_sequences=len(inventory),RGB_images=sum(e['frames']*4 for e in manifest['episodes']),ECC_increment=False,peak_allocated=torch.cuda.max_memory_allocated(),seconds=time.time()-start))
