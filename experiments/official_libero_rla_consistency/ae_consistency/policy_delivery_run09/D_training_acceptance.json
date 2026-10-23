@@ -1,0 +1,10 @@
+{
+  "status": "PASS_TRAINING_NOT_METHOD",
+  "successful_updates": 600,
+  "strict_reload": true,
+  "seconds": 2085.929224252701,
+  "peak_allocated": 20405604352,
+  "physical_exposures": 4800,
+  "appearance_exposures": 9600,
+  "ECC_increment": false
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS_RECOVERY_WITH_REPLAY_COST",
+  "restored_components": [
+    "matching encoder and decoder",
+    "FP32 master",
+    "AdamW optimizer moments and step",
+    "CPU CUDA Python NumPy RNG",
+    "sampling order and offset",
+    "effective update counter"
+  ],
+  "scheduler": "not used: fixed1e-4 throughout AE training",
+  "AMP_scaler": "no dynamic scaler object: fixed multiplier256 restored from unchanged plan",
+  "C_effective_updates": 600,
+  "C_computed_successes": 600,
+  "C_recorded_seconds": 661.171314239502,
+  "D_effective_updates": 600,
+  "D_computed_successes": 680,
+  "D_original_training_seconds": 303.2942831516266,
+  "D_recovery_seconds": 310.3101704120636,
+  "D_sum_recorded_training_seconds": 613.6044535636902,
+  "replay": {
+    "source_checkpoint_step": 300,
+    "prior_logged_successful_updates": 380,
+    "replayed_successful_updates": 80,
+    "checked_steps": [
+      301,
+      380
+    ],
+    "comparison": "all80 reconstruction, consistency, weighted consistency, total, encoder and decoder gradient norms",
+    "max_absolute_difference": 0,
+    "same_master_optimizer_RNG_sampling_restored": true,
+    "final_effective_trajectory_budget": 600,
+    "expected_total_successful_update_computation_D_including_replay": 680
+  },
+  "limitation": "recorded loop and acceptance timers exclude some process initialization, fault teardown and queue time; not full end-to-end wall time",
+  "sealed_read": false
+}

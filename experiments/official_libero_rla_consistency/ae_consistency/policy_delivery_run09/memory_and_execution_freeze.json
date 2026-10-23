@@ -1,0 +1,17 @@
+{
+ "frozen_before_formal_updates": true,
+ "accepted_preflight": "preflight5/isolated_smoke/preflight_acceptance.json",
+ "microbatch": 8,
+ "accumulation": 2,
+ "effective_appearance_batch": 16,
+ "C_D_same_optimization": true,
+ "GPU_UUID": "${GPU_UUID}",
+ "startup_threshold_GiB": 24.5,
+ "threshold_basis": "previous explicit user authorization at approximately24.6GiB; observed25174MiB=24.584GiB",
+ "process_memory_fraction": 0.28,
+ "memory_optimization": "non-reentrant activation checkpointing of Qwen, vision blocks and official RLA head blocks, preserve_rng_state=True",
+ "B20_comparability": "same microbatch8, accumulation2, BF16, MathSDPA, optimizer and exposure order. B20 did not use activation checkpointing; recomputation can introduce minor floating-point differences. Official RLA structure and extra stochastic queries differ from B20 by design.",
+ "preflight_optimizer_updates": 0,
+ "training_budget_per_arm": 600,
+ "no_checkpoint_or_hyperparameter_selection_from_development": true
+}

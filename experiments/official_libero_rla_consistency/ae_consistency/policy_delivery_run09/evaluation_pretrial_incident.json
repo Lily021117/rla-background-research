@@ -1,0 +1,10 @@
+{
+ "failure": "pretrial assertion compared NPY container SHA256 with frozen state array-content SHA256",
+ "evidence": "prepare_development.py records sha(state.tobytes()), not sha(file_bytes)",
+ "fix": "compare SHA256 of loaded array contents using frozen protocol definition",
+ "frozen_state_or_protocol_changed": false,
+ "policy_or_controller_changed": false,
+ "trials_started_before_failure": 0,
+ "retry": "new evaluation_retry1 directory and closed_loop_validated outputs; original log and empty closed_loop retained",
+ "not_an_invalid_policy_rollout": true
+}

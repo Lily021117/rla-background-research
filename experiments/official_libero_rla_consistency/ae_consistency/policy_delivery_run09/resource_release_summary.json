@@ -1,0 +1,20 @@
+{
+ "GPU_workers_exited": true,
+ "ECC_increment": false,
+ "historical_ECC_not_cleared": true,
+ "other_processes_not_terminated": true,
+ "training_parallel_same_GPU": true,
+ "training_peak_allocated_bytes_per_arm": 20405604352,
+ "evaluation_peak_allocated_bytes": 3999155712,
+ "trial_recorded_seconds_sum": 2433.9619851112366,
+ "C_effective_updates": 600,
+ "C_computed_successful_updates": 601,
+ "D_effective_updates": 600,
+ "D_computed_successful_updates": 600,
+ "failed_policy_forward_attempts": 1,
+ "pretrial_evaluation_failure": 1,
+ "valid_rollouts": 180,
+ "invalid_rollouts": 0,
+ "AE_updates_this_run": 0,
+ "sealed_test_read": false
+}

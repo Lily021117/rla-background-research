@@ -1,0 +1,74 @@
+{
+  "bootstrap_samples": 20000,
+  "seed": 20261023,
+  "resampling_unit": "physical state across all3 models/all3 conditions",
+  "interactions": [
+    {
+      "comparison": "D-C",
+      "background": "seen_background",
+      "interaction": 0.05,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.15
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    },
+    {
+      "comparison": "D-C",
+      "background": "unseen_warm_teal",
+      "interaction": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    },
+    {
+      "comparison": "C-B20",
+      "background": "seen_background",
+      "interaction": 0.05,
+      "state_cluster_bootstrap95": [
+        -0.15,
+        0.25
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    },
+    {
+      "comparison": "C-B20",
+      "background": "unseen_warm_teal",
+      "interaction": 0.1,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.25
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    },
+    {
+      "comparison": "D-B20",
+      "background": "seen_background",
+      "interaction": 0.1,
+      "state_cluster_bootstrap95": [
+        -0.1,
+        0.3
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    },
+    {
+      "comparison": "D-B20",
+      "background": "unseen_warm_teal",
+      "interaction": 0.1,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.25
+      ],
+      "definition": "(higher_background-higher_clean)-(lower_background-lower_clean)",
+      "positive_interpretation": "smaller background drop only when interpreted with absolute Clean/Background SR"
+    }
+  ],
+  "ceiling_caution": "bootstrap can degenerate atall-success; Wilson intervals also provided for absolute SR"
+}

@@ -1,0 +1,14 @@
+model,condition,stage_proxy,count
+B20,clean,near_target_grasp_or_contact_failure,1
+B20,clean,success,19
+B20,seen_background,near_target_grasp_or_contact_failure,3
+B20,seen_background,success,17
+B20,unseen_warm_teal,near_target_grasp_or_contact_failure,3
+B20,unseen_warm_teal,success,17
+C,clean,success,20
+C,seen_background,near_target_grasp_or_contact_failure,1
+C,seen_background,success,19
+C,unseen_warm_teal,success,20
+D,clean,success,20
+D,seen_background,success,20
+D,unseen_warm_teal,success,20

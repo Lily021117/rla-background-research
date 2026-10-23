@@ -1,0 +1,24 @@
+{
+  "status": "PASS_PROCESS_NOT_METHOD",
+  "C_effective_updates": 600,
+  "C_computed_successes": 601,
+  "D_effective_updates": 600,
+  "D_computed_successes": 600,
+  "preflight_optimizer_updates": 0,
+  "valid_rollouts": 180,
+  "invalid_rollouts": 0,
+  "physical_development_states": 20,
+  "AE_updates_this_run": 0,
+  "sealed_read": false,
+  "protected_hashes_unchanged": {
+    "${LOCAL_PATH}": true,
+    "${LOCAL_PATH}": true,
+    "${LOCAL_PATH}": true,
+    "${LOCAL_PATH}": true,
+    "${LOCAL_PATH}": true,
+    "${LOCAL_PATH}": true
+  },
+  "common_C_D_initial_parameters_and_RNG": true,
+  "final600_only": true,
+  "video_trajectory_indices_complete": true
+}

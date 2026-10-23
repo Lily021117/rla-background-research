@@ -1,0 +1,355 @@
+{
+  "status": "EXPLORATORY_DEVELOPMENT",
+  "physical_states": 20,
+  "valid_trials": 180,
+  "invalid_trials": 0,
+  "summary": [
+    {
+      "model": "B20",
+      "condition": "clean",
+      "successes": 19,
+      "trials": 20,
+      "success_rate": 0.95,
+      "Wilson95": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "state_cluster_bootstrap95": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "model": "C",
+      "condition": "clean",
+      "successes": 20,
+      "trials": 20,
+      "success_rate": 1.0,
+      "Wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "state_cluster_bootstrap95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "D",
+      "condition": "clean",
+      "successes": 20,
+      "trials": 20,
+      "success_rate": 1.0,
+      "Wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "state_cluster_bootstrap95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "B20",
+      "condition": "seen_background",
+      "successes": 17,
+      "trials": 20,
+      "success_rate": 0.85,
+      "Wilson95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ],
+      "state_cluster_bootstrap95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "model": "C",
+      "condition": "seen_background",
+      "successes": 19,
+      "trials": 20,
+      "success_rate": 0.95,
+      "Wilson95": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "state_cluster_bootstrap95": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "model": "D",
+      "condition": "seen_background",
+      "successes": 20,
+      "trials": 20,
+      "success_rate": 1.0,
+      "Wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "state_cluster_bootstrap95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "B20",
+      "condition": "unseen_warm_teal",
+      "successes": 17,
+      "trials": 20,
+      "success_rate": 0.85,
+      "Wilson95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ],
+      "state_cluster_bootstrap95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "model": "C",
+      "condition": "unseen_warm_teal",
+      "successes": 20,
+      "trials": 20,
+      "success_rate": 1.0,
+      "Wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "state_cluster_bootstrap95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "model": "D",
+      "condition": "unseen_warm_teal",
+      "successes": 20,
+      "trials": 20,
+      "success_rate": 1.0,
+      "Wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "state_cluster_bootstrap95": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "C-B20",
+      "condition": "clean",
+      "difference": 0.05,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.15
+      ],
+      "success_gain": 1,
+      "success_loss": 0,
+      "paired_unchanged": 19,
+      "exact_discordant_binomial_p": 1.0
+    },
+    {
+      "comparison": "C-B20",
+      "condition": "seen_background",
+      "difference": 0.1,
+      "state_cluster_bootstrap95": [
+        -0.1,
+        0.3
+      ],
+      "success_gain": 3,
+      "success_loss": 1,
+      "paired_unchanged": 16,
+      "exact_discordant_binomial_p": 0.625
+    },
+    {
+      "comparison": "C-B20",
+      "condition": "unseen_warm_teal",
+      "difference": 0.15,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.3
+      ],
+      "success_gain": 3,
+      "success_loss": 0,
+      "paired_unchanged": 17,
+      "exact_discordant_binomial_p": 0.25
+    },
+    {
+      "comparison": "C-B20",
+      "condition": "mean_across_three_appearances",
+      "difference": 0.1,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.21666666666666665
+      ],
+      "unit": "20 physical-state clusters, not60 independent appearance trials"
+    },
+    {
+      "comparison": "D-C",
+      "condition": "clean",
+      "difference": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "success_gain": 0,
+      "success_loss": 0,
+      "paired_unchanged": 20,
+      "exact_discordant_binomial_p": 1.0
+    },
+    {
+      "comparison": "D-C",
+      "condition": "seen_background",
+      "difference": 0.05,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.15
+      ],
+      "success_gain": 1,
+      "success_loss": 0,
+      "paired_unchanged": 19,
+      "exact_discordant_binomial_p": 1.0
+    },
+    {
+      "comparison": "D-C",
+      "condition": "unseen_warm_teal",
+      "difference": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "success_gain": 0,
+      "success_loss": 0,
+      "paired_unchanged": 20,
+      "exact_discordant_binomial_p": 1.0
+    },
+    {
+      "comparison": "D-C",
+      "condition": "mean_across_three_appearances",
+      "difference": 0.016666666666666666,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.05
+      ],
+      "unit": "20 physical-state clusters, not60 independent appearance trials"
+    },
+    {
+      "comparison": "D-B20",
+      "condition": "clean",
+      "difference": 0.05,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.15
+      ],
+      "success_gain": 1,
+      "success_loss": 0,
+      "paired_unchanged": 19,
+      "exact_discordant_binomial_p": 1.0
+    },
+    {
+      "comparison": "D-B20",
+      "condition": "seen_background",
+      "difference": 0.15,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.3
+      ],
+      "success_gain": 3,
+      "success_loss": 0,
+      "paired_unchanged": 17,
+      "exact_discordant_binomial_p": 0.25
+    },
+    {
+      "comparison": "D-B20",
+      "condition": "unseen_warm_teal",
+      "difference": 0.15,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.3
+      ],
+      "success_gain": 3,
+      "success_loss": 0,
+      "paired_unchanged": 17,
+      "exact_discordant_binomial_p": 0.25
+    },
+    {
+      "comparison": "D-B20",
+      "condition": "mean_across_three_appearances",
+      "difference": 0.11666666666666667,
+      "state_cluster_bootstrap95": [
+        0.03333333333333333,
+        0.21666666666666665
+      ],
+      "unit": "20 physical-state clusters, not60 independent appearance trials"
+    }
+  ],
+  "background_effects": [
+    {
+      "model": "B20",
+      "background": "seen_background",
+      "background_minus_clean": -0.1,
+      "state_cluster_bootstrap95": [
+        -0.3,
+        0.1
+      ]
+    },
+    {
+      "model": "B20",
+      "background": "unseen_warm_teal",
+      "background_minus_clean": -0.1,
+      "state_cluster_bootstrap95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "model": "C",
+      "background": "seen_background",
+      "background_minus_clean": -0.05,
+      "state_cluster_bootstrap95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "model": "C",
+      "background": "unseen_warm_teal",
+      "background_minus_clean": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "D",
+      "background": "seen_background",
+      "background_minus_clean": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "D",
+      "background": "unseen_warm_teal",
+      "background_minus_clean": 0.0,
+      "state_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "limits": [
+    "single training seed",
+    "one task",
+    "20 development states, not final independent test",
+    "possible ceiling/floor effects",
+    "same initial state across appearances is a cluster, not independent replication"
+  ]
+}

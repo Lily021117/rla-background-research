@@ -1,0 +1,83 @@
+{
+  "arm": "D",
+  "formal_training_scope": "OFFICIAL_PAIRED_RLA_POLICY",
+  "entry": "baseline_update_smoke.py --experiment-entry ae_consistency.policy_training",
+  "legacy_directory_name": "isolated_smoke is only the reused bootstrap directory label; formal600 updates are verified by checkpoint scope and counters",
+  "common_step0": "${LOCAL_PATH}",
+  "common_step0_sha256": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66",
+  "shared": {
+    "frozen": true,
+    "status": "PREPARED_NOT_EXECUTED",
+    "successful_updates": 600,
+    "physical_window_exposures": 4800,
+    "appearance_exposures": 9600,
+    "train_episodes": 20,
+    "development_episodes": 5,
+    "seed": 20261023,
+    "common_initial_checkpoint": "common_policy_step0.pt",
+    "sampling_order_reference": "../readiness_inputs.json: B20_sampling_order and B20_sampling_sha256",
+    "sampler": "reuse B20 physical-window order; clean/background per physical window; no outcome-dependent resampling",
+    "optimizer": "AdamW",
+    "lr": 0.0002,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "scheduler": "MultiStepLR milestones=[600], gamma=0.1, applied after each update; no reduced-LR update before final",
+    "microbatch_appearance": 8,
+    "accumulation": 2,
+    "backend": "Math SDPA, Flash and memory-efficient disabled",
+    "dtype": "bfloat16",
+    "gradient_clipping": null,
+    "lambda_action": 1.0,
+    "lambda_aux": 0.22408536585365854,
+    "action_loss": "official unweighted mean L1 over all8x7 valid values",
+    "auxiliary_loss": "official mean L1 over batch,8,1024",
+    "normalization": "same20train action/proprio statistics as B20; same AE-C train-only center statistics for C/D targets",
+    "stage": "joint action and auxiliary, no additional RLA-only updates",
+    "C_D_only_target_source_differs": true,
+    "randomness": "same initial CPU/CUDA/Python/NumPy state and official stochastic graph for C/D; added RLA draws need not reproduce B20 random consumption after step0",
+    "checkpoint_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "selection": "final600 only, no early stopping or budget extension",
+    "full_batch_resource_smoke_required_before_updates": true,
+    "policy_updates_this_run": 0
+  },
+  "actual_execution": {
+    "arm": "D",
+    "microbatch": 8,
+    "accumulation": 2,
+    "effective_appearance_batch": 16,
+    "checkpointing": true,
+    "backend": {
+      "math": true,
+      "flash": false,
+      "efficient": false
+    },
+    "lambda_aux": 0.22408536585365854,
+    "policy_updates": 600
+  },
+  "encoder": "${LOCAL_PATH}",
+  "encoder_sha256": "cb73071e20ea624bc77cb72381fc0e1bf93330a963f301fbf2e54d1c796fa58e",
+  "sidecar_roots": {
+    "clean": "${LOCAL_PATH}",
+    "background": "${LOCAL_PATH}"
+  },
+  "inputs": {
+    "project": "${LOCAL_PATH}",
+    "B20_step0": "${LOCAL_PATH}",
+    "B20_sampling_order": "${LOCAL_PATH}",
+    "B20_sampling_sha256": "504971a7c941bd04169657d02416ada432a3ba4ba5f7dcadd5492cb1bd8a242e",
+    "data_manifest": "${LOCAL_PATH}",
+    "action_proprio_statistics": "${LOCAL_PATH}",
+    "no_B20_final_weights": true,
+    "policy_optimizer_updates": 0
+  },
+  "memory_override": "execution_resource_update.json"
+}

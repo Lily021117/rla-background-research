@@ -1,0 +1,16 @@
+{
+ "reason": "GPU1 released to81062MiB free before formal restart; avoid GPU0 tight co-tenancy",
+ "GPU_UUID": "${GPU_UUID}",
+ "authorization": "user explicitly allows GPU1 above15GiB; risk authorization, not proof of repair",
+ "minimum_startup_GiB": 15,
+ "process_memory_fraction": 0.4,
+ "persistent_optimizer_memory_preflight": "preflight7",
+ "allocator": "expandable_segments:True",
+ "empty_cache_between_updates": true,
+ "microbatch": 8,
+ "accumulation": 2,
+ "activation_checkpointing": true,
+ "C_D_same_configuration": true,
+ "ECC_baseline": {"SRAM_correctable":2,"SRAM_uncorrectable_parity":1,"SRAM_SM":1},
+ "ECC_increment_or_CUDA_failure": "stop and preserve evidence; no automatic GPU failover"
+}

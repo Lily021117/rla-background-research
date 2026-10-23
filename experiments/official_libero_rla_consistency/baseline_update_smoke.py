@@ -28,11 +28,13 @@ def save(n,x):
 def ecc():return subprocess.check_output(['nvidia-smi','-i',os.environ['RLA_GPU_UUID'],'-q','-d','ECC'],text=True)
 def counts(s):return [x.strip() for x in s.splitlines() if any(k in x for k in ('Correctable','Uncorrectable','SRAM SM','Threshold Exceeded'))]
 before=ecc();(o/'ecc_before.txt').write_text(before)
+startup_free_mib=int(subprocess.check_output(['nvidia-smi','-i',os.environ['RLA_GPU_UUID'],'--query-gpu=memory.free','--format=csv,noheader,nounits'],text=True).strip())
+assert startup_free_mib>=float(os.environ.get('RLA_MIN_FREE_GIB','26'))*1024
 cu=ctypes.CDLL('libcuda.so.1');cu.cuInit(0);dev=ctypes.c_int();assert cu.cuDeviceGet(ctypes.byref(dev),0)==0
 buf=(ctypes.c_ubyte*16)();assert cu.cuDeviceGetUuid_v2(ctypes.byref(buf),dev)==0
 assert str(uuid.UUID(bytes=bytes(buf)))==os.environ['RLA_GPU_UUID'].removeprefix('GPU-')
-assert torch.cuda.mem_get_info()[0]>=float(os.environ.get('RLA_MIN_FREE_GIB','26'))*1024**3
-torch.cuda.set_per_process_memory_fraction(.49)
+save('startup_memory.json',dict(before_CUDA_context_MiB=startup_free_mib,after_CUDA_context_bytes=torch.cuda.mem_get_info()[0],minimum_startup_GiB=float(os.environ.get('RLA_MIN_FREE_GIB','26'))))
+torch.cuda.set_per_process_memory_fraction(float(os.environ.get('RLA_MEMORY_FRACTION','.49')))
 torch.backends.cuda.enable_flash_sdp(False);torch.backends.cuda.enable_mem_efficient_sdp(False);torch.backends.cuda.enable_math_sdp(True)
 seed=20261023;random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed)
 configdir=a.reference/'vla-official/pretrained_models/configs'

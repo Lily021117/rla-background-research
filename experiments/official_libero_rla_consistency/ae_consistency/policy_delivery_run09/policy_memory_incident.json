@@ -1,0 +1,14 @@
+{
+ "initial_C_successful_updates": 1,
+ "failure": "OOM in forward of update2; persistent AdamW state and allocator fragmentation were not adequately represented by initial preflight",
+ "initial_C_preserved": "C/isolated_smoke and train_C.log",
+ "durable_checkpoint": 0,
+ "planned_recovery": "fresh process from same frozen commonstep0; replay1; same microbatch8/effectivebatch16, RNG, loss, optimizer, sampling and backend",
+ "memory_only_changes": "expandable CUDA allocator segments; release unused cache between updates; preflight with persistent moment-sized storage across two full effective batches",
+ "C_final_effective_budget": 600,
+ "C_expected_total_computed_successes_if_complete": 601,
+ "D_effective_budget": 600,
+ "D_same_memory_configuration": true,
+ "additional_recovery_checkpoint": "step1 on both arms, not used for model selection",
+ "preflight_optimizer_updates": 0
+}

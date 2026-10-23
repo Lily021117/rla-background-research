@@ -1,0 +1,18 @@
+{
+  "replayed_successful_updates": 1,
+  "C_effective_updates": 600,
+  "C_computed_successes": 601,
+  "first_update_log_absolute_differences": {
+    "action_loss": 0.0,
+    "auxiliary_loss": 0.0,
+    "weighted_auxiliary": 0.0,
+    "total_loss": 0.0,
+    "gradient_vla": 0.0,
+    "gradient_head": 0.0,
+    "gradient_proprio": 0.0,
+    "gradient_aux_head": 0.0
+  },
+  "maximum_difference": 0.0,
+  "allocator_and_GPU_change": "memory/runtime only, GPU0 to authorized GPU1; original1step preserved",
+  "no_hyperparameter_changes": true
+}
