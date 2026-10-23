@@ -14,17 +14,22 @@ def execute(g):
     from libero.libero import get_libero_path
     from experiments.robot.libero.run_libero_eval import process_action
     a,o,model,head,prop=g['a'],g['o'],g['model'],g['head'],g['prop']
-    plan=json.loads((a.run/'training_plan.json').read_text());ckpath=a.run/'formal_B'/f"step{plan['closed_loop_checkpoint']:04}.pt"
-    ck=torch.load(ckpath,map_location='cpu');assert ck['global_step']==270 and ck['scope']=='FORMAL_B_BASELINE'
+    plan=json.loads((a.run/'training_plan.json').read_text());ckpath=a.run/'formal_B'/f"step{plan.get('closed_loop_checkpoint',plan.get('final_checkpoint')):04}.pt"
+    ck=torch.load(ckpath,map_location='cpu');assert ck['global_step']==plan.get('closed_loop_checkpoint',plan.get('final_checkpoint')) and ck['scope'] in ('FORMAL_B_BASELINE','PAIRED_B4_B20')
     for k,m in g['mods'].items():
         expected={n for n,x in m.named_parameters() if x.requires_grad};assert expected==set(ck['parameters'][k])
         full=m.state_dict();full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True);m.eval().requires_grad_(False)
     del ck
     stats=json.loads((a.run/'normalization_statistics_train_only.json').read_text());model.base_model.model.norm_stats={'derived':stats}
-    rows=json.loads((a.run/'episode_manifest.json').read_text());rows=[x for x in rows if x['episode'] in plan['closed_loop_episodes']];assert len(rows)==1 and rows[0]['split']=='validation';e=rows[0]
-    root=a.run/'episodes'/e['episode'];labels=np.load(root/'trajectory_labels.npz');initial=labels['states'][0].copy();pair=Path(e['geometry_path']).parent
+    if 'trial_override' in g:
+        e=g['trial_override'];root=Path(e['root']);pair=Path(e['xml_directory']);assert e['split']=='validation'
+    else:
+        rows=json.loads((a.run/'episode_manifest.json').read_text());rows=[x for x in rows if x['episode'] in plan['closed_loop_episodes']];assert len(rows)==1 and rows[0]['split']=='validation';e=rows[0]
+        root=a.run/'episodes'/e['episode'];pair=Path(e['geometry_path']).parent
+    labels=np.load(root/'trajectory_labels.npz');initial=labels['states'][0].copy()
     bddl=Path(get_libero_path('bddl_files'))/'libero_spatial'/('pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl');assert bddl.exists()
-    g['save']('evaluation_protocol.json',dict(checkpoint=str(ckpath),global_step=270,episode=e['episode'],source_demo=e['source_demo'],state_index=0,seed=0,max_control_steps=220,action_chunk_execution=8,conditions=['clean','background'],settling_actions=0,reflection=1,MSAA=4,role='previously inspected development',retries=0,success_source='env.check_success()',object_truth_policy_input=False))
+    conditions=g.get('trial_conditions',('clean','background'))
+    g['save']('evaluation_protocol.json',dict(checkpoint=str(ckpath),global_step=plan.get('closed_loop_checkpoint',plan.get('final_checkpoint')),episode=e['episode'],source_demo=e['source_demo'],state_index=0,seed=0,max_control_steps=220,action_chunk_execution=8,conditions=conditions,settling_actions=0,reflection=1,MSAA=4,role='previously inspected development',retries=0,success_source='env.check_success()',object_truth_policy_input=False))
     def proprio(m,d):
         return np.r_[d.site_xpos[m.site('gripper0_grip_site').id],Rotation.from_quat(np.roll(d.xquat[m.body('robot0_right_hand').id],-1)).as_rotvec(),[d.qpos[m.joint('gripper0_finger_joint'+str(i)).qposadr[0]] for i in (1,2)]].astype(np.float32)
     def infer(images,p):
@@ -37,7 +42,7 @@ def execute(g):
         with torch.inference_mode():actions,_=model.predict_action(**inp,unnorm_key='derived',proprio=p,proprio_projector=prop,action_head=head,use_film=False)
         actions=np.asarray(actions);assert actions.shape==(8,7) and np.isfinite(actions).all();return actions
     results=[];baseline_geometry=None
-    for condition in ('clean','background'):
+    for condition in conditions:
         dest=o/condition;dest.mkdir();env=render=video=None;executed=[];chunks=[];states=[];positions=[];bowl_positions=[];start=time.time();result=dict(appearance=condition,episode=e['episode'],status='INVALID',success=None,steps=0)
         try:
             random.seed(0);np.random.seed(0);torch.manual_seed(0);torch.cuda.manual_seed_all(0)
@@ -45,6 +50,11 @@ def execute(g):
             env.seed(0);env.reset();env.reset_from_xml_string((pair/(condition+'.xml')).read_text());env.set_init_state(initial);env.sim.forward()
             np.testing.assert_allclose(env.get_sim_state(),initial,atol=1e-8,rtol=0)
             m,d=env.sim.model._model,env.sim.data._data; geometry={k:np.array(getattr(d,k)).copy() for k in ('qpos','qvel','xpos','xquat','cam_xpos','cam_xmat')}
+            if 'paired_geometry_cache' in g:
+                cache=g['paired_geometry_cache']
+                if e['episode'] not in cache:cache[e['episode']]=geometry
+                else:
+                    for k in geometry:np.testing.assert_allclose(geometry[k],cache[e['episode']][k],atol=1e-8,rtol=0)
             bowl_id=m.body('akita_black_bowl_1_main').id;initial_bowl=d.xpos[bowl_id].copy()
             if baseline_geometry is None:baseline_geometry=geometry
             else:
@@ -68,7 +78,7 @@ def execute(g):
                 _,_,done,_=env.step(action.tolist());executed.append(action);states.append(env.get_sim_state().copy());positions.append(d.site_xpos[m.site('gripper0_grip_site').id].copy());result['steps']=step+1
                 bowl_positions.append(d.xpos[bowl_id].copy())
                 if env.check_success() or done:break
-            result.update(status='COMPLETE',success=bool(env.check_success()),timeout=result['steps']==220 and not env.check_success(),mean_abs_action=float(np.mean(abs(np.array(executed)))),translation_saturation_fraction=float(np.mean(abs(np.array(executed)[:,:3])>=.999)),gripper_values=np.unique(np.array(executed)[:,-1]).tolist(),eef_path_length_m=float(np.linalg.norm(np.diff(np.array(positions),axis=0),axis=1).sum()))
+            result.update(status='COMPLETE',success=bool(env.check_success()),timeout=result['steps']==220 and not env.check_success(),initial_geometry_pair_check=True,mean_abs_action=float(np.mean(abs(np.array(executed)))),translation_saturation_fraction=float(np.mean(abs(np.array(executed)[:,:3])>=.999)),gripper_values=np.unique(np.array(executed)[:,-1]).tolist(),eef_path_length_m=float(np.linalg.norm(np.diff(np.array(positions),axis=0),axis=1).sum()))
             result.update(min_eef_to_target_center_m=float(np.linalg.norm(np.array(positions)-np.array(bowl_positions),axis=1).min()),target_max_lift_m=float(np.max(np.array(bowl_positions)[:,2]-initial_bowl[2])),target_final_displacement_m=float(np.linalg.norm(bowl_positions[-1]-initial_bowl)),target_identity_evidence='task BDDL goal: On akita_black_bowl_1 plate_1; diagnostics only, never policy input')
         except Exception:result['error']=traceback.format_exc()
         finally:
@@ -79,4 +89,4 @@ def execute(g):
         result['seconds']=time.time()-start
         with (dest/'result.json').open('x') as f:json.dump(result,f,indent=2)
         results.append(result);print('DEVELOPMENT',condition,result['status'],result['success'],flush=True)
-    g['save']('results.json',dict(trials=results,optimizer_updates=0,backward=0,closed_loop_attempts=2,heldout_read=False))
+    g['save']('results.json',dict(trials=results,optimizer_updates=0,backward=0,closed_loop_attempts=len(conditions),heldout_read=False))

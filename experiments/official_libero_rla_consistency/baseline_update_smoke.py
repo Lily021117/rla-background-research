@@ -4,7 +4,7 @@ from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
 import torch
-p=argparse.ArgumentParser();p.add_argument('--reference',type=Path,required=True);p.add_argument('--run',type=Path,required=True);p.add_argument('--batch-size',type=int,default=1);p.add_argument('--mode',choices=['smoke','formal','development'],default='smoke');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--reference',type=Path,required=True);p.add_argument('--run',type=Path,required=True);p.add_argument('--batch-size',type=int,default=1);p.add_argument('--mode',choices=['smoke','formal','development'],default='smoke');p.add_argument('--experiment-entry',default=None);a=p.parse_args()
 o=a.run/('development' if a.mode=='development' else 'formal_B' if a.mode=='formal' else ('isolated_smoke' if a.batch_size==1 else f'isolated_smoke_batch{a.batch_size}'));o.mkdir(exist_ok=False)
 sys.path.insert(0,str(a.reference/'vla-official'))
 import tensorflow as tf
@@ -80,6 +80,11 @@ spec=importlib.util.spec_from_file_location('official_finetune',a.reference/'vla
 def forward():
     return ft.run_forward_pass(vla=model,action_head=SimpleNamespace(module=head),proprio_projector=prop,batch=batch,action_tokenizer=at,device_id='cuda',use_l1_regression=True,use_proprio=True,use_film=False,num_patches=model.vision_backbone.get_num_patches()*2,use_pro_version=True,cfg=SimpleNamespace(phase='Training'))
 def trainable_state():return {k:{n:x.detach().cpu().clone() for n,x in m.named_parameters() if x.requires_grad} for k,m in mods.items()}
+if a.experiment_entry:
+    import importlib
+    optimizer=torch.optim.AdamW(params,lr=2e-4)
+    importlib.import_module(a.experiment_entry).execute(globals())
+    sys.exit(0)
 if a.mode=='development':
     from single_task_rollout import execute
     execute(globals())
