@@ -1,0 +1,46 @@
+{
+  "common_step0_parameters": true,
+  "common_CPU_CUDA_Python_NumPy_RNG": true,
+  "common_step0_predictions_and_labels_exact": true,
+  "common_seed": 20261023,
+  "common_normalization": true,
+  "sampling": "same seeded permutation algorithm, not same sample sequence",
+  "arms": {
+    "B4": {
+      "samples": 4800,
+      "by_episode": {
+        "sealed_169_demo_18": 1816,
+        "sealed_164_demo_13": 1019,
+        "sealed_163_demo_12": 946,
+        "sealed_165_demo_14": 1019
+      },
+      "parameter_hash_step0": "c635cc5626e30c75c421ce508c50358dd5b4c44e64cd8067a2bd765f880e5942"
+    },
+    "B20": {
+      "samples": 4800,
+      "by_episode": {
+        "derived_cookie_demo_6_v4": 263,
+        "sealed_169_demo_18": 414,
+        "derived_cookie_demo_9_v4": 305,
+        "derived_cookie_demo_8_v4": 262,
+        "derived_cookie_demo_37_v4": 220,
+        "derived_cookie_demo_28_v4": 228,
+        "sealed_163_demo_12": 222,
+        "sealed_165_demo_14": 236,
+        "derived_cookie_demo_16_v4": 234,
+        "derived_cookie_demo_42_v4": 199,
+        "derived_cookie_demo_30_v4": 207,
+        "derived_cookie_demo_48_v4": 222,
+        "derived_cookie_demo_7_v4": 216,
+        "derived_cookie_demo_26_v4": 213,
+        "derived_cookie_demo_47_v4": 205,
+        "sealed_164_demo_13": 225,
+        "derived_cookie_demo_29_v4": 250,
+        "derived_cookie_demo_36_v4": 224,
+        "derived_cookie_demo_17_v4": 223,
+        "derived_cookie_demo_32_v4": 232
+      },
+      "parameter_hash_step0": "c635cc5626e30c75c421ce508c50358dd5b4c44e64cd8067a2bd765f880e5942"
+    }
+  }
+}

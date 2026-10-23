@@ -21,4 +21,4 @@ for key,rs in groups.items():
     row=dict(zip(['arm','step','set','appearance','position'],key));row['windows']=sum(int(x['windows']) for x in rs)
     for k in ('action_L1','translation_L1','rotation_L1','gripper_L1'):row[k]=float(np.average([float(x[k]) for x in rs],weights=[int(x['windows']) for x in rs]))
     rows.append(row)
-with (a.destination/'validation_summary.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+with (a.destination/'validation_summary.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)

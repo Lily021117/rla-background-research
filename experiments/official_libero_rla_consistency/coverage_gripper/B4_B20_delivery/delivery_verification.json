@@ -1,0 +1,10 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD_PROOF",
+  "B4_updates": 600,
+  "B20_updates": 600,
+  "new_closed_loops": 20,
+  "heldout_read": false,
+  "AE_C_D": false,
+  "common_initial_parameters": true,
+  "statistics_shared": true
+}

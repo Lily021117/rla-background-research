@@ -1,0 +1,68 @@
+{
+  "frozen": true,
+  "arm": "B4",
+  "seed": 20261023,
+  "updates": 600,
+  "checkpoint_steps": [
+    100,
+    300,
+    600
+  ],
+  "validation_steps": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "final_checkpoint": 600,
+  "manifest": "${DATASET_RUN}/frozen_dataset_manifest.json",
+  "statistics": "${DATASET_RUN}/normalization_statistics_expanded_train_only.json",
+  "statistics_sha256": "65b7372f13d929de39c56e90a7ad6a837bfc39d75ae3b703ebd601fd490e614b",
+  "manifest_sha256": "d179ed2aafe50ac5c3ab811db641e03a9cd79adfe5619ed908c44045d9445c28",
+  "train_episodes": [
+    "sealed_163_demo_12",
+    "sealed_164_demo_13",
+    "sealed_165_demo_14",
+    "sealed_169_demo_18"
+  ],
+  "common_B4": [
+    "sealed_163_demo_12",
+    "sealed_164_demo_13",
+    "sealed_165_demo_14",
+    "sealed_169_demo_18"
+  ],
+  "development_episodes": [
+    "derived_cookie_demo_15_v4",
+    "derived_cookie_demo_21_v4",
+    "derived_cookie_demo_31_v4",
+    "sealed_185_demo_34",
+    "derived_cookie_demo_46_v4"
+  ],
+  "batch_size": 8,
+  "accumulation": 2,
+  "physical_exposures": 4800,
+  "appearance_exposures": 9600,
+  "equivalent_window_epochs": 11.136890951276103,
+  "sampling": "repeat seeded permutation of eligible physical windows; sequential clean/background per window; same algorithm/seed, different actual sequences",
+  "lr": 0.0002,
+  "optimizer": "AdamW",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.01,
+  "scheduler": "MultiStepLR milestone600 gamma0.1; no reduced-LR updates before final",
+  "backend": "Math SDPA",
+  "dtype": "bfloat16",
+  "loss": "unweighted official mean L1,8x7",
+  "initialization": "fresh official Prismatic and common seeded heads; no prior trained policy",
+  "budget_reason": "previous270-step curve still falls in final segment;600 gives B20 2.54 window epochs and B4 11.14, fixed compute not convergence",
+  "stop_conditions": [
+    "OOM",
+    "nonfinite loss/gradient/parameters",
+    "ECC increment",
+    "checkpoint/data mismatch"
+  ],
+  "RLA": false
+}

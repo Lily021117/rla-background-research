@@ -1,0 +1,26 @@
+[
+  {
+    "arm": "B4",
+    "appearance": "clean",
+    "successes": 4,
+    "trials": 5
+  },
+  {
+    "arm": "B4",
+    "appearance": "background",
+    "successes": 4,
+    "trials": 5
+  },
+  {
+    "arm": "B20",
+    "appearance": "clean",
+    "successes": 5,
+    "trials": 5
+  },
+  {
+    "arm": "B20",
+    "appearance": "background",
+    "successes": 5,
+    "trials": 5
+  }
+]

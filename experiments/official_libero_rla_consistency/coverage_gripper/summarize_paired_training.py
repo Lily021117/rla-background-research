@@ -13,6 +13,8 @@ def sha(p):
 metrics=[];training=[];inventory=[];timing=[];plans={};sampleaudit={}
 for arm in ('B4','B20'):
     root=out/arm/'formal_B';plan=json.loads((out/arm/'training_plan.json').read_text());plans[arm]=plan
+    assert sha(Path(plan['manifest']))==plan['manifest_sha256'] and sha(Path(plan['statistics']))==plan['statistics_sha256']
+    assert json.loads((out/arm/'normalization_statistics_train_only.json').read_text())==json.loads(Path(plan['statistics']).read_text())
     assert json.loads((root/'training_acceptance.json').read_text())['successful_updates']==600
     samples=json.loads((root/'sampling_order.json').read_text());sampleaudit[arm]=dict(samples=len(samples),by_episode=dict(collections.Counter(x[0] for x in samples)),parameter_hash_step0=json.loads((root/'checkpoint_step0000_audit.json').read_text())['parameter_hash'])
     training.extend(dict(arm=arm,**r) for r in csv.DictReader((root/'training_metrics.csv').open()))
@@ -37,6 +39,8 @@ for arm in ('B4','B20'):
                         timing.append(dict(arm=arm,step=step,set=role,episode=ep,appearance=c,event=event,position=h,prediction=float(pr[indices[ideal],h,6]),target=float(gt[indices[ideal],h,6]),correct_close=bool(pr[indices[ideal],h,6]<.5),onset_error_steps=onset-ideal if onset is not None else None))
 assert sampleaudit['B4']['parameter_hash_step0']==sampleaudit['B20']['parameter_hash_step0']
 assert plans['B4']['statistics_sha256']==plans['B20']['statistics_sha256']
+differences=[dict(field=k,B4=json.dumps(plans['B4'].get(k),ensure_ascii=False),B20=json.dumps(plans['B20'].get(k),ensure_ascii=False)) for k in sorted(set(plans['B4'])|set(plans['B20'])) if plans['B4'].get(k)!=plans['B20'].get(k)]
+write('configuration_difference.csv',differences)
 import torch
 s0=[torch.load(out/arm/'formal_B/step0000.pt',map_location='cpu') for arm in ('B4','B20')]
 assert torch.equal(s0[0]['torch_rng'],s0[1]['torch_rng'])
@@ -44,8 +48,10 @@ assert all(torch.equal(x,y) for x,y in zip(s0[0]['cuda_rng'],s0[1]['cuda_rng']))
 assert s0[0]['python_rng']==s0[1]['python_rng']
 assert np.array_equal(s0[0]['numpy_rng'][1],s0[1]['numpy_rng'][1])
 del s0
+p0=[np.load(out/arm/'formal_B/common_B4_step0000.npz') for arm in ('B4','B20')]
+assert np.array_equal(p0[0]['prediction'],p0[1]['prediction']) and np.array_equal(p0[0]['target'],p0[1]['target'])
 write('training_metrics.csv',training);write('validation_metrics.csv',metrics);write('checkpoint_inventory.csv',inventory);write('closure_timing_metrics.csv',timing)
-with (out/'initialization_and_sampling_audit.json').open('x') as f:json.dump(dict(common_step0_parameters=True,common_CPU_CUDA_Python_NumPy_RNG=True,common_seed=20261023,common_normalization=True,sampling='same seeded permutation algorithm, not same sample sequence',arms=sampleaudit),f,indent=2)
+with (out/'initialization_and_sampling_audit.json').open('x') as f:json.dump(dict(common_step0_parameters=True,common_CPU_CUDA_Python_NumPy_RNG=True,common_step0_predictions_and_labels_exact=True,common_seed=20261023,common_normalization=True,sampling='same seeded permutation algorithm, not same sample sequence',arms=sampleaudit),f,indent=2)
 trials=json.loads((out/'per_trial_results.json').read_text());assert len(trials)==20 and all(r['status']=='COMPLETE' for r in trials);paired=[];summary=[]
 for arm in ('B4','B20'):
     for c in ('clean','background'):
