@@ -1,0 +1,19 @@
+{
+  "status": "PASS_CATEGORY_CONSERVATION",
+  "rows": 7728,
+  "static_base_ancestry": [
+    {
+      "body": "robot0_link0",
+      "joints": 0
+    },
+    {
+      "body": "robot0_base",
+      "joints": 0
+    }
+  ],
+  "unchanged_nonrobot_regions": true,
+  "robot_union_pixel_counts_and_errors_unchanged": true,
+  "RGB_modified": false,
+  "new_policy_rollouts": 0,
+  "previous_outputs_preserved": true
+}

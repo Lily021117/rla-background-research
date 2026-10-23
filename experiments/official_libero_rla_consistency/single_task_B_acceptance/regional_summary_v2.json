@@ -1,0 +1,51 @@
+[
+  {
+    "region": "background",
+    "pixels": 34280458,
+    "changed_pixels": 34280352,
+    "MAE_255": 43.248298355095855,
+    "max_channel_255": 121
+  },
+  {
+    "region": "entity_boundaries",
+    "pixels": 2739500,
+    "changed_pixels": 453710,
+    "MAE_255": 1.7653341850702684,
+    "max_channel_255": 70
+  },
+  {
+    "region": "other_opaque_entities_interior",
+    "pixels": 9795246,
+    "changed_pixels": 0,
+    "MAE_255": 0.0,
+    "max_channel_255": 0
+  },
+  {
+    "region": "robot_and_gripper_interior",
+    "pixels": 7506908,
+    "changed_pixels": 330,
+    "MAE_255": 0.0003392874935992286,
+    "max_channel_255": 31
+  },
+  {
+    "region": "robot_base_interior",
+    "pixels": 276030,
+    "changed_pixels": 0,
+    "MAE_255": 0.0,
+    "max_channel_255": 0
+  },
+  {
+    "region": "stove_interior",
+    "pixels": 796162,
+    "changed_pixels": 133343,
+    "MAE_255": 1.420535016742824,
+    "max_channel_255": 16
+  },
+  {
+    "region": "transparent_or_unclassified",
+    "pixels": 0,
+    "changed_pixels": 0,
+    "MAE_255": null,
+    "max_channel_255": null
+  }
+]
