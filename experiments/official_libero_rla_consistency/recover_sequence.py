@@ -6,25 +6,31 @@ from pathlib import Path
 import numpy as np,h5py,mujoco
 from PIL import Image,ImageDraw
 from scipy.spatial.transform import Rotation
-p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--episode');p.add_argument('--split',choices=['train','validation'],default='train');a=p.parse_args();o=a.out
+p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--episode');p.add_argument('--split',choices=['train','validation'],default='train');p.add_argument('--selection-manifest',type=Path);a=p.parse_args();o=a.out
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def js(n,v):
  with (o/n).open('x') as f:json.dump(v,f,indent=2)
-entries=json.load(open(a.project/'experiments/rla_background_invariance/step2_training/split_manifest.json'))['splits'][a.split]
+selection=json.load(open(a.selection_manifest)) if a.selection_manifest else None
+entries=[e for e in selection['episodes'] if e['split']==a.split] if selection else json.load(open(a.project/'experiments/rla_background_invariance/step2_training/split_manifest.json'))['splits'][a.split]
 if a.episode:
  entries=[e for e in entries if e['episode_id']==a.episode]
  assert len(entries)==1,'Episode must belong to the requested permitted split'
 checked=[]
 for e in entries:
- pair=Path(e['geometry_path']).parent
+ if selection:assert not any(x['source_hdf5']==e['source_hdf5'] and x['source_demo']==e['source_demo'] for x in selection['protected_sources'])
+ pair=Path(e['model_dir']) if selection else Path(e['geometry_path']).parent
  with h5py.File(e['source_hdf5'],'r') as f:
   d=f['data'][e['source_demo']];ok=all(k in d for k in ['states','actions','obs']) and all((pair/(v+'.xml')).exists() for v in ['clean','background'])
   checked.append(dict(episode=e['episode_id'],complete=ok))
-  if ok:states=d['states'][:];actions=d['actions'][:];raw_ee=d['obs/ee_states'][:];raw_g=d['obs/gripper_states'][:];break
+  if ok:states=d['states'][:];actions=d['actions'][:];raw_ee=d['obs/ee_states'][:];raw_g=d['obs/gripper_states'][:];raw_j=d['obs/joint_states'][:] if selection else None;break
 else:raise RuntimeError('No restorable train trajectory')
 assert states.ndim==2 and len(states)==len(actions) and actions.shape[1]==7
 N=len(states);assert np.isfinite(states).all() and np.isfinite(actions).all();assert np.allclose(np.diff(states[:,0]),.05,atol=1e-9,rtol=0)
+if selection:
+ assert hashlib.sha256(states.tobytes()).hexdigest()==e['source_states_sha256']
+ assert hashlib.sha256(actions.astype(np.float32).tobytes()).hexdigest()==e['source_actions_sha256']
 models=[mujoco.MjModel.from_xml_path(str(pair/(v+'.xml'))) for v in ['clean','background']];data=[mujoco.MjData(m) for m in models]
+robot_fk=mujoco.MjData(models[0]) if selection else None
 changes=[]
 for x,y in zip(ET.parse(pair/'clean.xml').getroot().iter(),ET.parse(pair/'background.xml').getroot().iter()):
  assert x.tag==y.tag
@@ -36,7 +42,8 @@ for field in ['body_pos','body_quat','geom_pos','geom_quat','geom_rgba','geom_ma
  np.testing.assert_array_equal(getattr(models[0],field),getattr(models[1],field))
 render=[mujoco.Renderer(m,224,224) for m in models];cams=['agentview','robot0_eye_in_hand'];opt=mujoco.MjvOption();opt.geomgroup[0]=0;opt.geomgroup[1]=1;opt.sitegroup[:]=0
 for name in ['frames','projection_overlays']: (o/name).mkdir()
-rows=[];prop=[];geomtests=[];Ks=[];Cs=[];fk=[];hashes={str(pair/(v+'.xml')):sha(pair/(v+'.xml')) for v in ['clean','background']};hashes[e['source_hdf5']]=sha(e['source_hdf5'])
+rows=[];prop=[];geomtests=[];Ks=[];Cs=[];fk=[];hashes={str(pair/(v+'.xml')):sha(pair/(v+'.xml')) for v in ['clean','background']}
+if not selection:hashes[e['source_hdf5']]=sha(e['source_hdf5'])
 def frame(j,cam,kind):
  r=render[j];r.disable_depth_rendering();r.disable_segmentation_rendering()
  if kind=='seg':r.enable_segmentation_rendering()
@@ -52,6 +59,14 @@ for t,s in enumerate(states):
  m,d=models[0],data[0];site=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_SITE,'gripper0_grip_site');hand=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_BODY,'robot0_right_hand');fingers=[mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_JOINT,'gripper0_finger_joint'+str(i)) for i in [1,2]]
  assert min(site,hand,*fingers)>=0
  proprio=np.r_[d.site_xpos[site],Rotation.from_quat(np.roll(d.xquat[hand],-1)).as_rotvec(),d.qpos[m.jnt_qposadr[fingers]]].astype(np.float32);fk.append(proprio)
+ if selection:
+  arm=[m.joint('robot0_joint'+str(i)).qposadr[0] for i in range(1,8)];finger_addr=m.jnt_qposadr[fingers];addresses=arm+finger_addr.tolist()
+  mujoco.mj_resetData(m,robot_fk);robot_fk.qpos[addresses]=d.qpos[addresses];mujoco.mj_forward(m,robot_fk)
+  robot_proprio=np.r_[robot_fk.site_xpos[site],Rotation.from_quat(np.roll(robot_fk.xquat[hand],-1)).as_rotvec(),robot_fk.qpos[finger_addr]].astype(np.float32)
+  np.testing.assert_array_equal(proprio,robot_proprio)
+  if t:
+   np.testing.assert_allclose(d.qpos[arm],raw_j[t-1],rtol=0,atol=1e-8)
+   np.testing.assert_allclose(d.qpos[finger_addr],raw_g[t-1],rtol=0,atol=1e-8)
  diff=proprio-np.r_[raw_ee[t-1],raw_g[t-1]] if t else np.full(8,np.nan)
  prop.append(dict(source_state=t,raw_obs=t-1 if t else '',xyz_max_m=float(abs(diff[:3]).max()) if t else '',rot_max_rad=float(abs(diff[3:6]).max()) if t else '',finger_max_m=float(abs(diff[6:]).max()) if t else '',chosen='same-state FK',external_pose_truth=False))
  imgs={v:[] for v in ['clean','background']};kk=[];cc=[]

@@ -1,0 +1,17 @@
+{
+  "source_demos": 50,
+  "protected_sealed": 2,
+  "protected_frozen_test": 5,
+  "available": 43,
+  "invalid": 0,
+  "old_train": 4,
+  "old_development": 1,
+  "new_train": 20,
+  "new_development": 5,
+  "new_independent_episodes": 20,
+  "unused_old_manifest_only": 38,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "new_closed_loop": 0,
+  "protected_episode_contents_read": false
+}
