@@ -6,11 +6,14 @@ from pathlib import Path
 import numpy as np,h5py,mujoco
 from PIL import Image,ImageDraw
 from scipy.spatial.transform import Rotation
-p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();o=a.out
+p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--episode');p.add_argument('--split',choices=['train','validation'],default='train');a=p.parse_args();o=a.out
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def js(n,v):
  with (o/n).open('x') as f:json.dump(v,f,indent=2)
-entries=json.load(open(a.project/'experiments/rla_background_invariance/step2_training/split_manifest.json'))['splits']['train']
+entries=json.load(open(a.project/'experiments/rla_background_invariance/step2_training/split_manifest.json'))['splits'][a.split]
+if a.episode:
+ entries=[e for e in entries if e['episode_id']==a.episode]
+ assert len(entries)==1,'Episode must belong to the requested permitted split'
 checked=[]
 for e in entries:
  pair=Path(e['geometry_path']).parent
@@ -86,6 +89,6 @@ assert all(sha(p)==h for p,h in hashes.items())
 np.savez_compressed(o/'trajectory_labels.npz',states=states,actions=actions,proprio=np.array(fk),K=np.array(Ks),c2w=np.array(Cs),valid_horizon_mask=np.arange(N)[:,None]+np.arange(1,9)[None,:]<N)
 for n,records in [('proprio_alignment_audit.csv',prop),('regional_sequence_metrics.csv',rows)]:
  with (o/n).open('x') as f:w=csv.DictWriter(f,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
-js('trajectory_provenance.json',dict(selected=e['episode_id'],checked=checked,source_hdf5=e['source_hdf5'],source_demo=e['source_demo'],instruction=e['task'],frames=N,valid_full_chunks=N-8,split='train',data_version='dual224_fk_v2',source_hashes=hashes,derived=True,temporal_definition='state[s] is pre-action state; action[s:s+8] reaches state[s+8]; raw obs[s-1] nominal post previous action with unknown sensor phase',RLDS_mapping='No cross-source identity inferred; explicit HDF5 source identity preserved; RLDS match remains unknown',optimizer_updates=0,backward=0,rollouts=0))
+js('trajectory_provenance.json',dict(selected=e['episode_id'],checked=checked,source_hdf5=e['source_hdf5'],source_demo=e['source_demo'],instruction=e['task'],frames=N,valid_full_chunks=N-8,split=a.split,data_version='dual224_fk_v2',source_hashes=hashes,derived=True,temporal_definition='state[s] is pre-action state; action[s:s+8] reaches state[s+8]; raw obs[s-1] nominal post previous action with unknown sensor phase',RLDS_mapping='No cross-source identity inferred; explicit HDF5 source identity preserved; RLDS match remains unknown',optimizer_updates=0,backward=0,rollouts=0))
 js('paired_sequence_manifest.json',dict(episode=e['episode_id'],frames=N,conditions=['clean','background'],cameras=cams,resolution=224,reflection=1,MSAA=4,texture_changes=changes,valid_full_chunks=N-8,tail='stored clamped official targets must carry false validity for missing futures',frames_pattern='frames/{timestep:04}.npz',identity=['source_episode','source_timestep','appearance_id','dual224_fk_v2']))
 js('camera_geometry_audit.json',dict(status='PASS_RASTER_PROJECTION',tests=geomtests,max_projection_error_px=max(x['pixel_error'] for x in geomtests),method='Surface points unprojected from depth; isolated visual marker rasterized independently by MuJoCo; never stored in formal RGB',pixel_centers='index+0.5',orientation='horizontal mirror of modern top-down Renderer output; K fx negative, cx=W/2',K_index='[t,camera,:,:]',extrinsics='camera-to-world OpenCV; wrist recomputed every state',wrist_motion_max=float(np.max(np.abs(np.array(Cs)[:,1]-np.array(Cs)[0,1]))),external_pose_truth=False))
