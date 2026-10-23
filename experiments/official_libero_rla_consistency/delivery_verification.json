@@ -1,0 +1,26 @@
+{
+  "status": "PARTIAL",
+  "formal_training_ready": false,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "new_rollouts": 0,
+  "heldout_reads": 0,
+  "GPU_compute": false,
+  "protected_source_hashes_unchanged": true,
+  "protection_scope": "hashes recorded in source_provenance; no exhaustive historical rehash",
+  "released_archive_SHA256": "24e177f9bcdda3ff0d73789c59987c9aed9bb618629130a4afa6fe931878b44e",
+  "strict_encoder_decoder_CPU_load": true,
+  "new_paired_AE_forward": false,
+  "new_official_policy_forward": false,
+  "new_sidecar_generation": false,
+  "checkpoint_RNG_resume_gate": false,
+  "excluded_uploads": [
+    "checkpoints",
+    "datasets",
+    "RGB",
+    "videos",
+    "trajectories",
+    "credentials"
+  ],
+  "branch": "experiments/official-libero-rla-consistency"
+}

@@ -1,0 +1,11 @@
+{
+  "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "hashes": {
+    "$PROJECT_ROOT/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/configs/rla/16x64_libero.yaml": "8b2a1fd1a2972293eacaccd0bdaa7e41bb24b4c63eaeccc74caa266f7b106db1",
+    "$PROJECT_ROOT/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/setup/setup_env.sh": "8217028e04c8489b19fba615259c1a257321f21bbfa908cb8af378f176ac47aa",
+    "$PROJECT_ROOT/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/vla_adapter_overlay/rla/loss.py": "387afc57319ee95deec585b1c9f6b43138866d56fa30165b0f8a22073eb40e0b",
+    "$PROJECT_ROOT/experiments/rla_background_invariance/step4_4_1_dataset_expansion/run_20261021_02/sample_manifest.csv": "5156f3961ea7b2f1fbaa75a098522f622c0dc89adbab960f186ef356287e2d8f",
+    "$PROJECT_ROOT/experiments/rla_background_invariance/step4_4_1_dataset_expansion/run_20261021_02/transition_manifest.csv": "0cbcaf9c68d3a5b3f55c32f5abd82413a0dd9aa18e2d7754a0b42dbb78d4b076"
+  },
+  "previous_route": "no optimizer updates; all prior branch/results preserved"
+}

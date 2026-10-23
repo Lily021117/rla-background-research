@@ -1,0 +1,18 @@
+{
+  "status": "PARTIAL_NOT_LOSSLESS_OFFICIAL_INPUT",
+  "episodes_train": 19,
+  "episodes_validation": 3,
+  "transitions": 220,
+  "dual_camera_h8_endpoints": 220,
+  "complete_h1_to_8_camera_sequences": 0,
+  "RGB_resolution": [128, 128],
+  "official_DINO_resolution": [224, 224],
+  "exported_camera_K_shape": [2, 3, 3],
+  "expected_per_camera_K_shape": [3, 3],
+  "camera_orientation_ray_correspondence": "UNVERIFIED",
+  "FK_equals_raw_proprio": false,
+  "paired_appearance_state_hash_collision_requires_explicit_variant_routing": true,
+  "training_ready": false,
+  "public_scope": "Aggregate audit only; full source-index manifest remains local",
+  "heldout_reads": 0
+}

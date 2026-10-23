@@ -1,0 +1,146 @@
+{
+  "status": "PARTIAL",
+  "existing_real_RLDS_evidence": {
+    "status": "PASS",
+    "manifest": {
+      "cameras": [
+        "agentview_camera",
+        "wrist_camera"
+      ],
+      "checkpoint": "runs/pilot/16x64_libero_spatial_pilot/20261015_11-06-34/ckpts/encoder_step0000750.pt",
+      "checkpoint_sha256": "8657a9e4b13041217701830cc920d1f64267e9dec64ff2ad65c607d8cc967949",
+      "chunk": 8,
+      "dino_batch": 4,
+      "dino_channels": 1024,
+      "dino_compile": false,
+      "elapsed_sec": 16.5,
+      "format": "npy",
+      "img_size": 224,
+      "inverse_input_mode": "sub",
+      "num_tokens": 16,
+      "pairs": "anchored",
+      "random_encoder": false,
+      "rla_config": "rebuttal/exp2_vla_adapter/configs/rla/16x64_libero_spatial_pilot.yaml",
+      "rla_config_sha1": "9e22cad81a1bb038587e5279c585dfbe5ede3557",
+      "rla_run": "runs/pilot/16x64_libero_spatial_pilot/20261015_11-06-34",
+      "rlds_root": "data/libero",
+      "suites": {
+        "libero_spatial": {
+          "num_episodes": 1
+        }
+      },
+      "token_dim": 64,
+      "world_size": 1
+    },
+    "episode_file": "ep_000000.npy",
+    "raw_shape": [
+      110,
+      8,
+      16,
+      64
+    ],
+    "raw_dtype": "float16",
+    "state_hash": "ddce63473ccd95953822b13df0991221c5ba143f",
+    "store_slot": 0,
+    "actual_vla_target_shape": [
+      8,
+      1024
+    ],
+    "target_finite": true,
+    "normalization": "center; training overlay RlaStore.frame output",
+    "real_vla_batch_shapes": {
+      "pixel_values": [
+        2,
+        12,
+        224,
+        224
+      ],
+      "proprio": [
+        2,
+        8
+      ],
+      "input_ids": [
+        2,
+        117
+      ],
+      "attention_mask": [
+        2,
+        117
+      ],
+      "labels": [
+        2,
+        117
+      ],
+      "actions": [
+        2,
+        8,
+        7
+      ],
+      "rla": [
+        2,
+        8,
+        1024
+      ]
+    },
+    "source_mapping": [
+      {
+        "anchor_source_frame": 0,
+        "action_source_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "future_source_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "anchor_source_frame": 8,
+        "action_source_indices": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "future_source_indices": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ],
+    "source_episode_metadata": "{'file_path': <tf.Tensor: shape=(), dtype=string, numpy=b'/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5'>}",
+    "future_input_to_policy": false
+  },
+  "evidence_source_hashes": {
+    "vla_batch_acceptance.json": "c7270751bb28363435de5b00ef3cb100b7599447ccf0f775179b501535aeadaf",
+    "horizon_reference_acceptance.json": "16793f4ccf0be8a77ffe3e29297e6f566082c62159fdb5335f2bf1c2c2b45188",
+    "manifest.json": "75b4c4e4cbf28a5ad6c682b52005acd252649fb6b3d4f7229912ee0bd600aca2"
+  },
+  "reuse_scope": "step750 pipeline evidence only; not officialstep40000 or new paired-sidecar acceptance",
+  "variant_key_strategy": "separate clean/background official stores; explicit appearance selector required",
+  "stock_join_collision": "sha1(raw states) identical between variants, so one unmodified global store cannot select both targets",
+  "new_paired_sidecars_ready": false,
+  "all220_missing_full_horizon_data": true
+}

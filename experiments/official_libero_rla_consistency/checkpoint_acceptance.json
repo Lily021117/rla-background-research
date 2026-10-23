@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "released_step": 90000,
+  "paper_step40000": false,
+  "models": [
+    {
+      "name": "encoder",
+      "sha256": "a22efe9311f1588675f19c83f5a2af3afb1dd221e59c8170fb64ced60037086c",
+      "bytes": 609411873,
+      "parameters": 152344640,
+      "strict": true,
+      "missing": [],
+      "unexpected": [],
+      "config": {
+        "name": "MultiViewTokenTransformer",
+        "args": {
+          "in_channels": 1024,
+          "model_channels": 1024,
+          "out_channels": 64,
+          "num_blocks": 12,
+          "num_heads": 16,
+          "mlp_ratio": 4.0,
+          "use_fp16": true,
+          "num_tokens": 16,
+          "norm_output_tokens": false,
+          "num_views": 2,
+          "use_view_embed": false,
+          "pos_embed_mode": "plucker",
+          "plucker_num_frequencies": 8
+        }
+      },
+      "finite": true
+    },
+    {
+      "name": "decoder",
+      "sha256": "916952b1da241492db095d959ce850eed2f77693b380e9f8b9756b1c7612ff1d",
+      "bytes": 613614773,
+      "parameters": 153395200,
+      "strict": true,
+      "missing": [],
+      "unexpected": [],
+      "config": {
+        "name": "MultiViewTokenTransformer",
+        "args": {
+          "in_channels": 1024,
+          "model_channels": 1024,
+          "out_channels": 1024,
+          "token_channels": 64,
+          "num_blocks": 12,
+          "num_heads": 16,
+          "mlp_ratio": 4.0,
+          "use_fp16": true,
+          "num_tokens": 16,
+          "zero_init": true,
+          "num_views": 2,
+          "use_view_embed": false,
+          "pos_embed_mode": "plucker",
+          "plucker_num_frequencies": 8
+        }
+      },
+      "finite": true
+    }
+  ],
+  "optimizer_updates": 0,
+  "backward": 0,
+  "GPU_used": false
+}

@@ -1,0 +1,11 @@
+field,historical_Step5_7,official_recipe,new_route_requirement
+initialization,finished Spatial-Pro robot policy,pretrained Prismatic VLM,official VLM plus fresh heads and LoRA
+AE,ManiSkill-derived32x64 single-view,LIBERO16x64 joint dual-view Plucker,official multiview AE
+target,sparse h8,anchored h1-through8,all eight real futures
+data,19 train and3 validation demos,4 LIBERO suites Stage1 then suite Stage2,paired data explicitly custom not paper exact
+policy_graph,custom unified wrapper,official RLA overlay; vanilla differs,do not reuse unified trainer
+updates,100 successful,20K RLA-only plus10K joint,freeze exposure-matched B/C/D before training
+aux_weight,custom fixed wrapper,auto0.25 detached loss ratio,report effective coefficient and scale confound
+geometry,128px export K malformed per-camera field,224px ray-aware dual view,recover and verify native image convention
+evaluation,historical20 reused states,standard LIBERO evaluation,report standard and custom background separately
+
