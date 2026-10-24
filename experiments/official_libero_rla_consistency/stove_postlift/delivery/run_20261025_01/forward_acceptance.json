@@ -1,0 +1,8 @@
+{
+  "samples": 507,
+  "rows": 4056,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "target_coordinates": "de-normalized policy action; translation/rotation are controller delta commands, not Cartesian displacement in metres; gripper0close/1open; demo continuous actions clipped at fixed train Q99 bounds; no ground truth labels for rollout samples",
+  "future_inputs": false
+}

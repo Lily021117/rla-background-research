@@ -1,0 +1,8 @@
+{
+  "training_update_logs": "aggregate batch loss only; no per-window per-phase training errors are recoverable without new inference",
+  "sampling_order_recovered": true,
+  "postlift_exposures": 2596,
+  "total_physical_exposures": 4800,
+  "postlift_fraction": 0.5408333333333334,
+  "interpretation": "postlift windows not absent; exposure count alone does not prove phase learnability or sufficient variability"
+}

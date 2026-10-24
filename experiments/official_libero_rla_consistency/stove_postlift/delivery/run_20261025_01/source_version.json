@@ -1,0 +1,8 @@
+{
+  "commit": "20341794828f43b7052ce30fbcfef21a9dbaa4d9",
+  "branch": "experiments/official-libero-rla-consistency",
+  "policy_hashes": {
+    "C": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+    "D-center": "cd3ead725cfee52d54717726e71dcdb86ca3975bd9db0db4575243898d41a609"
+  }
+}

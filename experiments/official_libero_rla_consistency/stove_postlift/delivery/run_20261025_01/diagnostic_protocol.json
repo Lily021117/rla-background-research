@@ -1,0 +1,27 @@
+{
+  "frozen": true,
+  "seed_order": [
+    2026102500,
+    2026102501,
+    2026102502,
+    2026102503,
+    2026102504
+  ],
+  "condition": "clean",
+  "prefix_limit": 10,
+  "continuation_limit": 20,
+  "max_total_control_steps": 220,
+  "lift_m": 0.03,
+  "lift_source": "previous frozen phase criterion",
+  "switch": "first action chunk boundary at/after first lift, empty queue",
+  "snapshot": "MuJoCo integration state plus controller/robot/gripper/observable state and RNG; same-policy suffix versus historical record gate",
+  "restore_action_tolerance": 1e-06,
+  "restore_state_tolerance": 1e-08,
+  "stop_on_restore_failure": true,
+  "same_observation_demo_rule": "each allowed episode: first lift frame, +8,+24 capped to last full chunk; both appearances; deduplicate",
+  "same_observation_rollout_rule": "all120 existing trajectories: first lift chunk boundary,+16,+40 capped before end; same frozen input for both models",
+  "success": "official On(bowl,plate): height AND contact AND xy<.03m",
+  "no_training": true,
+  "no_backward": true,
+  "no_sealed": true
+}

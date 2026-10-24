@@ -1,0 +1,7 @@
+model,appearance,trials,original_successes,terminal_xy_pass,terminal_contact_pass,terminal_height_pass,terminal_xy_median_m,postlift_open_trials,open_outside_goal,first_open_xy_median_m
+C,clean,20,20,20,19,20,0.018286483862373595,1,0,0.025551196470417814
+C,seen_background,20,19,19,18,19,0.0190279114347625,0,0,
+C,unseen_background,20,20,20,13,20,0.011964029295271484,0,0,
+D-center,clean,20,0,0,19,7,0.06160741514801715,20,20,0.05509675797265383
+D-center,seen_background,20,0,0,20,8,0.059793681394766186,20,20,0.054426794106745446
+D-center,unseen_background,20,0,0,20,8,0.06172530018022356,20,20,0.05662987540168671

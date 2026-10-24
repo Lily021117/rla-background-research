@@ -1,0 +1,5 @@
+prefix,continuation,successes,trials,diagnostic_not_formal
+C,C,5,5,True
+C,D-center,2,5,True
+D-center,C,5,5,True
+D-center,D-center,0,5,True

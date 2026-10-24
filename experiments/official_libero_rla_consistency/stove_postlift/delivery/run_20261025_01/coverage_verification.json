@@ -1,0 +1,8 @@
+{
+  "episodes": 25,
+  "train_episodes": 20,
+  "actual_sampling_entries": 4800,
+  "train_postlift_exposures": 2596,
+  "threshold_source": "previous frozen .03m lift proxy, not official success",
+  "new_rollouts": 0
+}
