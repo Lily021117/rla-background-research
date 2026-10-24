@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "new_valid_trials": 360,
+  "historical_valid_trials": 180,
+  "physical_states_new": 40,
+  "physical_states_historical": 20,
+  "pairing_completeness": true,
+  "same_state_hash_across9_trials": true,
+  "video_files_present_nonempty": true,
+  "new_numeric_trajectories_finite": true,
+  "video_full_decode_claim": false,
+  "model_calls": 0,
+  "optimizer_updates": 0,
+  "new_rollouts": 0
+}

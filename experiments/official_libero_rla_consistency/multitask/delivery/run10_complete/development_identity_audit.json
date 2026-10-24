@@ -1,0 +1,258 @@
+[
+  {
+    "task": "drawer",
+    "unique_physical_states_excluding_clock": 20,
+    "states": [
+      {
+        "seed": 2026102400,
+        "physical_state_sha256_excluding_clock": "cde09dd18be3c45b8b17b223d2bb3a7b595d5613c8f36eaa5d5537a3bd346e19",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102401,
+        "physical_state_sha256_excluding_clock": "ebb88aa450278cb5e1f827a31e3868873c589aafbc2a204a4add6a005db33852",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102402,
+        "physical_state_sha256_excluding_clock": "45969a30fd2792ce2cb05ea38d1f6351ae556c82521ff98208bfed8b18ef106a",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102403,
+        "physical_state_sha256_excluding_clock": "ecae8e96fdf7b0699958ecc9071828bab07f40fc4beee718c909bcf28e587bee",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102404,
+        "physical_state_sha256_excluding_clock": "5c9de210e844078bd53c697a978415ce99b54884e5a14654285263c08d8e1f21",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102405,
+        "physical_state_sha256_excluding_clock": "6f08895fd3a289977a7a64e484b09c5408ad9601cabbd539d109b39c234f30e1",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102406,
+        "physical_state_sha256_excluding_clock": "324132c2a214021dd8df48d666b6e42eb1641358ac90751ffa2cb41f400b0d03",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102407,
+        "physical_state_sha256_excluding_clock": "a32f8e568d360e64c6adb5e41c65c4123e8abd9fe19d99b42de463d38f5abba1",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102408,
+        "physical_state_sha256_excluding_clock": "6c0a305f5aa95aca25b4b9606b49ef1a0e276b70856cbd7aa1116477f8b6a445",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102409,
+        "physical_state_sha256_excluding_clock": "1659988f07d96747728f42e9dd8960cd073be1cf3c31381e155e3238616d5952",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102410,
+        "physical_state_sha256_excluding_clock": "d28f867f36c78a63b1c25fc9b1b2546df894480b3c1055cb05fc5c6676f080ee",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102411,
+        "physical_state_sha256_excluding_clock": "3232149ba2a3d3cf4cfad8f780235745fbbd89efc2cecd8e723b1ddf7e88fac8",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102412,
+        "physical_state_sha256_excluding_clock": "5038bf1a875cdf8dc69a405400f408c8ca47618706b4a29612024b2aaae41da4",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102413,
+        "physical_state_sha256_excluding_clock": "fa9ff199e1dc7e1b3cc2592ba7a21307011b0a370baa70dedafa974510d4dac2",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102414,
+        "physical_state_sha256_excluding_clock": "41c840af19c7ed703b9b0eb115ed5e2785086debf359db68bea3ee066be1eda9",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102415,
+        "physical_state_sha256_excluding_clock": "7ff8d959d3b11728fcc0f9dfe9afdf0cd6d11186dd663df56fe0f790e590a7c2",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102416,
+        "physical_state_sha256_excluding_clock": "6c8008da4d8950003ecc2d845079d60c0ac124b0b88ccd1c0f34fe8d2506f228",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102417,
+        "physical_state_sha256_excluding_clock": "13a096fd055aef4cacd6b12174c83f6347bb28155529790d8f59b17212202c63",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102418,
+        "physical_state_sha256_excluding_clock": "3d7d76c454538d93dc0e83dcfab06fa6cc3986969fcaf4dd0693168e463df260",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102419,
+        "physical_state_sha256_excluding_clock": "d1da2c5705c40ca1d9127b8f70059df7ac606aeb45423ea7d929be31f57369e4",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      }
+    ],
+    "sealed_contents_read": false,
+    "independence_limit": "New legal reset samples are not independent final test. Absence of exact equality does not establish distributional independence or rule out all near-overlap; no protected arrays were read."
+  },
+  {
+    "task": "stove",
+    "unique_physical_states_excluding_clock": 20,
+    "states": [
+      {
+        "seed": 2026102500,
+        "physical_state_sha256_excluding_clock": "3f1fe52fcb13b41ccbda14d9a8b0aac2cd55734866989751ebdd9de6875e03b5",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102501,
+        "physical_state_sha256_excluding_clock": "6f375f583dffbdfe46e0462bbadb942fab6da610f588cc690a5ee64396e403d4",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102502,
+        "physical_state_sha256_excluding_clock": "9990bd95991cdec7fbb73dec54b91876c52ba653db44f793451fe1706f511a44",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102503,
+        "physical_state_sha256_excluding_clock": "bc9fdea2bfc54879c7dcde8283b96eb2c73c9d72d5d7d671fbe3d8bb6b0990f7",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102504,
+        "physical_state_sha256_excluding_clock": "b78425f2ee972bd0dd018c053e50bc7fd6a943be9565e1b35c0c490516c53f4e",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102505,
+        "physical_state_sha256_excluding_clock": "a8bd4aae1dcf333f17831d36e04b5739352a823e8da0adc53b9169b611090882",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102506,
+        "physical_state_sha256_excluding_clock": "b8091e6c71ab3c86575f59c45218a80e20cb5f0e6ed3d1efef4008fd23d52bb7",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102507,
+        "physical_state_sha256_excluding_clock": "8e2a3c2bc645814f120156c7e3400e6725a6a5b53ec43b43e6891e5cb55931c7",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102508,
+        "physical_state_sha256_excluding_clock": "f2dcc24ee1e2f309a1bb6e10d1542c0dca96208947eba1bb200a8cc3b65d40d6",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102509,
+        "physical_state_sha256_excluding_clock": "bcccc3a4766a163481a074dba4bd47dfb22fe3c97a41f0d4a4b1b775c9eb245d",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102510,
+        "physical_state_sha256_excluding_clock": "d7614d328adbcfa9a869c7fae5697426e7601c33b3b66f1f2bbc5a0de1ff84f6",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102511,
+        "physical_state_sha256_excluding_clock": "190cb28956fc1dd1b72aecc74828fcb912107533d84d56c944be455c8ae7bfb2",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102512,
+        "physical_state_sha256_excluding_clock": "644bd06af1b692dca5c52c1eadde8b893a24637f9e3ce8bbb94444272c8c9d61",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102513,
+        "physical_state_sha256_excluding_clock": "24054a3c6a4d4ce377c73116f86b02c6927bc68a553bb363067208dc6bc164f7",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102514,
+        "physical_state_sha256_excluding_clock": "be9b6b2d7d2559517d27933d93b155a8dda1164fee9105310c6d50017b61bd17",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102515,
+        "physical_state_sha256_excluding_clock": "efddeb04218749ab709672dc0fdcecf92e7e73c64778ed6ad547bd39616cef25",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102516,
+        "physical_state_sha256_excluding_clock": "f05569b0023dc0227db08d8d21ef603bec537a64f6ca4e566fa5a252f7ff6932",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      },
+      {
+        "seed": 2026102517,
+        "physical_state_sha256_excluding_clock": "18b7beff4df08a6b5ac7f7f6a7d38ff077b7932c812bb502fb68d26a2cdf979c",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "muted_rose"
+      },
+      {
+        "seed": 2026102518,
+        "physical_state_sha256_excluding_clock": "789dfbd27e31b7cafbe1bbeae4f4ddb84f793d0b9f7089c7c1e422367d86c831",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "warm_teal"
+      },
+      {
+        "seed": 2026102519,
+        "physical_state_sha256_excluding_clock": "f5fb1c398b5b52efafb80436852c26f04ffc04562a347579f6c619beaecdf305",
+        "exact_matches_allowed_source_excluding_clock": [],
+        "palette": "cool_navy"
+      }
+    ],
+    "sealed_contents_read": false,
+    "independence_limit": "New legal reset samples are not independent final test. Absence of exact equality does not establish distributional independence or rule out all near-overlap; no protected arrays were read."
+  }
+]

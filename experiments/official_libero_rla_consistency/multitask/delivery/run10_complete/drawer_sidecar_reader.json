@@ -1,0 +1,3910 @@
+{
+  "status": "PASS",
+  "episodes_per_store": 25,
+  "stores": 4,
+  "checks": [
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 0,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 66,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 132,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 0,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 70,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 139,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 0,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 66,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 131,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 0,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 71,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 142,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 0,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 65,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 130,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 0,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 59,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 118,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 0,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 71,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 141,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 0,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 65,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 130,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 0,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 77,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 154,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 0,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 69,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 138,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 0,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 81,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 162,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 0,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 63,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 125,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 0,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 65,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 129,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 0,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 62,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 123,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 0,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 77,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 154,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 0,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 71,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 142,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 0,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 74,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 147,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 0,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 79,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 158,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 0,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 75,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 150,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 0,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 74,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 147,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 0,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 61,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 122,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 0,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 74,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 147,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 0,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 70,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 140,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 0,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 68,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 136,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 0,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 61,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 122,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 0,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 66,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 132,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 0,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 70,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 139,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 0,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 66,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 131,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 0,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 71,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 142,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 0,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 65,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 130,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 0,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 59,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 118,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 0,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 71,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 141,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 0,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 65,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 130,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 0,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 77,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 154,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 0,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 69,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 138,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 0,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 81,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 162,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 0,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 63,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 125,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 0,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 65,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 129,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 0,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 62,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 123,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 0,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 77,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 154,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 0,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 71,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 142,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 0,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 74,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 147,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 0,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 79,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 158,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 0,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 75,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 150,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 0,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 74,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 147,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 0,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 61,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 122,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 0,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 74,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 147,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 0,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 70,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 140,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 0,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 68,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 136,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 0,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 61,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "C",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 122,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 0,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 66,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 132,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 0,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 70,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 139,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 0,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 66,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 131,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 0,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 71,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 142,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 0,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 65,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 130,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 0,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 59,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 118,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 0,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 71,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 141,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 0,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 65,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 130,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 0,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 77,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 154,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 0,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 69,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 138,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 0,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 81,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 162,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 0,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 63,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 125,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 0,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 65,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 129,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 0,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 62,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 123,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 0,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 77,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 154,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 0,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 71,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 142,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 0,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 74,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 147,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 0,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 79,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 158,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 0,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 75,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 150,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 0,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 74,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 147,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 0,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 61,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 122,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 0,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 74,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 147,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 0,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 70,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 140,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 0,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 68,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 136,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 0,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 61,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "clean",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 122,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 0,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 66,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_13_v1",
+      "timestep": 132,
+      "slot": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 0,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 70,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_18_v1",
+      "timestep": 139,
+      "slot": 1,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 0,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 66,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_24_v1",
+      "timestep": 131,
+      "slot": 2,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 0,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 71,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_25_v1",
+      "timestep": 142,
+      "slot": 3,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 0,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 65,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_29_v1",
+      "timestep": 130,
+      "slot": 4,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 0,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 59,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_42_v1",
+      "timestep": 118,
+      "slot": 5,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 0,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 71,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_15_v1",
+      "timestep": 141,
+      "slot": 6,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 0,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 65,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_10_v1",
+      "timestep": 130,
+      "slot": 7,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 0,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 77,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_21_v1",
+      "timestep": 154,
+      "slot": 8,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 0,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 69,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_46_v1",
+      "timestep": 138,
+      "slot": 9,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 0,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 81,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_30_v1",
+      "timestep": 162,
+      "slot": 10,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 0,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 63,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_48_v1",
+      "timestep": 125,
+      "slot": 11,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 0,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 65,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_37_v1",
+      "timestep": 129,
+      "slot": 12,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 0,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 62,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_9_v1",
+      "timestep": 123,
+      "slot": 13,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 0,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 77,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_36_v1",
+      "timestep": 154,
+      "slot": 14,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 0,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 71,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_47_v1",
+      "timestep": 142,
+      "slot": 15,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 0,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 74,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_17_v1",
+      "timestep": 147,
+      "slot": 16,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 0,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 79,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_6_v1",
+      "timestep": 158,
+      "slot": 17,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 0,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 75,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_8_v1",
+      "timestep": 150,
+      "slot": 18,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 0,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 74,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_7_v1",
+      "timestep": 147,
+      "slot": 19,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 0,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 61,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_16_v1",
+      "timestep": 122,
+      "slot": 20,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 0,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 74,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_32_v1",
+      "timestep": 147,
+      "slot": 21,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 0,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 70,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_26_v1",
+      "timestep": 140,
+      "slot": 22,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 0,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 68,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_12_v1",
+      "timestep": 136,
+      "slot": 23,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 0,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 61,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    },
+    {
+      "model": "D",
+      "appearance": "background",
+      "episode": "derived_drawer_demo_34_v1",
+      "timestep": 122,
+      "slot": 24,
+      "shape": [
+        8,
+        1024
+      ],
+      "finite": true,
+      "join_exact": true
+    }
+  ],
+  "common_stats_sha256": "38ddbf7badb555eb93ea37ffdae122093701ac939a49aa2f1c2835ab256efa10",
+  "policy_updates": 0,
+  "GPU_forward": 0
+}

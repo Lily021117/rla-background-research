@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "appearance": "clean",
+      "D_minus_C": -0.3333333333333333,
+      "fixed_three_task_state_cluster_CI95": [
+        -0.3333333333333333,
+        -0.3333333333333333
+      ],
+      "per_task": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "appearance": "seen_background",
+      "D_minus_C": -0.31666666666666665,
+      "fixed_three_task_state_cluster_CI95": [
+        -0.3666666666666667,
+        -0.26666666666666666
+      ],
+      "per_task": [
+        0.05,
+        -0.05,
+        -0.95
+      ]
+    },
+    {
+      "appearance": "unseen_background",
+      "D_minus_C": -0.3333333333333333,
+      "fixed_three_task_state_cluster_CI95": [
+        -0.3333333333333333,
+        -0.3333333333333333
+      ],
+      "per_task": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "appearance": "three_appearance_mean",
+      "D_minus_C": -0.3277777777777777,
+      "fixed_three_task_state_cluster_CI95": [
+        -0.3444444444444445,
+        -0.31111111111111106
+      ],
+      "per_task": [
+        0.016666666666666666,
+        -0.016666666666666666,
+        -0.9833333333333332
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "background": "seen_background",
+      "D_C_interaction": 0.016666666666666666,
+      "fixed_three_task_state_cluster_CI95": [
+        -0.03333333333333333,
+        0.06666666666666667
+      ],
+      "per_task": [
+        0.05,
+        -0.05,
+        0.05
+      ]
+    },
+    {
+      "background": "unseen_background",
+      "D_C_interaction": 0.0,
+      "fixed_three_task_state_cluster_CI95": [
+        0.0,
+        0.0
+      ],
+      "per_task": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "limits": [
+    "Three fixed tasks only: conditional state-cluster intervals do not establish generalization across tasks",
+    "Single matched AE/policy training seed",
+    "Discrete success flips and empirical zero lower bounds do not establish stable positive gains",
+    "Historical cookie task has one unseen palette, new tasks have frozen three-palette mix",
+    "New reset development states are not independent final test; no sealed contents read"
+  ]
+}

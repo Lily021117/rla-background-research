@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PIPELINE_NOT_METHOD",
+  "AE_effective_updates": 2400,
+  "AE_logged_computations": 2488,
+  "AE_old_inflight_updates_unconfirmed": true,
+  "policy_effective_updates": 3600,
+  "valid_new_closed_loop_trials": 360,
+  "invalid_trials": 0,
+  "training_seed": 20261023,
+  "heldout_read": false,
+  "original_outputs_preserved": true,
+  "our_GPU_workers_released": true,
+  "ECC_increment_during_recovery": false,
+  "github_sync_receipt": "github_sync_receipt.json is written locally after remote verification; excluded from its own commit to avoid self-reference"
+}

@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_46_v1",
+      "appearance": "clean",
+      "anchor": 69,
+      "h": 1,
+      "future": 70,
+      "max_error": 0.0019445419311523438,
+      "tolerance": 0.21215368270874024,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0069.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0070.npz"
+      ],
+      "source_frame_sha256": [
+        "26f53e34520e706e153ee85d5d8ead9fda9a9e234b908416f98ae3dcf6806f03",
+        "340028b90aec9929c7213b768cb50fe4073b84bd063ca7eddcecc17afb258e9a"
+      ]
+    },
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_46_v1",
+      "appearance": "background",
+      "anchor": 69,
+      "h": 1,
+      "future": 70,
+      "max_error": 0.0019364356994628906,
+      "tolerance": 0.19923839569091797,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0069.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0070.npz"
+      ],
+      "source_frame_sha256": [
+        "26f53e34520e706e153ee85d5d8ead9fda9a9e234b908416f98ae3dcf6806f03",
+        "340028b90aec9929c7213b768cb50fe4073b84bd063ca7eddcecc17afb258e9a"
+      ]
+    },
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_12_v1",
+      "appearance": "clean",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0038471221923828125,
+      "tolerance": 0.18123523712158204,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0068.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0072.npz"
+      ],
+      "source_frame_sha256": [
+        "49402f192ec8caba52e3c843adbdd6c67ab56c5ada5f7d6cbd0ae183f1571521",
+        "c004dcbc913a0006751becae2590f80cdf48da54ced5140daa3ae10b6974e387"
+      ]
+    },
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_12_v1",
+      "appearance": "background",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0037097930908203125,
+      "tolerance": 0.1890687370300293,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0068.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0072.npz"
+      ],
+      "source_frame_sha256": [
+        "49402f192ec8caba52e3c843adbdd6c67ab56c5ada5f7d6cbd0ae183f1571521",
+        "c004dcbc913a0006751becae2590f80cdf48da54ced5140daa3ae10b6974e387"
+      ]
+    },
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_34_v1",
+      "appearance": "clean",
+      "anchor": 61,
+      "h": 8,
+      "future": 69,
+      "max_error": 0.0038194656372070312,
+      "tolerance": 0.23053909301757813,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0061.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0069.npz"
+      ],
+      "source_frame_sha256": [
+        "cc3f9b948303d97866bb6da847805b888a03be9285def241934a6bfb566840b0",
+        "7ebf0900f93587db37b0ca659b8efe91c38b1b953ff44dc194b83e50914f0f3c"
+      ]
+    },
+    {
+      "model": "C",
+      "episode": "derived_drawer_demo_34_v1",
+      "appearance": "background",
+      "anchor": 61,
+      "h": 8,
+      "future": 69,
+      "max_error": 0.0036716461181640625,
+      "tolerance": 0.2274155044555664,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0061.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0069.npz"
+      ],
+      "source_frame_sha256": [
+        "cc3f9b948303d97866bb6da847805b888a03be9285def241934a6bfb566840b0",
+        "7ebf0900f93587db37b0ca659b8efe91c38b1b953ff44dc194b83e50914f0f3c"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_46_v1",
+      "appearance": "clean",
+      "anchor": 69,
+      "h": 1,
+      "future": 70,
+      "max_error": 0.0009720325469970703,
+      "tolerance": 0.08063789367675782,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0069.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0070.npz"
+      ],
+      "source_frame_sha256": [
+        "26f53e34520e706e153ee85d5d8ead9fda9a9e234b908416f98ae3dcf6806f03",
+        "340028b90aec9929c7213b768cb50fe4073b84bd063ca7eddcecc17afb258e9a"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_46_v1",
+      "appearance": "background",
+      "anchor": 69,
+      "h": 1,
+      "future": 70,
+      "max_error": 0.0009579658508300781,
+      "tolerance": 0.07866647720336914,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0069.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_46_v1/frames/0070.npz"
+      ],
+      "source_frame_sha256": [
+        "26f53e34520e706e153ee85d5d8ead9fda9a9e234b908416f98ae3dcf6806f03",
+        "340028b90aec9929c7213b768cb50fe4073b84bd063ca7eddcecc17afb258e9a"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_12_v1",
+      "appearance": "clean",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0014443397521972656,
+      "tolerance": 0.08463789939880371,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0068.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0072.npz"
+      ],
+      "source_frame_sha256": [
+        "49402f192ec8caba52e3c843adbdd6c67ab56c5ada5f7d6cbd0ae183f1571521",
+        "c004dcbc913a0006751becae2590f80cdf48da54ced5140daa3ae10b6974e387"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_12_v1",
+      "appearance": "background",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0014014244079589844,
+      "tolerance": 0.08961398124694825,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0068.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_12_v1/frames/0072.npz"
+      ],
+      "source_frame_sha256": [
+        "49402f192ec8caba52e3c843adbdd6c67ab56c5ada5f7d6cbd0ae183f1571521",
+        "c004dcbc913a0006751becae2590f80cdf48da54ced5140daa3ae10b6974e387"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_34_v1",
+      "appearance": "clean",
+      "anchor": 61,
+      "h": 8,
+      "future": 69,
+      "max_error": 0.0018420219421386719,
+      "tolerance": 0.09735666275024414,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0061.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0069.npz"
+      ],
+      "source_frame_sha256": [
+        "cc3f9b948303d97866bb6da847805b888a03be9285def241934a6bfb566840b0",
+        "7ebf0900f93587db37b0ca659b8efe91c38b1b953ff44dc194b83e50914f0f3c"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_drawer_demo_34_v1",
+      "appearance": "background",
+      "anchor": 61,
+      "h": 8,
+      "future": 69,
+      "max_error": 0.0019412040710449219,
+      "tolerance": 0.09347696304321289,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0061.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/episodes/derived_drawer_demo_34_v1/frames/0069.npz"
+      ],
+      "source_frame_sha256": [
+        "cc3f9b948303d97866bb6da847805b888a03be9285def241934a6bfb566840b0",
+        "7ebf0900f93587db37b0ca659b8efe91c38b1b953ff44dc194b83e50914f0f3c"
+      ]
+    }
+  ],
+  "selection": "seed20261023 choose3 episodes before model scoring, horizons1/4/8",
+  "same_preprocessing": true,
+  "no_new_training": true,
+  "ECC_increment": false
+}

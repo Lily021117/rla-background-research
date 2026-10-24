@@ -1,0 +1,470 @@
+[
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "appearance": "clean",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "appearance": "seen_background",
+    "difference": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ],
+    "gain": 1,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "appearance": "unseen_background",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "appearance": "three_appearance_mean",
+    "difference": 0.016666666666666666,
+    "CI95": [
+      0.0,
+      0.05
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "appearance": "clean",
+    "difference": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ],
+    "gain": 1,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "appearance": "seen_background",
+    "difference": 0.1,
+    "CI95": [
+      -0.1,
+      0.3
+    ],
+    "gain": 3,
+    "loss": 1,
+    "exact_discordant_p": 0.625
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "appearance": "unseen_background",
+    "difference": 0.15,
+    "CI95": [
+      0.0,
+      0.3
+    ],
+    "gain": 3,
+    "loss": 0,
+    "exact_discordant_p": 0.25
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "appearance": "three_appearance_mean",
+    "difference": 0.1,
+    "CI95": [
+      0.0,
+      0.21666666666666665
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "appearance": "clean",
+    "difference": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ],
+    "gain": 1,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "appearance": "seen_background",
+    "difference": 0.15,
+    "CI95": [
+      0.0,
+      0.3
+    ],
+    "gain": 3,
+    "loss": 0,
+    "exact_discordant_p": 0.25
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "appearance": "unseen_background",
+    "difference": 0.15,
+    "CI95": [
+      0.0,
+      0.3
+    ],
+    "gain": 3,
+    "loss": 0,
+    "exact_discordant_p": 0.25
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "appearance": "three_appearance_mean",
+    "difference": 0.11666666666666665,
+    "CI95": [
+      0.03333333333333333,
+      0.21666666666666665
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "appearance": "clean",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "appearance": "seen_background",
+    "difference": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 1,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "appearance": "unseen_background",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "appearance": "three_appearance_mean",
+    "difference": -0.016666666666666666,
+    "CI95": [
+      -0.05,
+      0.0
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "appearance": "clean",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "appearance": "seen_background",
+    "difference": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ],
+    "gain": 1,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "appearance": "unseen_background",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "appearance": "three_appearance_mean",
+    "difference": 0.016666666666666666,
+    "CI95": [
+      0.0,
+      0.05
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "appearance": "clean",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "appearance": "seen_background",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "appearance": "unseen_background",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 0,
+    "exact_discordant_p": 1.0
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "appearance": "three_appearance_mean",
+    "difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "appearance": "clean",
+    "difference": -1.0,
+    "CI95": [
+      -1.0,
+      -1.0
+    ],
+    "gain": 0,
+    "loss": 20,
+    "exact_discordant_p": 1.9073486328125e-06
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "appearance": "seen_background",
+    "difference": -0.95,
+    "CI95": [
+      -1.0,
+      -0.85
+    ],
+    "gain": 0,
+    "loss": 19,
+    "exact_discordant_p": 3.814697265625e-06
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "appearance": "unseen_background",
+    "difference": -1.0,
+    "CI95": [
+      -1.0,
+      -1.0
+    ],
+    "gain": 0,
+    "loss": 20,
+    "exact_discordant_p": 1.9073486328125e-06
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "appearance": "three_appearance_mean",
+    "difference": -0.9833333333333332,
+    "CI95": [
+      -1.0,
+      -0.95
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "appearance": "clean",
+    "difference": 0.9,
+    "CI95": [
+      0.75,
+      1.0
+    ],
+    "gain": 18,
+    "loss": 0,
+    "exact_discordant_p": 7.62939453125e-06
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "appearance": "seen_background",
+    "difference": 0.85,
+    "CI95": [
+      0.7,
+      1.0
+    ],
+    "gain": 17,
+    "loss": 0,
+    "exact_discordant_p": 1.52587890625e-05
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "appearance": "unseen_background",
+    "difference": 0.75,
+    "CI95": [
+      0.55,
+      0.95
+    ],
+    "gain": 15,
+    "loss": 0,
+    "exact_discordant_p": 6.103515625e-05
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "appearance": "three_appearance_mean",
+    "difference": 0.8333333333333333,
+    "CI95": [
+      0.7166666666666667,
+      0.9333333333333332
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "appearance": "clean",
+    "difference": -0.1,
+    "CI95": [
+      -0.25,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 2,
+    "exact_discordant_p": 0.5
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "appearance": "seen_background",
+    "difference": -0.1,
+    "CI95": [
+      -0.25,
+      0.0
+    ],
+    "gain": 0,
+    "loss": 2,
+    "exact_discordant_p": 0.5
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "appearance": "unseen_background",
+    "difference": -0.25,
+    "CI95": [
+      -0.45,
+      -0.05
+    ],
+    "gain": 0,
+    "loss": 5,
+    "exact_discordant_p": 0.0625
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "appearance": "three_appearance_mean",
+    "difference": -0.15,
+    "CI95": [
+      -0.26666666666666666,
+      -0.05
+    ],
+    "gain": null,
+    "loss": null,
+    "exact_discordant_p": null
+  }
+]

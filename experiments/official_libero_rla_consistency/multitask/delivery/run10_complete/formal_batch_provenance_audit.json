@@ -1,0 +1,679 @@
+{
+  "policy_training_source_sha256": "601177e26d44d830bba2e40c040ed8093844ed0409299122357849ca8555fc54",
+  "tasks": [
+    {
+      "task": "drawer",
+      "actual_manifest": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/frozen_dataset_manifest.json",
+      "actual_train_episodes": [
+        "derived_drawer_demo_12_v1",
+        "derived_drawer_demo_13_v1",
+        "derived_drawer_demo_16_v1",
+        "derived_drawer_demo_17_v1",
+        "derived_drawer_demo_18_v1",
+        "derived_drawer_demo_24_v1",
+        "derived_drawer_demo_25_v1",
+        "derived_drawer_demo_26_v1",
+        "derived_drawer_demo_30_v1",
+        "derived_drawer_demo_32_v1",
+        "derived_drawer_demo_34_v1",
+        "derived_drawer_demo_36_v1",
+        "derived_drawer_demo_37_v1",
+        "derived_drawer_demo_42_v1",
+        "derived_drawer_demo_47_v1",
+        "derived_drawer_demo_48_v1",
+        "derived_drawer_demo_6_v1",
+        "derived_drawer_demo_7_v1",
+        "derived_drawer_demo_8_v1",
+        "derived_drawer_demo_9_v1"
+      ],
+      "real_first_batch": [
+        {
+          "episode": "derived_drawer_demo_47_v1",
+          "timestep": 42,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_47_v1",
+          "timestep": 42,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_18_v1",
+          "timestep": 131,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_18_v1",
+          "timestep": 131,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_47_v1",
+          "timestep": 28,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_47_v1",
+          "timestep": 28,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_12_v1",
+          "timestep": 25,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_12_v1",
+          "timestep": 25,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_24_v1",
+          "timestep": 72,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_24_v1",
+          "timestep": 72,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_48_v1",
+          "timestep": 14,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_48_v1",
+          "timestep": 14,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_32_v1",
+          "timestep": 58,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_32_v1",
+          "timestep": 58,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_17_v1",
+          "timestep": 130,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_drawer_demo_17_v1",
+          "timestep": 130,
+          "appearance": "background",
+          "instruction": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        }
+      ],
+      "runtime_language_assertion": "Executed for every formal training and validation sample; all runs completed without assertion failure",
+      "legacy_bootstrap_batch_audit": "Describes reference-only bootstrap batch, not the formal training batch. It is preserved but must not be cited as actual episode/task provenance.",
+      "formal_forward": "execute.batch(examples) -> forward(b) -> official run_forward_pass(batch=b); no use of global bootstrap batch",
+      "sampling_rule": "8 physical transitions/update, each clean+background once, common4800 order forB/C/D",
+      "optimizer_updates_by_this_audit": 0
+    },
+    {
+      "task": "stove",
+      "actual_manifest": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "actual_train_episodes": [
+        "derived_stove_demo_0_v1",
+        "derived_stove_demo_12_v1",
+        "derived_stove_demo_13_v1",
+        "derived_stove_demo_14_v1",
+        "derived_stove_demo_16_v1",
+        "derived_stove_demo_18_v1",
+        "derived_stove_demo_19_v1",
+        "derived_stove_demo_28_v1",
+        "derived_stove_demo_29_v1",
+        "derived_stove_demo_32_v1",
+        "derived_stove_demo_36_v1",
+        "derived_stove_demo_37_v1",
+        "derived_stove_demo_38_v1",
+        "derived_stove_demo_45_v1",
+        "derived_stove_demo_47_v1",
+        "derived_stove_demo_48_v1",
+        "derived_stove_demo_5_v1",
+        "derived_stove_demo_6_v1",
+        "derived_stove_demo_7_v1",
+        "derived_stove_demo_9_v1"
+      ],
+      "real_first_batch": [
+        {
+          "episode": "derived_stove_demo_36_v1",
+          "timestep": 66,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_36_v1",
+          "timestep": 66,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_18_v1",
+          "timestep": 28,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_18_v1",
+          "timestep": 28,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_6_v1",
+          "timestep": 69,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_6_v1",
+          "timestep": 69,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_28_v1",
+          "timestep": 6,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_28_v1",
+          "timestep": 6,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_5_v1",
+          "timestep": 50,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_5_v1",
+          "timestep": 50,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_37_v1",
+          "timestep": 15,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_37_v1",
+          "timestep": 15,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_28_v1",
+          "timestep": 57,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_28_v1",
+          "timestep": 57,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_38_v1",
+          "timestep": 29,
+          "appearance": "clean",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        },
+        {
+          "episode": "derived_stove_demo_38_v1",
+          "timestep": 29,
+          "appearance": "background",
+          "instruction": "pick up the black bowl on the stove and place it on the plate",
+          "language_verified_in_actual_tokens": true,
+          "action_shape": [
+            8,
+            7
+          ],
+          "proprio_shape": [
+            8
+          ],
+          "RLA_shape": [
+            8,
+            1024
+          ],
+          "future_inputs": false
+        }
+      ],
+      "runtime_language_assertion": "Executed for every formal training and validation sample; all runs completed without assertion failure",
+      "legacy_bootstrap_batch_audit": "Describes reference-only bootstrap batch, not the formal training batch. It is preserved but must not be cited as actual episode/task provenance.",
+      "formal_forward": "execute.batch(examples) -> forward(b) -> official run_forward_pass(batch=b); no use of global bootstrap batch",
+      "sampling_rule": "8 physical transitions/update, each clean+background once, common4800 order forB/C/D",
+      "optimizer_updates_by_this_audit": 0
+    }
+  ]
+}

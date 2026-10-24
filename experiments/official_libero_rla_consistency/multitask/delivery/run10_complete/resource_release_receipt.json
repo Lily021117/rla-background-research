@@ -1,0 +1,10 @@
+{
+  "status": "PASS_OUR_GPU_WORKERS_RELEASED",
+  "used_devices": [0, 1],
+  "GPU2_excluded": true,
+  "GPU3_not_reused_after_new_fault": true,
+  "ECC_increment_during_recovery": false,
+  "other_processes_not_terminated": true,
+  "GPU_reset": false,
+  "scope": "Only this experiment's workers exited; other tasks and historical ECC baselines preserved"
+}

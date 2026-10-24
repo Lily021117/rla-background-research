@@ -1,0 +1,29 @@
+{
+  "action_only_gradient_hashes": [
+    "1fcd2a2763aaf99692f3e26a312544a00dab347e4c93da2af3f777860bf525a9",
+    "1fcd2a2763aaf99692f3e26a312544a00dab347e4c93da2af3f777860bf525a9"
+  ],
+  "action_output_hashes": [
+    "60d15d8e5b0db88728a9b7bdd9e7bdf372445aa4907b8b7831f16103281faf94",
+    "60d15d8e5b0db88728a9b7bdd9e7bdf372445aa4907b8b7831f16103281faf94"
+  ],
+  "exact_C_D_action_only_match": true,
+  "auxiliary_checks": [
+    {
+      "target": "C",
+      "raw_loss": 0.6717830896377563,
+      "lambda_aux": 0.22408536585365854,
+      "weighted_loss": 0.1505367594157777,
+      "shared_backbone_aux_gradient_norm": 0.3909201276288523
+    },
+    {
+      "target": "D",
+      "raw_loss": 0.6253025531768799,
+      "lambda_aux": 0.22408536585365854,
+      "weighted_loss": 0.1401211513978679,
+      "shared_backbone_aux_gradient_norm": 0.47639746475475386
+    }
+  ],
+  "optimizer_updates": 0,
+  "common_initialization_restored_between_checks": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "episodes": 25,
+  "appearance_sequences": 50,
+  "RGB_images": 14736,
+  "ECC_increment": false,
+  "peak_allocated": 2629559296,
+  "seconds": 213.88233399391174
+}

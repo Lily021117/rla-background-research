@@ -1,0 +1,3 @@
+task,train,development,physical_frames,train_chunks,development_chunks,RGB_images,new_development_states
+drawer,20,5,3684,2786,698,14736,20
+stove,20,5,3458,2555,703,13832,20

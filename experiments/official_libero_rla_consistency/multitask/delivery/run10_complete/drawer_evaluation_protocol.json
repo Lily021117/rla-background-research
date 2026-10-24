@@ -1,0 +1,46 @@
+{
+  "frozen": true,
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/drawer/ae_run_recovery1/development_protocol/evaluation_protocol.json",
+  "conditions": [
+    "clean",
+    "seen_background",
+    "unseen_background"
+  ],
+  "models": [
+    "B",
+    "C",
+    "D"
+  ],
+  "states": [
+    2026102400,
+    2026102401,
+    2026102402,
+    2026102403,
+    2026102404,
+    2026102405,
+    2026102406,
+    2026102407,
+    2026102408,
+    2026102409,
+    2026102410,
+    2026102411,
+    2026102412,
+    2026102413,
+    2026102414,
+    2026102415,
+    2026102416,
+    2026102417,
+    2026102418,
+    2026102419
+  ],
+  "order": "state,condition,model",
+  "trials": 180,
+  "max_steps": 220,
+  "chunk_execution": 8,
+  "reflection": 1,
+  "MSAA": 4,
+  "bddl": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+  "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+  "role": "new development, not independent final test",
+  "invalid_rule": "stop, preserve logs; only identified infrastructure repairs may retry exact triplet, no task-failure retries"
+}

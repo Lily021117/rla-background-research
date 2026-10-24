@@ -1,0 +1,326 @@
+[
+  {
+    "task": "cookie_historical",
+    "appearance": "clean",
+    "model": "B",
+    "successes": 19,
+    "trials": 20,
+    "SR": 0.95,
+    "Wilson95": [
+      0.763868806553258,
+      0.9911185511992047
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "clean",
+    "model": "C",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "clean",
+    "model": "D",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "seen_background",
+    "model": "B",
+    "successes": 17,
+    "trials": 20,
+    "SR": 0.85,
+    "Wilson95": [
+      0.6395811352592431,
+      0.9476312541037835
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "seen_background",
+    "model": "C",
+    "successes": 19,
+    "trials": 20,
+    "SR": 0.95,
+    "Wilson95": [
+      0.763868806553258,
+      0.9911185511992047
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "seen_background",
+    "model": "D",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "unseen_background",
+    "model": "B",
+    "successes": 17,
+    "trials": 20,
+    "SR": 0.85,
+    "Wilson95": [
+      0.6395811352592431,
+      0.9476312541037835
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "unseen_background",
+    "model": "C",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "appearance": "unseen_background",
+    "model": "D",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "clean",
+    "model": "B",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "clean",
+    "model": "C",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "clean",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "seen_background",
+    "model": "B",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "seen_background",
+    "model": "C",
+    "successes": 1,
+    "trials": 20,
+    "SR": 0.05,
+    "Wilson95": [
+      0.008881448800795402,
+      0.23613119344674205
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "seen_background",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "unseen_background",
+    "model": "B",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "unseen_background",
+    "model": "C",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "drawer",
+    "appearance": "unseen_background",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "clean",
+    "model": "B",
+    "successes": 2,
+    "trials": 20,
+    "SR": 0.1,
+    "Wilson95": [
+      0.027866481213768224,
+      0.3010336452284873
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "clean",
+    "model": "C",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "clean",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "seen_background",
+    "model": "B",
+    "successes": 2,
+    "trials": 20,
+    "SR": 0.1,
+    "Wilson95": [
+      0.027866481213768224,
+      0.3010336452284873
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "seen_background",
+    "model": "C",
+    "successes": 19,
+    "trials": 20,
+    "SR": 0.95,
+    "Wilson95": [
+      0.763868806553258,
+      0.9911185511992047
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "seen_background",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "unseen_background",
+    "model": "B",
+    "successes": 5,
+    "trials": 20,
+    "SR": 0.25,
+    "Wilson95": [
+      0.11186170140766569,
+      0.468700877618744
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "unseen_background",
+    "model": "C",
+    "successes": 20,
+    "trials": 20,
+    "SR": 1.0,
+    "Wilson95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  {
+    "task": "stove",
+    "appearance": "unseen_background",
+    "model": "D",
+    "successes": 0,
+    "trials": 20,
+    "SR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.16112515805281938
+    ]
+  }
+]

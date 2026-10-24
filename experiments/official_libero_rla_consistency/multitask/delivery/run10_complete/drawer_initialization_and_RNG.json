@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SAVED_C_D_STEP0_EXACT",
+  "parameters": 322589983,
+  "trainable_parameter_digest": "65da4765696e0537efa2360d519db66b74332808d1e1a45d12632b732e5f0c20",
+  "CPU_CUDA_Python_NumPy_RNG_equal": true,
+  "configuration_equal": true,
+  "initial_optimizer_states_empty": true,
+  "common_untrained_reference": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+  "target_difference_only": "C uses AE-C; D uses AE-D; fixed common auxiliary coefficient and normalization",
+  "preflight": {
+    "action_only_gradient_hashes": [
+      "8fd9c6edb1ee37e66a461ee0e0f19c15284aabcc45b205f4799ab5c38893412e",
+      "8fd9c6edb1ee37e66a461ee0e0f19c15284aabcc45b205f4799ab5c38893412e"
+    ],
+    "action_output_hashes": [
+      "5fc0fa2764329d46e8e3d02d2d9ce591599a08bd806f7eba397c521301f20409",
+      "5fc0fa2764329d46e8e3d02d2d9ce591599a08bd806f7eba397c521301f20409"
+    ],
+    "exact_C_D_action_only_match": true,
+    "auxiliary_checks": [
+      {
+        "target": "C",
+        "raw_loss": 0.6681015491485596,
+        "lambda_aux": 0.22408536585365854,
+        "weighted_loss": 0.149711780068351,
+        "shared_backbone_aux_gradient_norm": 0.40695783465248625
+      },
+      {
+        "target": "D",
+        "raw_loss": 0.6195321083068848,
+        "lambda_aux": 0.22408536585365854,
+        "weighted_loss": 0.1388280791480367,
+        "shared_backbone_aux_gradient_norm": 0.44353526131118615
+      }
+    ],
+    "optimizer_updates": 0,
+    "common_initialization_restored_between_checks": true
+  },
+  "updates_by_this_audit": 0
+}

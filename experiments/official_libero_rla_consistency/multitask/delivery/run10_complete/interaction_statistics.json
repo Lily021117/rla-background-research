@@ -1,0 +1,182 @@
+[
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "background": "seen_background",
+    "value": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-C",
+    "background": "unseen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "background": "seen_background",
+    "value": 0.05,
+    "CI95": [
+      -0.15,
+      0.25
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "C-B",
+    "background": "unseen_background",
+    "value": 0.1,
+    "CI95": [
+      0.0,
+      0.25
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "background": "seen_background",
+    "value": 0.1,
+    "CI95": [
+      -0.1,
+      0.3
+    ]
+  },
+  {
+    "task": "cookie_historical",
+    "comparison": "D-B",
+    "background": "unseen_background",
+    "value": 0.1,
+    "CI95": [
+      0.0,
+      0.25
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "background": "seen_background",
+    "value": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-C",
+    "background": "unseen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "background": "seen_background",
+    "value": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "C-B",
+    "background": "unseen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "background": "seen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "drawer",
+    "comparison": "D-B",
+    "background": "unseen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "background": "seen_background",
+    "value": 0.05,
+    "CI95": [
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "D-C",
+    "background": "unseen_background",
+    "value": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "background": "seen_background",
+    "value": -0.05,
+    "CI95": [
+      -0.2,
+      0.1
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "C-B",
+    "background": "unseen_background",
+    "value": -0.15,
+    "CI95": [
+      -0.35,
+      0.05
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "background": "seen_background",
+    "value": 0.0,
+    "CI95": [
+      -0.15,
+      0.15
+    ]
+  },
+  {
+    "task": "stove",
+    "comparison": "D-B",
+    "background": "unseen_background",
+    "value": -0.15,
+    "CI95": [
+      -0.35,
+      0.05
+    ]
+  }
+]
