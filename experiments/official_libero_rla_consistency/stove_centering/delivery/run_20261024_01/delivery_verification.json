@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD",
+  "training_successful_updates": {
+    "D-old": 600,
+    "D-center": 600
+  },
+  "AE_updates": 0,
+  "formal_replayed_updates": 0,
+  "preflight_updates": 0,
+  "diagnostic_backward_calls": 162,
+  "valid_rollouts": 120,
+  "invalid_rollouts": 1,
+  "evaluation_resume": {
+    "preserved_valid_trials": 101,
+    "interrupted_attempts": [
+      {
+        "seed": 2026102516,
+        "condition": "unseen_background",
+        "model": "D-center",
+        "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/closed_loop/2026102516_unseen_background_D-center",
+        "files": [],
+        "reason": "process interrupted during network interruption; no completed result",
+        "status": "INVALID_INFRASTRUCTURE_INTERRUPTION"
+      }
+    ],
+    "remaining_trials": 19,
+    "protocol_unchanged": true
+  },
+  "sealed_contents_read": false,
+  "protected_files_checked": 56,
+  "historical_files_unchanged": true,
+  "source_sidecars_unchanged": true,
+  "mean_training_statistic_rows": 40880,
+  "GPU_uuid": "GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419",
+  "GPU_released": true,
+  "initial_gate_configuration_failures": 2,
+  "gate_failure_reason": "new launcher initially omitted RLA_STEPS; strict load stopped before forward/update; explicit official8 restored, no data/model change"
+}

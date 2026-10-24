@@ -1,0 +1,9 @@
+arm,condition,stage,count
+D-old,clean,near_target_grasp_or_contact_failure,19
+D-center,clean,post_lift_or_placement_failure,20
+D-old,seen_background,near_target_grasp_or_contact_failure,20
+D-center,seen_background,post_lift_or_placement_failure,20
+D-old,unseen_background,near_target_grasp_or_contact_failure,16
+D-center,unseen_background,post_lift_or_placement_failure,20
+D-old,clean,approach_failure,1
+D-old,unseen_background,approach_failure,4

@@ -6,6 +6,10 @@ from common import save,sha
 p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.parse_args();dest=Path(__file__).resolve().parent/'delivery'/a.out.name;dest.mkdir(parents=True,exist_ok=False)
 allowed=['report.md','run_plan.json','training_config_D-old.json','training_config_D-center.json','target_center_audit.json','statistics_hashes.json','early_reproduction.json','initialization_and_reproduction_audit.json','paired_statistics.json','paired_results.csv','per_trial_results.csv','training_metrics.csv','offline_summary.csv','failure_stage_counts.csv','checkpoint_inventory.csv','evaluation_protocol.json','delivery_verification.json','gate_acceptance.json','mean_training_sources.csv']
 allowed += ['diagnostics/isolated_smoke/'+n for n in ['gradient_contributions.csv','auxiliary_residual_energy.csv','verification.json']]
+allowed += ['rollout_gripper_timing.csv','rollout_timing_verification.json']
+allowed += ['final_full_validation_summary.csv','final_closure_anchor_summary.csv','final_auxiliary_energy_summary.csv']
+allowed += ['frozen_AE_sidecar_inventory.json']
+allowed += ['evaluation_resume_audit.json']
 def sanitize(s):
  s=s.replace('/data/lyc/projects/rla-wm','${PROJECT_ROOT}').replace('/data/lyc/projects/vla-adapter-ref','${VLA_REFERENCE}').replace('/data/lyc','${DATA_ROOT}')
  assert not re.search(r'(gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN .*PRIVATE KEY-----)',s)

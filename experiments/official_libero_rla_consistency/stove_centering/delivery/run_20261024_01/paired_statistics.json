@@ -1,0 +1,108 @@
+{
+  "conditions": [
+    {
+      "condition": "clean",
+      "D_old_success": 0,
+      "D_center_success": 0,
+      "trials_per_arm": 20,
+      "D_center_minus_D_old": 0.0,
+      "paired_95_CI": [
+        0.0,
+        0.0
+      ],
+      "old_fail_center_success": 0,
+      "old_success_center_fail": 0,
+      "historical_C_success": 20,
+      "D_old_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "D_center_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "exact_McNemar_p": 1.0,
+      "bootstrap_degenerate": true,
+      "marginal_CI_scope": "one appearance,20 physical states; does not pool60 appearances as independent"
+    },
+    {
+      "condition": "seen_background",
+      "D_old_success": 0,
+      "D_center_success": 0,
+      "trials_per_arm": 20,
+      "D_center_minus_D_old": 0.0,
+      "paired_95_CI": [
+        0.0,
+        0.0
+      ],
+      "old_fail_center_success": 0,
+      "old_success_center_fail": 0,
+      "historical_C_success": 19,
+      "D_old_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "D_center_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "exact_McNemar_p": 1.0,
+      "bootstrap_degenerate": true,
+      "marginal_CI_scope": "one appearance,20 physical states; does not pool60 appearances as independent"
+    },
+    {
+      "condition": "unseen_background",
+      "D_old_success": 0,
+      "D_center_success": 0,
+      "trials_per_arm": 20,
+      "D_center_minus_D_old": 0.0,
+      "paired_95_CI": [
+        0.0,
+        0.0
+      ],
+      "old_fail_center_success": 0,
+      "old_success_center_fail": 0,
+      "historical_C_success": 20,
+      "D_old_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "D_center_exact_binomial_CI95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "exact_McNemar_p": 1.0,
+      "bootstrap_degenerate": true,
+      "marginal_CI_scope": "one appearance,20 physical states; does not pool60 appearances as independent"
+    }
+  ],
+  "overall_state_cluster_difference": 0.0,
+  "overall_state_cluster_CI95": [
+    0.0,
+    0.0
+  ],
+  "interactions": [
+    {
+      "background": "seen_background",
+      "interaction": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "background": "unseen_background",
+      "interaction": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "bootstrap_seed": 20261024,
+  "bootstrap_replicates": 10000,
+  "cluster_unit": "physical state, all3 appearances kept together",
+  "single_training_seed": true,
+  "development_not_test": true,
+  "discrete_CI_warning": "20 states and few flips yield discrete intervals; zero lower bound is not stable evidence"
+}

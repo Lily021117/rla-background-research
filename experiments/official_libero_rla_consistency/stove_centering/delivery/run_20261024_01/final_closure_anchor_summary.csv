@@ -1,0 +1,5 @@
+arm,split,closure_anchor_observations,h0_closed_predictions
+D-old,train,40,29
+D-old,validation,10,9
+D-center,train,40,34
+D-center,validation,10,10

@@ -1,0 +1,158 @@
+{
+  "allowlist": [
+    {
+      "name": "report.md",
+      "bytes": 9172,
+      "sha256": "2440ff8cb04f8fbb423c754a4fd408317e8ef069270773b2563fa55f6bab875a"
+    },
+    {
+      "name": "run_plan.json",
+      "bytes": 4324,
+      "sha256": "8a6ec3852ce0f17536514bf51bcb1f8522fe39a7af528afd6a0ffea7708133c1"
+    },
+    {
+      "name": "training_config_D-old.json",
+      "bytes": 4552,
+      "sha256": "fa82b2fcdad00bf1cb7dac029a601aeedb4fc1b923620b0669346574db30473b"
+    },
+    {
+      "name": "training_config_D-center.json",
+      "bytes": 4555,
+      "sha256": "faa056e745267dfa72497d72fc4344d6ad539b29d31ef4f045e00746b6b80760"
+    },
+    {
+      "name": "target_center_audit.json",
+      "bytes": 525,
+      "sha256": "fdb8a1a9a92d51a0baca66e53b7e3111700b109fb717192f77bd4bb8a23fc63d"
+    },
+    {
+      "name": "statistics_hashes.json",
+      "bytes": 773,
+      "sha256": "22b39c426fdee4569a07bb35dea639452a5278fcaea49485f85ff55d24b05559"
+    },
+    {
+      "name": "early_reproduction.json",
+      "bytes": 643,
+      "sha256": "313490c3a79facef8afe907944f0572c1841dfcebcb1e7887e50382ed7f1348c"
+    },
+    {
+      "name": "initialization_and_reproduction_audit.json",
+      "bytes": 2070,
+      "sha256": "72623dd04c0db52dcc9bc883139d268aad8b5bc023d02cd6f579f69f0ccec46d"
+    },
+    {
+      "name": "paired_statistics.json",
+      "bytes": 2751,
+      "sha256": "4fc138d8d92b6da1c7c4f90dbba250b0305fa69f8896ae2f021d5d6090bcffa4"
+    },
+    {
+      "name": "paired_results.csv",
+      "bytes": 6569,
+      "sha256": "20c40eba904e329b86c6a77a5a34863ef007909a3fed4b496122a29f56bd1eac"
+    },
+    {
+      "name": "per_trial_results.csv",
+      "bytes": 86950,
+      "sha256": "38e2a45fc53bc57c2033440255165f731376adab0a90faa5f4c380915bffa4e8"
+    },
+    {
+      "name": "training_metrics.csv",
+      "bytes": 252574,
+      "sha256": "039c3999a79207b94d07dfa5259f14488490f4e005cf1132384a63590bed5bd5"
+    },
+    {
+      "name": "offline_summary.csv",
+      "bytes": 2851,
+      "sha256": "812f08f16ea8e6e171b8bdb34a147652dfadfe6b48d8f6afe05663598425fb98"
+    },
+    {
+      "name": "failure_stage_counts.csv",
+      "bytes": 447,
+      "sha256": "d16776833b78b74ea15a2b75c55085f0609f164eac375ea70cc047722b04a876"
+    },
+    {
+      "name": "checkpoint_inventory.csv",
+      "bytes": 2938,
+      "sha256": "01df6512491205afddd791f5b341f050d72ff26608ee3b94e8c923f08c7ba348"
+    },
+    {
+      "name": "evaluation_protocol.json",
+      "bytes": 1328,
+      "sha256": "801b10591907aec294f372206d30822197fd2e730e02637934166b534bce3f14"
+    },
+    {
+      "name": "delivery_verification.json",
+      "bytes": 1359,
+      "sha256": "351c271c75569c2496d867697b1f3d2a6e3dad1396dfeb1775b02463abcdbfb0"
+    },
+    {
+      "name": "gate_acceptance.json",
+      "bytes": 1014,
+      "sha256": "720d6e5c5d479f5ef316c47836d06860cbf1a8bf33a7f04de500b4792bf60f5d"
+    },
+    {
+      "name": "mean_training_sources.csv",
+      "bytes": 10084,
+      "sha256": "59f3116e50181ca694c1f9b6367f77bbf252ac67f4abc75b1902e6359114badd"
+    },
+    {
+      "name": "gradient_contributions.csv",
+      "bytes": 18686,
+      "sha256": "e9730ae55c0c9730a42b8fc17943cad4d9a91c373a0055ff442c94f1c003667c"
+    },
+    {
+      "name": "auxiliary_residual_energy.csv",
+      "bytes": 110752,
+      "sha256": "7774d7501c5829caeed0340b5499eb4cac61b6d20856ee1bf7c97dfcdb475154"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1883,
+      "sha256": "22ef606da37c14d5f069444aa9dbc114925a2777d9a40bc74b4ac388edef27fc"
+    },
+    {
+      "name": "rollout_gripper_timing.csv",
+      "bytes": 16400,
+      "sha256": "6a0a49aec644f0a5102882ff8f403898351277d3f923066a9c51c790665a0c14"
+    },
+    {
+      "name": "rollout_timing_verification.json",
+      "bytes": 396,
+      "sha256": "15afc43482f6be0cb45f10be79f45a81d87a87574d7bd49172ef3cb35e74eb7e"
+    },
+    {
+      "name": "final_full_validation_summary.csv",
+      "bytes": 165,
+      "sha256": "e95980302793f50d38cc8cc73642191bdd396e0c3bae7ec40264f143618933be"
+    },
+    {
+      "name": "final_closure_anchor_summary.csv",
+      "bytes": 147,
+      "sha256": "6e7f98947f8d7dbbff6dcc3d3c4b647f7c94f1b0ec4e455119b9745c48a9a2d3"
+    },
+    {
+      "name": "final_auxiliary_energy_summary.csv",
+      "bytes": 562,
+      "sha256": "2fe3c0b588b4a6af54f77bb8d1a2bc23bfa4357f7ee3c4abe1525a4fb04e8d49"
+    },
+    {
+      "name": "frozen_AE_sidecar_inventory.json",
+      "bytes": 367,
+      "sha256": "ae39313347c07558313a9a08cd367367e844d431ffec29f879bb4f7c7bb9f9f1"
+    },
+    {
+      "name": "evaluation_resume_audit.json",
+      "bytes": 549,
+      "sha256": "fd168ea101b76e98d0f2d857d29a16e6edbc6153d21f9c7bbf0381f5d9e24634"
+    }
+  ],
+  "excluded": [
+    "model weights",
+    "raw images",
+    "sidecar arrays",
+    "raw trajectories",
+    "videos",
+    "credentials"
+  ],
+  "historical_files_unchanged": true
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "outputs_identical": true,
+  "action_hashes": [
+    "1a04fbebda33953015ce5be93cb7adc52c7a6dbcda98522774ad4ee5740c789a",
+    "1a04fbebda33953015ce5be93cb7adc52c7a6dbcda98522774ad4ee5740c789a"
+  ],
+  "aux_hashes": [
+    "90b33a3b3a210a536abdb48535a13d1383d7615b2d87431945bfcf84f73b3c22",
+    "90b33a3b3a210a536abdb48535a13d1383d7615b2d87431945bfcf84f73b3c22"
+  ],
+  "aux_output_bias": {
+    "model.fc2_rla.bias": [
+      64
+    ]
+  },
+  "automatic_center_compensation": false,
+  "initial_parameters_unchanged": true,
+  "optimizer_updates": 0,
+  "backward_calls": 2,
+  "checks": [
+    {
+      "arm": "D-old",
+      "action_loss": 0.55078125,
+      "auxiliary_loss": 0.625,
+      "finite_gradients": true
+    },
+    {
+      "arm": "D-center",
+      "action_loss": 0.55078125,
+      "auxiliary_loss": 0.515625,
+      "finite_gradients": true
+    }
+  ],
+  "peak_allocated": 27742702080,
+  "same_full_microbatch": 8,
+  "formal_effective_batch": 16,
+  "reused_activation_checkpointing_gate": true
+}

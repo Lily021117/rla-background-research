@@ -1,0 +1,8 @@
+{
+  "trials": 120,
+  "new_rollouts": 0,
+  "mj_steps": 0,
+  "scope": "same saved pre-command states, mj_forward geometry/contact reconstruction only; contact is not proof of grasp force or stable grasp",
+  "cached_pose_warning": "historical post-mj_step xpos not assumed bitwise equal to state-restored mj_forward; no time shift or repair applied",
+  "all_predicted_executed_actions_match": true
+}

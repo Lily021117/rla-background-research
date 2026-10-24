@@ -1,0 +1,48 @@
+{
+  "frozen": true,
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/evaluation_protocol.json",
+  "conditions": [
+    "clean",
+    "seen_background",
+    "unseen_background"
+  ],
+  "models": [
+    "D-old",
+    "D-center"
+  ],
+  "states": [
+    2026102500,
+    2026102501,
+    2026102502,
+    2026102503,
+    2026102504,
+    2026102505,
+    2026102506,
+    2026102507,
+    2026102508,
+    2026102509,
+    2026102510,
+    2026102511,
+    2026102512,
+    2026102513,
+    2026102514,
+    2026102515,
+    2026102516,
+    2026102517,
+    2026102518,
+    2026102519
+  ],
+  "order": "state,condition,model",
+  "trials": 120,
+  "max_steps": 220,
+  "chunk_execution": 8,
+  "reflection": 1,
+  "MSAA": 4,
+  "bddl": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+  "task": "pick up the black bowl on the stove and place it on the plate",
+  "role": "new development, not independent final test",
+  "invalid_rule": "stop, preserve logs; only identified infrastructure repairs may retry exact triplet, no task-failure retries",
+  "primary_comparison": "D-center minus D-old",
+  "historical_C": "reference only; no rerun",
+  "retry_rule": "stop and preserve infrastructure error; only documented infrastructure retries, never task-failure reruns"
+}

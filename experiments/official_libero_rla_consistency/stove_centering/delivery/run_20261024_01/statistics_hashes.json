@@ -1,0 +1,6 @@
+{
+  "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json": "4c402848b8e74f7dddf6fcc5e337782a9c7a717678d640578632c52d96acbcf2",
+  "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/mean_training_sources.csv": "96a06f5cdb6fbe1375afb108ed19398df8c95fd7896c824a7f68f59802863c8d",
+  "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/stats.json": "bb3559e9eb0fb848279a5ab29ead8b78b43c5fa7c35cbc487185170c012e46cd",
+  "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/raw_target_statistics.json": "5d89c6e71f61e775dcfa0ce54b472016b391f80249a7c53dbbd5f062515f6437"
+}

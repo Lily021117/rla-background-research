@@ -1,0 +1,53 @@
+{
+  "initialization": [
+    {
+      "arm": "D-old",
+      "parameters_equal": true,
+      "RNG_equal": true,
+      "common_initial_parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360"
+    },
+    {
+      "arm": "D-center",
+      "parameters_equal": true,
+      "RNG_equal": true,
+      "common_initial_parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360"
+    }
+  ],
+  "historical_D_parameter_reproduction": [
+    {
+      "step": 0,
+      "parameter_bitwise_equal": true,
+      "new_parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "historical_parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360"
+    },
+    {
+      "step": 1,
+      "parameter_bitwise_equal": true,
+      "new_parameter_sha256": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f",
+      "historical_parameter_sha256": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f"
+    },
+    {
+      "step": 100,
+      "parameter_bitwise_equal": true,
+      "new_parameter_sha256": "8209bdb79a397da78d04cba0d03fe6b3f72f5c6e1cc5966786bfe2535e597b5d",
+      "historical_parameter_sha256": "8209bdb79a397da78d04cba0d03fe6b3f72f5c6e1cc5966786bfe2535e597b5d"
+    },
+    {
+      "step": 300,
+      "parameter_bitwise_equal": true,
+      "new_parameter_sha256": "e0409c4a2d58493f09178b6e9837ad561bab75b95ee400ed375fc455e68b96e4",
+      "historical_parameter_sha256": "e0409c4a2d58493f09178b6e9837ad561bab75b95ee400ed375fc455e68b96e4"
+    },
+    {
+      "step": 600,
+      "parameter_bitwise_equal": true,
+      "new_parameter_sha256": "ded92c71c9f55d02062b1dd39f38e990086774ccf3688caea18893e29b54edfd",
+      "historical_parameter_sha256": "ded92c71c9f55d02062b1dd39f38e990086774ccf3688caea18893e29b54edfd"
+    }
+  ],
+  "effective_updates_per_arm": 600,
+  "actual_successful_computations_per_arm": 600,
+  "replayed_updates": 0,
+  "preflight_updates": 0,
+  "sampling_order_sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13"
+}

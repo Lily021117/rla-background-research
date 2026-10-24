@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fixed_offset_max_absolute_error": 3.5762786865234375e-07,
+  "between_sample_difference_max_error": 3.5762786865234375e-07,
+  "float32_tolerance": 2.7159896944795037e-06,
+  "tolerance_definition": "8 float32 eps * max(1, maximum normalized absolute target); frozen before model outputs",
+  "mask": "only original full-valid windows; unchanged8 horizons",
+  "mu_D_source": "verified existing train-only FP32 extractor moment, not dev or a new fit to quantized cache",
+  "raw_sidecars_unchanged": true
+}

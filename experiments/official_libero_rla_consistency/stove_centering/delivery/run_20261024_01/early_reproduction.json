@@ -1,0 +1,19 @@
+{
+  "initialization": [
+    {
+      "arm": "D-old",
+      "parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "all_initial_parameters_equal": true,
+      "RNG_equal": true
+    },
+    {
+      "arm": "D-center",
+      "parameter_sha256": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "all_initial_parameters_equal": true,
+      "RNG_equal": true
+    }
+  ],
+  "old_D_step1_parameter_bitwise_equal": true,
+  "new_hash": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f",
+  "historical_hash": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f"
+}

@@ -38,7 +38,23 @@ def execute(g):
   s=stats['proprio'];lo=np.array(s['q01']);hi=np.array(s['q99']);p=np.clip(2*(p-lo)/(hi-lo+1e-8)-1,-1,1);p=np.where(np.array(s['min'])==np.array(s['max']),0,p)
   with torch.inference_mode():actions,_=model.predict_action(**inp,unnorm_key='derived',proprio=p,proprio_projector=prop,action_head=head,use_film=False)
   actions=np.asarray(actions);assert actions.shape==(8,7) and np.isfinite(actions).all();return actions
- out=root/os.environ.get('RLA_EVAL_DIRECTORY','closed_loop');out.mkdir(exist_ok=False);rows=[];geometries={}
+ out=root/os.environ.get('RLA_EVAL_DIRECTORY','closed_loop');resume=os.environ.get('CENTER_RESUME_EVALUATION')=='1';out.mkdir(exist_ok=resume);rows=[];geometries={}
+ completed=set();interrupted=[]
+ if resume:
+  rows=json.loads((root/'per_trial_results.json').read_text())
+  order=[(s['seed'],c,a) for s in frozen['new_development_states'] for c in protocol['conditions'] for a in protocol['models']]
+  assert [(r['seed'],r['condition'],r['model']) for r in rows]==order[:len(rows)]
+  for r in rows:
+   assert r['status']=='COMPLETE' and r['checkpoint_sha256']==hashes[r['model']]
+   assert Path(r['trajectory']).is_file() and Path(r['video']).is_file()
+   assert json.loads(Path(r['trajectory']).with_name('result.json').read_text())==r
+   completed.add((r['seed'],r['condition'],r['model']))
+  for seed,condition,arm in order[len(rows):]:
+   partial=out/f'{seed}_{condition}_{arm}'
+   if partial.exists():
+    assert not (partial/'result.json').exists(),'unexpected completed result outside ledger'
+    interrupted.append(dict(seed=seed,condition=condition,model=arm,path=str(partial),files=[str(p) for p in partial.iterdir()],reason='process interrupted during network interruption; no completed result',status='INVALID_INFRASTRUCTURE_INTERRUPTION'))
+  with (root/'evaluation_resume_audit.json').open('x') as f:json.dump(dict(preserved_valid_trials=len(rows),interrupted_attempts=interrupted,remaining_trials=120-len(rows),protocol_unchanged=True),f,indent=2)
  # Descriptive stages fixed before viewing outcomes, not ground-truth grasp labels.
  g['save']('failure_stage_rule.json',dict(source='recorded simulator target lift and EE-to-target distance; descriptive proxies only',rules=['success if env.check_success','if target max lift>=0.03m: post_lift_or_placement_failure','else if minimum EE-target center distance<=0.10m: near_target_grasp_or_contact_failure','else approach_failure'],no_new_rollouts_for_diagnosis=True))
  for state in frozen['new_development_states']:
@@ -46,7 +62,13 @@ def execute(g):
   for condition in protocol['conditions']:
    xml=folder/(condition+'.xml');expected=next(c for c in state['conditions'] if c['condition']==condition);assert sha(xml)==expected['XML_sha256']
    for arm in protocol['models']:
-    dest=out/f'{seed}_{condition}_{arm}';dest.mkdir(exist_ok=False);env=render=video=None;executed=[];chunks=[];states=[];ee=[];bowl=[];result=dict(model=arm,seed=seed,condition=condition,checkpoint_sha256=hashes[arm],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,video=str(dest/'video.mp4'),trajectory=str(dest/'trajectory.npz'));start=time.time()
+    if (seed,condition,arm) in completed:
+     prior=next(r for r in rows if (r['seed'],r['condition'],r['model'])==(seed,condition,arm))
+     assert prior['state_sha256']==state['state_sha256'] and prior['xml_sha256']==expected['XML_sha256'] and prior['language']==language
+     continue
+    dest=out/f'{seed}_{condition}_{arm}'
+    if resume and dest.exists():dest=out/f'{seed}_{condition}_{arm}_resume1'
+    dest.mkdir(exist_ok=False);env=render=video=None;executed=[];chunks=[];states=[];ee=[];bowl=[];result=dict(model=arm,seed=seed,condition=condition,checkpoint_sha256=hashes[arm],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,video=str(dest/'video.mp4'),trajectory=str(dest/'trajectory.npz'));start=time.time()
     try:
      basehead.cpu();rlahead.cpu();head=basehead if arm in ('B20','B') else rlahead;head.to('cuda');mods['head']=head
      ck=checkpoints[arm]
@@ -83,4 +105,4 @@ def execute(g):
     assert result['status']=='COMPLETE','infrastructure failure retained; stop, no silent retry'
  keys=sorted(set().union(*(r.keys() for r in rows)))
  with (root/'per_trial_results.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(rows)
- g['save']('evaluation_acceptance.json',dict(status='PASS_PROCESS_NOT_METHOD',valid_trials=len(rows),invalid_trials=0,physical_states=20,optimizer_updates=0,heldout_read=False,peak_allocated=torch.cuda.max_memory_allocated()))
+ g['save']('evaluation_acceptance.json',dict(status='PASS_PROCESS_NOT_METHOD',valid_trials=len(rows),invalid_trials=len(interrupted),physical_states=20,optimizer_updates=0,heldout_read=False,peak_allocated=torch.cuda.max_memory_allocated()))

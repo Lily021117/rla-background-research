@@ -43,6 +43,7 @@ python launch.py --out "$EXPERIMENT_DIR" --stage train-old
 python launch.py --out "$EXPERIMENT_DIR" --stage train-center
 python launch.py --out "$EXPERIMENT_DIR" --stage diagnostics
 python launch.py --out "$EXPERIMENT_DIR" --stage evaluate
+python rollout_timing.py --out "$EXPERIMENT_DIR"
 python finalize.py --out "$EXPERIMENT_DIR"
 ```
 
@@ -54,3 +55,10 @@ free and verify CUDA UUID/ECC. No external process is killed or GPU reset.
 
 Historical dependency/source licenses remain applicable. This is a custom
 LIBERO-derived background-material intervention, not official LIBERO-Plus.
+
+After a verified process/infrastructure interruption only, evaluation can be
+resumed with `CENTER_RESUME_EVALUATION=1` and a new `--attempt` name. The
+completed ledger must be an exact prefix of the frozen order; completed
+results and their checkpoint/state/XML identities are checked and skipped.
+An interrupted directory remains untouched and its retry uses a new directory.
+This mechanism does not retry task failures or change the frozen protocol.

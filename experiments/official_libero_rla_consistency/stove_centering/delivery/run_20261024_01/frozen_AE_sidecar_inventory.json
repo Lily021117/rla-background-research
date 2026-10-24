@@ -1,0 +1,6 @@
+{
+  "AE_D_encoder": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/encoder_step0600.pt",
+  "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+  "raw_sidecars": "same frozen D arrays for both policy arms; train-source hashes in mean_training_sources.csv",
+  "AE_updates": 0
+}
