@@ -1,0 +1,8 @@
+{
+  "GPU_UUID": "GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419",
+  "ECC_increment": false,
+  "diagnostic_GPU_processes_remaining": 0,
+  "other_processes_untouched": true,
+  "peak_allocated_GiB": 8.726500988006592,
+  "peak_reserved_GiB": 9.349609375
+}

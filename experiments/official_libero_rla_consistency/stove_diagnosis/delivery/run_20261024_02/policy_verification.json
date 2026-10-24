@@ -1,0 +1,95 @@
+{
+  "status": "PASS_DIAGNOSTIC",
+  "parameter_checks": [
+    {
+      "arm": "C",
+      "step": 0,
+      "before": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "after": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "C",
+      "step": 1,
+      "before": "c44ea9040e4dcd2654ea84aca81ef4af48e18a0e2ba48d566569f8dfba5e573d",
+      "after": "c44ea9040e4dcd2654ea84aca81ef4af48e18a0e2ba48d566569f8dfba5e573d",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "C",
+      "step": 100,
+      "before": "933c4cba184e06c49d1bdffdfefe3377191a20620438d2840e96288734e9ac41",
+      "after": "933c4cba184e06c49d1bdffdfefe3377191a20620438d2840e96288734e9ac41",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "C",
+      "step": 300,
+      "before": "69e0fbd47382e6ad2f39d35bda3037d442e8c0c03d5761dce787959ae9110d69",
+      "after": "69e0fbd47382e6ad2f39d35bda3037d442e8c0c03d5761dce787959ae9110d69",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "C",
+      "step": 600,
+      "before": "e1945c3f33b33a5de8e585a496be74ec9b72f6dee4ee75e609edae4aed0a5738",
+      "after": "e1945c3f33b33a5de8e585a496be74ec9b72f6dee4ee75e609edae4aed0a5738",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "D",
+      "step": 0,
+      "before": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "after": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "D",
+      "step": 1,
+      "before": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f",
+      "after": "c916559f11bd0a074db6efb66e11e74952ebdee694e09d92cce13851217be89f",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "D",
+      "step": 100,
+      "before": "8209bdb79a397da78d04cba0d03fe6b3f72f5c6e1cc5966786bfe2535e597b5d",
+      "after": "8209bdb79a397da78d04cba0d03fe6b3f72f5c6e1cc5966786bfe2535e597b5d",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "D",
+      "step": 300,
+      "before": "e0409c4a2d58493f09178b6e9837ad561bab75b95ee400ed375fc455e68b96e4",
+      "after": "e0409c4a2d58493f09178b6e9837ad561bab75b95ee400ed375fc455e68b96e4",
+      "strict_load": true,
+      "updates": 0
+    },
+    {
+      "arm": "D",
+      "step": 600,
+      "before": "ded92c71c9f55d02062b1dd39f38e990086774ccf3688caea18893e29b54edfd",
+      "after": "ded92c71c9f55d02062b1dd39f38e990086774ccf3688caea18893e29b54edfd",
+      "strict_load": true,
+      "updates": 0
+    }
+  ],
+  "optimizer_created": false,
+  "optimizer_updates": 0,
+  "backward_calls": 160,
+  "new_rollouts": 0,
+  "mode": "eval: deterministic frozen-model derivative, not stochastic training-step replay",
+  "peak_allocated_bytes": 9370009088,
+  "peak_reserved_bytes": 10039066624,
+  "seconds": 228.48125529289246,
+  "shared_gradient_scope": "all trainable VLM/backbone parameters; action and z branch both feed these; head excluded",
+  "normalization": "official per-task training Q99; decoded_command_L1 before gripper threshold; translation/rotation command units, not meters/radians"
+}

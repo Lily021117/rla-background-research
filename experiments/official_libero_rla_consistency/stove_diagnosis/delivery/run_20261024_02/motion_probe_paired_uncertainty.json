@@ -1,0 +1,62 @@
+[
+  {
+    "appearance": "clean",
+    "label": "bowl_xyz",
+    "D_minus_C_MAE_m": 0.00013525356050936196,
+    "episode_bootstrap95": [
+      -8.816795340163882e-05,
+      0.00037158941684291584
+    ],
+    "episodes": 5
+  },
+  {
+    "appearance": "clean",
+    "label": "finger_qpos",
+    "D_minus_C_MAE_m": -0.00022514874374092051,
+    "episode_bootstrap95": [
+      -0.0003749671680337658,
+      -9.192609823975243e-05
+    ],
+    "episodes": 5
+  },
+  {
+    "appearance": "clean",
+    "label": "eef_xyz_ancillary",
+    "D_minus_C_MAE_m": -8.87495667786873e-05,
+    "episode_bootstrap95": [
+      -0.00028069860465384616,
+      0.00010612441551014935
+    ],
+    "episodes": 5
+  },
+  {
+    "appearance": "background",
+    "label": "bowl_xyz",
+    "D_minus_C_MAE_m": -0.0003948167232401007,
+    "episode_bootstrap95": [
+      -0.0007145307606548603,
+      -7.510268582534111e-05
+    ],
+    "episodes": 5
+  },
+  {
+    "appearance": "background",
+    "label": "finger_qpos",
+    "D_minus_C_MAE_m": -0.0005197138125114435,
+    "episode_bootstrap95": [
+      -0.0008002253714513516,
+      -0.00022695472237889972
+    ],
+    "episodes": 5
+  },
+  {
+    "appearance": "background",
+    "label": "eef_xyz_ancillary",
+    "D_minus_C_MAE_m": -0.0010857662191138602,
+    "episode_bootstrap95": [
+      -0.0015634503196895115,
+      -0.0006058416963173379
+    ],
+    "episodes": 5
+  }
+]

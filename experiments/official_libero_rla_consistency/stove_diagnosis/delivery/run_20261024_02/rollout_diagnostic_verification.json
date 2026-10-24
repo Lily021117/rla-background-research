@@ -1,0 +1,12 @@
+{
+  "trials": 120,
+  "new_rollouts": 0,
+  "simulation_steps": 0,
+  "state_geometry_recomputed": true,
+  "cached_poststep_pose_exact_trials": 0,
+  "max_cached_pose_error": 0.0009800082530960763,
+  "cached_pose_warning": "Saved simulator state reconstructed with mj_forward is not assumed bitwise identical to cached xpos after mj_step; discrepancies retained, no time-offset correction. Original phase labels remain separately reported.",
+  "contacts": "mj_forward contacts recomputed from recorded state and same XML; not independently logged forces or proof of stable grasp",
+  "selection": "first frozen seed per appearance, uniform C duration; D clamped only if shorter",
+  "stage_thresholds": "inherited predeclared .10m near/.03m lift, descriptive proxies"
+}

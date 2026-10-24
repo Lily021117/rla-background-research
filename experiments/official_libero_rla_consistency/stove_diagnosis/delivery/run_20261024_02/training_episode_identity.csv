@@ -1,0 +1,26 @@
+episode,split,source_demo,task,frames,valid_full_chunks,sampled_physical_windows,appearance_exposures
+derived_stove_demo_0_v1,train,demo_0,pick up the black bowl on the stove and place it on the plate,155,147,280,560
+derived_stove_demo_3_v1,validation,demo_3,pick up the black bowl on the stove and place it on the plate,191,183,0,0
+derived_stove_demo_5_v1,train,demo_5,pick up the black bowl on the stove and place it on the plate,138,130,243,486
+derived_stove_demo_12_v1,train,demo_12,pick up the black bowl on the stove and place it on the plate,124,116,218,436
+derived_stove_demo_16_v1,train,demo_16,pick up the black bowl on the stove and place it on the plate,141,133,250,500
+derived_stove_demo_36_v1,train,demo_36,pick up the black bowl on the stove and place it on the plate,148,140,267,534
+derived_stove_demo_15_v1,validation,demo_15,pick up the black bowl on the stove and place it on the plate,137,129,0,0
+derived_stove_demo_10_v1,validation,demo_10,pick up the black bowl on the stove and place it on the plate,140,132,0,0
+derived_stove_demo_31_v1,validation,demo_31,pick up the black bowl on the stove and place it on the plate,140,132,0,0
+derived_stove_demo_30_v1,validation,demo_30,pick up the black bowl on the stove and place it on the plate,135,127,0,0
+derived_stove_demo_48_v1,train,demo_48,pick up the black bowl on the stove and place it on the plate,136,128,241,482
+derived_stove_demo_37_v1,train,demo_37,pick up the black bowl on the stove and place it on the plate,128,120,224,448
+derived_stove_demo_9_v1,train,demo_9,pick up the black bowl on the stove and place it on the plate,145,137,263,526
+derived_stove_demo_47_v1,train,demo_47,pick up the black bowl on the stove and place it on the plate,124,116,217,434
+derived_stove_demo_6_v1,train,demo_6,pick up the black bowl on the stove and place it on the plate,133,125,232,464
+derived_stove_demo_7_v1,train,demo_7,pick up the black bowl on the stove and place it on the plate,130,122,230,460
+derived_stove_demo_32_v1,train,demo_32,pick up the black bowl on the stove and place it on the plate,142,134,254,508
+derived_stove_demo_13_v1,train,demo_13,pick up the black bowl on the stove and place it on the plate,138,130,241,482
+derived_stove_demo_29_v1,train,demo_29,pick up the black bowl on the stove and place it on the plate,133,125,238,476
+derived_stove_demo_28_v1,train,demo_28,pick up the black bowl on the stove and place it on the plate,140,132,239,478
+derived_stove_demo_19_v1,train,demo_19,pick up the black bowl on the stove and place it on the plate,128,120,224,448
+derived_stove_demo_18_v1,train,demo_18,pick up the black bowl on the stove and place it on the plate,137,129,239,478
+derived_stove_demo_38_v1,train,demo_38,pick up the black bowl on the stove and place it on the plate,133,125,239,478
+derived_stove_demo_45_v1,train,demo_45,pick up the black bowl on the stove and place it on the plate,142,134,252,504
+derived_stove_demo_14_v1,train,demo_14,pick up the black bowl on the stove and place it on the plate,120,112,209,418

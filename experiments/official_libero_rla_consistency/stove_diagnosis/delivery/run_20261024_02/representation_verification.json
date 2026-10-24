@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FROZEN_DIAGNOSTIC",
+  "AE_updates": 0,
+  "policy_updates": 0,
+  "backward": 0,
+  "readout_fit": "closed-form ridge only",
+  "external_motion_ground_truth": false,
+  "recorded_simulator_geometry_verified": true,
+  "sealed_read": false,
+  "common_sidecar_global_std": 2.687014891552543,
+  "reconstruction_source": "existing exact same development samples; no new AE inference"
+}

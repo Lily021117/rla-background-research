@@ -1,0 +1,77 @@
+{
+  "resolved_prismatic_path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/resolved_prismatic_initialization.pt",
+  "resolved_sha256": "88f7aecf5f57e23f1388fd22f04dd854c7d4fdc1039a0014047e08176fd05741",
+  "matched_prior_run03": true,
+  "source_repo": "Stanford-ILIAD/prism-qwen25-extra-dinosiglip-224px-0_5b",
+  "source_revision": "5cfd2cc6da00c06e0be7abf35d43ec792d8e9498",
+  "source_checkpoint_sha256": "d86525b8d21865b2e83d4a403ee9d1b641579bb41259111d7e3cc7f7ed46564a",
+  "official_RLA_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "tokenizer_processor_config_files": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/added_tokens.json",
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "bytes": 605
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/config.json",
+      "sha256": "0662cde30dc0a629c40367608b018a2d93b976dd3020b55cac87a16414334376",
+      "bytes": 61217
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/configuration_prismatic.py",
+      "sha256": "87092aca7c0b91674bd837def049d9bf833beb1a99baf71a56a6c00628424dc4",
+      "bytes": 6020
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/generation_config.json",
+      "sha256": "22b1e8f1af84f4ceeefb4c886c7fbc1a5e69edac61472e66aca45f10e881ac7e",
+      "bytes": 147
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/merges.txt",
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "bytes": 1671853
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/modeling_prismatic.py",
+      "sha256": "697f1a05caa7afacd57c09ed51b9f9a10765f5c88f7fca1f174edbe04748cbc0",
+      "bytes": 44045
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/preprocessor_config.json",
+      "sha256": "17015fefc1243e5a0262d72bea24f4e36ab7ef8bbbfc17fd503343a23e49c8a3",
+      "bytes": 1651
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/processing_prismatic.py",
+      "sha256": "06563586bbc73d36501a14a231a3174904ede830d33174d0c625ece8e931ef1e",
+      "bytes": 12718
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/processor_config.json",
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76",
+      "bytes": 130
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/special_tokens_map.json",
+      "sha256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9",
+      "bytes": 616
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/tokenizer.json",
+      "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf",
+      "bytes": 7031673
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/tokenizer_config.json",
+      "sha256": "17095d1043538febf025746cc081d4d00fd269cc25f285491cf676214d565e31",
+      "bytes": 7356
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/pretrained_models/configs/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "bytes": 2776833
+    }
+  ],
+  "full_prismatic_not_spatial_pro": true
+}

@@ -1,0 +1,11 @@
+{
+  "episodes": 25,
+  "models": 2,
+  "appearances": 2,
+  "checks": 100,
+  "status": "PASS_ALL_SOURCE_PROPRIO_HASH_TO_EPISODE_SIDECAR",
+  "common_statistics": true,
+  "normalization": "(z - AE_C_train_per_coordinate_mean) / AE_C_train_global_std",
+  "constant_fraction": "||mean(normalized target)||^2 / E||normalized target||^2; descriptive squared energy, NOT L1 loss fraction or gradient fraction",
+  "targets_modified": false
+}

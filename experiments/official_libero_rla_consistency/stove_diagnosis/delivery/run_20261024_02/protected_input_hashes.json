@@ -1,0 +1,1718 @@
+[
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 23641,
+    "sha256": "24bf9c98624ad4c21c2e0bb3a897b9744665fb89abc47c062ea686919a95eba9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/split_integrity.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 136,
+    "sha256": "584dd80aead894be024f320e304e4168349d21a88e14576e83387bd364fd8139"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 2683,
+    "sha256": "92301b471c7153928645b751fa0be77ab15a834c019af906797f2c2c0e48c6c9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/run_plan.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 3669,
+    "sha256": "e0e1877dc4e7a597303fa826b0eaef960a309e5bd08b21df1a85f7b654443c4a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 229817,
+    "sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/policy_registry.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 428,
+    "sha256": "3c93f993dd1343864c78508cef963c5483da43c5fcb42a67c4a7c2464fa5b93a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/evaluation_protocol.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 1117,
+    "sha256": "c70b757d3c4bbfbdb0bc94e71194088cc6f14eef94977dddeb6902c7e872123b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/per_trial_results.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 199886,
+    "sha256": "1706092fe042b431d3c1b43364106fd92ad64b315cd33eaa0cd7a9d2c174b829"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/initialization_and_rng_audit.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 1631,
+    "sha256": "8ff2192651fe9a7a8d41261a286995d0ec0e45619cd83923fa1a167402f60bd6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/training_plan.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 2015,
+    "sha256": "89de7435d620fa189be7b72d8ec0496ac7bdf743f3458d893af988d2017de6a3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/official_initialization.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 856,
+    "sha256": "833813421ba5aeae72ff7eae5880c9b5ee110fa7b05e7f97bd5cd5f25f1edcde"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/data_manifest.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 23641,
+    "sha256": "24bf9c98624ad4c21c2e0bb3a897b9744665fb89abc47c062ea686919a95eba9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecar_provenance.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 75904,
+    "sha256": "a09da37287851daf0b6e45d0166ba7203a8c882ef8261cbc6fbcde5db52aa017"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/recovery_prefix_audit.json",
+    "kind": "configuration_or_evidence",
+    "bytes": 2266,
+    "sha256": "3d7882300a899e8d21faa525f156ce605569e2b08b94f9487b791f517031c91c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+    "kind": "policy_RLA_initial",
+    "bytes": 645677557,
+    "sha256": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_06/B20/formal_B/step0000.pt",
+    "kind": "policy_baseline_initial",
+    "bytes": 645536142,
+    "sha256": "90a6eb2936d5945e6b494901e5b75dd83279cab54038360f0672ade93c2e141e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 97965,
+    "sha256": "64e124d6bb452105ddb7691eee01af996c48450bba23f83bae88ec38099d6e0a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 119986,
+    "sha256": "0469a4c52075c73f751c0a81b38c36b46c9f991ecd3b4a8ebebdf0def1f88fd3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_5_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 88140,
+    "sha256": "122dc8c5d18d99a5623784c655e0ee37200647ddda57809e48242fd93a760995"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_12_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 78932,
+    "sha256": "ff26e35397134aaec108d6669d38453a21c1947d13c7264a275afa0945cae8d8"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_16_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 89230,
+    "sha256": "13382b5b9b3d7db42889743d51a39323b06f54b0205ac9bed84af7cf55aff0af"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_36_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 93510,
+    "sha256": "8583983a8372349d1c1ade2e57d127f0cff47a60a21d0d024dbdf7b3622b3083"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 87272,
+    "sha256": "fb98351565dc092e6e6237a0ea66fd8e43a1970c20b60b416add9499c8aaed00"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 89193,
+    "sha256": "9f98a54a83700a317f45ef10767cd1da17ff7efde39e14bb102d44ec36a12335"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 89036,
+    "sha256": "55d4f142002efb007599784839700baf1046c45690c935bb56b4dc46c7fc9154"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 85202,
+    "sha256": "4f64674f8803dc8cbb80198b9118ade379cb884463d7e479b5a096a7cf7b54de"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_48_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 87177,
+    "sha256": "c86e1c4cd88b914f7be2120e58613b184b0aa17c63a96e7946ef7acece6d4ff1"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_37_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 81796,
+    "sha256": "f023e461482c4ee3f64dd1da9ac12f937c0386a3ae23438de5e5fc8e6c077b6f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_9_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 92223,
+    "sha256": "4ea617e66c594a6fcc7c13523fbdebe9d44f7c921f8c36e7db9f8182dd670451"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_47_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 79248,
+    "sha256": "78c318470f7dac22daaff662cbc48b1d9c4bbd8fa8b0f98dcb904ccffec2c862"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_6_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 84533,
+    "sha256": "efcd69eff9d6ab0dca760d71bef70c7fed1afb6cb9589e86b906d7476db5f92c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_7_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 82592,
+    "sha256": "aff5a34341d7b393440e3a2d6fdbf95e1f246bbe1823e678c1f57538bc2b85ca"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_32_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 90322,
+    "sha256": "6c9a4e54c5c1de62e6ff506358cdb098b53b06e61997fa5e3eba1cbf48607178"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_13_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 87978,
+    "sha256": "01ca0249d4a2caa408c6f58190eb2bbb83cfeb2f0e5cc3ddbfd6ab6b33e79e45"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_29_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 84484,
+    "sha256": "9c714f8ce42ee4d43caab2ef2375e045b43d473df0ee23515c121db67e81699a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_28_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 88631,
+    "sha256": "4b2f9c41c8e4cb4da09aa6bab5bcfba49ba1a63fff182a73bd58b60a25dfcf7f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_19_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 81677,
+    "sha256": "ebabf5c4bbd181fac9abd82a3d04277f78e8d245226387a3e04c1220452f9a56"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_18_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 86709,
+    "sha256": "7769bb0fee418914b5ab3264de519438169c0170f773e78a6cc5dc64abf98fdc"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_38_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 84669,
+    "sha256": "e32f9a81ae13857a1031b821ed1cad9a50d56d6d11fb32f3145c311129bca678"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 90839,
+    "sha256": "2e85236fd23d63dfa927353d42a4069e56d89fe1ca81c4f2b4ed68b0ece494a5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/trajectory_labels.npz",
+    "kind": "derived_labels",
+    "bytes": 76904,
+    "sha256": "7442b094d98d49753621e7513b09576e93d56b830382ee7c54fb30e258652e86"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C_recovery1/encoder_step0600.pt",
+    "kind": "AE_C_encoder",
+    "bytes": 307206356,
+    "sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C_recovery1/decoder_step0600.pt",
+    "kind": "AE_C_decoder",
+    "bytes": 311409250,
+    "sha256": "87b157a3aa505a90bd0fb50befd267ed44b7649e7e1c9603353d4852455c4562"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C_recovery1/resume_step0600.pt",
+    "kind": "AE_C_resume",
+    "bytes": 3668896309,
+    "sha256": "47e5f23e372bdb71136734713bd6bf3ef9fab1e52b538653fc959154aeffe927"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/manifest.json",
+    "kind": "sidecar_C_clean",
+    "bytes": 560,
+    "sha256": "3a6a6c8991fe2cfe80f44a5e56ab261eb91905df84dfabda8afc51ca6f1c9c0e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/stats.json",
+    "kind": "sidecar_C_clean",
+    "bytes": 53863,
+    "sha256": "bb3559e9eb0fb848279a5ab29ead8b78b43c5fa7c35cbc487185170c012e46cd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/keys.json",
+    "kind": "sidecar_C_clean",
+    "bytes": 3167,
+    "sha256": "0f32ec4857c37b1ca30ea27235c403321d92cd6f4214bc30887d075f888541b4"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/manifest.json",
+    "kind": "sidecar_C_background",
+    "bytes": 565,
+    "sha256": "f1868cce8d40fd87a3d77252cdcfc11ebca98fba4aa6a9ee92215aa963fd2db5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/stats.json",
+    "kind": "sidecar_C_background",
+    "bytes": 53863,
+    "sha256": "bb3559e9eb0fb848279a5ab29ead8b78b43c5fa7c35cbc487185170c012e46cd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/keys.json",
+    "kind": "sidecar_C_background",
+    "bytes": 3167,
+    "sha256": "0f32ec4857c37b1ca30ea27235c403321d92cd6f4214bc30887d075f888541b4"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/encoder_step0600.pt",
+    "kind": "AE_D_encoder",
+    "bytes": 307206356,
+    "sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/decoder_step0600.pt",
+    "kind": "AE_D_decoder",
+    "bytes": 311409250,
+    "sha256": "891e077e0d2cb2d0e920b9e5502c9068ff95e543632d1cde6210f4876b35f89d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/resume_step0600.pt",
+    "kind": "AE_D_resume",
+    "bytes": 3668896309,
+    "sha256": "3df3fd280980821b2197260ae63ef45c584e44922c07ead441364d3fb0efdfbc"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/manifest.json",
+    "kind": "sidecar_D_clean",
+    "bytes": 560,
+    "sha256": "1bd2731dcbf37218f15d5b1aa5baa96bbea9b67c6f99067772e491020f1ae311"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/stats.json",
+    "kind": "sidecar_D_clean",
+    "bytes": 53863,
+    "sha256": "bb3559e9eb0fb848279a5ab29ead8b78b43c5fa7c35cbc487185170c012e46cd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/keys.json",
+    "kind": "sidecar_D_clean",
+    "bytes": 3167,
+    "sha256": "0f32ec4857c37b1ca30ea27235c403321d92cd6f4214bc30887d075f888541b4"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/manifest.json",
+    "kind": "sidecar_D_background",
+    "bytes": 565,
+    "sha256": "88cb5c7d96bfd589c667b1a7939b80f45ce8dad44106f9fd0625b79e7d030a9e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/stats.json",
+    "kind": "sidecar_D_background",
+    "bytes": 53863,
+    "sha256": "bb3559e9eb0fb848279a5ab29ead8b78b43c5fa7c35cbc487185170c012e46cd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/keys.json",
+    "kind": "sidecar_D_background",
+    "bytes": 3167,
+    "sha256": "0f32ec4857c37b1ca30ea27235c403321d92cd6f4214bc30887d075f888541b4"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000000.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2539648,
+    "sha256": "f0260a538500a54fff37155183cb5e212d5e46282913ba1d1f60808136ed3a45"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000000.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1368,
+    "sha256": "b8cec39de506e1c77ecf284a9faf714fa2668d492c6dd9697eca8530fb2df1f6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000001.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 3129472,
+    "sha256": "70fd497a43675c97cf9f181492db7373912eec48d589c658fa6a255436d4c360"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000001.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1656,
+    "sha256": "d6332f439400f8b9e169795365ec1fcc31806fb3cbc694cb6b118c4278e36dae"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000002.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "ade78a1abcf92133a1ba8a914a658f2e310502eda24a3ed0a369a5fd39ac56d3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000002.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000003.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "68bfa7b9ccb3445dd9ccfe92ba93923f2d6d63762ac138258f42e1e9947ff2ed"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000003.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000004.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2310272,
+    "sha256": "9f89db44b9fbd9e427c99fe903197d977fe3ef1e4b693ee407a14bd517adfc7d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000004.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1256,
+    "sha256": "a7e43c92727ee6433f6c4f1b364384a24d0187c1109c3bce6d5183e385495fa3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000005.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2424960,
+    "sha256": "f3b1279e1d422a3308bd1510f673e18e47e78411021d49365238dcc3093fe2b1"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000005.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1312,
+    "sha256": "4f0cf1caa82a908b96a114b3e8234d183183edd97770ad32fb581d66b471b877"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000006.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "a0c1e57908104b00a979442a860a8e32720ec8b90873b940cedc0c0593579b02"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000006.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000007.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "bc220eb145bf32e0f9f9d3003c687860d49bc732adbe0a40a902fc1876ba3951"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000007.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000008.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "1ebd7dc677a5a3b1e65f1114d245b14d9e88afd51dd32e31aacb0a3764798906"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000008.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000009.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2211968,
+    "sha256": "08a0b4022fde3405f63699b3812576b518c634d7465d91a6a4f67ab1b84ebff6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000009.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1208,
+    "sha256": "89215277b6eb5423e69aec213c1e176734c8e8e61fa0659fd986f55cdd2c01ab"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000010.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2228352,
+    "sha256": "d6b38bbde480c4fdc289da287410a9e6f2839bd8cda1b5551ee355d36e72b894"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000010.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1216,
+    "sha256": "1af4243a684ad01d78f3e730c046955d797d190fb5c58b7c0c33052903fc40ea"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000011.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "9e53cb74065d4e27aba2d96c370587c2a610c6bb912f9b8429784c1471ba643b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000011.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000012.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2375808,
+    "sha256": "f5ab6cc6761e22b7672384617d4381c5efeaf06a971da9525aede8653e5264ce"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000012.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1288,
+    "sha256": "06b02ced01bd0d30122e25332ab541b124b2d0ab1d35830e62150a72cf13a99d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000013.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "3186b4f40ec66883244eb9af501ab01186e2241257e566816f1f67be4515c704"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000013.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000014.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "72d065d4ae0537c4f13cae28c04bd48b1834b512d95c25fbb15fdb4f1f0fe637"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000014.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000015.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2130048,
+    "sha256": "51c93dac6d42b50dd91c48a8792144f551ca44a78896f04d8685a24276493369"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000015.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1168,
+    "sha256": "4751ef671655de4c09b67d12ac47f4545c5d0bd69c7149c71cad153b6cead013"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000016.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "8a5f3f5340febad9ee4dac56222b732df5ca07f4875340c9258c44e3a530ace3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000016.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000017.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "14f623e2d2fbf4ead3f5ab3c5c75fda5ffec6fff3de7a41a8af1a0da370e0fe5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000017.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000018.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "592f79aeb2b95e4d79ac954e2639e0bf3638033a3437915458d9ad7ecad92be4"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000018.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000019.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "316af6282835fee34fadefb71b5498233f959cf8ae0506492ef861adc488b070"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000019.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000020.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "e8d211bc5678715ab74d644fabe1d178c51bfb6cdf137e57c22de594a9f94187"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000020.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000021.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "45a2ab0e7a0d03bfba588b42137a881334d291c3d1a4e5742ce3533ed036b7c1"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000021.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000022.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "e8f9d4607cd35a024f3b9c529db9a26c28bf240b7a0bb683457440d0828e40d6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000022.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000023.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "58aa94b5e7aa3aa88bd525e77f6c816f48e42b669a4adfa2d64170769260f7b8"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000023.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000024.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 1966208,
+    "sha256": "7e2484f4d2b52c7296c18ebac6550b64ae5ef27bf1fd87d06b761b7c05df350e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000024.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1088,
+    "sha256": "c72c5fb5a8a3744db1c69fd553fba04aecbcaffb2652a06920d03a65e177bcd7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000000.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2539648,
+    "sha256": "9e0ca8bf487173223668562c86ffbe46eb69053d2e43ac4e4a0c13c990465854"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000000.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1368,
+    "sha256": "b8cec39de506e1c77ecf284a9faf714fa2668d492c6dd9697eca8530fb2df1f6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000001.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 3129472,
+    "sha256": "ddf45f4608456d6cf5c472fe0d17c8d6eaf684ec5f83e331f11e41856dffca6b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000001.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1656,
+    "sha256": "d6332f439400f8b9e169795365ec1fcc31806fb3cbc694cb6b118c4278e36dae"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000002.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "61e3f4e275ec7f60d4f452a778c3de170e9132dd40d771a338ef17dc3a8a7309"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000002.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000003.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "52d0c3f95a95c47452c0edd0f24d9f81df7a303e899f3010295982c7ab1d2edc"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000003.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000004.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2310272,
+    "sha256": "5bc7862bdadbcf6cbde649b234eaa4054f7ed719e64c567e45af264c49dd307c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000004.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1256,
+    "sha256": "a7e43c92727ee6433f6c4f1b364384a24d0187c1109c3bce6d5183e385495fa3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000005.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2424960,
+    "sha256": "99ac452bd3356f1d4aa10632fd9fd933894abcbf29e37d94ae498ff11aba328e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000005.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1312,
+    "sha256": "4f0cf1caa82a908b96a114b3e8234d183183edd97770ad32fb581d66b471b877"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000006.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "11c1e9fcb150ea1c78025184f9e6f25a00ecc4dd903edcddca1a8fa7cfb6264a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000006.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000007.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "0fc797909f4b3bccd29b2f9d1ca3d67901237865bad3d751c9e0bc93917987a7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000007.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000008.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "920dc303f42831de42efd97f74d5a848b2896fd85a8c89aa675fed0651cf7cd7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000008.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000009.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2211968,
+    "sha256": "b708ced048c2703d4db29db0f066338c4a776a43babb9409b53e051d11d3790e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000009.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1208,
+    "sha256": "89215277b6eb5423e69aec213c1e176734c8e8e61fa0659fd986f55cdd2c01ab"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000010.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2228352,
+    "sha256": "bb6932c4dc9facde02cb543587d919cbfe8e844bb5f3e5691a09c99540b01e88"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000010.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1216,
+    "sha256": "1af4243a684ad01d78f3e730c046955d797d190fb5c58b7c0c33052903fc40ea"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000011.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "a4ccd1bf1698adac539a76d124a6ec827f97c8c8a8ef7f2c1124f49cd90f7212"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000011.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000012.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2375808,
+    "sha256": "0db3814c1e24b1e3d463bb2b3998294670bc7f3ea21b744d41fb83bc50889e9b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000012.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1288,
+    "sha256": "06b02ced01bd0d30122e25332ab541b124b2d0ab1d35830e62150a72cf13a99d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000013.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "cedb9b00bcad7b37a6dbbae7ec784ed34500a2d85d343f817a65fc3c6813a8ce"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000013.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000014.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "b9d886d6f98649c0015acd054aa8d6e1dbc63d4a55994f6c22425f453385feef"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000014.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000015.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2130048,
+    "sha256": "20042a5f5fd67f98bb6824024c44233662d0752f682e78c55b247dd54c52cd9f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000015.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1168,
+    "sha256": "4751ef671655de4c09b67d12ac47f4545c5d0bd69c7149c71cad153b6cead013"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000016.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "46cf23c7b290b0eee82e036d18d05081ed41f06fd250a7ffd699225199ae9c08"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000016.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000017.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "0dfb0fc327f51e59515e0586fb4720c19dce69bfb581c7abf6796b6836b2f020"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000017.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000018.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "9b75c79b53d6011cee5c5b0bbcae6f2f56c610f68d62c6d69d6bfcf0ff154d4e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000018.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000019.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "b2b2137a2495d11008e94e5784b17e010e9589b536a45f66b5a2f7b4da406f1a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000019.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000020.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "339c0c0f7815bd1c55c9f12746e05510f6a322845c6152024e03d62bb8f08ddb"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000020.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000021.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "def0247d1ed041a38e279b5b970910ebf4c793bce2641f70e748df824771ffe6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000021.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000022.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "1f477c16a001f17f4a3d9a7c634606abc792e3b4b41429835baf2fc44938b270"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000022.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000023.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "32fc5265966fe4d3ad2ef464ac60367210c6a85f972ccfc7abbdf456880711ac"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000023.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000024.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 1966208,
+    "sha256": "e732f2a736f2651d7b1f8550c5435ca795d82b725763d8860bc02085b55fa39d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000024.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1088,
+    "sha256": "c72c5fb5a8a3744db1c69fd553fba04aecbcaffb2652a06920d03a65e177bcd7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000000.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2539648,
+    "sha256": "ffd6e59aeef1a69c630174b3a99f019d31516623a569875574c6824b125c3f33"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000000.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1368,
+    "sha256": "b8cec39de506e1c77ecf284a9faf714fa2668d492c6dd9697eca8530fb2df1f6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000001.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 3129472,
+    "sha256": "c970a59ef13c69853127980817d31774a356d826d82c43c201ce1f73f245378f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000001.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1656,
+    "sha256": "d6332f439400f8b9e169795365ec1fcc31806fb3cbc694cb6b118c4278e36dae"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000002.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "058186ae4568b627865b6b288f7219f9e9d0630125fbdaab19e95fc6f666733f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000002.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000003.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "ebdc54a4ea3d273a5db8c45c5de87bbd73f32a2854d94d5aee6e05d1290f2d7f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000003.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000004.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2310272,
+    "sha256": "6b2eef77d42f2f852c7ca97eb9a13e0197810cba25afcd2cd5cdf38da45bf4d2"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000004.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1256,
+    "sha256": "a7e43c92727ee6433f6c4f1b364384a24d0187c1109c3bce6d5183e385495fa3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000005.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2424960,
+    "sha256": "ce4cb2c15bdac96800ad209ec3edb299cfd973cc808cab8c976cca27ac2639d1"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000005.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1312,
+    "sha256": "4f0cf1caa82a908b96a114b3e8234d183183edd97770ad32fb581d66b471b877"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000006.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "5e736e56ade15ddc7dc24ea02e47ac2d64567206eadb966d129b32984a4f06f0"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000006.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000007.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "083ba1136a6a6a908ed1a12981165cb8210e3f174684c73e439e06234cb77186"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000007.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000008.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "07d20c3c0575d914265aaafd40379bae70cae533eb4297a6049b40d7336f0f64"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000008.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000009.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2211968,
+    "sha256": "cf98b2286a73f926c9abacfd1a6b6afa029daa5b0ef190df035b1535e2940649"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000009.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1208,
+    "sha256": "89215277b6eb5423e69aec213c1e176734c8e8e61fa0659fd986f55cdd2c01ab"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000010.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2228352,
+    "sha256": "6d5fc8e768c7a9ee869fe75a8de681fc4c3ca005b12d09a7bc4e913fcdfaac55"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000010.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1216,
+    "sha256": "1af4243a684ad01d78f3e730c046955d797d190fb5c58b7c0c33052903fc40ea"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000011.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "ae66ff37e6de4c8cc9e2d9cc6ba3ac25a92f64c6746eb1edaa52f39b535a3bca"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000011.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000012.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2375808,
+    "sha256": "c17a5a41121990994d29b56c644c6e0352e8b2b4444275e7a33638531ff8eff7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000012.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1288,
+    "sha256": "06b02ced01bd0d30122e25332ab541b124b2d0ab1d35830e62150a72cf13a99d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000013.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "ff210f6a41da47f78acd40bce29d7a453489f3470fd0388726c38e4c731504fe"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000013.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000014.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "5c84172bee84fa1976cc8d5ca7ae23255de8d31ce4efef6d70027e8feefe46e3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000014.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000015.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2130048,
+    "sha256": "1fd41e322ad00babd48de921c3514466fb5c8bec5c4e9d81ed55bececdf6fd8f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000015.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1168,
+    "sha256": "4751ef671655de4c09b67d12ac47f4545c5d0bd69c7149c71cad153b6cead013"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000016.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "311a30849a874cb7dc7e33428efc3b9ec0875a38280d193797b4bb03e70618c8"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000016.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000017.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "6fc55c16137a1d7cf56242565682a1a0e68b11a725eb20243ce3b335de3b0f4d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000017.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000018.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "0fa777e709063bfe1f253ba542e46cc5473e3c93d346c7d977f537b4e0748fb2"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000018.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000019.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "7c9cd7ac483722beb916e1ab8aeeffaab37268084bf80435d5b4fe12801886eb"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000019.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000020.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "73fe10c7e3b37fdceb650d5368a4e16aaf39aa66bf1f44b2a28f11725c5c0782"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000020.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000021.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "cedcf462eae4f627ee88d847a57933f9ded0b6463b499c108992f1a86603a6f9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000021.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000022.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "f8ad9381cdfbccb15770269f86ca13ee57e0d40d1fca61c908fa4a50207e7d08"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000022.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000023.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "72c3728a40e2fa2bd80a11498f1910684464c7feb75ddeb8fd5e77bbcfa228b5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000023.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000024.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 1966208,
+    "sha256": "3caeb330e509cc2011cdc2bd9306e78866e46f58a0c1a7ff9e0f3d2dfc903d53"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000024.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1088,
+    "sha256": "c72c5fb5a8a3744db1c69fd553fba04aecbcaffb2652a06920d03a65e177bcd7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000000.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2539648,
+    "sha256": "10512d8a98712577907259a92d6a9842cc6f52c0a9d0ce4559105449b2786ce9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000000.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1368,
+    "sha256": "b8cec39de506e1c77ecf284a9faf714fa2668d492c6dd9697eca8530fb2df1f6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000001.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 3129472,
+    "sha256": "d3da18f6ad2a4dba5d07a31fd108b9eb0bfb61d978272c0ee5861cef795f6af1"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000001.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1656,
+    "sha256": "d6332f439400f8b9e169795365ec1fcc31806fb3cbc694cb6b118c4278e36dae"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000002.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "abb67ef0272bc7a86993fe60207d84a984963d52ca39b58c8b38178e2b2dc66a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000002.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000003.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "7034564efe969ef89f6890fc12bf337e04304d18d2d2cfe49181b4d600ecdd70"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000003.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000004.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2310272,
+    "sha256": "e03ef2abc0acf5acd974d8c15bdd6f179a350ed0690a58a55b6fb67d3a8ec0dc"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000004.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1256,
+    "sha256": "a7e43c92727ee6433f6c4f1b364384a24d0187c1109c3bce6d5183e385495fa3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000005.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2424960,
+    "sha256": "d099f16a7f46ed7c7976a370be1314cf0aa9a3fb1b322fc2f2df943a7873afde"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000005.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1312,
+    "sha256": "4f0cf1caa82a908b96a114b3e8234d183183edd97770ad32fb581d66b471b877"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000006.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "90470bec9d6a0dca09b91ec6f7c6b96f1fbb807ca64a6557cf8adf2c680f2ece"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000006.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000007.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "0f47623ea47c1f07f6a764d31ec95e6ca5f85fec141ac6240f38bb4a3f9d8841"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000007.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000008.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "719c4c7f7b763f3977a82b5f9c0a2d0220c62cd427309d60f66040579bfad72b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000008.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000009.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2211968,
+    "sha256": "5249c4a183aaa982cbcf6c290198df7b35eacaf6cbe4e34e2d81441a3b21914d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000009.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1208,
+    "sha256": "89215277b6eb5423e69aec213c1e176734c8e8e61fa0659fd986f55cdd2c01ab"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000010.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2228352,
+    "sha256": "c96712d186fb883d4f2fdec39ce5491d5254b01051e34d378fe0d7928df4f71d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000010.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1216,
+    "sha256": "1af4243a684ad01d78f3e730c046955d797d190fb5c58b7c0c33052903fc40ea"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000011.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "e17c847f4f192b12f155d6fdc2c3b04f1bfe623bf51a6e97e45dae435ce23f86"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000011.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000012.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2375808,
+    "sha256": "f41b57698a3a94d50a7ba02e5e618298a2289964c2fd7f6d136186742435372c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000012.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1288,
+    "sha256": "06b02ced01bd0d30122e25332ab541b124b2d0ab1d35830e62150a72cf13a99d"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000013.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2031744,
+    "sha256": "8afa54663264aaaa239006c58c97eb23ad50ca35e9f6951c44bd6aedfa36f551"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000013.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1120,
+    "sha256": "a7a101284dec72012bba388cce1f010547b61fdd62893d3f765c7c1d688c69b9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000014.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "cb1c179149c89240eb9c9249806f3cc30fea847c78bbeb327c984bb174d7bd01"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000014.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000015.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2130048,
+    "sha256": "04fbb25dae2eb9bb20138a8540684e5bc3097ec0c0d055d7be141bbcca702594"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000015.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1168,
+    "sha256": "4751ef671655de4c09b67d12ac47f4545c5d0bd69c7149c71cad153b6cead013"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000016.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "c372895321ad16de663214134ec4d5b7b95893e31a96c3a4e41ff61aeb97cc66"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000016.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000017.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2261120,
+    "sha256": "ada920b6aaa3f78399c5cca7233a726e23cc1950a8a006d38058047d2e7263d9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000017.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1232,
+    "sha256": "9282b1e655854c5bd7668a66f72fdffdb4b189fcb7928b5665c99e191b969ffd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000018.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "d8fdbe8f84c12e63b4cd73f4296462490e265138b539ce1157d28475c1f326df"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000018.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000019.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2293888,
+    "sha256": "b4bee273d381a51dd2f8096cc3d16ed7e2403e5a1b0c4208aaa0b8a5949b6e08"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000019.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1248,
+    "sha256": "4d5a526a8e1d0ed1e4509e820003fa86d33764665a7c8c82f8ffd6f5e4415655"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000020.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2097280,
+    "sha256": "313d965c1c3086beb5d408be9b07b2ebd19be14da747a8cc7b30ae19e870b31c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000020.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1152,
+    "sha256": "43c5c617247f5a3fa186359138ba8ccd894966e62dd4cfe038958ce8afd9bb7a"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000021.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2244736,
+    "sha256": "fba670ff304c8188d7afd3a975172a423ab088a705d10186d4cb59c6e8ef3c03"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000021.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1224,
+    "sha256": "812da349cbb9597d0b729fe29eeab237620785b010470d9c0ef49c31ef9770f5"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000022.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2179200,
+    "sha256": "bfc19bb8e35e46d903cbcd7f1b7ae736ce8108d6068445c0162ae4cb3061b7a9"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000022.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1192,
+    "sha256": "0cecc78ba6303ce801538918e0ce6f05ba51cf14b617c988a102dfa91f75192b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000023.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 2326656,
+    "sha256": "21048c7fea65c9750023bf76989b5ab8ba62b5825008728d0005251b60d5ad4c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000023.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1264,
+    "sha256": "c9384ac05ff2d9106938fc5b6570e7eae18f234e90b751a7b09ea8c50669ab96"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000024.npy",
+    "kind": "sidecar_tensor",
+    "bytes": 1966208,
+    "sha256": "ad67733fdde7c995b9a1b436824738392df9f47678ad88b69a41f693c236593f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000024.npy",
+    "kind": "sidecar_mask",
+    "bytes": 1088,
+    "sha256": "c72c5fb5a8a3744db1c69fd553fba04aecbcaffb2652a06920d03a65e177bcd7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/step0000.pt",
+    "kind": "policy_B_step0",
+    "bytes": 645537166,
+    "sha256": "62780088974afb6f9dbb694f6c486c5ccb0f5741799aeff3f30240817fd89877"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/step0001.pt",
+    "kind": "policy_B_step1",
+    "bytes": 1729662798,
+    "sha256": "395a5cb6e38c363db4c57b1b434217e73b124653274b282d56a2e695c49cd8b7"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/step0100.pt",
+    "kind": "policy_B_step100",
+    "bytes": 1729662798,
+    "sha256": "825cb743962cd9b1a9a6a31a8d669c13d2c243e74b6b8d5ded2ed5acb4d195c6"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/step0300.pt",
+    "kind": "policy_B_step300",
+    "bytes": 1729662734,
+    "sha256": "b09d307a6fefa3647aba2c9a1f2c406fc7052a50bf4f54d34520dcf7dfa098dd"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/step0600.pt",
+    "kind": "policy_B_step600",
+    "bytes": 1729662734,
+    "sha256": "87917b58a974818dee92fc294c10c22718fcaeb309c383b6fb90c09b42a17577"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/execution_configuration.json",
+    "kind": "policy_B_execution",
+    "bytes": 278,
+    "sha256": "201354c28122c99595e1b5a614151e999c0722975f63bc70889f5fc20261b62b"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/training_metrics.csv",
+    "kind": "policy_B_execution",
+    "bytes": 98029,
+    "sha256": "191f921c1df798e34c9d83776aedd2d02eaada694f49c0ee3f4bdaeb521bfc67"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/B/isolated_smoke/training_acceptance.json",
+    "kind": "policy_B_execution",
+    "bytes": 250,
+    "sha256": "d5bcd68c85db14f2563cbd098659153bb78a41d65d62f39ec55015bc7e97c72f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/preflight_B/isolated_smoke/actual_task_batch_audit.json",
+    "kind": "actual_formal_dataset_preflight_tokens",
+    "bytes": 5876,
+    "sha256": "59f6baa1c69245b8805b9e055be2d89bf3097f749a74e7d165433c214df5b10f"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0000.pt",
+    "kind": "policy_C_step0",
+    "bytes": 645670862,
+    "sha256": "58a1cb541b5d315e90d84c9b54d6ba4e3994a330b2851b5b10515a4f9413865e"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0001.pt",
+    "kind": "policy_C_step1",
+    "bytes": 1730069198,
+    "sha256": "1d9b8abc25994f19dde8f47e725a73c30df1d31432cc0a7cf90dff559ba0f8c0"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0100.pt",
+    "kind": "policy_C_step100",
+    "bytes": 1730069262,
+    "sha256": "a34403025fcc0a1f25f0f05e60effe59ae6e65ba3c24449c05c36af4ac0fa5ea"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0300.pt",
+    "kind": "policy_C_step300",
+    "bytes": 1730069198,
+    "sha256": "0f4ebea9b134ea340e3a6b1db58adebb1013b666f137a250569d4a8ea0dcf078"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0600.pt",
+    "kind": "policy_C_step600",
+    "bytes": 1730069198,
+    "sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/execution_configuration.json",
+    "kind": "policy_C_execution",
+    "bytes": 293,
+    "sha256": "090c16e71fc3387777b307f7fa4bc240ad591777cd4e1a3a322202898bfa179c"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/training_metrics.csv",
+    "kind": "policy_C_execution",
+    "bytes": 121405,
+    "sha256": "f721287479565ae8420d950c5f581657bc7c5958d0427964141783a4968bcda3"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/training_acceptance.json",
+    "kind": "policy_C_execution",
+    "bytes": 249,
+    "sha256": "bd7434f65110643dc57f0d9bddcf201e2a1260fe7269b85a05da254c60bf1dfa"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/preflight6/isolated_smoke/actual_task_batch_audit.json",
+    "kind": "actual_formal_dataset_preflight_tokens",
+    "bytes": 6244,
+    "sha256": "04dea2e32d12ae674c955be112d7b9b6f511c9c2ca21c81360003b74db796458"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/step0000.pt",
+    "kind": "policy_D_step0",
+    "bytes": 645670862,
+    "sha256": "5b524aeb70b33319d21c99124c89229fe14e624649cc97845433a83d39e79e86"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/step0001.pt",
+    "kind": "policy_D_step1",
+    "bytes": 1730069198,
+    "sha256": "fa5d844bf30008dd2d6bcf669238f7e43b784630b1dba2f5263aadb66e5ff4af"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/step0100.pt",
+    "kind": "policy_D_step100",
+    "bytes": 1730069262,
+    "sha256": "79983502d6cbdbbbb85f1605afcd4980850aab6547c97ccddf828516cef89af2"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/step0300.pt",
+    "kind": "policy_D_step300",
+    "bytes": 1730069198,
+    "sha256": "1a6652b1c3028a4eb280be6e6c8acacb1ba645f0f3e8e23023a6e0933f7c17cb"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/step0600.pt",
+    "kind": "policy_D_step600",
+    "bytes": 1730069198,
+    "sha256": "52734be38371ce1dca3dfe016c7830b6b7af60d18bb89ab6384fc362995f38db"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/execution_configuration.json",
+    "kind": "policy_D_execution",
+    "bytes": 293,
+    "sha256": "33d209c8b5a83c8bc6a5c5ff3720a1f494fd04f9fda3b2532b9f25eb12eed007"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/training_metrics.csv",
+    "kind": "policy_D_execution",
+    "bytes": 122275,
+    "sha256": "a74e2e8f94b0ae0bf390084c25170f6d34d92b729276fdf05ae3a1730f992490"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/D/isolated_smoke/training_acceptance.json",
+    "kind": "policy_D_execution",
+    "bytes": 249,
+    "sha256": "fe15df78d721aca6d173ed26e3ad97f857cef95ba7f65518b05d9831fa5d0bfa"
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/preflight6/isolated_smoke/actual_task_batch_audit.json",
+    "kind": "actual_formal_dataset_preflight_tokens",
+    "bytes": 6244,
+    "sha256": "04dea2e32d12ae674c955be112d7b9b6f511c9c2ca21c81360003b74db796458"
+  }
+]

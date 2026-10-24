@@ -1,0 +1,17 @@
+{
+  "AE_C_D_order_exact": true,
+  "sampled_physical_transitions": 4800,
+  "unique_source_train_episodes": 20,
+  "all_targets_h1_to8_valid": true,
+  "no_validation_in_AE_updates": true,
+  "sampling_order_files": {
+    "C": {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C_recovery1/sampling_order.json",
+      "sha256": "8a876623dc78b84adf5ce935057008051da13d5c77ac71207d2a489d8559aabe"
+    },
+    "D": {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/sampling_order.json",
+      "sha256": "8a876623dc78b84adf5ce935057008051da13d5c77ac71207d2a489d8559aabe"
+    }
+  }
+}

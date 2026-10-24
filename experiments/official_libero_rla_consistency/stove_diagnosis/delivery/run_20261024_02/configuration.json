@@ -1,0 +1,19 @@
+{
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove",
+  "policy_steps": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "policy_anchor_rule": "first valid, first raw open-to-close (clamped to full valid chunk), last valid; deduplicate",
+  "gradient_rule": "first four episodes in frozen manifest of each split, closure anchor, clean and background; effective batch8; eval mode with grad enabled; Math SDPA BF16; separate action/weighted auxiliary gradients",
+  "AE_samples": "existing ten evenly spaced anchors per episode x h1..8; all matching samples",
+  "probe": "fixed ridge alpha=1 on average squared loss; train clean h8,10anchors per20episodes; train-only feature zscore; validation5episodes both appearances; no hyperparameter selection",
+  "phase_rule": "derived ground-state bowl lift>=.03m -> transport_or_placement; otherwise first raw closure +/-4 steps -> closure_window; earlier -> approach; later -> after_close_no_lift; descriptive only",
+  "video_rule": "first seed in each appearance, five uniform C-timeline indices and corresponding clamped D times; all trials classified separately",
+  "optimizer_updates": 0,
+  "new_rollouts": 0,
+  "sealed_read": false
+}

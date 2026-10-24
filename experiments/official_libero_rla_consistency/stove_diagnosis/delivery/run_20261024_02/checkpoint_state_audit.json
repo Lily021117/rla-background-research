@@ -1,0 +1,198 @@
+{
+  "policy": [
+    {
+      "arm": "B",
+      "initial_digest": "c635cc5626e30c75c421ce508c50358dd5b4c44e64cd8067a2bd765f880e5942",
+      "same_as_agreed_untrained_initial": true,
+      "initial_RNG_matches_reference": true,
+      "initial_optimizer_empty": true,
+      "initial_global_step": 0,
+      "final_step": 600,
+      "sampler_position": 4800,
+      "optimizer_steps_all600": true,
+      "scheduler_last_epoch": 600,
+      "configuration_exact": true,
+      "AMP_scaler": null,
+      "resume_files": []
+    },
+    {
+      "arm": "C",
+      "initial_digest": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "same_as_agreed_untrained_initial": true,
+      "initial_RNG_matches_reference": true,
+      "initial_optimizer_empty": true,
+      "initial_global_step": 0,
+      "final_step": 600,
+      "sampler_position": 4800,
+      "optimizer_steps_all600": true,
+      "scheduler_last_epoch": 600,
+      "configuration_exact": true,
+      "AMP_scaler": null,
+      "resume_files": []
+    },
+    {
+      "arm": "D",
+      "initial_digest": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+      "same_as_agreed_untrained_initial": true,
+      "initial_RNG_matches_reference": true,
+      "initial_optimizer_empty": true,
+      "initial_global_step": 0,
+      "final_step": 600,
+      "sampler_position": 4800,
+      "optimizer_steps_all600": true,
+      "scheduler_last_epoch": 600,
+      "configuration_exact": true,
+      "AMP_scaler": null,
+      "resume_files": []
+    }
+  ],
+  "AE": [
+    {
+      "arm": "C",
+      "module": "encoder",
+      "step0_exact_official90000_after_configured_dtype_load": true,
+      "dtype_evidence": "official SimpleTokenTransformer use_fp16 torso conversion before strict load",
+      "cast_parameters": 96,
+      "max_cast_rounding": 0.00012105703353881836,
+      "initial_SHA256": "a22efe9311f1588675f19c83f5a2af3afb1dd221e59c8170fb64ced60037086c",
+      "initial_hash_matches_frozen": true
+    },
+    {
+      "arm": "C",
+      "module": "decoder",
+      "step0_exact_official90000_after_configured_dtype_load": true,
+      "dtype_evidence": "official SimpleTokenTransformer use_fp16 torso conversion before strict load",
+      "cast_parameters": 96,
+      "max_cast_rounding": 0.0001220703125,
+      "initial_SHA256": "916952b1da241492db095d959ce850eed2f77693b380e9f8b9756b1c7612ff1d",
+      "initial_hash_matches_frozen": true
+    },
+    {
+      "arm": "C",
+      "module": "resume",
+      "global_step": 600,
+      "next_sample": 4800,
+      "keys": [
+        "cuda_rng",
+        "global_step",
+        "lambda_cons",
+        "master",
+        "next_sample",
+        "numpy_rng",
+        "optimizer",
+        "plan",
+        "python_rng",
+        "torch_rng"
+      ],
+      "scheduler": "none in frozen AE recipe",
+      "AMP_scaler": "none: official fixed256 FP32-master scaling",
+      "lambda_cons": 0.0,
+      "plan_matches_frozen": true
+    },
+    {
+      "arm": "D",
+      "module": "encoder",
+      "step0_exact_official90000_after_configured_dtype_load": true,
+      "dtype_evidence": "official SimpleTokenTransformer use_fp16 torso conversion before strict load",
+      "cast_parameters": 96,
+      "max_cast_rounding": 0.00012105703353881836,
+      "initial_SHA256": "a22efe9311f1588675f19c83f5a2af3afb1dd221e59c8170fb64ced60037086c",
+      "initial_hash_matches_frozen": true
+    },
+    {
+      "arm": "D",
+      "module": "decoder",
+      "step0_exact_official90000_after_configured_dtype_load": true,
+      "dtype_evidence": "official SimpleTokenTransformer use_fp16 torso conversion before strict load",
+      "cast_parameters": 96,
+      "max_cast_rounding": 0.0001220703125,
+      "initial_SHA256": "916952b1da241492db095d959ce850eed2f77693b380e9f8b9756b1c7612ff1d",
+      "initial_hash_matches_frozen": true
+    },
+    {
+      "arm": "D",
+      "module": "resume",
+      "global_step": 600,
+      "next_sample": 4800,
+      "keys": [
+        "cuda_rng",
+        "global_step",
+        "lambda_cons",
+        "master",
+        "next_sample",
+        "numpy_rng",
+        "optimizer",
+        "plan",
+        "python_rng",
+        "torch_rng"
+      ],
+      "scheduler": "none in frozen AE recipe",
+      "AMP_scaler": "none: official fixed256 FP32-master scaling",
+      "lambda_cons": 0.009127798272072366,
+      "plan_matches_frozen": true
+    }
+  ],
+  "replay": [
+    {
+      "arm": "C",
+      "replayed_logged_steps": 44,
+      "durable_restore_step": 0,
+      "sampling_order_exact": true,
+      "max_absolute_logged_prefix_difference": {
+        "reconstruction": 0.0,
+        "consistency": 0.0,
+        "weighted_consistency": 0.0,
+        "total": 0.0,
+        "gradient_encoder": 0.0,
+        "gradient_decoder": 0.0,
+        "lr": 0.0
+      },
+      "observed_replay_prefix_exact": true,
+      "limits": "Logged scalar agreement is not an independent bitwise comparison of unsaved step44 parameters; interrupted in-flight update count remains unknown",
+      "recovery": {
+        "resume": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C/resume_step0000.pt",
+        "restored_step": 0,
+        "restored_master_and_optimizer_and_rng": true,
+        "original_logged_successful_updates": 44,
+        "replayed_unpersisted_successful_updates": 44,
+        "remaining_persisted_trajectory_updates": 600,
+        "final_effective_updates": 600,
+        "budget_unchanged": true,
+        "GPU_UUID": "GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e",
+        "minimum_free_GiB": 15.0
+      }
+    },
+    {
+      "arm": "D",
+      "replayed_logged_steps": 44,
+      "durable_restore_step": 0,
+      "sampling_order_exact": true,
+      "max_absolute_logged_prefix_difference": {
+        "reconstruction": 0.0,
+        "consistency": 0.0,
+        "weighted_consistency": 0.0,
+        "total": 0.0,
+        "gradient_encoder": 0.0,
+        "gradient_decoder": 0.0,
+        "lr": 0.0
+      },
+      "observed_replay_prefix_exact": true,
+      "limits": "Logged scalar agreement is not an independent bitwise comparison of unsaved step44 parameters; interrupted in-flight update count remains unknown",
+      "recovery": {
+        "resume": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D/resume_step0000.pt",
+        "restored_step": 0,
+        "restored_master_and_optimizer_and_rng": true,
+        "original_logged_successful_updates": 44,
+        "replayed_unpersisted_successful_updates": 44,
+        "remaining_persisted_trajectory_updates": 600,
+        "final_effective_updates": 600,
+        "budget_unchanged": true,
+        "GPU_UUID": "GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419",
+        "minimum_free_GiB": 15.0
+      }
+    }
+  ],
+  "policy_training_resumed": false,
+  "common_C_D_initial_exact": true,
+  "historical_bootstrap_names_not_training_identity": true
+}

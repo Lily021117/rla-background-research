@@ -1,0 +1,15 @@
+{
+  "status": "PASS_FILE_IDENTITY_PENDING_CHECKPOINT_STATE_AUDIT",
+  "training_episodes": 20,
+  "development_source_episodes": 5,
+  "train_valid_windows": 2555,
+  "development_valid_windows": 703,
+  "evaluated_physical_states": 20,
+  "policy_physical_exposures": 4800,
+  "policy_appearance_exposures": 9600,
+  "AE_data_same_episodes": true,
+  "legacy_cookie_bootstrap": "unused reference batch in old bootstrap, not formal forward; explicit actual-task tokens and sampling checked",
+  "no_trained_cookie_initialization": true,
+  "sidecar_files": 100,
+  "policy_registry_matches_all180_trials": true
+}

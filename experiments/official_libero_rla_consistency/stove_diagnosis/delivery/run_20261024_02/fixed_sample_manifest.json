@@ -1,0 +1,1247 @@
+{
+  "policy": [
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 43,
+      "appearance": "clean",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 43,
+      "appearance": "background",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 146,
+      "appearance": "clean",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "split": "train",
+      "t": 146,
+      "appearance": "background",
+      "source_demo": "demo_0",
+      "closure_t": 43
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 37,
+      "appearance": "clean",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 37,
+      "appearance": "background",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 182,
+      "appearance": "clean",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "split": "validation",
+      "t": 182,
+      "appearance": "background",
+      "source_demo": "demo_3",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 27,
+      "appearance": "clean",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 27,
+      "appearance": "background",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 129,
+      "appearance": "clean",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "split": "train",
+      "t": 129,
+      "appearance": "background",
+      "source_demo": "demo_5",
+      "closure_t": 27
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "clean",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "background",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 115,
+      "appearance": "clean",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "split": "train",
+      "t": 115,
+      "appearance": "background",
+      "source_demo": "demo_12",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "clean",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "background",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 132,
+      "appearance": "clean",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "split": "train",
+      "t": 132,
+      "appearance": "background",
+      "source_demo": "demo_16",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 40,
+      "appearance": "clean",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 40,
+      "appearance": "background",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 139,
+      "appearance": "clean",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "split": "train",
+      "t": 139,
+      "appearance": "background",
+      "source_demo": "demo_36",
+      "closure_t": 40
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 34,
+      "appearance": "clean",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 34,
+      "appearance": "background",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 128,
+      "appearance": "clean",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "split": "validation",
+      "t": 128,
+      "appearance": "background",
+      "source_demo": "demo_15",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 30,
+      "appearance": "clean",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 30,
+      "appearance": "background",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 131,
+      "appearance": "clean",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "split": "validation",
+      "t": 131,
+      "appearance": "background",
+      "source_demo": "demo_10",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 33,
+      "appearance": "clean",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 33,
+      "appearance": "background",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 131,
+      "appearance": "clean",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "split": "validation",
+      "t": 131,
+      "appearance": "background",
+      "source_demo": "demo_31",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 36,
+      "appearance": "clean",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 36,
+      "appearance": "background",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 126,
+      "appearance": "clean",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "split": "validation",
+      "t": 126,
+      "appearance": "background",
+      "source_demo": "demo_30",
+      "closure_t": 36
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "clean",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "background",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 127,
+      "appearance": "clean",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "split": "train",
+      "t": 127,
+      "appearance": "background",
+      "source_demo": "demo_48",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "clean",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "background",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 119,
+      "appearance": "clean",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "split": "train",
+      "t": 119,
+      "appearance": "background",
+      "source_demo": "demo_37",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 31,
+      "appearance": "clean",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 31,
+      "appearance": "background",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 136,
+      "appearance": "clean",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "split": "train",
+      "t": 136,
+      "appearance": "background",
+      "source_demo": "demo_9",
+      "closure_t": 31
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "clean",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "background",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 115,
+      "appearance": "clean",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "split": "train",
+      "t": 115,
+      "appearance": "background",
+      "source_demo": "demo_47",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 37,
+      "appearance": "clean",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 37,
+      "appearance": "background",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "clean",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "background",
+      "source_demo": "demo_6",
+      "closure_t": 37
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "clean",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "background",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 121,
+      "appearance": "clean",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "split": "train",
+      "t": 121,
+      "appearance": "background",
+      "source_demo": "demo_7",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 51,
+      "appearance": "clean",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 51,
+      "appearance": "background",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 133,
+      "appearance": "clean",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "split": "train",
+      "t": 133,
+      "appearance": "background",
+      "source_demo": "demo_32",
+      "closure_t": 51
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 32,
+      "appearance": "clean",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 32,
+      "appearance": "background",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 129,
+      "appearance": "clean",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "split": "train",
+      "t": 129,
+      "appearance": "background",
+      "source_demo": "demo_13",
+      "closure_t": 32
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "clean",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "background",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "clean",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "background",
+      "source_demo": "demo_29",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 33,
+      "appearance": "clean",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 33,
+      "appearance": "background",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 131,
+      "appearance": "clean",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "split": "train",
+      "t": 131,
+      "appearance": "background",
+      "source_demo": "demo_28",
+      "closure_t": 33
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "clean",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 28,
+      "appearance": "background",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 119,
+      "appearance": "clean",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "split": "train",
+      "t": 119,
+      "appearance": "background",
+      "source_demo": "demo_19",
+      "closure_t": 28
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 34,
+      "appearance": "clean",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 34,
+      "appearance": "background",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 128,
+      "appearance": "clean",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "split": "train",
+      "t": 128,
+      "appearance": "background",
+      "source_demo": "demo_18",
+      "closure_t": 34
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "clean",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 30,
+      "appearance": "background",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "clean",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "split": "train",
+      "t": 124,
+      "appearance": "background",
+      "source_demo": "demo_38",
+      "closure_t": 30
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 25,
+      "appearance": "clean",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 25,
+      "appearance": "background",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 133,
+      "appearance": "clean",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "split": "train",
+      "t": 133,
+      "appearance": "background",
+      "source_demo": "demo_45",
+      "closure_t": 25
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "clean",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 0,
+      "appearance": "background",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "clean",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 29,
+      "appearance": "background",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 111,
+      "appearance": "clean",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "split": "train",
+      "t": 111,
+      "appearance": "background",
+      "source_demo": "demo_14",
+      "closure_t": 29
+    }
+  ],
+  "gradient": [
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "t": 43,
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "t": 37,
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "t": 27,
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "t": 30,
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "t": 28,
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "t": 34,
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "t": 30,
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "t": 33,
+      "split": "validation"
+    }
+  ],
+  "source_manifest_sha256": "24bf9c98624ad4c21c2e0bb3a897b9744665fb89abc47c062ea686919a95eba9"
+}

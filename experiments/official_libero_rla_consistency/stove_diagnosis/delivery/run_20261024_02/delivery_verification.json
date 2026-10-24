@@ -1,0 +1,25 @@
+{
+  "status": "PASS_DIAGNOSTIC_ROOT_CAUSE_UNRESOLVED",
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "policy_updates": 0,
+  "diagnostic_backward_calls": 320,
+  "closed_form_ridge_probes": true,
+  "new_closed_loop_trials": 0,
+  "sealed_contents_read": false,
+  "protected_files_rehashed": 286,
+  "changed_historical_files": [],
+  "policy_parameter_hashes_unchanged": true,
+  "repeat_actions_and_gradient_norms_exact": true,
+  "repeat_cosine_max_absolute_roundoff": 6.661338147750939e-16,
+  "GPU_released": true,
+  "diagnostic_attempts": [
+    "initial preparation requested a formal batch audit file saved only by preflight; corrected path in new run02, run01 retained",
+    "AE-env lacks MuJoCo; reused existing VLA environment, no install",
+    "AE source FP32 vs configured mixedFP16 strict-load rounding: verified exact cast, not mismatched initialization",
+    "rollout cached xpos not equal poststep state reconstruction, max0.98mm; retained and disclosed, no offset applied",
+    "second identical policy pass logs raw auxiliary directly before BF16 coefficient multiplication; first pass retained;320 total diagnostic backward calls",
+    "final summary first exact cosine check failed at6.7e-16 from float64 unordered-set dot reduction; no tensor/weight change; declared numerical rounding and preserved summaries"
+  ],
+  "GitHub_sync": "pending_remote_verification"
+}
