@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import binomtest
 p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--historical',type=Path,required=True);a=p.parse_args()
-conditions=['clean','seen_background','unseen_background'];models=['B','C','D'];rng=np.random.RandomState(20261023);indices=rng.randint(0,20,(20000,20));arrays={};summary=[];pairs=[];interactions=[];failures=[]
+conditions=['clean','seen_background','unseen_background'];models=['B','C','D'];rng=np.random.RandomState(20261023);indices=rng.randint(0,20,(20000,20));arrays={};summary=[];pairs=[];interactions=[];failures=[];palette_summary=[]
 def interval(v):return np.quantile(v[indices].mean(1),[.025,.975]).tolist()
 def save(name,obj):
  with (a.run/name).open('x') as f:json.dump(obj,f,indent=2)
@@ -16,6 +16,11 @@ for task,root in [('cookie_historical',a.historical),('drawer',a.run/'drawer/pol
   c='unseen_background' if r['condition'].startswith('unseen') else r['condition'];m='B' if r['model']=='B20' else r['model'];key=(r['seed'],c,m);assert key not in seen;seen.add(key);x[states.index(r['seed']),conditions.index(c),models.index(m)]=int(r['success'])
   failures.append(dict(task=task,seed=r['seed'],appearance=c,model=m,success=r['success'],stage_proxy=r.get('stage','unrecorded'),steps=r['steps'],evidence='existing structured target/EE trajectory proxy; not verified contact truth'))
  assert np.isfinite(x).all();arrays[task]=x
+ if task!='cookie_historical':
+  ae=root.parent/('ae_run_recovery1' if task=='drawer' else 'ae_run');frozen=json.loads((ae/'development_protocol/evaluation_protocol.json').read_text());assignment={r['seed']:r['unseen_palette_id'] for r in frozen['new_development_states']}
+  for palette in sorted(set(assignment.values())):
+   selected=[i for i,seed in enumerate(states) if assignment[seed]==palette]
+   for k,m in enumerate(models):palette_summary.append(dict(task=task,palette=palette,model=m,successes=int(x[selected,2,k].sum()),states=len(selected),SR=float(x[selected,2,k].mean()),limit='Palette assigned to disjoint state subset7/7/6; descriptive, not independently randomized palette comparison'))
  for j,c in enumerate(conditions):
   for k,m in enumerate(models):
    n=20;s=int(x[:,j,k].sum());z=1.959963984540054;v=s/n;mid=(v+z*z/(2*n))/(1+z*z/n);half=z*math.sqrt(v*(1-v)/n+z*z/(4*n*n))/(1+z*z/n)
@@ -28,9 +33,16 @@ for task,root in [('cookie_historical',a.historical),('drawer',a.run/'drawer/pol
   for j,c in enumerate(conditions[1:],1):
    v=(x[:,j,h]-x[:,0,h])-(x[:,j,l]-x[:,0,l]);interactions.append(dict(task=task,comparison=hi+'-'+lo,background=c,value=float(v.mean()),CI95=interval(v)))
 equal=[]
-for j,c in enumerate(conditions):
- vals=[x[:,j,2]-x[:,j,1] for x in arrays.values()];boot=np.mean([v[indices].mean(1) for v in vals],axis=0)
+for j,c in list(enumerate(conditions))+[(None,'three_appearance_mean')]:
+ vals=[(x[:,:,2]-x[:,:,1]).mean(1) if j is None else x[:,j,2]-x[:,j,1] for x in arrays.values()]
+ # States are clustered across appearances, but resampled independently within each task.
+ boot=np.mean([v[rng.randint(0,20,(20000,20))].mean(1) for v in vals],axis=0)
  equal.append(dict(appearance=c,D_minus_C=float(np.mean([v.mean() for v in vals])),fixed_three_task_state_cluster_CI95=np.quantile(boot,[.025,.975]).tolist(),per_task=[float(v.mean()) for v in vals]))
-save('success_rate_summary.json',summary);save('paired_statistics.json',pairs);save('interaction_statistics.json',interactions);save('three_task_equal_summary.json',dict(results=equal,limits=['Three fixed tasks only: conditional state-cluster intervals do not establish generalization across tasks','Single matched AE/policy training seed','Discrete success flips and empirical zero lower bounds do not establish stable positive gains','Historical cookie task has one unseen palette, new tasks have frozen three-palette mix','New reset development states are not independent final test; no sealed contents read']))
+equal_interactions=[]
+for j,c in enumerate(conditions[1:],1):
+ vals=[(x[:,j,2]-x[:,0,2])-(x[:,j,1]-x[:,0,1]) for x in arrays.values()];boot=np.mean([v[rng.randint(0,20,(20000,20))].mean(1) for v in vals],axis=0)
+ equal_interactions.append(dict(background=c,D_C_interaction=float(np.mean([v.mean() for v in vals])),fixed_three_task_state_cluster_CI95=np.quantile(boot,[.025,.975]).tolist(),per_task=[float(v.mean()) for v in vals]))
+save('success_rate_summary.json',summary);save('paired_statistics.json',pairs);save('interaction_statistics.json',interactions);save('three_task_equal_summary.json',dict(results=equal,interactions=equal_interactions,limits=['Three fixed tasks only: conditional state-cluster intervals do not establish generalization across tasks','Single matched AE/policy training seed','Discrete success flips and empirical zero lower bounds do not establish stable positive gains','Historical cookie task has one unseen palette, new tasks have frozen three-palette mix','New reset development states are not independent final test; no sealed contents read']))
 csvsave('task_stratified_metrics.csv',summary);csvsave('paired_comparisons.csv',pairs);csvsave('failure_stage_analysis.csv',failures)
+csvsave('unseen_palette_metrics.csv',palette_summary)
 print(json.dumps(equal,indent=2))

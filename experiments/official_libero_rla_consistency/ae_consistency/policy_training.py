@@ -79,11 +79,29 @@ def execute(g):
  if arm.startswith('preflight'):
   moments=[torch.zeros_like(p) for p in g['params'] for _ in range(2)] # persistent AdamW moment-sized storage, present during forward
   examples=[(e,t,c) for e,t in order[:8] for c in ('clean','background')]
+  gradient_hashes=[];output_hashes=[]
   for repeat in range(2):
+   restore(initial)
+   if not baseline:
+    target_arm=('C','D')[repeat];stores={c:RlaStore(str(prev/'sidecars'/target_arm/c),chunk=8,num_tokens=16,token_dim=64,norm='center') for c in ('clean','background')}
+    official_loss.CFG=dataclasses.replace(official_loss.CFG,lambda_auto=False,lambda_rla=0.)
    opt.zero_grad(set_to_none=True)
+   output_digest=hashlib.sha256()
    for start in range(0,16,micro):
-    b=batch(examples[start:start+micro]);loss=forward(b);assert torch.isfinite(loss);(loss/(16//micro)).backward();capture.clear();del loss,b
+    b=batch(examples[start:start+micro]);loss=forward(b);assert torch.isfinite(loss);output_digest.update(capture['action'].cpu().view(torch.uint8).numpy().tobytes());(loss/(16//micro)).backward();capture.clear();del loss,b
+   digest=hashlib.sha256()
+   for module in mods.values():
+    for name,p in module.named_parameters():
+     if p.grad is not None:digest.update(name.encode());digest.update(p.grad.detach().cpu().view(torch.uint8).numpy().tobytes())
+   gradient_hashes.append(digest.hexdigest());output_hashes.append(output_digest.hexdigest())
    workspace=[torch.zeros_like(p) for p in g['params']];del workspace;torch.cuda.empty_cache()
+  assert gradient_hashes[0]==gradient_hashes[1] and output_hashes[0]==output_hashes[1]
+  if not baseline:
+   auxiliary_checks=[]
+   official_loss.CFG=dataclasses.replace(official_loss.CFG,lambda_auto=False,lambda_rla=lam)
+   for target_arm in ('C','D'):
+    stores={c:RlaStore(str(prev/'sidecars'/target_arm/c),chunk=8,num_tokens=16,token_dim=64,norm='center') for c in ('clean','background')};restore(initial);opt.zero_grad(set_to_none=True);b=batch(examples[:micro]);total=forward(b);aux=(capture['z'].float()-b['rla'].cuda().float()).abs().mean();(lam*aux).backward();norm=sum(float(p.grad.detach().float().square().sum()) for p in model.parameters() if p.grad is not None)**.5;assert norm>0 and np.isfinite(norm);auxiliary_checks.append(dict(target=target_arm,raw_loss=float(aux.detach()),lambda_aux=lam,weighted_loss=lam*float(aux.detach()),shared_backbone_aux_gradient_norm=norm));capture.clear();del b,total,aux
+   g['save']('target_gradient_audit.json',dict(action_only_gradient_hashes=gradient_hashes,action_output_hashes=output_hashes,exact_C_D_action_only_match=True,auxiliary_checks=auxiliary_checks,optimizer_updates=0,common_initialization_restored_between_checks=True))
   assert all(p.grad is None or torch.isfinite(p.grad).all() for p in g['params'])
   g['save']('actual_task_batch_audit.json',actual_batch_audit)
   g['save']('preflight_acceptance.json',dict(status='PASS_PERSISTENT_OPTIMIZER_MEMORY_TWO_FULL_EFFECTIVE_BATCHES',microbatch=micro,effective_appearance_batch=16,peak_allocated=torch.cuda.max_memory_allocated(),peak_reserved=torch.cuda.max_memory_reserved(),optimizer_updates=0,initialization_unchanged=True));print('FULL BATCH PREFLIGHT PASS',flush=True);return

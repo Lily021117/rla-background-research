@@ -2,7 +2,7 @@
 import argparse,json,hashlib
 from pathlib import Path
 import numpy as np
-p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--task',type=Path,required=True);p.add_argument('--stage',choices=['ae','policy'],required=True);a=p.parse_args();base=a.project/'experiments/official_libero_rla_consistency';manifest=json.loads((a.task/'frozen_dataset_manifest.json').read_text());ae=a.task/'ae_run'
+p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--task',type=Path,required=True);p.add_argument('--ae-run',type=Path);p.add_argument('--stage',choices=['ae','policy'],required=True);a=p.parse_args();base=a.project/'experiments/official_libero_rla_consistency';manifest=json.loads((a.task/'frozen_dataset_manifest.json').read_text());ae=a.ae_run or a.task/'ae_run'
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def save(path,x):
  path.parent.mkdir(parents=True,exist_ok=True)
@@ -11,6 +11,8 @@ if a.stage=='ae':
  plan=json.loads((base/'run_20261023_08/training_plan.json').read_text());windows=sum(e['valid_chunks'] for e in manifest['episodes'] if e['split']=='train');plan.update(train_window_equivalent_epochs=4800/windows,all_horizon_pool_epochs=4800/(8*windows),lambda_cons=.009127798272072366,lambda_selection='frozen from original task; no per-task calibration or development tuning',budget_reason='same600x8 physical transitions across all tasks; fixed compute, not convergence',task_id=manifest['task_id'])
  assert plan['updates']==600 and plan['lr']==1e-4 and plan['loss_scale']==256
  save(ae/'training_plan.json',plan)
+ if ae!=a.task/'ae_run':
+  dev=a.task/'ae_run/development_protocol/evaluation_protocol.json';save(ae/'development_protocol/evaluation_protocol.json',json.loads(dev.read_text()));save(ae/'development_reuse_provenance.json',dict(source=str(dev),sha256=sha(dev),no_state_or_palette_changes=True))
 else:
  assert (ae/'sidecar_alignment_audit.json').is_file();root=a.task/'policy_run';root.mkdir(exist_ok=False)
  init=base/'run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt';baseline=base/'run_20261023_06/B20/formal_B/step0000.pt';statistics=a.task/'normalization_statistics_expanded_train_only.json'

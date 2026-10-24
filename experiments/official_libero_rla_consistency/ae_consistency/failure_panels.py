@@ -6,8 +6,8 @@ import numpy as np
 from PIL import Image,ImageDraw
 p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);a=p.parse_args();rows=json.loads((a.run/'per_trial_results.json').read_text());assert len(rows)==180
 out=a.run/'failure_evidence';out.mkdir(exist_ok=False);selected=[]
-for model in ('B20','C','D'):
- for condition in ('clean','seen_background','unseen_warm_teal'):
+for model in sorted({r['model'] for r in rows}):
+ for condition in sorted({r['condition'] for r in rows}):
   failed=sorted((r for r in rows if r['model']==model and r['condition']==condition and not r['success']),key=lambda r:r['seed'])
   if not failed:continue
   r=failed[0];reader=imageio.get_reader(r['video']);frames=[frame for frame in reader];reader.close();indices=sorted(set(int(round(x)) for x in np.linspace(0,len(frames)-1,5)))
