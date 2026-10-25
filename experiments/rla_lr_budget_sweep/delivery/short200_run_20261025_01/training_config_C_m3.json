@@ -1,0 +1,12 @@
+{
+  "target": "C",
+  "method": "C",
+  "multiplier": 3,
+  "beta": 0,
+  "updates": 200,
+  "scheduler": "MultiStepLR milestones=[1200], gamma0.1 after update; no warmup",
+  "initialization": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+  "lambda_aux": 0.22408536585365854,
+  "seed": 20261023,
+  "batch16_micro8_accum2": true
+}

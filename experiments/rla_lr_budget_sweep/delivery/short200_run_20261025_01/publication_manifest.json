@@ -1,0 +1,373 @@
+{
+  "files": [
+    {
+      "file": "report.md",
+      "bytes": 8621,
+      "sha256": "c399345081303a77d6efd84a4d82627856e0cbaec48fd09f5d12cba7c13ad465"
+    },
+    {
+      "file": "next_experiment_proposal.md",
+      "bytes": 2535,
+      "sha256": "deafa8e63cbab6cdd9aedf058fc2954380a25d25861d8487fb6be3f3470f7b78"
+    },
+    {
+      "file": "short_protocol.json",
+      "bytes": 400,
+      "sha256": "7efaf7c0877a9eabbdc1beda81f5912fb33b5bd42e40979ebe4b3dc2515d181f"
+    },
+    {
+      "file": "run_plan.json",
+      "bytes": 5351,
+      "sha256": "c659b9de69d7c3bbbfde750ef06f20383c82cae4492503adb7ee95363951c0e1"
+    },
+    {
+      "file": "interruption_audit.json",
+      "bytes": 512,
+      "sha256": "d891aad845d73d59a1f7eee083439cc5be8efac6ad61a6eb78ed226c876e91f7"
+    },
+    {
+      "file": "loss_definition_audit.json",
+      "bytes": 4840,
+      "sha256": "ad33fb3b1d320833a6714893f6ac5249fa000dde7d5266d4d5c57a93edf63e9a"
+    },
+    {
+      "file": "fixed_sample_manifest.json",
+      "bytes": 55943,
+      "sha256": "f2090fcb239e9480643b059e61ac1f55ebb4a8b7c21e8b3e76a828b6b5361492"
+    },
+    {
+      "file": "data_exposure.csv",
+      "bytes": 1568,
+      "sha256": "d0557e659fd6da75f0bc4adb0c252d824e5e910f9c010205064586fa8a2fc31d"
+    },
+    {
+      "file": "training_metrics_all.csv",
+      "bytes": 1078138,
+      "sha256": "dcab51ff450fe2fe9f64f7f0fd77b78378601a160d486cd48114219fbc8548b7"
+    },
+    {
+      "file": "fixed_offline_summary.csv",
+      "bytes": 35721,
+      "sha256": "ee177e2847da0807136fd1d25f5ffdd34ff55273891d7e3401a22c006e4ee0c5"
+    },
+    {
+      "file": "per_demo_metrics.csv",
+      "bytes": 474410,
+      "sha256": "3d7cf751f1cd3bb88abd439522edd664289612f88de6ca1ce0d298e1eececb37"
+    },
+    {
+      "file": "horizon_metrics.csv",
+      "bytes": 284637,
+      "sha256": "824b25a77189bcae7f054f6654a05d2f9c1c55dddc7ed366fedffe1bf13e0552"
+    },
+    {
+      "file": "coarse_phase_metrics.csv",
+      "bytes": 73321,
+      "sha256": "24b7bccaa4fa57cf85241ff579421c5c1174b362009a23fb8f69fe729396a216"
+    },
+    {
+      "file": "stage_label_limitations.json",
+      "bytes": 431,
+      "sha256": "c80df2fd137b89cb3a97e98612865e59e3e4f1bb39e315e8db4962b8dbc89455"
+    },
+    {
+      "file": "gradient_contributions.csv",
+      "bytes": 263263,
+      "sha256": "23021f8010efbaa9414466a5db347a560532ce4da77b904b2a74f367e9deb123"
+    },
+    {
+      "file": "parameter_update_statistics.csv",
+      "bytes": 18608,
+      "sha256": "1edd456df420f87b9e899c121050d897c2f9660d99f61a3e0845f652821507d9"
+    },
+    {
+      "file": "learning_signals.csv",
+      "bytes": 2144,
+      "sha256": "fdb4511c5f655434a283ac0f00a3a60389b2b85b60d017ef2aa597ac351ac3a7"
+    },
+    {
+      "file": "matched_C_D_offline_comparison.csv",
+      "bytes": 15230,
+      "sha256": "5a696810ea8d71ea99f713f1606aa072e91c0adb7f5261bcf2af3352ef341fad"
+    },
+    {
+      "file": "checkpoint_inventory.csv",
+      "bytes": 7802,
+      "sha256": "371abf09ec897d288dd264a904d5372740505a2f8c69310797bd19fa15ea8c5b"
+    },
+    {
+      "file": "delivery_verification.json",
+      "bytes": 13742,
+      "sha256": "2b9cd68fbe942444ea8727f10f64ffbe70aff35e56ec7c95e7ee26dfb65f9661"
+    },
+    {
+      "file": "AE_training_curves.csv",
+      "bytes": 434939,
+      "sha256": "1f0471c1a823504a10505e83cadbcd4b1f292d1eb7d249705135b86051ff0ee1"
+    },
+    {
+      "file": "AE_development_reconstruction.csv",
+      "bytes": 20920,
+      "sha256": "c81a267c173c0da1d7d5f27c15941ef60b2c0f10fc73ca7671641ed9b644aa99"
+    },
+    {
+      "file": "AE_latent_distribution.csv",
+      "bytes": 2977,
+      "sha256": "de504e16c9df892a4dfaddbafc2b5b16c6f710fa541f15f719ea7ba3eab5e5fe"
+    },
+    {
+      "file": "AE_training_latent_means.csv",
+      "bytes": 532,
+      "sha256": "576912999d6e149268b7ab53ff5429c6d3d01ac650a7098dca78a1d92b462b95"
+    },
+    {
+      "file": "historical_motion_probe_summary.csv",
+      "bytes": 1701,
+      "sha256": "1a62882a064f5bec5c0e3da02aae28aa3833c671c0318f28488712bb66b6cc0c"
+    },
+    {
+      "file": "historical_motion_probe_uncertainty.json",
+      "bytes": 1369,
+      "sha256": "6106e16b2b5a721e790b08b3a8ff57a538ff54d8113b6141e8f65547286d0f3c"
+    },
+    {
+      "file": "historical_optimizer_audit.json",
+      "bytes": 650,
+      "sha256": "e795aadd0f2de5ab0fec5f10b3dedfd891d95aacb2e58af0a1339162ec5a2548"
+    },
+    {
+      "file": "training_config_D-center_m0p3.json",
+      "bytes": 429,
+      "sha256": "0b685cd6d17bc485543515679e8e5b2c0487b00a1fa121afadbd19399c5656ae"
+    },
+    {
+      "file": "training_config_C_m0p3.json",
+      "bytes": 422,
+      "sha256": "f8d55b3ee880479640dca39b1e4c9d72eb2288bd9ac947469b5c3c61ea56f01f"
+    },
+    {
+      "file": "training_config_D-center_m0p1.json",
+      "bytes": 429,
+      "sha256": "f000b8a76a1946d4788cad50d7a2b272c080f9edb2b9d5f4a985702e92fc0b03"
+    },
+    {
+      "file": "training_config_C_m0p1.json",
+      "bytes": 422,
+      "sha256": "cb04002112307d54ababa4076f1b95a0ab012d99e5d2765cbdc1d505ed873ce5"
+    },
+    {
+      "file": "training_config_D-center_m1.json",
+      "bytes": 427,
+      "sha256": "d6619ca851bd1c3416a2c45dc344e3bf00dffc11fb889565bd2a202949d9b361"
+    },
+    {
+      "file": "training_config_D-center_m3.json",
+      "bytes": 427,
+      "sha256": "2c9807a166108234969ef3992270414a481afd672693274c4fd365d123da2713"
+    },
+    {
+      "file": "training_config_C_m1.json",
+      "bytes": 420,
+      "sha256": "1d5674499e184558524b9f9b02c85b84ffbb9c0dd2ffa759ee5e93dc4d3423fc"
+    },
+    {
+      "file": "training_config_C_m3.json",
+      "bytes": 420,
+      "sha256": "96fb62ffb359772d9c18eee188274a2cdcabd64649ba9fd95ba58f289e9b4588"
+    },
+    {
+      "file": "AE_summary.csv",
+      "bytes": 2455,
+      "sha256": "8bc34264226f15d98f1530708933bca4cac5ab5a59106cd510d785810dd4b9d8"
+    },
+    {
+      "file": "diagnostic_incident.json",
+      "bytes": 650,
+      "sha256": "4e15d597e9e2da43ca74ba26ecfb0e8c17354ea621c3dbee9ea0289a411a6478"
+    },
+    {
+      "file": "diagnostic_registry.json",
+      "bytes": 30,
+      "sha256": "75cfcc62afbb51de9ed5b176203b61a5f13a708ebf21b15b49a1116f00a728ac"
+    },
+    {
+      "file": "optimizer_runtime_summary.csv",
+      "bytes": 1488,
+      "sha256": "77aded4fb1f8343970485af32e3049c44028a20899ea64ccb7126fc28f3a23bd"
+    },
+    {
+      "file": "interval_learning_signals.csv",
+      "bytes": 5703,
+      "sha256": "0e00fe8e09e52fde8e64b6ca12ae44b6f4b0d49ab3baac6c7f271e145a2e8aec"
+    },
+    {
+      "file": "figures/D-center_gripper_L1_fixed.png",
+      "bytes": 270832,
+      "sha256": "74f3e059edc9d3f96b169b1313a950b016a2f480be39ed38c42f4bbf76e5fa87"
+    },
+    {
+      "file": "figures/D-center_rotation_L1_fixed.png",
+      "bytes": 256287,
+      "sha256": "b101d46808b184f0bb24d4a2780370a5a46e07afec84f2f2ac01a73ca4afba7e"
+    },
+    {
+      "file": "figures/historical_AE_dev_endpoints_only.png",
+      "bytes": 61480,
+      "sha256": "b7aea959683def065a9e1425422c9f4b61338e13eda9ec6771d7f964a5104e73"
+    },
+    {
+      "file": "figures/historical_AE_training.pdf",
+      "bytes": 65649,
+      "sha256": "20b1a275174fa43f17aa6dfca09b3d7416fe54fca510e4f70ada1b25078ca8fb"
+    },
+    {
+      "file": "figures/matched_C_D_action_curves.png",
+      "bytes": 348685,
+      "sha256": "4b6e03f2f75308c4fa26d452a780abdb436c7afa7f233a9c124630be1b12039a"
+    },
+    {
+      "file": "figures/C_action_L1_fixed.png",
+      "bytes": 258935,
+      "sha256": "ecc66e8bb570abea3d69a8f947a0b2b130fdf463114460df12e855b7724c90bf"
+    },
+    {
+      "file": "figures/historical_AE_training.png",
+      "bytes": 218820,
+      "sha256": "434c4b8b2595e691aa6e9d37d8bf9ef74aa5b02fd8ef7575f902782ce3334958"
+    },
+    {
+      "file": "figures/D-center_chunk_positions.png",
+      "bytes": 253883,
+      "sha256": "b2b8bd6e7f5e56d5ef8f4193f7194401cbea2f2b297944b0c8164374211cce25"
+    },
+    {
+      "file": "figures/C_gripper_L1_fixed.pdf",
+      "bytes": 23170,
+      "sha256": "dd584470301f0004963f79be3db32903b6bc69e985469fbbfdb2c2a3c0e5cf6e"
+    },
+    {
+      "file": "figures/C_chunk_positions.pdf",
+      "bytes": 27256,
+      "sha256": "fdb49bec1b1d40792ee539cfa68b9c3fa715cecb5e054e39d7378392ac6c24c0"
+    },
+    {
+      "file": "figures/isolated_shared_gradient_diagnostics.pdf",
+      "bytes": 24040,
+      "sha256": "d2e7b8cc23f4d4c1adf7b9ac296be88014f70fa9ce24ad213a49f70382a77d95"
+    },
+    {
+      "file": "figures/C_translation_L1_fixed.pdf",
+      "bytes": 23359,
+      "sha256": "99138b437bb7f6563003c291bc56b81eb1e4262ac934cd57bc1306446297c170"
+    },
+    {
+      "file": "figures/historical_AE_dev_endpoints_only.pdf",
+      "bytes": 18855,
+      "sha256": "469c685e7a65c7e0e9ba9f3bcb754e7232be3408e84745a7d8e3933e1c1b34d0"
+    },
+    {
+      "file": "figures/D-center_gripper_L1_fixed.pdf",
+      "bytes": 23119,
+      "sha256": "7a12998e02f1463d629a9a3d4288cb572c9657e1306373208415e4d89c921f57"
+    },
+    {
+      "file": "figures/C_instantaneous_training.pdf",
+      "bytes": 45486,
+      "sha256": "2e70821a72a3a4e640aafabd932a185d8bc6f21291adce3989f5f50aaaf5a585"
+    },
+    {
+      "file": "figures/isolated_shared_gradient_diagnostics.png",
+      "bytes": 240831,
+      "sha256": "77994193f63f07449199d4c868f8b55c82332b431ccd273b1e2e246349bd8021"
+    },
+    {
+      "file": "figures/D-center_instantaneous_training.pdf",
+      "bytes": 39670,
+      "sha256": "0bb483c503b386b09db29c9ed7158f9eb492ecaa05dd251971b985650b46a02c"
+    },
+    {
+      "file": "figures/D-center_instantaneous_training.png",
+      "bytes": 235155,
+      "sha256": "7786b5d26f4ce72cb34146038838f6a7c4ec0bd1d19dbfdd00ebda536e70e922"
+    },
+    {
+      "file": "figures/C_instantaneous_training.png",
+      "bytes": 206775,
+      "sha256": "fe4beeb1e26bdf57ea83c6f5a84a4b3ed3d19a331c25b682ed5a1f37c6f13a61"
+    },
+    {
+      "file": "figures/C_rotation_L1_fixed.pdf",
+      "bytes": 23065,
+      "sha256": "ec0629afa1b0d29b8f23233d19f92ae957e6b27ec4bb48b832cd405ab2791fd6"
+    },
+    {
+      "file": "figures/C_translation_L1_fixed.png",
+      "bytes": 247275,
+      "sha256": "ba0137fa2d59982ebae58502abce230b2ab8aebf6b9abc3b38e8060fd8b9ef28"
+    },
+    {
+      "file": "figures/D-center_action_L1_fixed.pdf",
+      "bytes": 23379,
+      "sha256": "ddb33ec2e2d50278919cd92dac5c336d80bffc4be58e5dffaa5d0c08d6bfe33d"
+    },
+    {
+      "file": "figures/C_rotation_L1_fixed.png",
+      "bytes": 248795,
+      "sha256": "434e87d9205678f50606c6db456369666bb566f816ad1427a96522280e2ca41b"
+    },
+    {
+      "file": "figures/D-center_action_L1_fixed.png",
+      "bytes": 251563,
+      "sha256": "075e8872e6e96a40ce9487f8d4254d8331df85a902da246b251004cedce70192"
+    },
+    {
+      "file": "figures/C_gripper_L1_fixed.png",
+      "bytes": 255162,
+      "sha256": "433bb2b0a892f9d1585975bdfcef65208a9e83f187b01ca01de2d045a8cf6488"
+    },
+    {
+      "file": "figures/C_action_L1_fixed.pdf",
+      "bytes": 23191,
+      "sha256": "a24e300c1642ae5b274a586bdb9e0be15211151d193cafb731c6bf0e8b7a8d67"
+    },
+    {
+      "file": "figures/C_chunk_positions.png",
+      "bytes": 250685,
+      "sha256": "013d5b50e15f3d4a16fb8fe0bb617ad0c689ce4019493c01a0f25b1654027d54"
+    },
+    {
+      "file": "figures/D-center_chunk_positions.pdf",
+      "bytes": 27524,
+      "sha256": "a09e57911e5025ad3dab21c73445412d0f26b05833f2aa55345f0d0995ba1362"
+    },
+    {
+      "file": "figures/D-center_translation_L1_fixed.png",
+      "bytes": 223857,
+      "sha256": "656b09c8cf4f2d7b2a29562ae2776b3519f13b863b6c06d6e39c85373d713621"
+    },
+    {
+      "file": "figures/matched_C_D_action_curves.pdf",
+      "bytes": 33385,
+      "sha256": "272843468c1e4f1e2a333332371f6701ec0399bdda47e976df805d07d478e66e"
+    },
+    {
+      "file": "figures/D-center_rotation_L1_fixed.pdf",
+      "bytes": 23272,
+      "sha256": "f13a0130b19516be317ad507202b4aff02136cddc08ce03d87700d49f0dd7ab0"
+    },
+    {
+      "file": "figures/D-center_translation_L1_fixed.pdf",
+      "bytes": 23548,
+      "sha256": "fab131b28ee0b7762b7555c32d11e6a727e740b29abab1329ee5fca827cebe05"
+    }
+  ],
+  "excluded": [
+    "weights",
+    "sidecars",
+    "original observations",
+    "raw trajectory",
+    "videos",
+    "credentials"
+  ],
+  "source_commit": "4516a8c7c5f3995b45175cae005b0af12eb730e8"
+}

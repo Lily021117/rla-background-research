@@ -1,0 +1,19 @@
+{
+  "target200": true,
+  "scheduler_milestone1200": true,
+  "already_over_budget": {
+    "C_m0p1": 416
+  },
+  "new_authorized_updates": 1400,
+  "expected_confirmed_total": 1816,
+  "normal_total_without_prior_excess": 1600,
+  "gradient_nodes": [
+    0,
+    100,
+    200
+  ],
+  "gradient_updates": 0,
+  "rollouts": 0,
+  "sealed_reads": 0,
+  "missing_C_m0p1_step50": "no checkpoint; do not regenerate"
+}

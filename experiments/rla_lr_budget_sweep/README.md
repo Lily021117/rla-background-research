@@ -21,6 +21,13 @@ state-derived before/after-lift labels do not supply precise four-stage labels.
 plots and actual computation counts. The original search below is retained for
 provenance and is not the active execution authorization.
 
+Run training and diagnostics serially. An attempted overlap encountered an OOM
+when another process occupied about35.6GiB; that diagnostic performed no optimizer
+update or completed backward. Failed logs remain intact. `diagnostic_registry.json`
+can select a separately named retry directory; the Cx1 retry keeps the same frozen
+checkpoint, batch and objective. Do not rerun the optional diagnostic pipeline
+concurrently with training on a shared GPU.
+
 This is a policy-only development hyperparameter search, not independent testing.
 The frozen AE/sidecars and accepted official LIBERO VLA-RLA interface are reused.
 C targets `(z_C-mu_C)/s_C`; D-center targets `(z_D-mu_D)/s_C`. All eight candidates

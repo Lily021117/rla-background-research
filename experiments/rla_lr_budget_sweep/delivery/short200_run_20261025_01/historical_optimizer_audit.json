@@ -1,0 +1,24 @@
+{
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0001.pt",
+  "sha256": "1d9b8abc25994f19dde8f47e725a73c30df1d31432cc0a7cf90dff559ba0f8c0",
+  "groups": [
+    {
+      "lr": 0.0002,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.01,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "initial_lr": 0.0002,
+      "parameter_tensor_count": 1359
+    }
+  ],
+  "scheduler": "MultiStepLR milestone600 gamma0.1; no warmup"
+}

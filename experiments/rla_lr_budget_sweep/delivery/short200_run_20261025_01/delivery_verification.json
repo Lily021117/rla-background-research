@@ -1,0 +1,426 @@
+{
+  "status": "PASS_SHORT_TRAINING_AND_OFFLINE_DIAGNOSTICS",
+  "confirmed_successful_updates": {
+    "C_m0p1": 416,
+    "C_m0p3": 200,
+    "C_m1": 200,
+    "C_m3": 200,
+    "D-center_m0p1": 200,
+    "D-center_m0p3": 200,
+    "D-center_m1": 200,
+    "D-center_m3": 200
+  },
+  "confirmed_total": 1816,
+  "comparable_first200_total": 1600,
+  "post_revision_updates": 1400,
+  "unpersisted_logged_updates16": true,
+  "inflight417_success_unconfirmed": true,
+  "replayed_updates": 0,
+  "diagnostic_backward_calls": 48,
+  "diagnostic_optimizer_updates": 0,
+  "diagnostic_incident": {
+    "arm": "C_m1",
+    "failed_attempt": "diagnostics",
+    "retry_attempt": "diagnostics_retry1",
+    "failure": "CUDA OOM during first gradient-objective forward, before autograd.grad",
+    "completed_backward_calls": 0,
+    "completed_no_grad_batches_before_failure": 50,
+    "failed_gradient_forward_attempts": 1,
+    "optimizer_updates": 0,
+    "failed_log": "C_m1_diagnostics.log",
+    "observed_external_gpu_memory_MiB": 36538,
+    "new_ECC_observed": false,
+    "training_process_affected": false,
+    "remedy": "Stop overlapping diagnostic pipeline; retry serially after all training, unchanged checkpoint, batch, backend and objective. Preserve failed attempt."
+  },
+  "AE_updates": 0,
+  "teacher_updates": 0,
+  "new_closed_loop": 0,
+  "sealed_reads": 0,
+  "initial_parameters_equal": true,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0001.pt",
+      "unchanged": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "model": "C_m0p1",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "1b94070b91281d9f3daf710270afa0279be08d5787b93ba7ea7da72eb4a86bbc",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "bb20670106d4fb2a21e5274fdac90cf024ae3708cca5268bbd37fa984dfd025f",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": true
+    },
+    {
+      "model": "C_m0p3",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "ee8c562ddf93907c8936959cb3134af045ceda5716a7051039ccc169a0b7ccde",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "c9c0aa08d6ffb0024d8e4a24371daa71634996352d3f424aba94a5b73898fbed",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "e4195015bb9dee96ef566ebca65ac473db88290548a14782ca3ef8dcec1bcf2d",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "C_m1",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "c56e066e4952f0d92c2a13f636b1efe68e8772971301bdf3d288a089f24d7f2d",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "933c4cba184e06c49d1bdffdfefe3377191a20620438d2840e96288734e9ac41",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "e565b1735aad2f9ce6c21ba531ecf43e1b7dca193bcdbe3adb326f264017d3f5",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "C_m3",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "7693431b005dcfd32f51fb968762a92631824ce17d54422598ada0b56b78839a",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "6e89aee28db912737cf7fdcb70bcf9d8379802df0b85cb5a0ac303b156311448",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "7660c4e689b91b2286cff2183fa216959cfc6d930cf994e3049f0adf5d698fd1",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "D-center_m0p1",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "552166fb14c88c53d59ca348d97c65b96a6a9bc4890106c3cd57ece6f21acd65",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "18dfc6d65da569a85d97ef7af66d7a57ca88a99458cf1bd3bd51b95e6f76e2df",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "450cb667d7205a19becc62de59188e44a600ddb795265b24697b513ea56fba01",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "D-center_m0p3",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "700fe4e102c5e9cf90d4eaba36efd50ab565352946d782ef0c575df57ec5cc32",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "e58f499cf504cf8ecd1e003aa75def447e7a9235baff86e2caae5339578658aa",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "2061c55eca23f8a5cc05fa1ca9a1205c0e900b33d7fa6c7b2532fce7ddba42df",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "D-center_m1",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "3576dcc35aa2a1813b84e8448becc00432e33c3fd244214c9ad142ce7807f247",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "6efeec43211a891439e2e5f43eef22baac2f44d5d1ac60b90c518216a1309f33",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "2fe64170215666414ffe9f8421ec95ac72020682625661d9dfd9411f22cd06c4",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    },
+    {
+      "model": "D-center_m3",
+      "status": "PASS",
+      "nodes": [
+        {
+          "step": 0,
+          "parameter_hash": "ea71555ea6871971a7b283b8d6ccbfe6264bd23840094a89f5fb944efb15b360",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 50,
+          "parameter_hash": "07fa15eeaa44c0092d0d504919e1ec80a2cede778c59851c38a2b66421284cb4",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 100,
+          "parameter_hash": "3ed23e3ac8610d9b2c20e3d9cb37d36a7460f03680c2f31845bd2e271962976b",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        },
+        {
+          "step": 200,
+          "parameter_hash": "1519fc52633f079987419bdadd643f0750c5a8e4820992e9b9b9c56208707853",
+          "unchanged": true,
+          "buffers_unchanged": true,
+          "optimizer_not_instantiated": true,
+          "RNG_restored": true
+        }
+      ],
+      "optimizer_updates": 0,
+      "backward_calls": 6,
+      "AE_updates": 0,
+      "teacher_updates": 0,
+      "new_rollouts": 0,
+      "peak_allocated": 27202624000,
+      "missing_step50": false
+    }
+  ],
+  "missing_C_m0p1_step50": true
+}

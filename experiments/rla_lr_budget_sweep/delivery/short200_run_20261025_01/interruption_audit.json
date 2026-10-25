@@ -1,0 +1,11 @@
+{
+  "reason": "user shortened experiment; explicitly stopped only recorded task PIDs2010972/2010978/2010979",
+  "confirmed_successful_updates": 416,
+  "last_complete_recovery_step": 400,
+  "unpersisted_logged_updates": 16,
+  "inflight_attempt_at_stop": "possible417; no confirmed successful-update log, not counted",
+  "replays": 0,
+  "original_paths_preserved": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results",
+  "no_rollback_or_further_training_C_m0p1": true,
+  "new_closed_loop": 0
+}

@@ -1,0 +1,5 @@
+task,model,training_mean_norm,training_mean_scalar,training_dimension_variance_mean,count,source
+stove,C,70.04923833998511,-0.19889422010260538,2.4677175163285874,40880,train only pre-FP16 sidecar moments
+stove,D,31.85662151017139,-0.09901888490904284,0.29608503435118144,40880,train only pre-FP16 sidecar moments
+cookie,C,69.25255944880392,-0.2076306050904261,2.507107050851833,30240,train only pre-FP16 sidecar moments
+cookie,D,31.606339366772108,-0.11391302599100275,0.29878056619582555,30240,train only pre-FP16 sidecar moments

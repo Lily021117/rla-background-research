@@ -1,0 +1,12 @@
+{
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_postlift/run_20261025_01/demo_phase_coverage.csv",
+  "source_sha256": "646fe4848c186efd3f1b0e6622961679385cd6305c6fb8b3b2e6adbb7d1fa74a",
+  "usable": "historically verified first3cm lift before/after only",
+  "unavailable": [
+    "precise approach",
+    "stable grasp",
+    "transport",
+    "descent placement"
+  ],
+  "no_new_labels_invented": true
+}

@@ -1,0 +1,113 @@
+{
+  "AE": {
+    "source_code": "experiments/official_libero_rla_consistency/ae_consistency/train_ae.py:losses; common.py:forward",
+    "lambda_inv": 0.009127798272072366,
+    "C": "0.5*(L1_clean+MSE_clean+L1_background+MSE_background)",
+    "D": "same reconstruction + lambda_inv*mean((z_clean-z_background)^2)",
+    "reconstruction_weights": {
+      "L1": 1,
+      "MSE": 1,
+      "appearance_average": 0.5
+    },
+    "reduction": "mean over batch, both views, spatial patches and DINO channels; average8 sampled physical transitions/update; one sampled h1..8 per transition",
+    "latent": "joint two-view latent16x64; consistency mean across batch/query/dim, not arbitrary per-camera tokens",
+    "mask": "only complete valid anchors and valid sampled horizons; no padded tail in training",
+    "optimizer": {
+      "frozen": true,
+      "seed": 20261023,
+      "updates": 600,
+      "microbatch_physical": 1,
+      "accumulation": 8,
+      "effective_physical_batch": 8,
+      "effective_appearance_batch": 16,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "train_window_equivalent_epochs": 1.8786692759295498,
+      "all_horizon_pool_epochs": 0.23483365949119372,
+      "horizons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "horizon_sampling": "seeded permutation of (episode,valid_anchor,h1..8); identical C/D sequence",
+      "optimizer": "AdamW",
+      "lr": 0.0001,
+      "weight_decay": 0.0,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "master_parameters": "official inflat_all utility, FP32 master over official mixed-FP16 model",
+      "loss_scale": 256.0,
+      "loss_scale_growth": 0.0,
+      "loss_scale_deviation": "fixed conservative2^8 rather than official initial2^20 dynamic growth; train-only finite-gradient calibration; identical arms",
+      "lambda_cons": 0.009127798272072366,
+      "lambda_selection": "frozen from original task; no per-task calibration or development tuning",
+      "reconstruction": "0.5*((L1+MSE)(clean_future_pred,clean_future_DINO)+(L1+MSE)(background_future_pred,background_future_DINO)); mean across B/views/patches/channels",
+      "consistency": "mean((z_clean-z_background)^2) over B/16queries/64dims",
+      "freeze": [
+        "DINO",
+        "image_decoder_not_loaded"
+      ],
+      "unfreeze": [
+        "all official encoder",
+        "all matching decoder"
+      ],
+      "checkpoint_steps": [
+        0,
+        300,
+        600
+      ],
+      "validation_steps": [
+        0,
+        600
+      ],
+      "final_checkpoint": 600,
+      "initial_step": 90000,
+      "reference": "frozen step90000, not paperstep40000",
+      "budget_reason": "same600x8 physical transitions across all tasks; fixed compute, not convergence",
+      "horizon_deviation": "paired pilot h1..8 instead of official training h2..64; matches policy target support",
+      "stop_conditions": [
+        "nonfinite gradients/loss",
+        "OOM",
+        "ECC increment",
+        "identity mismatch"
+      ],
+      "task_id": "stove"
+    },
+    "new_updates": 0
+  },
+  "policy": {
+    "action_weight": 1,
+    "lambda_aux": 0.22408536585365854,
+    "action": "official mean normalized L1 over all valid Bx8x7; BF16 action labels in official forward",
+    "auxiliary": "mean L1(predicted Bx8x1024, normalized target) with common lambda",
+    "mask": "8x7 all valid action elements;8 cumulative targets; only full-valid windows",
+    "batch": "8 physical windows x2 appearances; micro8, accumulation2",
+    "optimizer": "AdamW single trainable group322589983 parameters; base LR2e-4 x multiplier; WD.01, betas.9/.999 eps1e-8",
+    "gradient_clipping": null,
+    "scheduler": "MultiStepLR milestone1200 gamma.1; no warmup; no decay reached this round",
+    "teacher": false,
+    "keep": false
+  },
+  "latent_metrics": {
+    "relative_L2": "norm(zclean-zbg)/(norm(zclean)+1e-8)",
+    "unit_L2": "norm(zclean/norm(zclean)-zbg/norm(zbg))",
+    "effective_rank": "SVD of sample-centered latent; exp entropy of normalized squared singular values",
+    "participation_ratio": "sum(eigenvalues)^2 / sum(eigenvalues^2)",
+    "different": "only different-episode pairs in same fixed development sample",
+    "mean_scope": "training mean is saved; full development mean vector not retained"
+  },
+  "limitations": [
+    "AE development measurements exist only at frozen reference and final600, no invented intermediate curve",
+    "No new physical probe; source labels are same-recorded-state simulator bowl position and finger qpos, not external real-world ground truth",
+    "Cookie comparison uses same metric definitions but different tasks/distributions; correlation is not causality",
+    "Policy LR comparison cannot resolve AE lambda_inv choice, AE convergence or AE seed stability"
+  ]
+}

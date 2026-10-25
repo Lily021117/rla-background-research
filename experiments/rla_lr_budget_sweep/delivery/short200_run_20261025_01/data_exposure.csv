@@ -1,0 +1,9 @@
+model,confirmed_updates,physical_draws,appearance_draws,dual_camera_image_exposures,unique_drawn_windows,independent_train_episodes,available_train_windows,equivalent_pool_passes,max_window_multiplicity,sampler,matched_prefix_first200
+C_m0p1,416,3328,6656,13312,2555,20,2555,1.3025440313111547,2,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+C_m0p3,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+C_m1,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+C_m3,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+D-center_m0p1,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+D-center_m0p3,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+D-center_m1,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True
+D-center_m3,200,1600,3200,6400,1600,20,2555,0.6262230919765166,1,"seeded full-pool permutations; without replacement within2555-window pass, repeats across passes",True

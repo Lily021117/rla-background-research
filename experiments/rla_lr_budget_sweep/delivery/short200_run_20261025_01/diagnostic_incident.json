@@ -1,0 +1,15 @@
+{
+  "arm": "C_m1",
+  "failed_attempt": "diagnostics",
+  "retry_attempt": "diagnostics_retry1",
+  "failure": "CUDA OOM during first gradient-objective forward, before autograd.grad",
+  "completed_backward_calls": 0,
+  "completed_no_grad_batches_before_failure": 50,
+  "failed_gradient_forward_attempts": 1,
+  "optimizer_updates": 0,
+  "failed_log": "C_m1_diagnostics.log",
+  "observed_external_gpu_memory_MiB": 36538,
+  "new_ECC_observed": false,
+  "training_process_affected": false,
+  "remedy": "Stop overlapping diagnostic pipeline; retry serially after all training, unchanged checkpoint, batch, backend and objective. Preserve failed attempt."
+}

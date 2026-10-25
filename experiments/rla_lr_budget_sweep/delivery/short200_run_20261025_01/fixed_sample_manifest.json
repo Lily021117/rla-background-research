@@ -1,0 +1,2448 @@
+{
+  "rule": "5 evenly spaced valid anchors per train episode;20 per development; both appearances; no model outputs used",
+  "samples": [
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 36,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 36,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 73,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 73,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 110,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 110,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 146,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_0_v1",
+      "timestep": 146,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 10,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 10,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 19,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 19,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 29,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 29,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 38,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 38,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 48,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 48,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 57,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 57,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 67,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 67,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 77,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 77,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 86,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 86,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 96,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 96,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 105,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 105,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 115,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 115,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 125,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 125,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 134,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 134,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 144,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 144,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 153,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 153,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 163,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 163,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 172,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 172,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 182,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_3_v1",
+      "timestep": 182,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 32,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 32,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 64,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 64,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 97,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 97,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 129,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 129,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 29,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 29,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 58,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 58,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 86,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 86,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 115,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 115,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 33,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 33,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 99,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 99,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 132,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 132,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 35,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 35,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 70,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 70,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 104,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 104,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 139,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 139,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 7,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 7,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 13,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 13,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 20,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 20,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 27,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 27,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 34,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 34,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 40,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 40,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 47,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 47,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 54,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 54,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 61,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 61,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 67,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 67,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 74,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 74,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 81,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 81,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 88,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 88,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 94,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 94,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 101,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 101,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 108,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 108,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 115,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 115,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 121,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 121,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 128,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_15_v1",
+      "timestep": 128,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 7,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 7,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 14,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 14,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 21,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 21,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 28,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 28,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 34,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 34,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 41,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 41,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 48,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 48,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 55,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 55,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 62,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 62,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 69,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 69,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 76,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 76,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 83,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 83,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 90,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 90,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 97,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 97,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 103,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 103,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 110,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 110,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 117,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 117,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 124,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 124,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 131,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_10_v1",
+      "timestep": 131,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 7,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 7,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 14,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 14,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 21,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 21,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 28,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 28,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 34,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 34,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 41,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 41,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 48,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 48,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 55,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 55,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 62,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 62,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 69,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 69,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 76,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 76,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 83,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 83,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 90,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 90,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 97,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 97,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 103,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 103,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 110,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 110,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 117,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 117,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 124,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 124,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 131,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_31_v1",
+      "timestep": 131,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 7,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 7,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 13,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 13,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 20,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 20,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 27,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 27,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 33,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 33,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 40,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 40,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 46,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 46,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 53,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 53,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 60,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 60,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 73,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 73,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 80,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 80,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 86,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 86,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 93,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 93,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 99,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 99,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 106,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 106,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 113,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 113,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 119,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 119,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 126,
+      "appearance": "clean",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_30_v1",
+      "timestep": 126,
+      "appearance": "background",
+      "split": "validation"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 32,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 32,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 64,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 64,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 95,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 95,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 127,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_48_v1",
+      "timestep": 127,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 30,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 30,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 60,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 60,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 89,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 89,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 119,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_37_v1",
+      "timestep": 119,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 34,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 34,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 68,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 68,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 102,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 102,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 136,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_9_v1",
+      "timestep": 136,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 29,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 29,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 58,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 58,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 86,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 86,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 115,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_47_v1",
+      "timestep": 115,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 31,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 31,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 62,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 62,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 93,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 93,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 124,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 124,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 30,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 30,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 60,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 60,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 91,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 91,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 121,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_7_v1",
+      "timestep": 121,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 33,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 33,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 100,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 100,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 133,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_32_v1",
+      "timestep": 133,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 32,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 32,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 64,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 64,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 97,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 97,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 129,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_13_v1",
+      "timestep": 129,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 31,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 31,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 62,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 62,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 93,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 93,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 124,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_29_v1",
+      "timestep": 124,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 33,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 33,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 98,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 98,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 131,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 131,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 30,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 30,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 60,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 60,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 89,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 89,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 119,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_19_v1",
+      "timestep": 119,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 32,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 32,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 64,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 64,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 96,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 96,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 128,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 128,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 31,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 31,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 62,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 62,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 93,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 93,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 124,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_38_v1",
+      "timestep": 124,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 33,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 33,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 100,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 100,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 133,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_45_v1",
+      "timestep": 133,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 0,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 0,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 28,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 28,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 56,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 56,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 83,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 83,
+      "appearance": "background",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 111,
+      "appearance": "clean",
+      "split": "train"
+    },
+    {
+      "episode": "derived_stove_demo_14_v1",
+      "timestep": 111,
+      "appearance": "background",
+      "split": "train"
+    }
+  ],
+  "gradient_samples": [
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "clean"
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "background"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "clean"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "background"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "clean"
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "background"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "clean"
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "background"
+    }
+  ],
+  "stage_labels": "no validated approach/grasp/transport/descent frame labels; only historical pre/postlift labels may be referenced"
+}

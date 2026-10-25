@@ -15,6 +15,13 @@ env.update(RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_
 env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+env.get('PYTHONPATH','')
 assert a.stage!='evaluate','closed-loop search paused by user'
 arm,entry=(a.stage,'short_diagnostics') if a.attempt=='diagnostics' else (a.stage,'short_training')
+if entry=='short_diagnostics':
+ import fcntl
+ lock=(a.out/(arm+'_diagnostics.lock')).open('a');fcntl.flock(lock,fcntl.LOCK_EX)
+ if (a.out/'diagnostic_registry.json').exists():a.attempt=json.loads((a.out/'diagnostic_registry.json').read_text()).get(arm,'diagnostics')
+if entry=='short_diagnostics' and (a.out/arm/a.attempt/'diagnostic_verification.json').exists():
+ assert json.loads((a.out/arm/a.attempt/'diagnostic_verification.json').read_text())['status']=='PASS'
+ print('REUSE_COMPLETED_FROZEN_DIAGNOSTICS',arm,flush=True);raise SystemExit(0)
 if entry=='short_training':assert json.loads((a.out/'gate_acceptance.json').read_text())['status']=='PASS'
 cmd=['/data/lyc/projects/vla-adapter-ref/.venv-cpu/bin/python','-u',str(Path(__file__).with_name('bootstrap.py')),'--out',str(a.out),'--arm',arm,'--entry','rla_lr_budget_sweep.'+entry,'--attempt',a.attempt]
 start=time.time()
