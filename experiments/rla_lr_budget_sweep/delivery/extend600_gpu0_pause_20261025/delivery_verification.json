@@ -1,0 +1,97 @@
+{
+  "status": "PARTIAL_BLOCKED_GPU_DRIVER",
+  "C_final_step": 600,
+  "D_last_logged_success": 396,
+  "D_latest_full_recovery_step": 300,
+  "D_successful_computations_this_attempt": 196,
+  "D_unpersisted_successful_computations": 96,
+  "C_continuation_successful_computations": 200,
+  "total_continuation_successful_computations": 396,
+  "known_C_replayed_computations": 16,
+  "new_distinct_logged_update_indices": 380,
+  "durable_extension_beyond_user_reported_C416_D200": 284,
+  "failed_inflight_D397": "not confirmed; not counted",
+  "valid_rollouts": 0,
+  "actual_rollout_attempts": 0,
+  "AE_updates": 0,
+  "teacher_updates": 0,
+  "additional_diagnostic_backward": 0,
+  "sealed_reads": 0,
+  "checkpoint": {
+    "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/D-center_m0p1/formal_gpu0_retry1/step0300.pt",
+    "sha256": "4207bd3d937e5816b406e1d75af582860ee545f3707785e9c8f9eee9c051f1ab",
+    "global_step": 300,
+    "keys": [
+      "AMP_scaler",
+      "activation_checkpointing",
+      "arm",
+      "configuration",
+      "cuda_rng",
+      "dtype",
+      "global_step",
+      "next_physical_sample",
+      "numpy_rng",
+      "optimizer",
+      "parameters",
+      "parent_C_updates",
+      "python_rng",
+      "scheduler",
+      "torch_rng"
+    ],
+    "optimizer_states": 1283,
+    "full_recovery_cpu_audit": true,
+    "GPU_strict_reload_after_incident": false
+  },
+  "incident": {
+    "observation": "Training stopped advancing at396; nvidia-smi GPU0 query stuck in D state, os_acquire_rwlock_write; dmesg permission denied",
+    "cause": "UNRESOLVED: evidence of driver query stall; no proof of OOM or new ECC",
+    "stop": "SIGTERM sent only to own trainer PID_REDACTED and own query PID_REDACTED; no GPU reset, no other task termination",
+    "last_observed_training_process": "Zl; launcher awaiting process teardown",
+    "last_observed_query_process": "D state",
+    "GPU_memory_release": "UNVERIFIED because device query is blocked",
+    "checkpoint_397_or_396_saved": false
+  },
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/report.md",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/fixed_sample_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/C_m0p1/formal/step0400.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/D-center_m0p1/formal/step0200.pt",
+      "unchanged": true
+    }
+  ],
+  "source_commit": "e559d018497e15129d73b5e184d66ce15a7e5395"
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "report.md",
+      "sha256": "914227dce30898ddfbcd1d4c1c710c68bfc438b1422abffd6e764a6069ca9cfc"
+    },
+    {
+      "path": "delivery_verification.json",
+      "sha256": "5f73d4f5bd1c0bdb125eef9bba2e787a8ae0f9c38b7a1cd6c0d9e6f9edb3cd13"
+    },
+    {
+      "path": "gpu0_resume_authorization.json",
+      "sha256": "b47698df2b14839d7eb8fa514e53de68e2a2b2c7cd1d17d0b75298b5b36e98fc"
+    },
+    {
+      "path": "cuda_incident.json",
+      "sha256": "8b2be72525d8039c3f3aed8baf40226cb7bc97cc7ce57db3d9cf2b9444d8619f"
+    },
+    {
+      "path": "continuation_protocol.json",
+      "sha256": "dc54794720a1f42a4cf683999cb54deb2949da88b6addd5cd0d7a8cacc9da2b1"
+    },
+    {
+      "path": "evaluation_protocol.json",
+      "sha256": "fc0db08ab2838000664953903360eecebfb578a56ec443c19ede8a45c33c4860"
+    },
+    {
+      "path": "attempt_registry_v3.json",
+      "sha256": "016827c38b227659fc38c63a6df3f4622f573c22e617e849387eac5e328fdcce"
+    },
+    {
+      "path": "policy_registry_v3.json",
+      "sha256": "dea7943a1708ea81dd43db10666f77c231c01b6b6faa232017fb94f7c5426f7b"
+    }
+  ],
+  "excluded": [
+    "weights",
+    "images",
+    "videos",
+    "trajectories",
+    "sidecars",
+    "credentials"
+  ]
+}

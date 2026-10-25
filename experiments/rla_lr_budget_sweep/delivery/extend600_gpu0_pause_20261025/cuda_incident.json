@@ -1,0 +1,22 @@
+{
+ "arm":"D-center_m0p1",
+ "attempt":"formal",
+ "error":"RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",
+ "failed_update_index":201,
+ "new_successful_optimizer_updates":0,
+ "latest_complete_state":200,
+ "backward_microbatch_index":"not recorded; failure during first update, one or two backward calls may have been attempted",
+ "new_diagnostic_backward":0,
+ "log":"D-center_m0p1_formal.log",
+ "process_returncode":1,
+ "GPU_UUID":"${GPU_UUID}",
+ "startup_26GiB_assertion_passed":true,
+ "postfailure_external_process_gpu_MiB":61570,
+ "postfailure_gpu1_free_MiB":19486,
+ "postfailure_gpu0_free_MiB":20448,
+ "ECC_increment":false,
+ "cause":"UNRESOLVED; concurrent memory pressure observed, not a unique cuDNN root-cause proof",
+ "action":"stopped and retained complete source200 checkpoint and failed attempt; no automatic backend/batch/LR changes or GPU reset",
+ "other_processes_touched":false,
+ "pending":"stable authorized GPU capacity before retry"
+}
