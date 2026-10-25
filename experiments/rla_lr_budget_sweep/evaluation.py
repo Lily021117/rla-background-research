@@ -1,4 +1,4 @@
-"""Frozen 20-state, three-condition, four-student development evaluation."""
+"""All16 frozen checkpoint candidates; paired reused-state development only."""
 import os,json,time,random,traceback,hashlib,csv
 from pathlib import Path
 from collections import deque
@@ -13,6 +13,7 @@ def execute(g):
  from libero.libero.envs.env_wrapper import ControlEnv
  from libero.libero import get_libero_path
  from experiments.robot.libero.run_libero_eval import process_action
+ from stove_postlift.common import metrics as task_metrics
  root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==960
  basehead=g['head'].cpu();_,_,_=initialize(g);rlahead=g['head'];rlahead.cpu();torch.cuda.empty_cache();model=g['model'];prop=g['prop'];mods=g['mods']
  registry=json.loads((root/os.environ.get('RLA_POLICY_REGISTRY','policy_registry.json')).read_text());paths={k:Path(v) for k,v in registry.items()}
@@ -69,7 +70,7 @@ def execute(g):
      continue
     dest=out/f'{seed}_{condition}_{arm}'
     if resume and dest.exists():dest=out/f'{seed}_{condition}_{arm}_resume1'
-    dest.mkdir(exist_ok=False);env=render=video=None;executed=[];chunks=[];states=[];ee=[];bowl=[];result=dict(model=arm,seed=seed,condition=condition,checkpoint_sha256=hashes[arm],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,video=str(dest/'video.mp4'),trajectory=str(dest/'trajectory.npz'));start=time.time()
+    dest.mkdir(exist_ok=False);env=render=video=None;executed=[];chunks=[];states=[];ee=[];bowl=[];phase=[];result=dict(model=arm,seed=seed,condition=condition,checkpoint_sha256=hashes[arm],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,video=str(dest/'video.mp4'),trajectory=str(dest/'trajectory.npz'));start=time.time()
     try:
      basehead.cpu();rlahead.cpu();head=basehead if arm in ('B20','B') else rlahead;head.to('cuda');mods['head']=head
      ck=checkpoints[arm]
@@ -91,15 +92,21 @@ def execute(g):
         render.update_scene(d,camera=camera,scene_option=opt);render.scene.flags[mujoco.mjtRndFlag.mjRND_REFLECTION]=1;images.append(render.render()[:,::-1].copy())
        mujoco.mj_resetData(m,robot_fk);robot_fk.qpos[addresses]=d.qpos[addresses];mujoco.mj_forward(m,robot_fk);p=proprio(m,robot_fk);np.testing.assert_array_equal(p,proprio(m,d));video.append_data(np.concatenate(images,axis=1));acts=infer(images,p,head);chunks.append(acts.copy());q.extend(acts)
       action=process_action(q.popleft().copy(),'openvla');assert np.isfinite(action).all();_,_,done,_=env.step(action.tolist());executed.append(action);states.append(env.get_sim_state().copy());ee.append(d.site_xpos[m.site('gripper0_grip_site').id].copy());bowl.append(d.xpos[bid].copy());result['steps']=step+1
+      phase.append(dict(step=step+1,close_command=bool(action[6]>0),**task_metrics(env)))
       if env.check_success() or done:break
      lift=float(np.max(np.array(bowl)[:,2]-initial_bowl[2]));near=float(np.linalg.norm(np.array(ee)-np.array(bowl),axis=1).min());success=bool(env.check_success())
      result.update(issued_close_command=bool(np.any(np.asarray(executed)[:,6]>0)),close_command_count=int(np.sum(np.asarray(executed)[:,6]>0)),status='COMPLETE',success=success,ending='success' if success else 'timeout' if result['steps']==220 else 'environment_done',max_lift_m=lift,min_ee_target_distance_m=near,stage='success' if success else 'post_lift_or_placement_failure' if lift>=.03 else 'near_target_grasp_or_contact_failure' if near<=.10 else 'approach_failure',geometry_pair_check=True,translation_saturation_fraction=float(np.mean(abs(np.asarray(executed)[:,:3])>=.999)))
+     first_lift=next((i for i,b in enumerate(bowl) if b[2]-initial_bowl[2]>=.03),None)
+     post=phase[first_lift:] if first_lift is not None else []
+     descending=[(x,y) for x,y in zip(post[:-1],post[1:]) if y['bowl_2']<x['bowl_2']]
+     result.update(first_lift_step=None if first_lift is None else first_lift+1,descent_intervals=len(descending),descent_horizontal_path_m=sum(float(np.hypot(y['bowl_0']-x['bowl_0'],y['bowl_1']-x['bowl_1'])) for x,y in descending),descent_xy_error_change_m=sum(y['xy_distance_m']-x['xy_distance_m'] for x,y in descending),final_xy_m=phase[-1]['xy_distance_m'],final_vertical_m=phase[-1]['vertical_bowl_plate_m'],postlift_plate_contact=any(x['contact_condition'] for x in post),postlift_centered=any(x['xy_condition'] for x in post),postlift_contact_height_xy=any(x['goal'] for x in post),postlift_open=any(not x['close_command'] for x in post))
     except Exception:result['error']=traceback.format_exc()
     finally:
      if video:video.close()
      if render:render.close()
      if env:env.close()
      np.savez_compressed(dest/'trajectory.npz',executed_actions=executed,predicted_chunks=chunks,states=states,eef_positions=ee,target_bowl_positions=bowl)
+     with (dest/'phase_timeline.json').open('x') as f:json.dump(phase,f)
     result['seconds']=time.time()-start;(dest/'result.json').write_text(json.dumps(result,indent=2));rows.append(result)
     with (root/'per_trial_results.json').open('w') as f:json.dump(rows,f,indent=2)
     print('TRIAL',len(rows),arm,seed,condition,result['status'],result['success'],flush=True)

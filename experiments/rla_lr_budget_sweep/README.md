@@ -1,5 +1,26 @@
 # Stove C/D-center learning-rate and budget sweep
 
+## Active revision: short200 and two-stage offline curves
+
+The user paused the1200-update/960-rollout search. `short_run.py` now runs the
+remaining seven candidates to200 updates and performs frozen offline diagnostics
+for all eight. Cx0.1 had already logged416 successful updates when stopped; full
+checkpoints through400 and all logs are preserved. Its200 checkpoint is reused,
+and absent50 checkpoint remains missing. No backward/optimizer replay is used to
+fill this gap. Sixteen logged updates after400 were not checkpointed; the possible
+in-flight417 attempt is not counted as a confirmed success.
+
+The original1200 milestone remains. The active run has no rollout stage and no
+teacher/keep logic. Run `short_prepare.py --source LONG_OUTPUT --out NEW_OUTPUT`,
+then `short_run.py --out NEW_OUTPUT`. `ae_review.py` only reads historical logs.
+`short_diagnostics.py` compares identical fixed train/development observations,
+separate action/weighted-aux gradients on the accepted shared parameter scope,
+and actual parameter changes. No diagnostic optimizer is instantiated. Existing
+state-derived before/after-lift labels do not supply precise four-stage labels.
+`short_analyze.py` exports raw/source curves, per-demo/dimension/horizon summaries,
+plots and actual computation counts. The original search below is retained for
+provenance and is not the active execution authorization.
+
 This is a policy-only development hyperparameter search, not independent testing.
 The frozen AE/sidecars and accepted official LIBERO VLA-RLA interface are reused.
 C targets `(z_C-mu_C)/s_C`; D-center targets `(z_D-mu_D)/s_C`. All eight candidates
