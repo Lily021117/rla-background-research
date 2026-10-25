@@ -1,0 +1,16 @@
+model,appearance,successes,trials,success_rate
+C,clean,20,20,1.0
+C,seen_background,19,20,0.95
+C,unseen_background,20,20,1.0
+E-C,clean,20,20,1.0
+E-C,seen_background,20,20,1.0
+E-C,unseen_background,19,20,0.95
+E-D,clean,8,20,0.4
+E-D,seen_background,8,20,0.4
+E-D,unseen_background,15,20,0.75
+E-C-keep,clean,11,20,0.55
+E-C-keep,seen_background,7,20,0.35
+E-C-keep,unseen_background,9,20,0.45
+E-D-keep,clean,0,20,0.0
+E-D-keep,seen_background,0,20,0.0
+E-D-keep,unseen_background,0,20,0.0

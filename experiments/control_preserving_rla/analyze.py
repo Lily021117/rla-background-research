@@ -64,7 +64,7 @@ for (m,s,c),rs in groups.items():
  stage4[-1]['ever_close']=all_close
 csvsave(o/'stage_metrics_five_arms.csv',stage4)
 coverage=list(csv.DictReader((post/'demo_phase_coverage.csv').open()));first={r['episode']:int(r['first_lift']) if r['first_lift'] else None for r in coverage};phase=[]
-for arm,path in [('C',S/'policy_run/C/isolated_smoke')]+[(m,o/m/'formal') for m in arms if m!='C']:
+for arm,path in [('C',S/'policy_run/C/isolated_smoke')]+[(m,(o/'combined_metrics'/m) if (o/'combined_metrics'/m).exists() else (o/m/'formal')) for m in arms if m!='C']:
  groups=collections.defaultdict(list)
  for r in csv.DictReader((path/'validation_metrics.csv').open()):
   t=int(r['timestep']);ph='postlift' if first[r['episode']] is not None and t>=first[r['episode']] else 'prelift';groups[int(r['step']),r['appearance'],ph].append(r)

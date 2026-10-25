@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "GPU_allocations": 0,
+  "optimizer_updates": 0,
+  "models": [
+    {
+      "model": "E-C",
+      "path": "${PROJECT_ROOT}/experiments/control_preserving_rla/run_20261025_01/results/E-C/formal/step0600.pt",
+      "global_step": 600,
+      "parent_C_updates": 600,
+      "next_physical_sample": 4800,
+      "optimizer_state_entries": 1283,
+      "optimizer_step_min": 600,
+      "optimizer_step_max": 600,
+      "scheduler_last_epoch": 600,
+      "AMP_scaler": null,
+      "dtype": "bfloat16",
+      "activation_checkpointing": true,
+      "configuration_exact": true,
+      "model_scope": "C initialized post-training student"
+    },
+    {
+      "model": "E-D",
+      "path": "${PROJECT_ROOT}/experiments/control_preserving_rla/run_20261025_01/results/E-D/formal/step0600.pt",
+      "global_step": 600,
+      "parent_C_updates": 600,
+      "next_physical_sample": 4800,
+      "optimizer_state_entries": 1283,
+      "optimizer_step_min": 600,
+      "optimizer_step_max": 600,
+      "scheduler_last_epoch": 600,
+      "AMP_scaler": null,
+      "dtype": "bfloat16",
+      "activation_checkpointing": true,
+      "configuration_exact": true,
+      "model_scope": "C initialized post-training student"
+    },
+    {
+      "model": "E-C-keep",
+      "path": "${PROJECT_ROOT}/experiments/control_preserving_rla/run_20261025_01/results/E-C-keep/formal/step0600.pt",
+      "global_step": 600,
+      "parent_C_updates": 600,
+      "next_physical_sample": 4800,
+      "optimizer_state_entries": 1283,
+      "optimizer_step_min": 600,
+      "optimizer_step_max": 600,
+      "scheduler_last_epoch": 600,
+      "AMP_scaler": null,
+      "dtype": "bfloat16",
+      "activation_checkpointing": true,
+      "configuration_exact": true,
+      "model_scope": "C initialized post-training student"
+    },
+    {
+      "model": "E-D-keep",
+      "path": "${PROJECT_ROOT}/experiments/control_preserving_rla/run_20261025_01/results/E-D-keep/resume_gpu1/step0600.pt",
+      "global_step": 600,
+      "parent_C_updates": 600,
+      "next_physical_sample": 4800,
+      "optimizer_state_entries": 1283,
+      "optimizer_step_min": 600,
+      "optimizer_step_max": 600,
+      "scheduler_last_epoch": 600,
+      "AMP_scaler": null,
+      "dtype": "bfloat16",
+      "activation_checkpointing": true,
+      "configuration_exact": true,
+      "model_scope": "C initialized post-training student"
+    }
+  ]
+}

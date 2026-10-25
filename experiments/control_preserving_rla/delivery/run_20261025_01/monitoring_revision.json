@@ -1,0 +1,14 @@
+{
+  "scope": "read-only finite-value assertions only",
+  "reason": "Avoid one host-device synchronization per parameter tensor under shared GPU scheduling",
+  "original_predicate": "Python all of per-tensor torch.isfinite(x).all()",
+  "batched_predicate": "bool(torch.stack(per-tensor torch.isfinite(x).all()).all())",
+  "criterion_unchanged": true,
+  "checked_cases": ["finite", "NaN", "+Inf", "-Inf"],
+  "loss_forward_backward_optimizer_scheduler_or_RNG_changes": false,
+  "running_E_C_uses_loaded_original_implementation": true,
+  "future_E_D_E_C_keep_E_D_keep_use_batched_assertions": true,
+  "training_stopped_or_replayed_for_this_change": false,
+  "E_C_code_commit": "8523e84be00bde194518a1c6a3f68e3c3298647a",
+  "note": "This is a monitoring implementation difference and must be disclosed; no wall-time equality is claimed."
+}

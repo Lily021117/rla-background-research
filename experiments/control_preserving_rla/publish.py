@@ -9,6 +9,12 @@ p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.
 dest=Path(__file__).parent/'delivery'/a.out.parent.name;dest.mkdir(parents=True,exist_ok=False)
 names=['report.md','run_plan.json','evaluation_protocol.json','source_lineage.json','initialization_acceptance.json','four_student_initialization_audit.json','gate_acceptance.json','teacher_cache_metadata.json','teacher_disagreement_summary.csv','success_rates.csv','paired_results.csv','paired_statistics.json','historical_protocol_audit.json','stage_metrics_five_arms.csv','stage_condition_summary.csv','stage_analysis_limitations.json','validation_summary.csv','validation_phase_metrics.csv','training_contribution_summary.csv','checkpoint_inventory.csv','delivery_verification.json']
 names += ['training_config_'+arm+'.json' for arm in ('E-C','E-D','E-C-keep','E-D-keep')]
+names += ['resolved_training_config_'+arm+'.json' for arm in ('E-C','E-D','E-C-keep','E-D-keep')]
+names += ['resolved_run_plan.json','configuration_semantics_audit.json','monitoring_revision.json']
+names += ['recovery_comparison.json','resume_precheck_acceptance.json','resource_recovery.json']
+names += ['teacher_input_equivalence_audit.json','teacher_input_audit_note.json']
+names += ['failure_stage_summary.csv']
+names += ['final_checkpoint_state_audit.json']
 inventory=[]
 for name in names:
  path=a.out/name;assert path.stat().st_size<2_000_000

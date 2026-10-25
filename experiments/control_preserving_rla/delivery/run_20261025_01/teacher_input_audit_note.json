@@ -1,0 +1,18 @@
+{
+  "first_checker_attempt": "teacher_input_audit.log",
+  "first_checker_exit": 1,
+  "reason": "Diagnostic script incorrectly asserted that VLM query-token count equals continuous action-element count56",
+  "official_VLM_query_tokens": 64,
+  "continuous_action_chunk_shape": [8,7],
+  "continuous_action_elements": 56,
+  "correction": "Use the existing official NUM_TOKENS constant for query-mask and hidden-index assertions",
+  "model_training_data_or_evaluation_protocol_changed": false,
+  "first_log_preserved": true,
+  "second_checker_attempt": "teacher_input_audit_v2.log",
+  "second_checker_exit": 0,
+  "result": "teacher_input_equivalence_audit.json",
+  "new_teacher_predictions": 0,
+  "new_optimizer_updates": 0,
+  "new_backward": 0,
+  "new_closed_loop": 0
+}

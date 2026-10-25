@@ -1,0 +1,47 @@
+{
+  "status": "PASS_INPUT_AND_INDEX_SEMANTICS",
+  "samples": [
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "split": "train",
+      "appearance": "clean",
+      "prompt_prefix_exact": true,
+      "prompt_tokens": 51,
+      "STOP_exact": true,
+      "full_action_mask_exact": true,
+      "VLM_query_tokens": 64,
+      "continuous_action_elements": 56,
+      "hidden_readout_indices_exact": true,
+      "dual_camera_pixels_exact": true,
+      "frame_vs_training_label_FK_max_absolute_difference": 0.0,
+      "normalized_proprio_max_absolute_difference": 1.4701842965259004e-07,
+      "normalization_arithmetic": "same equation; float32 TF versus NumPy float64 intermediates"
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "split": "train",
+      "appearance": "clean",
+      "prompt_prefix_exact": true,
+      "prompt_tokens": 51,
+      "STOP_exact": true,
+      "full_action_mask_exact": true,
+      "VLM_query_tokens": 64,
+      "continuous_action_elements": 56,
+      "hidden_readout_indices_exact": true,
+      "dual_camera_pixels_exact": true,
+      "frame_vs_training_label_FK_max_absolute_difference": 0.0,
+      "normalized_proprio_max_absolute_difference": 7.472633756222535e-08,
+      "normalization_arithmetic": "same equation; float32 TF versus NumPy float64 intermediates"
+    }
+  ],
+  "teacher_forward_or_supervision_added": 0,
+  "GPU_allocations": 0,
+  "optimizer_updates": 0,
+  "backward": 0,
+  "closed_loop": 0,
+  "sealed_reads": 0,
+  "actual_deployed_action_bitwise_forward_comparison": false,
+  "scope": "Input/prompt/mask/readout semantic identity; no claim of bitwise batch8-vs-batch1 forward equality"
+}

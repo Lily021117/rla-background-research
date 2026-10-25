@@ -1,0 +1,7 @@
+{
+  "parent_commit": "a76fb794e96d12f6ec9c4c8faa44f07b1222f549",
+  "branch": "experiments/control-preserving-rla",
+  "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "upstream": "mlzxy/rla-wm rebuttal/exp2_vla_adapter",
+  "historical_definitions_retained": true
+}

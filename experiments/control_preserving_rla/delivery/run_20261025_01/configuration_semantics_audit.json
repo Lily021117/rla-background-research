@@ -1,0 +1,30 @@
+{
+  "status": "PASS_RUNTIME_CONFIGURATION_METADATA_CLARIFIED",
+  "runtime_plan_unchanged": true,
+  "model_data_loss_or_training_change": false,
+  "actual_initialization": "trained original C600 parameters; reset only independent auxiliary readout; new optimizer",
+  "authoritative_initialization_fields": [
+    "teacher_checkpoint",
+    "teacher_sha256",
+    "common_student_step0"
+  ],
+  "actual_model_loading_evidence": "interface.initialize uses only teacher_checkpoint or common_student_step0; formal initial_state_audit verifies actual parameter hash",
+  "target_evidence": "training.py selects arms[arm].target; LowWeightStore uses mu_C for C, mu_D for D, shared s_C",
+  "inherited_descriptive_fields_not_used_to_execute": {
+    "common_step0": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+    "common_step0_sha256": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66",
+    "target_center_definition": {
+      "D-old": "(z_D - mu_C) / s_C",
+      "D-center": "(z_D - mu_D) / s_C",
+      "scale": "unchanged official float32 scalar s_C",
+      "mean_source": "existing FP32-extractor training-only moments, independently checked against stored FP16 sidecars",
+      "no_auto_compensation": true
+    },
+    "inputs.B20_step0": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_06/B20/formal_B/step0000.pt",
+    "inputs.no_trained_policy_initialization": true,
+    "shared_protocol.center_only_difference": true,
+    "shared_protocol.C_D_only_target_source_differs": false,
+    "shared_protocol.RLA_auxiliary_baseline": "B has original official action head, no auxiliary supervision"
+  },
+  "caution": "Original runtime JSON/checkpoints retain inherited provenance text; resolved files remove that ambiguity and do not replace the execution record."
+}

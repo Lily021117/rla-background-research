@@ -1,0 +1,33 @@
+{
+  "incident": "GPU0 out of memory during E-D-keep step431 forward",
+  "last_logged_successful_update": 430,
+  "last_complete_recovery_checkpoint_step": 300,
+  "checkpoint": "E-D-keep/formal/step0300.pt",
+  "failure_before_optimizer_step": true,
+  "other_processes_not_terminated": true,
+  "old_attempt_preserved": true,
+  "GPU0_free_at_failure_report_MiB": 51.56,
+  "GPU0_free_after_failed_process_exit_MiB": 14558,
+  "GPU0_ECC_increment": false,
+  "selected_device": "${GPU_UUID_REDACTED}",
+  "authorization_basis": "Existing user reauthorization/default preference for GPU1 in project AGENTS.md; no use of prohibited GPU2 or GPU3",
+  "GPU1_free_before_recovery_MiB": 81065,
+  "minimum_start_free_MiB": 26624,
+  "GPU1_historical_ECC_not_repaired_or_cleared": {
+    "volatile_SRAM_correctable": 2,
+    "SRAM_uncorrectable_parity": 1,
+    "SRAM_SM_source": 1,
+    "threshold_exceeded": false
+  },
+  "resume_precheck": "resume_precheck_acceptance.json",
+  "resume_attempt": "E-D-keep/resume_gpu1",
+  "restore": ["parameters", "optimizer", "scheduler", "Python RNG", "NumPy RNG", "torch CPU RNG", "CUDA RNG", "next_physical_sample=2400", "successful_count=300"],
+  "AMP_scaler": null,
+  "precision": "bfloat16",
+  "training_hyperparameters_targets_or_teacher_changed": false,
+  "expected_effective_successful_updates": 600,
+  "expected_actual_successful_computations": 730,
+  "expected_discarded_update_replays": 130,
+  "failed_incomplete_update_attempts": 1,
+  "note": "Partial computation at failed step431 is not counted as a successful update. GPU1 preflight precedes restored training. Evaluation remains the frozen240 trials."
+}

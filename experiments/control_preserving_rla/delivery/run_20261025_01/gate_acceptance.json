@@ -1,0 +1,330 @@
+{
+  "status": "PASS",
+  "optimizer_updates": 0,
+  "full_effective_batch": 16,
+  "microbatch": 8,
+  "accumulation": 2,
+  "matched_four_arm_action_and_aux_outputs_exact": true,
+  "auxiliary_readout_reset_preserves_action": true,
+  "teacher_cache_train_only": true,
+  "keep_only_shared_gradient": 0.24022066829441163,
+  "checks": [
+    {
+      "arm": "E-C",
+      "losses": [
+        {
+          "BC": 0.1904296875,
+          "aux": 0.6953125,
+          "keep": 0.0044027394615113735,
+          "beta": 0.0
+        },
+        {
+          "BC": 0.2099609375,
+          "aux": 0.6875,
+          "keep": 0.007581472396850586,
+          "beta": 0.0
+        }
+      ],
+      "shared_gradient_norm": 0.27510477780018194
+    },
+    {
+      "arm": "E-D",
+      "losses": [
+        {
+          "BC": 0.1904296875,
+          "aux": 0.54296875,
+          "keep": 0.0044027394615113735,
+          "beta": 0.0
+        },
+        {
+          "BC": 0.2099609375,
+          "aux": 0.54296875,
+          "keep": 0.007581472396850586,
+          "beta": 0.0
+        }
+      ],
+      "shared_gradient_norm": 0.27573278360123255
+    },
+    {
+      "arm": "E-C-keep",
+      "losses": [
+        {
+          "BC": 0.1904296875,
+          "aux": 0.6953125,
+          "keep": 0.0044027394615113735,
+          "beta": 1.0
+        },
+        {
+          "BC": 0.2099609375,
+          "aux": 0.6875,
+          "keep": 0.007581472396850586,
+          "beta": 1.0
+        }
+      ],
+      "shared_gradient_norm": 0.40044689777674375
+    },
+    {
+      "arm": "E-D-keep",
+      "losses": [
+        {
+          "BC": 0.1904296875,
+          "aux": 0.54296875,
+          "keep": 0.0044027394615113735,
+          "beta": 1.0
+        },
+        {
+          "BC": 0.2099609375,
+          "aux": 0.54296875,
+          "keep": 0.007581472396850586,
+          "beta": 1.0
+        }
+      ],
+      "shared_gradient_norm": 0.40077171230191044
+    }
+  ],
+  "peak_allocated": 19887515648,
+  "peak_reserved": 21892169728,
+  "parameters_unchanged": true,
+  "actual_task_batch_audit": [
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_36_v1",
+      "timestep": 66,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_18_v1",
+      "timestep": 28,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_6_v1",
+      "timestep": 69,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "clean",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    },
+    {
+      "episode": "derived_stove_demo_28_v1",
+      "timestep": 6,
+      "appearance": "background",
+      "language": "pick up the black bowl on the stove and place it on the plate",
+      "action_shape": [
+        8,
+        7
+      ],
+      "proprio_shape": [
+        8
+      ],
+      "action_mask": "all 8x7 valid; no tail padding",
+      "future_image_inputs": false
+    }
+  ]
+}

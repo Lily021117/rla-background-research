@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source": "original C final600; frozen teacher",
+  "teacher_sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+  "student_parameter_hash": "a758fa5e339c247f33f7faa58ac28b29aa55c0e8b8a573936683783b2bb126d2",
+  "changed_parameters": [
+    "head.model.layer_norm2_rla.bias",
+    "head.model.fc2_rla.weight",
+    "head.model.fc2_rla.bias"
+  ],
+  "allowed_reset_parameters": [
+    "model.fc2_rla.bias",
+    "model.fc2_rla.weight",
+    "model.layer_norm2_rla.bias",
+    "model.layer_norm2_rla.weight"
+  ],
+  "all_other_C_parameters_exact": true,
+  "action_before_after_auxiliary_reset_exact": true,
+  "all_four_groups_use_same_checkpoint_and_RNG": true,
+  "teacher_updates": 0,
+  "optimizer_updates": 0
+}

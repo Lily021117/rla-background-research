@@ -1,0 +1,680 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD",
+  "policy_successful_updates": {
+    "E-C": 600,
+    "E-D": 600,
+    "E-C-keep": 600,
+    "E-D-keep": 600
+  },
+  "actual_computed_updates": {
+    "E-C": 600,
+    "E-D": 600,
+    "E-C-keep": 600,
+    "E-D-keep": 730
+  },
+  "optimizer_update_replays": 130,
+  "failed_update_attempts": 1,
+  "parent_C_policy_updates_shared_cost": 600,
+  "AE_updates": 0,
+  "teacher_updates": 0,
+  "teacher_train_cache": {
+    "status": "PASS",
+    "teacher_sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+    "cache_sha256": "403108ae5ce51d409bc31d65176bd5364b663876cd6993bb52c95e3f5dd74343",
+    "episodes": 20,
+    "windows": 2555,
+    "shape_per_window": [
+      8,
+      7
+    ],
+    "dtype": "float32 (BF16 eval predictions retained exactly)",
+    "appearance": "clean only",
+    "split": "train only",
+    "normalization": "unchanged official task training statistics",
+    "mode": "eval inference_mode",
+    "future_images": false,
+    "sidecars_read": false,
+    "action_label_value_isolation": true,
+    "teacher_parameters_unchanged": true,
+    "teacher_outputs_are_not_ground_truth": true,
+    "optimizer_updates": 0,
+    "backward": 0
+  },
+  "valid_new_rollouts": 240,
+  "invalid_new_rollouts": 0,
+  "closed_loop_retries": 0,
+  "sealed_reads": 0,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0600.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/manifest.json",
+      "unchanged": true
+    }
+  ],
+  "initialization": {
+    "status": "PASS",
+    "source": "original C final600; frozen teacher",
+    "teacher_sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+    "student_parameter_hash": "a758fa5e339c247f33f7faa58ac28b29aa55c0e8b8a573936683783b2bb126d2",
+    "changed_parameters": [
+      "head.model.layer_norm2_rla.bias",
+      "head.model.fc2_rla.weight",
+      "head.model.fc2_rla.bias"
+    ],
+    "allowed_reset_parameters": [
+      "model.fc2_rla.bias",
+      "model.fc2_rla.weight",
+      "model.layer_norm2_rla.bias",
+      "model.layer_norm2_rla.weight"
+    ],
+    "all_other_C_parameters_exact": true,
+    "action_before_after_auxiliary_reset_exact": true,
+    "all_four_groups_use_same_checkpoint_and_RNG": true,
+    "teacher_updates": 0,
+    "optimizer_updates": 0
+  },
+  "gate": {
+    "status": "PASS",
+    "optimizer_updates": 0,
+    "full_effective_batch": 16,
+    "microbatch": 8,
+    "accumulation": 2,
+    "matched_four_arm_action_and_aux_outputs_exact": true,
+    "auxiliary_readout_reset_preserves_action": true,
+    "teacher_cache_train_only": true,
+    "keep_only_shared_gradient": 0.24022066829441163,
+    "checks": [
+      {
+        "arm": "E-C",
+        "losses": [
+          {
+            "BC": 0.1904296875,
+            "aux": 0.6953125,
+            "keep": 0.0044027394615113735,
+            "beta": 0.0
+          },
+          {
+            "BC": 0.2099609375,
+            "aux": 0.6875,
+            "keep": 0.007581472396850586,
+            "beta": 0.0
+          }
+        ],
+        "shared_gradient_norm": 0.27510477780018194
+      },
+      {
+        "arm": "E-D",
+        "losses": [
+          {
+            "BC": 0.1904296875,
+            "aux": 0.54296875,
+            "keep": 0.0044027394615113735,
+            "beta": 0.0
+          },
+          {
+            "BC": 0.2099609375,
+            "aux": 0.54296875,
+            "keep": 0.007581472396850586,
+            "beta": 0.0
+          }
+        ],
+        "shared_gradient_norm": 0.27573278360123255
+      },
+      {
+        "arm": "E-C-keep",
+        "losses": [
+          {
+            "BC": 0.1904296875,
+            "aux": 0.6953125,
+            "keep": 0.0044027394615113735,
+            "beta": 1.0
+          },
+          {
+            "BC": 0.2099609375,
+            "aux": 0.6875,
+            "keep": 0.007581472396850586,
+            "beta": 1.0
+          }
+        ],
+        "shared_gradient_norm": 0.40044689777674375
+      },
+      {
+        "arm": "E-D-keep",
+        "losses": [
+          {
+            "BC": 0.1904296875,
+            "aux": 0.54296875,
+            "keep": 0.0044027394615113735,
+            "beta": 1.0
+          },
+          {
+            "BC": 0.2099609375,
+            "aux": 0.54296875,
+            "keep": 0.007581472396850586,
+            "beta": 1.0
+          }
+        ],
+        "shared_gradient_norm": 0.40077171230191044
+      }
+    ],
+    "peak_allocated": 19887515648,
+    "peak_reserved": 21892169728,
+    "parameters_unchanged": true,
+    "actual_task_batch_audit": [
+      {
+        "episode": "derived_stove_demo_36_v1",
+        "timestep": 66,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_36_v1",
+        "timestep": 66,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_18_v1",
+        "timestep": 28,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_18_v1",
+        "timestep": 28,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_6_v1",
+        "timestep": 69,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_6_v1",
+        "timestep": 69,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_28_v1",
+        "timestep": 6,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_28_v1",
+        "timestep": 6,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_36_v1",
+        "timestep": 66,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_36_v1",
+        "timestep": 66,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_18_v1",
+        "timestep": 28,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_18_v1",
+        "timestep": 28,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_6_v1",
+        "timestep": 69,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_6_v1",
+        "timestep": 69,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_28_v1",
+        "timestep": 6,
+        "appearance": "clean",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      },
+      {
+        "episode": "derived_stove_demo_28_v1",
+        "timestep": 6,
+        "appearance": "background",
+        "language": "pick up the black bowl on the stove and place it on the plate",
+        "action_shape": [
+          8,
+          7
+        ],
+        "proprio_shape": [
+          8
+        ],
+        "action_mask": "all 8x7 valid; no tail padding",
+        "future_image_inputs": false
+      }
+    ]
+  },
+  "training_acceptance": [
+    {
+      "model": "E-C",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 600,
+      "actual_computed_updates": 600,
+      "strict_reload": true,
+      "seconds": 6170.378224849701,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    },
+    {
+      "model": "E-D",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 600,
+      "actual_computed_updates": 600,
+      "strict_reload": true,
+      "seconds": 1747.099057674408,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    },
+    {
+      "model": "E-C-keep",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 600,
+      "actual_computed_updates": 600,
+      "strict_reload": true,
+      "seconds": 1498.4076356887817,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    },
+    {
+      "model": "E-D-keep",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 600,
+      "actual_computed_updates": 300,
+      "strict_reload": true,
+      "seconds": 832.6973457336426,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    }
+  ],
+  "recovery": {
+    "original_successful_computed_updates": 430,
+    "resumed_successful_computed_updates": 300,
+    "total_actual_successful_computations": 730,
+    "effective_checkpoint_path_updates": 600,
+    "replayed_updates": 130,
+    "failed_update_attempts": 1,
+    "failed_step": 431,
+    "failed_before_optimizer_step": true,
+    "failed_partial_forward_exposures_not_counted_as_complete_updates": true,
+    "old_attempt_and_validation_preserved": true,
+    "derived_training_rows": 600,
+    "discarded_old_rows_in_derived_path": "301..430 only; original files retained",
+    "training_replay_comparison": {
+      "action_loss": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "auxiliary_loss": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "weighted_auxiliary": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "keep_loss": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "weighted_keep": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "total_loss": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "lr": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "gradient_vla": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "gradient_head": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "gradient_proprio": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "gradient_aux_head": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      }
+    },
+    "validation300_rows_compared": 1406,
+    "validation300_comparison": {
+      "action_L1": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "translation_L1": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "rotation_L1": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "gripper_L1": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      },
+      "auxiliary_L1": {
+        "max_absolute_difference": 0.0,
+        "different_rows": 0
+      }
+    }
+  },
+  "resume_precheck": {
+    "status": "PASS",
+    "checkpoint": "${PROJECT_ROOT}/experiments/control_preserving_rla/run_20261025_01/results/E-D-keep/formal/step0300.pt",
+    "sha256": "d025a2197a2df6e15b6a85f5563007b75b2f9712bec2e28a73525a3cf8274571",
+    "restored_step": 300,
+    "optimizer_steps": 300,
+    "scheduler_last_epoch": 300,
+    "next_physical_sample": 2400,
+    "full_batch": 16,
+    "microbatch": 8,
+    "accumulation": 2,
+    "backend": "Math SDPA",
+    "dtype": "bfloat16",
+    "AMP_scaler": null,
+    "model_optimizer_scheduler_RNG_sampler_compatible": true,
+    "teacher_cache_hash_unchanged": true,
+    "parameters_unchanged": true,
+    "optimizer_updates": 0,
+    "peak_allocated": 19684844032,
+    "losses": [
+      {
+        "BC": 0.1650390625,
+        "aux": 0.142578125,
+        "keep": 0.07212136685848236
+      },
+      {
+        "BC": 0.201171875,
+        "aux": 0.13671875,
+        "keep": 0.10246963053941727
+      }
+    ],
+    "GPU": "${GPU_UUID_REDACTED}",
+    "historical_GPU1_ECC_retained": true
+  },
+  "source_lineage": {
+    "parent_commit": "a76fb794e96d12f6ec9c4c8faa44f07b1222f549",
+    "branch": "experiments/control-preserving-rla",
+    "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+    "upstream": "mlzxy/rla-wm rebuttal/exp2_vla_adapter",
+    "historical_definitions_retained": true
+  },
+  "active_task_gpu_processes_expected": 0,
+  "limitations": [
+    "one training seed",
+    "20 reused development states",
+    "teacher is an imperfect learned policy, not action truth",
+    "historical C comparisons include auxiliary readout reset, fresh optimizer and extra600 updates",
+    "E-D-keep restored step300 after external-memory-pressure OOM at step431;130 successful computations replayed on authorized GPU1; historical ECC retained",
+    "recomputed contact/goal timing never replaces recorded success"
+  ]
+}

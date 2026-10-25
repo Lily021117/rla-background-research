@@ -1,0 +1,83 @@
+{
+  "original_successful_computed_updates": 430,
+  "resumed_successful_computed_updates": 300,
+  "total_actual_successful_computations": 730,
+  "effective_checkpoint_path_updates": 600,
+  "replayed_updates": 130,
+  "failed_update_attempts": 1,
+  "failed_step": 431,
+  "failed_before_optimizer_step": true,
+  "failed_partial_forward_exposures_not_counted_as_complete_updates": true,
+  "old_attempt_and_validation_preserved": true,
+  "derived_training_rows": 600,
+  "discarded_old_rows_in_derived_path": "301..430 only; original files retained",
+  "training_replay_comparison": {
+    "action_loss": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "auxiliary_loss": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "weighted_auxiliary": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "keep_loss": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "weighted_keep": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "total_loss": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "lr": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "gradient_vla": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "gradient_head": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "gradient_proprio": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "gradient_aux_head": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    }
+  },
+  "validation300_rows_compared": 1406,
+  "validation300_comparison": {
+    "action_L1": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "translation_L1": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "rotation_L1": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "gripper_L1": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    },
+    "auxiliary_L1": {
+      "max_absolute_difference": 0.0,
+      "different_rows": 0
+    }
+  }
+}

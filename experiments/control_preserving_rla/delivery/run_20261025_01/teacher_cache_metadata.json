@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "teacher_sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+  "cache_sha256": "403108ae5ce51d409bc31d65176bd5364b663876cd6993bb52c95e3f5dd74343",
+  "episodes": 20,
+  "windows": 2555,
+  "shape_per_window": [
+    8,
+    7
+  ],
+  "dtype": "float32 (BF16 eval predictions retained exactly)",
+  "appearance": "clean only",
+  "split": "train only",
+  "normalization": "unchanged official task training statistics",
+  "mode": "eval inference_mode",
+  "future_images": false,
+  "sidecars_read": false,
+  "action_label_value_isolation": true,
+  "teacher_parameters_unchanged": true,
+  "teacher_outputs_are_not_ground_truth": true,
+  "optimizer_updates": 0,
+  "backward": 0
+}

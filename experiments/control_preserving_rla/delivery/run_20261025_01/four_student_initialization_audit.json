@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "parameter_hash": "a758fa5e339c247f33f7faa58ac28b29aa55c0e8b8a573936683783b2bb126d2",
+  "actual_step0_RNG_hashes": [
+    "2886c991a61fc1df583ada898968a7e11bb61d7df5285f6c232a77c7ce4d36ba",
+    "2886c991a61fc1df583ada898968a7e11bb61d7df5285f6c232a77c7ce4d36ba",
+    "2886c991a61fc1df583ada898968a7e11bb61d7df5285f6c232a77c7ce4d36ba",
+    "2886c991a61fc1df583ada898968a7e11bb61d7df5285f6c232a77c7ce4d36ba"
+  ],
+  "exact_matching_parameters_and_RNG": true,
+  "checked_from_actual_formal_checkpoints": true
+}

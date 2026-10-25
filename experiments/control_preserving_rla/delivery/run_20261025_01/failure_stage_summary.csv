@@ -1,0 +1,13 @@
+model,appearance,trials,success,issued_close,live_logged_lift_3cm,approach_failure,near_target_grasp_or_contact_failure,post_lift_or_placement_failure,timeouts,simulation_exception
+E-C,clean,20,20,20,20,0,0,0,0,0
+E-D,clean,20,8,20,19,0,1,11,12,0
+E-C-keep,clean,20,11,20,13,0,7,2,9,0
+E-D-keep,clean,20,0,19,7,0,13,7,20,0
+E-C,seen_background,20,20,20,20,0,0,0,0,0
+E-D,seen_background,20,8,20,20,0,0,12,12,0
+E-C-keep,seen_background,20,7,20,9,0,11,2,13,0
+E-D-keep,seen_background,20,0,19,5,0,15,5,20,0
+E-C,unseen_background,20,19,20,20,0,0,1,1,0
+E-D,unseen_background,20,15,20,20,0,0,5,5,0
+E-C-keep,unseen_background,20,9,20,10,0,10,1,11,0
+E-D-keep,unseen_background,20,0,20,4,0,16,4,20,0

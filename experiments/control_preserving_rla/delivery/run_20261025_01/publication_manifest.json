@@ -1,0 +1,208 @@
+{
+  "files": [
+    {
+      "name": "report.md",
+      "bytes": 16306,
+      "sha256": "5d71adbf3b58c758b11762422f805b9022d68d97d19e625a30481c398368880b"
+    },
+    {
+      "name": "run_plan.json",
+      "bytes": 6348,
+      "sha256": "4ea0685011fbe959d112d4a277b5deb7a654d8784ecd0e18fd33d638ab4ec6e8"
+    },
+    {
+      "name": "evaluation_protocol.json",
+      "bytes": 1576,
+      "sha256": "28d6083d6a7561a93f39cb67b4069ba50adb89b2eab74eea44ff0763a3d9f42d"
+    },
+    {
+      "name": "source_lineage.json",
+      "bytes": 279,
+      "sha256": "42e6ac995a42a61268b8753bcea096cd48b5d594f7b601812b7678c48f9bbec0"
+    },
+    {
+      "name": "initialization_acceptance.json",
+      "bytes": 748,
+      "sha256": "02da3fd9c61ae1716abf4b727822dda24ade3342d4474e0ea618ad79d262a9eb"
+    },
+    {
+      "name": "four_student_initialization_audit.json",
+      "bytes": 528,
+      "sha256": "afedbdc9cf613821f23294030fbab093e53b4b377350b7997d23c52d3a4bd847"
+    },
+    {
+      "name": "gate_acceptance.json",
+      "bytes": 8153,
+      "sha256": "c6cea6e4b7a0300e64e7198219ae2d3da9ac8978ca696486211480b60b470b64"
+    },
+    {
+      "name": "teacher_cache_metadata.json",
+      "bytes": 715,
+      "sha256": "df2800a5d57d6272af600c581b08f1ecce51c30086e75b027a1748434b464e5f"
+    },
+    {
+      "name": "teacher_disagreement_summary.csv",
+      "bytes": 1635,
+      "sha256": "8856e394b01947ca337a7425979aad240d8e42e6010b4b05e599e79955cbf034"
+    },
+    {
+      "name": "success_rates.csv",
+      "bytes": 480,
+      "sha256": "90378a75136778761e8332b294a99f04657d656e42685a82f1f3e46eef07c2c3"
+    },
+    {
+      "name": "paired_results.csv",
+      "bytes": 26158,
+      "sha256": "8e4e1d53294f1de291bd5cbfbb8f82d3f7b89583af30f1b43f8d44d8d3a255cc"
+    },
+    {
+      "name": "paired_statistics.json",
+      "bytes": 10629,
+      "sha256": "c1810fe88c1af95fe2f13d784001c637079aeeae469fff29211016ceca48bef9"
+    },
+    {
+      "name": "historical_protocol_audit.json",
+      "bytes": 245,
+      "sha256": "05a97c35a16828155f2df7f9f7bdd3ad604b882c97ba658fc22d09d44c415b41"
+    },
+    {
+      "name": "stage_metrics_five_arms.csv",
+      "bytes": 40438,
+      "sha256": "cf45526ca51eee8e6efb2aa8eae0fb765618d20b71828483b76e2d110060c8a0"
+    },
+    {
+      "name": "stage_condition_summary.csv",
+      "bytes": 4262,
+      "sha256": "da71212ad0b3a1e42c5fd8eb20fec039d4fe1795b1d7abac532d465936860edb"
+    },
+    {
+      "name": "stage_analysis_limitations.json",
+      "bytes": 424,
+      "sha256": "2dcee6c005c754de33ec24711e7e3b02e35b194a642122c8eaacc96188dbc496"
+    },
+    {
+      "name": "validation_summary.csv",
+      "bytes": 3952,
+      "sha256": "9d30c6431e28fd5377b49d8e9ec7578f3b6b0c52dac26416c49a4fcb431f3b08"
+    },
+    {
+      "name": "validation_phase_metrics.csv",
+      "bytes": 10325,
+      "sha256": "eab5b04b03188fa5a013aaee55c1c3816535db63816c3587cd0493f6f927765d"
+    },
+    {
+      "name": "training_contribution_summary.csv",
+      "bytes": 2819,
+      "sha256": "cd70c9eed24aee02a0a6b6ee6bad5387164781a42597a59f5c1d16049e5c4c44"
+    },
+    {
+      "name": "checkpoint_inventory.csv",
+      "bytes": 3754,
+      "sha256": "c511fb47f375fa097d1c5e3bc87b0a9c48f6ac34a01c45b307eecf17c58b6ea7"
+    },
+    {
+      "name": "delivery_verification.json",
+      "bytes": 20650,
+      "sha256": "55c309c3be10675b9f8b5738c6e55f4e76f56ce645afd24fed7d26911c4d38a6"
+    },
+    {
+      "name": "training_config_E-C.json",
+      "bytes": 3799,
+      "sha256": "6940438aee8e18faf0e73532649312af895677fca4192d6fa4d5e8c138dacb26"
+    },
+    {
+      "name": "training_config_E-D.json",
+      "bytes": 3799,
+      "sha256": "b0c97a2f3dee219d0c9c0cec176de04835b94490fc8f9161aa899d3cd294614a"
+    },
+    {
+      "name": "training_config_E-C-keep.json",
+      "bytes": 3804,
+      "sha256": "68dde0289311d7abf3d40326910cb56cf7ec17943995ccd9de62e57c997e8f3d"
+    },
+    {
+      "name": "training_config_E-D-keep.json",
+      "bytes": 3804,
+      "sha256": "fd686a2d46d8514893b4b4f1acd0a09aabb68f4d81ea8e075a3535c1a8f940ea"
+    },
+    {
+      "name": "resolved_training_config_E-C.json",
+      "bytes": 3623,
+      "sha256": "fb2f3eec7f6f635cdcf5ee7c4d281a78d86f840863fc35182c012080f243574b"
+    },
+    {
+      "name": "resolved_training_config_E-D.json",
+      "bytes": 3623,
+      "sha256": "943ea3bd4201126b7b7b101087ed0ff00ca62fe34c68fd32831d6c59b3b90d36"
+    },
+    {
+      "name": "resolved_training_config_E-C-keep.json",
+      "bytes": 3628,
+      "sha256": "80f81b72460546079def2e2deb854d51a8adcf8b8d5c235fd8a60969302e82a7"
+    },
+    {
+      "name": "resolved_training_config_E-D-keep.json",
+      "bytes": 3628,
+      "sha256": "9b401d4645c22aba88617c60be76fba7ceabc401a794301d2ac876942551ddee"
+    },
+    {
+      "name": "resolved_run_plan.json",
+      "bytes": 5598,
+      "sha256": "f9b9d2652bc84f8b81d8dad29b70a07b5061b734a49ab375306bc1df5eed9563"
+    },
+    {
+      "name": "configuration_semantics_audit.json",
+      "bytes": 1889,
+      "sha256": "0a9f851aa7e783fbec3cb267a02dec37688460876249862529d9ff0fceccb434"
+    },
+    {
+      "name": "monitoring_revision.json",
+      "bytes": 835,
+      "sha256": "800aaa8014587590bb9f4979140c2230e307e4c20071b55b1710aa4138f6fe6a"
+    },
+    {
+      "name": "recovery_comparison.json",
+      "bytes": 2144,
+      "sha256": "f48b6fd100c8014a4a1452111fb38af1719a3ad5012295718d9ba0c9ba29fb54"
+    },
+    {
+      "name": "resume_precheck_acceptance.json",
+      "bytes": 946,
+      "sha256": "4ac38f1e14d3722f6c0a86469f84e25872ef90f6d01a244ab16c3d3a9646e820"
+    },
+    {
+      "name": "resource_recovery.json",
+      "bytes": 1634,
+      "sha256": "db81884d3fcbd6eca94a6ea103377297441898d0ec8d2ad7b8ef53466e36263a"
+    },
+    {
+      "name": "teacher_input_equivalence_audit.json",
+      "bytes": 1696,
+      "sha256": "f71ecc1471301b119ea7e7e688291b25951e69a2323d9d284d810b4ef11516c4"
+    },
+    {
+      "name": "teacher_input_audit_note.json",
+      "bytes": 766,
+      "sha256": "539a943cad86c0238191a9bedcf66bb3543ed3d1daf9a68ccc919ff248236593"
+    },
+    {
+      "name": "failure_stage_summary.csv",
+      "bytes": 686,
+      "sha256": "c9ed163e49539774d37fd5515315255d1414c75d753e73c43dc0fa012add6b7f"
+    },
+    {
+      "name": "final_checkpoint_state_audit.json",
+      "bytes": 2395,
+      "sha256": "323b68b98f44cbd6edc6f6fc829f64bedf3fa00c5d954b6b25e08e4b7c83874f"
+    }
+  ],
+  "excluded": [
+    "checkpoints",
+    "raw images",
+    "teacher action cache",
+    "sidecars",
+    "videos",
+    "raw trajectories",
+    "credentials"
+  ]
+}
