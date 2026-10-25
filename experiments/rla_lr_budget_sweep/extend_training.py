@@ -48,7 +48,7 @@ def execute(g):
  start_step=0
  assert os.environ.get('POLICY_RESUME'), 'full recovery checkpoint required'
  if os.environ.get('POLICY_RESUME'):
-  ck=torch.load(os.environ['POLICY_RESUME'],map_location='cpu');assert ck['arm']==arm and ck['configuration']==read(plan['resume'][arm]['source_plan'])
+  ck=torch.load(os.environ['POLICY_RESUME'],map_location='cpu');assert ck['arm']==arm and ck['configuration']==read(Path(plan['resume'][arm]['source_plan']))
   start_step=ck['global_step'];assert ck['next_physical_sample']==start_step*8 and start_step==plan['resume'][arm]['step'] and 0<start_step<600
   assert ck['AMP_scaler'] is None and ck['dtype']=='bfloat16' and ck['activation_checkpointing']
   assert ck['scheduler']['last_epoch']==start_step and ck['scheduler']['milestones']=={1200:1}
