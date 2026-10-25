@@ -1,0 +1,113 @@
+{
+  "frozen": true,
+  "previous": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run",
+  "common_step0": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+  "common_step0_sha256": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66",
+  "inputs": {
+    "project": "${PROJECT_ROOT}",
+    "B20_step0": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_06/B20/formal_B/step0000.pt",
+    "B20_sampling_order": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+    "B20_sampling_sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13",
+    "data_manifest": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+    "action_proprio_statistics": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+    "legacy_B20_sampling_field_means_new_task_common_order": true,
+    "no_trained_policy_initialization": true
+  },
+  "shared_protocol": {
+    "frozen": true,
+    "status": "FROZEN_NEW_TASK",
+    "successful_updates": 600,
+    "physical_window_exposures": 4800,
+    "appearance_exposures": 9600,
+    "train_episodes": 20,
+    "development_episodes": 5,
+    "seed": 20261023,
+    "common_initial_checkpoint": "common_policy_step0.pt",
+    "sampling_order_reference": "sampling_order.json",
+    "sampler": "reuse B20 physical-window order; clean/background per physical window; no outcome-dependent resampling",
+    "optimizer": "AdamW",
+    "lr": 0.0002,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "scheduler": "MultiStepLR milestones=[600], gamma=0.1, applied after each update; no reduced-LR update before final",
+    "microbatch_appearance": 8,
+    "accumulation": 2,
+    "backend": "Math SDPA, Flash and memory-efficient disabled",
+    "dtype": "bfloat16",
+    "gradient_clipping": null,
+    "lambda_action": 1.0,
+    "lambda_aux": 0.022408536585365856,
+    "action_loss": "official unweighted mean L1 over all8x7 valid values",
+    "auxiliary_loss": "official mean L1 over batch,8,1024",
+    "normalization": "C-low: (z_C-mu_C)/s_C; D-center-low: (z_D-mu_D)/s_C",
+    "stage": "joint action and auxiliary, no additional RLA-only updates",
+    "C_D_only_target_source_differs": false,
+    "randomness": "same initial CPU/CUDA/Python/NumPy state and official stochastic graph for C/D; added RLA draws need not reproduce B20 random consumption after step0",
+    "checkpoint_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "selection": "final600 only, no early stopping or budget extension",
+    "full_batch_resource_smoke_required_before_updates": true,
+    "policy_updates_this_run": 1200,
+    "task_id": "stove",
+    "RLA_auxiliary_baseline": "B has original official action head, no auxiliary supervision",
+    "memory": "same non-reentrant activation checkpointing for B/C/D; expandable allocator, cache release",
+    "window_equivalent_epochs": 1.8786692759295498,
+    "center_only_difference": false
+  },
+  "updates": 600,
+  "checkpoints": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "validation": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "task_id": "stove",
+  "appearance_rules": "same physical order; clean/background eachonce; no unseen palette training",
+  "selection": "final600 only",
+  "closed_loop_trials": 120,
+  "sealed_read": false,
+  "experiment": "stove_policy_aux_weight_0p1",
+  "arms": [
+    "C-low",
+    "D-center-low"
+  ],
+  "historical_source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove",
+  "diagnostic_steps": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "target_center_definition": {
+    "C-low": "(z_C-mu_C)/s_C",
+    "D-center-low": "(z_D-mu_D)/s_C",
+    "scale": "frozen s_C scalar; no clipping or rescaling"
+  },
+  "recovery": "full model/optimizer/scheduler/RNG/sample position; stop on CUDA/ECC/nonfinite; preserve attempts, no silent retry",
+  "historical_centering": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01",
+  "intervention": {
+    "policy_lambda_original": 0.22408536585365854,
+    "policy_lambda_low": 0.022408536585365856,
+    "AE_updated": false,
+    "AE_lambda_inv": 0.009127798272072366,
+    "automatic_calibration": false,
+    "new_architecture": false,
+    "action_postprocessing_changed": false
+  }
+}

@@ -1,0 +1,13 @@
+model,appearance,successes,trials,success_rate
+C,clean,20,20,1.0
+C,seen_background,19,20,0.95
+C,unseen_background,20,20,1.0
+C-low,clean,1,20,0.05
+C-low,seen_background,4,20,0.2
+C-low,unseen_background,0,20,0.0
+D-center,clean,0,20,0.0
+D-center,seen_background,0,20,0.0
+D-center,unseen_background,0,20,0.0
+D-center-low,clean,1,20,0.05
+D-center-low,seen_background,0,20,0.0
+D-center-low,unseen_background,8,20,0.4

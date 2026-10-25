@@ -1,0 +1,8 @@
+{
+  "matched_trials": 240,
+  "identical_state_XML_language": true,
+  "control_horizon": 220,
+  "chunk": 8,
+  "source": "same accepted evaluation code; unchanged process_action and official On predicate",
+  "historical_results_unmodified": true
+}

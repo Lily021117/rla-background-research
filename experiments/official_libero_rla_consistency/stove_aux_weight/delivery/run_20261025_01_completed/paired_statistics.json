@@ -1,0 +1,249 @@
+{
+  "method": "paired bootstrap, physical state resampling shared across appearances, 10000 draws fixed seed20261025",
+  "independent_states": 20,
+  "single_training_seed": true,
+  "development_not_final_test": true,
+  "small_discrete_sample_limitation": true,
+  "comparisons": [
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "clean",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ],
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "seen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "unseen_background",
+      "difference": 0.4,
+      "CI95": [
+        0.2,
+        0.6
+      ],
+      "wins": 8,
+      "losses": 0
+    },
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "equal_mean_three_conditions_state_clustered",
+      "difference": 0.15,
+      "CI95": [
+        0.06666666666666667,
+        0.23333333333333334
+      ]
+    },
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "seen_background interaction vs clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-center-low minus D-center",
+      "appearance": "unseen_background interaction vs clean",
+      "difference": 0.35,
+      "CI95": [
+        0.15,
+        0.55
+      ]
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "seen_background",
+      "difference": -0.75,
+      "CI95": [
+        -0.9,
+        -0.55
+      ],
+      "wins": 0,
+      "losses": 15
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "unseen_background",
+      "difference": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "wins": 0,
+      "losses": 20
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "equal_mean_three_conditions_state_clustered",
+      "difference": -0.9,
+      "CI95": [
+        -0.9666666666666666,
+        -0.8166666666666667
+      ]
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "seen_background interaction vs clean",
+      "difference": 0.2,
+      "CI95": [
+        0.05,
+        0.4
+      ]
+    },
+    {
+      "comparison": "C-low minus C",
+      "appearance": "unseen_background interaction vs clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ],
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "seen_background",
+      "difference": -0.2,
+      "CI95": [
+        -0.4,
+        -0.05
+      ],
+      "wins": 0,
+      "losses": 4
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "unseen_background",
+      "difference": 0.4,
+      "CI95": [
+        0.2,
+        0.6
+      ],
+      "wins": 8,
+      "losses": 0
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "equal_mean_three_conditions_state_clustered",
+      "difference": 0.06666666666666667,
+      "CI95": [
+        -0.03333333333333334,
+        0.16666666666666669
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "seen_background interaction vs clean",
+      "difference": -0.2,
+      "CI95": [
+        -0.45,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C-low",
+      "appearance": "unseen_background interaction vs clean",
+      "difference": 0.4,
+      "CI95": [
+        0.15,
+        0.65
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "seen_background",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "unseen_background",
+      "difference": -0.6,
+      "CI95": [
+        -0.8,
+        -0.4
+      ],
+      "wins": 0,
+      "losses": 12
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "equal_mean_three_conditions_state_clustered",
+      "difference": -0.8333333333333333,
+      "CI95": [
+        -0.9166666666666666,
+        -0.7499999999999999
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "seen_background interaction vs clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "D-center-low minus C",
+      "appearance": "unseen_background interaction vs clean",
+      "difference": 0.35,
+      "CI95": [
+        0.15,
+        0.55
+      ]
+    }
+  ]
+}

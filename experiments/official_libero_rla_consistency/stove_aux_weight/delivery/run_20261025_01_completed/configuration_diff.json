@@ -1,0 +1,9 @@
+{
+  "new_policy_weight": 0.022408536585365856,
+  "old_policy_weight": 0.22408536585365854,
+  "only_intervention": "policy auxiliary coefficient multiplied by 0.1 within each target family",
+  "training_updates_each": 600,
+  "AE_updates": 0,
+  "other_settings": "unchanged, including target means/scalar, RNG, sampler, backend, AdamW, microbatch8 x accumulation2",
+  "comparison_confound": "C and D targets and centers differ by established method; only within-family weight intervention is single-variable"
+}

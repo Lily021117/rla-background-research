@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exact_parameters_and_RNG_equal": true,
+  "parameter_hashes": [
+    "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e",
+    "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e",
+    "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e"
+  ],
+  "optimizer_initially_empty": true,
+  "source": "accepted original common step0, not trained policy",
+  "global_steps": [
+    0,
+    0
+  ]
+}

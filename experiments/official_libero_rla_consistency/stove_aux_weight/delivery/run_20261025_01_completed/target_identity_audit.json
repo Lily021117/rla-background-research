@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "policy_weight_only": true,
+  "checks": [
+    {
+      "source": "C",
+      "appearance": "clean",
+      "identical_center": true,
+      "identical_scale": true,
+      "identical_targets": 6
+    },
+    {
+      "source": "C",
+      "appearance": "background",
+      "identical_center": true,
+      "identical_scale": true,
+      "identical_targets": 6
+    },
+    {
+      "source": "D",
+      "appearance": "clean",
+      "identical_center": true,
+      "identical_scale": true,
+      "identical_targets": 6
+    },
+    {
+      "source": "D",
+      "appearance": "background",
+      "identical_center": true,
+      "identical_scale": true,
+      "identical_targets": 6
+    }
+  ]
+}

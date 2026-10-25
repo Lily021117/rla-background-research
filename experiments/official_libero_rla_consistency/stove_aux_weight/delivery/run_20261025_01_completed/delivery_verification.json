@@ -1,0 +1,187 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD",
+  "policy_successful_updates": {
+    "C-low": 600,
+    "D-center-low": 600
+  },
+  "actual_computed_updates": {
+    "C-low": 600,
+    "D-center-low": 600
+  },
+  "replayed_updates": 0,
+  "AE_updates": 0,
+  "valid_new_rollouts": 120,
+  "invalid_new_rollouts": 0,
+  "sealed_reads": 0,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0600.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/D-center/isolated_smoke/step0600.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/per_trial_results.json",
+      "unchanged": true
+    }
+  ],
+  "initialization": {
+    "status": "PASS",
+    "exact_parameters_and_RNG_equal": true,
+    "parameter_hashes": [
+      "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e",
+      "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e",
+      "ecccbc69c377271cbaee2742eb2a19e1dc3fb59134ef6c0495c4142ee1bd367e"
+    ],
+    "optimizer_initially_empty": true,
+    "source": "accepted original common step0, not trained policy",
+    "global_steps": [
+      0,
+      0
+    ]
+  },
+  "training_acceptance": [
+    {
+      "model": "C-low",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 1834.9443089962006,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    },
+    {
+      "model": "D-center-low",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 1601.7494041919708,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    }
+  ],
+  "protocol_deviations": [
+    "Both policies stopped after update300 during validation with CUDA execution failure on GPU1; full step300 resumed on explicitly authorized GPU0 sequentially, no optimizer updates replayed",
+    "Incomplete validation300 repeated; original partial rows preserved but excluded from derived complete metrics",
+    "CPU verification loader explicitly supports trusted full-state checkpoints under newer torch; no training change"
+  ],
+  "recovery": {
+    "user_authorization": "\u5141\u8bb8 GPU 0 \u4e32\u884c\u6062\u590d",
+    "GPU": "${GPU_UUID_REDACTED}",
+    "serial": true,
+    "restore_step": 300,
+    "remaining_updates_each": 300,
+    "changed_training_hyperparameters": false,
+    "retained_original_attempts": true,
+    "validation300_repeated": true,
+    "optimizer_replay": 0
+  },
+  "source_commit_at_start": "05e59c5efe8055c9f130049b6fe6614a2c362aa6",
+  "historical_success_labels_unchanged": true
+}

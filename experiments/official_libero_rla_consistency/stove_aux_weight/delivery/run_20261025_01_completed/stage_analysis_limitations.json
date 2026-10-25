@@ -1,0 +1,8 @@
+{
+  "new_control_steps": 0,
+  "recomputed_labels_do_not_replace_live_success": true,
+  "cached_pose_integrator_phase_difference": "mj_forward of saved states is not identical to post-substep cached predicate timing",
+  "descent_rule": "negative bowl-z difference between consecutive saved states after original 3cm lift",
+  "finger_contact_not_force_or_stable_grasp_truth": true,
+  "drop_not_independently_validated": true
+}

@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "name": "report.md",
+      "bytes": 11056,
+      "sha256": "d4f7eafb32bda1940a60ff8aff2549f644e47bd2d30bb7711f24a8d19087f4fb"
+    },
+    {
+      "name": "run_plan.json",
+      "bytes": 4601,
+      "sha256": "d3cb2f1018ccd78d391f08e198b77293ce25aefa309cf5866034f6148d65edf3"
+    },
+    {
+      "name": "configuration_diff.json",
+      "bytes": 508,
+      "sha256": "ebad4e322e1d5466aba33fbb9a8f4e1112c2a72ca248cd41e1d38ac84cf8d70a"
+    },
+    {
+      "name": "evaluation_protocol.json",
+      "bytes": 1455,
+      "sha256": "82d5b976a3eb9a96a63a6250f21dc426f0ad180579a91cf569b688e500b34c1b"
+    },
+    {
+      "name": "initialization_acceptance.json",
+      "bytes": 449,
+      "sha256": "6ac70bc7ea423f46fd8cf52b20faa6a22ac024831292f09bc94447eafb54cec1"
+    },
+    {
+      "name": "target_identity_audit.json",
+      "bytes": 700,
+      "sha256": "a02d9e3b1ddf7563f1dd902c23eec4f2d3bc917e9a901df7fda32e5b748e4460"
+    },
+    {
+      "name": "success_rates.csv",
+      "bytes": 411,
+      "sha256": "afc84c4a4cd117ba98375c0aa2946d1677715ab3e8c1e5729ae6a342e562c7a6"
+    },
+    {
+      "name": "paired_results.csv",
+      "bytes": 14499,
+      "sha256": "35e1dfeac0112d7be3d7b9e6dfd74c961692571e638d431afb988fa1a5e94a97"
+    },
+    {
+      "name": "paired_statistics.json",
+      "bytes": 5303,
+      "sha256": "b90c63c2d1fb8d79bd3f21fbc80ae067b6e951f2edc600c29b26fc2e238eb170"
+    },
+    {
+      "name": "historical_protocol_audit.json",
+      "bytes": 245,
+      "sha256": "ada00033328fc362e94a4ff17ad412157e3cbeebaf9938706e235ee00efa9e98"
+    },
+    {
+      "name": "stage_metrics_four_arms.csv",
+      "bytes": 40461,
+      "sha256": "a194fef00a833c1079a5f7292be010064f4531db5221da7ccabfa2c953e9925b"
+    },
+    {
+      "name": "stage_condition_summary.csv",
+      "bytes": 3650,
+      "sha256": "f620cf045b97561e3030698f17f63dd1ba3e34b33d4ebce7039e79e956e69fd8"
+    },
+    {
+      "name": "stage_analysis_limitations.json",
+      "bytes": 424,
+      "sha256": "2dcee6c005c754de33ec24711e7e3b02e35b194a642122c8eaacc96188dbc496"
+    },
+    {
+      "name": "validation_phase_metrics.csv",
+      "bytes": 8363,
+      "sha256": "d9aca18e6bc509cb9ccf1ce74746c2e9ad6120aa9ef3619bd306f5b7b23c961b"
+    },
+    {
+      "name": "action_dimension_summary.csv",
+      "bytes": 46240,
+      "sha256": "b131e629c42d7a3b288361c8fb5fe09ab7e3263fcb8d35d783cf03ee0c6066bf"
+    },
+    {
+      "name": "training_contribution_summary.csv",
+      "bytes": 2281,
+      "sha256": "5cf48bf9b3cdf3857afa3018a2d8b6aae80d47881c99d7a50de7ef8a3d7b4aa6"
+    },
+    {
+      "name": "checkpoint_inventory.csv",
+      "bytes": 2203,
+      "sha256": "dddc0b26e7658f30b21e20ca8c138204c6d22cda36ae4b75043fa80612179213"
+    },
+    {
+      "name": "delivery_verification.json",
+      "bytes": 7461,
+      "sha256": "8ad77e74024a9fcf07be314731daa72c6376d5df70ae9cda6f953c9e8dfda12c"
+    }
+  ],
+  "excluded": [
+    "weights",
+    "raw images",
+    "sidecars",
+    "videos",
+    "raw trajectories",
+    "credentials"
+  ]
+}
