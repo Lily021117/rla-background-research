@@ -14,9 +14,11 @@ if a.gpu=='1':env.update(RLA_GPU_UUID='GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419'
 env.update(RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_ACT='1',LAMBDA_RLA='0.22408536585365854',RLA_LOG_EVERY='1000',RLA_MASK='1',RLA_ACTION_TOKENS='1',RLA_INIT_FROM='',RLA_SHUFFLE_TARGETS='0')
 env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+env.get('PYTHONPATH','')
 arm,entry={'gate':('preflight','gate'),'evaluate':('evaluation','extend_evaluation')}.get(a.stage,(a.stage,'extend_training'))
-if (a.out/'attempt_registry.json').exists():
- registry=json.loads((a.out/'attempt_registry.json').read_text());a.attempt=registry.get(a.stage,a.attempt)
+registry_path=a.out/('attempt_registry_v3.json' if (a.out/'attempt_registry_v3.json').exists() else 'attempt_registry.json')
+if registry_path.exists():
+ registry=json.loads(registry_path.read_text());a.attempt=registry.get(a.stage,a.attempt)
 if (a.out/'policy_registry_v2.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_v2.json'
+if (a.out/'policy_registry_v3.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_v3.json'
 if entry=='extend_training':
  plan=json.loads((a.out/'run_plan.json').read_text());assert a.stage in plan['resume'];env['POLICY_RESUME']=plan['resume'][a.stage]['checkpoint']
  assert json.loads((a.out/'recovery_precheck.json').read_text())['status']=='PASS'
