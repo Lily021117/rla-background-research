@@ -3,27 +3,37 @@ import argparse
 import collections
 import csv
 import json
+import hashlib
 from pathlib import Path
 import subprocess
 import numpy as np
-from control_preserving_rla.common import read,save,sha
+import torch
+from control_preserving_rla.common import read,save,sha,digest
 
 p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.parse_args();o=a.out
 def csvsave(name,rows):
  with (o/name).open('x') as f:
   w=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in rows for k in r)));w.writeheader();w.writerows(rows)
-plan=read(o/'run_plan.json');inventory=[];train=[];val=[];accept=[];audits=[]
+plan=read(o/'run_plan.json');inventory=[];train=[];val=[];accept=[];audits=[];rng_hashes=[]
 for arm,cfg in plan['arms'].items():
  path=o/arm/'formal';rows=list(csv.DictReader((path/'training_metrics.csv').open()))
  assert len(rows)==600 and [int(r['step']) for r in rows]==list(range(1,601))
  acc=read(path/'training_acceptance.json');assert acc['successful_updates']==600 and acc['strict_reload'];accept.append(dict(model=arm,**acc))
  audit=read(path/'initial_state_audit.json');audits.append(audit);assert audit['parameter_hash']==audit['common_parameter_hash']==read(o/'initialization_acceptance.json')['student_parameter_hash']
+ initial=torch.load(path/'step0000.pt',map_location='cpu')
+ assert digest(initial['parameters'])==audit['parameter_hash']
+ h=hashlib.sha256();h.update(initial['torch_rng'].numpy().tobytes())
+ for x in initial['cuda_rng']:h.update(x.numpy().tobytes())
+ h.update(repr(initial['python_rng']).encode());h.update(initial['numpy_rng'][0].encode());h.update(initial['numpy_rng'][1].tobytes());h.update(repr(initial['numpy_rng'][2:]).encode())
+ rng_hashes.append(h.hexdigest());del initial
  for step in (0,1,100,300,600):
   ck=path/f'step{step:04}.pt';inventory.append(dict(model=arm,step=step,path=str(ck),sha256=sha(ck),bytes=ck.stat().st_size))
  for lo,hi in ((1,100),(101,300),(301,600),(1,600)):
   rs=[r for r in rows if lo<=int(r['step'])<=hi]
   train.append(dict(model=arm,target=cfg['target'],beta=cfg['beta'],from_step=lo,to_step=hi,updates=len(rs),**{k:float(np.mean([float(r[k]) for r in rs])) for k in ('action_loss','auxiliary_loss','weighted_auxiliary','keep_loss','weighted_keep','gradient_vla','gradient_head','gradient_aux_head')}))
  for r in csv.DictReader((path/'validation_metrics.csv').open()):val.append(dict(model=arm,**r))
+assert len(set(rng_hashes))==1
+save(o/'four_student_initialization_audit.json',dict(status='PASS',parameter_hash=audits[0]['parameter_hash'],actual_step0_RNG_hashes=rng_hashes,exact_matching_parameters_and_RNG=True,checked_from_actual_formal_checkpoints=True))
 csvsave('checkpoint_inventory.csv',inventory);csvsave('training_contribution_summary.csv',train)
 groups=collections.defaultdict(list)
 for r in val:groups[r['model'],r['step'],r['appearance']].append(r)

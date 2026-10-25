@@ -62,10 +62,13 @@ def execute(g):
    (total/2).backward();api.clear();del b,a,z,bc,target,aux,teacher_actions,mask,keep,total
   norms={}
   for k,m in g['mods'].items():
-   grads=[p.grad.detach().float() for p in m.parameters() if p.grad is not None];assert all(torch.isfinite(x).all() for x in grads)
+   grads=[p.grad.detach().float() for p in m.parameters() if p.grad is not None]
+   # Same finite predicate; one host synchronization per module, not per tensor.
+   assert bool(torch.stack([torch.isfinite(x).all() for x in grads]).all())
    norms[k]=float(torch.stack([x.norm().square() for x in grads]).sum().sqrt())
   auxnorm=sum(float(p.grad.detach().float().square().sum()) for n,p in g['head'].named_parameters() if p.grad is not None and ('z_' in n or 'rla' in n))**.5
-  lr=opt.param_groups[0]['lr'];opt.step();scheduler.step();assert all(torch.isfinite(p).all() for p in g['params'])
+  lr=opt.param_groups[0]['lr'];opt.step();scheduler.step()
+  assert bool(torch.stack([torch.isfinite(p).all() for p in g['params']]).all())
   torch.cuda.empty_cache();bc,aux,keep,total=np.mean(values,axis=0)
   w.writerow(dict(step=step,action_loss=bc,auxiliary_loss=aux,weighted_auxiliary=lam*aux,keep_loss=keep,weighted_keep=beta*keep,total_loss=total,lr=lr,gradient_vla=norms['vla'],gradient_head=norms['head'],gradient_proprio=norms['proprio'],gradient_aux_head=auxnorm,allocated=torch.cuda.max_memory_allocated(),reserved=torch.cuda.max_memory_reserved(),cpu_maxrss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,seconds=time.time()-started,successful_updates=step));f.flush()
   if step%25==0:print('POLICY',arm,step,'BC',bc,'aux',aux,'keep',keep,'seconds',time.time()-started,flush=True);assert g['counts'](g['before'])==g['counts'](g['ecc']())
