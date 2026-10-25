@@ -7,6 +7,7 @@ dest=Path(__file__).parent/'delivery/extend600_run_20261025_01';dest.mkdir(paren
 names=['report.md','run_plan.json','continuation_protocol.json','evaluation_protocol.json','statistical_protocol.json','recovery_precheck.json','replay_equivalence_audit.json','preupdate_incident.json','attempt_registry.json','lr_curves.csv','training_metrics_all.csv','offline_continuation_summary.csv','offline_200_to600.csv','per_demo_metrics.csv','coarse_phase_metrics.csv','checkpoint_inventory.csv','per_trial_results.csv','per_episode_phase_summary.csv','success_rates.csv','historical_success_rates.csv','historical_comparability_audit.json','paired_results.csv','paired_statistics.json','stage_summary.csv','delivery_verification.json']+[p.name for p in o.glob('training_config_*.json')]
 secret=re.compile(rb'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----');inventory=[]
 names.append('execution_code_version.json')
+names += ['attempt_registry_v3.json','policy_registry_v3.json','cuda_incident.json','gpu0_resume_authorization.json']
 for name in names:
  text=(o/name).read_text()
  for old,new in [('/data/lyc/projects/rla-wm','${PROJECT_ROOT}'),('/data/lyc/projects/LIBERO-plus','${LIBERO_ROOT}'),('/data/lyc','${DATA_ROOT}')]:text=text.replace(old,new)
