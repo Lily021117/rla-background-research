@@ -1,0 +1,41 @@
+{
+  "reason": "GPU1 new uncorrectable SRAM parity/SM increment; cuBLAS backward failure",
+  "GPU1_before": {
+    "volatile_parity": 0,
+    "aggregate_parity": 1,
+    "aggregate_SM": 1
+  },
+  "GPU1_after": {
+    "volatile_parity": 1,
+    "aggregate_parity": 2,
+    "aggregate_SM": 2
+  },
+  "GPU1_disabled_for_remaining_task": true,
+  "GPU0_ECC_unchanged": true,
+  "user_authorized_GPU0_serial": true,
+  "failed_backward_attempts": 1,
+  "unpersisted_successful_updates_to_replay": 206,
+  "interrupted_GPU1_migration_optimizer_updates": 0,
+  "restores": [
+    {
+      "seed": 20261029,
+      "method": "D-center",
+      "checkpoint": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal/step0100.pt",
+      "sha256": "ee41026b1e33e713706bac6c512748ce82fb9315d024b37010effb73efb0c454",
+      "restored_step": 100,
+      "last_recorded_successful_update": 100,
+      "replayed_updates": 0,
+      "full_state_verified": true
+    },
+    {
+      "seed": 20261030,
+      "method": "C",
+      "checkpoint": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/formal/step0300.pt",
+      "sha256": "a5bd1a2c7a19cc2cae23b475e7b90fb12a1884caf08f2f8d6050637faf4f71e4",
+      "restored_step": 300,
+      "last_recorded_successful_update": 506,
+      "replayed_updates": 206,
+      "full_state_verified": true
+    }
+  ]
+}

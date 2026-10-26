@@ -1,0 +1,32 @@
+{
+  "seed": 20261030,
+  "physical_samples": 4800,
+  "appearance_samples": 9600,
+  "independent_train_episodes": 20,
+  "eligible_windows": 2555,
+  "equivalent_passes": 1.8786692759295498,
+  "episode_exposures": {
+    "derived_stove_demo_47_v1": 217,
+    "derived_stove_demo_5_v1": 247,
+    "derived_stove_demo_36_v1": 260,
+    "derived_stove_demo_18_v1": 238,
+    "derived_stove_demo_45_v1": 261,
+    "derived_stove_demo_6_v1": 241,
+    "derived_stove_demo_0_v1": 276,
+    "derived_stove_demo_13_v1": 244,
+    "derived_stove_demo_48_v1": 241,
+    "derived_stove_demo_19_v1": 224,
+    "derived_stove_demo_14_v1": 204,
+    "derived_stove_demo_7_v1": 231,
+    "derived_stove_demo_28_v1": 246,
+    "derived_stove_demo_38_v1": 239,
+    "derived_stove_demo_16_v1": 249,
+    "derived_stove_demo_37_v1": 227,
+    "derived_stove_demo_9_v1": 255,
+    "derived_stove_demo_29_v1": 234,
+    "derived_stove_demo_12_v1": 222,
+    "derived_stove_demo_32_v1": 244
+  },
+  "same_C_D_order": true,
+  "normalization_fixed": true
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "seed": 20261029,
+    "method": "D-center",
+    "resume": {
+      "source": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal/step0100.pt",
+      "restored_step": 100,
+      "model_optimizer_scheduler_RNG_sampler_restored": true,
+      "AMP_scaler": null,
+      "bfloat16": true
+    },
+    "repeated_validation_rows": 61,
+    "max_cross_device_fixed_validation_metric_delta": 0.0,
+    "effective_updates": 600,
+    "actual_update_computations": 600,
+    "replayed_updates": 0
+  },
+  {
+    "seed": 20261030,
+    "method": "C",
+    "resume": {
+      "source": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/formal/step0300.pt",
+      "restored_step": 300,
+      "model_optimizer_scheduler_RNG_sampler_restored": true,
+      "AMP_scaler": null,
+      "bfloat16": true
+    },
+    "repeated_validation_rows": 1406,
+    "max_cross_device_fixed_validation_metric_delta": 0.0,
+    "effective_updates": 600,
+    "actual_update_computations": 806,
+    "replayed_updates": 206
+  }
+]

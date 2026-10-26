@@ -1,0 +1,8 @@
+{
+  "pretrained_equal": true,
+  "random_initializations_distinct": true,
+  "seeds": [
+    20261029,
+    20261030
+  ]
+}

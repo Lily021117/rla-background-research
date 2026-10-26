@@ -1,0 +1,3911 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f0260a538500a54fff37155183cb5e212d5e46282913ba1d1f60808136ed3a45",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 73,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f0260a538500a54fff37155183cb5e212d5e46282913ba1d1f60808136ed3a45",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 146,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f0260a538500a54fff37155183cb5e212d5e46282913ba1d1f60808136ed3a45",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "70fd497a43675c97cf9f181492db7373912eec48d589c658fa6a255436d4c360",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 91,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "70fd497a43675c97cf9f181492db7373912eec48d589c658fa6a255436d4c360",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 182,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "70fd497a43675c97cf9f181492db7373912eec48d589c658fa6a255436d4c360",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ade78a1abcf92133a1ba8a914a658f2e310502eda24a3ed0a369a5fd39ac56d3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ade78a1abcf92133a1ba8a914a658f2e310502eda24a3ed0a369a5fd39ac56d3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ade78a1abcf92133a1ba8a914a658f2e310502eda24a3ed0a369a5fd39ac56d3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "68bfa7b9ccb3445dd9ccfe92ba93923f2d6d63762ac138258f42e1e9947ff2ed",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "68bfa7b9ccb3445dd9ccfe92ba93923f2d6d63762ac138258f42e1e9947ff2ed",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "68bfa7b9ccb3445dd9ccfe92ba93923f2d6d63762ac138258f42e1e9947ff2ed",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9f89db44b9fbd9e427c99fe903197d977fe3ef1e4b693ee407a14bd517adfc7d",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9f89db44b9fbd9e427c99fe903197d977fe3ef1e4b693ee407a14bd517adfc7d",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 132,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9f89db44b9fbd9e427c99fe903197d977fe3ef1e4b693ee407a14bd517adfc7d",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f3b1279e1d422a3308bd1510f673e18e47e78411021d49365238dcc3093fe2b1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 70,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f3b1279e1d422a3308bd1510f673e18e47e78411021d49365238dcc3093fe2b1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 139,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f3b1279e1d422a3308bd1510f673e18e47e78411021d49365238dcc3093fe2b1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a0c1e57908104b00a979442a860a8e32720ec8b90873b940cedc0c0593579b02",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a0c1e57908104b00a979442a860a8e32720ec8b90873b940cedc0c0593579b02",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a0c1e57908104b00a979442a860a8e32720ec8b90873b940cedc0c0593579b02",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bc220eb145bf32e0f9f9d3003c687860d49bc732adbe0a40a902fc1876ba3951",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bc220eb145bf32e0f9f9d3003c687860d49bc732adbe0a40a902fc1876ba3951",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bc220eb145bf32e0f9f9d3003c687860d49bc732adbe0a40a902fc1876ba3951",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1ebd7dc677a5a3b1e65f1114d245b14d9e88afd51dd32e31aacb0a3764798906",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1ebd7dc677a5a3b1e65f1114d245b14d9e88afd51dd32e31aacb0a3764798906",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1ebd7dc677a5a3b1e65f1114d245b14d9e88afd51dd32e31aacb0a3764798906",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "08a0b4022fde3405f63699b3812576b518c634d7465d91a6a4f67ab1b84ebff6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 63,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "08a0b4022fde3405f63699b3812576b518c634d7465d91a6a4f67ab1b84ebff6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 126,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "08a0b4022fde3405f63699b3812576b518c634d7465d91a6a4f67ab1b84ebff6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "d6b38bbde480c4fdc289da287410a9e6f2839bd8cda1b5551ee355d36e72b894",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "d6b38bbde480c4fdc289da287410a9e6f2839bd8cda1b5551ee355d36e72b894",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 127,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "d6b38bbde480c4fdc289da287410a9e6f2839bd8cda1b5551ee355d36e72b894",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e53cb74065d4e27aba2d96c370587c2a610c6bb912f9b8429784c1471ba643b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e53cb74065d4e27aba2d96c370587c2a610c6bb912f9b8429784c1471ba643b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e53cb74065d4e27aba2d96c370587c2a610c6bb912f9b8429784c1471ba643b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f5ab6cc6761e22b7672384617d4381c5efeaf06a971da9525aede8653e5264ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 68,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f5ab6cc6761e22b7672384617d4381c5efeaf06a971da9525aede8653e5264ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 136,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "f5ab6cc6761e22b7672384617d4381c5efeaf06a971da9525aede8653e5264ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "3186b4f40ec66883244eb9af501ab01186e2241257e566816f1f67be4515c704",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "3186b4f40ec66883244eb9af501ab01186e2241257e566816f1f67be4515c704",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "3186b4f40ec66883244eb9af501ab01186e2241257e566816f1f67be4515c704",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "72d065d4ae0537c4f13cae28c04bd48b1834b512d95c25fbb15fdb4f1f0fe637",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "72d065d4ae0537c4f13cae28c04bd48b1834b512d95c25fbb15fdb4f1f0fe637",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "72d065d4ae0537c4f13cae28c04bd48b1834b512d95c25fbb15fdb4f1f0fe637",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "51c93dac6d42b50dd91c48a8792144f551ca44a78896f04d8685a24276493369",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 61,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "51c93dac6d42b50dd91c48a8792144f551ca44a78896f04d8685a24276493369",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 121,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "51c93dac6d42b50dd91c48a8792144f551ca44a78896f04d8685a24276493369",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "8a5f3f5340febad9ee4dac56222b732df5ca07f4875340c9258c44e3a530ace3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "8a5f3f5340febad9ee4dac56222b732df5ca07f4875340c9258c44e3a530ace3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "8a5f3f5340febad9ee4dac56222b732df5ca07f4875340c9258c44e3a530ace3",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "14f623e2d2fbf4ead3f5ab3c5c75fda5ffec6fff3de7a41a8af1a0da370e0fe5",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "14f623e2d2fbf4ead3f5ab3c5c75fda5ffec6fff3de7a41a8af1a0da370e0fe5",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "14f623e2d2fbf4ead3f5ab3c5c75fda5ffec6fff3de7a41a8af1a0da370e0fe5",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "592f79aeb2b95e4d79ac954e2639e0bf3638033a3437915458d9ad7ecad92be4",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "592f79aeb2b95e4d79ac954e2639e0bf3638033a3437915458d9ad7ecad92be4",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "592f79aeb2b95e4d79ac954e2639e0bf3638033a3437915458d9ad7ecad92be4",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "316af6282835fee34fadefb71b5498233f959cf8ae0506492ef861adc488b070",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "316af6282835fee34fadefb71b5498233f959cf8ae0506492ef861adc488b070",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "316af6282835fee34fadefb71b5498233f959cf8ae0506492ef861adc488b070",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8d211bc5678715ab74d644fabe1d178c51bfb6cdf137e57c22de594a9f94187",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8d211bc5678715ab74d644fabe1d178c51bfb6cdf137e57c22de594a9f94187",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8d211bc5678715ab74d644fabe1d178c51bfb6cdf137e57c22de594a9f94187",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "45a2ab0e7a0d03bfba588b42137a881334d291c3d1a4e5742ce3533ed036b7c1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "45a2ab0e7a0d03bfba588b42137a881334d291c3d1a4e5742ce3533ed036b7c1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "45a2ab0e7a0d03bfba588b42137a881334d291c3d1a4e5742ce3533ed036b7c1",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8f9d4607cd35a024f3b9c529db9a26c28bf240b7a0bb683457440d0828e40d6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8f9d4607cd35a024f3b9c529db9a26c28bf240b7a0bb683457440d0828e40d6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e8f9d4607cd35a024f3b9c529db9a26c28bf240b7a0bb683457440d0828e40d6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "58aa94b5e7aa3aa88bd525e77f6c816f48e42b669a4adfa2d64170769260f7b8",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "58aa94b5e7aa3aa88bd525e77f6c816f48e42b669a4adfa2d64170769260f7b8",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "58aa94b5e7aa3aa88bd525e77f6c816f48e42b669a4adfa2d64170769260f7b8",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "7e2484f4d2b52c7296c18ebac6550b64ae5ef27bf1fd87d06b761b7c05df350e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 56,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "7e2484f4d2b52c7296c18ebac6550b64ae5ef27bf1fd87d06b761b7c05df350e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 111,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "7e2484f4d2b52c7296c18ebac6550b64ae5ef27bf1fd87d06b761b7c05df350e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e0ca8bf487173223668562c86ffbe46eb69053d2e43ac4e4a0c13c990465854",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 73,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e0ca8bf487173223668562c86ffbe46eb69053d2e43ac4e4a0c13c990465854",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 146,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9e0ca8bf487173223668562c86ffbe46eb69053d2e43ac4e4a0c13c990465854",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ddf45f4608456d6cf5c472fe0d17c8d6eaf684ec5f83e331f11e41856dffca6b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 91,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ddf45f4608456d6cf5c472fe0d17c8d6eaf684ec5f83e331f11e41856dffca6b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 182,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "ddf45f4608456d6cf5c472fe0d17c8d6eaf684ec5f83e331f11e41856dffca6b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "61e3f4e275ec7f60d4f452a778c3de170e9132dd40d771a338ef17dc3a8a7309",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "61e3f4e275ec7f60d4f452a778c3de170e9132dd40d771a338ef17dc3a8a7309",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "61e3f4e275ec7f60d4f452a778c3de170e9132dd40d771a338ef17dc3a8a7309",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "52d0c3f95a95c47452c0edd0f24d9f81df7a303e899f3010295982c7ab1d2edc",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "52d0c3f95a95c47452c0edd0f24d9f81df7a303e899f3010295982c7ab1d2edc",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "52d0c3f95a95c47452c0edd0f24d9f81df7a303e899f3010295982c7ab1d2edc",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "5bc7862bdadbcf6cbde649b234eaa4054f7ed719e64c567e45af264c49dd307c",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "5bc7862bdadbcf6cbde649b234eaa4054f7ed719e64c567e45af264c49dd307c",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 132,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "5bc7862bdadbcf6cbde649b234eaa4054f7ed719e64c567e45af264c49dd307c",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "99ac452bd3356f1d4aa10632fd9fd933894abcbf29e37d94ae498ff11aba328e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 70,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "99ac452bd3356f1d4aa10632fd9fd933894abcbf29e37d94ae498ff11aba328e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 139,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "99ac452bd3356f1d4aa10632fd9fd933894abcbf29e37d94ae498ff11aba328e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "11c1e9fcb150ea1c78025184f9e6f25a00ecc4dd903edcddca1a8fa7cfb6264a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "11c1e9fcb150ea1c78025184f9e6f25a00ecc4dd903edcddca1a8fa7cfb6264a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "11c1e9fcb150ea1c78025184f9e6f25a00ecc4dd903edcddca1a8fa7cfb6264a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0fc797909f4b3bccd29b2f9d1ca3d67901237865bad3d751c9e0bc93917987a7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0fc797909f4b3bccd29b2f9d1ca3d67901237865bad3d751c9e0bc93917987a7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0fc797909f4b3bccd29b2f9d1ca3d67901237865bad3d751c9e0bc93917987a7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "920dc303f42831de42efd97f74d5a848b2896fd85a8c89aa675fed0651cf7cd7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "920dc303f42831de42efd97f74d5a848b2896fd85a8c89aa675fed0651cf7cd7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "920dc303f42831de42efd97f74d5a848b2896fd85a8c89aa675fed0651cf7cd7",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b708ced048c2703d4db29db0f066338c4a776a43babb9409b53e051d11d3790e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 63,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b708ced048c2703d4db29db0f066338c4a776a43babb9409b53e051d11d3790e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 126,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b708ced048c2703d4db29db0f066338c4a776a43babb9409b53e051d11d3790e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bb6932c4dc9facde02cb543587d919cbfe8e844bb5f3e5691a09c99540b01e88",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bb6932c4dc9facde02cb543587d919cbfe8e844bb5f3e5691a09c99540b01e88",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 127,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "bb6932c4dc9facde02cb543587d919cbfe8e844bb5f3e5691a09c99540b01e88",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a4ccd1bf1698adac539a76d124a6ec827f97c8c8a8ef7f2c1124f49cd90f7212",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a4ccd1bf1698adac539a76d124a6ec827f97c8c8a8ef7f2c1124f49cd90f7212",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "a4ccd1bf1698adac539a76d124a6ec827f97c8c8a8ef7f2c1124f49cd90f7212",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0db3814c1e24b1e3d463bb2b3998294670bc7f3ea21b744d41fb83bc50889e9b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 68,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0db3814c1e24b1e3d463bb2b3998294670bc7f3ea21b744d41fb83bc50889e9b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 136,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0db3814c1e24b1e3d463bb2b3998294670bc7f3ea21b744d41fb83bc50889e9b",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "cedb9b00bcad7b37a6dbbae7ec784ed34500a2d85d343f817a65fc3c6813a8ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "cedb9b00bcad7b37a6dbbae7ec784ed34500a2d85d343f817a65fc3c6813a8ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "cedb9b00bcad7b37a6dbbae7ec784ed34500a2d85d343f817a65fc3c6813a8ce",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b9d886d6f98649c0015acd054aa8d6e1dbc63d4a55994f6c22425f453385feef",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b9d886d6f98649c0015acd054aa8d6e1dbc63d4a55994f6c22425f453385feef",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b9d886d6f98649c0015acd054aa8d6e1dbc63d4a55994f6c22425f453385feef",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "20042a5f5fd67f98bb6824024c44233662d0752f682e78c55b247dd54c52cd9f",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 61,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "20042a5f5fd67f98bb6824024c44233662d0752f682e78c55b247dd54c52cd9f",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 121,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "20042a5f5fd67f98bb6824024c44233662d0752f682e78c55b247dd54c52cd9f",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "46cf23c7b290b0eee82e036d18d05081ed41f06fd250a7ffd699225199ae9c08",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "46cf23c7b290b0eee82e036d18d05081ed41f06fd250a7ffd699225199ae9c08",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "46cf23c7b290b0eee82e036d18d05081ed41f06fd250a7ffd699225199ae9c08",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0dfb0fc327f51e59515e0586fb4720c19dce69bfb581c7abf6796b6836b2f020",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0dfb0fc327f51e59515e0586fb4720c19dce69bfb581c7abf6796b6836b2f020",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "0dfb0fc327f51e59515e0586fb4720c19dce69bfb581c7abf6796b6836b2f020",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9b75c79b53d6011cee5c5b0bbcae6f2f56c610f68d62c6d69d6bfcf0ff154d4e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9b75c79b53d6011cee5c5b0bbcae6f2f56c610f68d62c6d69d6bfcf0ff154d4e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "9b75c79b53d6011cee5c5b0bbcae6f2f56c610f68d62c6d69d6bfcf0ff154d4e",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b2b2137a2495d11008e94e5784b17e010e9589b536a45f66b5a2f7b4da406f1a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b2b2137a2495d11008e94e5784b17e010e9589b536a45f66b5a2f7b4da406f1a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "b2b2137a2495d11008e94e5784b17e010e9589b536a45f66b5a2f7b4da406f1a",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "339c0c0f7815bd1c55c9f12746e05510f6a322845c6152024e03d62bb8f08ddb",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "339c0c0f7815bd1c55c9f12746e05510f6a322845c6152024e03d62bb8f08ddb",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "339c0c0f7815bd1c55c9f12746e05510f6a322845c6152024e03d62bb8f08ddb",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "def0247d1ed041a38e279b5b970910ebf4c793bce2641f70e748df824771ffe6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "def0247d1ed041a38e279b5b970910ebf4c793bce2641f70e748df824771ffe6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "def0247d1ed041a38e279b5b970910ebf4c793bce2641f70e748df824771ffe6",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1f477c16a001f17f4a3d9a7c634606abc792e3b4b41429835baf2fc44938b270",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1f477c16a001f17f4a3d9a7c634606abc792e3b4b41429835baf2fc44938b270",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "1f477c16a001f17f4a3d9a7c634606abc792e3b4b41429835baf2fc44938b270",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "32fc5265966fe4d3ad2ef464ac60367210c6a85f972ccfc7abbdf456880711ac",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "32fc5265966fe4d3ad2ef464ac60367210c6a85f972ccfc7abbdf456880711ac",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "32fc5265966fe4d3ad2ef464ac60367210c6a85f972ccfc7abbdf456880711ac",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e732f2a736f2651d7b1f8550c5435ca795d82b725763d8860bc02085b55fa39d",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 56,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e732f2a736f2651d7b1f8550c5435ca795d82b725763d8860bc02085b55fa39d",
+      "exact_reader": true
+    },
+    {
+      "method": "C",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 111,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "0530263fdd951ba578fbd0eabdd3de8ba8b31b10ce91e69826703aae60d10aab",
+      "sidecar_sha256": "e732f2a736f2651d7b1f8550c5435ca795d82b725763d8860bc02085b55fa39d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ffd6e59aeef1a69c630174b3a99f019d31516623a569875574c6824b125c3f33",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 73,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ffd6e59aeef1a69c630174b3a99f019d31516623a569875574c6824b125c3f33",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "t": 146,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ffd6e59aeef1a69c630174b3a99f019d31516623a569875574c6824b125c3f33",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c970a59ef13c69853127980817d31774a356d826d82c43c201ce1f73f245378f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 91,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c970a59ef13c69853127980817d31774a356d826d82c43c201ce1f73f245378f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "t": 182,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c970a59ef13c69853127980817d31774a356d826d82c43c201ce1f73f245378f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "058186ae4568b627865b6b288f7219f9e9d0630125fbdaab19e95fc6f666733f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "058186ae4568b627865b6b288f7219f9e9d0630125fbdaab19e95fc6f666733f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "058186ae4568b627865b6b288f7219f9e9d0630125fbdaab19e95fc6f666733f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ebdc54a4ea3d273a5db8c45c5de87bbd73f32a2854d94d5aee6e05d1290f2d7f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ebdc54a4ea3d273a5db8c45c5de87bbd73f32a2854d94d5aee6e05d1290f2d7f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ebdc54a4ea3d273a5db8c45c5de87bbd73f32a2854d94d5aee6e05d1290f2d7f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6b2eef77d42f2f852c7ca97eb9a13e0197810cba25afcd2cd5cdf38da45bf4d2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6b2eef77d42f2f852c7ca97eb9a13e0197810cba25afcd2cd5cdf38da45bf4d2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "t": 132,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6b2eef77d42f2f852c7ca97eb9a13e0197810cba25afcd2cd5cdf38da45bf4d2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ce4cb2c15bdac96800ad209ec3edb299cfd973cc808cab8c976cca27ac2639d1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 70,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ce4cb2c15bdac96800ad209ec3edb299cfd973cc808cab8c976cca27ac2639d1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "t": 139,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ce4cb2c15bdac96800ad209ec3edb299cfd973cc808cab8c976cca27ac2639d1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5e736e56ade15ddc7dc24ea02e47ac2d64567206eadb966d129b32984a4f06f0",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5e736e56ade15ddc7dc24ea02e47ac2d64567206eadb966d129b32984a4f06f0",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5e736e56ade15ddc7dc24ea02e47ac2d64567206eadb966d129b32984a4f06f0",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "083ba1136a6a6a908ed1a12981165cb8210e3f174684c73e439e06234cb77186",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "083ba1136a6a6a908ed1a12981165cb8210e3f174684c73e439e06234cb77186",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "083ba1136a6a6a908ed1a12981165cb8210e3f174684c73e439e06234cb77186",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "07d20c3c0575d914265aaafd40379bae70cae533eb4297a6049b40d7336f0f64",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "07d20c3c0575d914265aaafd40379bae70cae533eb4297a6049b40d7336f0f64",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "07d20c3c0575d914265aaafd40379bae70cae533eb4297a6049b40d7336f0f64",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cf98b2286a73f926c9abacfd1a6b6afa029daa5b0ef190df035b1535e2940649",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 63,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cf98b2286a73f926c9abacfd1a6b6afa029daa5b0ef190df035b1535e2940649",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "t": 126,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cf98b2286a73f926c9abacfd1a6b6afa029daa5b0ef190df035b1535e2940649",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6d5fc8e768c7a9ee869fe75a8de681fc4c3ca005b12d09a7bc4e913fcdfaac55",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6d5fc8e768c7a9ee869fe75a8de681fc4c3ca005b12d09a7bc4e913fcdfaac55",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "t": 127,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6d5fc8e768c7a9ee869fe75a8de681fc4c3ca005b12d09a7bc4e913fcdfaac55",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ae66ff37e6de4c8cc9e2d9cc6ba3ac25a92f64c6746eb1edaa52f39b535a3bca",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ae66ff37e6de4c8cc9e2d9cc6ba3ac25a92f64c6746eb1edaa52f39b535a3bca",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ae66ff37e6de4c8cc9e2d9cc6ba3ac25a92f64c6746eb1edaa52f39b535a3bca",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c17a5a41121990994d29b56c644c6e0352e8b2b4444275e7a33638531ff8eff7",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 68,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c17a5a41121990994d29b56c644c6e0352e8b2b4444275e7a33638531ff8eff7",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "t": 136,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c17a5a41121990994d29b56c644c6e0352e8b2b4444275e7a33638531ff8eff7",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ff210f6a41da47f78acd40bce29d7a453489f3470fd0388726c38e4c731504fe",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ff210f6a41da47f78acd40bce29d7a453489f3470fd0388726c38e4c731504fe",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ff210f6a41da47f78acd40bce29d7a453489f3470fd0388726c38e4c731504fe",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5c84172bee84fa1976cc8d5ca7ae23255de8d31ce4efef6d70027e8feefe46e3",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5c84172bee84fa1976cc8d5ca7ae23255de8d31ce4efef6d70027e8feefe46e3",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5c84172bee84fa1976cc8d5ca7ae23255de8d31ce4efef6d70027e8feefe46e3",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "1fd41e322ad00babd48de921c3514466fb5c8bec5c4e9d81ed55bececdf6fd8f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 61,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "1fd41e322ad00babd48de921c3514466fb5c8bec5c4e9d81ed55bececdf6fd8f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "t": 121,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "1fd41e322ad00babd48de921c3514466fb5c8bec5c4e9d81ed55bececdf6fd8f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "311a30849a874cb7dc7e33428efc3b9ec0875a38280d193797b4bb03e70618c8",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "311a30849a874cb7dc7e33428efc3b9ec0875a38280d193797b4bb03e70618c8",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "311a30849a874cb7dc7e33428efc3b9ec0875a38280d193797b4bb03e70618c8",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6fc55c16137a1d7cf56242565682a1a0e68b11a725eb20243ce3b335de3b0f4d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6fc55c16137a1d7cf56242565682a1a0e68b11a725eb20243ce3b335de3b0f4d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6fc55c16137a1d7cf56242565682a1a0e68b11a725eb20243ce3b335de3b0f4d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0fa777e709063bfe1f253ba542e46cc5473e3c93d346c7d977f537b4e0748fb2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0fa777e709063bfe1f253ba542e46cc5473e3c93d346c7d977f537b4e0748fb2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0fa777e709063bfe1f253ba542e46cc5473e3c93d346c7d977f537b4e0748fb2",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7c9cd7ac483722beb916e1ab8aeeffaab37268084bf80435d5b4fe12801886eb",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7c9cd7ac483722beb916e1ab8aeeffaab37268084bf80435d5b4fe12801886eb",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7c9cd7ac483722beb916e1ab8aeeffaab37268084bf80435d5b4fe12801886eb",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "73fe10c7e3b37fdceb650d5368a4e16aaf39aa66bf1f44b2a28f11725c5c0782",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "73fe10c7e3b37fdceb650d5368a4e16aaf39aa66bf1f44b2a28f11725c5c0782",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "73fe10c7e3b37fdceb650d5368a4e16aaf39aa66bf1f44b2a28f11725c5c0782",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cedcf462eae4f627ee88d847a57933f9ded0b6463b499c108992f1a86603a6f9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cedcf462eae4f627ee88d847a57933f9ded0b6463b499c108992f1a86603a6f9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cedcf462eae4f627ee88d847a57933f9ded0b6463b499c108992f1a86603a6f9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f8ad9381cdfbccb15770269f86ca13ee57e0d40d1fca61c908fa4a50207e7d08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f8ad9381cdfbccb15770269f86ca13ee57e0d40d1fca61c908fa4a50207e7d08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f8ad9381cdfbccb15770269f86ca13ee57e0d40d1fca61c908fa4a50207e7d08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "72c3728a40e2fa2bd80a11498f1910684464c7feb75ddeb8fd5e77bbcfa228b5",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "72c3728a40e2fa2bd80a11498f1910684464c7feb75ddeb8fd5e77bbcfa228b5",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "72c3728a40e2fa2bd80a11498f1910684464c7feb75ddeb8fd5e77bbcfa228b5",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "3caeb330e509cc2011cdc2bd9306e78866e46f58a0c1a7ff9e0f3d2dfc903d53",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 56,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "3caeb330e509cc2011cdc2bd9306e78866e46f58a0c1a7ff9e0f3d2dfc903d53",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "t": 111,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "3caeb330e509cc2011cdc2bd9306e78866e46f58a0c1a7ff9e0f3d2dfc903d53",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "10512d8a98712577907259a92d6a9842cc6f52c0a9d0ce4559105449b2786ce9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 73,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "10512d8a98712577907259a92d6a9842cc6f52c0a9d0ce4559105449b2786ce9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "t": 146,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "10512d8a98712577907259a92d6a9842cc6f52c0a9d0ce4559105449b2786ce9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d3da18f6ad2a4dba5d07a31fd108b9eb0bfb61d978272c0ee5861cef795f6af1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 91,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d3da18f6ad2a4dba5d07a31fd108b9eb0bfb61d978272c0ee5861cef795f6af1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "t": 182,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d3da18f6ad2a4dba5d07a31fd108b9eb0bfb61d978272c0ee5861cef795f6af1",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "abb67ef0272bc7a86993fe60207d84a984963d52ca39b58c8b38178e2b2dc66a",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "abb67ef0272bc7a86993fe60207d84a984963d52ca39b58c8b38178e2b2dc66a",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "abb67ef0272bc7a86993fe60207d84a984963d52ca39b58c8b38178e2b2dc66a",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7034564efe969ef89f6890fc12bf337e04304d18d2d2cfe49181b4d600ecdd70",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7034564efe969ef89f6890fc12bf337e04304d18d2d2cfe49181b4d600ecdd70",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7034564efe969ef89f6890fc12bf337e04304d18d2d2cfe49181b4d600ecdd70",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e03ef2abc0acf5acd974d8c15bdd6f179a350ed0690a58a55b6fb67d3a8ec0dc",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e03ef2abc0acf5acd974d8c15bdd6f179a350ed0690a58a55b6fb67d3a8ec0dc",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "t": 132,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e03ef2abc0acf5acd974d8c15bdd6f179a350ed0690a58a55b6fb67d3a8ec0dc",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d099f16a7f46ed7c7976a370be1314cf0aa9a3fb1b322fc2f2df943a7873afde",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 70,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d099f16a7f46ed7c7976a370be1314cf0aa9a3fb1b322fc2f2df943a7873afde",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "t": 139,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d099f16a7f46ed7c7976a370be1314cf0aa9a3fb1b322fc2f2df943a7873afde",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "90470bec9d6a0dca09b91ec6f7c6b96f1fbb807ca64a6557cf8adf2c680f2ece",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "90470bec9d6a0dca09b91ec6f7c6b96f1fbb807ca64a6557cf8adf2c680f2ece",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "90470bec9d6a0dca09b91ec6f7c6b96f1fbb807ca64a6557cf8adf2c680f2ece",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0f47623ea47c1f07f6a764d31ec95e6ca5f85fec141ac6240f38bb4a3f9d8841",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0f47623ea47c1f07f6a764d31ec95e6ca5f85fec141ac6240f38bb4a3f9d8841",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "0f47623ea47c1f07f6a764d31ec95e6ca5f85fec141ac6240f38bb4a3f9d8841",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "719c4c7f7b763f3977a82b5f9c0a2d0220c62cd427309d60f66040579bfad72b",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "719c4c7f7b763f3977a82b5f9c0a2d0220c62cd427309d60f66040579bfad72b",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "719c4c7f7b763f3977a82b5f9c0a2d0220c62cd427309d60f66040579bfad72b",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5249c4a183aaa982cbcf6c290198df7b35eacaf6cbe4e34e2d81441a3b21914d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 63,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5249c4a183aaa982cbcf6c290198df7b35eacaf6cbe4e34e2d81441a3b21914d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "t": 126,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "5249c4a183aaa982cbcf6c290198df7b35eacaf6cbe4e34e2d81441a3b21914d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c96712d186fb883d4f2fdec39ce5491d5254b01051e34d378fe0d7928df4f71d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c96712d186fb883d4f2fdec39ce5491d5254b01051e34d378fe0d7928df4f71d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "t": 127,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c96712d186fb883d4f2fdec39ce5491d5254b01051e34d378fe0d7928df4f71d",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e17c847f4f192b12f155d6fdc2c3b04f1bfe623bf51a6e97e45dae435ce23f86",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e17c847f4f192b12f155d6fdc2c3b04f1bfe623bf51a6e97e45dae435ce23f86",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e17c847f4f192b12f155d6fdc2c3b04f1bfe623bf51a6e97e45dae435ce23f86",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f41b57698a3a94d50a7ba02e5e618298a2289964c2fd7f6d136186742435372c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 68,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f41b57698a3a94d50a7ba02e5e618298a2289964c2fd7f6d136186742435372c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "t": 136,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "f41b57698a3a94d50a7ba02e5e618298a2289964c2fd7f6d136186742435372c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "8afa54663264aaaa239006c58c97eb23ad50ca35e9f6951c44bd6aedfa36f551",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 58,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "8afa54663264aaaa239006c58c97eb23ad50ca35e9f6951c44bd6aedfa36f551",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "t": 115,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "8afa54663264aaaa239006c58c97eb23ad50ca35e9f6951c44bd6aedfa36f551",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cb1c179149c89240eb9c9249806f3cc30fea847c78bbeb327c984bb174d7bd01",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cb1c179149c89240eb9c9249806f3cc30fea847c78bbeb327c984bb174d7bd01",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "cb1c179149c89240eb9c9249806f3cc30fea847c78bbeb327c984bb174d7bd01",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "04fbb25dae2eb9bb20138a8540684e5bc3097ec0c0d055d7be141bbcca702594",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 61,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "04fbb25dae2eb9bb20138a8540684e5bc3097ec0c0d055d7be141bbcca702594",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "t": 121,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "04fbb25dae2eb9bb20138a8540684e5bc3097ec0c0d055d7be141bbcca702594",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c372895321ad16de663214134ec4d5b7b95893e31a96c3a4e41ff61aeb97cc66",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c372895321ad16de663214134ec4d5b7b95893e31a96c3a4e41ff61aeb97cc66",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "c372895321ad16de663214134ec4d5b7b95893e31a96c3a4e41ff61aeb97cc66",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ada920b6aaa3f78399c5cca7233a726e23cc1950a8a006d38058047d2e7263d9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 65,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ada920b6aaa3f78399c5cca7233a726e23cc1950a8a006d38058047d2e7263d9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "t": 129,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ada920b6aaa3f78399c5cca7233a726e23cc1950a8a006d38058047d2e7263d9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d8fdbe8f84c12e63b4cd73f4296462490e265138b539ce1157d28475c1f326df",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d8fdbe8f84c12e63b4cd73f4296462490e265138b539ce1157d28475c1f326df",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "d8fdbe8f84c12e63b4cd73f4296462490e265138b539ce1157d28475c1f326df",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "b4bee273d381a51dd2f8096cc3d16ed7e2403e5a1b0c4208aaa0b8a5949b6e08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 66,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "b4bee273d381a51dd2f8096cc3d16ed7e2403e5a1b0c4208aaa0b8a5949b6e08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "t": 131,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "b4bee273d381a51dd2f8096cc3d16ed7e2403e5a1b0c4208aaa0b8a5949b6e08",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "313d965c1c3086beb5d408be9b07b2ebd19be14da747a8cc7b30ae19e870b31c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 60,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "313d965c1c3086beb5d408be9b07b2ebd19be14da747a8cc7b30ae19e870b31c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "t": 119,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "313d965c1c3086beb5d408be9b07b2ebd19be14da747a8cc7b30ae19e870b31c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "fba670ff304c8188d7afd3a975172a423ab088a705d10186d4cb59c6e8ef3c03",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 64,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "fba670ff304c8188d7afd3a975172a423ab088a705d10186d4cb59c6e8ef3c03",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "t": 128,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "fba670ff304c8188d7afd3a975172a423ab088a705d10186d4cb59c6e8ef3c03",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "bfc19bb8e35e46d903cbcd7f1b7ae736ce8108d6068445c0162ae4cb3061b7a9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 62,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "bfc19bb8e35e46d903cbcd7f1b7ae736ce8108d6068445c0162ae4cb3061b7a9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "t": 124,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "bfc19bb8e35e46d903cbcd7f1b7ae736ce8108d6068445c0162ae4cb3061b7a9",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "21048c7fea65c9750023bf76989b5ab8ba62b5825008728d0005251b60d5ad4c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 67,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "21048c7fea65c9750023bf76989b5ab8ba62b5825008728d0005251b60d5ad4c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "t": 133,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "21048c7fea65c9750023bf76989b5ab8ba62b5825008728d0005251b60d5ad4c",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 0,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ad67733fdde7c995b9a1b436824738392df9f47678ad88b69a41f693c236593f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 56,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ad67733fdde7c995b9a1b436824738392df9f47678ad88b69a41f693c236593f",
+      "exact_reader": true
+    },
+    {
+      "method": "D-center",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "t": 111,
+      "shape": [
+        8,
+        1024
+      ],
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ad67733fdde7c995b9a1b436824738392df9f47678ad88b69a41f693c236593f",
+      "exact_reader": true
+    }
+  ],
+  "AE_updates": 0,
+  "new_sidecars": 0,
+  "own_C_D_centers": true,
+  "shared_historical_scale": true,
+  "normalization_source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+  "future_targets_not_policy_inputs": true
+}

@@ -1,0 +1,9 @@
+{
+  "C": [
+    "C/formal"
+  ],
+  "D-center": [
+    "D-center/formal",
+    "D-center/recovery_gpu0_s0100"
+  ]
+}

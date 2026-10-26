@@ -1,0 +1,237 @@
+{
+  "draws": 20000,
+  "resampling_unit": "physical state, all appearances jointly; per seed separately",
+  "individual_seed_statistics": [
+    {
+      "policy_seed": 20261023,
+      "appearance": "clean",
+      "D_minus_C": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "D_wins": 0,
+      "C_wins": 20
+    },
+    {
+      "policy_seed": 20261023,
+      "appearance": "seen_background",
+      "D_minus_C": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "D_wins": 0,
+      "C_wins": 19
+    },
+    {
+      "policy_seed": 20261023,
+      "appearance": "unseen_background",
+      "D_minus_C": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "D_wins": 0,
+      "C_wins": 20
+    },
+    {
+      "policy_seed": 20261023,
+      "appearance": "equal_appearance_mean",
+      "D_minus_C": -0.9833333333333332,
+      "CI95": [
+        -1.0,
+        -0.95
+      ]
+    },
+    {
+      "policy_seed": 20261023,
+      "appearance": "seen_interaction",
+      "D_minus_C": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "policy_seed": 20261023,
+      "appearance": "unseen_interaction",
+      "D_minus_C": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "clean",
+      "D_minus_C": 0.2,
+      "CI95": [
+        0.0,
+        0.45
+      ],
+      "D_wins": 5,
+      "C_wins": 1
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "seen_background",
+      "D_minus_C": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ],
+      "D_wins": 1,
+      "C_wins": 1
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "unseen_background",
+      "D_minus_C": 0.15,
+      "CI95": [
+        0.0,
+        0.3
+      ],
+      "D_wins": 3,
+      "C_wins": 0
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "equal_appearance_mean",
+      "D_minus_C": 0.11666666666666665,
+      "CI95": [
+        0.016666666666666666,
+        0.23333333333333334
+      ]
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "seen_interaction",
+      "D_minus_C": -0.2,
+      "CI95": [
+        -0.45,
+        0.0
+      ]
+    },
+    {
+      "policy_seed": 20261029,
+      "appearance": "unseen_interaction",
+      "D_minus_C": -0.05,
+      "CI95": [
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "clean",
+      "D_minus_C": -0.5,
+      "CI95": [
+        -0.7,
+        -0.3
+      ],
+      "D_wins": 0,
+      "C_wins": 10
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "seen_background",
+      "D_minus_C": -0.5,
+      "CI95": [
+        -0.7,
+        -0.3
+      ],
+      "D_wins": 0,
+      "C_wins": 10
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "unseen_background",
+      "D_minus_C": -0.6,
+      "CI95": [
+        -0.8,
+        -0.4
+      ],
+      "D_wins": 0,
+      "C_wins": 12
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "equal_appearance_mean",
+      "D_minus_C": -0.5333333333333334,
+      "CI95": [
+        -0.7,
+        -0.36666666666666664
+      ]
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "seen_interaction",
+      "D_minus_C": 0.0,
+      "CI95": [
+        -0.25,
+        0.25
+      ]
+    },
+    {
+      "policy_seed": 20261030,
+      "appearance": "unseen_interaction",
+      "D_minus_C": -0.1,
+      "CI95": [
+        -0.35,
+        0.15
+      ]
+    }
+  ],
+  "conditional_three_seed_summary": {
+    "mean_D_minus_C": -0.4666666666666667,
+    "conditional_state_cluster_CI95": [
+      -0.5222222222222223,
+      -0.4111111111111111
+    ],
+    "seed_effects": [
+      {
+        "policy_seed": 20261023,
+        "C": 0.9833333333333333,
+        "D_center": 0.0,
+        "D_minus_C": -0.9833333333333333
+      },
+      {
+        "policy_seed": 20261029,
+        "C": 0.06666666666666667,
+        "D_center": 0.18333333333333332,
+        "D_minus_C": 0.11666666666666667
+      },
+      {
+        "policy_seed": 20261030,
+        "C": 0.5666666666666667,
+        "D_center": 0.03333333333333333,
+        "D_minus_C": -0.5333333333333333
+      }
+    ],
+    "method_seed_variability": {
+      "C": {
+        "seed_values": [
+          0.9833333333333333,
+          0.06666666666666667,
+          0.5666666666666667
+        ],
+        "range": 0.9166666666666666,
+        "sample_SD": 0.4589642122738418
+      },
+      "D_center": {
+        "seed_values": [
+          0.0,
+          0.18333333333333332,
+          0.03333333333333333
+        ],
+        "range": 0.18333333333333332,
+        "sample_SD": 0.09765775461803858
+      }
+    },
+    "mean_absolute_within_seed_gap": 0.5444444444444444,
+    "interpretation": "CI conditions on these three training runs, not uncertainty over training seeds. Only three seeds; report individual runs, no precise random-seed population inference."
+  },
+  "no_independent_test": true,
+  "AE_seed_variability_not_tested": true
+}

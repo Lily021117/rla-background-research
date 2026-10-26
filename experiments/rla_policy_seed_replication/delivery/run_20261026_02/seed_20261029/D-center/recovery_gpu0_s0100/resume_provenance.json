@@ -1,0 +1,7 @@
+{
+  "source": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal/step0100.pt",
+  "restored_step": 100,
+  "model_optimizer_scheduler_RNG_sampler_restored": true,
+  "AMP_scaler": null,
+  "bfloat16": true
+}

@@ -1,0 +1,47 @@
+{
+  "frozen": true,
+  "seeds": [
+    20261029,
+    20261030
+  ],
+  "historical_seed": 20261023,
+  "initialization_scope": "all_random_modules_new_seed",
+  "methods": [
+    "C",
+    "D-center"
+  ],
+  "AE_updates": 0,
+  "policy_updates_per_arm": 600,
+  "total_policy_updates": 2400,
+  "valid_rollouts": 240,
+  "task": "stove",
+  "train_episodes": 20,
+  "development_episodes": 5,
+  "physical_development_states": 20,
+  "appearances": [
+    "clean",
+    "seen_background",
+    "unseen_background"
+  ],
+  "AE_source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run",
+  "normalization_source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+  "lambda_aux": 0.22408536585365854,
+  "LR": 0.0002,
+  "scheduler": "MultiStepLR[600] gamma0.1 AFTER optimizer; all600 updates2e-4",
+  "seed_order": [
+    20261029,
+    20261030
+  ],
+  "arm_order": [
+    "C",
+    "D-center"
+  ],
+  "sampling": "matched within seed, distinct between seeds",
+  "init_mode_confirmed_before_updates": true,
+  "sealed_reads": 0,
+  "keep": false,
+  "teacher": false,
+  "automatic_extra_runs": false,
+  "source_commit": "ec0d61781b98ab65bbde201cdd8da4f714856429",
+  "historical_comparison_limits": "fixed AE and reused development; only three policy seeds; initialization scope explicitly reported"
+}

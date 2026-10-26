@@ -1,0 +1,15 @@
+{
+  "arm": "D-center",
+  "microbatch": 8,
+  "accumulation": 2,
+  "effective_appearance_batch": 16,
+  "checkpointing": true,
+  "backend": {
+    "math": true,
+    "flash": false,
+    "efficient": false
+  },
+  "lambda_aux": 0.22408536585365854,
+  "RLA_auxiliary_enabled": true,
+  "policy_updates": 600
+}

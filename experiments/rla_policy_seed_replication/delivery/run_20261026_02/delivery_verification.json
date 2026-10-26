@@ -1,0 +1,1049 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD",
+  "policy_successful_updates": 2400,
+  "actual_update_computations": 2606,
+  "replayed_updates": 206,
+  "failed_backward_attempts": 1,
+  "AE_updates": 0,
+  "teacher_updates": 0,
+  "valid_new_rollouts": 240,
+  "actual_new_attempts": 240,
+  "invalid_new_rollouts": 0,
+  "retries": 0,
+  "sealed_reads": 0,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecar_provenance.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecar_alignment_audit.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/ep_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/mask_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/ep_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/mask_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/ep_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/mask_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000000.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000001.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000002.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000003.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000004.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000005.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000006.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000007.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000008.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000009.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000010.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000011.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000012.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000013.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000014.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000015.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000016.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000017.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000018.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000019.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000020.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000021.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000022.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000023.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/ep_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/mask_000024.npy",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/clean/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/C/background/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/clean/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/stats.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/raw_target_statistics.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/sidecars/D/background/libero_spatial/keys.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/resolved_prismatic_initialization.pt",
+      "unchanged": true
+    }
+  ],
+  "training_acceptances": [
+    {
+      "seed": 20261029,
+      "method": "C",
+      "attempts": [
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/C/formal"
+      ],
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 2987.7351903915405,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    },
+    {
+      "seed": 20261029,
+      "method": "D-center",
+      "attempts": [
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal",
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/recovery_gpu0_s0100"
+      ],
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 3255.029871225357,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    },
+    {
+      "seed": 20261030,
+      "method": "C",
+      "attempts": [
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/formal",
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/recovery_gpu0_s0300"
+      ],
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 1837.667495727539,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    },
+    {
+      "seed": 20261030,
+      "method": "D-center",
+      "attempts": [
+        "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/D-center/formal"
+      ],
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "strict_reload": true,
+      "seconds": 4090.8471167087555,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false
+    }
+  ],
+  "scope": "all_random_modules_new_seed",
+  "migrations": [
+    {
+      "seed": 20261029,
+      "method": "D-center",
+      "resume": {
+        "source": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal/step0100.pt",
+        "restored_step": 100,
+        "model_optimizer_scheduler_RNG_sampler_restored": true,
+        "AMP_scaler": null,
+        "bfloat16": true
+      },
+      "repeated_validation_rows": 61,
+      "max_cross_device_fixed_validation_metric_delta": 0.0,
+      "effective_updates": 600,
+      "actual_update_computations": 600,
+      "replayed_updates": 0
+    },
+    {
+      "seed": 20261030,
+      "method": "C",
+      "resume": {
+        "source": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/formal/step0300.pt",
+        "restored_step": 300,
+        "model_optimizer_scheduler_RNG_sampler_restored": true,
+        "AMP_scaler": null,
+        "bfloat16": true
+      },
+      "repeated_validation_rows": 1406,
+      "max_cross_device_fixed_validation_metric_delta": 0.0,
+      "effective_updates": 600,
+      "actual_update_computations": 806,
+      "replayed_updates": 206
+    }
+  ],
+  "hardware_recovery": {
+    "reason": "GPU1 new uncorrectable SRAM parity/SM increment; cuBLAS backward failure",
+    "GPU1_before": {
+      "volatile_parity": 0,
+      "aggregate_parity": 1,
+      "aggregate_SM": 1
+    },
+    "GPU1_after": {
+      "volatile_parity": 1,
+      "aggregate_parity": 2,
+      "aggregate_SM": 2
+    },
+    "GPU1_disabled_for_remaining_task": true,
+    "GPU0_ECC_unchanged": true,
+    "user_authorized_GPU0_serial": true,
+    "failed_backward_attempts": 1,
+    "unpersisted_successful_updates_to_replay": 206,
+    "interrupted_GPU1_migration_optimizer_updates": 0,
+    "restores": [
+      {
+        "seed": 20261029,
+        "method": "D-center",
+        "checkpoint": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/D-center/formal/step0100.pt",
+        "sha256": "ee41026b1e33e713706bac6c512748ce82fb9315d024b37010effb73efb0c454",
+        "restored_step": 100,
+        "last_recorded_successful_update": 100,
+        "replayed_updates": 0,
+        "full_state_verified": true
+      },
+      {
+        "seed": 20261030,
+        "method": "C",
+        "checkpoint": "${PROJECT_ROOT}/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261030/C/formal/step0300.pt",
+        "sha256": "a5bd1a2c7a19cc2cae23b475e7b90fb12a1884caf08f2f8d6050637faf4f71e4",
+        "restored_step": 300,
+        "last_recorded_successful_update": 506,
+        "replayed_updates": 206,
+        "full_state_verified": true
+      }
+    ]
+  },
+  "no_automatic_extension": true
+}
