@@ -1,0 +1,10 @@
+{
+ "arm":"C_m0p1",
+ "steps":[401,416],
+ "replayed_successful_updates":16,
+ "comparison":"original logged values versus full-state resumed values, every step401 through416",
+ "maximum_absolute_difference":{"action_loss":0.0,"auxiliary_loss":0.0,"total_loss":0.0,"gradient_vla":0.0,"gradient_head":0.0,"gradient_proprio":0.0,"lr":0.0},
+ "scope":"logged scalar losses and module gradient norms; not a claim of all intermediate tensors being hashed",
+ "source_original":"../results/C_m0p1/formal/training_metrics.csv",
+ "source_replay":"C_m0p1/formal_retry1/training_metrics.csv"
+}

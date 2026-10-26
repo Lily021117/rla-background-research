@@ -1,0 +1,7 @@
+model,appearance,successes,trials
+historical_C,clean,20,20
+historical_C,seen_background,19,20
+historical_C,unseen_background,20,20
+historical_D-center,clean,0,20
+historical_D-center,seen_background,0,20
+historical_D-center,unseen_background,0,20

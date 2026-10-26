@@ -1,0 +1,1 @@
+{"failure":"source configuration read passed str instead of Path","arm":"C_m0p1","attempt":"formal","optimizer_updates":0,"backward_calls":0,"recovery_state_loaded":false,"retained_log":"C_m0p1_formal.log","fix":"Path conversion only; retry in formal_retry1 from same full400 checkpoint","hyperparameters_changed":false}

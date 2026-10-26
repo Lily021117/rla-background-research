@@ -1,0 +1,3 @@
+model,step,path,sha256,bytes,optimizer_states
+C_m0p1,600,${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/C_m0p1/formal_retry1/step0600.pt,2a3b764815ed826d44a4f059ba8e71cfcc618a9af6e177552911d3c204e3f4a1,1730065840,1283
+D-center_m0p1,600,${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/D-center_m0p1/formal_gpu0_retry2/step0600.pt,7549552320534d148eab4bd517bc690a1c534f82809d96757e436170d1ca98b0,1730065904,1283

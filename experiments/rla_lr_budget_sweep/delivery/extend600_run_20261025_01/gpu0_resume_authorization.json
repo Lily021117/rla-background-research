@@ -1,0 +1,19 @@
+{
+  "authorized_by_user": true,
+  "check_timestamp_utc": "2026-10-25T15:24:48Z",
+  "check_timestamp_Asia_Shanghai": "2026-10-25T23:24:48+08:00",
+  "GPU_UUID": "${GPU_UUID}",
+  "free_MiB_before_launch": 36940,
+  "startup_guard_MiB": 26624,
+  "volatile_correctable_sram": 1,
+  "aggregate_correctable_sram": 6,
+  "uncorrectable_ecc": 0,
+  "threshold_exceeded": false,
+  "D_attempt": "formal_gpu0_retry1",
+  "D_resume_step": 200,
+  "D_target_step": 600,
+  "C_retrained": false,
+  "changes": ["Authorized physical device switch from GPU1 to GPU0", "New attempt and registry paths preserving failed attempt"],
+  "unchanged": ["model", "batch", "dtype", "Math SDPA", "optimizer", "scheduler1200", "RNG restoration", "data order", "losses", "target normalization"],
+  "other_processes_modified": false
+}

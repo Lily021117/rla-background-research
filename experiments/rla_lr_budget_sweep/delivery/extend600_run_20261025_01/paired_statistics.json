@@ -1,0 +1,190 @@
+{
+  "physical_state_clusters": 20,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261025,
+  "comparisons": [
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "seen_background",
+      "difference": -0.15,
+      "CI95": [
+        -0.35,
+        0.05
+      ],
+      "wins": 1,
+      "losses": 4
+    },
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "unseen_background",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "equal_mean_state_clustered",
+      "difference": -0.08333333333333333,
+      "CI95": [
+        -0.15,
+        -0.03333333333333333
+      ]
+    },
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "seen_background_interaction_vs_clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.35,
+        0.2
+      ]
+    },
+    {
+      "comparison": "D-center_minus_C_lowLR600",
+      "appearance": "unseen_background_interaction_vs_clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "seen_background",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ],
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "unseen_background",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "equal_mean_state_clustered",
+      "difference": -0.3166666666666666,
+      "CI95": [
+        -0.3666666666666666,
+        -0.2666666666666666
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "seen_background_interaction_vs_clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_C",
+      "appearance": "unseen_background_interaction_vs_clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "clean",
+      "difference": 0.95,
+      "CI95": [
+        0.85,
+        1.0
+      ],
+      "wins": 19,
+      "losses": 0
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "seen_background",
+      "difference": 0.8,
+      "CI95": [
+        0.6,
+        0.95
+      ],
+      "wins": 16,
+      "losses": 0
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "unseen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "equal_mean_state_clustered",
+      "difference": 0.5833333333333334,
+      "CI95": [
+        0.5166666666666666,
+        0.6333333333333333
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "seen_background_interaction_vs_clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.35,
+        0.05
+      ]
+    },
+    {
+      "comparison": "new_minus_historical_D-center",
+      "appearance": "unseen_background_interaction_vs_clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ]
+    }
+  ],
+  "development_used_for_tuning": true,
+  "single_seed": true,
+  "no_independent_test_claim": true
+}

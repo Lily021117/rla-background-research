@@ -1,0 +1,390 @@
+{
+  "known_replay_count": 96,
+  "scalar_and_norm_comparisons": [
+    {
+      "step": 301,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 302,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 303,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 304,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 305,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 306,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 307,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 308,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 309,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 310,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 311,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 312,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 313,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 314,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 315,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 316,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 317,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 318,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 319,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 320,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 321,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 322,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 323,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 324,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 325,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 326,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 327,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 328,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 329,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 330,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 331,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 332,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 333,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 334,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 335,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 336,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 337,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 338,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 339,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 340,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 341,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 342,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 343,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 344,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 345,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 346,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 347,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 348,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 349,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 350,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 351,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 352,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 353,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 354,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 355,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 356,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 357,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 358,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 359,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 360,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 361,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 362,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 363,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 364,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 365,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 366,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 367,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 368,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 369,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 370,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 371,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 372,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 373,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 374,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 375,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 376,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 377,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 378,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 379,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 380,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 381,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 382,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 383,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 384,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 385,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 386,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 387,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 388,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 389,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 390,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 391,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 392,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 393,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 394,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 395,
+      "max_abs_difference": 0.0
+    },
+    {
+      "step": 396,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "bitwise_full_parameter_equivalence_not_inferred": true
+}

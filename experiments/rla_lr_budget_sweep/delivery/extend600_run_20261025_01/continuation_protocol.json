@@ -1,0 +1,18 @@
+{
+  "frozen": true,
+  "terminal_step": 600,
+  "scheduler_milestone": 1200,
+  "valid_rollouts": 120,
+  "actual_expected_updates": 600,
+  "expected_new_distinct_updates": 584,
+  "known_C_replay": 16,
+  "no_other_LR": true,
+  "no_AE_updates": true,
+  "no_teacher": true,
+  "no_additional_diagnostic_backward": true,
+  "sealed_reads": 0,
+  "previous_C_inflight417_unconfirmed": true,
+  "checkpoint_selection": "final600",
+  "invalid_rule": "stop, preserve logs; only identified infrastructure repairs may retry exact triplet, no task-failure retries",
+  "retries": "only documented infrastructure exact-triplet retries; task failure never retried"
+}

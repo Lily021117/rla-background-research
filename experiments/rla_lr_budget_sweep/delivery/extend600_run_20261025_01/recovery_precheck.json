@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "arms": [
+    {
+      "arm": "C_m0p1",
+      "available_checkpoints": [
+        0,
+        1,
+        100,
+        200,
+        300,
+        400
+      ],
+      "restored_keys": [
+        "parameters",
+        "optimizer",
+        "scheduler",
+        "global_step",
+        "next_physical_sample",
+        "configuration",
+        "arm",
+        "AMP_scaler",
+        "dtype",
+        "activation_checkpointing",
+        "torch_rng",
+        "cuda_rng",
+        "python_rng",
+        "numpy_rng"
+      ],
+      "optimizer_states": 1283,
+      "AMP": "BF16 no scaler, explicitly None",
+      "lr": 2e-05,
+      "sampling_position": 3200,
+      "checkpoint": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/C_m0p1/formal/step0400.pt",
+      "sha256": "03dc7804696a4016923aedcfbcc354168d4ffbcf0a866792e69a0ad86180003e",
+      "source_plan": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/run_plan.json",
+      "source_plan_sha256": "720a135b6be45a0d7e3947812bc43d4347f7b23576751946a894718a53536ea1",
+      "step": 400,
+      "logged_successful_updates": 416,
+      "known_replay": 16,
+      "expected_computed_updates": 200,
+      "expected_new_distinct_update_indices": 184
+    },
+    {
+      "arm": "D-center_m0p1",
+      "available_checkpoints": [
+        0,
+        1,
+        50,
+        100,
+        200
+      ],
+      "restored_keys": [
+        "parameters",
+        "optimizer",
+        "scheduler",
+        "global_step",
+        "next_physical_sample",
+        "configuration",
+        "arm",
+        "AMP_scaler",
+        "dtype",
+        "activation_checkpointing",
+        "torch_rng",
+        "cuda_rng",
+        "python_rng",
+        "numpy_rng"
+      ],
+      "optimizer_states": 1283,
+      "AMP": "BF16 no scaler, explicitly None",
+      "lr": 2e-05,
+      "sampling_position": 1600,
+      "checkpoint": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/D-center_m0p1/formal/step0200.pt",
+      "sha256": "2aeea1fbaec435c76e66dd774f9bd7730ee8ba49be9d91e6653b68bfa0077c9e",
+      "source_plan": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/run_plan.json",
+      "source_plan_sha256": "e31fe2da69dcbd5b899082f2abd08ade2c3289d65e90d9b1acb4a65e18bc5190",
+      "step": 200,
+      "logged_successful_updates": 200,
+      "known_replay": 0,
+      "expected_computed_updates": 400,
+      "expected_new_distinct_update_indices": 400
+    }
+  ],
+  "missing_C416_full_state": true,
+  "weights_only_restart": false
+}

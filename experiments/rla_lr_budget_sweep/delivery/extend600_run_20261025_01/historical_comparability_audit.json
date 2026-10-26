@@ -1,0 +1,38 @@
+[
+  {
+    "model": "historical_C",
+    "checkpoint": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0600.pt",
+    "sha256": "87470f1a97daa913f377a5dc100d435b78ecc2f5d1a1521583630bd9a3d56325",
+    "source_config_sha256": "e0e1877dc4e7a597303fa826b0eaef960a309e5bd08b21df1a85f7b654443c4a",
+    "same_state_XML_seed_language": true,
+    "same_data_normalization_initialization_seed": true,
+    "sampling_first4800_equal": true,
+    "original_LRs_first600": [
+      0.0002
+    ],
+    "new_LR_first600": 2e-05,
+    "original_scheduler": "milestone600 after final update",
+    "new_scheduler": "milestone1200",
+    "same_first600_actual_LR": false,
+    "source_implementation_identical": false,
+    "limitations": "historical implementation uses prior entry; current uses accepted Interface; no bitwise end-to-end reproduction asserted; C continuation has16 known replayed computations"
+  },
+  {
+    "model": "historical_D-center",
+    "checkpoint": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/D-center/isolated_smoke/step0600.pt",
+    "sha256": "cd3ead725cfee52d54717726e71dcdb86ca3975bd9db0db4575243898d41a609",
+    "source_config_sha256": "c6447eb18840533aeaebe03f484d6d8a346e4e38071af294b3be69013c69f586",
+    "same_state_XML_seed_language": true,
+    "same_data_normalization_initialization_seed": true,
+    "sampling_first4800_equal": true,
+    "original_LRs_first600": [
+      0.0002
+    ],
+    "new_LR_first600": 2e-05,
+    "original_scheduler": "milestone600 after final update",
+    "new_scheduler": "milestone1200",
+    "same_first600_actual_LR": false,
+    "source_implementation_identical": false,
+    "limitations": "historical implementation uses prior entry; current uses accepted Interface; no bitwise end-to-end reproduction asserted; C continuation has16 known replayed computations"
+  }
+]

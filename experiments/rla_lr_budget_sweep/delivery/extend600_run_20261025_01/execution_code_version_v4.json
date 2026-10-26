@@ -1,0 +1,15 @@
+{
+ "commit":"1e6cc1aa3a50dcd9dd5fc937b6c8c842dceaa5b8",
+ "branch":"experiments/rla-lr-budget-sweep",
+ "timestamp_Asia_Shanghai":"2026-10-26T10:29:00+08:00",
+ "device":"${GPU_UUID}",
+ "free_MiB_prelaunch":81066,
+ "ECC_baseline":{"volatile_correctable":0,"volatile_uncorrectable":0,"aggregate_correctable":6,"aggregate_uncorrectable":0,"threshold_exceeded":false},
+ "device_query_responds":true,
+ "old_processes_absent":true,
+ "hardware_repair_not_inferred":true,
+ "resume_step":300,
+ "known_replay_count":96,
+ "files":{"extend_training.py":"99078abac1da63958c1483466418ee16ee605c641839500265ea8f25e0677290","extend_evaluation.py":"b5a8ac9736169ee2b80d9dad413fd90d4445ceecf70e63eaa6b222332e23822e","bootstrap.py":"2c32c963f2246e01f4c7dcfdb594b0df09036b591b073c24e8f0e69609d4e873"},
+ "change":"Explicit override to full saved D300 checkpoint; original frozen run_plan unchanged; no training hyperparameter, model or evaluation changes"
+}

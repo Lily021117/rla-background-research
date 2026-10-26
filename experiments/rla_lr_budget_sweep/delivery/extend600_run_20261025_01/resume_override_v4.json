@@ -1,0 +1,9 @@
+{
+ "D-center_m0p1": {
+  "checkpoint":"${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/D-center_m0p1/formal_gpu0_retry1/step0300.pt",
+  "source_plan":"${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/run_plan.json",
+  "step":300,
+  "known_logged_replay_steps":[301,396],
+  "known_replay_count":96
+ }
+}

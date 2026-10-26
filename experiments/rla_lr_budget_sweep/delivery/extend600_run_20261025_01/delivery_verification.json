@@ -1,0 +1,256 @@
+{
+  "status": "PASS_EXECUTION_NOT_METHOD",
+  "effective_final_updates": {
+    "C_m0p1": 600,
+    "D-center_m0p1": 600
+  },
+  "new_computed_successful_updates": 696,
+  "new_distinct_updates": 584,
+  "known_replayed_updates": 112,
+  "C_replay": 16,
+  "D_replay": 96,
+  "unconfirmed_historical_inflight417": true,
+  "unconfirmed_D_inflight397": true,
+  "training": [
+    {
+      "model": "C_m0p1",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 0,
+      "restored_step": 400,
+      "actual_computed_updates": 200,
+      "strict_reload": true,
+      "seconds": 951.6753749847412,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    },
+    {
+      "model": "D-center_m0p1",
+      "status": "PASS_TRAINING_NOT_METHOD",
+      "successful_updates": 600,
+      "parent_C_updates": 0,
+      "restored_step": 300,
+      "actual_computed_updates": 300,
+      "strict_reload": true,
+      "seconds": 657.3273186683655,
+      "peak_allocated": 20397878784,
+      "physical_exposures": 4800,
+      "appearance_exposures": 9600,
+      "ECC_increment": false,
+      "teacher_updates": 0,
+      "AE_updates": 0
+    }
+  ],
+  "recovery": [
+    {
+      "source": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/C_m0p1/formal/step0400.pt",
+      "restored_step": 400,
+      "restored": [
+        "model",
+        "optimizer",
+        "scheduler",
+        "RNG",
+        "sampling_position",
+        "successful_update_count"
+      ],
+      "AMP_scaler": null
+    },
+    {
+      "source": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/D-center_m0p1/formal_gpu0_retry1/step0300.pt",
+      "restored_step": 300,
+      "restored": [
+        "model",
+        "optimizer",
+        "scheduler",
+        "RNG",
+        "sampling_position",
+        "successful_update_count"
+      ],
+      "AMP_scaler": null
+    }
+  ],
+  "valid_rollouts": 120,
+  "invalid_rollouts": 0,
+  "actual_rollout_attempts": 120,
+  "additional_diagnostic_backward": 0,
+  "AE_updates": 0,
+  "teacher_updates": 0,
+  "sealed_reads": 0,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/report.md",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/fixed_sample_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/evaluation_protocol.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/C_m0p1/formal/step0400.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/D-center_m0p1/formal/step0200.pt",
+      "unchanged": true
+    }
+  ],
+  "preupdate_incident": {
+    "failure": "source configuration read passed str instead of Path",
+    "arm": "C_m0p1",
+    "attempt": "formal",
+    "optimizer_updates": 0,
+    "backward_calls": 0,
+    "recovery_state_loaded": false,
+    "retained_log": "C_m0p1_formal.log",
+    "fix": "Path conversion only; retry in formal_retry1 from same full400 checkpoint",
+    "hyperparameters_changed": false
+  },
+  "cuda_incident": {
+    "arm": "D-center_m0p1",
+    "attempt": "formal",
+    "error": "RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",
+    "failed_update_index": 201,
+    "new_successful_optimizer_updates": 0,
+    "latest_complete_state": 200,
+    "backward_microbatch_index": "not recorded; failure during first update, one or two backward calls may have been attempted",
+    "new_diagnostic_backward": 0,
+    "log": "D-center_m0p1_formal.log",
+    "process_returncode": 1,
+    "GPU_UUID": "${GPU_UUID}",
+    "startup_26GiB_assertion_passed": true,
+    "postfailure_external_process_gpu_MiB": 61570,
+    "postfailure_gpu1_free_MiB": 19486,
+    "postfailure_gpu0_free_MiB": 20448,
+    "ECC_increment": false,
+    "cause": "UNRESOLVED; concurrent memory pressure observed, not a unique cuDNN root-cause proof",
+    "action": "stopped and retained complete source200 checkpoint and failed attempt; no automatic backend/batch/LR changes or GPU reset",
+    "other_processes_touched": false,
+    "pending": "stable authorized GPU capacity before retry"
+  },
+  "driver_pause": {
+    "status": "PARTIAL_BLOCKED_GPU_DRIVER",
+    "C_final_step": 600,
+    "D_last_logged_success": 396,
+    "D_latest_full_recovery_step": 300,
+    "D_successful_computations_this_attempt": 196,
+    "D_unpersisted_successful_computations": 96,
+    "C_continuation_successful_computations": 200,
+    "total_continuation_successful_computations": 396,
+    "known_C_replayed_computations": 16,
+    "new_distinct_logged_update_indices": 380,
+    "durable_extension_beyond_user_reported_C416_D200": 284,
+    "failed_inflight_D397": "not confirmed; not counted",
+    "valid_rollouts": 0,
+    "actual_rollout_attempts": 0,
+    "AE_updates": 0,
+    "teacher_updates": 0,
+    "additional_diagnostic_backward": 0,
+    "sealed_reads": 0,
+    "checkpoint": {
+      "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/extend600/D-center_m0p1/formal_gpu0_retry1/step0300.pt",
+      "sha256": "4207bd3d937e5816b406e1d75af582860ee545f3707785e9c8f9eee9c051f1ab",
+      "global_step": 300,
+      "keys": [
+        "AMP_scaler",
+        "activation_checkpointing",
+        "arm",
+        "configuration",
+        "cuda_rng",
+        "dtype",
+        "global_step",
+        "next_physical_sample",
+        "numpy_rng",
+        "optimizer",
+        "parameters",
+        "parent_C_updates",
+        "python_rng",
+        "scheduler",
+        "torch_rng"
+      ],
+      "optimizer_states": 1283,
+      "full_recovery_cpu_audit": true,
+      "GPU_strict_reload_after_incident": false
+    },
+    "incident": {
+      "observation": "Training stopped advancing at396; nvidia-smi GPU0 query stuck in D state, os_acquire_rwlock_write; dmesg permission denied",
+      "cause": "UNRESOLVED: evidence of driver query stall; no proof of OOM or new ECC",
+      "stop": "SIGTERM sent only to own trainer PID2020445 and own query PID2021520; no GPU reset, no other task termination",
+      "last_observed_training_process": "Zl; launcher awaiting process teardown",
+      "last_observed_query_process": "D state",
+      "GPU_memory_release": "UNVERIFIED because device query is blocked",
+      "checkpoint_397_or_396_saved": false
+    },
+    "protected_inputs": [
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/report.md",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/run_plan.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/normalization.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/fixed_sample_manifest.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/sampling_order.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/evaluation_protocol.json",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/results/C_m0p1/formal/step0400.pt",
+        "unchanged": true
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/rla_lr_budget_sweep/run_20261025_01/short200/D-center_m0p1/formal/step0200.pt",
+        "unchanged": true
+      }
+    ],
+    "source_commit": "e559d018497e15129d73b5e184d66ce15a7e5395"
+  },
+  "no_automatic_extension": true
+}

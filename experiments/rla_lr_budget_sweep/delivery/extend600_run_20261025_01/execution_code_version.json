@@ -1,0 +1,7 @@
+{
+ "training_and_evaluation_commit":"de8d6c90f1b71bdb7ab3d1c8d3506b826448c30f",
+ "branch":"experiments/rla-lr-budget-sweep",
+ "initial_preparation_base_commit":"b0b6bfa9f4ea43441bf3a7160573975365afeb95",
+ "files":{"extend_training.py":"ea9b772e4e5a9930865c9cb7ad55ec9c2aeae7efc26355c374f0d6b78ec2c662","extend_evaluation.py":"b5a8ac9736169ee2b80d9dad413fd90d4445ceecf70e63eaa6b222332e23822e","bootstrap.py":"2c32c963f2246e01f4c7dcfdb594b0df09036b591b073c24e8f0e69609d4e873"},
+ "change_before_first_successful_new_update":"source-plan Path type fix only; failed attempt retained; optimizer updates0"
+}
