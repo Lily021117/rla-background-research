@@ -1,5 +1,6 @@
 """Full-state continuation to600; original1200 scheduler and fixed offline samples."""
 import csv
+import json
 import os
 from pathlib import Path
 import resource
@@ -48,8 +49,9 @@ def execute(g):
  start_step=0
  assert os.environ.get('POLICY_RESUME'), 'full recovery checkpoint required'
  if os.environ.get('POLICY_RESUME'):
-  ck=torch.load(os.environ['POLICY_RESUME'],map_location='cpu');assert ck['arm']==arm and ck['configuration']==read(Path(plan['resume'][arm]['source_plan']))
-  start_step=ck['global_step'];assert ck['next_physical_sample']==start_step*8 and start_step==plan['resume'][arm]['step'] and 0<start_step<600
+  spec=json.loads(os.environ['RLA_RESUME_SPEC']) if os.environ.get('RLA_RESUME_SPEC') else plan['resume'][arm]
+  ck=torch.load(os.environ['POLICY_RESUME'],map_location='cpu');assert ck['arm']==arm and ck['configuration']==read(Path(spec['source_plan']))
+  start_step=ck['global_step'];assert ck['next_physical_sample']==start_step*8 and start_step==spec['step'] and 0<start_step<600
   assert ck['AMP_scaler'] is None and ck['dtype']=='bfloat16' and ck['activation_checkpointing']
   assert ck['scheduler']['last_epoch']==start_step and ck['scheduler']['milestones']=={1200:1}
   assert all(int(s['step'])==start_step for s in ck['optimizer']['state'].values())

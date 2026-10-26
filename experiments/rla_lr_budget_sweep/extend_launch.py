@@ -15,13 +15,18 @@ env.update(RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_
 env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+env.get('PYTHONPATH','')
 arm,entry={'gate':('preflight','gate'),'evaluate':('evaluation','extend_evaluation')}.get(a.stage,(a.stage,'extend_training'))
 registry_path=a.out/('attempt_registry_v3.json' if (a.out/'attempt_registry_v3.json').exists() else 'attempt_registry.json')
+if (a.out/'attempt_registry_v4.json').exists():registry_path=a.out/'attempt_registry_v4.json'
 if registry_path.exists():
  registry=json.loads(registry_path.read_text());a.attempt=registry.get(a.stage,a.attempt)
 if (a.out/'policy_registry_v2.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_v2.json'
 if (a.out/'policy_registry_v3.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_v3.json'
+if (a.out/'policy_registry_v4.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_v4.json'
 if entry=='extend_training':
  plan=json.loads((a.out/'run_plan.json').read_text());assert a.stage in plan['resume'];env['POLICY_RESUME']=plan['resume'][a.stage]['checkpoint']
  assert json.loads((a.out/'recovery_precheck.json').read_text())['status']=='PASS'
+ if (a.out/'resume_override_v4.json').exists():
+  spec=json.loads((a.out/'resume_override_v4.json').read_text()).get(a.stage)
+  if spec:env['POLICY_RESUME']=spec['checkpoint'];env['RLA_RESUME_SPEC']=json.dumps(spec)
 cmd=['/data/lyc/projects/vla-adapter-ref/.venv-cpu/bin/python','-u',str(Path(__file__).with_name('bootstrap.py')),'--out',str(a.out),'--arm',arm,'--entry','rla_lr_budget_sweep.'+entry,'--attempt',a.attempt]
 start=time.time()
 with (a.out/(a.stage+'_'+a.attempt+'.log')).open('x') as f:r=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT)

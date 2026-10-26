@@ -18,7 +18,7 @@ def sha(p):
  with Path(p).open('rb') as f:
   for b in iter(lambda:f.read(8*1024**2),b''):h.update(b)
  return h.hexdigest()
-plan=read(o/'run_plan.json');proto=read(o/'evaluation_protocol.json');models=proto['models'];arms=list(plan['arms']);conditions=proto['conditions'];seeds=proto['states'];short=Path(plan['short_source']);long=Path(plan['long_run_source']);attempts=read(o/'attempt_registry_v3.json');registry=read(o/'policy_registry_v3.json');trial=read(o/'per_trial_results.json')
+plan=read(o/'run_plan.json');proto=read(o/'evaluation_protocol.json');models=proto['models'];arms=list(plan['arms']);conditions=proto['conditions'];seeds=proto['states'];short=Path(plan['short_source']);long=Path(plan['long_run_source']);attempts=read(o/'attempt_registry_v4.json');registry=read(o/'policy_registry_v4.json');trial=read(o/'per_trial_results.json')
 assert len(trial)==120 and all(r['status']=='COMPLETE' for r in trial)
 phase_summary=[]
 for r in trial:
@@ -68,12 +68,18 @@ training=[];offline=[];inventory=[];accept=[];recovery=[]
 keys=['action_L1','translation_L1','rotation_L1','gripper_L1','auxiliary_L1']+[f'dim{d}_L1' for d in range(7)]+[f'h{h}_L1' for h in range(8)]
 for arm in arms:
  folder=o/arm/attempts[arm];acc=read(folder/'training_acceptance.json');accept.append(dict(model=arm,**acc));assert acc['successful_updates']==600
- train=rows(folder/'training_metrics.csv');start=plan['resume'][arm]['step'];assert [int(r['step']) for r in train]==list(range(start+1,601))
+ train=rows(folder/'training_metrics.csv');start=acc['restored_step'];assert [int(r['step']) for r in train]==list(range(start+1,601))
  assert all(abs(float(r['lr'])-2e-5)<1e-12 and float(r['weighted_keep'])==0 for r in train)
  training.extend(dict(model=arm,source='continued',**r) for r in train)
  original=long/arm/'formal' if arm=='C_m0p1' else short/arm/'formal'
  training.extend(dict(model=arm,source='historical_confirmed_including_unpersisted_C401_416' if arm=='C_m0p1' else 'historical',**r) for r in rows(original/'training_metrics.csv'))
  offline.extend(dict(model=arm,**r) for r in rows(folder/'validation_metrics.csv'))
+ if arm=='D-center_m0p1':
+  prior=o/arm/'formal_gpu0_retry1';priorrows=rows(prior/'training_metrics.csv');assert [int(r['step']) for r in priorrows]==list(range(201,397))
+  training.extend(dict(model=arm,source='prior_attempt_including_unpersisted_D301_396',**r) for r in priorrows)
+  offline.extend(dict(model=arm,**r) for r in rows(prior/'validation_metrics.csv') if int(r['step'])<300)
+  replaykeys=['action_loss','auxiliary_loss','total_loss','gradient_vla','gradient_head','gradient_proprio','gradient_aux_head'];replay=[dict(step=int(r['step']),max_abs_difference=max(abs(float(r[k])-float(train[int(r['step'])-301][k])) for k in replaykeys)) for r in priorrows if int(r['step'])>=301]
+  save('D_replay_equivalence_audit.json',dict(known_replay_count=96,scalar_and_norm_comparisons=replay,bitwise_full_parameter_equivalence_not_inferred=True))
  ckpath=Path(registry[arm+'_s600']);ck=torch.load(ckpath,map_location='cpu');assert ck['global_step']==600 and ck['next_physical_sample']==4800 and ck['scheduler']['last_epoch']==600 and ck['scheduler']['milestones']=={1200:1}
  assert ck['AMP_scaler'] is None and all(int(s['step'])==600 for s in ck['optimizer']['state'].values());assert ck['optimizer']['param_groups'][0]['lr']==2e-5
  inventory.append(dict(model=arm,step=600,path=str(ckpath),sha256=sha(ckpath),bytes=ckpath.stat().st_size,optimizer_states=len(ck['optimizer']['state'])));recovery.append(read(folder/'resume_provenance.json'));del ck
@@ -109,12 +115,14 @@ for j,arm in enumerate(arms):
 figure(fig,'instantaneous_training_curves')
 protected=[dict(path=x['path'],unchanged=sha(x['path'])==x['sha256']) for x in read(o/'protected_inputs.json')];assert all(x['unchanged'] for x in protected)
 ea=read(o/'evaluation/formal/evaluation_acceptance.json');assert ea['valid_trials']==120
-save('delivery_verification.json',dict(status='PASS_EXECUTION_NOT_METHOD',effective_final_updates={arm:600 for arm in arms},new_computed_successful_updates=sum(x['actual_computed_updates'] for x in accept),new_distinct_updates=584,known_replayed_updates=16,unconfirmed_historical_inflight417=True,training=accept,recovery=recovery,valid_rollouts=120,invalid_rollouts=ea['invalid_trials'],actual_rollout_attempts=120+ea['invalid_trials'],additional_diagnostic_backward=0,AE_updates=0,teacher_updates=0,sealed_reads=0,protected_inputs=protected,preupdate_incident=read(o/'preupdate_incident.json'),no_automatic_extension=True))
+save('delivery_verification.json',dict(status='PASS_EXECUTION_NOT_METHOD',effective_final_updates={arm:600 for arm in arms},new_computed_successful_updates=sum(x['actual_computed_updates'] for x in accept)+196,new_distinct_updates=584,known_replayed_updates=112,C_replay=16,D_replay=96,unconfirmed_historical_inflight417=True,unconfirmed_D_inflight397=True,training=accept,recovery=recovery,valid_rollouts=120,invalid_rollouts=ea['invalid_trials'],actual_rollout_attempts=120+ea['invalid_trials'],additional_diagnostic_backward=0,AE_updates=0,teacher_updates=0,sealed_reads=0,protected_inputs=protected,preupdate_incident=read(o/'preupdate_incident.json'),cuda_incident=read(o/'cuda_incident.json'),driver_pause=read(o/'gpu0_driver_pause/delivery_verification.json'),no_automatic_extension=True))
 lines=['# 低LR C / D-center续训600步与配对development闭环','', '过程PASS，不代表方法有效性PASS。两组统一使用最终600步，20个已参与调参的物理状态，每状态三种外观。','', '|模型|Clean|Seen|Unseen|等权平均|','|---|---:|---:|---:|---:|']
 for m in models:
  ns=[next(r['successes'] for r in scores if r['model']==m and r['appearance']==c) for c in conditions];lines.append('|'+m+'|'+ '|'.join(str(n)+'/20' for n in ns)+f'|{sum(ns)/60:.4f}|')
 for m in ('historical_C','historical_D-center'):
  ns=[next(r['successes'] for r in historical if r['model']==m and r['appearance']==c) for c in conditions];lines.append('|'+m+'|'+ '|'.join(str(n)+'/20' for n in ns)+f'|{sum(ns)/60:.4f}|')
 lines+=['','## 恢复与计算','', 'C有416步成功日志，但完整状态仅到400；D完整状态200。实际续算C200步、D400步，共600次成功计算，其中C401–416为16次已知重放，新增未完成更新步584。C历史可能执行中的417步未确认，不计入。BF16无AMP scaler，checkpoint显式None；模型、optimizer、scheduler、CPU/CUDA/Python/NumPy RNG及采样位置恢复。不是从权重单独重启。','', '保留1200步MultiStepLR里程碑，无warmup；本轮实际LR始终2e-5，未进入衰减阶段。辅助系数、中心、缩放、seed和有效batch不变，AE/教师更新0。初次恢复因str/Path类型错误在状态加载前停止，updates=0，原日志保留，修正读取后新attempt运行。','', '## 可比性与边界','', '历史状态/XML/seed/语言/部署条件以及训练数据、初始化、归一化、样本顺序和共同辅助系数已核对。历史前600步LR=2e-4，本轮=2e-5；历史scheduler在600步后衰减，本轮在1200步后衰减，前600步均没有低LR衰减更新。不同历史入口未做逐位端到端重现，因此历史对比为参照，不声称严格单变量因果识别。','', '推理动作不使用状态真值修正；状态仅用于记录阶段和官方成功判定。抬升3cm、接近10cm为沿用的描述代理；接触/高度/水平条件来自既有任务指标。条件下降均值仅针对已抬升试验，存在阶段进入选择，不单独证明控制改善。','', '状态聚类bootstrap共10000次，同一物理状态的三种外观联合抽样，见paired_statistics.json；20状态而非60独立样本。单seed，development已参与调参，不是独立测试。','', '固定离线评估复用short200样本/预处理/mask；C400/500/600和D200/300/400/500/600。C300缺失固定节点未补造；C401–416旧日志与重放日志均保留，主训练曲线使用恢复后有效路径。逐维、逐chunk、逐示范及可靠抬升前后指标分别保存；没有精确放置动作标签时不编造。','', '本轮无额外诊断backward，无AE训练，无封存测试读取，不自动延长至1200、不追加LR或seed。']
+lines=[x.replace('实际续算C200步、D400步，共600次成功计算，其中C401–416为16次已知重放，新增未完成更新步584。','实际续算C200步、D先196步后300步，共696次成功计算，其中C401–416重放16次、D301–396重放96次，共112次已知重放；新增未完成更新步584。D首次GPU1恢复在201步backward报cuDNN错误，新增成功更新0；随后GPU0在396步后出现驱动查询阻塞，仅300步完整状态可恢复，后从300步恢复。两次故障原日志均保留，不推断为OOM或表示问题。') for x in lines]
+lines+=['','## 设备与恢复差异','','C在GPU1完成，D在GPU0完成；D第二次GPU0启动时驱动响应正常、空闲约79.2GiB，volatile ECC为0，aggregate correctable=6且uncorrectable=0。没有将计数重置视为硬件修复证明。各attempt分别检查ECC增量，先前故障单独保留。D重复301–396步的scalar/gradient norm比较见D_replay_equivalence_audit.json；不以此冒充所有参数逐位比较。']
 with (o/'report.md').open('x') as f:f.write('\n'.join(lines)+'\n')
 print('CONTINUATION_ANALYSIS_COMPLETE',scores,flush=True)

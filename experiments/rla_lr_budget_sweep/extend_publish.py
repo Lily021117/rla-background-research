@@ -8,6 +8,7 @@ names=['report.md','run_plan.json','continuation_protocol.json','evaluation_prot
 secret=re.compile(rb'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----');inventory=[]
 names.append('execution_code_version.json')
 names += ['attempt_registry_v3.json','policy_registry_v3.json','cuda_incident.json','gpu0_resume_authorization.json']
+names += ['attempt_registry_v4.json','policy_registry_v4.json','resume_override_v4.json','D_replay_equivalence_audit.json','execution_code_version_v4.json']
 for name in names:
  text=(o/name).read_text()
  for old,new in [('/data/lyc/projects/rla-wm','${PROJECT_ROOT}'),('/data/lyc/projects/LIBERO-plus','${LIBERO_ROOT}'),('/data/lyc','${DATA_ROOT}')]:text=text.replace(old,new)
