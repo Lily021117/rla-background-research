@@ -52,7 +52,8 @@ stages=[]
 for label,rs in datasets.items():
  for c in conditions:
   ss=[r for r in rs if r['condition']==c];ct=collections.Counter(r['stage'] for r in ss)
-  stages.append(dict(model=label,appearance=c,successes=sum(r['success'] for r in ss),close_commands=sum(r.get('issued_close_command',False) for r in ss),lifted=sum(r['max_lift_m']>=.03 for r in ss),**ct,descent_metrics_available=all('descent_horizontal_path_m' in r for r in ss),descent_horizontal_path_m=float(np.mean([r['descent_horizontal_path_m'] for r in ss if r.get('first_lift_step') is not None])) if any(r.get('first_lift_step') is not None for r in ss) else None))
+  close_known=[r for r in ss if 'issued_close_command' in r];descent_known=[r for r in ss if r.get('first_lift_step') is not None and 'descent_horizontal_path_m' in r]
+  stages.append(dict(model=label,appearance=c,successes=sum(r['success'] for r in ss),close_commands=sum(r['issued_close_command'] for r in close_known) if close_known else None,close_command_records_available=len(close_known),lifted=sum(r['max_lift_m']>=.03 for r in ss),**ct,descent_metrics_available=all('descent_horizontal_path_m' in r for r in ss),descent_horizontal_path_m=float(np.mean([r['descent_horizontal_path_m'] for r in descent_known])) if descent_known else None))
 write('failure_stage_summary.csv',stages)
 assert read(ae/'representation_sample_manifest.json')==read(S/'ae_run/representation_sample_manifest.json')
 rep=[];dist=[];pairs=[];abl=[]
