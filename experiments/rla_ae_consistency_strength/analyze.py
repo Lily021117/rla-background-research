@@ -91,6 +91,14 @@ for key in ['reconstruction','consistency','weighted_consistency']:
  for label in ['C','D','D-inv03']:
   rs=[r for r in curve if r['model']==label];x=[int(r['step']) for r in rs];y=np.array([float(r[key]) for r in rs]);ax.plot(x,y,alpha=.2);ax.plot(x[24:],np.convolve(y,np.ones(25)/25,'valid'),label=label+' trailing25')
  ax.set(xlabel='effective update',ylabel=key);ax.legend();f.tight_layout();f.savefig(fig/(key+'.png'),dpi=150);plt.close(f)
+f,axes=plt.subplots(1,2,figsize=(12,4))
+for key in ['action_loss','auxiliary_loss','weighted_auxiliary']:
+ x=np.array([int(r['step']) for r in pt]);y=np.array([float(r[key]) for r in pt]);axes[0].plot(x,y,alpha=.18);axes[0].plot(x[24:],np.convolve(y,np.ones(25)/25,'valid'),label=key+' trailing25')
+for appearance in ['clean','background']:
+ keys=sorted(k for k in gg if k[1]==appearance);axes[1].plot([k[0] for k in keys],[np.mean([float(r['action_L1']) for r in gg[k]]) for k in keys],marker='o',label=appearance)
+axes[0].set(xlabel='effective update',ylabel='training loss; raw plus trailing25');axes[1].set(xlabel='fixed checkpoint',ylabel='development normalized action L1')
+for ax in axes:ax.legend()
+f.tight_layout();f.savefig(fig/'policy_losses.png',dpi=150);plt.close(f)
 protected=[dict(path=k,unchanged=sha(k)==v) for k,v in read(o/'protected_inputs.json').items()];assert all(r['unchanged'] for r in protected)
 for r in new:
  for k in ['video','trajectory']:assert Path(r[k]).is_file() and Path(r[k]).stat().st_size>0
