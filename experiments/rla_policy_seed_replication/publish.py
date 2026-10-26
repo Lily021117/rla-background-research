@@ -5,7 +5,7 @@ p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.
 v=json.loads((o/'delivery_verification.json').read_text())
 assert v['policy_successful_updates']==2400 and v['AE_updates']==0 and v['valid_new_rollouts']==240
 dest=Path(__file__).parent/'delivery'/o.name;dest.mkdir(parents=True,exist_ok=False)
-names=['report.md','replication_protocol.json','execution_provenance.json','cross_seed_initialization_audit.json','initialization_matching_audit.json','frozen_target_audit.json','success_rates.csv','paired_results.csv','paired_statistics.json','failure_stage_summary.csv','training_metrics.csv','validation_metrics.csv','checkpoint_inventory.csv','per_trial_results.csv','delivery_verification.json']
+names=['report.md','replication_protocol.json','execution_provenance.json','pretrained_source_audit.json','cross_seed_initialization_audit.json','initialization_matching_audit.json','frozen_target_audit.json','success_rates.csv','paired_results.csv','paired_statistics.json','failure_stage_summary.csv','training_metrics.csv','validation_metrics.csv','checkpoint_inventory.csv','per_trial_results.csv','delivery_verification.json']
 for seed in json.loads((o/'replication_protocol.json').read_text())['seeds']:
  prefix=f'seed_{seed}/'
  names += [prefix+n for n in ['run_plan.json','normalization.json','evaluation_protocol.json','sampling_audit.json','LR_curve.csv','initialization_gate.json','module_initialization_audit.json']]
