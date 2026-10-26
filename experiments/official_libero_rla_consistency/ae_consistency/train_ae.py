@@ -32,6 +32,9 @@ plan=json.loads((a.run/'training_plan.json').read_text());assert plan['frozen'];
 from src.trainers.utils import make_master_params,model_grads_to_master_grads,master_params_to_model_params,zero_grad
 masters=make_master_params(params);opt=torch.optim.AdamW(masters,lr=plan['lr'],weight_decay=0.);lam=plan['lambda_cons'] if a.arm=='D' else 0.;seed()
 pool=[(e['episode'],t,h) for e in train for t in range(e['valid_chunks']) for h in range(1,9)];rng=np.random.RandomState(plan['seed']);order=[pool[i] for i in rng.permutation(len(pool))[:4800]];save(out/'sampling_order.json',order);byid={e['episode']:e for e in train}
+if os.environ.get('RLA_EXPECTED_AE_ORDER'):
+    assert order==[tuple(x) for x in json.loads(Path(os.environ['RLA_EXPECTED_AE_ORDER']).read_text())]
+    save(out/'sampling_identity_check.json',dict(source=os.environ['RLA_EXPECTED_AE_ORDER'],exact_order_match=True,physical_samples=len(order),optimizer_updates=0))
 start_step=0
 if a.resume_from:
     assert a.output_name
