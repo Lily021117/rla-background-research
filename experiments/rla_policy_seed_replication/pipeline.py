@@ -4,8 +4,12 @@ from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.parse_args();here=Path(__file__).parent;protocol=json.loads((a.out/'replication_protocol.json').read_text())
 def run(seed,stage):
  cmd=['python',str(here/'launch.py'),'--out',str(a.out),'--seed',str(seed),'--stage',stage];print('START',seed,stage,flush=True);r=subprocess.run(cmd);assert r.returncode==0,(seed,stage,'preserve failed attempt; no silent retry')
+for seed in protocol['seeds']:run(seed,'gate')
+gates=[json.loads((a.out/f'seed_{s}'/'initialization_gate.json').read_text()) for s in protocol['seeds']]
+assert len({g['frozen_pretrained_sha256'] for g in gates})==1
+assert len({g['parameter_hash'] for g in gates})==len(gates)
+with (a.out/'cross_seed_initialization_audit.json').open('x') as f:json.dump(dict(pretrained_equal=True,random_initializations_distinct=True,seeds=protocol['seeds']),f,indent=2)
 for seed in protocol['seeds']:
- run(seed,'gate')
  for arm in protocol['methods']:run(seed,arm)
 for seed in protocol['seeds']:run(seed,'evaluate')
 print('ALL_FOUR_TRAININGS_AND_240_TRIALS_COMPLETE',flush=True)

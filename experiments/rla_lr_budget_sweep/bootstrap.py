@@ -48,7 +48,26 @@ state=model.state_dict();assert set(state)-set(mapped)=={'action_queries.weight'
 model.vision_backbone.set_num_images_in_input(2);model=get_peft_model(model,LoraConfig(r=64,lora_alpha=128,lora_dropout=0.,target_modules='all-linear',init_lora_weights='gaussian'))
 for n,v in model.named_parameters():
  if 'action_queries' in n:v.requires_grad_(True)
-model=model.to('cuda',dtype=torch.bfloat16);prop=ProprioProjector(llm_dim=model.llm_dim,proprio_dim=8).to('cuda',dtype=torch.bfloat16);head=RlaL1RegressionActionHead(input_dim=model.llm_dim,hidden_dim=model.llm_dim,action_dim=7,use_pro_version=True).to('cuda',dtype=torch.bfloat16);mods=dict(vla=model,proprio=prop,head=head)
+model=model.to('cuda',dtype=torch.bfloat16);prop=ProprioProjector(llm_dim=model.llm_dim,proprio_dim=8).to('cuda',dtype=torch.bfloat16)
+initialization_recipe={}
+if os.environ.get('RLA_FULL_SEED_RECIPE')=='1':
+ from prismatic.models.action_heads import L1RegressionActionHead
+ base_head=L1RegressionActionHead(input_dim=model.llm_dim,hidden_dim=model.llm_dim,action_dim=7,use_pro_version=True).to('cuda',dtype=torch.bfloat16)
+ with torch.random.fork_rng(devices=[0]):
+  torch.manual_seed(bootstrap_seed+1);torch.cuda.manual_seed_all(bootstrap_seed+1)
+  head=RlaL1RegressionActionHead(input_dim=model.llm_dim,hidden_dim=model.llm_dim,action_dim=7,use_pro_version=True).to('cuda',dtype=torch.bfloat16)
+ src=base_head.state_dict();dst=head.state_dict();copied=[];expanded=[]
+ for k,v in src.items():
+  assert k in dst
+  if dst[k].shape==v.shape:dst[k]=v;copied.append(k)
+  elif k.endswith('gating_factor') and v.numel()==1:dst[k]=v.expand_as(dst[k]).clone();expanded.append(k)
+  else:raise ValueError(('head initialization mismatch',k,v.shape,dst[k].shape))
+ head.load_state_dict(dst,strict=True)
+ initialization_recipe=dict(baseline_seed=bootstrap_seed,RLA_constructor_seed=bootstrap_seed+1,copied_baseline_keys=copied,expanded_zero_gates=expanded,added_RLA_keys=sorted(set(dst)-set(src)),pretrained_missing_only=['action_queries.weight'],RLA_construction_preserves_baseline_RNG=True)
+ del base_head,src,dst
+else:head=RlaL1RegressionActionHead(input_dim=model.llm_dim,hidden_dim=model.llm_dim,action_dim=7,use_pro_version=True).to('cuda',dtype=torch.bfloat16)
+mods=dict(vla=model,proprio=prop,head=head)
+initialization_rng=dict(torch_rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state_all(),python_rng=random.getstate(),numpy_rng=np.random.get_state())
 tokenizer=AutoTokenizer.from_pretrained(str(configdir));imageproc=PrismaticImageProcessor.from_pretrained(str(configdir));at=ActionTokenizer(tokenizer);collator=RlaCollator(2048,tokenizer.pad_token_id);transform=RLDSBatchTransform(at,tokenizer,lambda img:imageproc(img,return_tensors='pt')['pixel_values'][0],QwenPromptBuilder,use_wrist_image=True,use_proprio=True,use_minivlm=True)
 
 collate=collator

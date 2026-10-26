@@ -4,12 +4,13 @@ Two preassigned seeds, 20261029 and 20261030. Each runs C and D-center for
 600 successful updates from a shared zero-update initialization. No AE changes,
 loss search, teacher, keep loss, low LR, or D-inv03 targets.
 
-The selected scope preserves the original common action-path initialization.
-Only the auxiliary output readout (`layer_norm2_rla`, `fc2_rla`), training RNG
-and seeded permutation order vary with seed. The seed gate verifies that the
-readout reset does not alter initial actions. Both methods load the same seed
-checkpoint. This is conditional training-randomness replication, not a test
-of every possible action-head/LoRA initialization or AE-training seed.
+The confirmed scope rebuilds every originally random policy module under the
+new seed, while strictly loading the same pretrained weights. The original
+baseline constructor is followed by the RLA overlay constructor under seed+1
+in a forked RNG context; shared baseline head parameters are copied unchanged.
+LoRA B and gates keep their zero initialization; constants are not randomized.
+Both methods load one common checkpoint per seed. This tests initialization
+and training randomness jointly, conditional on fixed AE checkpoints.
 
 Each method uses the historical original target and its own accepted training
 mean, with unchanged common scale and auxiliary coefficient. The training loop

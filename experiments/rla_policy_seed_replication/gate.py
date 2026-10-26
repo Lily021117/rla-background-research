@@ -30,8 +30,24 @@ def execute(g):
   for n,p in m.named_parameters():
    if p.requires_grad and not torch.equal(p.detach().cpu(),initial['parameters'][k][n]):changed.append(k+'.'+n)
  if scope=='fixed_action_path_new_auxiliary':assert set(changed).issubset({'head.model.layer_norm2_rla.weight','head.model.layer_norm2_rla.bias','head.model.fc2_rla.weight','head.model.fc2_rla.bias'})
- random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed)
- rng=dict(torch_rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state_all(),python_rng=random.getstate(),numpy_rng=np.random.get_state())
+ assert scope=='all_random_modules_new_seed' and g['initialization_recipe']
+ rng=g['initialization_rng']
+ inventory=[];frozen=hashlib.sha256()
+ for k,m in mods.items():
+  for n,p in m.named_parameters():
+   raw=p.detach().cpu().contiguous().view(torch.uint8).numpy().tobytes();ph=hashlib.sha256(raw).hexdigest()
+   if not p.requires_grad:
+    source='strict pretrained';rule='loaded unchanged (BF16 cast)';frozen.update((k+'.'+n).encode());frozen.update(raw)
+   elif 'lora_B' in n:
+    source='new seed construction';rule='constant zero';assert torch.count_nonzero(p)==0
+   elif 'lora_A' in n:source='new seed construction';rule='Gaussian std=1/r, r=64'
+   elif 'action_queries' in n:source='new seed construction';rule='official constructor followed by HF post_init Embedding normal initializer; not pretrained'
+   elif 'gating_factor' in n:
+    source='new seed construction';rule='constant zero';assert torch.count_nonzero(p)==0
+   elif 'layer_norm' in n.lower() or 'layernorm' in n.lower():source='new seed construction';rule='official LayerNorm constants'
+   else:source='new seed construction';rule='official module constructor; baseline head copied into RLA overlay where shared'
+   inventory.append(dict(module=k,name=n,numel=p.numel(),trainable=p.requires_grad,source=source,rule=rule,sha256=ph))
+ with (root/'module_initialization_audit.json').open('x') as f:json.dump(dict(recipe=g['initialization_recipe'],parameters=inventory,frozen_pretrained_sha256=frozen.hexdigest(),historical_recipe='baseline seed20261023 plus forked RLA constructor seed20261024; new runs use seed and seed+1'),f,indent=2)
  outputs=[]
  from stove_centering.training import restore
  with torch.inference_mode():
@@ -42,6 +58,6 @@ def execute(g):
  interface.clear();restore(rng);state=g['trainable_state']();path=root/'common_seed_step0.pt';assert not path.exists();torch.save(dict(parameters=state,global_step=0,next_physical_sample=0,**rng,initialization_scope=scope,policy_seed=seed,original_common_step0_sha256=plan['original_common_step0_sha256'],optimizer_updates=0),path)
  ck=torch.load(path,map_location='cpu');assert digest(state)==digest(ck['parameters']);plan['common_step0_sha256']=sha(path)
  with (root/'run_plan.json').open('x') as f:json.dump(plan,f,indent=2)
- audit=dict(status='PASS',seed=seed,scope=scope,common_seed_step0_sha256=plan['common_step0_sha256'],parameter_hash=digest(state),changed_vs_historical_step0=changed,action_unchanged_by_aux_reset=bool(torch.equal(before,outputs[0][0])) if scope=='fixed_action_path_new_auxiliary' else 'not applicable: all random modules use new seed',action_repeated_exact=True,aux_repeated_exact=True,action_hash=hashlib.sha256(outputs[0][0].cpu().view(torch.uint8).numpy().tobytes()).hexdigest(),aux_hash=hashlib.sha256(outputs[0][1].cpu().view(torch.uint8).numpy().tobytes()).hexdigest(),same_checkpoint_for_C_D=True,AE_updates=0,optimizer_updates=0,backward=0,sample_order_sha256=plan['inputs']['B20_sampling_sha256'],no_trained_policy_initialization=True)
+ audit=dict(status='PASS',seed=seed,scope=scope,frozen_pretrained_sha256=frozen.hexdigest(),common_seed_step0_sha256=plan['common_step0_sha256'],parameter_hash=digest(state),changed_vs_historical_step0=changed,action_unchanged_by_aux_reset='not applicable: full original initialization recipe',action_repeated_exact=True,aux_repeated_exact=True,action_hash=hashlib.sha256(outputs[0][0].cpu().view(torch.uint8).numpy().tobytes()).hexdigest(),aux_hash=hashlib.sha256(outputs[0][1].cpu().view(torch.uint8).numpy().tobytes()).hexdigest(),same_checkpoint_for_C_D=True,AE_updates=0,optimizer_updates=0,backward=0,sample_order_sha256=plan['inputs']['B20_sampling_sha256'],no_trained_policy_initialization=True)
  with (root/'initialization_gate.json').open('x') as f:json.dump(audit,f,indent=2)
  print('SEED_INITIALIZATION_PASS',seed,scope,len(changed),flush=True)
