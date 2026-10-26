@@ -10,4 +10,4 @@ class CenterStore(RlaStore):
   assert np.array_equal(self.offset,np.array(meta['mu_C'],np.float32))
   assert self.scale==np.float32(meta['s_C'])
   if os.environ['CENTER_ARM'] in ('D-center','D-inv03'):self.offset=np.array(meta['mu_D'],np.float32)
-  else:assert os.environ['CENTER_ARM'] in ('D-old','preflight','evaluation')
+  else:assert os.environ['CENTER_ARM'] in ('C','D-old','preflight','evaluation')

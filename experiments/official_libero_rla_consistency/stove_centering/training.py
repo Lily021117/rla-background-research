@@ -33,7 +33,8 @@ def execute(g):
  import rla.loss as official_loss
  lam=plan['shared_protocol']['lambda_aux'];official_loss.CFG=dataclasses.replace(official_loss.CFG,lambda_auto=False,lambda_rla=lam)
  collator=g['collate'] if baseline else RlaCollator(2048,g['tokenizer'].pad_token_id);ds=DerivedEpisodeDataset(plan['inputs']['data_manifest'],plan['inputs']['action_proprio_statistics'],g['transform'],collator)
- stores={} if baseline else {c:RlaStore(str(prev/'sidecars'/'D'/c),chunk=8,num_tokens=16,token_dim=64,norm='center') for c in ('clean','background')};slots={}
+ target_source=plan.get('target_source_by_arm',{}).get(arm,'D')
+ stores={} if baseline else {c:RlaStore(str(prev/'sidecars'/target_source/c),chunk=8,num_tokens=16,token_dim=64,norm='center') for c in ('clean','background')};slots={}
  for e,(root,ch,meta) in ds.episodes.items():
   if not baseline:
    raw=np.load(root/'trajectory_labels.npz')['proprio'];slots[e]={c:stores[c].slot(raw) for c in stores};assert min(slots[e].values())>=0
@@ -125,7 +126,7 @@ def execute(g):
   for k,m in mods.items():full=m.state_dict();full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True)
   opt.load_state_dict(ck['optimizer']);scheduler.load_state_dict(ck['scheduler']);restore(ck)
   g['save']('resume_provenance.json',dict(source=str(resume),restored_step=start_step,model_optimizer_scheduler_RNG_sampler_restored=True,AMP_scaler=None,bfloat16=True));del ck
- if arm=='D-inv03' and start_step==0:
+ if (arm=='D-inv03' or plan.get('experiment')=='fixed_AE_policy_seed_replication') and start_step==0:
   assert all(torch.equal(p.detach().cpu(),initial['parameters'][k][n]) for k,m in mods.items() for n,p in m.named_parameters() if p.requires_grad)
   assert torch.equal(torch.get_rng_state(),initial['torch_rng']) and all(torch.equal(x,y) for x,y in zip(torch.cuda.get_rng_state_all(),initial['cuda_rng']))
   assert hashlib.sha256(Path(plan['inputs']['B20_sampling_order']).read_bytes()).hexdigest()==plan['inputs']['B20_sampling_sha256']

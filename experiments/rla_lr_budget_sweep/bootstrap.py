@@ -13,7 +13,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'official_libero_rla_c
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'official_libero_rla_consistency/stove_diagnosis'))
 from common import *
 import torch
-p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--arm',required=True);p.add_argument('--attempt',default='isolated_smoke');p.add_argument('--entry',default='rla_lr_budget_sweep.training');a=p.parse_args();plan=read(a.out/'run_plan.json');ref=Path(plan['inputs']['project'])/'experiments/official_libero_rla_consistency/run_20261023_02';a.run=a.out/a.arm;a.run.mkdir(exist_ok=True);o=a.run/a.attempt;o.mkdir(exist_ok=False)
+p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--arm',required=True);p.add_argument('--attempt',default='isolated_smoke');p.add_argument('--entry',default='rla_lr_budget_sweep.training');a=p.parse_args();plan=read(a.out/os.environ.get('RLA_BOOTSTRAP_PLAN','run_plan.json'));ref=Path(plan['inputs']['project'])/'experiments/official_libero_rla_consistency/run_20261023_02';a.run=a.out/a.arm;a.run.mkdir(exist_ok=True);o=a.run/a.attempt;o.mkdir(exist_ok=False)
 os.environ['CENTER_RUN']=str(a.out);os.environ['CENTER_ARM']=a.arm;os.environ['POLICY_ARM']=a.arm;os.environ['POLICY_CHECKPOINTING']='1';os.environ['POLICY_MICROBATCH']='8'
 
 GPU=os.environ['RLA_GPU_UUID'];before=subprocess.check_output(['nvidia-smi','-i',GPU,'-q','-d','ECC'],text=True);(o/'ecc_before.txt').write_text(before)
@@ -24,7 +24,7 @@ sys.path.insert(0,str(ref/'vla-official'));sys.path.insert(0,str(Path(plan['inpu
 import tensorflow as tf
 tf.config.set_visible_devices([],'GPU');torch.set_num_threads(4);torch.cuda.set_per_process_memory_fraction(.55)
 torch.backends.cuda.enable_flash_sdp(False);torch.backends.cuda.enable_mem_efficient_sdp(False);torch.backends.cuda.enable_math_sdp(True)
-random.seed(20261023);np.random.seed(20261023);torch.manual_seed(20261023);torch.cuda.manual_seed_all(20261023)
+bootstrap_seed=int(os.environ.get('RLA_BOOTSTRAP_SEED','20261023'));random.seed(bootstrap_seed);np.random.seed(bootstrap_seed);torch.manual_seed(bootstrap_seed);torch.cuda.manual_seed_all(bootstrap_seed)
 from transformers import AutoTokenizer
 from peft import LoraConfig,get_peft_model
 from prismatic.extern.hf.configuration_prismatic import OpenVLAConfig
