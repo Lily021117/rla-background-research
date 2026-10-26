@@ -18,7 +18,7 @@ def save(n,x):
  with (o/n).open('x') as f:json.dump(x,f,indent=2)
 def write(n,rs):
  with (o/n).open('x') as f:w=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in rs for k in r)));w.writeheader();w.writerows(rs)
-protocol=read(o/'replication_protocol.json');first=read(o/f"seed_{protocol['seeds'][0]}/run_plan.json");S=Path(first['historical_source']);H=Path(first['historical_center_source']);ep=read(o/f"seed_{protocol['seeds'][0]}/evaluation_protocol.json");states=ep['states'];conditions=ep['conditions'];allrows=[];inventory=[];init=[];train=[];validation=[];accept=[]
+protocol=read(o/'replication_protocol.json');first=read(o/f"seed_{protocol['seeds'][0]}/run_plan.json");S=Path(first['historical_source']);H=Path(first['historical_center_source']);ep=read(o/f"seed_{protocol['seeds'][0]}/evaluation_protocol.json");states=ep['states'];conditions=ep['conditions'];allrows=[];inventory=[];init=[];train=[];validation=[];accept=[];migration=[]
 for seed in protocol['seeds']:
  root=o/f'seed_{seed}';plan=read(root/'run_plan.json');evaluation=read(root/'evaluation_protocol.json');assert evaluation['states']==states and evaluation['conditions']==conditions
  r=read(root/'per_trial_results.json');assert len(r)==120 and all(x['status']=='COMPLETE' for x in r);assert read(root/'evaluation/formal/evaluation_acceptance.json')['invalid_trials']==0
@@ -27,10 +27,20 @@ for seed in protocol['seeds']:
  for method in protocol['methods']:
   run=root/method/'formal';ck=torch.load(run/'step0000.pt',map_location='cpu');starts.append(ck);assert ck['global_step']==0
   audit=read(run/'initialization_audit.json');assert audit['all_trainable_parameters_equal_common_step0'] and audit['CPU_CUDA_RNG_equal_common_step0'];init.append(dict(seed=seed,method=method,**audit))
-  rs=rows(run/'training_metrics.csv');assert [int(x['step']) for x in rs]==list(range(1,601));assert all(float(x['lr'])==.0002 for x in rs);train.extend(dict(policy_seed=seed,method=method,**x) for x in rs)
-  vv=rows(run/'validation_metrics.csv');validation.extend(dict(policy_seed=seed,method=method,**x) for x in vv);val0.append([{k:v for k,v in x.items() if k!='auxiliary_L1'} for x in vv if int(x['step'])==0])
-  final=run/'step0600.pt';ckfinal=torch.load(final,map_location='cpu');assert ckfinal['global_step']==600 and ckfinal['next_physical_sample']==4800 and ckfinal['scheduler']['last_epoch']==600 and ckfinal['scheduler']['milestones']=={600:1};assert all(int(x['step'])==600 for x in ckfinal['optimizer']['state'].values());del ckfinal
-  inventory.append(dict(seed=seed,method=method,path=str(final),sha256=sha(final),global_step=600,common_step0_sha256=plan['common_step0_sha256']));accept.append(dict(seed=seed,method=method,**read(run/'training_acceptance.json')))
+  attempts=[root/x for x in read(root/'execution_attempts.json')[method]] if (root/'execution_attempts.json').exists() else [run]
+  rs=[x for attempt in attempts for x in rows(attempt/'training_metrics.csv')];assert [int(x['step']) for x in rs]==list(range(1,601));assert all(float(x['lr'])==.0002 for x in rs);train.extend(dict(policy_seed=seed,method=method,**x) for x in rs)
+  unique={};repeated=[]
+  for attempt in attempts:
+   for x in rows(attempt/'validation_metrics.csv'):
+    key=tuple(x[k] for k in ['step','episode','timestep','appearance'])
+    if key in unique:repeated.append(max(abs(float(x[k])-float(unique[key][k])) for k in ['action_L1','translation_L1','rotation_L1','gripper_L1','auxiliary_L1']))
+    unique[key]=x
+  vv=list(unique.values());validation.extend(dict(policy_seed=seed,method=method,**x) for x in vv);val0.append([{k:v for k,v in x.items() if k!='auxiliary_L1'} for x in vv if int(x['step'])==0])
+  final=attempts[-1]/'step0600.pt';ckfinal=torch.load(final,map_location='cpu');assert ckfinal['global_step']==600 and ckfinal['next_physical_sample']==4800 and ckfinal['scheduler']['last_epoch']==600 and ckfinal['scheduler']['milestones']=={600:1};assert all(int(x['step'])==600 for x in ckfinal['optimizer']['state'].values());del ckfinal
+  inventory.append(dict(seed=seed,method=method,path=str(final),sha256=sha(final),global_step=600,common_step0_sha256=plan['common_step0_sha256']));accept.append(dict(seed=seed,method=method,attempts=[str(x) for x in attempts],**read(attempts[-1]/'training_acceptance.json')))
+  if len(attempts)>1:
+   boundary=read(root/'migration_boundary_audit.json');assert boundary['replayed_updates']==0 and boundary['global_step']==100
+   migration.append(dict(seed=seed,method=method,boundary=boundary,resume=read(attempts[-1]/'resume_provenance.json'),repeated_validation_rows=len(repeated),max_cross_device_fixed_validation_metric_delta=max(repeated,default=0),effective_updates=600,actual_update_computations=600,replayed_updates=0))
  for k in starts[0]['parameters']:
   assert starts[0]['parameters'][k].keys()==starts[1]['parameters'][k].keys()
   for n in starts[0]['parameters'][k]:assert torch.equal(starts[0]['parameters'][k][n],starts[1]['parameters'][k][n])
@@ -72,7 +82,8 @@ for seed in protocol['seeds']:
   rr=[r for r in train if r['policy_seed']==seed and r['method']==method];x=np.array([int(r['step']) for r in rr]);y=np.array([float(r['action_loss']) for r in rr]);ax.plot(x,y,alpha=.2);ax.plot(x[24:],np.convolve(y,np.ones(25)/25,'valid'),label=method+' trailing25')
  ax.set(xlabel='successful update',ylabel='normalized training action L1',title=str(seed));ax.legend();f.tight_layout();f.savefig(fig/f'action_{seed}.png',dpi=150);plt.close(f)
 protected=[dict(path=k,unchanged=sha(k)==v) for k,v in read(o/'protected_inputs.json').items()];assert all(x['unchanged'] for x in protected)
-save('delivery_verification.json',dict(status='PASS_EXECUTION_NOT_METHOD',policy_successful_updates=2400,actual_update_computations=len(train),replayed_updates=0,AE_updates=0,teacher_updates=0,valid_new_rollouts=240,actual_new_attempts=240,invalid_new_rollouts=0,retries=0,sealed_reads=0,protected_inputs=protected,training_acceptances=accept,scope=protocol['initialization_scope'],no_automatic_extension=True))
+save('migration_audit.json',migration)
+save('delivery_verification.json',dict(status='PASS_EXECUTION_NOT_METHOD',policy_successful_updates=2400,actual_update_computations=len(train),replayed_updates=0,AE_updates=0,teacher_updates=0,valid_new_rollouts=240,actual_new_attempts=240,invalid_new_rollouts=0,retries=0,sealed_reads=0,protected_inputs=protected,training_acceptances=accept,scope=protocol['initialization_scope'],migrations=migration,no_automatic_extension=True))
 lines=['# 固定 AE 的 C/D-center 策略 seed 配对复核','','本轮无 AE 更新、无超参数搜索。新 seed 各 C/D-center600步，共2400成功更新；新闭环240次。','',f"初始化范围：`{protocol['initialization_scope']}`。实际源权重与随机化模块见各seed初始化验收。",'','|策略seed|方法|Clean|已见背景|未见背景|等权平均|','|---|---|---:|---:|---:|---:|']
 for seed in [20261023]+protocol['seeds']:
  for m in protocol['methods']:
