@@ -1,0 +1,9 @@
+{
+  "status": "PASS_TRAINING_NOT_METHOD",
+  "successful_updates": 600,
+  "lambda_cons": 0.0027383394816217098,
+  "strict_matching_encoder_decoder_reload": true,
+  "ECC_increment": false,
+  "peak_allocated": 8336209408,
+  "seconds": 941.8771276473999
+}

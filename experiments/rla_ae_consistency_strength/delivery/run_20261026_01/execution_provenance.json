@@ -1,0 +1,18 @@
+{
+  "branch": "experiments/rla-ae-consistency-strength",
+  "base_commit": "3aacdffd6938f3f6d37d532038b1cc0a36f9fccc",
+  "AE_launch_code_commit": "d33c52c",
+  "continuation_code_commit": "e057895",
+  "publication_script_commit": "c50ea12",
+  "code_changes_after_AE_launch": "Added downstream reader, orchestration, analysis and publication. AE training code and frozen plan unchanged after launch. Sidecar audit description corrected before extraction; no numerical change.",
+  "GPU": "${GPU_UUID}",
+  "GPU_index_at_launch": 0,
+  "resource_evidence": "ae_ecc_before.txt and each stage *_ecc_before.txt",
+  "startup_free_memory_threshold_MiB": 26624,
+  "scope": "One D-inv03 AE 600 updates, one policy 600 updates, 60 development trials; no sealed tests",
+  "target_store_alias": "D under this new run refers only to D-inv03. No historical sidecar is overwritten.",
+  "training_source": "Official LIBERO AE and existing accepted stove_centering policy training path; no teacher/keep or custom unified trainer",
+  "history_protection": "Independent worktree. Historical feature/state symlinks read-only by workflow. Protected input hashes rechecked at delivery.",
+  "GitHub_visibility_verified": "public",
+  "public_upload_authorization": "User explicitly confirmed sanitized source/config/report upload to current public repository during this run. No weights, sidecars, raw data, videos or credentials."
+}

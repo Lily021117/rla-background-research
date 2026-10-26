@@ -1,0 +1,10 @@
+{
+  "status": "PASS_DIAGNOSTIC_NOT_METHOD",
+  "samples": 400,
+  "episodes": 5,
+  "models": [
+    "D"
+  ],
+  "optimizer_updates": 0,
+  "policy_rollouts": 0
+}

@@ -1,0 +1,16 @@
+model,appearance,successes,close_commands,close_command_records_available,lifted,post_lift_or_placement_failure,descent_metrics_available,descent_horizontal_path_m,postlift_plate_contact_records,postlift_plate_contact_count,postlift_centered_records,postlift_centered_count,postlift_contact_height_xy_records,postlift_contact_height_xy_count,postlift_open_records,postlift_open_count,final_xy_m_records,final_xy_m_mean,final_vertical_m_records,final_vertical_m_mean,descent_xy_error_change_m_records,descent_xy_error_change_m_mean,success,near_target_grasp_or_contact_failure,approach_failure
+D-inv03,clean,0,20,20,20,20,True,0.29317611203547234,20,10,20,1,20,0,20,0,20,0.16912156093531044,20,-0.0005064634971829907,20,0.005301749141274406,,,
+D-inv03,seen_background,0,20,20,20,20,True,0.27736271042866584,20,13,20,0,20,0,20,0,20,0.1609391598719862,20,-0.0015433443209847408,20,-0.010689915752369035,,,
+D-inv03,unseen_background,0,20,20,20,20,True,0.29337996116097764,20,12,20,2,20,0,20,0,20,0.1650166976707123,20,-0.0013082432312705229,20,-0.00636203987284194,,,
+C,clean,20,,0,20,,False,,0,,0,,0,,0,,0,,0,,0,,20,,
+C,seen_background,19,,0,19,,False,,0,,0,,0,,0,,0,,0,,0,,19,1,
+C,unseen_background,20,,0,20,,False,,0,,0,,0,,0,,0,,0,,0,,20,,
+D-center,clean,0,20,20,20,20,False,,0,,0,,0,,0,,0,,0,,0,,,,
+D-center,seen_background,0,20,20,20,20,False,,0,,0,,0,,0,,0,,0,,0,,,,
+D-center,unseen_background,0,20,20,20,20,False,,0,,0,,0,,0,,0,,0,,0,,,,
+C-lowLR,clean,20,20,20,20,,True,0.16834179731532609,20,20,20,20,20,20,20,0,20,0.018052374974157095,20,0.008757692908755148,20,-0.1129633346863923,20,,
+C-lowLR,seen_background,19,20,20,19,,True,0.18151042660057817,20,19,20,19,20,19,20,0,20,0.0340885433453712,20,0.008892056126434594,20,-0.12201957810635533,19,1,
+C-lowLR,unseen_background,1,19,20,3,2,True,0.20686709270925804,20,3,20,3,20,1,20,0,20,0.3865385682144488,20,0.027807709933716583,20,-0.014944188932158178,1,12,5
+D-center-lowLR,clean,19,20,20,20,1,True,0.19716440869692403,20,20,20,20,20,19,20,0,20,0.017383760920895826,20,0.007097522001161949,20,-0.13927534626529367,19,,
+D-center-lowLR,seen_background,16,20,20,19,3,True,0.19554987005295751,20,19,20,18,20,16,20,0,20,0.036307329906566,20,0.007347899325476965,20,-0.1308161756199439,16,1,
+D-center-lowLR,unseen_background,0,19,20,4,4,True,0.22522639071847744,20,4,20,4,20,0,20,0,20,0.3869622477131477,20,0.022751775341699414,20,-0.02404544100668035,,7,9

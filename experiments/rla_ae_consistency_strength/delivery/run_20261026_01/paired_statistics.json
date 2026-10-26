@@ -1,0 +1,250 @@
+{
+  "seed": 20261026,
+  "draws": 10000,
+  "physical_state_clusters": 20,
+  "comparisons": [
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "clean",
+      "difference": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "wins": 0,
+      "losses": 20
+    },
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "seen_background",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "unseen_background",
+      "difference": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "wins": 0,
+      "losses": 20
+    },
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "equal_appearance_mean",
+      "difference": -0.9833333333333332,
+      "CI95": [
+        -1.0,
+        -0.95
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "seen_interaction",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus C",
+      "appearance": "unseen_interaction",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "seen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "unseen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "equal_appearance_mean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "seen_interaction",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center",
+      "appearance": "unseen_interaction",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "clean",
+      "difference": -1.0,
+      "CI95": [
+        -1.0,
+        -1.0
+      ],
+      "wins": 0,
+      "losses": 20
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "seen_background",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "unseen_background",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "equal_appearance_mean",
+      "difference": -0.6666666666666665,
+      "CI95": [
+        -0.7166666666666666,
+        -0.6166666666666666
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "seen_interaction",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus C-lowLR",
+      "appearance": "unseen_interaction",
+      "difference": 0.95,
+      "CI95": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ],
+      "wins": 0,
+      "losses": 19
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "seen_background",
+      "difference": -0.8,
+      "CI95": [
+        -0.95,
+        -0.6
+      ],
+      "wins": 0,
+      "losses": 16
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "unseen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "equal_appearance_mean",
+      "difference": -0.5833333333333334,
+      "CI95": [
+        -0.6333333333333333,
+        -0.5166666666666666
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "seen_interaction",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "comparison": "D-inv03 minus D-center-lowLR",
+      "appearance": "unseen_interaction",
+      "difference": 0.95,
+      "CI95": [
+        0.85,
+        1.0
+      ]
+    }
+  ],
+  "development_used_for_tuning": true,
+  "single_training_seed": true,
+  "no_independent_test": true
+}

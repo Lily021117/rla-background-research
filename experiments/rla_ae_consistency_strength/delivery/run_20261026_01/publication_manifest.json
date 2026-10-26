@@ -1,0 +1,223 @@
+{
+  "source_commit": "7f6ae9461e7edf90e36f1bdc6cf4dcaae7dff7b3",
+  "files": [
+    {
+      "path": "report.md",
+      "sha256": "c266e4463a608eeed473113087fbf316ca11b81c08ca1c7a68f10ce4ce343f97",
+      "bytes": 7672
+    },
+    {
+      "path": "experiment_protocol.json",
+      "sha256": "fba5a6d1680966d4198e298f72f0c41eaa196a3b7846f25eb65d2e6079048a92",
+      "bytes": 1383
+    },
+    {
+      "path": "run_plan.json",
+      "sha256": "eae299b5fedb5eb050c91d71e457b10b3f0fc4c187158172f9b411febf5cdcc3",
+      "bytes": 4286
+    },
+    {
+      "path": "evaluation_protocol.json",
+      "sha256": "56e0505f7d71cc7f71f19604ebb7c06fa89576865ae40af4a20f83a6de43c6e4",
+      "bytes": 1359
+    },
+    {
+      "path": "historical_AE_training_plan.json",
+      "sha256": "89de7435d620fa189be7b72d8ec0496ac7bdf743f3458d893af988d2017de6a3",
+      "bytes": 2015
+    },
+    {
+      "path": "historical_policy_plan.json",
+      "sha256": "8a6ec3852ce0f17536514bf51bcb1f8522fe39a7af528afd6a0ffea7708133c1",
+      "bytes": 4324
+    },
+    {
+      "path": "normalization.json",
+      "sha256": "e57278dc07de979d60b8214f82ab2e5f6a782f54dbeea7d851210f42d53e3678",
+      "bytes": 113803
+    },
+    {
+      "path": "policy_LR_curve.csv",
+      "sha256": "128109777ea7b7c796b84a5dcee12e692955fdc86da424b82e5a017d18fd9e90",
+      "bytes": 13044
+    },
+    {
+      "path": "target_readiness.json",
+      "sha256": "7e7a563fd0a8ad51f9c5319d15686ed220be602fdc7e1ee6e253da78a6b097ed",
+      "bytes": 76449
+    },
+    {
+      "path": "historical_comparability.csv",
+      "sha256": "236ea9c3551cfb2bf29d4b9253b4a68c21b771140d23e50715de903e7e00a651",
+      "bytes": 2371
+    },
+    {
+      "path": "success_rates.csv",
+      "sha256": "3d85929c720921e02d4b42a24757625d294fd7441ef87bc7b2b310d9bdd577ac",
+      "bytes": 975
+    },
+    {
+      "path": "paired_results.csv",
+      "sha256": "d718d9a31c043c3b02ce7ddc71c4580f80ee3d569abd0a343b9f42b219cbfc10",
+      "bytes": 11307
+    },
+    {
+      "path": "paired_statistics.json",
+      "sha256": "ff01fc08a647c8d037c0354defbd1176586f0e06088edec2dad5ce0458686499",
+      "bytes": 4920
+    },
+    {
+      "path": "failure_stage_summary.csv",
+      "sha256": "6ccc55622a01be5a17fbed1ee75a0ea2647ad49e4d58c8906a686382ec7efcec",
+      "bytes": 2407
+    },
+    {
+      "path": "AE_reconstruction_comparison.csv",
+      "sha256": "31dacaf347ef40c4584c1667e1e56ef0df3266ab4ef5f01ecdbe9ba0298cdf9f",
+      "bytes": 1079644
+    },
+    {
+      "path": "AE_distribution_comparison.csv",
+      "sha256": "4abbc78cfce6d05a271e87d534b8fbf8d5ddaf2a0293fa1f4eaac20d3cf6fd4b",
+      "bytes": 2162
+    },
+    {
+      "path": "AE_paired_distance_comparison.csv",
+      "sha256": "2974617e87453d1eeff59c8c98c49a668f64ee553a67ff11df7444f93c0200b7",
+      "bytes": 237724
+    },
+    {
+      "path": "AE_decoder_ablation_comparison.csv",
+      "sha256": "cd729f6355545e9bfec3692e28624143348ecdfc5ff8e20125545dac94790cc8",
+      "bytes": 12466
+    },
+    {
+      "path": "AE_representation_summary.csv",
+      "sha256": "ef4c0ba5691b3ec8a98ad9cfc92fcc53f09ab12ea88c86777d9b411ccabc2bcc",
+      "bytes": 2375
+    },
+    {
+      "path": "AE_training_curves.csv",
+      "sha256": "10abb137778a841abd212ef0d64e31e29fc293fce0ef503816a3376e7713b107",
+      "bytes": 322856
+    },
+    {
+      "path": "policy_training_metrics.csv",
+      "sha256": "af74601784b333ce604ef84986c45f7461009a570a94d95c7fc0ee57049053f8",
+      "bytes": 122104
+    },
+    {
+      "path": "policy_validation_metrics.csv",
+      "sha256": "8217b3b674fe2322e1f83bbc0c86cf8da927b0f7571bc8f5564d78f754ae1b8f",
+      "bytes": 753567
+    },
+    {
+      "path": "policy_validation_summary.csv",
+      "sha256": "0a12c7faabab76bec4948a2fb66f94dcefbac43772ab264fe031c442111df2f6",
+      "bytes": 989
+    },
+    {
+      "path": "checkpoint_inventory.csv",
+      "sha256": "b76f9ca280ab12807d4cc6e787742ec6947d4c7903f31a4586cfd2ba1115fde1",
+      "bytes": 770
+    },
+    {
+      "path": "delivery_verification.json",
+      "sha256": "79461591783ec03fed494fe998fdf1a7aa6eb356e71a701790e8d1b297a42534",
+      "bytes": 4105
+    },
+    {
+      "path": "per_trial_results.csv",
+      "sha256": "e03e02d9836914ba979c79b8bd18636d22a44e978d796ed315e18bb47b229b09",
+      "bytes": 48981
+    },
+    {
+      "path": "ae_run/training_plan.json",
+      "sha256": "9911a56b9ec0b45f0a143a69cd2a07b81b131082c4f2d5f9dbc7286d41fb5a6d",
+      "bytes": 2012
+    },
+    {
+      "path": "ae_run/official_initialization.json",
+      "sha256": "3513618601662d5b9d7da40d5fc14dd6728e35037ef6beb3c16ab39151adf495",
+      "bytes": 826
+    },
+    {
+      "path": "ae_run/data_manifest.json",
+      "sha256": "483a419c6f29f438862be9a507406e88281f2c0612e98b244e436fc184f3ec1c",
+      "bytes": 23141
+    },
+    {
+      "path": "ae_run/sidecar_provenance.json",
+      "sha256": "0b578ac0ce52910d1c4de649d145c52edc752bcb2efa7ebf4bff273cdd468345",
+      "bytes": 35953
+    },
+    {
+      "path": "ae_run/sidecar_alignment_audit.json",
+      "sha256": "6daaadc246e0edea6555f52a04e6088c72117fa234cecc09fc22def7c6fc8636",
+      "bytes": 37030
+    },
+    {
+      "path": "ae_run/raw_source_recompute_audit.json",
+      "sha256": "51c7c80a2c38819930c3b83e1b0e380770336fe84b6ac855b8320d43e8439185",
+      "bytes": 4764
+    },
+    {
+      "path": "ae_run/representation_acceptance.json",
+      "sha256": "fa3d4e959921d63daa5f57311c76d589b46846d9b989bb0a39417d2edd67e522",
+      "bytes": 156
+    },
+    {
+      "path": "ae_run/AE_D_inv03/sampling_identity_check.json",
+      "sha256": "deddbb5f7125208625e747009ee40588056dbe6bce4238ed6bb0463eeff90667",
+      "bytes": 224
+    },
+    {
+      "path": "ae_run/AE_D_inv03/acceptance.json",
+      "sha256": "56962ea81030c04f286feb9697c050803f845835c993440a8e1108e8d7ea8e24",
+      "bytes": 251
+    },
+    {
+      "path": "D-inv03/formal/initialization_audit.json",
+      "sha256": "0259971660d468bc68f72e7996449eb952e6a4a29f6cb5caa2689e40584b5d59",
+      "bytes": 714
+    },
+    {
+      "path": "D-inv03/formal/training_acceptance.json",
+      "sha256": "c4974bb9573bd55ce37d33b1d7aa4d424e52ed9f3aa226a123a0ec619ef859d3",
+      "bytes": 250
+    },
+    {
+      "path": "execution_provenance.json",
+      "sha256": "6c2065c2faef94e0d2659dea2bb0ff53dca86abb7c814d4f868422345330de9c",
+      "bytes": 1405
+    },
+    {
+      "path": "figures/consistency.png",
+      "sha256": "862272d0547e1ac68b9d7ba1227d1e7d564589532a4f32f14ddd21c1e764f778",
+      "bytes": 135542
+    },
+    {
+      "path": "figures/policy_losses.png",
+      "sha256": "50e39ee2422e699d9f8205588fe6a5486bc4096fd09e96af325cec518ed0179e",
+      "bytes": 120504
+    },
+    {
+      "path": "figures/weighted_consistency.png",
+      "sha256": "269e8daae97bd65b677a2fb03d306dbfcbe54aeda019d9aab91999c430208282",
+      "bytes": 73480
+    },
+    {
+      "path": "figures/reconstruction.png",
+      "sha256": "62154a81f51c90c94107c48373b0beb2772a463a87cf9175764069d188ecd2ad",
+      "bytes": 104148
+    }
+  ],
+  "excluded": [
+    "checkpoints",
+    "raw images",
+    "raw trajectories",
+    "videos",
+    "sidecar arrays",
+    "credentials"
+  ]
+}

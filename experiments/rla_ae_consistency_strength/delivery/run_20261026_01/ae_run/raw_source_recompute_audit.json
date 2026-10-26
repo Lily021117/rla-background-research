@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "anchor": 63,
+      "h": 1,
+      "future": 64,
+      "max_error": 0.0018782615661621094,
+      "tolerance": 0.09652194023132324,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/frames/0063.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/frames/0064.npz"
+      ],
+      "source_frame_sha256": [
+        "db1df26ee4bbe62d48ec1e23a8663aa70f12b3a5ac38f8dda487353907124c69",
+        "0568374c1141d1070f69da93c2496b3ba91db17c7fab1598798539c23320604f"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "anchor": 63,
+      "h": 1,
+      "future": 64,
+      "max_error": 0.0018749237060546875,
+      "tolerance": 0.09388891220092774,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/frames/0063.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/frames/0064.npz"
+      ],
+      "source_frame_sha256": [
+        "db1df26ee4bbe62d48ec1e23a8663aa70f12b3a5ac38f8dda487353907124c69",
+        "0568374c1141d1070f69da93c2496b3ba91db17c7fab1598798539c23320604f"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0019502639770507812,
+      "tolerance": 0.13349597930908202,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/frames/0067.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/frames/0071.npz"
+      ],
+      "source_frame_sha256": [
+        "22de308ae90700fd79f9ad1de0f57848006a34810dc547a3eba1e422427a60f3",
+        "1443ed6483efc2f05f7079644d987f698cee51863c228394247418b265cfe025"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0019097328186035156,
+      "tolerance": 0.13031840324401855,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/frames/0067.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/frames/0071.npz"
+      ],
+      "source_frame_sha256": [
+        "22de308ae90700fd79f9ad1de0f57848006a34810dc547a3eba1e422427a60f3",
+        "1443ed6483efc2f05f7079644d987f698cee51863c228394247418b265cfe025"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "anchor": 56,
+      "h": 8,
+      "future": 64,
+      "max_error": 0.0018191337585449219,
+      "tolerance": 0.10846954345703125,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/frames/0056.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/frames/0064.npz"
+      ],
+      "source_frame_sha256": [
+        "901446ed2517ea663eae30666c3eadb01d9c760d420b090afcab2f51d89b3efa",
+        "e52000b3f06974a8ca2148536590e8bc078942ac18564ccf9a0897dd86022396"
+      ]
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "anchor": 56,
+      "h": 8,
+      "future": 64,
+      "max_error": 0.0017552375793457031,
+      "tolerance": 0.11305996894836426,
+      "source_frame_files": [
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/frames/0056.npz",
+        "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/frames/0064.npz"
+      ],
+      "source_frame_sha256": [
+        "901446ed2517ea663eae30666c3eadb01d9c760d420b090afcab2f51d89b3efa",
+        "e52000b3f06974a8ca2148536590e8bc078942ac18564ccf9a0897dd86022396"
+      ]
+    }
+  ],
+  "selection": "seed20261023 choose3 episodes before model scoring, horizons1/4/8",
+  "same_preprocessing": true,
+  "no_new_training": true,
+  "ECC_increment": false
+}

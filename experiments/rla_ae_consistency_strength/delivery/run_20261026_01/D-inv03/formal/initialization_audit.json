@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "all_trainable_parameters_equal_common_step0": true,
+  "CPU_CUDA_RNG_equal_common_step0": true,
+  "original_initialization_hash": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66",
+  "sampling_order_sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13",
+  "optimizer_initially_empty": true,
+  "policy_lr": 0.0002,
+  "lambda_aux": 0.22408536585365854,
+  "scheduler_order": "optimizer.step then scheduler.step; milestone600, gamma0.1; no reduced-LR update in600",
+  "new_target_reader_audit": "${PROJECT_ROOT}/experiments/rla_ae_consistency_strength/run_20261026_01/target_readiness.json",
+  "keep": false,
+  "teacher": false,
+  "optimizer_updates": 0
+}

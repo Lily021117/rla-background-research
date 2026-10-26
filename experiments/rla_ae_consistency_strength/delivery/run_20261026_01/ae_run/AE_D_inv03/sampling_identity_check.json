@@ -1,0 +1,6 @@
+{
+  "source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/sampling_order.json",
+  "exact_order_match": true,
+  "physical_samples": 4800,
+  "optimizer_updates": 0
+}

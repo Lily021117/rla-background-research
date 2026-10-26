@@ -1,0 +1,103 @@
+{
+  "status": "PASS_PROCESS_NOT_METHOD",
+  "AE_successful_updates": 600,
+  "policy_successful_updates": 600,
+  "AE_actual_computed_updates": 600,
+  "policy_actual_computed_updates": 600,
+  "known_replay_updates": 0,
+  "valid_rollouts": 60,
+  "actual_attempts": 60,
+  "invalid_rollouts": 0,
+  "sealed_test_reads": 0,
+  "teacher_updates": 0,
+  "protected_inputs": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_01/downloads/extracted/runs/16x64_libero/20260725_00-39-52/config.yaml",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_01/downloads/extracted/runs/16x64_libero/20260725_00-39-52/ckpts/encoder_step0090000.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_01/downloads/extracted/runs/16x64_libero/20260725_00-39-52/ckpts/decoder_step0090000.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_08/policy_readiness_retry1/isolated_smoke/common_policy_step0.pt",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/frozen_dataset_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/normalization_statistics_expanded_train_only.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/training_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/run_plan.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/per_trial_results.json",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/data_manifest.json",
+      "unchanged": true
+    }
+  ],
+  "policy_initialization": {
+    "status": "PASS",
+    "all_trainable_parameters_equal_common_step0": true,
+    "CPU_CUDA_RNG_equal_common_step0": true,
+    "original_initialization_hash": "ba019970f368f8843c9107c99b1a30f9779e86bc44da7d831a002d6c6e043f66",
+    "sampling_order_sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13",
+    "optimizer_initially_empty": true,
+    "policy_lr": 0.0002,
+    "lambda_aux": 0.22408536585365854,
+    "scheduler_order": "optimizer.step then scheduler.step; milestone600, gamma0.1; no reduced-LR update in600",
+    "new_target_reader_audit": "${PROJECT_ROOT}/experiments/rla_ae_consistency_strength/run_20261026_01/target_readiness.json",
+    "keep": false,
+    "teacher": false,
+    "optimizer_updates": 0
+  },
+  "target_readiness": "PASS",
+  "AE_acceptance": {
+    "status": "PASS_TRAINING_NOT_METHOD",
+    "successful_updates": 600,
+    "lambda_cons": 0.0027383394816217098,
+    "strict_matching_encoder_decoder_reload": true,
+    "ECC_increment": false,
+    "peak_allocated": 8336209408,
+    "seconds": 941.8771276473999
+  },
+  "policy_acceptance": {
+    "status": "PASS_TRAINING_NOT_METHOD",
+    "successful_updates": 600,
+    "strict_reload": true,
+    "seconds": 2557.6666791439056,
+    "peak_allocated": 20397878784,
+    "physical_exposures": 4800,
+    "appearance_exposures": 9600,
+    "ECC_increment": false
+  },
+  "no_auto_extension": true
+}

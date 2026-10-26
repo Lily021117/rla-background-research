@@ -1,0 +1,1517 @@
+{
+  "status": "PASS_CACHE_RECOMPUTE",
+  "formula": "future=min(t+h,N-1), h1..8 anchored on t",
+  "shape": "(N,8,16,64)",
+  "appearances_separate_roots": true,
+  "models_separate_roots": true,
+  "camera_order": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "invalid_tail_masked_not_real_targets": true,
+  "common_normalization": "Base store stats are AE-C training statistics; raw_target_statistics contains each encoder own training mean. Policy reader centering override is audited separately in target_readiness.json.",
+  "checks": [
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0014066696166992188,
+      "tolerance": 0.09963750839233398
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0015554428100585938,
+      "tolerance": 0.09164299964904786
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "clean",
+      "anchor": 73,
+      "h": 4,
+      "future": 77,
+      "max_error": 0.0018215179443359375,
+      "tolerance": 0.09943614006042481
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0016846656799316406,
+      "tolerance": 0.09687227249145508
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0011811256408691406,
+      "tolerance": 0.10439748764038086
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "clean",
+      "anchor": 91,
+      "h": 4,
+      "future": 95,
+      "max_error": 0.0017971992492675781,
+      "tolerance": 0.09627163887023926
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019335746765136719,
+      "tolerance": 0.09503867149353028
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018420219421386719,
+      "tolerance": 0.09168785095214844
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "clean",
+      "anchor": 65,
+      "h": 4,
+      "future": 69,
+      "max_error": 0.0017375946044921875,
+      "tolerance": 0.09246524810791015
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015535354614257812,
+      "tolerance": 0.09134928703308105
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016884803771972656,
+      "tolerance": 0.09262817382812501
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "clean",
+      "anchor": 58,
+      "h": 4,
+      "future": 62,
+      "max_error": 0.001918792724609375,
+      "tolerance": 0.0994100570678711
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0011510848999023438,
+      "tolerance": 0.09560462951660156
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0017352104187011719,
+      "tolerance": 0.10117365837097168
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "clean",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0019030570983886719,
+      "tolerance": 0.09988703727722169
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015444755554199219,
+      "tolerance": 0.09804749488830566
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019016265869140625,
+      "tolerance": 0.09137083053588867
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "clean",
+      "anchor": 70,
+      "h": 4,
+      "future": 74,
+      "max_error": 0.0014243125915527344,
+      "tolerance": 0.0946097183227539
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017261505126953125,
+      "tolerance": 0.09836845397949219
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0012717247009277344,
+      "tolerance": 0.09695146560668945
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "clean",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.0019278526306152344,
+      "tolerance": 0.09506317138671876
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018744468688964844,
+      "tolerance": 0.09433751106262207
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018677711486816406,
+      "tolerance": 0.09537029266357422
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "clean",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0016946792602539062,
+      "tolerance": 0.0935326099395752
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019512176513671875,
+      "tolerance": 0.09804295539855958
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0012745857238769531,
+      "tolerance": 0.09850666999816894
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "clean",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0012254714965820312,
+      "tolerance": 0.12291513442993164
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018000602722167969,
+      "tolerance": 0.08972350120544434
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.001552581787109375,
+      "tolerance": 0.08573047637939453
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "clean",
+      "anchor": 63,
+      "h": 4,
+      "future": 67,
+      "max_error": 0.0019378662109375,
+      "tolerance": 0.10230332374572754
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0009889602661132812,
+      "tolerance": 0.09766255378723145
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.001918792724609375,
+      "tolerance": 0.0935800838470459
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "clean",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.00176239013671875,
+      "tolerance": 0.0971610450744629
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0013208389282226562,
+      "tolerance": 0.09846258163452148
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016736984252929688,
+      "tolerance": 0.09576352119445801
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "clean",
+      "anchor": 60,
+      "h": 4,
+      "future": 64,
+      "max_error": 0.0018968582153320312,
+      "tolerance": 0.09865474700927734
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017876625061035156,
+      "tolerance": 0.09709506034851074
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0017976760864257812,
+      "tolerance": 0.09355157852172852
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "clean",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0018906593322753906,
+      "tolerance": 0.09750085830688476
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0016770362854003906,
+      "tolerance": 0.0972977638244629
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019173622131347656,
+      "tolerance": 0.09369678497314453
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "clean",
+      "anchor": 58,
+      "h": 4,
+      "future": 62,
+      "max_error": 0.0013718605041503906,
+      "tolerance": 0.091511812210083
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017638206481933594,
+      "tolerance": 0.0968519115447998
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0015730857849121094,
+      "tolerance": 0.10240859031677246
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "clean",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0018415451049804688,
+      "tolerance": 0.09830047607421875
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0016927719116210938,
+      "tolerance": 0.09026060104370118
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018377304077148438,
+      "tolerance": 0.0965514087677002
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "clean",
+      "anchor": 61,
+      "h": 4,
+      "future": 65,
+      "max_error": 0.0019130706787109375,
+      "tolerance": 0.09487727165222168
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018777847290039062,
+      "tolerance": 0.09352956771850586
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016603469848632812,
+      "tolerance": 0.09283194541931153
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "clean",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0018205642700195312,
+      "tolerance": 0.0960483455657959
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018205642700195312,
+      "tolerance": 0.09990230560302735
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0015006065368652344,
+      "tolerance": 0.09346691131591797
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "clean",
+      "anchor": 65,
+      "h": 4,
+      "future": 69,
+      "max_error": 0.0018496513366699219,
+      "tolerance": 0.08616436958312988
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0014200210571289062,
+      "tolerance": 0.09883872985839844
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018963813781738281,
+      "tolerance": 0.09483016967773437
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "clean",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0019068717956542969,
+      "tolerance": 0.10007283210754395
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019183158874511719,
+      "tolerance": 0.10003975868225098
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.001941680908203125,
+      "tolerance": 0.08948226928710938
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "clean",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0018486976623535156,
+      "tolerance": 0.09599916458129883
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0009765625,
+      "tolerance": 0.09757268905639649
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018720626831054688,
+      "tolerance": 0.0948728084564209
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "clean",
+      "anchor": 60,
+      "h": 4,
+      "future": 64,
+      "max_error": 0.0019497871398925781,
+      "tolerance": 0.09758209228515625
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015835762023925781,
+      "tolerance": 0.09614800453186036
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019183158874511719,
+      "tolerance": 0.09824037551879883
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "clean",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.0018982887268066406,
+      "tolerance": 0.10624052047729493
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017514228820800781,
+      "tolerance": 0.09149378776550293
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019488334655761719,
+      "tolerance": 0.09512392997741699
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "clean",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0019292831420898438,
+      "tolerance": 0.0927729606628418
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0012388229370117188,
+      "tolerance": 0.10649791717529297
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019216537475585938,
+      "tolerance": 0.09823097229003906
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "clean",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0019502639770507812,
+      "tolerance": 0.13349597930908202
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018553733825683594,
+      "tolerance": 0.09655394554138184
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016217231750488281,
+      "tolerance": 0.09363944053649903
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "clean",
+      "anchor": 56,
+      "h": 4,
+      "future": 60,
+      "max_error": 0.0018391609191894531,
+      "tolerance": 0.09756688117980958
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019044876098632812,
+      "tolerance": 0.09567462921142578
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.001708984375,
+      "tolerance": 0.0922519588470459
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_0_v1",
+      "appearance": "background",
+      "anchor": 73,
+      "h": 4,
+      "future": 77,
+      "max_error": 0.0017728805541992188,
+      "tolerance": 0.10391332626342774
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0014810562133789062,
+      "tolerance": 0.09513394355773926
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018124580383300781,
+      "tolerance": 0.09732236862182618
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_3_v1",
+      "appearance": "background",
+      "anchor": 91,
+      "h": 4,
+      "future": 95,
+      "max_error": 0.0017704963684082031,
+      "tolerance": 0.09555494308471679
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0010485649108886719,
+      "tolerance": 0.09843625068664551
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019097328186035156,
+      "tolerance": 0.09748299598693848
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_5_v1",
+      "appearance": "background",
+      "anchor": 65,
+      "h": 4,
+      "future": 69,
+      "max_error": 0.0015597343444824219,
+      "tolerance": 0.09768665313720704
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018014907836914062,
+      "tolerance": 0.0950586223602295
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019483566284179688,
+      "tolerance": 0.09893956184387208
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_12_v1",
+      "appearance": "background",
+      "anchor": 58,
+      "h": 4,
+      "future": 62,
+      "max_error": 0.0013399124145507812,
+      "tolerance": 0.09585409164428711
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.001796722412109375,
+      "tolerance": 0.09911345481872559
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018434524536132812,
+      "tolerance": 0.10405135154724121
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_16_v1",
+      "appearance": "background",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0019297599792480469,
+      "tolerance": 0.10814967155456544
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017685890197753906,
+      "tolerance": 0.09916921615600587
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0015130043029785156,
+      "tolerance": 0.09178550720214844
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_36_v1",
+      "appearance": "background",
+      "anchor": 70,
+      "h": 4,
+      "future": 74,
+      "max_error": 0.0013804435729980469,
+      "tolerance": 0.09455032348632812
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018925666809082031,
+      "tolerance": 0.09849153518676758
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.00164031982421875,
+      "tolerance": 0.09298940658569337
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_15_v1",
+      "appearance": "background",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.0013952255249023438,
+      "tolerance": 0.09450334548950196
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018000602722167969,
+      "tolerance": 0.09683899879455567
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016698837280273438,
+      "tolerance": 0.09079456329345703
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_10_v1",
+      "appearance": "background",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0019497871398925781,
+      "tolerance": 0.08999895095825196
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0017418861389160156,
+      "tolerance": 0.09699641227722168
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019288063049316406,
+      "tolerance": 0.09883942604064942
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_31_v1",
+      "appearance": "background",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0018777847290039062,
+      "tolerance": 0.09711830139160156
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018067359924316406,
+      "tolerance": 0.09480978012084962
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016126632690429688,
+      "tolerance": 0.09053950309753418
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_30_v1",
+      "appearance": "background",
+      "anchor": 63,
+      "h": 4,
+      "future": 67,
+      "max_error": 0.0017867088317871094,
+      "tolerance": 0.0958485507965088
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0011091232299804688,
+      "tolerance": 0.09405740737915039
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019440650939941406,
+      "tolerance": 0.0970869255065918
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_48_v1",
+      "appearance": "background",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.0018749237060546875,
+      "tolerance": 0.09615886688232422
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019235610961914062,
+      "tolerance": 0.09907578468322754
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016155242919921875,
+      "tolerance": 0.10115642547607422
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_37_v1",
+      "appearance": "background",
+      "anchor": 60,
+      "h": 4,
+      "future": 64,
+      "max_error": 0.0017952919006347656,
+      "tolerance": 0.0892546558380127
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0009775161743164062,
+      "tolerance": 0.09827007293701172
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0017933845520019531,
+      "tolerance": 0.10105788230895996
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_9_v1",
+      "appearance": "background",
+      "anchor": 68,
+      "h": 4,
+      "future": 72,
+      "max_error": 0.0014104843139648438,
+      "tolerance": 0.0983094596862793
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0016984939575195312,
+      "tolerance": 0.10069090843200684
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018901824951171875,
+      "tolerance": 0.0962727928161621
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_47_v1",
+      "appearance": "background",
+      "anchor": 58,
+      "h": 4,
+      "future": 62,
+      "max_error": 0.00148773193359375,
+      "tolerance": 0.0925966453552246
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0018725395202636719,
+      "tolerance": 0.09597437858581544
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.00194549560546875,
+      "tolerance": 0.09695710182189941
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_6_v1",
+      "appearance": "background",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0017595291137695312,
+      "tolerance": 0.09274812698364258
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.00194549560546875,
+      "tolerance": 0.09569117546081543
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0017838478088378906,
+      "tolerance": 0.09465182304382325
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_7_v1",
+      "appearance": "background",
+      "anchor": 61,
+      "h": 4,
+      "future": 65,
+      "max_error": 0.0018630027770996094,
+      "tolerance": 0.10496273994445801
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015492439270019531,
+      "tolerance": 0.09537846565246583
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016846656799316406,
+      "tolerance": 0.09483209609985352
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_32_v1",
+      "appearance": "background",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0016150474548339844,
+      "tolerance": 0.09464167594909668
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015354156494140625,
+      "tolerance": 0.09804667472839355
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018024444580078125,
+      "tolerance": 0.09052380561828613
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_13_v1",
+      "appearance": "background",
+      "anchor": 65,
+      "h": 4,
+      "future": 69,
+      "max_error": 0.0018706321716308594,
+      "tolerance": 0.09243851661682129
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0009768009185791016,
+      "tolerance": 0.09789271354675293
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018939971923828125,
+      "tolerance": 0.10144412994384766
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_29_v1",
+      "appearance": "background",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0018100738525390625,
+      "tolerance": 0.10578922271728516
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019154548645019531,
+      "tolerance": 0.09871169090270997
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.00164031982421875,
+      "tolerance": 0.09575690269470215
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_28_v1",
+      "appearance": "background",
+      "anchor": 66,
+      "h": 4,
+      "future": 70,
+      "max_error": 0.0019354820251464844,
+      "tolerance": 0.09451321601867677
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0009720325469970703,
+      "tolerance": 0.10219889640808105
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0016946792602539062,
+      "tolerance": 0.09992874145507813
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_19_v1",
+      "appearance": "background",
+      "anchor": 60,
+      "h": 4,
+      "future": 64,
+      "max_error": 0.0016484260559082031,
+      "tolerance": 0.0977843952178955
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019083023071289062,
+      "tolerance": 0.09785664558410645
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0013103485107421875,
+      "tolerance": 0.09867727279663085
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_18_v1",
+      "appearance": "background",
+      "anchor": 64,
+      "h": 4,
+      "future": 68,
+      "max_error": 0.0018625259399414062,
+      "tolerance": 0.09826321601867676
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0019159317016601562,
+      "tolerance": 0.09336078643798829
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019459724426269531,
+      "tolerance": 0.09855483055114746
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_38_v1",
+      "appearance": "background",
+      "anchor": 62,
+      "h": 4,
+      "future": 66,
+      "max_error": 0.0018548965454101562,
+      "tolerance": 0.09476705551147462
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0015888214111328125,
+      "tolerance": 0.1018632984161377
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0019383430480957031,
+      "tolerance": 0.09774150848388673
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_45_v1",
+      "appearance": "background",
+      "anchor": 67,
+      "h": 4,
+      "future": 71,
+      "max_error": 0.0019097328186035156,
+      "tolerance": 0.13031840324401855
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 1,
+      "future": 1,
+      "max_error": 0.0014853477478027344,
+      "tolerance": 0.09911803245544434
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "anchor": 0,
+      "h": 8,
+      "future": 8,
+      "max_error": 0.0018439292907714844,
+      "tolerance": 0.09653078079223633
+    },
+    {
+      "model": "D",
+      "episode": "derived_stove_demo_14_v1",
+      "appearance": "background",
+      "anchor": 56,
+      "h": 4,
+      "future": 60,
+      "max_error": 0.001522064208984375,
+      "tolerance": 0.10756495475769043
+    }
+  ],
+  "source_image_recompute": "pending independent raw RGB check in separate audit",
+  "policy_updates": 0
+}

@@ -1,0 +1,27 @@
+{
+  "frozen": true,
+  "arm": "D-inv03",
+  "AE_updates": 600,
+  "policy_updates": 600,
+  "valid_rollouts": 60,
+  "lambda_inv_old": 0.009127798272072366,
+  "lambda_inv_new": 0.0027383394816217098,
+  "lambda_aux": 0.22408536585365854,
+  "policy_lr": 0.0002,
+  "policy_scheduler": "optimizer.step then scheduler.step; milestone600; all600 updates LR2e-4; checkpoint LR2e-5 after last scheduler call",
+  "historical_AE_active": {
+    "C": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_C_recovery1",
+    "D": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1"
+  },
+  "expected_AE_order": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/AE_D_recovery1/sampling_order.json",
+  "only_intended_change": "AE consistency coefficient and derived target/own training center",
+  "historical_C_target_center": "own C mean",
+  "historical_D_target_center": "own D mean",
+  "common_scale_source": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/normalization.json",
+  "no_keep": true,
+  "no_teacher": true,
+  "no_new_seed": true,
+  "no_sealed_reads": true,
+  "sidecar_storage_alias": "D directory denotes this run D-inv03 only, never historical D",
+  "source_commit": "3aacdffd6938f3f6d37d532038b1cc0a36f9fccc"
+}
