@@ -1,0 +1,17 @@
+{
+  "status": "PUSHED_VERIFIED",
+  "repository": "https://github.com/Lily021117/rla-background-research",
+  "visibility": "public; user authorized sanitized publication",
+  "branch": "experiments/rla-policy-seed-replication",
+  "commit": "7772a90a883ac13b959cf4ba73d2d780337a866d",
+  "remote_commit": "7772a90a883ac13b959cf4ba73d2d780337a866d",
+  "scope": "source, configuration, sanitized report and small metrics",
+  "excluded": [
+    "weights",
+    "raw data",
+    "videos",
+    "trajectories",
+    "sidecars",
+    "credentials"
+  ]
+}

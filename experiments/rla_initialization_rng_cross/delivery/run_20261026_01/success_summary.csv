@@ -1,0 +1,13 @@
+cell,condition,successes,trials
+I23_T23,clean,20,20
+I23_T23,seen_background,19,20
+I23_T23,unseen_background,20,20
+I29_T29,clean,2,20
+I29_T29,seen_background,2,20
+I29_T29,unseen_background,0,20
+I23_T29,clean,1,20
+I23_T29,seen_background,0,20
+I23_T29,unseen_background,0,20
+I29_T23,clean,20,20
+I29_T23,seen_background,19,20
+I29_T23,unseen_background,17,20

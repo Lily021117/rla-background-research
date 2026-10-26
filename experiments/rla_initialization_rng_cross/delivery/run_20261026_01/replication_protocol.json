@@ -1,0 +1,49 @@
+{
+  "experiment": "C initialization x training randomness crossover",
+  "seeds": [
+    20261029,
+    20261023
+  ],
+  "cells": [
+    {
+      "initialization": 20261023,
+      "training_rng": 20261029
+    },
+    {
+      "initialization": 20261029,
+      "training_rng": 20261023
+    }
+  ],
+  "fixed_before_new_results": true,
+  "methods": [
+    "C"
+  ],
+  "updates_per_cell": 600,
+  "total_new_updates": 1200,
+  "new_valid_rollouts": 120,
+  "AE_updates": 0,
+  "historical_cells": [
+    "I23_T23",
+    "I29_T29"
+  ],
+  "selection": "previously discussed seed29; not selected using seed30 outcome",
+  "only_variables": "initial step0 parameter donor and saved training RNG/sample-order donor",
+  "LR": 0.0002,
+  "lambda_aux": 0.22408536585365854,
+  "scheduler": "MultiStepLR[600], gamma=.1, AFTER optimizer; all600 updates2e-4",
+  "AE_target": "frozen historical AE-C, original C mean and scale",
+  "optimizer": "AdamW",
+  "batch": 16,
+  "microbatch": 8,
+  "accumulation": 2,
+  "backend": "Math SDPA",
+  "dtype": "BF16",
+  "activation_checkpointing": true,
+  "checkpoint_selection": "final600 only",
+  "keep": false,
+  "teacher": false,
+  "sealed_reads": 0,
+  "no_automatic_extra_runs": true,
+  "waiting_for": "<PROJECT_ROOT>/experiments/rla_policy_seed_replication/run_20261026_02/github_sync_report.json",
+  "interpretation": "2x2 development diagnostic, not independent test; history may differ in hardware/time; no unique-root-cause claim"
+}

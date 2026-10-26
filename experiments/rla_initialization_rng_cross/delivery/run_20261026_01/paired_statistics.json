@@ -1,0 +1,45 @@
+{
+  "init_effect_training23": {
+    "difference": -0.05,
+    "state_cluster_CI95": [
+      -0.11666666666666667,
+      0.016666666666666666
+    ],
+    "gains": 1,
+    "losses": 4
+  },
+  "init_effect_training29": {
+    "difference": 0.05,
+    "state_cluster_CI95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "gains": 3,
+    "losses": 0
+  },
+  "training_effect_init23": {
+    "difference": -0.9666666666666667,
+    "state_cluster_CI95": [
+      -1.0,
+      -0.9166666666666666
+    ],
+    "gains": 0,
+    "losses": 58
+  },
+  "training_effect_init29": {
+    "difference": -0.8666666666666667,
+    "state_cluster_CI95": [
+      -0.9666666666666667,
+      -0.75
+    ],
+    "gains": 0,
+    "losses": 52
+  },
+  "interaction": {
+    "difference": 0.1,
+    "state_cluster_CI95": [
+      0.0,
+      0.21666666666666667
+    ]
+  }
+}

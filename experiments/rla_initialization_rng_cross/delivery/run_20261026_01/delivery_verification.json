@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "policy_updates": 1200,
+  "AE_updates": 0,
+  "valid_new_rollouts": 120,
+  "sealed_reads": 0,
+  "source_hashes_unchanged": true,
+  "history_reused": true,
+  "automatic_additional_experiments": false
+}
