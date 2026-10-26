@@ -1,9 +1,9 @@
 """Re-extract selected source images and compare persisted sidecar targets."""
 import argparse
 from common import *
-p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--run',type=Path,required=True);a=p.parse_args();ext,init=load(a.project);before=ecc();es=entries(a.run);rng=np.random.RandomState(20261023);selected=[(es[i],int(h)) for i,h in zip(rng.choice(len(es),3,replace=False),(1,4,8))];rows=[]
+p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--run',type=Path,required=True);p.add_argument('--models',nargs='+',choices=['C','D']);a=p.parse_args();ext,init=load(a.project);before=ecc();es=entries(a.run);rng=np.random.RandomState(20261023);selected=[(es[i],int(h)) for i,h in zip(rng.choice(len(es),3,replace=False),(1,4,8))];rows=[]
 with torch.inference_mode():
-    for arm in ('C','D'):
+    for arm in (a.models or ('C','D')):
         for k,m in ext.models.items():m.load_state_dict(torch.load(armdir(a.run,arm)/f'{k}_step0600.pt',map_location='cuda',weights_only=True),strict=True)
         for e,h in selected:
             t=e['valid_chunks']//2;root=Path(e['root']);labels=np.load(root/'trajectory_labels.npz');index=next(i for i,x in enumerate(es) if x['episode']==e['episode'])

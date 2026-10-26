@@ -125,6 +125,11 @@ def execute(g):
   for k,m in mods.items():full=m.state_dict();full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True)
   opt.load_state_dict(ck['optimizer']);scheduler.load_state_dict(ck['scheduler']);restore(ck)
   g['save']('resume_provenance.json',dict(source=str(resume),restored_step=start_step,model_optimizer_scheduler_RNG_sampler_restored=True,AMP_scaler=None,bfloat16=True));del ck
+ if arm=='D-inv03' and start_step==0:
+  assert all(torch.equal(p.detach().cpu(),initial['parameters'][k][n]) for k,m in mods.items() for n,p in m.named_parameters() if p.requires_grad)
+  assert torch.equal(torch.get_rng_state(),initial['torch_rng']) and all(torch.equal(x,y) for x,y in zip(torch.cuda.get_rng_state_all(),initial['cuda_rng']))
+  assert hashlib.sha256(Path(plan['inputs']['B20_sampling_order']).read_bytes()).hexdigest()==plan['inputs']['B20_sampling_sha256']
+  g['save']('initialization_audit.json',dict(status='PASS',all_trainable_parameters_equal_common_step0=True,CPU_CUDA_RNG_equal_common_step0=True,original_initialization_hash=plan['common_step0_sha256'],sampling_order_sha256=plan['inputs']['B20_sampling_sha256'],optimizer_initially_empty=not opt.state,policy_lr=opt.param_groups[0]['lr'],lambda_aux=lam,scheduler_order='optimizer.step then scheduler.step; milestone600, gamma0.1; no reduced-LR update in600',new_target_reader_audit=str(a.run.parent/'target_readiness.json'),keep=False,teacher=False,optimizer_updates=0))
  snapshot(start_step);validate(start_step);del initial
  fields=['step','action_loss','auxiliary_loss','weighted_auxiliary','total_loss','lr','gradient_vla','gradient_head','gradient_proprio','gradient_aux_head','allocated','reserved','cpu_maxrss_kib','seconds','successful_updates']
  f=(o/'training_metrics.csv').open('x');w=csv.DictWriter(f,fieldnames=fields);w.writeheader();started=time.time()

@@ -14,7 +14,7 @@ def execute(g):
  from libero.libero import get_libero_path
  from experiments.robot.libero.run_libero_eval import process_action
  from stove_postlift.common import metrics as task_metrics
- root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==120
+ root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==len(protocol['models'])*len(protocol['states'])*len(protocol['conditions']) and protocol['trials'] in (60,120)
  basehead=g['head'].cpu();_,_,_=initialize(g);rlahead=g['head'];rlahead.cpu();torch.cuda.empty_cache();model=g['model'];prop=g['prop'];mods=g['mods']
  registry=json.loads((root/os.environ.get('RLA_POLICY_REGISTRY','policy_registry.json')).read_text());paths={k:Path(v) for k,v in registry.items()}
  for arm in paths:
@@ -56,7 +56,7 @@ def execute(g):
    if partial.exists():
     assert not (partial/'result.json').exists(),'unexpected completed result outside ledger'
     interrupted.append(dict(seed=seed,condition=condition,model=arm,path=str(partial),files=[str(p) for p in partial.iterdir()],reason='process interrupted during network interruption; no completed result',status='INVALID_INFRASTRUCTURE_INTERRUPTION'))
-  with (root/'evaluation_resume_audit.json').open('x') as f:json.dump(dict(preserved_valid_trials=len(rows),interrupted_attempts=interrupted,remaining_trials=120-len(rows),protocol_unchanged=True),f,indent=2)
+  with (root/'evaluation_resume_audit.json').open('x') as f:json.dump(dict(preserved_valid_trials=len(rows),interrupted_attempts=interrupted,remaining_trials=protocol['trials']-len(rows),protocol_unchanged=True),f,indent=2)
  # Descriptive stages fixed before viewing outcomes, not ground-truth grasp labels.
  g['save']('failure_stage_rule.json',dict(source='recorded simulator target lift and EE-to-target distance; descriptive proxies only',rules=['success if env.check_success','if target max lift>=0.03m: post_lift_or_placement_failure','else if minimum EE-target center distance<=0.10m: near_target_grasp_or_contact_failure','else approach_failure'],no_new_rollouts_for_diagnosis=True))
  for state in frozen['new_development_states']:
