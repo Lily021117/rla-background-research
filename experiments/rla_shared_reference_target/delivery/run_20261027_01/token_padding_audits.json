@@ -1,0 +1,20 @@
+{
+  "20261101": {
+    "action_labels_equal": true,
+    "action_masks_equal": true,
+    "different_token_ids": 8,
+    "differences_only_in_action_query_replacement_positions": true,
+    "source": "official RLDSBatchTransform random.choices padding; modeling_prismatic._replace_input_embeddings; continuous L1 uses batch actions",
+    "diagnostic_only_RNG_matching": true,
+    "training_unchanged": true
+  },
+  "20261102": {
+    "action_labels_equal": true,
+    "action_masks_equal": true,
+    "different_token_ids": 8,
+    "differences_only_in_action_query_replacement_positions": true,
+    "source": "official RLDSBatchTransform random.choices padding; modeling_prismatic._replace_input_embeddings; continuous L1 uses batch actions",
+    "diagnostic_only_RNG_matching": true,
+    "training_unchanged": true
+  }
+}

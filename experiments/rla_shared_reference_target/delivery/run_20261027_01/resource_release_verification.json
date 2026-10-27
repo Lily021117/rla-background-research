@@ -1,0 +1,6 @@
+{
+  "task_GPU_workers_remaining": [],
+  "task_GPU_processes_released": true,
+  "GPU0_final_check": "memory.free [MiB], ecc.errors.corrected.volatile.total, ecc.errors.uncorrected.volatile.total\n64913 MiB, 0, 0\n",
+  "other_users_processes_untouched": true
+}

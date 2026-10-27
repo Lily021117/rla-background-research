@@ -1,0 +1,10 @@
+{
+  "original_failure": "assertion that independently randomized padding token IDs must match",
+  "source": "official RLDSBatchTransform random.choices padding",
+  "resolution": "verify differences only in action-query replacement positions; match preprocessing Python RNG per pair and across compared frozen policies",
+  "original_failed_output_preserved": true,
+  "extra_optimizer_updates": 0,
+  "extra_backward": 0,
+  "extra_rollouts": 0,
+  "changed_training_or_deployment": false
+}
