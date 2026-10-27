@@ -133,6 +133,12 @@ def analyze(out):
    flips.append(dict(order_seed=seed,state=key[0],appearance=key[1],C=int(c['success']),D_center=int(d['success']),difference=int(d['success'])-int(c['success'])))
  table(out/'success_summary.csv',rates);table(out/'paired_results.csv',flips);table(out/'failure_stage_summary.csv',phases);table(out/'checkpoint_inventory.csv',inventory);table(out/'training_metrics.csv',metrics);table(out/'validation_metrics.csv',validation)
  save(out/'per_trial_results.json',trial_rows);save(out/'paired_matching_audit.json',checks)
+ replay_root=out/'seed_20261102/D-center'
+ prior={int(r['step']):r for r in csv.DictReader((replay_root/'formal/training_metrics.csv').open())}
+ replay=[r for r in csv.DictReader((replay_root/'gpu0_resume300/training_metrics.csv').open()) if int(r['step'])<=400]
+ keys=['action_loss','auxiliary_loss','total_loss','lr']
+ assert len(replay)==100
+ save(out/'replay_numerical_audit.json',dict(replayed_steps=100,comparison_fields=keys,exact_rows=sum(all(r[k]==prior[int(r['step'])][k] for k in keys) for r in replay),scope='logged losses/LR only; not a proof of bitwise parameter or cross-device equivalence'))
  rng=np.random.RandomState(20261027);ix=rng.randint(0,20,(20000,20));stats=[];interactions=[]
  def stat(label,d):return dict(comparison=label,difference=float(d.mean()),physical_state_cluster_CI95=np.quantile(d[ix].mean(axis=tuple(range(1,d[ix].ndim))),[.025,.975]).tolist())
  diffs=[]
@@ -173,7 +179,7 @@ def analyze(out):
 
 def publish(out):
  dest=HERE/'delivery'/out.name;dest.mkdir(parents=True,exist_ok=False)
- names=['report.md','replication_protocol.json','configuration_matching_audit.json','frozen_target_audit.json','paired_matching_audit.json','success_summary.csv','paired_results.csv','paired_statistics.json','failure_stage_summary.csv','checkpoint_inventory.csv','delivery_verification.json','training_metrics.csv','execution_started.json']
+ names=['report.md','replication_protocol.json','configuration_matching_audit.json','frozen_target_audit.json','paired_matching_audit.json','success_summary.csv','paired_results.csv','paired_statistics.json','failure_stage_summary.csv','checkpoint_inventory.csv','delivery_verification.json','training_metrics.csv','execution_started.json','gpu0_recovery_audit.json','replay_numerical_audit.json']
  for name in names:
   text=(out/name).read_text().replace(str(R),'<PROJECT_ROOT>');text=re.sub(r'GPU-[0-9a-f-]{36}','<GPU_UUID>',text)
   assert len(text)<5_000_000 and not re.search(r'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN .*PRIVATE KEY',text)
