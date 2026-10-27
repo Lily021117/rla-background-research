@@ -96,7 +96,9 @@ def analyze(out):
  for seed in SEEDS:
   groups={}
   for method,root,arm in [('C',C_RUN/f'seed_{seed}','C'),('D-center',out/f'seed_{seed}','D-center')]:
-   formal=root/arm/'formal';rr=read(root/'per_trial_results.json');assert len(rr)==60 and all(r['status']=='COMPLETE' for r in rr)
+   original=root/arm/'formal'
+   formal=(root/arm/'gpu0_resume300') if method=='D-center' and seed==20261102 else original
+   rr=read(root/'per_trial_results.json');assert len(rr)==60 and all(r['status']=='COMPLETE' for r in rr)
    groups[method]={(r['seed'],r['condition']):r for r in rr};states=sorted({r['seed'] for r in rr})
    if state_ids is None:state_ids=states
    assert state_ids==states and len(states)==20
@@ -109,12 +111,19 @@ def analyze(out):
    assert all(int(x['step'])==600 for x in ck['optimizer']['state'].values());del ck
    inventory.append(dict(order_seed=seed,method=method,path=str(ckpath),sha256=sha(ckpath),step=600,reused=method=='C'))
    assert read(formal/'training_acceptance.json')['strict_reload']
-   ts=list(csv.DictReader((formal/'training_metrics.csv').open()));assert len(ts)==600 and all(float(r['lr'])==.0002 for r in ts)
+   ts=list(csv.DictReader((formal/'training_metrics.csv').open()))
+   if formal!=original:ts=[r for r in csv.DictReader((original/'training_metrics.csv').open()) if int(r['step'])<=300]+ts
+   assert [int(r['step']) for r in ts]==list(range(1,601)) and all(float(r['lr'])==.0002 for r in ts)
    metrics.extend(dict(order_seed=seed,method=method,**r) for r in ts)
-   vs=list(csv.DictReader((formal/'validation_metrics.csv').open()));validation.extend(dict(order_seed=seed,method=method,**r) for r in vs)
+   vs=list(csv.DictReader((formal/'validation_metrics.csv').open()))
+   if formal!=original:vs=[r for r in csv.DictReader((original/'validation_metrics.csv').open()) if int(r['step'])<300]+vs
+   validation.extend(dict(order_seed=seed,method=method,**r) for r in vs)
   croot=C_RUN/f'seed_{seed}'/'C/formal';droot=out/f'seed_{seed}'/'D-center/formal'
   c0=torch.load(croot/'step0000.pt',map_location='cpu');d0=torch.load(droot/'step0000.pt',map_location='cpu');same_parameters(c0['parameters'],d0['parameters']);same_rng(c0,d0);assert not d0['optimizer']['state'];del c0,d0
-  ct=[json.loads(x) for x in (croot/'actual_sample_ids.jsonl').read_text().splitlines()];dt=[json.loads(x) for x in (droot/'actual_sample_ids.jsonl').read_text().splitlines()];assert ct==dt and len(dt)==600
+  ct=[json.loads(x) for x in (croot/'actual_sample_ids.jsonl').read_text().splitlines()];dt=[json.loads(x) for x in (droot/'actual_sample_ids.jsonl').read_text().splitlines()]
+  if seed==20261102:
+   dt=[r for r in dt if r['step']<=300]+[json.loads(x) for x in (droot.parent/'gpu0_resume300/actual_sample_ids.jsonl').read_text().splitlines()]
+  assert ct==dt and len(dt)==600
   cc=read(croot/'execution_configuration.json');dc=read(droot/'execution_configuration.json');assert {k:v for k,v in cc.items() if k!='arm'}=={k:v for k,v in dc.items() if k!='arm'}
   checks.append(dict(order_seed=seed,step0_parameters_RNG_exact=True,actual600_sample_ID_sequences_exact=True,execution_config_exact_except_arm=True))
   assert groups['C'].keys()==groups['D-center'].keys()
@@ -141,7 +150,7 @@ def analyze(out):
  for j,c in enumerate(conditions[1:],1):interactions.append(stat(f'two orders: {c} interaction D-C',mean_diff[:,j]-mean_diff[:,0]))
  save(out/'paired_statistics.json',dict(results=stats,background_interactions=interactions,unit='20 physical states, all orders and appearances kept together',conditional_on_two_orders=True,not_independent_test=True))
  assert all(sha(p)==h for p,h in read(out/'protected_inputs.json').items())
- save(out/'delivery_verification.json',dict(status='COMPLETE_EXECUTION_NOT_METHOD',new_policy_updates=1200,actual_successful_computations=1200,replayed_updates=0,new_valid_rollouts=120,actual_new_attempts=120,invalid_trials=0,C_training_updates=0,C_new_rollouts=0,AE_updates=0,sealed_reads=0,protected_inputs_unchanged=True))
+ save(out/'delivery_verification.json',dict(status='COMPLETE_EXECUTION_NOT_METHOD',new_policy_updates=1200,actual_successful_computations=1300,replayed_updates=100,new_valid_rollouts=120,actual_new_attempts=120,invalid_trials=0,C_training_updates=0,C_new_rollouts=0,AE_updates=0,sealed_reads=0,protected_inputs_unchanged=True,GPU_migration='GPU1 ECC guard at400; restore complete300 on authorized GPU0; both D evaluations GPU0, historical C evaluations GPU1'))
  lines=['# Balanced sampling D-center paired completion','',
   'C reused unchanged; new D-center uses matching C saved step0, exact training RNG and actual sample sequence. Historical AE-D, own mu_D and common s_C; no inv03, AE update or new coefficient.','',
   '| Order | Method | Clean | Seen | Unseen | Mean |','|---|---|---|---|---|---|']
@@ -157,7 +166,8 @@ def analyze(out):
          '- Background interaction must be interpreted with absolute Clean/background rates; loss of Clean ability is not robustness improvement.',
          '- Single task, fixed AE and initialization, reused/tuned development states. C/D target scale/representation differs; common coefficient does not equate gradient strength.',
          '- Historical uniform-window results are references only; balanced sampling changes weights, not merely ordering.',
-         '- Completed1200 new updates and120 new rollouts; C/AE updates0, no extra experiment or sealed data. Same GPU1 as C, previous ECC baseline retained, no increment permitted.']
+         '- Completed1200 effective new updates,1300 actual successful computations including100 replayed updates, and120 new rollouts; C/AE updates0, no extra experiment or sealed data.',
+         '- GPU1 ECC guard stopped order20261102 at400. Complete model/optimizer/scheduler/RNG/sampler checkpoint300 restored on user-authorized GPU0; no hyperparameter changes. All failure logs preserved. Both D evaluations ran on GPU0; historical C evaluations ran on GPU1, a disclosed device difference.']
  with (out/'report.md').open('x') as f:f.write('\n'.join(lines)+'\n')
  print('D_PAIRED_COMPLETION_FINISHED',flush=True)
 
