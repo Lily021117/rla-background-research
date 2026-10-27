@@ -11,7 +11,10 @@ env.update(RLA_GPU_UUID=gpu,CUDA_VISIBLE_DEVICES=gpu,RLA_MIN_FREE_GIB='26',PYTHO
 env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+str(src)+':'+str(src/'official_libero_rla_consistency')+':'+env.get('PYTHONPATH','')
 arm,entry={'gate':('preflight','stove_centering.training'),'train':('C-shared-target','stove_centering.training'),'evaluate':('evaluation','rla_lr_budget_sweep.extend_evaluation'),'representation':('representation','rla_shared_reference_target.representation')}[a.stage]
 if a.stage=='train':assert json.loads((a.out/'seed_20261101/preflight/formal/shared_reference_gate.json').read_text())['status']=='PASS'
-cmd=[sys.executable,'-u',str(src/'rla_lr_budget_sweep/bootstrap.py'),'--out',str(run),'--arm',arm,'--entry',entry,'--attempt','formal'];t=time.time()
-with (run/(a.stage+'.log')).open('x') as f:result=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT)
-with (run/(a.stage+'_process.json')).open('x') as f:json.dump(dict(returncode=result.returncode,seconds=time.time()-t,command=cmd),f,indent=2)
+attempt=os.environ.get('SHARED_DIAGNOSTIC_ATTEMPT','formal')
+assert attempt=='formal' or a.stage=='representation','alternate attempt only for frozen diagnostic'
+suffix='' if attempt=='formal' else '_'+attempt
+cmd=[sys.executable,'-u',str(src/'rla_lr_budget_sweep/bootstrap.py'),'--out',str(run),'--arm',arm,'--entry',entry,'--attempt',attempt];t=time.time()
+with (run/(a.stage+suffix+'.log')).open('x') as f:result=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT)
+with (run/(a.stage+suffix+'_process.json')).open('x') as f:json.dump(dict(returncode=result.returncode,seconds=time.time()-t,command=cmd),f,indent=2)
 sys.exit(result.returncode)

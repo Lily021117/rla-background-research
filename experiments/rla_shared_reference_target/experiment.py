@@ -76,7 +76,8 @@ def analyze(out):
   cc=read(C_RUN/f'seed_{seed}/C/formal/execution_configuration.json');new=read(formal/'execution_configuration.json');assert {k:v for k,v in cc.items() if k!='arm'}=={k:v for k,v in new.items() if k!='arm'}
   checks.append(dict(seed=seed,initial_parameters_RNG_match=True,actual600_sample_ID_rows_exact=True,execution_configuration_except_arm_exact=True))
   training.extend(dict(order_seed=seed,**r) for r in csv.DictReader((formal/'training_metrics.csv').open()));validation.extend(dict(order_seed=seed,**r) for r in csv.DictReader((formal/'validation_metrics.csv').open()))
-  representation.extend(dict(order_seed=seed,**r) for r in csv.DictReader((root/'representation/formal/predicted_representation_metrics.csv').open()))
+  representation_path=root/'representation'/('matched_preprocessing' if seed==20261101 else 'formal')/'predicted_representation_metrics.csv'
+  representation.extend(dict(order_seed=seed,**r) for r in csv.DictReader(representation_path.open()))
   groups={}
   for method,p in [('C',C_RUN/f'seed_{seed}'),('D-center',D_RUN/f'seed_{seed}'),('C-shared-target',root)]:
    rr=read(p/'per_trial_results.json');assert len(rr)==60 and all(r['status']=='COMPLETE' for r in rr)

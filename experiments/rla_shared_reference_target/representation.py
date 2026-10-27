@@ -1,5 +1,5 @@
 """Frozen policy outputs on a predeclared train/development sample set; no updates."""
-import csv,dataclasses,json
+import csv,dataclasses,json,random
 from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
@@ -25,13 +25,28 @@ def execute(g):
   z=pop();capture['z']=z.detach();return z
  head.predict_action=pred;head.pop_z_hat=popz
  wrapped=lossmod.make_run_forward_pass(g['ft'].run_forward_pass);rows=[]
+ # Official mini-VLM transform randomly pads action-token IDs. These IDs
+ # are replaced by action queries; continuous BC labels are not randomized.
+ # Diagnose this explicitly, then match preprocessing RNG for paired inputs.
+ e,t,_=selected[0];probe=collator([ds.sample(e,t,c) for c in ('clean','background')])
+ masks=g['model'].base_model.model._process_action_masks(probe['labels'])
+ assert torch.equal(masks[0],masks[1])
+ for key in ['actions','proprio']:assert torch.equal(probe[key][0],probe[key][1])
+ for key in ['input_ids','labels']:
+  assert not torch.any((probe[key][0]!=probe[key][1]) & ~masks[0])
+ g['save']('token_padding_audit.json',dict(action_labels_equal=True,action_masks_equal=True,different_token_ids=int((probe['input_ids'][0]!=probe['input_ids'][1]).sum()),differences_only_in_action_query_replacement_positions=True,source='official RLDSBatchTransform random.choices padding; modeling_prismatic._replace_input_embeddings; continuous L1 uses batch actions',diagnostic_only_RNG_matching=True,training_unchanged=True))
+ del probe,masks
+ common_python_rng=random.getstate()
  for method,path in paths.items():
+  random.setstate(common_python_rng)
   ck=torch.load(path,map_location='cpu');assert ck['global_step']==600
   for k,m in mods.items():
    full=m.state_dict();full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True);m.eval().requires_grad_(False)
   del ck
   for e,t,split in selected:
-   ex=[ds.sample(e,t,c) for c in ('clean','background')]
+   pair_rng=random.getstate();clean=ds.sample(e,t,'clean');after_clean=random.getstate()
+   random.setstate(pair_rng);background=ds.sample(e,t,'background');random.setstate(after_clean)
+   ex=[clean,background]
    for item in ex:item['rla']=store.frame(slots[e],t)
    b=collator(ex)
    for key in ['actions','proprio','labels','input_ids','rla']:assert torch.equal(b[key][0],b[key][1]),('pair identity mismatch',e,t,key)
