@@ -40,10 +40,12 @@ def execute(g):
    raw=np.load(root/'trajectory_labels.npz')['proprio'];slots[e]={c:stores[c].slot(raw) for c in stores};assert min(slots[e].values())>=0
  order=json.loads(Path(plan['inputs']['B20_sampling_order']).read_text());assert len(order)==4800
  actual_batch_audit=[]
+ sample_trace=[];trace_active=False
  def batch(examples):
   items=[]
   for e,t,c in examples:
    item=ds.sample(e,t,c)
+   if trace_active:sample_trace.append([e,int(t),c])
    if not baseline:item['rla']=stores[c].frame(slots[e][c],t);assert item['rla'].shape==(8,1024)
    items.append(item)
   b=collator(items);b['labels']=b['labels'].cuda();b['proprio']=b['proprio'].cuda();assert int(model._process_action_masks(b['labels']).sum())==len(examples)*g['NUM_TOKENS']
@@ -134,7 +136,9 @@ def execute(g):
  snapshot(start_step);validate(start_step);del initial
  fields=['step','action_loss','auxiliary_loss','weighted_auxiliary','total_loss','lr','gradient_vla','gradient_head','gradient_proprio','gradient_aux_head','allocated','reserved','cpu_maxrss_kib','seconds','successful_updates']
  f=(o/'training_metrics.csv').open('x');w=csv.DictWriter(f,fieldnames=fields);w.writeheader();started=time.time()
+ trace_file=(o/'actual_sample_ids.jsonl').open('x') if plan.get('log_actual_sample_ids',False) else None
  for step in range(start_step+1,601):
+  sample_trace.clear();trace_active=trace_file is not None
   opt.zero_grad(set_to_none=True);examples=[(e,t,c) for e,t in order[(step-1)*8:step*8] for c in ('clean','background')];acts=[];auxs=[];totals=[]
   for start in range(0,16,micro):
    b=batch(examples[start:start+micro]);total=forward(b);assert torch.isfinite(total);m=dict(action_l1=float(total.detach()),rla_loss=0.) if baseline else official_loss.last_metrics();acts.append(m['action_l1']);auxs.append(float(F.l1_loss(capture['z'],b['rla'].cuda().to(capture['z'].dtype)).detach()));totals.append(float(total.detach()));(total/(16//micro)).backward();capture.clear();del total,b
@@ -143,11 +147,16 @@ def execute(g):
    gs=[p.grad.detach().float() for p in m.parameters() if p.grad is not None];assert all(torch.isfinite(x).all() for x in gs);norms[k]=float(torch.stack([x.norm().square() for x in gs]).sum().sqrt())
   auxnorm=sum(float(p.grad.detach().float().square().sum()) for n,p in head.named_parameters() if p.grad is not None and ('z_' in n or 'rla' in n))**.5
   lr=opt.param_groups[0]['lr'];opt.step();scheduler.step();assert all(torch.isfinite(p).all() for p in g['params'])
+  trace_active=False
+  if trace_file is not None:
+   assert sample_trace==[[e,int(t),c] for e,t,c in examples]
+   trace_file.write(json.dumps(dict(step=step,successful_update=True,actual_sample_ids=sample_trace))+'\n');trace_file.flush()
   torch.cuda.empty_cache()
   w.writerow(dict(step=step,action_loss=np.mean(acts),auxiliary_loss=np.mean(auxs),weighted_auxiliary=lam*np.mean(auxs),total_loss=np.mean(totals),lr=lr,gradient_vla=norms['vla'],gradient_head=norms['head'],gradient_proprio=norms['proprio'],gradient_aux_head=auxnorm,allocated=torch.cuda.max_memory_allocated(),reserved=torch.cuda.max_memory_reserved(),cpu_maxrss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,seconds=time.time()-started,successful_updates=step));f.flush()
   if step%25==0:print('POLICY',arm,step,'action',np.mean(acts),'aux',np.mean(auxs),'seconds',time.time()-started,flush=True);assert g['counts'](g['before'])==g['counts'](g['ecc']())
   if step==1:snapshot(step)
   if step in (100,300,600):snapshot(step);validate(step)
+ if trace_file is not None:trace_file.close()
  f.close();vf.close();ck=torch.load(o/'step0600.pt',map_location='cpu');assert ck['global_step']==600 and ck['next_physical_sample']==4800
  for k,m in mods.items():
   full=m.state_dict();full.update(ck['parameters'][k]);m.load_state_dict(full,strict=True)
