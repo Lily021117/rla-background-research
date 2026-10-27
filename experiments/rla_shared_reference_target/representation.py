@@ -33,7 +33,9 @@ def execute(g):
   for e,t,split in selected:
    ex=[ds.sample(e,t,c) for c in ('clean','background')]
    for item in ex:item['rla']=store.frame(slots[e],t)
-   b=collator(ex);b['labels']=b['labels'].cuda();b['proprio']=b['proprio'].cuda()
+   b=collator(ex)
+   for key in ['actions','proprio','labels','input_ids','rla']:assert torch.equal(b[key][0],b[key][1]),('pair identity mismatch',e,t,key)
+   b['labels']=b['labels'].cuda();b['proprio']=b['proprio'].cuda()
    with torch.inference_mode():
     wrapped(vla=g['model'],action_head=SimpleNamespace(module=head),proprio_projector=g['prop'],batch=b,action_tokenizer=g['at'],device_id='cuda',use_l1_regression=True,use_proprio=True,use_film=False,num_patches=g['model'].vision_backbone.get_num_patches()*2,use_pro_version=True,cfg=SimpleNamespace(phase='Inference'))
    z=capture['z'].float();a=capture['action'].float();target=b['rla'].cuda().float();assert torch.isfinite(z).all()
@@ -44,4 +46,4 @@ def execute(g):
     clean_action_L1=float(action_error[0].mean()),background_action_L1=float(action_error[1].mean())))
    capture.clear();del b,z,a,target
  with (g['o']/'predicted_representation_metrics.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
- g['save']('representation_acceptance.json',dict(status='PASS',rows=len(rows),fixed_pairs=len(selected),optimizer_updates=0,backward=0,teacher=False,all_metrics_normalized_with_existing_C_statistics=True,not_evidence_of_invariance_from_target_equality_alone=True))
+ g['save']('representation_acceptance.json',dict(status='PASS',rows=len(rows),fixed_pairs=len(selected),optimizer_updates=0,backward=0,teacher=False,paired_actions_proprio_language_labels_and_targets_exact=True,all_metrics_normalized_with_existing_C_statistics=True,not_evidence_of_invariance_from_target_equality_alone=True))
