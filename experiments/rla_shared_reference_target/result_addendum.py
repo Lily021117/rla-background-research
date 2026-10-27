@@ -53,12 +53,14 @@ lines+=['- 目标相同是人为定义，不能作为学到不变性的证据；
  '## 执行与保护','',
  '- 两组各600次成功更新，共1200；实际更新计算1200，重放0。120次有效闭环、120次尝试、无效0。',
  '- AE/C/D更新0，封存集读取0。关闭共享模式输出/loss/梯度与旧C路径精确一致；Background图像保留；target无梯度且不进入推理输出。',
- '- 两组初始参数与RNG、600步实际采样ID及除方法名外的执行配置均与对应C匹配。历史受保护文件哈希未变。完成后停止，不自动扩量或搜索。']
+ '- 两组初始参数与RNG、600步实际采样ID及除方法名外的执行配置均与对应C匹配。历史受保护文件哈希未变。完成后停止，不自动扩量或搜索。',
+ '- 一次冻结表示诊断因独立随机补齐的动作token ID不相同而断言停止。已保留失败日志；官方RLDSBatchTransform会random.choices补齐64个动作token位置，模型随后将这些位置替换为action queries，连续BC标签另取batch actions。修正仅匹配诊断的两路预处理Python RNG及方法间样本随机序列，并验证原差异只位于替换位置；没有修改训练、权重、部署或闭环结果。重试新增训练更新0、backward0、闭环0。']
 (out/'results_interpretation.md').write_text('\n'.join(lines)+'\n')
 processes=subprocess.check_output(['ps','-eo','pid,args'],text=True);workers=[s for s in processes.splitlines() if 'bootstrap.py' in s and str(out) in s];assert not workers
 gpu=subprocess.check_output(['nvidia-smi','-i','GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e','--query-gpu=memory.free,ecc.errors.corrected.volatile.total,ecc.errors.uncorrected.volatile.total','--format=csv'],text=True)
 save(out/'resource_release_verification.json',dict(task_GPU_workers_remaining=workers,task_GPU_processes_released=True,GPU0_final_check=gpu,other_users_processes_untouched=True))
-for name in ['results_interpretation.md','loss_contribution_comparison.csv','resource_release_verification.json']:
+save(out/'token_padding_audits.json',{str(seed):read(out/f'seed_{seed}/representation'/('matched_preprocessing' if seed==20261101 else 'formal')/'token_padding_audit.json') for seed in SEEDS})
+for name in ['results_interpretation.md','loss_contribution_comparison.csv','resource_release_verification.json','diagnostic_retry_audit.json','token_padding_audits.json']:
  text=(out/name).read_text().replace(str(R),'<PROJECT_ROOT>');text=re.sub(r'GPU-[0-9a-f-]{36}','<GPU_UUID>',text)
  assert not re.search(r'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|-----BEGIN .*PRIVATE KEY',text)
  with (dest/name).open('x') as f:f.write(text)
