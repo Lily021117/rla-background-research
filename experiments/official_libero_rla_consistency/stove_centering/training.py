@@ -41,6 +41,10 @@ def execute(g):
  order=json.loads(Path(plan['inputs']['B20_sampling_order']).read_text());assert len(order)==4800
  actual_batch_audit=[]
  sample_trace=[];trace_active=False
+ paired_trace=None
+ if plan.get('paired_C_sample_trace'):
+  with open(plan['paired_C_sample_trace']) as pf:paired_trace={int(r['step']):r['actual_sample_ids'] for r in map(json.loads,pf)}
+  assert set(paired_trace)==set(range(1,601))
  def batch(examples):
   items=[]
   for e,t,c in examples:
@@ -150,6 +154,7 @@ def execute(g):
   trace_active=False
   if trace_file is not None:
    assert sample_trace==[[e,int(t),c] for e,t,c in examples]
+   if paired_trace is not None:assert sample_trace==paired_trace[step]
    trace_file.write(json.dumps(dict(step=step,successful_update=True,actual_sample_ids=sample_trace))+'\n');trace_file.flush()
   torch.cuda.empty_cache()
   w.writerow(dict(step=step,action_loss=np.mean(acts),auxiliary_loss=np.mean(auxs),weighted_auxiliary=lam*np.mean(auxs),total_loss=np.mean(totals),lr=lr,gradient_vla=norms['vla'],gradient_head=norms['head'],gradient_proprio=norms['proprio'],gradient_aux_head=auxnorm,allocated=torch.cuda.max_memory_allocated(),reserved=torch.cuda.max_memory_reserved(),cpu_maxrss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,seconds=time.time()-started,successful_updates=step));f.flush()
