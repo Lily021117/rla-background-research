@@ -1,7 +1,7 @@
 """One bounded stage on authorized GPU0; no hidden retries or parameter changes."""
 import argparse,json,os,subprocess,time,sys
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--seed',type=int,required=True);p.add_argument('--stage',choices=['gate','C','D-center','evaluate'],required=True);p.add_argument('--managed-worker',action='store_true');p.add_argument('--resume-step100',action='store_true');p.add_argument('--recovery-config',type=Path);a=p.parse_args();root=Path(__file__).resolve().parents[1];run=a.out/f'seed_{a.seed}';protocol=json.loads((a.out/'replication_protocol.json').read_text());assert a.seed in protocol['seeds']
+p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--seed',type=int,required=True);p.add_argument('--stage',choices=['gate','C','D-center','evaluate','sampling_preflight'],required=True);p.add_argument('--managed-worker',action='store_true');p.add_argument('--resume-step100',action='store_true');p.add_argument('--recovery-config',type=Path);a=p.parse_args();root=Path(__file__).resolve().parents[1];run=a.out/f'seed_{a.seed}';protocol=json.loads((a.out/'replication_protocol.json').read_text());assert a.seed in protocol['seeds']
 if (run/'externally_managed.json').exists() and a.stage in ('C','D-center') and not a.managed_worker:
  while True:
   process=run/(a.stage+'_process.json')
@@ -19,6 +19,7 @@ if (run/'resource_assignment.json').exists():
 if (run/'policy_registry_migration.json').exists():env['RLA_POLICY_REGISTRY']='policy_registry_migration.json'
 if a.stage=='gate':env.update(RLA_BOOTSTRAP_PLAN='planned_run_plan.json',RLA_BOOTSTRAP_SEED=str(a.seed),RLA_FULL_SEED_RECIPE='1');arm,entry,attempt='initialization','rla_policy_seed_replication.gate','zero_update'
 elif a.stage=='evaluate':arm,entry,attempt='evaluation','rla_lr_budget_sweep.extend_evaluation','formal'
+elif a.stage=='sampling_preflight':arm,entry,attempt='preflight','rla_sampling_stability.preflight','gpu1_zero_update'
 else:
  assert json.loads((run/'initialization_gate.json').read_text())['status']=='PASS';arm,entry,attempt=a.stage,'stove_centering.training','formal'
  assert json.loads((a.out/'frozen_target_audit.json').read_text())['status']=='PASS'

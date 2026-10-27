@@ -106,12 +106,21 @@ def prepare(out):
 
 def run(out):
  lock=(out/'queue.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
- save(out/'execution_started.json',dict(pid=os.getpid(),new_policy_updates_budget=1200,new_rollouts_budget=120))
+ gpu=os.environ.get('SAMPLING_GPU_UUID',GPU)
+ assert gpu in [GPU,'GPU-37d3f7d4-309e-2bb8-2d51-292dbbcce419']
+ if gpu!=GPU:
+  assert read(out/'gpu1_authorization.json')['user_authorized']
+  assert read(out/f'seed_{SEEDS[0]}/preflight/gpu1_zero_update/device_preflight.json')['status']=='PASS'
+  assert all(read(out/f'seed_{s}/resource_assignment.json')['GPU_UUID']==gpu for s in SEEDS)
+ name='execution_started_gpu1.json' if gpu!=GPU else 'execution_started.json'
+ save(out/name,dict(pid=os.getpid(),GPU_UUID=gpu,new_policy_updates_budget=1200,new_rollouts_budget=120))
+ baseline=int(subprocess.check_output(['nvidia-smi','-i',gpu,'--query-gpu=ecc.errors.uncorrected.volatile.total','--format=csv,noheader,nounits'],text=True))
+ assert baseline==(1 if gpu!=GPU else 0)
  for stage in ['C','evaluate']:
   for seed in SEEDS:
-   while int(subprocess.check_output(['nvidia-smi','-i',GPU,'--query-gpu=memory.free','--format=csv,noheader,nounits'],text=True))<26624:
-    print('WAIT_GPU0_CAPACITY',stage,seed,flush=True);time.sleep(30)
-   assert int(subprocess.check_output(['nvidia-smi','-i',GPU,'--query-gpu=ecc.errors.uncorrected.volatile.total','--format=csv,noheader,nounits'],text=True))==0
+   while int(subprocess.check_output(['nvidia-smi','-i',gpu,'--query-gpu=memory.free','--format=csv,noheader,nounits'],text=True))<26624:
+    print('WAIT_AUTHORIZED_GPU_CAPACITY',stage,seed,flush=True);time.sleep(30)
+   assert int(subprocess.check_output(['nvidia-smi','-i',gpu,'--query-gpu=ecc.errors.uncorrected.volatile.total','--format=csv,noheader,nounits'],text=True))==baseline
    print('START',seed,stage,flush=True)
    subprocess.run(['python',str(HERE.parent/'rla_policy_seed_replication/launch.py'),'--out',str(out),'--seed',str(seed),'--stage',stage],cwd=REPO,check=True)
  analyze(out);publish(out)
@@ -172,7 +181,7 @@ def analyze(out):
    vals=[np.mean([r['action_L1'] for r in summaries if r['group']==f'balanced_{s}' and r['step']==st and r['appearance']==app]) for st in [0,100,300,600]];axes[1].plot([0,100,300,600],vals,label=f'{s} {app}')
  axes[0].set_title('Training batch action L1, raw');axes[1].set_title('Fixed development action L1, episode equal');[ax.legend() for ax in axes];fig.tight_layout();fig.savefig(out/'learning_curves.png');plt.close(fig)
  assert all(sha(p)==h for p,h in read(out/'protected_inputs.json').items())
- save(out/'delivery_verification.json',dict(status='COMPLETE_EXECUTION_NOT_METHOD',policy_updates=1200,actual_successful_computations=1200,replay=0,valid_rollouts=120,invalid_rollouts=0,AE_updates=0,D_updates=0,sealed_reads=0,protected_hashes_unchanged=True))
+ save(out/'delivery_verification.json',dict(status='COMPLETE_EXECUTION_NOT_METHOD',policy_updates=1200,actual_successful_computations=1200,replay=0,valid_rollouts=120,invalid_rollouts=0,AE_updates=0,D_updates=0,sealed_reads=0,protected_hashes_unchanged=True,authorized_device_override='GPU1, see gpu1_authorization.json' if (out/'gpu1_authorization.json').exists() else None,isolated_preflight_optimizer_updates=0))
  lines=['# C sampling stability intervention','',
  'Same historical policy step0 and model training RNG for both new arms. Only balanced sampler order seed differs. This changes episode/window weights versus historical uniform-window sampling; it is not order-only versus history.','',
  'Historical sampling counts are reconstructed from frozen index files, checked against saved terminal configuration/cursor and update logs. Full per-item historical trace is unavailable; new runs record actual IDs for all600 updates.','',
@@ -191,6 +200,7 @@ def analyze(out):
 def publish(out):
  dest=HERE/'delivery'/out.name;dest.mkdir(parents=True,exist_ok=False)
  files=['report.md','replication_protocol.json','historical_sampling_evidence.json','episode_sampling_statistics.csv','sampling_weight_change.csv','success_summary.csv','failure_stage_summary.csv','paired_statistics.json','actual_sampling_verification.json','delivery_verification.json','training_metrics.csv','per_demo_validation_summary.csv']
+ files += [n for n in ['gpu1_authorization.json','execution_provenance.json','sampling_audit.md'] if (out/n).exists()]
  for name in files:
   s=(out/name).read_text().replace(str(R),'<PROJECT_ROOT>');s=re.sub(r'GPU-[0-9a-f-]{36}','<GPU_UUID>',s)
   assert len(s)<5_000_000 and not re.search(r'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN .*PRIVATE KEY',s)
