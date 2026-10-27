@@ -14,7 +14,7 @@ def execute(g):
  from libero.libero import get_libero_path
  from experiments.robot.libero.run_libero_eval import process_action
  from stove_postlift.common import metrics as task_metrics
- root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==len(protocol['models'])*len(protocol['states'])*len(protocol['conditions']) and protocol['trials'] in (60,120)
+ root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==len(protocol['models'])*len(protocol['states'])*len(protocol['conditions']) and (protocol['trials'] in (60,120) or (protocol.get('appearance_gap_evaluation') and protocol['trials']==200))
  basehead=g['head'].cpu();_,_,_=initialize(g);rlahead=g['head'];rlahead.cpu();torch.cuda.empty_cache();model=g['model'];prop=g['prop'];mods=g['mods']
  registry=json.loads((root/os.environ.get('RLA_POLICY_REGISTRY','policy_registry.json')).read_text());paths={k:Path(v) for k,v in registry.items()}
  for arm in paths:
@@ -31,7 +31,7 @@ def execute(g):
  checkpoints={}
  for k,p in paths.items():
   ck=torch.load(p,map_location='cpu');assert ck['global_step']==int(k.rsplit('_s',1)[1]);checkpoints[k]={'parameters':ck['parameters']};del ck
- frozen=json.loads((prev/'development_protocol/evaluation_protocol.json').read_text());stats=json.loads(Path(plan['inputs']['action_proprio_statistics']).read_text());model.base_model.model.norm_stats={'derived':stats}
+ frozen=json.loads(Path(protocol.get('frozen_state_protocol',prev/'development_protocol/evaluation_protocol.json')).read_text());stats=json.loads(Path(plan['inputs']['action_proprio_statistics']).read_text());model.base_model.model.norm_stats={'derived':stats}
  bddl=Path(get_libero_path('bddl_files'))/'libero_spatial'/protocol.get('bddl','pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl');language=protocol.get('task','pick up the black bowl on the cookie box and place it on the plate')
  def proprio(m,d):return np.r_[d.site_xpos[m.site('gripper0_grip_site').id],Rotation.from_quat(np.roll(d.xquat[m.body('robot0_right_hand').id],-1)).as_rotvec(),[d.qpos[m.joint('gripper0_finger_joint'+str(i)).qposadr[0]] for i in (1,2)]].astype(np.float32)
  def infer(images,p,head):
