@@ -1,0 +1,232 @@
+{
+  "selection_rule": "Sort public generic textures/*_COL*.png, exclude backup files, group by prefix before _COL, keep lexicographically first file per family; exclude historical Clean/seen/unseen assets by path/SHA; take first eight eligible families. First four are table textures; next four are wall textures in matching rank. No policy scoring. Resize RGB to original target texture dimensions with LANCZOS; all material/scattering parameters fixed.",
+  "source_root": "<LIBERO_ROOT>/libero/libero/assets/textures",
+  "exclusion_scope": "all texture resources in current task frozen training/seen/unseen development protocol, original clean resources; configurations disjoint by SHA",
+  "excluded_resources": [
+    {
+      "path": "<LIBERO_ROOT>/libero/libero/assets/scenes/ph/Cobblestone01_DISP_6K.png",
+      "sha256": "83d7f47553b750a50b773e5bcf36d371b732a6cf3a669562ddd40d9710b2317d"
+    },
+    {
+      "path": "<LIBERO_ROOT>/libero/libero/assets/textures/light-gray-plaster.png",
+      "sha256": "d13ca866726aa5cdd78d6319abddd3c01033262a7693dc045b01f9f173e887b2"
+    },
+    {
+      "path": "<LIBERO_ROOT>/libero/libero/assets/textures/martin_novak_wood_table.png",
+      "sha256": "833ccf460b3ce1f4564283ffe0b0b4a6790a3bb0bc2618d3e27a2b2501ae10a9"
+    },
+    {
+      "path": "<LIBERO_ROOT>/libero/libero/assets/textures/white_wall.png",
+      "sha256": "c02f6ad8cbd0e217da8d0068eca3dcff5752611c46999666ad7d4835de05bf12"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/cool_navy_tex-table.png",
+      "sha256": "3457fa7ec1cabfbcc1c966ca06b415b620ccae26dfec90e827b3aafeffe2baa8"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/cool_navy_tex-wall.png",
+      "sha256": "98a768e686c5256d78b4518ec233584d946bee5e490c95cd13bba43f465a80f1"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/muted_rose_tex-table.png",
+      "sha256": "01abe314988ecbd09e0b94aaf6239a02bc784604aa063392f42700ef8c1ab48e"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/muted_rose_tex-wall.png",
+      "sha256": "87b41cc1eb6e17090027244448e64ac2b66d05ae663c75dd54d2cf6d0a08b029"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/warm_teal_tex-table.png",
+      "sha256": "2851e73568bf3beba6703e0a6fdf2715cdaf5d46154ac5bab4fa826644005f68"
+    },
+    {
+      "path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/development_protocol/assets/warm_teal_tex-wall.png",
+      "sha256": "f8dd1e8f5e10fd7528aa64f7596703681a29337dd2e9ce82fe04e66d7df3bd2d"
+    }
+  ],
+  "assets": [
+    {
+      "condition": "new_background_1",
+      "texture": "tex-table",
+      "family": "Bricks02",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/Bricks02_COL_VAR1_6K.png",
+      "source_sha256": "d3ed07a8b5deaa0d66e840a4b2c4740fefe4d3f58d93917acef73de80c874bbc",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_1_tex-table.png",
+      "output_sha256": "8e6951c00f83d02058ae259a8e9364cffa5d583491af4ad41b90aed80699f2b4",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 0
+    },
+    {
+      "condition": "new_background_1",
+      "texture": "tex-wall",
+      "family": "CardboardPleatedWrinkled001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/CardboardPleatedWrinkled001_COL_VAR1_3K.png",
+      "source_sha256": "ae96ae22169a7934c028895cc27213422669dc8cdcaba736483f176b9a61ac2e",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_1_tex-wall.png",
+      "output_sha256": "fda3dbd90f65bed317af708022dbd76b51044fe11b50fd579d849eb9fb57e990",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 4
+    },
+    {
+      "condition": "new_background_2",
+      "texture": "tex-table",
+      "family": "CarbonFiber001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/CarbonFiber001_COL_6K.png",
+      "source_sha256": "d0de2a804207eeb432c3e75b298afadae9ae070f67c2c623598950ca1abcef37",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_2_tex-table.png",
+      "output_sha256": "635c39ca86ebf4f9c03e69bb6e7c14aff1a46af6457b7c209b565df7052e2d4b",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 1
+    },
+    {
+      "condition": "new_background_2",
+      "texture": "tex-wall",
+      "family": "CliffDesert006",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/CliffDesert006_COL_VAR1_HIRES.png",
+      "source_sha256": "891fbb4471fc28ce7c58b37cd91cfa371df73ec3980aa1338f557f3509d07a63",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_2_tex-wall.png",
+      "output_sha256": "a9bb7ea17270a089e76696425e9b5ff06a3aaeca7a1ab78f2c308ef23570e613",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 5
+    },
+    {
+      "condition": "new_background_3",
+      "texture": "tex-table",
+      "family": "CardboardPlain001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/CardboardPlain001_COL_VAR1_3K.png",
+      "source_sha256": "e0227e08c0df0d8e8ea8138d4db5757732805fa59fd78b828ff7b56e5d86a3c1",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_3_tex-table.png",
+      "output_sha256": "1bbeda840f3b7a08d901bfa87a7291850ac6ce86ed6356c50b2aa142f7a493be",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 2
+    },
+    {
+      "condition": "new_background_3",
+      "texture": "tex-wall",
+      "family": "FabricCanvas001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/FabricCanvas001_COL_VAR1_2K.png",
+      "source_sha256": "d804bad01d6dd833bf6956097ff85055f3b3132785f8eaef907737d953fd9226",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_3_tex-wall.png",
+      "output_sha256": "5e2dc0f017b2001aa89b0c5bbf1573244f93cc57b929319487bcfe6f1b94fa82",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 6
+    },
+    {
+      "condition": "new_background_4",
+      "texture": "tex-table",
+      "family": "CardboardPleated001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/CardboardPleated001_COL_VAR1_3K.png",
+      "source_sha256": "a0eb50847c609568d2067c466f29045d7996a37ba899820204108ef0b310fb80",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_4_tex-table.png",
+      "output_sha256": "07d98fcff5b4f3bf97c75c30666dd773b857b52f8b155dbfb596bf5baa65d9c2",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 3
+    },
+    {
+      "condition": "new_background_4",
+      "texture": "tex-wall",
+      "family": "FabricCarpet001",
+      "source": "<LIBERO_ROOT>/libero/libero/assets/textures/FabricCarpet001_COL_VAR1_3K.png",
+      "source_sha256": "41c73ef5fd0a5a818fb7aceaf659730d90a897bf0fe11259a5fa617152a6a2c9",
+      "source_size": [
+        512,
+        512
+      ],
+      "output": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_4_tex-wall.png",
+      "output_sha256": "97e1ba564b8f99da7bf01a69d43dbed7e5474563853580e9948e44404ed7a4f3",
+      "output_size": [
+        512,
+        512
+      ],
+      "role": "generic development simulator material; not a sealed-test asset",
+      "selection_rank": 7
+    }
+  ],
+  "configurations": [
+    {
+      "id": "new_background_1",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_1_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_1_tex-wall.png"
+      }
+    },
+    {
+      "id": "new_background_2",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_2_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_2_tex-wall.png"
+      }
+    },
+    {
+      "id": "new_background_3",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_3_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_3_tex-wall.png"
+      }
+    },
+    {
+      "id": "new_background_4",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_4_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/assets/new_background_4_tex-wall.png"
+      }
+    }
+  ],
+  "sealed_asset_inventory_read": false
+}

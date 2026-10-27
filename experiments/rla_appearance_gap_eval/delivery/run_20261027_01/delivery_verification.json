@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EVALUATION_PROCESS",
+  "valid_trials": 200,
+  "actual_attempts": 200,
+  "invalid_trials": 0,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "backward": 0,
+  "sealed_set_reads": 0,
+  "new_tasks": 0,
+  "historical_protected_hashes_unchanged": true,
+  "checkpoints_modified": false,
+  "GPU_final": "memory.free [MiB], ecc.errors.corrected.volatile.total, ecc.errors.uncorrected.volatile.total\n60895 MiB, 2, 0\n",
+  "policy_workers_finished": true,
+  "clear_repeated_appearance_gap": false
+}

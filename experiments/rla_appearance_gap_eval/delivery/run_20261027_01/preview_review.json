@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reviewed_fixed_state_ids": [2026102500, 2026102510],
+  "reviewed_conditions": ["clean", "new_background_1", "new_background_2", "new_background_3", "new_background_4"],
+  "cameras": ["agentview", "robot0_eye_in_hand"],
+  "observations": "Table and wall texture appearance changes are evident. Robot, bowl, stove and target plate remain geometrically visible in the inspected agent views; wrist framing is unchanged. The dark carbon background lowers visual contrast, which is part of the permitted material intervention and is retained. No geometrical occluder or camera change is introduced.",
+  "preview_text_overlays_used_as_policy_inputs": false,
+  "policy_success_used_for_asset_selection": false,
+  "all_four_configurations_retained": true,
+  "reviewed_before_new_rollouts": true
+}

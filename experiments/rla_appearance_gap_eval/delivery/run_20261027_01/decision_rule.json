@@ -1,0 +1,10 @@
+{
+  "frozen_before_new_policy_rollouts": true,
+  "clear_repeated_gap_rule": "At least two of the four prespecified backgrounds have negative success-rate differences versus same-run Clean in both C models, AND the equal-background mean paired state-cluster bootstrap 95% interval is wholly below zero for each model.",
+  "report_even_when_rule_not_met": "All per-background absolute success counts, paired flip cells, descriptive negative effects, uncertainty and floor/ceiling limits remain reported. Failure to meet this finite-development criterion is not proof of universal robustness.",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261027,
+  "cluster": "20 physical states; preserve all appearances and both C models within a sampled state",
+  "training_seed_or_task_uncertainty_included": false,
+  "optimization_or_closed_loop_selection": false
+}

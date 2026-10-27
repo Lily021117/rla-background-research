@@ -1,0 +1,8 @@
+geom_id,geom,material,category
+1,wall_leftcorner_visual,walls_mat,permitted table/wall visual GEOM
+2,wall_rightcorner_visual,walls_mat,permitted table/wall visual GEOM
+3,wall_left_visual,walls_mat,permitted table/wall visual GEOM
+4,wall_right_visual,walls_mat,permitted table/wall visual GEOM
+5,wall_rear_visual,walls_mat,permitted table/wall visual GEOM
+6,wall_front_visual,walls_mat,permitted table/wall visual GEOM
+8,table_visual,table_texture,permitted table/wall visual GEOM

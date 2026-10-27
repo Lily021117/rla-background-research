@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "clean",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "new_background_1",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "new_background_2",
+      "contrast": "appearance minus same-run Clean",
+      "difference": -0.25,
+      "CI95": [
+        -0.45,
+        -0.1
+      ]
+    },
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "new_background_3",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "new_background_4",
+      "contrast": "appearance minus same-run Clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "model": "C_order20261101_s600",
+      "appearance": "four_new_backgrounds_equal_weight",
+      "contrast": "new-background mean minus same-run Clean",
+      "difference": -0.0875,
+      "CI95": [
+        -0.1625,
+        -0.025
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "clean",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "new_background_1",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.1,
+      "CI95": [
+        -0.1,
+        0.3
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "new_background_2",
+      "contrast": "appearance minus same-run Clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.4,
+        0.1
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "new_background_3",
+      "contrast": "appearance minus same-run Clean",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "new_background_4",
+      "contrast": "appearance minus same-run Clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "model": "C_order20261102_s600",
+      "appearance": "four_new_backgrounds_equal_weight",
+      "contrast": "new-background mean minus same-run Clean",
+      "difference": 0.0125,
+      "CI95": [
+        -0.15,
+        0.1875
+      ]
+    }
+  ],
+  "repeated_effects": [
+    {
+      "appearance": "new_background_1",
+      "effects_by_order": {
+        "20261101": 0.0,
+        "20261102": 0.09999999999999998
+      },
+      "negative_in_both_models": false
+    },
+    {
+      "appearance": "new_background_2",
+      "effects_by_order": {
+        "20261101": -0.25,
+        "20261102": -0.15000000000000002
+      },
+      "negative_in_both_models": true
+    },
+    {
+      "appearance": "new_background_3",
+      "effects_by_order": {
+        "20261101": 0.0,
+        "20261102": 0.15000000000000002
+      },
+      "negative_in_both_models": false
+    },
+    {
+      "appearance": "new_background_4",
+      "effects_by_order": {
+        "20261101": -0.09999999999999998,
+        "20261102": -0.050000000000000044
+      },
+      "negative_in_both_models": true
+    }
+  ],
+  "common_negative_backgrounds": 2,
+  "clear_repeated_gap": false,
+  "decision_rule": "at least two prespecified backgrounds have negative effects in both models AND each model equal-background mean paired CI is wholly below zero",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261027,
+  "cluster_unit": "same physical state across every appearance and both C models",
+  "fixed_backgrounds_not_a_random_sample": true,
+  "does_not_include_training_seed_or_task_uncertainty": true
+}

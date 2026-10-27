@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "states_checked": 20,
+  "conditions_checked": 5,
+  "rendered_state_ordinals": [
+    0,
+    10
+  ],
+  "camera_order": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "model_geometric_material_light_camera_fields_exact": true,
+  "segmentation_and_depth_exact": true,
+  "only_target_texture_files_changed": true,
+  "task_geometry_visible": true,
+  "scope": "same saved physical states, static CPU OSMesa render; not a policy rollout",
+  "policy_actions": 0,
+  "optimizer_updates": 0,
+  "backward": 0
+}
