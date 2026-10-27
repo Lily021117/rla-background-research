@@ -1,0 +1,14 @@
+[
+  {
+    "seed": 20261101,
+    "initial_parameters_RNG_match": true,
+    "actual600_sample_ID_rows_exact": true,
+    "execution_configuration_except_arm_exact": true
+  },
+  {
+    "seed": 20261102,
+    "initial_parameters_RNG_match": true,
+    "actual600_sample_ID_rows_exact": true,
+    "execution_configuration_except_arm_exact": true
+  }
+]

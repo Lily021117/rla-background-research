@@ -1,0 +1,23 @@
+{
+  "method": "C-shared-target",
+  "only_change": "Background input retains background image, auxiliary target is matching AE-C Clean target",
+  "seeds": [
+    20261101,
+    20261102
+  ],
+  "updates_per_order": 600,
+  "total_updates": 1200,
+  "rollouts": 120,
+  "lambda_aux": 0.22408536585365854,
+  "mean": "existing mu_C",
+  "scale": "existing s_C",
+  "AE_updates": 0,
+  "teacher": false,
+  "keep": false,
+  "sealed_reads": 0,
+  "representation_samples": "first and midpoint valid window of each train/development episode, fixed before outputs",
+  "statistics": "20000 bootstrap draws; physical state clustered jointly across appearances and both orders",
+  "GPU": "<GPU_UUID>",
+  "device_deviation": "C historical evaluation GPU1; new evaluation GPU0; D reference GPU0",
+  "stop": "no extra configurations or trials; infrastructure error stops, no silent retry"
+}

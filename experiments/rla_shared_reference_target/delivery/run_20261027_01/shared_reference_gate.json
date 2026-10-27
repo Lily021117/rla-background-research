@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "legacy_vs_off_output_loss_gradient_exact": true,
+  "shared_pair_targets_exact": true,
+  "non_target_batch_tensors_exact": true,
+  "background_pixels_preserved": true,
+  "target_does_not_change_action_or_aux_output": true,
+  "finite_gradients": true,
+  "optimizer_updates": 0,
+  "parameters_unchanged": true,
+  "fixed_batch": [
+    [
+      "derived_stove_demo_12_v1",
+      46,
+      "clean"
+    ],
+    [
+      "derived_stove_demo_12_v1",
+      46,
+      "background"
+    ],
+    [
+      "derived_stove_demo_5_v1",
+      64,
+      "clean"
+    ],
+    [
+      "derived_stove_demo_5_v1",
+      64,
+      "background"
+    ],
+    [
+      "derived_stove_demo_16_v1",
+      17,
+      "clean"
+    ],
+    [
+      "derived_stove_demo_16_v1",
+      17,
+      "background"
+    ],
+    [
+      "derived_stove_demo_13_v1",
+      44,
+      "clean"
+    ],
+    [
+      "derived_stove_demo_13_v1",
+      44,
+      "background"
+    ]
+  ],
+  "checks": [
+    {
+      "mode": "legacy_direct",
+      "total_loss": 0.671875,
+      "gradient_sha256": "09c7271dc03ec3ce595bd799a6b5f010a1b5f5ef57c51a0938818d4a4449ca39",
+      "gradient_elements": 270826783,
+      "shared_gradient_norm": 5.588736286461361,
+      "target_requires_grad": false
+    },
+    {
+      "mode": "appearance_specific",
+      "total_loss": 0.671875,
+      "gradient_sha256": "09c7271dc03ec3ce595bd799a6b5f010a1b5f5ef57c51a0938818d4a4449ca39",
+      "gradient_elements": 270826783,
+      "shared_gradient_norm": 5.588736286461361,
+      "target_requires_grad": false
+    },
+    {
+      "mode": "shared_clean",
+      "total_loss": 0.671875,
+      "gradient_sha256": "2a8cb9abb93d948a70b7b3875ae4c1f830e6769c6a910d3dafeba7096a234b84",
+      "gradient_elements": 270826783,
+      "shared_gradient_norm": 5.589480954447695,
+      "target_requires_grad": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "C_clean": {
+    "elements": 20930560,
+    "mean": 0.0020094927896041133,
+    "variance": 0.3454350698863229,
+    "RMS": 0.5877406808683523,
+    "weighting": "each eligible physical training window once, all8x1024 valid values"
+  },
+  "C_background": {
+    "elements": 20930560,
+    "mean": -0.0020094893055063556,
+    "variance": 0.33813055220644805,
+    "RMS": 0.5814934137664132,
+    "weighting": "each eligible physical training window once, all8x1024 valid values"
+  },
+  "shared_clean": {
+    "elements": 20930560,
+    "mean": 0.0020094927896041133,
+    "variance": 0.3454350698863229,
+    "RMS": 0.5877406808683523,
+    "weighting": "each eligible physical training window once, all8x1024 valid values"
+  },
+  "shared_background": {
+    "elements": 20930560,
+    "mean": 0.0020094927896041133,
+    "variance": 0.3454350698863229,
+    "RMS": 0.5877406808683523,
+    "weighting": "each eligible physical training window once, all8x1024 valid values"
+  }
+}

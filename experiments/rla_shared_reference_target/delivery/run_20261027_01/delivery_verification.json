@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_EXECUTION_NOT_METHOD",
+  "effective_updates": 1200,
+  "actual_update_computations": 1200,
+  "replayed_updates": 0,
+  "valid_rollouts": 120,
+  "actual_attempts": 120,
+  "invalid_trials": 0,
+  "AE_updates": 0,
+  "C_updates": 0,
+  "C_new_rollouts": 0,
+  "sealed_reads": 0,
+  "protected_inputs_unchanged": true
+}

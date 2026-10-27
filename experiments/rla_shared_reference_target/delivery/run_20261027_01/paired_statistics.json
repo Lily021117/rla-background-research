@@ -1,0 +1,249 @@
+{
+  "results": [
+    {
+      "comparison": "20261101: shared minus C, equal appearance",
+      "difference": -0.016666666666666666,
+      "CI95": [
+        -0.05,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus C, clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus C, seen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus C, unseen_background",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus C, equal appearance",
+      "difference": -0.6,
+      "CI95": [
+        -0.7833333333333333,
+        -0.4
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus C, clean",
+      "difference": -0.6,
+      "CI95": [
+        -0.85,
+        -0.35
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus C, seen_background",
+      "difference": -0.7,
+      "CI95": [
+        -0.9,
+        -0.45
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus C, unseen_background",
+      "difference": -0.5,
+      "CI95": [
+        -0.75,
+        -0.25
+      ]
+    },
+    {
+      "comparison": "two orders: shared minus C",
+      "difference": -0.30833333333333335,
+      "CI95": [
+        -0.4,
+        -0.20833333333333334
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus D-center, equal appearance",
+      "difference": 0.15,
+      "CI95": [
+        0.03333333333333333,
+        0.26666666666666666
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus D-center, clean",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus D-center, seen_background",
+      "difference": 0.1,
+      "CI95": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "comparison": "20261101: shared minus D-center, unseen_background",
+      "difference": 0.2,
+      "CI95": [
+        0.05,
+        0.4
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus D-center, equal appearance",
+      "difference": 0.03333333333333333,
+      "CI95": [
+        -0.1,
+        0.16666666666666666
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus D-center, clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.3,
+        0.1
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus D-center, seen_background",
+      "difference": 0.1,
+      "CI95": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "comparison": "20261102: shared minus D-center, unseen_background",
+      "difference": 0.1,
+      "CI95": [
+        -0.1,
+        0.3
+      ]
+    },
+    {
+      "comparison": "two orders: shared minus D-center",
+      "difference": 0.09166666666666666,
+      "CI95": [
+        0.0,
+        0.18333333333333332
+      ]
+    }
+  ],
+  "background_interactions": [
+    {
+      "comparison": "20261101: seen_background shared minus C background interaction",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261101: unseen_background shared minus C background interaction",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102: seen_background shared minus C background interaction",
+      "difference": -0.1,
+      "CI95": [
+        -0.45,
+        0.25
+      ]
+    },
+    {
+      "comparison": "20261102: unseen_background shared minus C background interaction",
+      "difference": 0.1,
+      "CI95": [
+        -0.15,
+        0.35
+      ]
+    },
+    {
+      "comparison": "two orders: seen_background shared minus C background interaction",
+      "difference": -0.025,
+      "CI95": [
+        -0.225,
+        0.175
+      ]
+    },
+    {
+      "comparison": "two orders: unseen_background shared minus C background interaction",
+      "difference": 0.075,
+      "CI95": [
+        -0.075,
+        0.22562499999994542
+      ]
+    },
+    {
+      "comparison": "20261101: seen_background shared minus D-center background interaction",
+      "difference": -0.05,
+      "CI95": [
+        -0.3,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261101: unseen_background shared minus D-center background interaction",
+      "difference": 0.05,
+      "CI95": [
+        -0.1,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261102: seen_background shared minus D-center background interaction",
+      "difference": 0.2,
+      "CI95": [
+        0.0,
+        0.45
+      ]
+    },
+    {
+      "comparison": "20261102: unseen_background shared minus D-center background interaction",
+      "difference": 0.2,
+      "CI95": [
+        0.05,
+        0.4
+      ]
+    },
+    {
+      "comparison": "two orders: seen_background shared minus D-center background interaction",
+      "difference": 0.075,
+      "CI95": [
+        -0.125,
+        0.275
+      ]
+    },
+    {
+      "comparison": "two orders: unseen_background shared minus D-center background interaction",
+      "difference": 0.125,
+      "CI95": [
+        0.0,
+        0.275
+      ]
+    }
+  ],
+  "unit": "20 physical states across all appearances and orders",
+  "conditional_on_two_orders": true,
+  "development_not_independent_test": true
+}
