@@ -45,12 +45,18 @@ def execute(g):
  if plan.get('paired_C_sample_trace'):
   with open(plan['paired_C_sample_trace']) as pf:paired_trace={int(r['step']):r['actual_sample_ids'] for r in map(json.loads,pf)}
   assert set(paired_trace)==set(range(1,601))
- def batch(examples):
+ def batch(examples,target_mode=None):
   items=[]
   for e,t,c in examples:
    item=ds.sample(e,t,c)
    if trace_active:sample_trace.append([e,int(t),c])
-   if not baseline:item['rla']=stores[c].frame(slots[e][c],t);assert item['rla'].shape==(8,1024)
+   if not baseline:
+    mode=target_mode or plan.get('target_read_mode','appearance_specific')
+    if mode=='legacy_direct':item['rla']=stores[c].frame(slots[e][c],t)
+    else:
+     from rla_shared_reference_target.targets import target_appearance
+     reference=target_appearance(c,mode);item['rla']=stores[reference].frame(slots[e][reference],t)
+    assert item['rla'].shape==(8,1024)
    items.append(item)
   b=collator(items);b['labels']=b['labels'].cuda();b['proprio']=b['proprio'].cuda();assert int(model._process_action_masks(b['labels']).sum())==len(examples)*g['NUM_TOKENS']
   for i,(e,t,c) in enumerate(examples):
@@ -83,6 +89,10 @@ def execute(g):
   path=o/f'step{step:04}.pt';assert not path.exists();torch.save(dict(parameters=g['trainable_state'](),optimizer=opt.state_dict(),scheduler=scheduler.state_dict(),global_step=step,next_physical_sample=step*8,torch_rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state_all(),python_rng=random.getstate(),numpy_rng=np.random.get_state(),configuration=plan,arm=arm,scope='OFFICIAL_PAIRED_ACTION_ONLY_POLICY' if baseline else 'OFFICIAL_PAIRED_RLA_POLICY',AMP_scaler=None,dtype='bfloat16',activation_checkpointing=checkpointing),path)
  micro=int(os.environ.get('POLICY_MICROBATCH','8'));assert 16%micro==0
  g['save']('execution_configuration.json',dict(arm=arm,microbatch=micro,accumulation=16//micro,effective_appearance_batch=16,checkpointing=checkpointing,backend=dict(math=torch.backends.cuda.math_sdp_enabled(),flash=torch.backends.cuda.flash_sdp_enabled(),efficient=torch.backends.cuda.mem_efficient_sdp_enabled()),lambda_aux=0. if baseline else lam,RLA_auxiliary_enabled=not baseline,policy_updates=0 if arm.startswith('preflight') else 600))
+ if arm=='preflight' and plan.get('shared_reference_gate'):
+  from rla_shared_reference_target.gate import run_gate
+  run_gate(g,mods,initial,restore,opt,batch,forward,capture,order,micro,lam)
+  return
  if arm.startswith('preflight'):
   moments=[torch.zeros_like(p) for p in g['params'] for _ in range(2)] # persistent AdamW moment-sized storage, present during forward
   examples=[(e,t,c) for e,t in order[:8] for c in ('clean','background')]
