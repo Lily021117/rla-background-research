@@ -1,0 +1,64 @@
+[
+  {
+    "order_seed": 20261101,
+    "initialization_actual_C_step0_verified": true,
+    "all_C_actual_sample_ID_rows_match": true,
+    "index_source": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_01/seed_20261101/sampling_order.json",
+    "index_sha256": "9f899c5c4fed60f76e34c524c372c7fd7d7f1d8c693b177971266bb571dcfa2e",
+    "C_execution_configuration": {
+      "arm": "C",
+      "microbatch": 8,
+      "accumulation": 2,
+      "effective_appearance_batch": 16,
+      "checkpointing": true,
+      "backend": {
+        "math": true,
+        "flash": false,
+        "efficient": false
+      },
+      "lambda_aux": 0.22408536585365854,
+      "RLA_auxiliary_enabled": true,
+      "policy_updates": 600
+    },
+    "config_difference_keys": [
+      "common_step0",
+      "common_step0_sha256",
+      "arms",
+      "causal_design",
+      "paired_C_sample_trace",
+      "paired_C_result_source"
+    ],
+    "training_shared_protocol_exact": true
+  },
+  {
+    "order_seed": 20261102,
+    "initialization_actual_C_step0_verified": true,
+    "all_C_actual_sample_ID_rows_match": true,
+    "index_source": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_01/seed_20261102/sampling_order.json",
+    "index_sha256": "65658f9adec2beecda94f9da07418377823b5b9af057a25c99a6fb2cfcb30819",
+    "C_execution_configuration": {
+      "arm": "C",
+      "microbatch": 8,
+      "accumulation": 2,
+      "effective_appearance_batch": 16,
+      "checkpointing": true,
+      "backend": {
+        "math": true,
+        "flash": false,
+        "efficient": false
+      },
+      "lambda_aux": 0.22408536585365854,
+      "RLA_auxiliary_enabled": true,
+      "policy_updates": 600
+    },
+    "config_difference_keys": [
+      "common_step0",
+      "common_step0_sha256",
+      "arms",
+      "causal_design",
+      "paired_C_sample_trace",
+      "paired_C_result_source"
+    ],
+    "training_shared_protocol_exact": true
+  }
+]

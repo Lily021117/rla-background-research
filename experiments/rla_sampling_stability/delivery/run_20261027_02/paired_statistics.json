@@ -1,0 +1,173 @@
+{
+  "results": [
+    {
+      "comparison": "20261101: equal appearance D-C",
+      "difference": -0.16666666666666666,
+      "physical_state_cluster_CI95": [
+        -0.2833333333333333,
+        -0.06666666666666667
+      ]
+    },
+    {
+      "comparison": "20261101: clean D-C",
+      "difference": -0.2,
+      "physical_state_cluster_CI95": [
+        -0.4,
+        -0.05
+      ],
+      "D_wins": 0,
+      "C_wins": 4
+    },
+    {
+      "comparison": "20261101: seen_background D-C",
+      "difference": -0.1,
+      "physical_state_cluster_CI95": [
+        -0.25,
+        0.0
+      ],
+      "D_wins": 0,
+      "C_wins": 2
+    },
+    {
+      "comparison": "20261101: unseen_background D-C",
+      "difference": -0.2,
+      "physical_state_cluster_CI95": [
+        -0.4,
+        -0.05
+      ],
+      "D_wins": 0,
+      "C_wins": 4
+    },
+    {
+      "comparison": "20261102: equal appearance D-C",
+      "difference": -0.6333333333333333,
+      "physical_state_cluster_CI95": [
+        -0.8,
+        -0.45
+      ]
+    },
+    {
+      "comparison": "20261102: clean D-C",
+      "difference": -0.5,
+      "physical_state_cluster_CI95": [
+        -0.7,
+        -0.3
+      ],
+      "D_wins": 0,
+      "C_wins": 10
+    },
+    {
+      "comparison": "20261102: seen_background D-C",
+      "difference": -0.8,
+      "physical_state_cluster_CI95": [
+        -0.95,
+        -0.6
+      ],
+      "D_wins": 0,
+      "C_wins": 16
+    },
+    {
+      "comparison": "20261102: unseen_background D-C",
+      "difference": -0.6,
+      "physical_state_cluster_CI95": [
+        -0.8,
+        -0.4
+      ],
+      "D_wins": 0,
+      "C_wins": 12
+    },
+    {
+      "comparison": "two orders equally weighted D-C",
+      "difference": -0.4,
+      "physical_state_cluster_CI95": [
+        -0.5166666666666667,
+        -0.2833333333333333
+      ]
+    },
+    {
+      "comparison": "two orders: clean D-C",
+      "difference": -0.35,
+      "physical_state_cluster_CI95": [
+        -0.5,
+        -0.2
+      ]
+    },
+    {
+      "comparison": "two orders: seen_background D-C",
+      "difference": -0.45,
+      "physical_state_cluster_CI95": [
+        -0.575,
+        -0.325
+      ]
+    },
+    {
+      "comparison": "two orders: unseen_background D-C",
+      "difference": -0.4,
+      "physical_state_cluster_CI95": [
+        -0.575,
+        -0.25
+      ]
+    }
+  ],
+  "background_interactions": [
+    {
+      "comparison": "20261101: seen_background interaction D-C",
+      "difference": 0.1,
+      "physical_state_cluster_CI95": [
+        -0.15,
+        0.35
+      ],
+      "C_background_minus_clean": 0.0,
+      "D_background_minus_clean": 0.1
+    },
+    {
+      "comparison": "20261101: unseen_background interaction D-C",
+      "difference": 0.0,
+      "physical_state_cluster_CI95": [
+        -0.15,
+        0.15
+      ],
+      "C_background_minus_clean": 0.0,
+      "D_background_minus_clean": 0.0
+    },
+    {
+      "comparison": "20261102: seen_background interaction D-C",
+      "difference": -0.3,
+      "physical_state_cluster_CI95": [
+        -0.5,
+        -0.1
+      ],
+      "C_background_minus_clean": 0.15,
+      "D_background_minus_clean": -0.15
+    },
+    {
+      "comparison": "20261102: unseen_background interaction D-C",
+      "difference": -0.1,
+      "physical_state_cluster_CI95": [
+        -0.3,
+        0.1
+      ],
+      "C_background_minus_clean": 0.0,
+      "D_background_minus_clean": -0.1
+    },
+    {
+      "comparison": "two orders: seen_background interaction D-C",
+      "difference": -0.1,
+      "physical_state_cluster_CI95": [
+        -0.25,
+        0.05
+      ]
+    },
+    {
+      "comparison": "two orders: unseen_background interaction D-C",
+      "difference": -0.05,
+      "physical_state_cluster_CI95": [
+        -0.175,
+        0.05
+      ]
+    }
+  ],
+  "unit": "20 physical states, all orders and appearances kept together",
+  "conditional_on_two_orders": true,
+  "not_independent_test": true
+}

@@ -1,0 +1,31 @@
+{
+  "experiment": "balanced sampler D-center paired completion",
+  "seeds": [
+    20261101,
+    20261102
+  ],
+  "methods": [
+    "D-center"
+  ],
+  "C_reference": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_01",
+  "new_updates": 1200,
+  "updates_per_group": 600,
+  "new_rollouts": 120,
+  "AE_updates": 0,
+  "C_updates": 0,
+  "C_new_rollouts": 0,
+  "initial_source": "each matching C actual saved step0000, including exact model and RNG; fresh empty optimizer",
+  "sampler": "read existing C frozen index file directly; do not regenerate",
+  "target": "historical original AE-D; (z_D-mu_D)/s_C",
+  "lambda_aux": 0.22408536585365854,
+  "LR": 0.0002,
+  "scheduler": "original600 MultiStepLR, post-update, all600 update LR2e-4",
+  "primary": "D-center minus C within each order, then two-order equal mean",
+  "uncertainty": "physical states clustered across both orders and all appearances; conditional on two orders, not population seed uncertainty",
+  "checkpoint_selection": "final600 only",
+  "GPU": "same authorized GPU1 as C; prior ECC baseline retained, stop on increments",
+  "keep": false,
+  "teacher": false,
+  "sealed_reads": 0,
+  "automatic_extra_runs": false
+}

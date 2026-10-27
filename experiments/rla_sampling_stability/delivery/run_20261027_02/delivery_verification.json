@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_EXECUTION_NOT_METHOD",
+  "new_policy_updates": 1200,
+  "actual_successful_computations": 1300,
+  "replayed_updates": 100,
+  "new_valid_rollouts": 120,
+  "actual_new_attempts": 120,
+  "invalid_trials": 0,
+  "C_training_updates": 0,
+  "C_new_rollouts": 0,
+  "AE_updates": 0,
+  "sealed_reads": 0,
+  "protected_inputs_unchanged": true,
+  "GPU_migration": "GPU1 ECC guard at400; restore complete300 on authorized GPU0; both D evaluations GPU0, historical C evaluations GPU1"
+}

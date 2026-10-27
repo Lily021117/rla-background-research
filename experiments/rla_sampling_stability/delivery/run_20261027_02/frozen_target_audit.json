@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 46,
+      "appearance": "clean",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "ebdc54a4ea3d273a5db8c45c5de87bbd73f32a2854d94d5aee6e05d1290f2d7f",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 64,
+      "appearance": "clean",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "058186ae4568b627865b6b288f7219f9e9d0630125fbdaab19e95fc6f666733f",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 17,
+      "appearance": "clean",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "6b2eef77d42f2f852c7ca97eb9a13e0197810cba25afcd2cd5cdf38da45bf4d2",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    },
+    {
+      "episode": "derived_stove_demo_12_v1",
+      "timestep": 46,
+      "appearance": "background",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "7034564efe969ef89f6890fc12bf337e04304d18d2d2cfe49181b4d600ecdd70",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    },
+    {
+      "episode": "derived_stove_demo_5_v1",
+      "timestep": 64,
+      "appearance": "background",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "abb67ef0272bc7a86993fe60207d84a984963d52ca39b58c8b38178e2b2dc66a",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    },
+    {
+      "episode": "derived_stove_demo_16_v1",
+      "timestep": 17,
+      "appearance": "background",
+      "encoder_sha256": "c7159652142dfaeac42cdd051bf7f4d48ed2a81b41530fb683fae5fd455c0a08",
+      "sidecar_sha256": "e03ef2abc0acf5acd974d8c15bdd6f179a350ed0690a58a55b6fb67d3a8ec0dc",
+      "shape": [
+        8,
+        1024
+      ],
+      "exact": true
+    }
+  ],
+  "source": "original historical AE-D, NOT inv03",
+  "own_D_mean": true,
+  "common_C_scale": true,
+  "new_targets": 0,
+  "AE_updates": 0
+}

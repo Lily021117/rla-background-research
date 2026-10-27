@@ -1,0 +1,14 @@
+[
+  {
+    "order_seed": 20261101,
+    "step0_parameters_RNG_exact": true,
+    "actual600_sample_ID_sequences_exact": true,
+    "execution_config_exact_except_arm": true
+  },
+  {
+    "order_seed": 20261102,
+    "step0_parameters_RNG_exact": true,
+    "actual600_sample_ID_sequences_exact": true,
+    "execution_config_exact_except_arm": true
+  }
+]
