@@ -1,0 +1,14 @@
+{
+  "user_authorized": true,
+  "checkpoint": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261102/D-center/formal/step0300.pt",
+  "sha256": "81cd57f943bff7b6c8dc8326c1af292b81046510e3ffa55b767ba8101b566504",
+  "restored_step": 300,
+  "failed_attempt_logged_updates": 400,
+  "replayed_updates": 100,
+  "remaining_actual_updates": 300,
+  "full_model_optimizer_scheduler_RNG_sampler": true,
+  "AMP": "bfloat16 no scaler",
+  "GPU_UUID": "<GPU_UUID>",
+  "configuration_unchanged": true,
+  "source_commit": "fb03e7896f65aeea0fd8775176f6e653187c2527"
+}

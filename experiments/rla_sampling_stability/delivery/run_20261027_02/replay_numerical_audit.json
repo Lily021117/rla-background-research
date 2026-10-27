@@ -1,0 +1,11 @@
+{
+  "replayed_steps": 100,
+  "comparison_fields": [
+    "action_loss",
+    "auxiliary_loss",
+    "total_loss",
+    "lr"
+  ],
+  "exact_rows": 100,
+  "scope": "Logged losses and LR only; not a proof of bitwise parameter equivalence across devices"
+}
