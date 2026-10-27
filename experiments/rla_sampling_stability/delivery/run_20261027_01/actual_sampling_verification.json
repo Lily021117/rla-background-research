@@ -1,0 +1,14 @@
+[
+  {
+    "sampler_seed": 20261101,
+    "all600_actual_sample_ID_rows_exact": true,
+    "same_historical_parameters_RNG": true,
+    "optimizer_initially_empty": true
+  },
+  {
+    "sampler_seed": 20261102,
+    "all600_actual_sample_ID_rows_exact": true,
+    "same_historical_parameters_RNG": true,
+    "optimizer_initially_empty": true
+  }
+]

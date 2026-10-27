@@ -1,0 +1,51 @@
+{
+  "unit": "physical state clustering, appearances jointly",
+  "comparisons": [
+    {
+      "new": "balanced_20261101",
+      "reference": "history_I23_T23",
+      "difference": 0.016666666666666666,
+      "CI95": [
+        0.0,
+        0.05
+      ],
+      "gains": 1,
+      "losses": 0
+    },
+    {
+      "new": "balanced_20261101",
+      "reference": "cross_I23_T29",
+      "difference": 0.9833333333333333,
+      "CI95": [
+        0.95,
+        1.0
+      ],
+      "gains": 59,
+      "losses": 0
+    },
+    {
+      "new": "balanced_20261102",
+      "reference": "history_I23_T23",
+      "difference": -0.2833333333333333,
+      "CI95": [
+        -0.45,
+        -0.13333333333333333
+      ],
+      "gains": 1,
+      "losses": 18
+    },
+    {
+      "new": "balanced_20261102",
+      "reference": "cross_I23_T29",
+      "difference": 0.6833333333333333,
+      "CI95": [
+        0.5333333333333333,
+        0.8333333333333334
+      ],
+      "gains": 41,
+      "losses": 0
+    }
+  ],
+  "not_independent_test": true,
+  "only_two_order_seeds": true
+}

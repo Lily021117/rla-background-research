@@ -1,0 +1,36 @@
+[
+  {
+    "seed": 20261023,
+    "order_file": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/sampling_order.json",
+    "order_sha256": "5642c2a24bdd9468dd08ff9e208a373274770624abfe591fc41311a8de528d13",
+    "final_checkpoint": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/policy_run/C/isolated_smoke/step0600.pt",
+    "checkpoint_global_step": 600,
+    "next_sample": 4800,
+    "successful_metric_rows": 600,
+    "full_actual_sample_ID_log_available": false,
+    "evidence_level": "frozen index replay + terminal checkpoint configuration/cursor + update log; NOT an independently recorded full historical sample trace",
+    "algorithm_reconstruction_exact": true,
+    "direct_synchronous_dataset_sample": true,
+    "workers": 0,
+    "shuffle_buffer": null,
+    "restore": "checkpoint RNG and cursor; these historical C arms have uninterrupted 600-row logs",
+    "caveat": "source code determines access order; cannot independently prove every historical decoded item from absent per-item logs"
+  },
+  {
+    "seed": 20261029,
+    "order_file": "<PROJECT_ROOT>/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/sampling_order.json",
+    "order_sha256": "8dd73e52b0c0f2ed1df776cb21d6916117c13ff077c7f2947d01956f120f781d",
+    "final_checkpoint": "<PROJECT_ROOT>/experiments/rla_policy_seed_replication/run_20261026_02/seed_20261029/C/formal/step0600.pt",
+    "checkpoint_global_step": 600,
+    "next_sample": 4800,
+    "successful_metric_rows": 600,
+    "full_actual_sample_ID_log_available": false,
+    "evidence_level": "frozen index replay + terminal checkpoint configuration/cursor + update log; NOT an independently recorded full historical sample trace",
+    "algorithm_reconstruction_exact": true,
+    "direct_synchronous_dataset_sample": true,
+    "workers": 0,
+    "shuffle_buffer": null,
+    "restore": "checkpoint RNG and cursor; these historical C arms have uninterrupted 600-row logs",
+    "caveat": "source code determines access order; cannot independently prove every historical decoded item from absent per-item logs"
+  }
+]

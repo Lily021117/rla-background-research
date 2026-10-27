@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_EXECUTION_NOT_METHOD",
+  "policy_updates": 1200,
+  "actual_successful_computations": 1200,
+  "replay": 0,
+  "valid_rollouts": 120,
+  "invalid_rollouts": 0,
+  "AE_updates": 0,
+  "D_updates": 0,
+  "sealed_reads": 0,
+  "protected_hashes_unchanged": true,
+  "authorized_device_override": "GPU1, see gpu1_authorization.json",
+  "isolated_preflight_optimizer_updates": 0
+}

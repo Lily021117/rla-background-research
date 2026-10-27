@@ -1,0 +1,10 @@
+{
+  "branch": "experiments/rla-sampling-stability",
+  "source_commit": "4bf08f237fd3349db1145a5261adab38fa314a26",
+  "protocol_parent_commit": "354d0243d90315e8b9c67af381fd13a113777707",
+  "CPU_sampler_tests": "PASS",
+  "new_sampler_seeds": [20261101, 20261102],
+  "model_initialization_and_training_RNG_seed": 20261023,
+  "GPU_rule": "GPU0 only, wait for >=26 GiB free; no automatic alternative GPU",
+  "controller_session": 54314
+}

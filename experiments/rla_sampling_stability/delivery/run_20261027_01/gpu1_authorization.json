@@ -1,0 +1,15 @@
+{
+ "user_authorized": true,
+ "user_instruction": "你试试gpu1吧",
+ "GPU_UUID": "<GPU_UUID>",
+ "volatile_uncorrectable_parity_baseline": 1,
+ "aggregate_uncorrectable_parity_baseline": 2,
+ "aggregate_SM_baseline": 2,
+ "historical_fault_not_repaired_claim": true,
+ "minimum_free_GiB": 26,
+ "preflight_required": "two full effective batches with backward, persistent moment-equivalent storage, optimizer updates=0",
+ "on_CUDA_or_ECC_increment": "stop; preserve evidence; no automatic fallback",
+ "GPU0_wait_controller_stopped": 69331,
+ "updates_before_switch": 0,
+ "configuration_changes": "device only; identical seeds, indices, batch, model, losses, backend and budgets"
+}
