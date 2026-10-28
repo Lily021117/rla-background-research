@@ -1,0 +1,17 @@
+{
+  "planned_pairs": 200,
+  "valid_pairs": 200,
+  "valid_trajectories": 400,
+  "invalid_field_records": [],
+  "clean_pairs": 40,
+  "background_pairs": 160,
+  "manual_video_pairs_selected": 8,
+  "counters": {
+    "model_forward": 0,
+    "backward": 0,
+    "optimizer_updates": 0,
+    "AE_updates": 0,
+    "new_closed_loop": 0,
+    "simulation_replay": 0
+  }
+}

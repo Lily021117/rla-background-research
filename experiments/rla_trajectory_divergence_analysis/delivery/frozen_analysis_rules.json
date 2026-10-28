@@ -1,0 +1,48 @@
+{
+  "base_commit": "3a3a3c091e707cd5372d763ed80ff1f86eee9849",
+  "scope": "C vs C-shared-target, final600; two orders; 20 states; clean + four frozen new backgrounds",
+  "sequence": "freeze -> inventory -> validation -> clean pairs -> background pairs",
+  "time": "control step 1 = first post-action state; video frame k is pre-action at zero-based control 8*k; 20Hz control,2.5fps video",
+  "existing_proxies": {
+    "lift_m": 0.03,
+    "near_ee_bowl_m": 0.1,
+    "center_xy_m": 0.03,
+    "goal": "recorded height AND contact AND xy<0.03; original success label retained"
+  },
+  "new_descriptive_rules": {
+    "main": {
+      "position_separation_m": 0.03,
+      "persistence_steps": 8
+    },
+    "sensitivity": {
+      "position_separation_m": 0.05,
+      "persistence_steps": 8
+    },
+    "basis": "3cm uses existing target-centering tolerance;5cm fixed sensitivity;8 steps is one deployed chunk, not optimized for outcomes"
+  },
+  "candidate_rules": [
+    "post-lift first open while outside xy goal",
+    "post-lift finger-contact loss before goal (contact is not stable grasp truth)",
+    "post-lift outward XY change >=3cm (sensitivity5cm) during at least8 consecutive bowl-descending intervals",
+    "center entered then lost before goal",
+    "EE re-approach: near->far->near using existing0.10m threshold, not confirmed regrasp"
+  ],
+  "grouping": [
+    "order",
+    "condition",
+    "both_success/C_only/shared_only/both_failure"
+  ],
+  "video_selection": "one per order x outcome group; conditions in clean,bg1,bg2,bg3,bg4 order then ascending state; empty groups not replaced; at most8 pairs",
+  "no_inference_or_simulation": true,
+  "no_threshold_search": true,
+  "no_C_expert_assumption": true,
+  "intervals": "none; descriptive census; no independence claims",
+  "counters": {
+    "model_forward": 0,
+    "backward": 0,
+    "optimizer_updates": 0,
+    "AE_updates": 0,
+    "new_closed_loop": 0,
+    "simulation_replay": 0
+  }
+}

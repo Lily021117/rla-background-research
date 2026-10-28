@@ -1,0 +1,15 @@
+{
+  "executed_actions": "7D OSC_POSE controller commands: xyz translation increments, three rotation-control components, gripper; not world displacement in metres or measured orientation error. Controller scaling not inferred from shape.",
+  "predicted_chunks": "de-normalized action-space predictions,8x7 per inference; gripper raw0close/1open; deployed -sign(2*g-1), +1close/-1open; checked elementwise all400.",
+  "position_units": "metres in simulator world; all after action; body and geometry bowl centers checked equal for all records.",
+  "states": "92D serialized simulator vector; post-action; not decoded as arbitrary qpos offsets.",
+  "video": "2.5fps at chunk inference, pre-action controls0,8,...; terminal result may occur after final video frame.",
+  "initial": "frozen protocol arrays independently hashed; never replaced by first post-action row.",
+  "lift": "existing3cm proxy, baseline reconstructed from max(body_z)-recorded max_lift solely to audit index; not grasp truth and not required for task success.",
+  "sources": [
+    "experiments/rla_lr_budget_sweep/extend_evaluation.py:63-109",
+    "experiments/official_libero_rla_consistency/stove_postlift/common.py:24-34",
+    "upstream/experiments/robot/libero/run_libero_eval.py:269-279"
+  ],
+  "pose_inference": "No rotation-command difference is called actual angular error; no force, friction, slip, grasp stability or training coverage claim."
+}
