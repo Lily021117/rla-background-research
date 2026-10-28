@@ -1,0 +1,42 @@
+{
+  "base_commit": "8cb44ab99194c812837ee862f2dc33fe5c0f1de2",
+  "orders": [
+    20261101,
+    20261102
+  ],
+  "methods": [
+    "Action-only-match",
+    "Geometry-target"
+  ],
+  "updates_per_group": 600,
+  "total_updates": 2400,
+  "new_valid_rollouts": 400,
+  "AE_updates": 0,
+  "primary": "Geometry-target minus Action-only-match",
+  "secondary": "Geometry-target minus frozen C-reference",
+  "checkpoints": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "validation": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "lambda_aux": 0.22408536585365854,
+  "auxiliary_geometry": "FP32 mean absolute error of first12 final independent output coordinates, valid8 horizons; all unobserved outputs excluded, no RLA loss",
+  "geometry_floor_m": 0.001,
+  "teacher": false,
+  "keep": false,
+  "tail_padding": false,
+  "trial_retry": "stop on infrastructure error; no task-failure retry",
+  "seed": "historical model RNG; independent frozen sampling orders only",
+  "GPU": "${GPU_UUID}",
+  "geometry_vs_C_caveat": "supervision meaning, dimensions and normalization differ; not a single representation-factor causal contrast",
+  "decision": "retain negative results; no hyperparameter extension",
+  "sealed_read": false
+}

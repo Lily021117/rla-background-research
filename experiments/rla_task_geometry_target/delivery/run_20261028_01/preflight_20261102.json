@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "microbatch": 8,
+  "effective_appearance_batch": 16,
+  "optimizer_updates": 0,
+  "checks": [
+    {
+      "mode": "official_zero",
+      "action_hash": "7618090474b8148fe7251bbedc140ca2c658de974dcabc934a0bec1746541752",
+      "gradient_hash": "6b2d4ee8141e4f60557b298db331472aefe9c4cee6787d143258ce76e1c02b86",
+      "losses": [
+        0.53125,
+        0.44921875
+      ]
+    },
+    {
+      "mode": "geometry_zero",
+      "action_hash": "7618090474b8148fe7251bbedc140ca2c658de974dcabc934a0bec1746541752",
+      "gradient_hash": "6b2d4ee8141e4f60557b298db331472aefe9c4cee6787d143258ce76e1c02b86",
+      "losses": [
+        0.53125,
+        0.44921875
+      ]
+    },
+    {
+      "mode": "changed_target_zero",
+      "action_hash": "7618090474b8148fe7251bbedc140ca2c658de974dcabc934a0bec1746541752",
+      "gradient_hash": "6b2d4ee8141e4f60557b298db331472aefe9c4cee6787d143258ce76e1c02b86",
+      "losses": [
+        0.53125,
+        0.44921875
+      ]
+    }
+  ],
+  "exact_action_and_gradient_equivalence": true,
+  "geometry_shared_backbone_gradient_norm": 0.35240999894650277,
+  "mask_mean_verified": true,
+  "target_no_gradient": true,
+  "peak_allocated": 19887513600,
+  "peak_reserved": 21892169728,
+  "target_input_path": "supervision only",
+  "no_zero_padding": true
+}

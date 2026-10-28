@@ -1,0 +1,5 @@
+order,method,global_step,sha256,path
+20261101,Action-only-match,600,e3efce473cfede6559f40aa9b3a5f51eae896a0355ed7c305544f41d295d5fb5,${PROJECT}/experiments/rla_task_geometry_target/run_20261028_01/seed_20261101/Action-only-match/formal/step0600.pt
+20261101,Geometry-target,600,530c16d8b4094b4e16645443fd616c40bbe9cf6d99aaa620c1f31f50b555e76f,${PROJECT}/experiments/rla_task_geometry_target/run_20261028_01/seed_20261101/Geometry-target/formal/step0600.pt
+20261102,Action-only-match,600,e6da1b6d552ac5576b53dbc7ccd7fefcb8029617df11b79d9c0d5e0fbbd261d5,${PROJECT}/experiments/rla_task_geometry_target/run_20261028_01/seed_20261102/Action-only-match/formal/step0600.pt
+20261102,Geometry-target,600,c933b7af5f067ae818541c88afb68f0c3b2165085094e81151b5c6797c26f4ed,${PROJECT}/experiments/rla_task_geometry_target/run_20261028_01/seed_20261102/Geometry-target/formal/step0600.pt

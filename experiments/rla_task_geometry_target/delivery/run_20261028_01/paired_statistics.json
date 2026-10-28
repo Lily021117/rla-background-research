@@ -1,0 +1,298 @@
+{
+  "physical_state_clusters": 20,
+  "draws": 20000,
+  "seed": 20261028,
+  "all_appearances_and_orders_resampled_together": true,
+  "results": [
+    {
+      "comparison": "20261101 Geometry minus Action-only-match clean",
+      "difference": 0.85,
+      "CI95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match new_background_1",
+      "difference": 0.9,
+      "CI95": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match new_background_2",
+      "difference": 0.75,
+      "CI95": [
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match new_background_3",
+      "difference": 0.7,
+      "CI95": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match new_background_4",
+      "difference": 0.65,
+      "CI95": [
+        0.4,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match four_background_mean",
+      "difference": 0.75,
+      "CI95": [
+        0.6125,
+        0.875
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus Action-only-match background_minus_clean_interaction",
+      "difference": -0.1,
+      "CI95": [
+        -0.3125,
+        0.125
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match clean",
+      "difference": 0.5,
+      "CI95": [
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match new_background_1",
+      "difference": 0.15,
+      "CI95": [
+        0.0,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match new_background_2",
+      "difference": 0.15,
+      "CI95": [
+        0.0,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match new_background_3",
+      "difference": 0.35,
+      "CI95": [
+        0.15,
+        0.55
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match new_background_4",
+      "difference": 0.3,
+      "CI95": [
+        0.1,
+        0.5
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match four_background_mean",
+      "difference": 0.2375,
+      "CI95": [
+        0.1,
+        0.3875
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus Action-only-match background_minus_clean_interaction",
+      "difference": -0.2625,
+      "CI95": [
+        -0.4875,
+        -0.0375
+      ]
+    },
+    {
+      "comparison": "two orders Geometry minus Action-only-match four_background_mean",
+      "difference": 0.49375,
+      "CI95": [
+        0.40625,
+        0.56875
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.3,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference new_background_1",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference new_background_2",
+      "difference": 0.0,
+      "CI95": [
+        -0.2,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference new_background_3",
+      "difference": -0.25,
+      "CI95": [
+        -0.45,
+        -0.05
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference new_background_4",
+      "difference": -0.15,
+      "CI95": [
+        -0.3,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference four_background_mean",
+      "difference": -0.125,
+      "CI95": [
+        -0.225,
+        -0.0375
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry minus C-reference background_minus_clean_interaction",
+      "difference": 0.025,
+      "CI95": [
+        -0.1375,
+        0.2125
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.45,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference new_background_1",
+      "difference": -0.6,
+      "CI95": [
+        -0.85,
+        -0.35
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference new_background_2",
+      "difference": -0.35,
+      "CI95": [
+        -0.6,
+        -0.1
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference new_background_3",
+      "difference": -0.45,
+      "CI95": [
+        -0.65,
+        -0.25
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference new_background_4",
+      "difference": -0.3,
+      "CI95": [
+        -0.55,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference four_background_mean",
+      "difference": -0.425,
+      "CI95": [
+        -0.5875,
+        -0.25
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry minus C-reference background_minus_clean_interaction",
+      "difference": -0.275,
+      "CI95": [
+        -0.5375,
+        -0.0125
+      ]
+    },
+    {
+      "comparison": "two orders Geometry minus C-reference four_background_mean",
+      "difference": -0.275,
+      "CI95": [
+        -0.3625,
+        -0.18125
+      ]
+    },
+    {
+      "comparison": "20261101 C-reference four_background_minus_clean",
+      "difference": -0.0875,
+      "CI95": [
+        -0.1625,
+        -0.025
+      ]
+    },
+    {
+      "comparison": "20261101 Action-only-match four_background_minus_clean",
+      "difference": 0.0375,
+      "CI95": [
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "comparison": "20261101 Geometry-target four_background_minus_clean",
+      "difference": -0.0625,
+      "CI95": [
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 C-reference four_background_minus_clean",
+      "difference": 0.0125,
+      "CI95": [
+        -0.15,
+        0.175
+      ]
+    },
+    {
+      "comparison": "20261102 Action-only-match four_background_minus_clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 Geometry-target four_background_minus_clean",
+      "difference": -0.2625,
+      "CI95": [
+        -0.4875,
+        -0.0375
+      ]
+    }
+  ],
+  "development_reused": true,
+  "training_seed_uncertainty_not_included": true
+}
