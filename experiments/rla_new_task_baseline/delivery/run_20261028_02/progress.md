@@ -75,3 +75,23 @@ and `--project`; local dependency locations follow the existing project setup.
 
 Only code and this sanitized progress report are published. Images, simulator
 states, checkpoints, target arrays, and videos remain outside the repository.
+
+## Verified continuation milestones
+
+Frozen encoding completed for all 25 episodes (50 appearance-specific files).
+All 150 source-image recomputation checks and 50 deterministic repeat checks
+passed. Maximum absolute cached/recomputed latent difference was
+0.0038967132568359375; this is an implementation consistency check, not a claim
+of representation quality. AE, DINO, and policy updates during extraction: 0.
+
+Both full-batch preflights passed (microbatch 8, accumulation 2). With the
+auxiliary coefficient zero, target replacement preserved exact action-output,
+action-loss, and action-gradient equality. Weighted auxiliary gradients reached
+the shared backbone in the RLA path (measured norm approximately 0.187).
+Each preflight verified unchanged initial parameters and performed zero updates.
+Peak allocated memory was approximately 18.47 GiB; the 26 GiB startup guard is
+unchanged. The bounded coordinator then advanced to formal policy training.
+
+No completed-policy or closed-loop performance conclusion is available at this
+progress checkpoint. In particular, a successful preflight does not establish
+middle-drawer task learning or appearance robustness.
