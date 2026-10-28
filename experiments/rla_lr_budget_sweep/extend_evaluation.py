@@ -14,7 +14,7 @@ def execute(g):
  from libero.libero import get_libero_path
  from experiments.robot.libero.run_libero_eval import process_action
  from stove_postlift.common import metrics as task_metrics
- root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==len(protocol['models'])*len(protocol['states'])*len(protocol['conditions']) and (protocol['trials'] in (60,120) or (protocol.get('appearance_gap_evaluation') and protocol['trials']==200))
+ root=g['a'].run.parent;plan=json.loads((root/'run_plan.json').read_text());prev=Path(plan['previous']);protocol=json.loads((root/'evaluation_protocol.json').read_text());assert protocol['trials']==len(protocol['models'])*len(protocol['states'])*len(protocol['conditions']) and (protocol['trials'] in (60,120) or (protocol.get('appearance_gap_evaluation') and protocol['trials']==200) or (protocol.get('method_comparison_evaluation') and protocol['trials']==320))
  basehead=g['head'].cpu();_,_,_=initialize(g);rlahead=g['head'];rlahead.cpu();torch.cuda.empty_cache();model=g['model'];prop=g['prop'];mods=g['mods']
  registry=json.loads((root/os.environ.get('RLA_POLICY_REGISTRY','policy_registry.json')).read_text());paths={k:Path(v) for k,v in registry.items()}
  for arm in paths:

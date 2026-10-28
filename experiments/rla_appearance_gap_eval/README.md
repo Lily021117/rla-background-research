@@ -41,3 +41,22 @@ failure, then analyzes and publishes sanitized small outputs. Infrastructure
 errors stop the worker and retain evidence; failed tasks are valid results.
 No task-failure retry, checkpoint selection, parameter change or extra trial
 is performed. Do not infer universal robustness from a small development set.
+
+## Existing-method completion on the frozen four backgrounds
+
+`method_comparison.py` reuses the preceding run's C160 background scores,
+all120 existing Clean scores, and every frozen state/XML/asset byte. Only
+the four specified D-center/shared-target final600 checkpoints run:4x20x4,
+exactly320 new trials. It does not regenerate or select backgrounds.
+
+```sh
+python experiments/rla_appearance_gap_eval/method_comparison.py --out "$OUT" --mode prepare
+# Commit reviewed source/configuration before scoring, then:
+python experiments/rla_appearance_gap_eval/method_comparison.py --out "$OUT" --mode run
+```
+
+Each reused row has its original ledger/hash and device provenance. Joint
+physical-state bootstrap keeps every method, appearance and both orders in
+the same resampled cluster. The background2 focus is explicitly exploratory
+after the C results. All backgrounds and Clean costs are reported; no new
+training or automatic follow-up is performed.
