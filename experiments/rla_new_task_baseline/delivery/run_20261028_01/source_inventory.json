@@ -1,0 +1,26 @@
+[
+  {
+    "path": "<DATA_ROOT>/datasets/LIBERO-Cosmos-Policy/success_only/libero_goal_regen/open_the_middle_drawer_of_the_cabinet_demo.hdf5",
+    "sha256": "671784a04a4d62057b0793a535e1ee783515196e5c5e17f0c5f19b7e6dfc5d4d"
+  },
+  {
+    "path": "<DATA_ROOT>/datasets/LIBERO-Cosmos-Policy/README.md",
+    "sha256": "6e430d139dd5565098d95d95c7e2271cee746d8b1824c0dcb47e2f18fb0901ae"
+  },
+  {
+    "path": "<DATA_ROOT>/datasets/LIBERO-Cosmos-Policy/success_only/libero_goal_regen/libero_goal_metainfo.json",
+    "sha256": "d49262db725035d860d37237e19b5a2a211794e9c5a1db6a4f7187c14fbf5064"
+  },
+  {
+    "path": "<DATA_ROOT>/projects/cosmos-policy/cosmos_policy/experiments/robot/libero/regenerate_libero_dataset.py",
+    "sha256": "dd6bd37fd370ce9e0e6009515d064f5c1f9de4f219e556cf3e2e9e91795aec90"
+  },
+  {
+    "path": "<DATA_ROOT>/projects/FastWAM/data/libero_mujoco3.3.2/libero_goal_no_noops_lerobot/meta/info.json",
+    "sha256": "a8af3fa4dccea840d80fe4e6610ad71713f12a15fa05b783bdede3e735bdd94b"
+  },
+  {
+    "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/bddl_files/libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sha256": "832ab48ec476807c767e8985666e295700f92d1f8daeae1c34eee1e75293769b"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "available_episodes": 42,
+  "candidate_train": 20,
+  "candidate_development": 5,
+  "with_per_episode_model": 0,
+  "with_global_environment_metadata": false,
+  "selected_nonuniform_first_interval": 25,
+  "policy_updates": 0,
+  "AE_updates": 0,
+  "model_forward": 0,
+  "policy_rollouts": 0,
+  "BDDL_sha256": "832ab48ec476807c767e8985666e295700f92d1f8daeae1c34eee1e75293769b"
+}

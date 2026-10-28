@@ -1,0 +1,66 @@
+{
+  "status": "NOT_SOURCE_MODEL_IDENTITY_PROOF",
+  "checks": [
+    {
+      "timestep": 0,
+      "state_size": 79,
+      "model_state_size": 79,
+      "initial_or_current_success": false,
+      "eef_max_component_difference": 0.0035392840506629497,
+      "cameras": [
+        {
+          "camera": "agentview",
+          "source_vs_candidate_MAE": 2.602167765299479,
+          "source_vs_candidate_max": 152
+        },
+        {
+          "camera": "robot0_eye_in_hand",
+          "source_vs_candidate_MAE": 9.095443725585938,
+          "source_vs_candidate_max": 193
+        }
+      ]
+    },
+    {
+      "timestep": 1,
+      "state_size": 79,
+      "model_state_size": 79,
+      "initial_or_current_success": false,
+      "eef_max_component_difference": 0.00015657237264665724,
+      "cameras": [
+        {
+          "camera": "agentview",
+          "source_vs_candidate_MAE": 1.849700927734375,
+          "source_vs_candidate_max": 158
+        },
+        {
+          "camera": "robot0_eye_in_hand",
+          "source_vs_candidate_MAE": 2.0329132080078125,
+          "source_vs_candidate_max": 113
+        }
+      ]
+    },
+    {
+      "timestep": 10,
+      "state_size": 79,
+      "model_state_size": 79,
+      "initial_or_current_success": false,
+      "eef_max_component_difference": 0.0005726373374174698,
+      "cameras": [
+        {
+          "camera": "agentview",
+          "source_vs_candidate_MAE": 1.8745371500651042,
+          "source_vs_candidate_max": 158
+        },
+        {
+          "camera": "robot0_eye_in_hand",
+          "source_vs_candidate_MAE": 2.5601399739583335,
+          "source_vs_candidate_max": 131
+        }
+      ]
+    }
+  ],
+  "model_xml_sha256": "27d54ecd2d4b6714486c7d3e590ad2b9e4117edcfa9675af5eda3cd8f50edc07",
+  "simulation_steps": 0,
+  "policy_calls": 0,
+  "scope": "current local task model; matching shape or approximate pixels cannot certify original generation version; JPEG and engine differences affect RGB"
+}

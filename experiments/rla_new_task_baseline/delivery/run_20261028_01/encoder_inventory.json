@@ -1,0 +1,23 @@
+{
+  "status": "AVAILABLE_HASH_MATCHED",
+  "models": [
+    {
+      "file": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_01/downloads/extracted/runs/16x64_libero/20260725_00-39-52/ckpts/encoder_step0090000.pt",
+      "sha256": "a22efe9311f1588675f19c83f5a2af3afb1dd221e59c8170fb64ced60037086c",
+      "step": 90000,
+      "historical_strict_load_reused": true,
+      "new_forward": false
+    },
+    {
+      "file": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_01/downloads/extracted/runs/16x64_libero/20260725_00-39-52/ckpts/decoder_step0090000.pt",
+      "sha256": "916952b1da241492db095d959ce850eed2f77693b380e9f8b9756b1c7612ff1d",
+      "step": 90000,
+      "historical_strict_load_reused": true,
+      "new_forward": false
+    }
+  ],
+  "architecture": "official joint dual-view Plucker 16x64",
+  "frozen": true,
+  "training_source": "official LIBERO converted trajectories; precise task exclusion not established",
+  "unseen_task_generalization_claim": false
+}
