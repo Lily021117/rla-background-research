@@ -1,0 +1,15 @@
+{
+  "frozen_before_new_rollouts": true,
+  "primary": "equal-weight mean over all four backgrounds, each method minus same-order C; show each order and each background",
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 20261028,
+    "unit": "20 physical states jointly preserving every appearance and both sampling orders",
+    "includes_training_seed_task_uncertainty": false
+  },
+  "valuable_repeated_benefit_rule": "method minus C background mean >0 and state-cluster CI lower bound >0 in each order; always display Clean cost and absolute SR",
+  "if_no_reliable_benefit_with_Clean_cost": "archive current AE-consistency and shared-Clean-target implementations as negative results and stop tuning these implementations",
+  "if_local_or_order_dependent": "describe exploratory local/order-dependent candidate only; no automatic background-specific tuning",
+  "if_repeated_benefit": "propose evaluation on newly frozen independent development states, disclose Clean tradeoff; do not execute this round",
+  "no_universal_claim_about_invariance": true
+}

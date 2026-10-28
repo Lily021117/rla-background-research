@@ -1,0 +1,589 @@
+{
+  "method_effects": [
+    {
+      "comparison": "20261101 D-center minus C: four backgrounds equal weight",
+      "difference": -0.025,
+      "CI95": [
+        -0.125,
+        0.075
+      ]
+    },
+    {
+      "comparison": "20261101 D-center minus C: clean",
+      "difference": -0.2,
+      "CI95": [
+        -0.4,
+        -0.05
+      ]
+    },
+    {
+      "comparison": "20261101 D-center minus C: new_background_1",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 D-center minus C: new_background_2",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261101 D-center minus C: new_background_3",
+      "difference": -0.15,
+      "CI95": [
+        -0.3,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 D-center minus C: new_background_4",
+      "difference": -0.05,
+      "CI95": [
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: four backgrounds equal weight",
+      "difference": 0.0375,
+      "CI95": [
+        -0.05,
+        0.125
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: new_background_1",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: new_background_2",
+      "difference": 0.1,
+      "CI95": [
+        -0.15,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: new_background_3",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: new_background_4",
+      "difference": 0.05,
+      "CI95": [
+        -0.1,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: four backgrounds equal weight",
+      "difference": -0.6,
+      "CI95": [
+        -0.7375,
+        -0.45
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: clean",
+      "difference": -0.5,
+      "CI95": [
+        -0.7,
+        -0.3
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: new_background_1",
+      "difference": -0.7,
+      "CI95": [
+        -0.9,
+        -0.5
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: new_background_2",
+      "difference": -0.35,
+      "CI95": [
+        -0.6,
+        -0.1
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: new_background_3",
+      "difference": -0.75,
+      "CI95": [
+        -0.95,
+        -0.55
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: new_background_4",
+      "difference": -0.6,
+      "CI95": [
+        -0.8,
+        -0.4
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: four backgrounds equal weight",
+      "difference": -0.5375,
+      "CI95": [
+        -0.75,
+        -0.2875
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: clean",
+      "difference": -0.6,
+      "CI95": [
+        -0.85,
+        -0.35
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: new_background_1",
+      "difference": -0.7,
+      "CI95": [
+        -0.9,
+        -0.45
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: new_background_2",
+      "difference": -0.35,
+      "CI95": [
+        -0.65,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: new_background_3",
+      "difference": -0.6,
+      "CI95": [
+        -0.85,
+        -0.3
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: new_background_4",
+      "difference": -0.5,
+      "CI95": [
+        -0.75,
+        -0.25
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: four backgrounds",
+      "difference": -0.3125,
+      "CI95": [
+        -0.4125,
+        -0.2125
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: clean",
+      "difference": -0.35,
+      "CI95": [
+        -0.525,
+        -0.2
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: new_background_1",
+      "difference": -0.375,
+      "CI95": [
+        -0.45,
+        -0.275
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: new_background_2",
+      "difference": -0.1,
+      "CI95": [
+        -0.275,
+        0.05
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: new_background_3",
+      "difference": -0.45,
+      "CI95": [
+        -0.575,
+        -0.325
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: new_background_4",
+      "difference": -0.325,
+      "CI95": [
+        -0.475,
+        -0.175
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: four backgrounds",
+      "difference": -0.25,
+      "CI95": [
+        -0.3625,
+        -0.1125
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: clean",
+      "difference": -0.325,
+      "CI95": [
+        -0.475,
+        -0.175
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: new_background_1",
+      "difference": -0.35,
+      "CI95": [
+        -0.45,
+        -0.225
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: new_background_2",
+      "difference": -0.125,
+      "CI95": [
+        -0.3,
+        0.075
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: new_background_3",
+      "difference": -0.3,
+      "CI95": [
+        -0.425,
+        -0.15
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: new_background_4",
+      "difference": -0.225,
+      "CI95": [
+        -0.375,
+        -0.075
+      ]
+    }
+  ],
+  "own_Clean_degradation": [
+    {
+      "comparison": "20261101 C: new_background_1 minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C: new_background_2 minus own Clean",
+      "difference": -0.25,
+      "CI95": [
+        -0.45,
+        -0.05
+      ]
+    },
+    {
+      "comparison": "20261101 C: new_background_3 minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C: new_background_4 minus own Clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C: four backgrounds minus own Clean",
+      "difference": -0.0875,
+      "CI95": [
+        -0.1625,
+        -0.025
+      ]
+    },
+    {
+      "comparison": "20261101 D-center: new_background_1 minus own Clean",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261101 D-center: new_background_2 minus own Clean",
+      "difference": 0.1,
+      "CI95": [
+        -0.15,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261101 D-center: new_background_3 minus own Clean",
+      "difference": 0.05,
+      "CI95": [
+        -0.15,
+        0.25
+      ]
+    },
+    {
+      "comparison": "20261101 D-center: new_background_4 minus own Clean",
+      "difference": 0.05,
+      "CI95": [
+        -0.1,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261101 D-center: four backgrounds minus own Clean",
+      "difference": 0.0875,
+      "CI95": [
+        -0.075,
+        0.275
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target: new_background_1 minus own Clean",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target: new_background_2 minus own Clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target: new_background_3 minus own Clean",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target: new_background_4 minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target: four backgrounds minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.075,
+        0.1
+      ]
+    },
+    {
+      "comparison": "20261102 C: new_background_1 minus own Clean",
+      "difference": 0.1,
+      "CI95": [
+        -0.1,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261102 C: new_background_2 minus own Clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.4,
+        0.1
+      ]
+    },
+    {
+      "comparison": "20261102 C: new_background_3 minus own Clean",
+      "difference": 0.15,
+      "CI95": [
+        -0.05,
+        0.35
+      ]
+    },
+    {
+      "comparison": "20261102 C: new_background_4 minus own Clean",
+      "difference": -0.05,
+      "CI95": [
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 C: four backgrounds minus own Clean",
+      "difference": 0.0125,
+      "CI95": [
+        -0.15,
+        0.175
+      ]
+    },
+    {
+      "comparison": "20261102 D-center: new_background_1 minus own Clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 D-center: new_background_2 minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 D-center: new_background_3 minus own Clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.25,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 D-center: new_background_4 minus own Clean",
+      "difference": -0.15,
+      "CI95": [
+        -0.3,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 D-center: four backgrounds minus own Clean",
+      "difference": -0.0875,
+      "CI95": [
+        -0.1875,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target: new_background_1 minus own Clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target: new_background_2 minus own Clean",
+      "difference": 0.1,
+      "CI95": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target: new_background_3 minus own Clean",
+      "difference": 0.15,
+      "CI95": [
+        0.0,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target: new_background_4 minus own Clean",
+      "difference": 0.05,
+      "CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target: four backgrounds minus own Clean",
+      "difference": 0.075,
+      "CI95": [
+        -0.0125,
+        0.1875
+      ]
+    }
+  ],
+  "background_interactions": [
+    {
+      "comparison": "20261101 D-center minus C: background-effect interaction",
+      "difference": 0.175,
+      "CI95": [
+        0.0,
+        0.3625
+      ]
+    },
+    {
+      "comparison": "20261101 C-shared-target minus C: background-effect interaction",
+      "difference": 0.0875,
+      "CI95": [
+        -0.0125,
+        0.2
+      ]
+    },
+    {
+      "comparison": "20261102 D-center minus C: background-effect interaction",
+      "difference": -0.1,
+      "CI95": [
+        -0.275,
+        0.0875
+      ]
+    },
+    {
+      "comparison": "20261102 C-shared-target minus C: background-effect interaction",
+      "difference": 0.0625,
+      "CI95": [
+        -0.1625,
+        0.275
+      ]
+    },
+    {
+      "comparison": "two orders equal weight D-center minus C: background-effect interaction",
+      "difference": 0.0375,
+      "CI95": [
+        -0.08125,
+        0.1625
+      ]
+    },
+    {
+      "comparison": "two orders equal weight C-shared-target minus C: background-effect interaction",
+      "difference": 0.075,
+      "CI95": [
+        -0.03125,
+        0.18125
+      ]
+    }
+  ],
+  "cluster_unit": "same physical state; all appearances/methods/orders resampled together",
+  "bootstrap_seed": 20261028,
+  "draws": 20000,
+  "independent_training_seeds": false,
+  "task_seed_uncertainty_not_included": true
+}

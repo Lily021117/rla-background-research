@@ -1,0 +1,10 @@
+{
+  "source": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01",
+  "source_static_acceptance_sha256": "f935efe0d7957dfecc6f2e678cea95be4b63158376d3471766b868f8ca82e845",
+  "source_asset_manifest_sha256": "53fbad4598adfd6005da8aec49713f2a80cfe76fdcdef27d4408845560adc95b",
+  "same_state_files": true,
+  "same_XML_files": true,
+  "same_asset_files": true,
+  "no_new_render_configuration": true,
+  "no_new_static_policy_rollouts": true
+}

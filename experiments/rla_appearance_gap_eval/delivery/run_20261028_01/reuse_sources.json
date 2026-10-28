@@ -1,0 +1,82 @@
+[
+  {
+    "method": "C",
+    "order": 20261101,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/per_trial_results.json",
+    "sha256": "899b6a862d1e17fe45046d5095a2cffdbb634e08ceaed0381c327cf5cb779c07",
+    "reused_trials": 100,
+    "appearances": [
+      "clean",
+      "new_background_1",
+      "new_background_2",
+      "new_background_3",
+      "new_background_4"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  },
+  {
+    "method": "D-center",
+    "order": 20261101,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261101/per_trial_results.json",
+    "sha256": "a385cca9580cfb19dc9a608585bf8da94f79a3839a6023aa71f141248f7b4dde",
+    "reused_trials": 20,
+    "appearances": [
+      "clean"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  },
+  {
+    "method": "C-shared-target",
+    "order": 20261101,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_shared_reference_target/run_20261027_01/seed_20261101/per_trial_results.json",
+    "sha256": "fd2325c75b9fdd4f0074cd09cad264faaceb178570f7187e9cff00d69b81e5f3",
+    "reused_trials": 20,
+    "appearances": [
+      "clean"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  },
+  {
+    "method": "C",
+    "order": 20261102,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/per_trial_results.json",
+    "sha256": "899b6a862d1e17fe45046d5095a2cffdbb634e08ceaed0381c327cf5cb779c07",
+    "reused_trials": 100,
+    "appearances": [
+      "clean",
+      "new_background_1",
+      "new_background_2",
+      "new_background_3",
+      "new_background_4"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  },
+  {
+    "method": "D-center",
+    "order": 20261102,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261102/per_trial_results.json",
+    "sha256": "ed9377521751552b5576d56b4e47a2d0935c4875d5e4d81fb36cec737d45ab13",
+    "reused_trials": 20,
+    "appearances": [
+      "clean"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  },
+  {
+    "method": "C-shared-target",
+    "order": 20261102,
+    "results_file": "<PROJECT_ROOT>/experiments/rla_shared_reference_target/run_20261027_01/seed_20261102/per_trial_results.json",
+    "sha256": "41d7b60442f6bba28ef33b556e909a86ee51ec107db58a42dfcfe92347d4a3fb",
+    "reused_trials": 20,
+    "appearances": [
+      "clean"
+    ],
+    "execution_GPU": "GPU0",
+    "reason": "checkpoint/state/XML/task/deployment match; no new Clean or C rollout"
+  }
+]

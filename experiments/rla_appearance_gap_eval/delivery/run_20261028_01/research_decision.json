@@ -1,0 +1,57 @@
+{
+  "decisions": [
+    {
+      "method": "D-center",
+      "valuable_repeated_background_benefit": false,
+      "Clean_cost_by_order": {
+        "20261101": -0.19999999999999996,
+        "20261102": -0.5
+      },
+      "positive_order_mean_contrasts": [],
+      "local_positive_background_contrasts": [
+        {
+          "comparison": "20261101 D-center minus C: new_background_2",
+          "difference": 0.15,
+          "CI95": [
+            -0.05,
+            0.35
+          ]
+        }
+      ],
+      "recommendation": "archive current implementation as negative/limited exploratory result; stop tuning it when Clean cost remains; disclose any local/order-dependent advantages without claiming overall effectiveness"
+    },
+    {
+      "method": "C-shared-target",
+      "valuable_repeated_background_benefit": false,
+      "Clean_cost_by_order": {
+        "20261101": -0.050000000000000044,
+        "20261102": -0.6
+      },
+      "positive_order_mean_contrasts": [
+        "20261101 C-shared-target minus C: four backgrounds equal weight"
+      ],
+      "local_positive_background_contrasts": [
+        {
+          "comparison": "20261101 C-shared-target minus C: new_background_2",
+          "difference": 0.1,
+          "CI95": [
+            -0.15,
+            0.35
+          ]
+        },
+        {
+          "comparison": "20261101 C-shared-target minus C: new_background_4",
+          "difference": 0.05,
+          "CI95": [
+            -0.1,
+            0.2
+          ]
+        }
+      ],
+      "recommendation": "archive current implementation as negative/limited exploratory result; stop tuning it when Clean cost remains; disclose any local/order-dependent advantages without claiming overall effectiveness"
+    }
+  ],
+  "background2_post_hoc_focus": true,
+  "no_universal_claim_about_all_invariance_methods": true,
+  "no_automatic_followup": true
+}

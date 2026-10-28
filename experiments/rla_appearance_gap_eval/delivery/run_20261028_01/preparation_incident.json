@@ -1,0 +1,10 @@
+{
+  "phase": "CPU preparation before any new policy rollout",
+  "cause": "The historical GPU0 launch-selection JSON records stage/authorization but does not contain a UUID string; preparation correctly stopped at that assumption.",
+  "resolution": "Use the historical evaluation worker ECC report at PCI 35:00.0 together with its authorized GPU0 launch configuration as device evidence, matching the established GPU0 mapping.",
+  "training_or_evaluation_protocol_changed": false,
+  "original_failure_log": "prepare.log",
+  "new_rollouts_before_correction": 0,
+  "optimizer_updates": 0,
+  "backward": 0
+}

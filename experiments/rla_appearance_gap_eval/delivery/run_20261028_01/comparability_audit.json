@@ -1,0 +1,42 @@
+[
+  {
+    "method": "D-center",
+    "order": 20261101,
+    "checkpoint_sha_matches_prior_inventory": true,
+    "global_step600_strict_reload_accepted": true,
+    "action_proprio_statistics_match_C": true,
+    "training_execution_config_except_arm_matches_C": true,
+    "deployment_fields_match_C": true,
+    "clean_reused_not_rerun": true
+  },
+  {
+    "method": "C-shared-target",
+    "order": 20261101,
+    "checkpoint_sha_matches_prior_inventory": true,
+    "global_step600_strict_reload_accepted": true,
+    "action_proprio_statistics_match_C": true,
+    "training_execution_config_except_arm_matches_C": true,
+    "deployment_fields_match_C": true,
+    "clean_reused_not_rerun": true
+  },
+  {
+    "method": "D-center",
+    "order": 20261102,
+    "checkpoint_sha_matches_prior_inventory": true,
+    "global_step600_strict_reload_accepted": true,
+    "action_proprio_statistics_match_C": true,
+    "training_execution_config_except_arm_matches_C": true,
+    "deployment_fields_match_C": true,
+    "clean_reused_not_rerun": true
+  },
+  {
+    "method": "C-shared-target",
+    "order": 20261102,
+    "checkpoint_sha_matches_prior_inventory": true,
+    "global_step600_strict_reload_accepted": true,
+    "action_proprio_statistics_match_C": true,
+    "training_execution_config_except_arm_matches_C": true,
+    "deployment_fields_match_C": true,
+    "clean_reused_not_rerun": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "method": "C",
+      "evidence": "<PROJECT_ROOT>/experiments/rla_appearance_gap_eval/run_20261027_01/evaluation_start.json",
+      "GPU": "<GPU_UUID>"
+    },
+    {
+      "method": "D-center",
+      "order": 20261101,
+      "evidence": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261101/evaluation/gpu0_evaluate/ecc_before.txt",
+      "authorization_config": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261101/gpu0_evaluate_config.json",
+      "GPU": "<GPU_UUID>",
+      "PCI_evidence": "35:00.0"
+    },
+    {
+      "method": "C-shared-target",
+      "order": 20261101,
+      "evidence": "<PROJECT_ROOT>/experiments/rla_shared_reference_target/run_20261027_01/seed_20261101/evaluation/formal/ecc_before.txt",
+      "GPU": "<GPU_UUID>"
+    },
+    {
+      "method": "D-center",
+      "order": 20261102,
+      "evidence": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261102/evaluation/gpu0_evaluate/ecc_before.txt",
+      "authorization_config": "<PROJECT_ROOT>/experiments/rla_sampling_stability/run_20261027_02/seed_20261102/gpu0_evaluate_config.json",
+      "GPU": "<GPU_UUID>",
+      "PCI_evidence": "35:00.0"
+    },
+    {
+      "method": "C-shared-target",
+      "order": 20261102,
+      "evidence": "<PROJECT_ROOT>/experiments/rla_shared_reference_target/run_20261027_01/seed_20261102/evaluation/formal/ecc_before.txt",
+      "GPU": "<GPU_UUID>"
+    }
+  ],
+  "current_GPU": "<GPU_UUID>",
+  "all_comparison_results_GPU0": true,
+  "earlier_pre_gap_C_evaluation_GPU1": "not used as current C score; previous round GPU0 Clean matched it"
+}

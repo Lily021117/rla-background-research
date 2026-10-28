@@ -1,0 +1,17 @@
+{
+  "status": "PASS_EVALUATION_PROCESS_NOT_METHOD",
+  "new_valid_rollouts": 320,
+  "actual_attempts": 320,
+  "invalid_trials": 0,
+  "reused_C_new_background_trials": 160,
+  "reused_Clean_trials": 120,
+  "total_comparison_records": 600,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "backward": 0,
+  "sealed_set_reads": 0,
+  "historical_protected_hashes_unchanged": true,
+  "no_extra_backgrounds_tasks_seeds_checkpoints": true,
+  "policy_worker_exited": true,
+  "GPU_final": "memory.free [MiB], ecc.errors.corrected.volatile.total, ecc.errors.uncorrected.volatile.total\n81064 MiB, 2, 0\n"
+}
