@@ -1,0 +1,182 @@
+[
+  {
+    "order": 20261101,
+    "metric": "action_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.03496852380940278,
+      "300": 0.0004352367142610156,
+      "600": -0.004402405771812364
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261101,
+    "metric": "translation_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.059245472609636446,
+      "300": 0.004403304547113851,
+      "600": 0.010412215439345718
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261101,
+    "metric": "rotation_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.007623488984334339,
+      "300": -0.007511148707488089,
+      "600": -0.013984192549588829
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261101,
+    "metric": "gripper_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.04417277862494056,
+      "300": 0.012370189935350486,
+      "600": -0.020100908139309873
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261101,
+    "metric": "auxiliary_L1",
+    "first_observed_nonzero_step": 0,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0013305732230543207,
+      "100": 0.0014791577460925192,
+      "300": 0.004298570845408572,
+      "600": 0.0006158534400324061
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261102,
+    "metric": "action_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.03481675936690772,
+      "300": -0.0010043676349084031,
+      "600": 0.016033384895977547
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261102,
+    "metric": "translation_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.047753349569219436,
+      "300": -0.00593949970027503,
+      "600": 0.026024275362639973
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261102,
+    "metric": "rotation_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.009354884477907183,
+      "300": 0.00136532893624278,
+      "600": 0.009055395723237077
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261102,
+    "metric": "gripper_L1",
+    "first_observed_nonzero_step": 100,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0,
+      "100": 0.07239260746015083,
+      "300": 0.0066919428949505306,
+      "600": 0.006994678189773982
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  },
+  {
+    "order": 20261102,
+    "metric": "auxiliary_L1",
+    "first_observed_nonzero_step": 0,
+    "available_steps": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "means": {
+      "0": 0.0013305732230543207,
+      "100": 0.0022305734084646107,
+      "300": 0.0016504328374672683,
+      "600": 0.000439098112783257
+    },
+    "interpretation": "first observed offline difference; no step1 validation, not a closed-loop collapse time"
+  }
+]

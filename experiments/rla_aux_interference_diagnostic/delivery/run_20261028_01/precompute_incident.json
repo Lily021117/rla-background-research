@@ -1,0 +1,17 @@
+{
+  "attempt": "diagnostic",
+  "failure": "SyntaxError importing new worker; unmatched parenthesis",
+  "evidence": "diagnostic.log",
+  "policy_forward": 0,
+  "backward": 0,
+  "gradient_extractions": 0,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "rollouts": 0,
+  "model_construction_only": true,
+  "retry": "diagnostic_retry1",
+  "protocol_unchanged": true,
+  "initialization_restart_not_training_replay": true,
+  "infrastructure_retries": 0,
+  "implementation_launch_retries": 1
+}

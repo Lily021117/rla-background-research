@@ -1,0 +1,14 @@
+[
+  {
+    "path": "${PROJECT_ROOT}/experiments/rla_sampling_stability/run_20261027_02/training_metrics.csv",
+    "sha256": "cbfd6270dac9e7382e8ce340005da1611afca61eeda650f9157f0a2c497e6d11",
+    "purpose": "existing logs only; no D checkpoint forward or gradient",
+    "rows": 2400
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/rla_sampling_stability/run_20261027_02/validation_metrics.csv",
+    "sha256": "ce1309e1e0d58fca72019630d5f3f9b767eba8afdf00b03b32ef39cd0b12da04",
+    "purpose": "existing logs only; no D checkpoint forward or gradient",
+    "rows": 22496
+  }
+]

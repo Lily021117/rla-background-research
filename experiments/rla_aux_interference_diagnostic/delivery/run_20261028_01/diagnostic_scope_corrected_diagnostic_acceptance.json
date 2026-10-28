@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "counters": {
+    "forward_microbatches": 180,
+    "backward_microbatches": 180,
+    "objective_full_batches": 90,
+    "acceptance_objective_full_batches": 0,
+    "completed_units": 30,
+    "infrastructure_retries": 0
+  },
+  "acceptance": [],
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "new_rollouts": 0,
+  "sealed_reads": 0,
+  "seconds": 262.432799577713,
+  "peak_allocated": 18055756800,
+  "precision": "bfloat16",
+  "backend": "Math SDPA",
+  "mode": "train",
+  "no_saved_gradient_tensors": true
+}

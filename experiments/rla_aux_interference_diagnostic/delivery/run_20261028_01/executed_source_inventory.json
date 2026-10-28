@@ -1,0 +1,374 @@
+[
+  {
+    "path": "${RUN_ROOT}/code/experiments/rla_lr_budget_sweep/bootstrap.py",
+    "sha256": "645f3250d9e255950388e28f24a5a4fe0842b746b519f566edf9e3141ee34dea",
+    "symbols": [
+      {
+        "line": 20,
+        "text": "def counters(s):return [x.strip() for x in s.splitlines() if any(k in x for k in ('Correctable','Uncorrectable','SRAM SM','Threshold Exceeded'))]"
+      },
+      {
+        "line": 74,
+        "text": "def save(n,x):"
+      },
+      {
+        "line": 76,
+        "text": "def ecc():return subprocess.check_output(['nvidia-smi','-i',GPU,'-q','-d','ECC'],text=True)"
+      },
+      {
+        "line": 78,
+        "text": "def trainable_state():return {k:{n:v.detach().cpu().clone() for n,v in m.named_parameters() if v.requires_grad} for k,m in mods.items()}"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/control_preserving_rla/interface.py",
+    "sha256": "e2f8df6f2cb3ed0952995d61b166401ed263943c718f7036c198c1399d874897",
+    "symbols": [
+      {
+        "line": 8,
+        "text": "def initialize(g,teacher=False):"
+      },
+      {
+        "line": 16,
+        "text": "class Interface:"
+      },
+      {
+        "line": 17,
+        "text": "def __init__(self,g,plan,train_only=False):"
+      },
+      {
+        "line": 24,
+        "text": "def predict(*args,**kwargs):"
+      },
+      {
+        "line": 28,
+        "text": "def batch(self,examples):"
+      },
+      {
+        "line": 38,
+        "text": "def forward(self,b,phase='Training'):"
+      },
+      {
+        "line": 43,
+        "text": "def targets(self,examples,stores,slots):"
+      },
+      {
+        "line": 46,
+        "text": "def clear(self):self.capture.clear()"
+      },
+      {
+        "line": 48,
+        "text": "def reset_auxiliary(g,seed):"
+      },
+      {
+        "line": 53,
+        "text": "def enable_checkpointing(g):"
+      },
+      {
+        "line": 59,
+        "text": "def cp(*args,_original=original,**kwargs):return checkpoint(_original,*args,use_reentrant=False,preserve_rng_state=True,**kwargs)"
+      },
+      {
+        "line": 64,
+        "text": "def masked_l1(a,b,mask):"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/control_preserving_rla/common.py",
+    "sha256": "7c7fd41191049b92cdab2bee6ae8f2e7d98f7f3ef968d8df9dcf0512e363ed88",
+    "symbols": [
+      {
+        "line": 8,
+        "text": "def read(p):return json.loads(p.read_text())"
+      },
+      {
+        "line": 9,
+        "text": "def save(p,x):"
+      },
+      {
+        "line": 11,
+        "text": "def restore_rng(ck):"
+      },
+      {
+        "line": 13,
+        "text": "def rng_state():return dict(torch_rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state_all(),python_rng=random.getstate(),numpy_rng=np.random.get_state())"
+      },
+      {
+        "line": 14,
+        "text": "def seed(v):random.seed(v);np.random.seed(v);torch.manual_seed(v);torch.cuda.manual_seed_all(v)"
+      },
+      {
+        "line": 15,
+        "text": "def load_parameters(g,ck):"
+      },
+      {
+        "line": 20,
+        "text": "def digest(parameters):"
+      },
+      {
+        "line": 25,
+        "text": "def sha(p):"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/rla_aux_interference_diagnostic/worker.py",
+    "sha256": "a44270312e8ff5abe7762a63795619a7f172eee34dc88b95e3684ac6d5ed08de",
+    "symbols": [
+      {
+        "line": 11,
+        "text": "def execute(g):"
+      },
+      {
+        "line": 15,
+        "text": "def forbidden(*a,**k):raise RuntimeError('optimizer/scheduler update forbidden in frozen diagnosis')"
+      },
+      {
+        "line": 26,
+        "text": "def orig(**kw):"
+      },
+      {
+        "line": 29,
+        "text": "def loss_hook(module,args,result):"
+      },
+      {
+        "line": 45,
+        "text": "def rng_hash():"
+      },
+      {
+        "line": 50,
+        "text": "def objective(examples,kind,acceptance=False):"
+      },
+      {
+        "line": 77,
+        "text": "def calc(a,b,indices):"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/stove_centering/training.py",
+    "sha256": "e33468aec5e394b4f9c85e1c86515d564b47a4dea9f1cee5e0a9977e94ab9bc7",
+    "symbols": [
+      {
+        "line": 9,
+        "text": "def initialize(g,kind='rla'):"
+      },
+      {
+        "line": 23,
+        "text": "def restore(ck):"
+      },
+      {
+        "line": 26,
+        "text": "def execute(g):"
+      },
+      {
+        "line": 48,
+        "text": "def batch(examples,target_mode=None):"
+      },
+      {
+        "line": 67,
+        "text": "def pred(*args,**kw):"
+      },
+      {
+        "line": 69,
+        "text": "def popz():"
+      },
+      {
+        "line": 74,
+        "text": "def forward(b,phase='Training'):"
+      },
+      {
+        "line": 83,
+        "text": "def checkpointed(*args,_original=original,**kwargs):return checkpoint(_original,*args,use_reentrant=False,preserve_rng_state=True,**kwargs)"
+      },
+      {
+        "line": 88,
+        "text": "def snapshot(step):"
+      },
+      {
+        "line": 127,
+        "text": "def validate(step):"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/stove_centering/store.py",
+    "sha256": "36123e4cde5a301427cecff3644182eea3e0593d1772a282b5600d872d4f57e0",
+    "symbols": [
+      {
+        "line": 6,
+        "text": "class CenterStore(RlaStore):"
+      },
+      {
+        "line": 7,
+        "text": "def __init__(self,*args,**kw):"
+      }
+    ]
+  },
+  {
+    "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/coverage_gripper/dataset.py",
+    "sha256": "53f927ae38e0c00e7746f3db6c9bb9d83cde133c5c24b53daa0b178328e00e15",
+    "symbols": [
+      {
+        "line": 11,
+        "text": "class DerivedEpisodeDataset:"
+      },
+      {
+        "line": 12,
+        "text": "def __init__(self,manifest,statistics,transform,collator):"
+      },
+      {
+        "line": 22,
+        "text": "def sample(self,episode,timestep,appearance):"
+      },
+      {
+        "line": 29,
+        "text": "def batch(self,identities):"
+      }
+    ]
+  },
+  {
+    "path": "${PROJECT_ROOT}/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/vla_adapter_overlay/rla/loss.py",
+    "sha256": "387afc57319ee95deec585b1c9f6b43138866d56fa30165b0f8a22073eb40e0b",
+    "symbols": [
+      {
+        "line": 48,
+        "text": "def _arg(name: str, args: tuple, kwargs: dict) -> Any:"
+      },
+      {
+        "line": 57,
+        "text": "def make_run_forward_pass(orig):"
+      },
+      {
+        "line": 58,
+        "text": "def run_forward_pass_rla(*args, **kwargs):"
+      },
+      {
+        "line": 126,
+        "text": "def make_log_metrics_to_wandb(orig):"
+      },
+      {
+        "line": 133,
+        "text": "def log_metrics_to_wandb_rla(metrics, prefix, step, wandb_entity):"
+      },
+      {
+        "line": 141,
+        "text": "def last_metrics() -> Dict[str, float]:"
+      }
+    ]
+  },
+  {
+    "path": "${PROJECT_ROOT}/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/vla_adapter_overlay/rla/action_head.py",
+    "sha256": "92e810f4bf1ad100d757452c94166ee8b1bb8152600039ce035c6e0988cf6658",
+    "symbols": [
+      {
+        "line": 55,
+        "text": "class RlaMLPResNetBlockPro(MLPResNetBlock_Pro):"
+      },
+      {
+        "line": 84,
+        "text": "def __init__("
+      },
+      {
+        "line": 106,
+        "text": "def forward(self, x, h_a=None, h_t=None, p=None):"
+      },
+      {
+        "line": 135,
+        "text": "def reshape_heads(t, B, L):"
+      },
+      {
+        "line": 180,
+        "text": "class RlaMLPResNet(MLPResNet):"
+      },
+      {
+        "line": 183,
+        "text": "def __init__("
+      },
+      {
+        "line": 250,
+        "text": "def pop_z_hat(self):"
+      },
+      {
+        "line": 259,
+        "text": "def forward(self, x, h_a=None, h_t=None, p=None):"
+      },
+      {
+        "line": 304,
+        "text": "class RlaL1RegressionActionHead(L1RegressionActionHead):"
+      },
+      {
+        "line": 314,
+        "text": "def __init__("
+      },
+      {
+        "line": 341,
+        "text": "def pop_z_hat(self):"
+      }
+    ]
+  },
+  {
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/vla-scripts/finetune.py",
+    "sha256": "cbfe821b0b98f7f1814a60d6103b4292c1193ec6676289911027573a730a2a88",
+    "symbols": [
+      {
+        "line": 67,
+        "text": "class FinetuneConfig:"
+      },
+      {
+        "line": 132,
+        "text": "def remove_ddp_in_checkpoint(state_dict) -> dict:"
+      },
+      {
+        "line": 158,
+        "text": "def get_run_id(cfg) -> str:"
+      },
+      {
+        "line": 195,
+        "text": "def load_checkpoint(module_name: str, path: str, step: int, device: str = \"cpu\") -> dict:"
+      },
+      {
+        "line": 215,
+        "text": "def wrap_ddp(module: nn.Module, device_id: int, find_unused: bool = False) -> DDP:"
+      },
+      {
+        "line": 231,
+        "text": "def count_parameters(module: nn.Module, name: str) -> None:"
+      },
+      {
+        "line": 248,
+        "text": "def init_module("
+      },
+      {
+        "line": 288,
+        "text": "def run_forward_pass("
+      },
+      {
+        "line": 451,
+        "text": "def compute_smoothened_metrics(metrics_deques) -> dict:"
+      },
+      {
+        "line": 469,
+        "text": "def log_metrics_to_wandb(metrics, prefix, step, wandb_entity) -> None:"
+      },
+      {
+        "line": 494,
+        "text": "def save_training_checkpoint("
+      },
+      {
+        "line": 605,
+        "text": "def run_validation("
+      },
+      {
+        "line": 690,
+        "text": "def finetune(cfg: FinetuneConfig) -> None:"
+      },
+      {
+        "line": 802,
+        "text": "def rename_state_dict_keys(state_dict, replace_map):"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "snapshots": 13,
+  "batches": 8,
+  "common_step0_parameters_equal": true,
+  "actual_training_traces_equal": true,
+  "paired_validation_rows": 11248,
+  "missing": [],
+  "selection_frozen_before_new_computation": true
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_sampling_stability/run_20261027_02/training_metrics.csv",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_sampling_stability/run_20261027_02/validation_metrics.csv",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/rla_lr_budget_sweep/bootstrap.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/control_preserving_rla/interface.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/control_preserving_rla/common.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/worker_attempt1.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/stove_centering/training.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/stove_centering/store.py",
+      "unchanged": true
+    },
+    {
+      "path": "${RUN_ROOT}/code/experiments/official_libero_rla_consistency/coverage_gripper/dataset.py",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/vla_adapter_overlay/rla/loss.py",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/vla_adapter_overlay/rla/action_head.py",
+      "unchanged": true
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_02/vla-official/vla-scripts/finetune.py",
+      "unchanged": true
+    }
+  ],
+  "three_objective_unused_parameter_sets_equal": true,
+  "scope_correction_source": "${RUN_ROOT}/code/experiments/rla_aux_interference_diagnostic/worker.py"
+}

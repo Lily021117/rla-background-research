@@ -1,0 +1,126 @@
+{
+  "visibility": "public, explicitly authorized",
+  "included": "source, reproducible configs, sanitized reports, summary/per-batch scalar metrics, scientific plots",
+  "excluded": [
+    "weights",
+    "raw images/data",
+    "videos",
+    "sidecars",
+    "full gradient tensors",
+    "credentials"
+  ],
+  "text_files": [
+    {
+      "file": "report.md",
+      "sha256": "91330b94f11983e5f73a20b940092e4f76ea667c6149586617fa2b91e4e7c7e2"
+    },
+    {
+      "file": "next_step_recommendation.md",
+      "sha256": "2b4c2c9762e8aa1485963dd16f92789e150297b4a097e934d1d986a185d3cdb7"
+    },
+    {
+      "file": "diagnostic_protocol.json",
+      "sha256": "24b1c18663635cbbfceb2ce58d8c0a7ee672d1b0a70bf1d9378257cf73afc5f4"
+    },
+    {
+      "file": "checkpoint_inventory.json",
+      "sha256": "10e5344fc0cecb4cdf56cdece61fea5af17b3094ad9e66e998b9bdcdab94a72f"
+    },
+    {
+      "file": "snapshot_manifest.json",
+      "sha256": "e5fbbdb9d60109f6f17a080d7740db03a8bbf35e140ba33e1f826f3afda1e84c"
+    },
+    {
+      "file": "corrected_snapshot_manifest.json",
+      "sha256": "1626616ed4739180b138949bc0c708c8b53524763ebe204c19b4864fb1b2a145"
+    },
+    {
+      "file": "batch_manifest.json",
+      "sha256": "2a00290ffdf38338ed6d61ff0c5564bb1a003192a37031e01a9f779bf13082bb"
+    },
+    {
+      "file": "initial_rng_audit.json",
+      "sha256": "1755d21b0dbc38b61b90ef797b5086bbdb624454681acfb92f4a73a59f5ae1b5"
+    },
+    {
+      "file": "preparation_acceptance.json",
+      "sha256": "bba7485cd41311938d60acf934b162a7a1ef4ab3c05c44201130246a3ea506a5"
+    },
+    {
+      "file": "scope_correction.json",
+      "sha256": "60d1d0ef93e1d5c3cf3ae81264df518ef60fa316dfa127543a0ae8734ed9e02e"
+    },
+    {
+      "file": "precompute_incident.json",
+      "sha256": "788cc0483c0d9260c777c045c1bb509f46c638f0cc45d5f4e93c3c0e7ba2b83e"
+    },
+    {
+      "file": "delivery_verification.json",
+      "sha256": "bf8f5b387c7723be3dbbd210cd0e0a7b352fee228c2812e98ba00b50481cb1cb"
+    },
+    {
+      "file": "resource_release_verification.json",
+      "sha256": "72a9e4a88a342dfe874b8f656796f3a0993d4e221226faaba2e57205ba41efc8"
+    },
+    {
+      "file": "executed_source_inventory.json",
+      "sha256": "87d3e6ab7feaae130879681b469511f0dfa1fbbbc982ee6adfde30a9bca75bc9"
+    },
+    {
+      "file": "supplemental_provenance.json",
+      "sha256": "ead92f0c0a72c22d533fbf7b6893d5c8b204f4e75981bce1b19929c81c5c95fb"
+    },
+    {
+      "file": "run_plan.json",
+      "sha256": "2376b138b51e198af87f75d42845fcb75e55314c6d3f8101d14513216545ed84"
+    },
+    {
+      "file": "historical_training_curves.csv",
+      "sha256": "3c8264d9e10f7ad2a5f2a4bf8e2962002c81eb6cc39e41a70a4e16e6f795edda"
+    },
+    {
+      "file": "paired_validation_summary.csv",
+      "sha256": "71805c06c48c05fcb43e3b0193f00dcaf81d084735ef2ff6e2b06f39d2548ece"
+    },
+    {
+      "file": "per_demo_validation.csv",
+      "sha256": "9f887161072ba88d15568c0b48e15755b456d695387f66a330000545f0da54a5"
+    },
+    {
+      "file": "time_third_validation.csv",
+      "sha256": "fbd70516757fa3d32934caf0ab13bd2be38ddbd4249b14b462e294e98e7fbcf5"
+    },
+    {
+      "file": "earliest_observed_offline_difference.json",
+      "sha256": "1a21a474686b1d491107f42c4cf7b3c9431a08b816eb6812ad76072dcbf37580"
+    },
+    {
+      "file": "target_switch_per_batch.csv",
+      "sha256": "559efd7c7142aaea4214533ec266736aaf940c0507e31d567f117a84c3b63d52"
+    },
+    {
+      "file": "target_switch_summary.csv",
+      "sha256": "1a0d2b22834495ceb599149b9b80548641d9f4cb3de97d66d29c8e5d352b46f8"
+    },
+    {
+      "file": "snapshot_summary.csv",
+      "sha256": "0c87c495be8771d72c5a8d5a2f8ecc81a41ce3758dbea1a9be4b30823a9041f9"
+    },
+    {
+      "file": "earlier_valid_VLM_proprio_gradients.csv",
+      "sha256": "9a0662ddde128dd3afd4441bc20d56f42dac396a95fa5aadccd53a470215e400"
+    },
+    {
+      "file": "superseded_mixed_head_statistics.csv",
+      "sha256": "6f8b9e5e9f863814b0ac61ac55c9467f0b89a6509412ce24aacdad546d2397a0"
+    },
+    {
+      "file": "gradient_effect_size.csv",
+      "sha256": "dc93bb0ba803af661d489f40eb918718c9b49a3b36a5a4c3f4a0d60a0d253f66"
+    },
+    {
+      "file": "additional_provenance_verification.json",
+      "sha256": "e832a519ea23bc3f0fb0cacfb0cd0b0fa26e6cb57a066731182ced5ad14622af"
+    }
+  ]
+}

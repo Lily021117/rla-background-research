@@ -1,0 +1,13 @@
+{
+  "batch": "20261102_1",
+  "action_output_loss_gradient_exact": true,
+  "non_target_inputs_exact": true,
+  "clean_target_unchanged": true,
+  "shared_pair_target_equal": true,
+  "target_requires_grad": false,
+  "total_decomposition_relative_L2": {
+    "total_C": 0.0036890970574851114,
+    "total_shared": 0.0037005645354013083
+  },
+  "RNG_replay_exact": true
+}

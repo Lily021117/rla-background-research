@@ -1,0 +1,6 @@
+{
+  "remaining_task_GPU_workers": [],
+  "ECC_increment": false,
+  "free_MiB": 81064,
+  "gpu_uuid": "${GPU_UUID}"
+}
