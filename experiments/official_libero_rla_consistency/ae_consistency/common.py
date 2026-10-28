@@ -19,7 +19,16 @@ def ecc():return subprocess.check_output(['nvidia-smi','-i',os.environ['RLA_GPU_
 def counters(s):return [x.strip() for x in s.splitlines() if ':' in x and any(k in x for k in ('Correctable','Uncorrectable','SRAM SM','Threshold Exceeded'))]
 def load(project):
     project=Path(project);w=project/'worktrees/rla-official-0fc6e97';sys.path.insert(0,str(w))
-    assert str(torch.cuda.get_device_properties(0).uuid).removeprefix('GPU-')==os.environ['RLA_GPU_UUID'].removeprefix('GPU-')
+    # Older PyTorch does not expose device_properties.uuid. Query the CUDA
+    # driver using the process-visible ordinal, as the policy bootstrap does.
+    import ctypes,uuid
+    driver=ctypes.CDLL('libcuda.so.1')
+    assert driver.cuInit(0)==0
+    device=ctypes.c_int()
+    assert driver.cuDeviceGet(ctypes.byref(device),0)==0
+    raw=(ctypes.c_ubyte*16)()
+    assert driver.cuDeviceGetUuid_v2(ctypes.byref(raw),device)==0
+    assert str(uuid.UUID(bytes=bytes(raw)))==os.environ['RLA_GPU_UUID'].removeprefix('GPU-')
     assert torch.cuda.mem_get_info()[0]>=float(os.environ.get('RLA_MIN_FREE_GIB','26'))*1024**3
     torch.cuda.set_per_process_memory_fraction(.25);torch.set_num_threads(4);seed()
     torch.backends.cuda.enable_flash_sdp(False);torch.backends.cuda.enable_mem_efficient_sdp(False);torch.backends.cuda.enable_math_sdp(True)
