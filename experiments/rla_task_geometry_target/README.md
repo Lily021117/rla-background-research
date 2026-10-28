@@ -34,6 +34,8 @@ and normalization, so it is not a pure single-representation-factor comparison.
 ## Execution
 
 Use the existing isolated VLA environment; put all caches under the data disk.
+Set `RLA_PROJECT_ROOT` to the original artifact project and `RLA_GPU_UUID` to the
+explicitly authorized healthy device. UUID/ECC/free-memory checks remain required.
 `labels.py` sets saved simulator state and calls only `mj_forward`, never `mj_step`.
 It verifies state/proprio/action identity against each saved image record.
 `run.py --mode prepare` freezes configuration and references. `--mode run` executes

@@ -2,7 +2,7 @@
 import argparse,json,os,subprocess,sys,time
 from pathlib import Path
 from labels import read,save,sha
-HERE=Path(__file__).resolve().parent;REPO=HERE.parents[1];PROJECT=Path('/data/lyc/projects/rla-wm');CROOT=PROJECT/'experiments/rla_sampling_stability/run_20261027_01';GAP=PROJECT/'experiments/rla_appearance_gap_eval/run_20261028_01';GPU='GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e'
+HERE=Path(__file__).resolve().parent;REPO=HERE.parents[1];PROJECT=Path(os.environ['RLA_PROJECT_ROOT']);CROOT=PROJECT/'experiments/rla_sampling_stability/run_20261027_01';GAP=PROJECT/'experiments/rla_appearance_gap_eval/run_20261028_01';GPU=os.environ['RLA_GPU_UUID']
 ORDERS=[20261101,20261102];ARMS=['Action-only-match','Geometry-target']
 def prepare(out):
  labels=read(out/'labels/manifest.json');assert labels['status']=='PASS'
@@ -25,9 +25,9 @@ def launch(out,order,arm,entry):
  env=os.environ.copy();cache=PROJECT/'experiments/rla_task_geometry_target/cache'
  for k,n in {'HF_HOME':'huggingface','HUGGINGFACE_HUB_CACHE':'huggingface/hub','TORCH_HOME':'torch','XDG_CACHE_HOME':'xdg','TMPDIR':'tmp','CUDA_CACHE_PATH':'cuda','TRITON_CACHE_DIR':'triton','MPLCONFIGDIR':'matplotlib','HF_DATASETS_CACHE':'huggingface/datasets'}.items():
   # Reuse model caches rather than download weights into a new cache.
-  p=Path('/data/lyc/tmp/rla_background_invariance/cache')/n;p.mkdir(parents=True,exist_ok=True);env[k]=str(p)
- env.update(RLA_GPU_UUID=GPU,CUDA_VISIBLE_DEVICES=GPU,RLA_MIN_FREE_GIB='26',PYTHONDONTWRITEBYTECODE='1',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4',TOKENIZERS_PARALLELISM='false',MUJOCO_GL='osmesa',PYOPENGL_PLATFORM='osmesa',LP_NUM_THREADS='2',PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True',HF_HUB_OFFLINE='1',LIBERO_CONFIG_PATH='/data/lyc/projects/LIBERO-plus/.libero',RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_ACT='1',LAMBDA_RLA='0.22408536585365854',RLA_LOG_EVERY='1000',RLA_MASK='1',RLA_ACTION_TOKENS='1',RLA_INIT_FROM='',RLA_SHUFFLE_TARGETS='0')
- env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+str(HERE.parent)+':'+str(HERE.parent/'official_libero_rla_consistency')+':'+env.get('PYTHONPATH','')
+  p=PROJECT.parents[1]/'tmp/rla_background_invariance/cache'/n;p.mkdir(parents=True,exist_ok=True);env[k]=str(p)
+ env.update(RLA_GPU_UUID=GPU,CUDA_VISIBLE_DEVICES=GPU,RLA_MIN_FREE_GIB='26',PYTHONDONTWRITEBYTECODE='1',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4',TOKENIZERS_PARALLELISM='false',MUJOCO_GL='osmesa',PYOPENGL_PLATFORM='osmesa',LP_NUM_THREADS='2',PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True',HF_HUB_OFFLINE='1',LIBERO_CONFIG_PATH=str(PROJECT.parent/'LIBERO-plus/.libero'),RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_ACT='1',LAMBDA_RLA='0.22408536585365854',RLA_LOG_EVERY='1000',RLA_MASK='1',RLA_ACTION_TOKENS='1',RLA_INIT_FROM='',RLA_SHUFFLE_TARGETS='0')
+ env['PYTHONPATH']=str(PROJECT.parent/'LIBERO-plus')+':'+str(HERE.parent)+':'+str(HERE.parent/'official_libero_rla_consistency')+':'+env.get('PYTHONPATH','')
  cmd=[sys.executable,'-u',str(HERE.parent/'rla_lr_budget_sweep/bootstrap.py'),'--out',str(root),'--arm',arm,'--entry',entry,'--attempt','formal'];start=time.time()
  with (root/(arm+'.log')).open('x') as f:r=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT,cwd=REPO)
  save(root/(arm+'_process.json'),dict(returncode=r.returncode,seconds=time.time()-start,command=cmd,GPU=GPU));assert r.returncode==0,(order,arm,r.returncode)
