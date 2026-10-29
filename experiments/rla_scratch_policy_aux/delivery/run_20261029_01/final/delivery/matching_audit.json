@@ -1,0 +1,14 @@
+[
+  {
+    "order": 20261101,
+    "all_four_initial_parameters_RNG_equal": true,
+    "all600_actual_sample_rows_exact": true,
+    "sample_hash": "60462ed555e17f155373923ee88358da43b2bbfe56a4ae53f5794df6c8464cb3"
+  },
+  {
+    "order": 20261102,
+    "all_four_initial_parameters_RNG_equal": true,
+    "all600_actual_sample_rows_exact": true,
+    "sample_hash": "4cb81ef92d301d8ca57e9a0b68662c6a4631c84c5883abdc6cdf9c396b7ffb11"
+  }
+]

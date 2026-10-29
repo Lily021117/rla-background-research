@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "source": "C",
+      "action_hash": "52900f52f408c1bdce1f0fbe59288a1e0f6c027616b34700c05d9b5b0f4a386c",
+      "input_hash": "b71bcbb1af4b152b95d7367ba89a0e64da1729d30558037b3ca62045400290d6",
+      "gradient_hash": "13a2fa1b0a04d84b82429341b710715c0030f32308594e4387a78887b38789b1",
+      "losses": [
+        0.51953125,
+        0.5234375
+      ]
+    },
+    {
+      "source": "D",
+      "action_hash": "52900f52f408c1bdce1f0fbe59288a1e0f6c027616b34700c05d9b5b0f4a386c",
+      "input_hash": "b71bcbb1af4b152b95d7367ba89a0e64da1729d30558037b3ca62045400290d6",
+      "gradient_hash": "13a2fa1b0a04d84b82429341b710715c0030f32308594e4387a78887b38789b1",
+      "losses": [
+        0.51953125,
+        0.5234375
+      ]
+    }
+  ],
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "full_effective_batch": 16,
+  "microbatch": 8,
+  "accumulation": 2,
+  "peak_allocated": 19887513088,
+  "no_target_in_action_path": true,
+  "mean_loss_over_all_valid_8x1024": true,
+  "initialization_restored": true,
+  "strict_zero_checkpoint_reload": true
+}

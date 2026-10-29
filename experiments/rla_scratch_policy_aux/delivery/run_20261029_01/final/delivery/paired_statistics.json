@@ -1,0 +1,614 @@
+[
+  {
+    "comparison": "20261101 D-fixed minus C-fixed clean",
+    "mean": -0.6,
+    "CI95": [
+      -0.85,
+      -0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed new_background_1",
+    "mean": -0.4,
+    "CI95": [
+      -0.65,
+      -0.15
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed new_background_2",
+    "mean": -0.55,
+    "CI95": [
+      -0.75,
+      -0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed new_background_3",
+    "mean": -0.5,
+    "CI95": [
+      -0.7,
+      -0.3
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed new_background_4",
+    "mean": -0.6,
+    "CI95": [
+      -0.8,
+      -0.4
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed four-background equal mean",
+    "mean": -0.5125,
+    "CI95": [
+      -0.6625,
+      -0.3625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-fixed minus C-fixed background-clean interaction",
+    "mean": 0.0875,
+    "CI95": [
+      -0.125,
+      0.2875
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed clean",
+    "mean": 0.7,
+    "CI95": [
+      0.5,
+      0.9
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed new_background_1",
+    "mean": 0.0,
+    "CI95": [
+      -0.2,
+      0.2
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed new_background_2",
+    "mean": 0.6,
+    "CI95": [
+      0.35,
+      0.85
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed new_background_3",
+    "mean": 0.5,
+    "CI95": [
+      0.3,
+      0.7
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed new_background_4",
+    "mean": 0.45,
+    "CI95": [
+      0.25,
+      0.65
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed four-background equal mean",
+    "mean": 0.3875,
+    "CI95": [
+      0.2375,
+      0.525
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-fixed minus C-fixed background-clean interaction",
+    "mean": -0.3125,
+    "CI95": [
+      -0.475,
+      -0.125
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-fixed minus C-fixed clean",
+    "mean": 0.05,
+    "CI95": [
+      -0.1,
+      0.2
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-fixed minus C-fixed background",
+    "mean": -0.0625,
+    "CI95": [
+      -0.15,
+      0.025
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-fixed minus C-fixed background-clean interaction",
+    "mean": -0.1125,
+    "CI95": [
+      -0.26875,
+      0.04375
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed clean",
+    "mean": 0.45,
+    "CI95": [
+      0.2,
+      0.7
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed new_background_1",
+    "mean": 0.25,
+    "CI95": [
+      0.1,
+      0.45
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed new_background_2",
+    "mean": -0.2,
+    "CI95": [
+      -0.4,
+      0.0
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed new_background_3",
+    "mean": 0.55,
+    "CI95": [
+      0.3,
+      0.8
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed new_background_4",
+    "mean": 0.4,
+    "CI95": [
+      0.05,
+      0.7
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed four-background equal mean",
+    "mean": 0.25,
+    "CI95": [
+      0.1,
+      0.3875
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-low minus D-fixed background-clean interaction",
+    "mean": -0.2,
+    "CI95": [
+      -0.3875,
+      0.0
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed clean",
+    "mean": 0.1,
+    "CI95": [
+      -0.15,
+      0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed new_background_1",
+    "mean": -0.3,
+    "CI95": [
+      -0.6,
+      0.0
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed new_background_2",
+    "mean": 0.15,
+    "CI95": [
+      -0.05,
+      0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed new_background_3",
+    "mean": 0.2,
+    "CI95": [
+      -0.05,
+      0.45
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed new_background_4",
+    "mean": 0.2,
+    "CI95": [
+      -0.15,
+      0.5
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed four-background equal mean",
+    "mean": 0.0625,
+    "CI95": [
+      -0.15,
+      0.275
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-low minus D-fixed background-clean interaction",
+    "mean": -0.0375,
+    "CI95": [
+      -0.2,
+      0.1375
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-low minus D-fixed clean",
+    "mean": 0.275,
+    "CI95": [
+      0.1,
+      0.45
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-low minus D-fixed background",
+    "mean": 0.15625,
+    "CI95": [
+      0.0625,
+      0.25
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-low minus D-fixed background-clean interaction",
+    "mean": -0.11875,
+    "CI95": [
+      -0.25,
+      0.01875
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low clean",
+    "mean": -0.8,
+    "CI95": [
+      -0.95,
+      -0.6
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low new_background_1",
+    "mean": -0.7,
+    "CI95": [
+      -0.9,
+      -0.5
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low new_background_2",
+    "mean": -0.15,
+    "CI95": [
+      -0.3,
+      0.0
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low new_background_3",
+    "mean": -0.85,
+    "CI95": [
+      -1.0,
+      -0.7
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low new_background_4",
+    "mean": -0.75,
+    "CI95": [
+      -0.9,
+      -0.55
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low four-background equal mean",
+    "mean": -0.6125,
+    "CI95": [
+      -0.7125,
+      -0.5
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-low background-clean interaction",
+    "mean": 0.1875,
+    "CI95": [
+      0.0,
+      0.3625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low clean",
+    "mean": -0.65,
+    "CI95": [
+      -0.9,
+      -0.4
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low new_background_1",
+    "mean": -0.3,
+    "CI95": [
+      -0.5,
+      -0.1
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low new_background_2",
+    "mean": -0.9,
+    "CI95": [
+      -1.0,
+      -0.75
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low new_background_3",
+    "mean": -0.75,
+    "CI95": [
+      -0.9,
+      -0.55
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low new_background_4",
+    "mean": -0.75,
+    "CI95": [
+      -0.9,
+      -0.55
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low four-background equal mean",
+    "mean": -0.675,
+    "CI95": [
+      -0.8125,
+      -0.525
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-low background-clean interaction",
+    "mean": -0.025,
+    "CI95": [
+      -0.25,
+      0.175
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-low clean",
+    "mean": -0.725,
+    "CI95": [
+      -0.85,
+      -0.575
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-low background",
+    "mean": -0.64375,
+    "CI95": [
+      -0.725,
+      -0.55625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-low background-clean interaction",
+    "mean": 0.08125,
+    "CI95": [
+      -0.04375,
+      0.2
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed clean",
+    "mean": -0.35,
+    "CI95": [
+      -0.55,
+      -0.15
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed new_background_1",
+    "mean": -0.45,
+    "CI95": [
+      -0.65,
+      -0.25
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed new_background_2",
+    "mean": -0.35,
+    "CI95": [
+      -0.55,
+      -0.15
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed new_background_3",
+    "mean": -0.3,
+    "CI95": [
+      -0.5,
+      -0.1
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed new_background_4",
+    "mean": -0.35,
+    "CI95": [
+      -0.55,
+      -0.15
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed four-background equal mean",
+    "mean": -0.3625,
+    "CI95": [
+      -0.525,
+      -0.2125
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261101 D-decay minus D-fixed background-clean interaction",
+    "mean": -0.0125,
+    "CI95": [
+      -0.1375,
+      0.1125
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed clean",
+    "mean": -0.55,
+    "CI95": [
+      -0.8,
+      -0.3
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed new_background_1",
+    "mean": -0.6,
+    "CI95": [
+      -0.8,
+      -0.4
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed new_background_2",
+    "mean": -0.75,
+    "CI95": [
+      -0.9,
+      -0.55
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed new_background_3",
+    "mean": -0.55,
+    "CI95": [
+      -0.75,
+      -0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed new_background_4",
+    "mean": -0.55,
+    "CI95": [
+      -0.75,
+      -0.35
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed four-background equal mean",
+    "mean": -0.6125,
+    "CI95": [
+      -0.775,
+      -0.4375
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "20261102 D-decay minus D-fixed background-clean interaction",
+    "mean": -0.0625,
+    "CI95": [
+      -0.3,
+      0.1625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-fixed clean",
+    "mean": -0.45,
+    "CI95": [
+      -0.625,
+      -0.275
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-fixed background",
+    "mean": -0.4875,
+    "CI95": [
+      -0.5625,
+      -0.40625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  },
+  {
+    "comparison": "two-order equal D-decay minus D-fixed background-clean interaction",
+    "mean": -0.0375,
+    "CI95": [
+      -0.1875,
+      0.10625
+    ],
+    "unit": "20 physical states; all appearances and both orders retained together; excludes complete training-seed/task uncertainty"
+  }
+]

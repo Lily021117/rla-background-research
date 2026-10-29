@@ -1,0 +1,352 @@
+[
+  {
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.541814654863152,
+    "normalized_RMS": 0.4626251507584046
+  },
+  {
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.515361144244255,
+    "normalized_RMS": 0.4859072589023812
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "raw_RMS": 6.508971803525683,
+    "normalized_RMS": 0.4768142349171337
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "background",
+    "raw_RMS": 6.494923194262266,
+    "normalized_RMS": 0.48524616451843383
+  },
+  {
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.516094322700522,
+    "normalized_RMS": 0.48701613456309223
+  },
+  {
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.503567247678193,
+    "normalized_RMS": 0.5088878529461116
+  },
+  {
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.496916104762111,
+    "normalized_RMS": 0.5097455258475588
+  },
+  {
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.499954056235623,
+    "normalized_RMS": 0.5142069518369656
+  },
+  {
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.517565386559647,
+    "normalized_RMS": 0.4655803219181934
+  },
+  {
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.516730858081542,
+    "normalized_RMS": 0.469373598525615
+  },
+  {
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.51654242703344,
+    "normalized_RMS": 0.46384466546941355
+  },
+  {
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.503788587282968,
+    "normalized_RMS": 0.47211365139448647
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "raw_RMS": 6.525791582208941,
+    "normalized_RMS": 0.48869453436303306
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "background",
+    "raw_RMS": 6.510881130544374,
+    "normalized_RMS": 0.5067775246727831
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "raw_RMS": 6.520277644922618,
+    "normalized_RMS": 0.466719158702076
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "background",
+    "raw_RMS": 6.509623615487332,
+    "normalized_RMS": 0.48053589862426516
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "raw_RMS": 6.519231500109532,
+    "normalized_RMS": 0.4746040205308388
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "background",
+    "raw_RMS": 6.5095567646571615,
+    "normalized_RMS": 0.4972320368589778
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "raw_RMS": 6.530564388814425,
+    "normalized_RMS": 0.4688692269387606
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "background",
+    "raw_RMS": 6.522329680685803,
+    "normalized_RMS": 0.4858308990418742
+  },
+  {
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.521239444258809,
+    "normalized_RMS": 0.4873267911019606
+  },
+  {
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.522064064657479,
+    "normalized_RMS": 0.4920181758364296
+  },
+  {
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.5316393121496645,
+    "normalized_RMS": 0.4774384799306208
+  },
+  {
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.539463465543861,
+    "normalized_RMS": 0.4820484777839493
+  },
+  {
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.534859129223601,
+    "normalized_RMS": 0.4553358351764143
+  },
+  {
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.518088212901412,
+    "normalized_RMS": 0.4750885416031324
+  },
+  {
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.551801469718171,
+    "normalized_RMS": 0.4616278079578555
+  },
+  {
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.537980444534576,
+    "normalized_RMS": 0.47437250939963943
+  },
+  {
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.511030041264467,
+    "normalized_RMS": 0.4808986659378993
+  },
+  {
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.502833880272983,
+    "normalized_RMS": 0.4976036792197434
+  },
+  {
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.549041536534905,
+    "normalized_RMS": 0.4618470194651763
+  },
+  {
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.523907535044296,
+    "normalized_RMS": 0.4839496202653371
+  },
+  {
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.543185292162836,
+    "normalized_RMS": 0.4613253393639644
+  },
+  {
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.548119234567987,
+    "normalized_RMS": 0.4694189657429775
+  },
+  {
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.509919474654792,
+    "normalized_RMS": 0.4638855565612301
+  },
+  {
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.5006967513999525,
+    "normalized_RMS": 0.47925098254889836
+  },
+  {
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.550313037963294,
+    "normalized_RMS": 0.4727097266861868
+  },
+  {
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.52503920036762,
+    "normalized_RMS": 0.49666734455055556
+  },
+  {
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.53325983577364,
+    "normalized_RMS": 0.4811778317459794
+  },
+  {
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.506888155437463,
+    "normalized_RMS": 0.5032414382773636
+  },
+  {
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.522560291160074,
+    "normalized_RMS": 0.47282675337169167
+  },
+  {
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.514401023473371,
+    "normalized_RMS": 0.4860263203245679
+  },
+  {
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.49974603303905,
+    "normalized_RMS": 0.49065896172338885
+  },
+  {
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.480264652686303,
+    "normalized_RMS": 0.5045500681216489
+  },
+  {
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.510494580379333,
+    "normalized_RMS": 0.47637922200409166
+  },
+  {
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.488722591951591,
+    "normalized_RMS": 0.47909032610588653
+  },
+  {
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.515274004056941,
+    "normalized_RMS": 0.47827475519282997
+  },
+  {
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.513558601652494,
+    "normalized_RMS": 0.47759146885320164
+  },
+  {
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "clean",
+    "raw_RMS": 6.491969586440692,
+    "normalized_RMS": 0.5042137997542459
+  },
+  {
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "background",
+    "raw_RMS": 6.4852179332426925,
+    "normalized_RMS": 0.5167378272175259
+  }
+]

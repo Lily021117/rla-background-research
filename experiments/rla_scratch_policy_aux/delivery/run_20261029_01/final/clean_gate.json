@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "C-fixed": {
+      "20261101": 19,
+      "20261102": 1
+    },
+    "D-fixed": {
+      "20261101": 7,
+      "20261102": 15
+    },
+    "D-low": {
+      "20261101": 16,
+      "20261102": 17
+    },
+    "D-decay": {
+      "20261101": 0,
+      "20261102": 4
+    }
+  },
+  "passed": true,
+  "rule": "any single method succeeds>=12/20 in both orders",
+  "evaluated_all160": true
+}

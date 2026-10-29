@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_FIXED_BUDGET_NOT_METHOD_VALIDATION",
+  "policy_updates": 4800,
+  "actual_update_computations": 4800,
+  "replays": 0,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "Clean_valid_trials": 160,
+  "background_valid_trials": 640,
+  "actual_attempts": 800,
+  "invalid_trials": 0,
+  "background_gate": {
+    "counts": {
+      "C-fixed": {
+        "20261101": 19,
+        "20261102": 1
+      },
+      "D-fixed": {
+        "20261101": 7,
+        "20261102": 15
+      },
+      "D-low": {
+        "20261101": 16,
+        "20261102": 17
+      },
+      "D-decay": {
+        "20261101": 0,
+        "20261102": 4
+      }
+    },
+    "passed": true,
+    "rule": "any single method succeeds>=12/20 in both orders",
+    "evaluated_all160": true
+  },
+  "protected_input_hashes_unchanged": true,
+  "all_targets_rehashed": true,
+  "sealed_read": false
+}

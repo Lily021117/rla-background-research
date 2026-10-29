@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN",
+  "base_commit": "2b5725ba34fbfffbd681d68c27fcdb3245719410",
+  "AE": {
+    "C": {
+      "arm": "C",
+      "step": "2000",
+      "path": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/C/step2000.pt",
+      "sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+      "bytes": "4287495147"
+    },
+    "D": {
+      "arm": "D",
+      "step": "2000",
+      "path": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/D/step2000.pt",
+      "sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+      "bytes": "4287495147"
+    }
+  },
+  "orders": [
+    20261101,
+    20261102
+  ],
+  "arms": [
+    "C-fixed",
+    "D-fixed",
+    "D-low",
+    "D-decay"
+  ],
+  "lambda0": 0.22408536585365854,
+  "updates_each": 600,
+  "total_policy_updates": 4800,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "checkpoints": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "validation": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "gradient_diagnostics": [
+    0,
+    300,
+    600
+  ],
+  "gradient_samples": "first complete historical effective training batch of each order; identical across arms/nodes,16 appearances, micro8 x accumulation2",
+  "gradient_scope": "intersection of action/aux differentiable parameters, shared modules only; exclude action-only and auxiliary-only modules",
+  "lambda_formula": {
+    "C-fixed": "lambda0",
+    "D-fixed": "lambda0",
+    "D-low": "lambda0/2",
+    "D-decay": "lambda0*(1-k/599), k=successful updates before next step"
+  },
+  "diagnostic_lambda_at_node": "weight for next update, capped at k599 for final600",
+  "normalization": "per-token/per-coordinate mean over train valid physical anchors x8 horizons x2 appearances, global RAW std from mean/std moments, not residual RMS",
+  "target_dtype": "float16 stored, float32 normalization then official BF16 loss",
+  "Clean_rollouts": 160,
+  "background_rollouts_max": 640,
+  "gate": "one method in BOTH orders Clean>=12/20",
+  "all_backgrounds_frozen": true,
+  "seed_scope": "two orders, same model initialization/training RNG; not two full seeds",
+  "statistics": "20000 bootstrap draws, physical-state clusters jointly retain all appearances/orders; no training-seed or task uncertainty",
+  "comparisons": [
+    [
+      "D-fixed",
+      "C-fixed"
+    ],
+    [
+      "D-low",
+      "D-fixed"
+    ],
+    [
+      "D-decay",
+      "D-low"
+    ],
+    [
+      "D-decay",
+      "D-fixed"
+    ]
+  ],
+  "infrastructure": "stop on OOM/CUDA/nonfinite/ECC change; preserve attempts; no automatic retry or device switching",
+  "sealed_read": false,
+  "teacher": false,
+  "keep": false,
+  "policy_future_reconstruction": false,
+  "policy_consistency": false
+}
