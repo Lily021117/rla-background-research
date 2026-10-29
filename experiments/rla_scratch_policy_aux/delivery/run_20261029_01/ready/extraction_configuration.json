@@ -1,0 +1,65 @@
+{
+  "model_config": {
+    "encoder": {
+      "name": "MultiViewTokenTransformer",
+      "args": {
+        "in_channels": 1024,
+        "model_channels": 1024,
+        "out_channels": 64,
+        "num_blocks": 12,
+        "num_heads": 16,
+        "mlp_ratio": 4.0,
+        "use_fp16": true,
+        "num_tokens": 16,
+        "norm_output_tokens": false,
+        "num_views": 2,
+        "use_view_embed": false,
+        "pos_embed_mode": "plucker",
+        "plucker_num_frequencies": 8
+      }
+    },
+    "decoder": {
+      "name": "MultiViewTokenTransformer",
+      "args": {
+        "in_channels": 1024,
+        "model_channels": 1024,
+        "out_channels": 1024,
+        "token_channels": 64,
+        "num_blocks": 12,
+        "num_heads": 16,
+        "mlp_ratio": 4.0,
+        "use_fp16": true,
+        "num_tokens": 16,
+        "zero_init": true,
+        "num_views": 2,
+        "use_view_embed": false,
+        "pos_embed_mode": "plucker",
+        "plucker_num_frequencies": 8
+      }
+    },
+    "image_decoder": {
+      "name": "DinoToImageDecoderV1",
+      "args": {
+        "in_channels": 1024,
+        "model_channels": 1024,
+        "out_channels": 3,
+        "use_fp16": true
+      }
+    }
+  },
+  "input": "accepted frozen DINO cache (agentview,wrist), current state Plucker",
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "micro_pairs": 8,
+  "mode": "eval + inference_mode",
+  "AE_updates": 0,
+  "normalization": "per-token/per-coordinate mean over train valid physical anchors x8 horizons x2 appearances, global RAW std from mean/std moments, not residual RMS"
+}

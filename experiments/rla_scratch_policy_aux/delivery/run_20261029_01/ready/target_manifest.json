@@ -1,0 +1,1802 @@
+[
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 147,
+    "shape": [
+      147,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_0_v1.npy",
+    "sha256": "3666527e4e673d7bc10c3d9f14a1ede7dc94057ca650234167a8d8223cf2df9d",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_0_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 147,
+    "shape": [
+      147,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_0_v1.npy",
+    "sha256": "6a40b224074bc7e25f065b1882eea028733607a65e87e480c2d1d3369fe724b0",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_0_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 183,
+    "shape": [
+      183,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_3_v1.npy",
+    "sha256": "8e56b74a58f35b7d9539c22be1239bab2ebd9f6c127bf28dd1d4d3f2def607b1",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_3_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 183,
+    "shape": [
+      183,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_3_v1.npy",
+    "sha256": "c729e0348e0d12ddd7cb31ee307b32ff9d4137c6a4659ccef260aaedf8f70403",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_3_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_5_v1.npy",
+    "sha256": "2ac6aacf20f463cf4d5b884a66da694725f4ffe9730e177ff93353c881a2bd2e",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_5_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_5_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_5_v1.npy",
+    "sha256": "37c6bb273d237b1200333dd2506c8b445bda4fa1acb662e660f29484fe6e6429",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_5_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_5_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_12_v1.npy",
+    "sha256": "b2f8e59324d17c5d5bfec1167d0f3292ef191a1550b227cbefe2ea275f47d4d7",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_12_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_12_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_12_v1.npy",
+    "sha256": "e0733cc72ddf47a5b336ff1f6a2c06d95c6bef99b320d95a733a343b19c82dac",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_12_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_12_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 133,
+    "shape": [
+      133,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_16_v1.npy",
+    "sha256": "e600405f031330a5f863c51f94ed103a2109e9f8aa5d4bb9f30d59c4cf878442",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_16_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_16_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 133,
+    "shape": [
+      133,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_16_v1.npy",
+    "sha256": "5cf0fbf33a73a63d2439d30d2f5aff1aae834ddd9a94cf9f42ba09339a2f2951",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_16_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_16_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 140,
+    "shape": [
+      140,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_36_v1.npy",
+    "sha256": "e5c26c6ca1190ae841d51821f2add88e7d07d9f8046bdad4f1169357cd39d812",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_36_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_36_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 140,
+    "shape": [
+      140,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_36_v1.npy",
+    "sha256": "434ef5346fa7f1193c3aa297c147076646163b8bdfa9c7cb0b5d0ca1fe6c6fb8",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_36_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_36_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_15_v1.npy",
+    "sha256": "d5ee2f98480a122002f3299fd4230e2eced142a974538fab97e5e2152303aa19",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_15_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_15_v1.npy",
+    "sha256": "314f10146fd8b85034fccc81ed47c6c8236ef14f8ad33f7b92b3502b7c0995aa",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_15_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_10_v1.npy",
+    "sha256": "87d6f370a8eada8ad5c164311895853d6efa93e3fb522129ff62b3cbda2fd567",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_10_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_10_v1.npy",
+    "sha256": "3a01d399fbb3d32909e91fa0bdda2f3e303bdc1ae30e1c5bd273601caf104656",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_10_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_31_v1.npy",
+    "sha256": "b82cbfdc8efcc3411402a20573ab65ec0221c7c7c9dc1db323de2032d66a8a6b",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_31_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_31_v1.npy",
+    "sha256": "b70d5f5ab865e8bf7b123447cf84edfbe594e437e8ee91b45afa54a50825103a",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_31_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 127,
+    "shape": [
+      127,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_30_v1.npy",
+    "sha256": "b532d36db6aa8ebe17ea16cb8f945b5b1ed07e584dc9154e9385284f39e03b3c",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_30_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 127,
+    "shape": [
+      127,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_30_v1.npy",
+    "sha256": "702fded6a71e22a539ea756fb860cdc0f7b8b56117443b18775ee5a7711a4366",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_30_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 128,
+    "shape": [
+      128,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_48_v1.npy",
+    "sha256": "48fa12412b3a0dd5e442426f94abcdc79da07fa71745495a488f09e7bf125a8e",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_48_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_48_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 128,
+    "shape": [
+      128,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_48_v1.npy",
+    "sha256": "c30f4b8aa73fabbada4db46a7c1c93804cf010b1d4d11f8d51b54985a38e4169",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_48_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_48_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_37_v1.npy",
+    "sha256": "cef3c5c96c5225d5d4a5f40e4d46b79514923d6f110cc64dd35679e0f329cb0d",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_37_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_37_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_37_v1.npy",
+    "sha256": "bb92a7f7df37543276b0f619423745659004eca0811de49771c63e03ec2fdba2",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_37_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_37_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 137,
+    "shape": [
+      137,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_9_v1.npy",
+    "sha256": "e900464e199b485c77e9142959f4fd706f87f16f64eb2a3edf9ddb0eade5a2bc",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_9_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_9_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 137,
+    "shape": [
+      137,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_9_v1.npy",
+    "sha256": "81b29684dfdde8f1282ccbf84e3a43c67fa6499eb505e058fb2f94d6239a3387",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_9_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_9_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_47_v1.npy",
+    "sha256": "43e709fa5c151f20f6998574ba714ec22730ca9654835862307eb68c9e6c6fbf",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_47_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_47_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_47_v1.npy",
+    "sha256": "2433bacbd8ff8a6e86061bc0b438adacd8cc417995544aee42ec9deb2a8e5af2",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_47_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_47_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_6_v1.npy",
+    "sha256": "c6b4f46ada3d754dcd09ef8ecee8945948b01346b3c12b22cffd27beff28d614",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_6_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_6_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_6_v1.npy",
+    "sha256": "75967a77319f0260bfb8dd1829e04123c34ecbce427cd99443161811e9996537",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_6_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_6_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 122,
+    "shape": [
+      122,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_7_v1.npy",
+    "sha256": "34ff2ca08ddc70fbc081ebf5e76313a81e120bba9adc2eb7481eaa2055cc6d22",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_7_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_7_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 122,
+    "shape": [
+      122,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_7_v1.npy",
+    "sha256": "51efb7a7b5aa4c4b99c56f07a7086d416587f3a6868838d9e97840eb80f22d96",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_7_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_7_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_32_v1.npy",
+    "sha256": "03e6bdf4042bc069d97fdcd635455a52e70222d48d70b348fe7fb53fd45a6c00",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_32_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_32_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_32_v1.npy",
+    "sha256": "eddbeebd95df0d8d85ebf34d945716e27f4ad3f396e6de22ff0a60d6054c341c",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_32_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_32_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_13_v1.npy",
+    "sha256": "b39decca0ad9c099c78ce175670d34aed09ff664760da1145da94ebb25975ca6",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_13_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_13_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_13_v1.npy",
+    "sha256": "9a3def9c96f01a80064f245098c03dcb9b4797a0833cfbff4776b3eaaf1515f6",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_13_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_13_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_29_v1.npy",
+    "sha256": "0082c2012b3965e463478c1c707e90ef69c09d110f725b137e829ebbd6a73b94",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_29_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_29_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_29_v1.npy",
+    "sha256": "52e1a5f4dc53eb266d0c8b1c326f6d7fca93311d52d1b7fdc78092069834e49a",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_29_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_29_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_28_v1.npy",
+    "sha256": "50cd6d2639cdf7035d63aef2b3bd9a66bf177ca87d59fc7b2b5d03b0cf5738ca",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_28_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_28_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_28_v1.npy",
+    "sha256": "7219f568ca16f2782f695f1590ae64af61e4f63c50b6e655f04fa9182706f83d",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_28_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_28_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_19_v1.npy",
+    "sha256": "512755846232eed1e08408c22260b60fd421204663ec9ac915017d31a8b641bd",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_19_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_19_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_19_v1.npy",
+    "sha256": "f87e933e6c5042f0775f265b4ee63a6694f255c6299585485c72d757fdbdeabe",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_19_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_19_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_18_v1.npy",
+    "sha256": "0b31bb4304d0d3cf9edead7c20afeed6e05fcc753aa9f159cc4e879fd2b1ede2",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_18_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_18_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_18_v1.npy",
+    "sha256": "6f1c9034bf834172e4e7051f7ebec9565b16c7224d67486c5b97fb1e13dff48f",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_18_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_18_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_38_v1.npy",
+    "sha256": "0c8933ecf0d92fe012a70a55a45a79bfa81428ac6b01b18df75bb24339a7197f",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_38_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_38_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_38_v1.npy",
+    "sha256": "8b75f494ead70dd5b89aad91a00e6846fbab23c53d01f7b9f99a861080adcf14",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_38_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_38_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_45_v1.npy",
+    "sha256": "2c7b4347952ac1f1630ece2ac1034d00bd1d9ded5dcbc720210b28360f37aece",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_45_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_45_v1.npy",
+    "sha256": "0df60f8c912d84ece1696c17a4a37f3a180e9fe984197d56576265df04162da3",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_45_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 112,
+    "shape": [
+      112,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/clean/derived_stove_demo_14_v1.npy",
+    "sha256": "177f529b38c71e4d2fa16689b4146f4e12953f4b164d2a1c9b7bfa30bc646f39",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_14_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "C",
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 112,
+    "shape": [
+      112,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/background/derived_stove_demo_14_v1.npy",
+    "sha256": "735e865fae0e2cd8c51b4ad13b83708b38c35a6c14cb2fb5b303882f40fb03b2",
+    "encoder_checkpoint_sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_14_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 147,
+    "shape": [
+      147,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_0_v1.npy",
+    "sha256": "08c0ed1dd31817f6ed3b6cae542c5718f7c98cfe53fd85f265b796d74f928bc7",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_0_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 147,
+    "shape": [
+      147,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_0_v1.npy",
+    "sha256": "dd3dc7eaed5f67418d7c5a69181ef7e1986c91dccfeac742fba9be5fcbf79e80",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_0_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 183,
+    "shape": [
+      183,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_3_v1.npy",
+    "sha256": "8d449942f65299c0756e455f50e4bb2fe7ec6447a1a54761c3cf223e99266330",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_3_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_3_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 183,
+    "shape": [
+      183,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_3_v1.npy",
+    "sha256": "1e43c7a78fca88edf24a949f9da6be5fd4feef88ab3db5903e7d022284ce018b",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_3_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_5_v1.npy",
+    "sha256": "dfcfce2ca4ee2a6ac687026c04ebc0a14a7afd0ec3579c409cdf948a3ef41f8d",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_5_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_5_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_5_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_5_v1.npy",
+    "sha256": "5c068738663598c2fb1e47ec809cf90755f4fe1f22300ca9eddfe415c0ff058c",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_5_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_5_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_12_v1.npy",
+    "sha256": "84be6790f826acac58ba3fbba7c36482533ea39fb1d22406335fb64d18359e87",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_12_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_12_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_12_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_12_v1.npy",
+    "sha256": "6799a56e06403a97091c368e5995477d46201a5c3d58ab3846086edd7b694e84",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_12_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_12_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 133,
+    "shape": [
+      133,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_16_v1.npy",
+    "sha256": "4e04a90e6d6a9010d192a03de138c1901a1b6d7ed3f8467638e16409d29a2c0b",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_16_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_16_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_16_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 133,
+    "shape": [
+      133,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_16_v1.npy",
+    "sha256": "70b5100b16b8fe7f5502dac7bde4445fd57264c2ab79a4e497c779c5d0b7ff1a",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_16_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_16_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 140,
+    "shape": [
+      140,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_36_v1.npy",
+    "sha256": "167d7f03f4b46b78656898a260219f630c9b18e9c8cc8d6440819c51ec930cac",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_36_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_36_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_36_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 140,
+    "shape": [
+      140,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_36_v1.npy",
+    "sha256": "3d69d4898a6a3f58ad1ad70744c09cefbce6e61be8d2c724c0e55576f84dfbc6",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_36_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_36_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_15_v1.npy",
+    "sha256": "261c21a6e2909fb11233db483450628a6a7f10128beddf93d6cc9b7ab8e21622",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_15_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_15_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_15_v1.npy",
+    "sha256": "7849b85ee003a67414b483c7094b8f8b440fba6edaf44c21c076d23dec90de7d",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_15_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_10_v1.npy",
+    "sha256": "b71443336c66d05f6638815c2c8f6e196832587c5543b68967f925b83088b857",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_10_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_10_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_10_v1.npy",
+    "sha256": "4d1ad7825ca8d4a8b45b40c4eb95f3da7d4dc09bbd53d8f6783e41f6daef53c9",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_10_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_31_v1.npy",
+    "sha256": "3e1a5ce20fe7ddf054509b424f1c2a886269ca7d0335910d72b664c84458633f",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_31_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_31_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_31_v1.npy",
+    "sha256": "3950c7f0e8ea67d552e4f3010183d76624a96de4a489bfe7d6e71006cdee6f38",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_31_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "clean",
+    "valid_chunks": 127,
+    "shape": [
+      127,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_30_v1.npy",
+    "sha256": "738702b9374109746c03598cdf1f5adea9e4efb797c3534306c7a9b589f566b1",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_30_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_30_v1",
+    "split": "validation",
+    "appearance": "background",
+    "valid_chunks": 127,
+    "shape": [
+      127,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_30_v1.npy",
+    "sha256": "4b848a9dd39d0f4a868aa9f84526356c2504987a6f105260e652832016dacd52",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_30_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 128,
+    "shape": [
+      128,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_48_v1.npy",
+    "sha256": "d62a21fb88be0a57cea00c7a55071edb2b52ab8cb4ddbd0f322ddb0fbb432b1c",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_48_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_48_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_48_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 128,
+    "shape": [
+      128,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_48_v1.npy",
+    "sha256": "c74b27b63241654e3f73fff9d8b7db4b45a46978a62637570d6af4c35b1e8324",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_48_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_48_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_37_v1.npy",
+    "sha256": "67616e95cbeeae106bae87ee72eff4a641c7042bf38b98c28ada1a4d5c788b1f",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_37_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_37_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_37_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_37_v1.npy",
+    "sha256": "4f8e7db5281fab05db2c945151538d9e1512cb5cea6f7b3a7d7d3632e93b679e",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_37_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_37_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 137,
+    "shape": [
+      137,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_9_v1.npy",
+    "sha256": "0ecf1e1d02f7d492d897e93ebd0c47c906e3da9ed6484a9bbfc5ec8a4d1924b2",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_9_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_9_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_9_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 137,
+    "shape": [
+      137,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_9_v1.npy",
+    "sha256": "ceb73e12ab5ac5fdfb4a31b1d8c08407d1ba269cefac7525c409a9700764b130",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_9_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_9_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_47_v1.npy",
+    "sha256": "33874bfb49b222ae8a7836936029139e62bbad56eb4ca2fe873f1b613ebb5132",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_47_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_47_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_47_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 116,
+    "shape": [
+      116,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_47_v1.npy",
+    "sha256": "e1cf89bd34c7dd4fe47e7e9c0dd44c98ee44d25bed7f0b5599e1b7f38a9115ea",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_47_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_47_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_6_v1.npy",
+    "sha256": "88becee2e6aa17875a68d9d0ae05a3fedb9228d444ad9e658ee1ecba41c81ce8",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_6_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_6_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_6_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_6_v1.npy",
+    "sha256": "a8233fe40336cc504b491cd6bd0f0c90ec5bf0876e6ff4de0d25c0394cf53af4",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_6_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_6_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 122,
+    "shape": [
+      122,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_7_v1.npy",
+    "sha256": "13a603a1e411bef839ffd4d72646713f972cd225ed357f3f43009b0a2a3e80f3",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_7_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_7_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_7_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 122,
+    "shape": [
+      122,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_7_v1.npy",
+    "sha256": "1df22c3143efa432d87d3338d4b9a8885dd3fac3179aed63945c0ce37760960d",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_7_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_7_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_32_v1.npy",
+    "sha256": "84255ce3288d2987858f7660005c2e7e56d2eb0b97ed316d3303f68db6adea87",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_32_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_32_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_32_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_32_v1.npy",
+    "sha256": "b936c9fc5a4ca2e019150557e58d6d4d49ff34d8d6bf28c1ef7448739dd59d65",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_32_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_32_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_13_v1.npy",
+    "sha256": "32549ec5218f82b70be41e9c769bf42b15a8d593359266b477be44f30c9dab06",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_13_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_13_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_13_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 130,
+    "shape": [
+      130,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_13_v1.npy",
+    "sha256": "9473d2744b8aee8b02dc94da62be266076c5a63d70494fa4d7a7d9a166943bc2",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_13_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_13_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_29_v1.npy",
+    "sha256": "d87ebd036581fe31ac8f40b6a8bb71a6ba5ffb16838bd16f27947c7ba403a076",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_29_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_29_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_29_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_29_v1.npy",
+    "sha256": "475c9423514bf127ef78777c3eaabb35b904de5afd11bbdf07a918b7f3c4637a",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_29_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_29_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_28_v1.npy",
+    "sha256": "4fdebe1122fd7e9b75c12252a1fff23c61449b18d7c99d8a8cd3b45776854de7",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_28_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_28_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_28_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 132,
+    "shape": [
+      132,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_28_v1.npy",
+    "sha256": "22518356e1a496abdc26459357ceaa95fb08f280aabe81a1986dab2bd693791a",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_28_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_28_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_19_v1.npy",
+    "sha256": "05c439caf77aaf577a563eef59fef00e19ccad1ab30219730b2a6e8d58b84a3c",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_19_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_19_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_19_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 120,
+    "shape": [
+      120,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_19_v1.npy",
+    "sha256": "f5cf0d97afd8d86b627a9e101dd15751a32a7e53cb823e410e158344cbf237c6",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_19_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_19_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_18_v1.npy",
+    "sha256": "5f733403c6f8fea14f24210efcc17e716014f9826167ea47ca06e8ff90a9586f",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_18_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_18_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_18_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 129,
+    "shape": [
+      129,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_18_v1.npy",
+    "sha256": "de6f845d36b21c78df241c213d476c0760ad3c1007eac439a4c62c13ef10e662",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_18_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_18_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_38_v1.npy",
+    "sha256": "4a511b89b8650e7e697bdb563cd3bc44ecc3bbe2f948778fc85774c1c571e183",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_38_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_38_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_38_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 125,
+    "shape": [
+      125,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_38_v1.npy",
+    "sha256": "19bceb6f6bcd7ab53436f94ba49874d95d5d2fc908afbf8ed7fe2e9d4efd5287",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_38_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_38_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_45_v1.npy",
+    "sha256": "9d9c1fd52f32b1df795d6e97e8426078a246cbdf347faef1af2f7e11176aafa2",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_45_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_45_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 134,
+    "shape": [
+      134,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_45_v1.npy",
+    "sha256": "106bdd14f6656a0a8603a5d1d7032663f7259c45c3a84219e6ddb1ea1410f37a",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_45_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_45_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "clean",
+    "valid_chunks": 112,
+    "shape": [
+      112,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/clean/derived_stove_demo_14_v1.npy",
+    "sha256": "ab88593fa0fb5c7b9a5e34f9d22c8a88b272f9123e272ff6a0e5f79914c4a71e",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_14_v1/clean.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/trajectory_labels.npz"
+  },
+  {
+    "arm": "D",
+    "episode": "derived_stove_demo_14_v1",
+    "split": "train",
+    "appearance": "background",
+    "valid_chunks": 112,
+    "shape": [
+      112,
+      8,
+      16,
+      64
+    ],
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/background/derived_stove_demo_14_v1.npy",
+    "sha256": "88eeb830e8614119c469b15097eca8941badd334bded82eb4c726c9b56e806ce",
+    "encoder_checkpoint_sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "feature_path": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/ae_run/features/derived_stove_demo_14_v1/background.npy",
+    "mask_source": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_14_v1/trajectory_labels.npz"
+  }
+]
