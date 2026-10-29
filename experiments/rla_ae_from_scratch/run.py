@@ -221,7 +221,7 @@ def evaluate(mods,byid,out,step):
  setrng(state)
  print('EVAL',out.name,step,flush=True)
 
-def run(mode,resume=None):
+def run(mode,resume=None,output_name=None):
  start=time.time();baseline=ecc();mods,cfg=setup();byid={e['episode']:e for e in json.loads((ROOT/'data_manifest.json').read_text())['episodes']}
  if mode=='init':
   assert torch.count_nonzero(mods['decoder'].out_layer.weight)==0 and torch.count_nonzero(mods['decoder'].out_layer.bias)==0
@@ -233,16 +233,30 @@ def run(mode,resume=None):
  for k,m in mods.items():m.load_state_dict(ck['models'][k],strict=True)
  setrng(ck['rng']);initial=digest(mods);assert initial==json.loads((ROOT/'initialization_audit.json').read_text())['parameter_sha256'];del ck
  ps,masters,opt=optimizer(mods)
- order=json.loads((ROOT/'sampling_order.json').read_text());out=ROOT/mode;out.mkdir(exist_ok=False)
+ order=json.loads((ROOT/'sampling_order.json').read_text());out=ROOT/(output_name or mode);out.mkdir(exist_ok=False)
  lam=0. if mode in ['pilot','C'] else json.loads((ROOT/'frozen_plan.json').read_text())['lambda_cons']
  total=60 if mode=='pilot' else UPDATES
- save(out/'start_audit.json',dict(initial_parameter_sha256=initial,common_step0_sha256=sha(ROOT/'common_untrained_step0.pt'),order_sha256=sha(ROOT/'sampling_order.json'),lambda_cons=lam,gpu=GPU,ecc=baseline,resume=None))
+ start_step=0
+ if resume is not None:
+  assert mode in ['C','D'] and output_name and output_name!=mode
+  ck=torch.load(resume,map_location='cpu',weights_only=False)
+  assert ck['initial_sha256']==sha(ROOT/'common_untrained_step0.pt') and ck['order_sha256']==sha(ROOT/'sampling_order.json') and ck['lambda_cons']==lam
+  assert ck['fixed_loss_scale']==256 and ck['scheduler'] is None and ck['AMP_scaler'] is None
+  start_step=int(ck['global_step']);assert 0<start_step<total and ck['next_sample']==start_step*BATCH
+  for k,m in mods.items():m.load_state_dict(ck['models'][k],strict=True)
+  masters[0].data.copy_(ck['master'].cuda());opt.load_state_dict(ck['optimizer'])
+  from src.trainers.utils import master_params_to_model_params
+  master_params_to_model_params(ps,masters);setrng(ck['rng']);del ck
+ save(out/'start_audit.json',dict(initial_parameter_sha256=initial,common_step0_sha256=sha(ROOT/'common_untrained_step0.pt'),order_sha256=sha(ROOT/'sampling_order.json'),lambda_cons=lam,gpu=GPU,ecc=baseline,resume=None if resume is None else str(resume),restored_step=start_step,source_code_sha256=sha(Path(__file__)),code_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()))
  checks=[]
- g=gradient_check(mods,byid,lam);checks.append(dict(step=0,**g));save(out/'gradient_step0000.json',g)
+ g=gradient_check(mods,byid,lam);checks.append(dict(step=start_step,**g));save(out/f'gradient_step{start_step:04d}.json',g)
  if mode=='pilot':assert g['encoder_rec_gradient']==0,'Expected official zero output to block initial rec gradient'
- if mode!='pilot':evaluate(mods,byid,out,0)
+ if mode!='pilot':evaluate(mods,byid,out,start_step)
  f=(out/'training_metrics.csv').open('x');w=None
- for step in range(1,total+1):
+ for step in range(start_step+1,total+1):
+  if (ROOT/'STOP_FORMAL.json').exists():
+   if step-1>start_step and not (out/f'step{step-1:04d}.pt').exists():snapshot(out,step-1,mods,masters,opt,lam)
+   save(out/'stopped.json',dict(last_successful_update=step-1,reason='paired process error stop request',updates_this_process=step-1-start_step));raise SystemExit(2)
   v=update(mods,ps,masters,opt,order[(step-1)*BATCH:step*BATCH],byid,lam)
   v=dict(step=step,**v,lr=opt.param_groups[0]['lr'],seconds=time.time()-start,peak_allocated=torch.cuda.max_memory_allocated(),sample_start=(step-1)*BATCH,sample_stop=step*BATCH)
   if w is None:w=csv.DictWriter(f,fieldnames=list(v));w.writeheader()
@@ -261,9 +275,9 @@ def run(mode,resume=None):
   grad_candidates=[.1*x['encoder_rec_gradient']/x['encoder_cons_gradient'] for x in gs]
   loss_caps=[.1*x['rec']/x['cons'] for x in gs];lam=min(float(np.median(grad_candidates)),min(loss_caps));assert math.isfinite(lam) and lam>0
   plan=json.loads((ROOT/'precalibration_plan.json').read_text());plan.update(lambda_cons=lam,gradient_candidates=grad_candidates,loss_caps=loss_caps,pilot_seconds=time.time()-start,pilot_total_updates=60,formal_initialization='reload common_untrained_step0.pt; discard pilot optimizer/models/RNG',pilot_weighted_gradient_ratios=[lam*x['encoder_cons_gradient']/x['encoder_rec_gradient'] for x in gs]);save(ROOT/'frozen_plan.json',plan)
- save(out/'completion.json',dict(successful_updates=total,actual_update_computations=total,replayed_updates=0,seconds=time.time()-start,lambda_cons=lam,final_parameter_sha256=digest(mods),peak_allocated=torch.cuda.max_memory_allocated(),ecc_unchanged=ec(baseline)==ec(ecc()),policy_updates=0,rollouts=0))
+ save(out/'completion.json',dict(successful_updates=total,actual_update_computations=total-start_step,replayed_updates=0 if resume is None else 'audit prior unpersisted logs separately',seconds=time.time()-start,lambda_cons=lam,final_parameter_sha256=digest(mods),peak_allocated=torch.cuda.max_memory_allocated(),ecc_unchanged=ec(baseline)==ec(ecc()),policy_updates=0,rollouts=0))
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('mode',choices=['prepare','init','pilot','C','D']);args=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('mode',choices=['prepare','init','pilot','C','D']);p.add_argument('--resume-from',type=Path);p.add_argument('--output-name');args=p.parse_args()
  if args.mode=='prepare':prep()
- else:run(args.mode)
+ else:run(args.mode,args.resume_from,args.output_name)
