@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);a=p.parse_args();rows=json.loads((a.run/'per_trial_results.json').read_text());assert all(r['status']=='COMPLETE' for r in rows)
+ p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--results',type=Path);a=p.parse_args();source=a.run;a.run=a.results or a.run;rows=json.loads((a.run/'per_trial_results.json').read_text());assert all(r['status']=='COMPLETE' for r in rows)
  methods=['BC-standard','BC-matched','C-frozen-RLA'];orders=[20261101,20261102];states=sorted({r['seed'] for r in rows});conditions=['clean']+sorted({r['condition'] for r in rows}-{'clean'});assert len(states)==20
  values={(r['model'],r['seed'],r['condition']):int(r['success']) for r in rows};summary=[];rng=np.random.RandomState(20261101);draws=rng.randint(0,20,(10000,20));comparisons=[]
  for order in orders:
@@ -33,11 +33,12 @@ def main():
  inventory=[]
  for order in orders:
   for method in methods:
-   path=a.run/f'seed_{order}'/method/'formal/step0600.pt';h=hashlib.sha256()
+   path=source/f'seed_{order}'/method/'formal/step0600.pt';h=hashlib.sha256()
    with path.open('rb') as f:
     for b in iter(lambda:f.read(8*1024**2),b''):h.update(b)
    inventory.append(dict(order=order,method=method,path=str(path),step=600,sha256=h.hexdigest()))
  with (a.run/'checkpoint_inventory.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=list(inventory[0]));w.writeheader();w.writerows(inventory)
- with (a.run/'delivery_verification.json').open('x') as f:json.dump(dict(status='COMPLETED_EXPLORATORY',policy_updates=3600,AE_updates=0,DINO_updates=0,valid_trials=len(rows),invalid_trials=0,clean_gate=gate,heldout_read=False),f,indent=2)
+ invalid=1 if a.results else 0
+ with (a.run/'delivery_verification.json').open('x') as f:json.dump(dict(status='COMPLETED_EXPLORATORY',policy_updates=3600,new_policy_updates=0 if a.results else 3600,AE_updates=0,DINO_updates=0,valid_trials=len(rows),invalid_trials=invalid,actual_attempts=len(rows)+invalid,clean_gate=gate,heldout_read=False),f,indent=2)
 
 if __name__=='__main__':main()

@@ -3,13 +3,14 @@ import argparse,fcntl,json,os,subprocess,time,datetime
 from pathlib import Path
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--extraction-attempt',default='gpu0_queue_retry2');a=p.parse_args();root=Path(__file__).resolve().parents[1];project=Path('/data/lyc/projects/rla-wm');out=a.run/'pipeline';out.mkdir(exist_ok=False)
+ p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--extraction-attempt',default='gpu0_queue_retry2');p.add_argument('--resume-evaluation',action='store_true');a=p.parse_args();root=Path(__file__).resolve().parents[1];project=Path('/data/lyc/projects/rla-wm');out=a.run/('evaluation_resume1' if a.resume_evaluation else 'pipeline');out.mkdir(exist_ok=False)
  lock=(out/'lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
  env=os.environ.copy();uuid='GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e';cache=a.run/'cache'
  for key,suffix in {'HF_HOME':'huggingface','HF_HUB_CACHE':'huggingface/hub','HUGGINGFACE_HUB_CACHE':'huggingface/hub','TORCH_HOME':'torch','XDG_CACHE_HOME':'xdg','TMPDIR':'tmp','CUDA_CACHE_PATH':'cuda','TRITON_CACHE_DIR':'triton','MPLCONFIGDIR':'matplotlib','NUMBA_CACHE_DIR':'numba'}.items():
   path=cache/suffix;path.mkdir(parents=True,exist_ok=True);env[key]=str(path)
  env.update(RLA_GPU_UUID=uuid,CUDA_VISIBLE_DEVICES=uuid,RLA_MIN_FREE_GIB='26',PYTHONDONTWRITEBYTECODE='1',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4',TOKENIZERS_PARALLELISM='false',MUJOCO_GL='osmesa',PYOPENGL_PLATFORM='osmesa',LP_NUM_THREADS='2',PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True',HF_HUB_OFFLINE='1',LIBERO_CONFIG_PATH='/data/lyc/projects/LIBERO-plus/.libero',RLA_STEPS='8',RLA_QUERIES='16',RLA_DIM='64',RLA_NORM='center',LAMBDA_ACT='1',LAMBDA_RLA='0.22408536585365854',RLA_LOG_EVERY='1000',RLA_MASK='1',RLA_ACTION_TOKENS='1',RLA_INIT_FROM='',RLA_SHUFFLE_TARGETS='0',NEW_TASK_RUN=str(a.run))
  env['PYTHONPATH']='/data/lyc/projects/LIBERO-plus:'+str(root)+':'+str(root/'official_libero_rla_consistency')
+ if a.resume_evaluation:env.update(NEW_TASK_RESULT_ROOT=str(out),NEW_TASK_RESUME_RESULTS=str(a.run/'per_trial_results.json'))
  py='/data/lyc/projects/vla-adapter-ref/.venv-cpu/bin/python'
  def record(state,**kw):
   row=dict(time=datetime.datetime.now(datetime.timezone.utc).isoformat(),pid=os.getpid(),state=state,**kw)
@@ -34,6 +35,10 @@ def main():
   record('STAGE_FINISHED',stage=stage,returncode=proc.returncode,seconds=time.time()-start)
   assert proc.returncode==0,f'{stage} failed; preserve state, no silent retry'
  try:
+  if a.resume_evaluation:
+   launch(20261101,'evaluation-resume1','rla_new_task_baseline.evaluation')
+   proc=subprocess.run([py,str(root/'rla_new_task_baseline/summarize.py'),'--run',str(a.run),'--results',str(out)],env=env);assert proc.returncode==0
+   record('COMPLETED',new_policy_updates=0,AE_updates=0,heldout_read=False);return
   while True:
    status=a.run/a.extraction_attempt/'status.json';s=json.loads(status.read_text())
    if s['state'].startswith('BLOCKED'):raise RuntimeError('Frozen encoder stage blocked: '+str(status))

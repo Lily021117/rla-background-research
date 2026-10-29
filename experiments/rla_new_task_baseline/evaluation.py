@@ -37,19 +37,34 @@ def execute(g):
   s=stats['proprio'];lo=np.array(s['q01']);hi=np.array(s['q99']);p=np.clip(2*(p-lo)/(hi-lo+1e-8)-1,-1,1);p=np.where(np.array(s['min'])==np.array(s['max']),0,p)
   with torch.inference_mode():actions,_=model.predict_action(**inputs,unnorm_key='derived',proprio=p,proprio_projector=prop,action_head=head,use_film=False)
   actions=np.asarray(actions);assert actions.shape==(8,7) and np.isfinite(actions).all();return actions
- out=root/'closed_loop';out.mkdir(exist_ok=False);rows=[];geometry={}
+ result_root=Path(os.environ.get('NEW_TASK_RESULT_ROOT',str(root)))
+ out=result_root/'closed_loop';out.mkdir(exist_ok=False);rows=[];geometry={};completed={};invalid=[]
+ if os.environ.get('NEW_TASK_RESUME_RESULTS'):
+  source=Path(os.environ['NEW_TASK_RESUME_RESULTS']);old=json.loads(source.read_text())
+  expected_order=[(s['seed'],'clean',k) for s in frozen['new_development_states'] for k in models]
+  assert [(r['seed'],r['condition'],r['model']) for r in old]==expected_order[:len(old)]
+  assert all(r['status']=='COMPLETE' for r in old[:-1]) and old[-1]['status']=='INVALID'
+  assert "g['counts']" in old[-1]['error'],'Only the documented ECC interruption is authorized for retry'
+  for r in old:
+   assert r['checkpoint_sha256']==hashes[r['model']] and r['language']==language
+   assert json.loads(Path(r['trajectory']).with_name('result.json').read_text())==r
+   if r['status']=='COMPLETE':rows.append(r);completed[(r['seed'],r['condition'],r['model'])]=r
+   else:invalid.append(r)
+  g['save']('resume_audit.json',dict(source=str(source),source_sha256=sha(source),reused_valid=len(rows),preserved_invalid=invalid,permission='User authorized GPU0 with current recorded ECC baseline; stop on any increment',history_unchanged=True))
  g['save']('frozen_runtime_protocol.json',dict(task=str(bddl),language=language,models=models,states=[s['seed'] for s in frozen['new_development_states']],max_steps=300,frequency_hz=20,chunk=8,backgrounds=[f'new_background_{i}' for i in range(1,5)],gate='one method both sampling orders clean>=12/20',failure_proxies={'partial_opening':'initial middle joint minus min recorded joint >=0.01 m, descriptive only','no_opening_progress':'otherwise'},success='official env.check_success(), not diagnostic threshold',infra_failure='retain and stop; no silent retry',future_or_targets_used_for_deployment=False))
  for stage in ['clean','background']:
   conditions=['clean'] if stage=='clean' else [f'new_background_{i}' for i in range(1,5)]
   if stage=='background':
    counts={k:sum(r['success'] for r in rows if r['model']==k) for k in models};gate=any(all(counts[f'{seed}_{m}']>=12 for seed in plan['orders']) for m in methods)
-   with (root/'clean_gate.json').open('x') as f:json.dump(dict(counts=counts,denominator=20,passed=gate),f,indent=2)
+   with (result_root/'clean_gate.json').open('x') as f:json.dump(dict(counts=counts,denominator=20,passed=gate),f,indent=2)
    if not gate:break
   for state in frozen['new_development_states']:
    seed=state['seed'];folder=Path(state['state_file']).parent;initial=np.load(state['state_file']);assert hashlib.sha256(initial.tobytes()).hexdigest()==state['state_sha256']
    for condition in conditions:
     xml=folder/(condition+'.xml');expected=next(c for c in state['conditions'] if c['condition']==condition);assert sha(xml)==expected['XML_sha256']
     for key in models:
+     if (seed,condition,key) in completed:
+      prior=completed[seed,condition,key];assert prior['state_sha256']==state['state_sha256'] and prior['xml_sha256']==expected['XML_sha256'];continue
      dest=out/f'{seed}_{condition}_{key}';dest.mkdir();env=renderer=video=None;executed=[];chunks=[];states=[];ee=[];timeline=[];started=time.time()
      result=dict(model=key,seed=seed,condition=condition,checkpoint_sha256=hashes[key],state_sha256=state['state_sha256'],xml_sha256=expected['XML_sha256'],language=language,status='INVALID',success=None,steps=0,trajectory=str(dest/'trajectory.npz'),video=str(dest/'video.mp4'))
      try:
@@ -84,10 +99,10 @@ def execute(g):
      result['seconds']=time.time()-started
      with (dest/'result.json').open('x') as f:json.dump(result,f,indent=2)
      rows.append(result)
-     with (root/'per_trial_results.json').open('w') as f:json.dump(rows,f,indent=2)
+     with (result_root/'per_trial_results.json').open('w') as f:json.dump(rows,f,indent=2)
      print('TRIAL',len(rows),key,condition,result['status'],result['success'],flush=True)
      assert result['status']=='COMPLETE','Infrastructure failure preserved; no silent retry'
  keys=sorted(set().union(*(r.keys() for r in rows)))
- with (root/'per_trial_results.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(rows)
+ with (result_root/'per_trial_results.csv').open('x') as f:w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(rows)
  assert len(rows) in [120,600]
- g['save']('evaluation_acceptance.json',dict(status='PASS_PROCESS_NOT_METHOD',valid_trials=len(rows),invalid_trials=0,physical_states=20,optimizer_updates=0,heldout_read=False))
+ g['save']('evaluation_acceptance.json',dict(status='PASS_PROCESS_NOT_METHOD',valid_trials=len(rows),invalid_trials=len(invalid),actual_attempts=len(rows)+len(invalid),reused_valid=len(completed),new_valid=len(rows)-len(completed),physical_states=20,optimizer_updates=0,heldout_read=False))
