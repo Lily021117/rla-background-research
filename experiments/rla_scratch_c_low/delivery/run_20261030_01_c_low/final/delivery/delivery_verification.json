@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_BOUNDED_COMPLETION",
+  "new_effective_updates": 1200,
+  "actual_update_computations": 1200,
+  "replays": 0,
+  "new_valid_rollouts": 200,
+  "actual_attempts": 200,
+  "invalid_trials": 0,
+  "reused_valid_trials": 400,
+  "AE_updates": 0,
+  "DINO_feature_updates": 0,
+  "protected_historical_inputs_unchanged": true,
+  "sealed_read": false
+}

@@ -1,0 +1,47 @@
+{
+  "base_commit": "9f5b6fdb8e69dac379868b58ded894c3ec61dd2d",
+  "orders": [
+    20261101,
+    20261102
+  ],
+  "arms": [
+    "C-low"
+  ],
+  "successful_updates_each": 600,
+  "total_new_updates": 1200,
+  "new_valid_rollouts": 200,
+  "AE_updates": 0,
+  "target": "existing new AE-C formal2000 labels",
+  "normalization": "existing AE-C own train per-position mean + raw global scale; no reestimation",
+  "lambda_RLA": 0.11204268292682927,
+  "initialization": "exact corresponding previous C-fixed step0 and RNG; no new auxiliary initialization",
+  "sampling": "read original frozen full index, compare actual IDs against previous run",
+  "checkpoints": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "validation": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "diagnostics": [
+    0,
+    300,
+    600
+  ],
+  "primary_comparisons": [
+    "C-low minus C-fixed",
+    "D-low minus C-low"
+  ],
+  "reference_results": "all800 prior valid trials frozen/read-only; select matching C-fixed and D-low results without rerun",
+  "statistical_unit": "physical state, all5 appearances and both orders resampled jointly; intervals exclude complete training seed/task uncertainty",
+  "GPU": "<GPU_UUID>",
+  "resources": "26GiB startup gate, UUID and ECC checks, no automatic retry/device switching",
+  "stop": "only2 trainings and200 rollouts; no AE updates, no hyperparameter search or extension",
+  "sealed_read": false
+}

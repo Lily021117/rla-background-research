@@ -1,0 +1,277 @@
+{
+  "unit": "physical state; all appearances and both orders jointly resampled; excludes full training-seed/task uncertainty",
+  "results": [
+    {
+      "comparison": "20261101 C-low minus C-fixed clean",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed new_background_1",
+      "difference": -0.85,
+      "CI95": [
+        -1.0,
+        -0.7
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed new_background_2",
+      "difference": -0.9,
+      "CI95": [
+        -1.0,
+        -0.75
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed new_background_3",
+      "difference": -0.8,
+      "CI95": [
+        -0.95,
+        -0.6
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed new_background_4",
+      "difference": -0.95,
+      "CI95": [
+        -1.0,
+        -0.85
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed four-background equal mean",
+      "difference": -0.875,
+      "CI95": [
+        -0.9375,
+        -0.8125
+      ]
+    },
+    {
+      "comparison": "20261101 C-low minus C-fixed background-clean interaction",
+      "difference": 0.075,
+      "CI95": [
+        -0.0625,
+        0.175
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed clean",
+      "difference": 0.75,
+      "CI95": [
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed new_background_1",
+      "difference": 0.2,
+      "CI95": [
+        -0.05,
+        0.45
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed new_background_2",
+      "difference": 0.75,
+      "CI95": [
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed new_background_3",
+      "difference": 0.85,
+      "CI95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed new_background_4",
+      "difference": 0.85,
+      "CI95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed four-background equal mean",
+      "difference": 0.6625,
+      "CI95": [
+        0.5375,
+        0.7875
+      ]
+    },
+    {
+      "comparison": "20261102 C-low minus C-fixed background-clean interaction",
+      "difference": -0.0875,
+      "CI95": [
+        -0.275,
+        0.1
+      ]
+    },
+    {
+      "comparison": "two-order equal C-low minus C-fixed clean",
+      "difference": -0.1,
+      "CI95": [
+        -0.2,
+        0.0
+      ]
+    },
+    {
+      "comparison": "two-order equal C-low minus C-fixed background",
+      "difference": -0.10625,
+      "CI95": [
+        -0.175,
+        -0.0375
+      ]
+    },
+    {
+      "comparison": "two-order equal C-low minus C-fixed background-clean interaction",
+      "difference": -0.00625,
+      "CI95": [
+        -0.1375,
+        0.1125
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low clean",
+      "difference": 0.8,
+      "CI95": [
+        0.6,
+        0.95
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low new_background_1",
+      "difference": 0.7,
+      "CI95": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low new_background_2",
+      "difference": 0.15,
+      "CI95": [
+        0.0,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low new_background_3",
+      "difference": 0.85,
+      "CI95": [
+        0.7,
+        1.0
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low new_background_4",
+      "difference": 0.75,
+      "CI95": [
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low four-background equal mean",
+      "difference": 0.6125,
+      "CI95": [
+        0.5,
+        0.7125
+      ]
+    },
+    {
+      "comparison": "20261101 D-low minus C-low background-clean interaction",
+      "difference": -0.1875,
+      "CI95": [
+        -0.3625,
+        0.0
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low clean",
+      "difference": 0.05,
+      "CI95": [
+        -0.2,
+        0.3
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low new_background_1",
+      "difference": -0.5,
+      "CI95": [
+        -0.7,
+        -0.3
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low new_background_2",
+      "difference": 0.0,
+      "CI95": [
+        -0.15,
+        0.15
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low new_background_3",
+      "difference": -0.15,
+      "CI95": [
+        -0.4,
+        0.1
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low new_background_4",
+      "difference": -0.2,
+      "CI95": [
+        -0.4,
+        -0.05
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low four-background equal mean",
+      "difference": -0.2125,
+      "CI95": [
+        -0.3625,
+        -0.075
+      ]
+    },
+    {
+      "comparison": "20261102 D-low minus C-low background-clean interaction",
+      "difference": -0.2625,
+      "CI95": [
+        -0.475,
+        -0.0625
+      ]
+    },
+    {
+      "comparison": "two-order equal D-low minus C-low clean",
+      "difference": 0.425,
+      "CI95": [
+        0.275,
+        0.575
+      ]
+    },
+    {
+      "comparison": "two-order equal D-low minus C-low background",
+      "difference": 0.2,
+      "CI95": [
+        0.1125,
+        0.2875
+      ]
+    },
+    {
+      "comparison": "two-order equal D-low minus C-low background-clean interaction",
+      "difference": -0.225,
+      "CI95": [
+        -0.33125,
+        -0.11875
+      ]
+    }
+  ]
+}

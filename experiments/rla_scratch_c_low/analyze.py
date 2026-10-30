@@ -1,11 +1,15 @@
 """New C-low vs frozen C-fixed and D-low, preserving orders and physical-state clusters."""
-import sys,csv,collections
+import sys,csv,collections,json
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from rla_scratch_c_low.common import *
 import numpy as np
 def main():
- out=ROOT/'delivery';out.mkdir(exist_ok=False);training=[];validation=[];inventory=[];matches=[]
+ out=ROOT/'delivery'
+ if out.exists():
+  assert not any(out.iterdir()), 'Refuse to overwrite an existing delivery'
+ else:out.mkdir()
+ training=[];validation=[];inventory=[];matches=[]
  for order in ORDERS:
   path=ROOT/f'seed_{order}/C-low/formal';done=read(path/'training_acceptance.json');assert done['successful_updates']==600 and done['strict_reload']
   ini=read(path/'initialization_audit.json');ref=read(BASE/f'seed_{order}/C-fixed/formal/initialization_audit.json')
