@@ -8,15 +8,19 @@ def main():
  for seed in seeds:
   root=ROOT/f'seed_{seed}';expected=[json.loads(x) for x in (root/'expected_sample_ids.jsonl').read_text().splitlines()];initial=[]
   for arm in ARMS:
-   p=root/arm/'formal';accept=read(p/'training_acceptance.json');assert accept['successful_updates']==600 and accept['strict_reload'];assert accept['replayed_updates']==0
+   old=root/arm/'formal';p=root/arm/('recovery_gpu0_01' if seed==31002 and arm=='D-low' else 'formal');accept=read(p/'training_acceptance.json');assert accept['successful_updates']==600 and accept['strict_reload'];assert accept['replayed_updates']==0
    initial.append(read(p/'initialization_audit.json'))
    trace=[json.loads(x) for x in (p/'actual_sample_ids.jsonl').read_text().splitlines()]
+   if p!=old:trace=[json.loads((old/'actual_sample_ids.jsonl').read_text().splitlines()[0])]+trace
    assert len(trace)==600 and all(a['step']==b['step'] and a['actual_sample_ids']==b['actual_sample_ids'] for a,b in zip(trace,expected))
-   rr=list(csv.DictReader((p/'training_metrics.csv').open()));assert len(rr)==600 and all(float(r['lambda_RLA'])==LAMBDA for r in rr)
+   rr=list(csv.DictReader((p/'training_metrics.csv').open()))
+   if p!=old:rr=[next(csv.DictReader((old/'training_metrics.csv').open()))]+rr
+   assert len(rr)==600 and all(float(r['lambda_RLA'])==LAMBDA for r in rr)
    training.extend(dict(seed=seed,method=arm,**r) for r in rr)
    validation.extend(dict(seed=seed,method=arm,**r) for r in csv.DictReader((p/'validation_metrics.csv').open()))
+   if p!=old:validation.extend(dict(seed=seed,method=arm,**r) for r in csv.DictReader((old/'validation_metrics.csv').open()) if int(r['step'])==0)
    for step in [0,1,100,300,600]:
-    q=p/f'step{step:04}.pt';inventory.append(dict(seed=seed,method=arm,step=step,path=str(q),sha256=sha(q)))
+    q=(old if p!=old and step==0 else p)/f'step{step:04}.pt';inventory.append(dict(seed=seed,method=arm,step=step,path=str(q),sha256=sha(q)))
   for key in ['parameter_sha256','RNG_hash','common_step0_sha256','sampling_hash']:assert initial[0][key]==initial[1][key]
   matching.append(dict(seed=seed,paired_initialization_and_RNG_exact=True,sample_IDs_exact_all600=True,initialization=initial[0]))
  init=[read(ROOT/f'seed_{s}/module_initialization_audit.json') for s in seeds]
@@ -55,7 +59,7 @@ def main():
  table(out/'training_metrics.csv',training);table(out/'validation_metrics.csv',validation);table(out/'checkpoint_inventory.csv',inventory);table(out/'success_summary.csv',rates);table(out/'per_seed_metrics.csv',metrics);table(out/'paired_flips.csv',flips);table(out/'failure_stage_summary.csv',phases)
  save(out/'matching_audit.json',matching);save(out/'seed_variability.json',summary);save(out/'paired_statistics.json',dict(results=paired,unit='physical state with all models/appearances/seeds jointly resampled; NOT training seed uncertainty',historical_not_pooled=True));save(out/'per_trial_results.json',rows)
  assert all(sha(p)==h for p,h in read(ROOT/'protected_inputs.json').items())
- save(out/'delivery_verification.json',dict(status='COMPLETE_FIXED_BUDGET',policy_successful_updates=3600,actual_update_computations=3600,replays=0,valid_clean=120,valid_background=480,actual_attempts=600,invalid_trials=0,AE_updates=0,historical_inputs_unchanged=True,sealed_read=False))
+ save(out/'delivery_verification.json',dict(status='COMPLETE_FIXED_BUDGET',policy_successful_updates=3600,actual_update_computations=3649,replays=49,valid_clean=120,valid_background=480,actual_attempts=600,invalid_trials=0,AE_updates=0,historical_inputs_unchanged=True,sealed_read=False,recovery='seed31002 D-low resumed full step1 after correctable ECC increment at step50; original50 plus resumed599 computations; first49 lost updates replayed'))
  import matplotlib;matplotlib.use('Agg')
  import matplotlib.pyplot as plt
  for seed in seeds:
@@ -64,7 +68,7 @@ def main():
    rr=[r for r in training if r['seed']==seed and r['method']==arm]
    for ax,key in zip(axes,['action_loss','auxiliary_loss','weighted_auxiliary']):ax.plot([int(r['step']) for r in rr],[float(r[key]) for r in rr],label=arm,lw=.7);ax.set_title(key)
   axes[0].legend();fig.suptitle(f'Policy seed {seed}; raw batch losses, no smoothing');fig.tight_layout();fig.savefig(out/f'curves_seed{seed}.png');plt.close(fig)
- lines=['# 固定AE下三个新策略seed：C-low / D-low','', '六组各600次成功更新，600次有效闭环；AE更新0。历史两个采样顺序不并入本轮统计。','', '|seed|方法|Clean|背景1|背景2|背景3|背景4|背景均值|','|---|---|---|---|---|---|---|---|']
+ lines=['# 固定AE下三个新策略seed：C-low / D-low','', '六组各600次成功更新，600次有效闭环；AE更新0。历史两个采样顺序不并入本轮统计。GPU0可纠正ECC增量触发停止；授权复核后seed31002 D-low从完整step1恢复，重放49次，实际计算3649次。原故障记录与原50步日志保留；主曲线合并原step1与恢复后的step2–600，不重复计数。','', '|seed|方法|Clean|背景1|背景2|背景3|背景4|背景均值|','|---|---|---|---|---|---|---|---|']
  for seed in seeds:
   for arm in ARMS:
    a=arrays[seed,arm];lines.append(f'|{seed}|{arm}|'+ '|'.join(f'{n}/20' for n in a.sum(0))+f'|{a[:,1:].mean():.2%}|')

@@ -10,6 +10,7 @@ def main(stage):
   files += [ROOT/f'seed_{s}/planned_run_plan.json',ROOT/f'seed_{s}/sampling_audit.json']
   if stage=='final':files += [ROOT/f'seed_{s}/module_initialization_audit.json']
  if stage=='final':files += [p for p in (ROOT/'delivery').iterdir() if p.suffix in ['.md','.json','.csv'] and p.name not in ['per_trial_results.json','validation_metrics.csv']]
+ if stage=='final':files += [ROOT/'recovery_gpu0_01/checkpoint_audit.json',ROOT/'recovery_gpu0_01/replay_audit.json']
  for p in files:
   assert p.stat().st_size<10_000_000
   text=p.read_text().replace(str(P),'<PROJECT_ROOT>').replace('/data/lyc/','<DATA_ROOT>/');text=re.sub(r'GPU-[0-9a-f-]{36}','<GPU_UUID>',text)
