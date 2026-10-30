@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "common_step0_sha256": "a8da6c7664df3c6d94109b192dcfbd4d619f0e4c33059db164b71ef995cadd62",
+  "parameter_sha256": "65da4765696e0537efa2360d519db66b74332808d1e1a45d12632b732e5f0c20",
+  "RNG_hash": "c58f7de873e3850da43d5c36e0dd8af24f454dca17b75bd1a54296d83b4a85ad",
+  "all_trainable_parameters_exact": true,
+  "no_auxiliary_reinitialization": true,
+  "no_trained_policy_loaded": true,
+  "sampling_hash": "9f899c5c4fed60f76e34c524c372c7fd7d7f1d8c693b177971266bb571dcfa2e"
+}
