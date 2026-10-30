@@ -1,0 +1,31 @@
+{
+  "seed": 31001,
+  "physical_exposures": 4800,
+  "appearance_exposures": 9600,
+  "episodes": 20,
+  "valid_windows": 2555,
+  "episode_counts": {
+    "derived_stove_demo_7_v1": 240,
+    "derived_stove_demo_9_v1": 240,
+    "derived_stove_demo_19_v1": 240,
+    "derived_stove_demo_45_v1": 240,
+    "derived_stove_demo_29_v1": 240,
+    "derived_stove_demo_14_v1": 240,
+    "derived_stove_demo_37_v1": 240,
+    "derived_stove_demo_28_v1": 240,
+    "derived_stove_demo_5_v1": 240,
+    "derived_stove_demo_6_v1": 240,
+    "derived_stove_demo_12_v1": 240,
+    "derived_stove_demo_16_v1": 240,
+    "derived_stove_demo_36_v1": 240,
+    "derived_stove_demo_48_v1": 240,
+    "derived_stove_demo_0_v1": 240,
+    "derived_stove_demo_47_v1": 240,
+    "derived_stove_demo_13_v1": 240,
+    "derived_stove_demo_38_v1": 240,
+    "derived_stove_demo_18_v1": 240,
+    "derived_stove_demo_32_v1": 240
+  },
+  "sampling_sha256": "2114dade670b5ddb6d0fb1b73b4ba75cf8c2eb19718c4b4eaae1b8e1491bb5f6",
+  "expected_trace_sha256": "9e27127df63e20bbd22d00d2cc89db479a1eacba798f81255500d3672af1390d"
+}

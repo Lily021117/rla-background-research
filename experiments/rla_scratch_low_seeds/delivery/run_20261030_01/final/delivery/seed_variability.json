@@ -1,0 +1,119 @@
+[
+  {
+    "method": "C-low",
+    "metric": "clean",
+    "mean": 0.18333333333333335,
+    "sample_SD": 0.16072751268321592,
+    "minimum": 0.0,
+    "maximum": 0.3,
+    "per_seed": [
+      0.3,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "method": "C-low",
+    "metric": "background",
+    "mean": 0.13749999999999998,
+    "sample_SD": 0.10680004681646914,
+    "minimum": 0.025,
+    "maximum": 0.2375,
+    "per_seed": [
+      0.2375,
+      0.15,
+      0.025
+    ]
+  },
+  {
+    "method": "C-low",
+    "metric": "background_minus_clean",
+    "mean": -0.04583333333333334,
+    "sample_SD": 0.06414501799308604,
+    "minimum": -0.1,
+    "maximum": 0.025,
+    "per_seed": [
+      -0.0625,
+      -0.1,
+      0.025
+    ]
+  },
+  {
+    "method": "D-low",
+    "metric": "clean",
+    "mean": 0.45,
+    "sample_SD": 0.4,
+    "minimum": 0.05,
+    "maximum": 0.85,
+    "per_seed": [
+      0.85,
+      0.05,
+      0.45
+    ]
+  },
+  {
+    "method": "D-low",
+    "metric": "background",
+    "mean": 0.6,
+    "sample_SD": 0.40175396699970495,
+    "minimum": 0.1375,
+    "maximum": 0.8625,
+    "per_seed": [
+      0.8625,
+      0.1375,
+      0.8
+    ]
+  },
+  {
+    "method": "D-low",
+    "metric": "background_minus_clean",
+    "mean": 0.15000000000000005,
+    "sample_SD": 0.1772180859844728,
+    "minimum": 0.012500000000000067,
+    "maximum": 0.35000000000000003,
+    "per_seed": [
+      0.012500000000000067,
+      0.08750000000000001,
+      0.35000000000000003
+    ]
+  },
+  {
+    "method": "D-low minus C-low",
+    "metric": "clean",
+    "mean": 0.26666666666666666,
+    "sample_SD": 0.40722639076235395,
+    "minimum": -0.2,
+    "maximum": 0.55,
+    "per_seed": [
+      0.55,
+      -0.2,
+      0.45
+    ]
+  },
+  {
+    "method": "D-low minus C-low",
+    "metric": "background",
+    "mean": 0.4625000000000001,
+    "sample_SD": 0.4181432170919433,
+    "minimum": -0.012499999999999983,
+    "maximum": 0.775,
+    "per_seed": [
+      0.625,
+      -0.012499999999999983,
+      0.775
+    ]
+  },
+  {
+    "method": "D-low minus C-low",
+    "metric": "background_minus_clean",
+    "mean": 0.1958333333333334,
+    "sample_SD": 0.12520816001097262,
+    "minimum": 0.07500000000000007,
+    "maximum": 0.325,
+    "per_seed": [
+      0.07500000000000007,
+      0.1875,
+      0.325
+    ]
+  }
+]

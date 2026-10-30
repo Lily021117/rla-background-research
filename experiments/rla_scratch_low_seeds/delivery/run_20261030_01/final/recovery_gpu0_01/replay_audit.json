@@ -1,0 +1,254 @@
+{
+  "effective_updates": 600,
+  "actual_computations": 649,
+  "replays": 49,
+  "comparison": [
+    {
+      "step": 2,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 3,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 4,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 5,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 6,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 7,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 8,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 9,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 10,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 11,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 12,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 13,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 14,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 15,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 16,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 17,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 18,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 19,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 20,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 21,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 22,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 23,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 24,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 25,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 26,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 27,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 28,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 29,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 30,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 31,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 32,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 33,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 34,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 35,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 36,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 37,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 38,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 39,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 40,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 41,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 42,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 43,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 44,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 45,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 46,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 47,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 48,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 49,
+      "equal": true,
+      "different_fields": []
+    },
+    {
+      "step": 50,
+      "equal": true,
+      "different_fields": []
+    }
+  ],
+  "complete_state_restored": true,
+  "original_attempt_preserved": true
+}

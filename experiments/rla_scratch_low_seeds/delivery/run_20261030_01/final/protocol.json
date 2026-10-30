@@ -1,0 +1,51 @@
+{
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "arms": [
+    "C-low",
+    "D-low"
+  ],
+  "updates_each": 600,
+  "total_updates": 3600,
+  "valid_clean": 120,
+  "valid_background": 480,
+  "total_valid_rollouts": 600,
+  "AE_updates": 0,
+  "lambda_low": 0.11204268292682927,
+  "initialization": "one complete new constructor initialization per seed, exact paired checkpoint and RNG; frozen pretrained parameters identical between seeds",
+  "sampler": "unchanged episode-balanced algorithm; independent sampler RNG with the same seed value",
+  "augmentation": "unchanged deterministic official derived image preprocessing; train stochasticity seeded",
+  "scheduler": "historical MultiStepLR milestone600 after optimizer; actual LR2e-4 at all600 updates",
+  "microbatch": 8,
+  "accumulation": 2,
+  "effective_appearance_batch": 16,
+  "backend": "BF16 Math SDPA activation checkpointing",
+  "checkpoints": [
+    0,
+    1,
+    100,
+    300,
+    600
+  ],
+  "validation": [
+    0,
+    100,
+    300,
+    600
+  ],
+  "diagnostics": [
+    0,
+    300,
+    600
+  ],
+  "target": "own appearance, own existing per-position training mean and global scale; unchanged",
+  "primary": "per-seed Clean and paired D-low minus C-low",
+  "statistics": "three new full policy seeds only; sample SD ddof1; state-cluster bootstrap resamples all appearances, models and seeds together, not training-seed uncertainty",
+  "historical_orders": "separate reference only; not pooled",
+  "stop": "no AE/extra seeds/hyperparameter changes; hardware failure stops, no silent retry",
+  "sealed_read": false,
+  "source_commit": "6a264864ac7fbe0362aecb696126a04e42b18b3b"
+}

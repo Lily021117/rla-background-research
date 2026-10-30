@@ -1,0 +1,222 @@
+{
+  "results": [
+    {
+      "seed": 31001,
+      "metric": "clean",
+      "difference": 0.55,
+      "state_cluster_CI95": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_1",
+      "difference": 0.6,
+      "state_cluster_CI95": [
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_2",
+      "difference": 0.6,
+      "state_cluster_CI95": [
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_3",
+      "difference": 0.8,
+      "state_cluster_CI95": [
+        0.6,
+        0.95
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_4",
+      "difference": 0.5,
+      "state_cluster_CI95": [
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "background_equal_mean",
+      "difference": 0.625,
+      "state_cluster_CI95": [
+        0.45,
+        0.775
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "background_clean_interaction",
+      "difference": 0.075,
+      "state_cluster_CI95": [
+        -0.1625,
+        0.3375
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "clean",
+      "difference": -0.2,
+      "state_cluster_CI95": [
+        -0.4,
+        -0.05
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_1",
+      "difference": 0.05,
+      "state_cluster_CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_2",
+      "difference": -0.05,
+      "state_cluster_CI95": [
+        -0.2,
+        0.1
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_3",
+      "difference": -0.15,
+      "state_cluster_CI95": [
+        -0.45,
+        0.15
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_4",
+      "difference": 0.1,
+      "state_cluster_CI95": [
+        -0.1,
+        0.3
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "background_equal_mean",
+      "difference": -0.0125,
+      "state_cluster_CI95": [
+        -0.1125,
+        0.1
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "background_clean_interaction",
+      "difference": 0.1875,
+      "state_cluster_CI95": [
+        -0.0375,
+        0.4625
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "clean",
+      "difference": 0.45,
+      "state_cluster_CI95": [
+        0.25,
+        0.65
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_1",
+      "difference": 0.9,
+      "state_cluster_CI95": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_2",
+      "difference": 0.7,
+      "state_cluster_CI95": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_3",
+      "difference": 0.8,
+      "state_cluster_CI95": [
+        0.6,
+        0.95
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_4",
+      "difference": 0.7,
+      "state_cluster_CI95": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "background_equal_mean",
+      "difference": 0.775,
+      "state_cluster_CI95": [
+        0.6375,
+        0.9
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "background_clean_interaction",
+      "difference": 0.325,
+      "state_cluster_CI95": [
+        0.125,
+        0.525
+      ]
+    },
+    {
+      "seed": "three_seed_equal_mean",
+      "metric": "clean",
+      "difference": 0.2666666666666666,
+      "state_cluster_CI95": [
+        0.15,
+        0.3666666666666667
+      ]
+    },
+    {
+      "seed": "three_seed_equal_mean",
+      "metric": "background",
+      "difference": 0.4625,
+      "state_cluster_CI95": [
+        0.4083333333333333,
+        0.5166666666666666
+      ]
+    },
+    {
+      "seed": "three_seed_equal_mean",
+      "metric": "background_clean_interaction",
+      "difference": 0.19583333333333333,
+      "state_cluster_CI95": [
+        0.10416666666666666,
+        0.3
+      ]
+    }
+  ],
+  "unit": "physical state with all models/appearances/seeds jointly resampled; NOT training seed uncertainty",
+  "historical_not_pooled": true
+}

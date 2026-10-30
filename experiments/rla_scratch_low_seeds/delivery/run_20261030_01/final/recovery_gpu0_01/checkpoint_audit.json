@@ -1,0 +1,30 @@
+{
+  "PASS": true,
+  "path": "<PROJECT_ROOT>/experiments/rla_scratch_low_policy_seeds/run_20261030_01/seed_31002/D-low/formal/step0001.pt",
+  "sha256": "4988c4b9d0c122bee47e9167b4ea38fe40587bd799e74eaa332d2d9432b5d4ec",
+  "global_step": 1,
+  "optimizer_steps": [
+    1
+  ],
+  "scheduler_last_epoch": 1,
+  "all_RNG_present": true,
+  "next_physical_sample": 8,
+  "AMP_scaler": null,
+  "precision": "BF16 no scaler",
+  "configuration_exact": true,
+  "parameters_finite": true,
+  "original_successful_computations": 50,
+  "replay_expected": 49,
+  "remaining_new_effective_updates": 1750,
+  "remaining_update_computations": 1799,
+  "GPU": "<GPU_UUID>",
+  "free_MiB": 63512,
+  "ECC_before": "\n==============NVSMI LOG==============\n\nTimestamp                                              : Fri Oct 30 07:36:01 2026\nDriver Version                                         : 580.178.04\nCUDA Version                                           : 13.0\n\nAttached GPUs                                          : 2\nGPU 00000000:35:00.0\n    ECC Mode\n        Current                                        : Enabled\n        Pending                                        : Enabled\n    ECC Errors\n        Volatile\n            SRAM Correctable                           : 2\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n        Aggregate\n            SRAM Correctable                           : 10\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n            SRAM Threshold Exceeded                    : No\n        Aggregate Uncorrectable SRAM Sources\n            SRAM L2                                    : 0\n            SRAM SM                                    : 0\n            SRAM Microcontroller                       : 0\n            SRAM PCIE                                  : 0\n            SRAM Other                                 : 0\n        Channel Repair Pending                         : No\n        TPC Repair Pending                             : No\n        Unrepairable Memory                            : No\n\n",
+  "ECC_after": "\n==============NVSMI LOG==============\n\nTimestamp                                              : Fri Oct 30 07:36:16 2026\nDriver Version                                         : 580.178.04\nCUDA Version                                           : 13.0\n\nAttached GPUs                                          : 2\nGPU 00000000:35:00.0\n    ECC Mode\n        Current                                        : Enabled\n        Pending                                        : Enabled\n    ECC Errors\n        Volatile\n            SRAM Correctable                           : 2\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n        Aggregate\n            SRAM Correctable                           : 10\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n            SRAM Threshold Exceeded                    : No\n        Aggregate Uncorrectable SRAM Sources\n            SRAM L2                                    : 0\n            SRAM SM                                    : 0\n            SRAM Microcontroller                       : 0\n            SRAM PCIE                                  : 0\n            SRAM Other                                 : 0\n        Channel Repair Pending                         : No\n        TPC Repair Pending                             : No\n        Unrepairable Memory                            : No\n\n",
+  "observed_counts_stable": true,
+  "correctable_volatile_baseline": 2,
+  "correctable_aggregate_baseline": 10,
+  "uncorrectable_baseline": 0,
+  "limitation": "stability observation not proof of repaired hardware; user authorized conditional GPU0 continuation; any new increment stops",
+  "no_other_process_terminated": true
+}

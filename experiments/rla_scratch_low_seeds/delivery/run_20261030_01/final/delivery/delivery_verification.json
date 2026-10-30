@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_FIXED_BUDGET",
+  "policy_successful_updates": 3600,
+  "actual_update_computations": 3649,
+  "replays": 49,
+  "valid_clean": 120,
+  "valid_background": 480,
+  "actual_attempts": 600,
+  "invalid_trials": 0,
+  "AE_updates": 0,
+  "historical_inputs_unchanged": true,
+  "sealed_read": false,
+  "recovery": "seed31002 D-low resumed full step1 after correctable ECC increment at step50; original50 plus resumed599 computations; first49 lost updates replayed"
+}
