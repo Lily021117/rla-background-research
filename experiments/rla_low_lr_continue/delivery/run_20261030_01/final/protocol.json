@@ -1,0 +1,47 @@
+{
+  "source_commit": "9f2a33876542fda15b4c872a1757ab94c57f73a4",
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "arms": [
+    "C-low",
+    "D-low"
+  ],
+  "global_start": 600,
+  "global_end": 1800,
+  "new_updates_each": 1200,
+  "total_new_updates": 7200,
+  "LR": 2e-05,
+  "lambda_RLA": 0.11204268292682927,
+  "scheduler": "restore original MultiStepLR state after600; no reset, no repeated milestone, no new decay",
+  "checkpoints": [
+    900,
+    1200,
+    1500,
+    1800
+  ],
+  "validation": [
+    900,
+    1200,
+    1500,
+    1800
+  ],
+  "step600_validation": "reuse source, no full re-evaluation; only fixed-batch resume equality check",
+  "new_valid_clean": 120,
+  "new_valid_background": 480,
+  "new_valid_trials": 600,
+  "AE_updates": 0,
+  "sealed_read": false,
+  "primary": [
+    "C-low1800 minus C-low600",
+    "D-low1800 minus D-low600",
+    "D-low1800 minus C-low1800"
+  ],
+  "statistical_unit": "physical state, all appearances/methods/seeds jointly resampled; sample SD/range over3 seeds separately",
+  "interpretation": "more updates PLUS prescribed low-LR phase, NOT pure step-count ablation",
+  "stop": "only1800 endpoint, no additional budget/seed/loss/AE; hardware ECC increments stop",
+  "sampler_source_sha256": "40409442759e34b2a03e7fb5b8fef219ad370dccfd8a2aaae6e04a0cc26d3b70",
+  "GPU": "<GPU_UUID>"
+}

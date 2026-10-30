@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "new_successful_updates": 7200,
+  "new_actual_computations": 7200,
+  "new_replays": 0,
+  "prior_replays_preserved": 49,
+  "new_valid_clean": 120,
+  "new_valid_background": 480,
+  "new_attempts": 600,
+  "new_invalid": 0,
+  "AE_updates": 0,
+  "sealed_read": false,
+  "historical_hashes_unchanged": true
+}

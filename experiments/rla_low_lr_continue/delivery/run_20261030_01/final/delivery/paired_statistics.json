@@ -1,0 +1,365 @@
+{
+  "results": [
+    {
+      "seed": 31001,
+      "comparison": "C-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.65,
+      "state_cluster_CI95": [
+        0.45,
+        0.85
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "C-low1800 minus600",
+      "metric": "background",
+      "difference": 0.6125,
+      "state_cluster_CI95": [
+        0.45,
+        0.7625
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "C-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.0375,
+      "state_cluster_CI95": [
+        -0.2625,
+        0.175
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "C-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.75,
+      "state_cluster_CI95": [
+        0.55,
+        0.95
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "C-low1800 minus600",
+      "metric": "background",
+      "difference": 0.7625,
+      "state_cluster_CI95": [
+        0.675,
+        0.85
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "C-low1800 minus600",
+      "metric": "interaction",
+      "difference": 0.0125,
+      "state_cluster_CI95": [
+        -0.2,
+        0.2375
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "C-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.95,
+      "state_cluster_CI95": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "C-low1800 minus600",
+      "metric": "background",
+      "difference": 0.775,
+      "state_cluster_CI95": [
+        0.65,
+        0.8875
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "C-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.175,
+      "state_cluster_CI95": [
+        -0.3,
+        -0.0625
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "C-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.7833333333333332,
+      "state_cluster_CI95": [
+        0.7,
+        0.8666666666666666
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "C-low1800 minus600",
+      "metric": "background",
+      "difference": 0.7166666666666666,
+      "state_cluster_CI95": [
+        0.6583333333333332,
+        0.775
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "C-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.06666666666666668,
+      "state_cluster_CI95": [
+        -0.15000000000000002,
+        0.024999999999999956
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.0,
+      "state_cluster_CI95": [
+        -0.2,
+        0.2
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low1800 minus600",
+      "metric": "background",
+      "difference": 0.0375,
+      "state_cluster_CI95": [
+        -0.0875,
+        0.1625
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low1800 minus600",
+      "metric": "interaction",
+      "difference": 0.0375,
+      "state_cluster_CI95": [
+        -0.1875,
+        0.2375
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.95,
+      "state_cluster_CI95": [
+        0.85,
+        1.0
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low1800 minus600",
+      "metric": "background",
+      "difference": 0.825,
+      "state_cluster_CI95": [
+        0.7,
+        0.925
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.125,
+      "state_cluster_CI95": [
+        -0.2625,
+        0.0125
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.55,
+      "state_cluster_CI95": [
+        0.35,
+        0.75
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low1800 minus600",
+      "metric": "background",
+      "difference": 0.1875,
+      "state_cluster_CI95": [
+        0.075,
+        0.3125
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.3625,
+      "state_cluster_CI95": [
+        -0.55,
+        -0.1875
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low1800 minus600",
+      "metric": "clean",
+      "difference": 0.4999999999999999,
+      "state_cluster_CI95": [
+        0.38333333333333336,
+        0.6
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low1800 minus600",
+      "metric": "background",
+      "difference": 0.35,
+      "state_cluster_CI95": [
+        0.275,
+        0.4208333333333333
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low1800 minus600",
+      "metric": "interaction",
+      "difference": -0.14999999999999997,
+      "state_cluster_CI95": [
+        -0.2666666666666666,
+        -0.04583333333333333
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "clean",
+      "difference": -0.1,
+      "state_cluster_CI95": [
+        -0.3,
+        0.1
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "background",
+      "difference": 0.05,
+      "state_cluster_CI95": [
+        -0.05,
+        0.1375
+      ]
+    },
+    {
+      "seed": 31001,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "interaction",
+      "difference": 0.15,
+      "state_cluster_CI95": [
+        -0.075,
+        0.3875
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "clean",
+      "difference": 0.0,
+      "state_cluster_CI95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "background",
+      "difference": 0.05,
+      "state_cluster_CI95": [
+        -0.0125,
+        0.1125
+      ]
+    },
+    {
+      "seed": 31002,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "interaction",
+      "difference": 0.05,
+      "state_cluster_CI95": [
+        -0.0125,
+        0.1125
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "clean",
+      "difference": 0.05,
+      "state_cluster_CI95": [
+        0.0,
+        0.15
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "background",
+      "difference": 0.1875,
+      "state_cluster_CI95": [
+        0.075,
+        0.3
+      ]
+    },
+    {
+      "seed": 31003,
+      "comparison": "D-low minus C-low at1800",
+      "metric": "interaction",
+      "difference": 0.1375,
+      "state_cluster_CI95": [
+        0.0375,
+        0.25
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low minus C-low at1800",
+      "metric": "clean",
+      "difference": -0.016666666666666666,
+      "state_cluster_CI95": [
+        -0.08333333333333333,
+        0.05
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low minus C-low at1800",
+      "metric": "background",
+      "difference": 0.09583333333333334,
+      "state_cluster_CI95": [
+        0.05833333333333333,
+        0.1375
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "comparison": "D-low minus C-low at1800",
+      "metric": "interaction",
+      "difference": 0.11249999999999998,
+      "state_cluster_CI95": [
+        0.045729166666666744,
+        0.1833333333333333
+      ]
+    }
+  ],
+  "cluster": "physical state; appearances, models, endpoints and seeds jointly resampled; NOT training-seed uncertainty"
+}
