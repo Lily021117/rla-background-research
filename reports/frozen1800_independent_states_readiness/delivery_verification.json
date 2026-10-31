@@ -1,0 +1,23 @@
+{
+  "status": "BLOCKED_INDEPENDENCE_ADMISSION",
+  "raw_registered": 15,
+  "raw_excluded_prior_use": 5,
+  "raw_remaining_pending_not_certified": 10,
+  "official_registered": 20,
+  "official_development_overlap": 3,
+  "official_unknown_source": 17,
+  "certified_and_selected_N": 0,
+  "note": "These registries cannot establish 20 eligible independent sources. Counts from distinct registries cannot be added without a source crosswalk. This does not prove that no other eligible states exist.",
+  "new_simulator_states_generated": 0,
+  "sealed_payloads_read": false,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "backward": 0,
+  "policy_forward": 0,
+  "valid_rollouts": 0,
+  "attempted_rollouts": 0,
+  "invalid_rollouts": 0,
+  "GPU_processes_started": 0,
+  "checkpoint_hashes_pass": true,
+  "history_protection": "Metadata hashes verified unchanged after audit; checkpoints read-only; no historical result modified."
+}

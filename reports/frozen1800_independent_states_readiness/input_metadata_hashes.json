@@ -1,0 +1,26 @@
+[
+  {
+    "path": "artifacts/action_prediction_evidence/AE500_robustness_and_census/data_census_v2/sealed_raw_replay_candidates.json",
+    "sha256": "e5e570e2ec9df1eb217efa032fdebf22eaf2b01cf50eef1e0b796e94de9729f1"
+  },
+  {
+    "path": "experiments/official_libero_rla_consistency/run_20261023_10/stove/dataset_selection.json",
+    "sha256": "f2cee956b9e18cc92558c4444c2d5e4f93dbb8294c316b14806ad897b7d15a85"
+  },
+  {
+    "path": "artifacts/action_conditioned_wm/TZ_three_seed_500/independent_data/selection.json",
+    "sha256": "1543fd65264d4563f6c0f5f8e52e9cf432c02b7e0459f1ce33fb836d91d5b2a2"
+  },
+  {
+    "path": "artifacts/rla_policy_ood_and_data_readiness/held_out_manifest.json",
+    "sha256": "4dfa76da78b30e660e35862eaae263d6e945c9d3207bc54ddc43ba4c8e7571f9"
+  },
+  {
+    "path": "artifacts/rla_policy_ood_and_data_readiness/development_manifest.json",
+    "sha256": "38521851ab6477e1182ac908d6f85df627bf81aa1837c4829c64ce117e203b78"
+  },
+  {
+    "path": "experiments/rla_low_lr_continuation/run_20261030_01/delivery/checkpoint_inventory.csv",
+    "sha256": "1097aa5a0ddb6e533a791729f58903335e93edf3cd326e564e6ef47c29298c06"
+  }
+]

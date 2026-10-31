@@ -1,0 +1,19 @@
+{
+  "status": "NOT_FROZEN_FOR_SCORING",
+  "minimum_N": 20,
+  "maximum_N": 50,
+  "selected_states": [],
+  "scoring_authorized_after_admission_only": true,
+  "conditions": [
+    "Clean",
+    "new_background_1",
+    "new_background_2",
+    "new_background_3",
+    "new_background_4"
+  ],
+  "budget_formula": "30*N",
+  "max_valid_rollouts": 1500,
+  "primary_estimand": "Equal-background and equal-policy-seed mean success difference D-low minus C-low",
+  "bootstrap_unit": "Independent source demonstration, or physical state only when sources are independent",
+  "stop_reason": "Fewer than 20 sources certified by available metadata; do not substitute reused development states or silently pool unmapped registries."
+}
