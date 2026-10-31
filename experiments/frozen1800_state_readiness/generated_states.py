@@ -21,19 +21,19 @@ def save(p,x):
  with Path(p).open('x') as f:json.dump(x,f,indent=2)
 def prepare(root):
  bddl=L/f'libero/libero/bddl_files/libero_spatial/{TASK}.bddl'
- files=[bddl,L/'libero/libero/envs/bddl_base_domain.py',L/'libero/libero/envs/env_wrapper.py',L/'libero/libero/envs/regions/base_region_sampler.py',L/'libero/libero/envs/problems/libero_tabletop_manipulation.py']
+ files=[bddl,L/'libero/libero/envs/bddl_base_domain.py',L/'libero/libero/envs/env_wrapper.py',L/'libero/libero/envs/regions/base_region_sampler.py',L/'libero/libero/envs/regions/workspace_region_sampler.py',L/'libero/libero/envs/objects/site_object.py',L/'libero/libero/envs/problems/libero_tabletop_manipulation.py']
  assets=read(OLD/'asset_manifest.json')
  for x in assets['assets']:assert sha(x['output'])==x['output_sha256']
- prior=sorted((root.parent/'generated_states').glob('seed_*'))
+ prior=sorted(root.parent.glob('**/generated_states/seed_*'))
  start=2026111000+len(prior)
- plan=dict(version=2,route='B',name='按冻结初始化分布新生成的仿真状态验证',created=time.time(),
+ plan=dict(version=3,route='B',name='按冻结初始化分布新生成的仿真状态验证',created=time.time(),
   environment_commit=subprocess.check_output(['git','-C',str(L),'rev-parse','HEAD'],text=True).strip(),
   source_files={str(p):sha(p) for p in files},bddl=str(bddl),seed_sequence=list(range(start,2026111500)),
   candidate_budget=2026111500-start,prior_candidate_attempts=len(prior),total_candidate_cap_across_revisions=500,target_N=50,minimum_N=20,initialization_noise=None,
   settling=dict(steps=10,action=[0,0,0,0,0,0,-1],frequency_Hz=20,source='official run_libero_eval num_steps_wait10 and get_libero_dummy_action; no policy'),
   distribution='Unmodified BDDL placement regions and native _reset_internal placement/conditional samplers. Fixed robot reset. No noise added to historical states.',
   reset='seed Python/NumPy before construction; env.seed(seed); call underlying env.reset once (no wrapper unbounded RandomizationError retry); every outer candidate retained',
-  validity=['finite state','native sampler succeeds','official goal false','all BDDL init predicates true',
+  validity=['finite state','native sampler succeeds','official goal false','target bowl on stove and other bowl on cabinet predicates true; plate/cookies/ramekin contact table_collision',
             'passive stability on separate MjData: 0.2 seconds, movable objects maximum displacement <=0.03m and last0.05s displacement <=0.002m; accepted state remains original reset snapshot',
             'not duplicate against known25 train/development starts,20 prior reset states,earlier accepted candidates'],
   duplicate_rule=dict(bodies=BODIES,position_max_abs_m=0.0001,rotation_matrix_max_abs=0.0001,robot_joint_max_abs=0.00001,time_excluded=True,
@@ -42,7 +42,7 @@ def prepare(root):
   asset_manifest=str(OLD/'asset_manifest.json'),asset_manifest_sha256=sha(OLD/'asset_manifest.json'),
   intervention='Only tex-table and tex-wall file attributes; reflection1/MSAA4; original textures reused',
   scoring=False,optimizer_updates=0,backward=0,policy_forward=0,
-  revisions='Before any policy scoring: v1 wrongly tested contact predicates before settling. Preserve v1 candidates, consume their candidate budget, continue remaining fixed seeds with official10 noop settling. No policy result used. New snapshots are post-settling; controller remains standard reset/set_init_state deployment.',
+  revisions='Before any policy scoring: v1 tested contacts before settling; v2 additionally required every object center inside narrow BDDL named region. Actual native sampler boundary correction uses object radius and can put centers outside the narrow site despite stable legal table contact (e.g plate,cookies). v3 keeps native distribution unchanged, checks required bowl supports and physical table contact, logs all predicates but does not require tiny table sites. Preserve all previous candidates and count them against500; remaining seeds only. No policy result used.',
   failures='Preserve candidates/reasons; no replacement beyond fixed500seed list; infra failure stops, does not relabel policy failures')
  save(root/'generation_protocol.json',plan)
  print('GENERATION_PROTOCOL_FROZEN',sha(root/'generation_protocol.json'))
@@ -91,7 +91,12 @@ def generate(root):
    sig=signature(m,d);np.savez(dest/'physical_signature.npz',**sig)
    finite=bool(np.isfinite(state).all());goal=bool(env.check_success());pred=[dict(predicate=x,valid=bool(env.env._eval_predicate(x))) for x in env.env.parsed_problem['initial_state']]
    row.update(finite=finite,initial_success=goal,initial_predicates=pred)
-   if not finite or goal or not all(x['valid'] for x in pred):row['reason']='invalid_initial_predicates_or_goal_or_nonfinite'
+   supports={}
+   for name in ('plate_1','cookies_1','glazed_rim_porcelain_ramekin_1'):
+    supports[name]=any((m.geom(c.geom1).name=='table_collision' and str(m.geom(c.geom2).name).startswith(name+'_')) or (m.geom(c.geom2).name=='table_collision' and str(m.geom(c.geom1).name).startswith(name+'_')) for c in d.contact)
+   bowl_support=all(x['valid'] for x in pred if x['predicate'][1] in ('akita_black_bowl_1','akita_black_bowl_2'))
+   row['physical_support_contacts']=supports
+   if not finite or goal or not bowl_support or not all(supports.values()):row['reason']='invalid_support_or_goal_or_nonfinite'
    probe=data_for(m,state);ids=[m.body(n).id for n in BODIES[:5]];start=probe.xpos[ids].copy();positions=[]
    for _ in range(round(.2/m.opt.timestep)):
     mujoco.mj_step(m,probe);positions.append(probe.xpos[ids].copy())

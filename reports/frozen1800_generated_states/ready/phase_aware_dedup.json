@@ -1,0 +1,306 @@
+{
+  "rule": "all7 named movable/fixture XY; max absolute coordinate difference<=0.0001m, both raw and settled new layouts; time,z,rotation and robot omitted conservatively",
+  "results": [
+    {
+      "seed": 2026111069,
+      "closest_known_source": "historical_reset_2026102509",
+      "minimum_max_coordinate_difference_m": 0.011253973110807808,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111070,
+      "closest_known_source": "historical_reset_2026102500",
+      "minimum_max_coordinate_difference_m": 0.013658311631206621,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111071,
+      "closest_known_source": "demo_14",
+      "minimum_max_coordinate_difference_m": 0.014433267725539545,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111072,
+      "closest_known_source": "demo_14",
+      "minimum_max_coordinate_difference_m": 0.02060985323473947,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111073,
+      "closest_known_source": "demo_14",
+      "minimum_max_coordinate_difference_m": 0.013533469023339767,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111074,
+      "closest_known_source": "demo_31",
+      "minimum_max_coordinate_difference_m": 0.015255435820502872,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111075,
+      "closest_known_source": "demo_45",
+      "minimum_max_coordinate_difference_m": 0.01097699050156345,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111076,
+      "closest_known_source": "historical_reset_2026102502",
+      "minimum_max_coordinate_difference_m": 0.01199954480139881,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111077,
+      "closest_known_source": "demo_19",
+      "minimum_max_coordinate_difference_m": 0.014854951962360807,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111078,
+      "closest_known_source": "demo_7",
+      "minimum_max_coordinate_difference_m": 0.01563718330577104,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111079,
+      "closest_known_source": "demo_38",
+      "minimum_max_coordinate_difference_m": 0.010489142329350262,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111080,
+      "closest_known_source": "historical_reset_2026102519",
+      "minimum_max_coordinate_difference_m": 0.00997970215025061,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111081,
+      "closest_known_source": "demo_32",
+      "minimum_max_coordinate_difference_m": 0.014409508031099971,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111082,
+      "closest_known_source": "demo_30",
+      "minimum_max_coordinate_difference_m": 0.013998616248538737,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111083,
+      "closest_known_source": "demo_30",
+      "minimum_max_coordinate_difference_m": 0.021251686295784805,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111084,
+      "closest_known_source": "demo_14",
+      "minimum_max_coordinate_difference_m": 0.014773999999999982,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111085,
+      "closest_known_source": "demo_48",
+      "minimum_max_coordinate_difference_m": 0.01765888163939261,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111086,
+      "closest_known_source": "demo_19",
+      "minimum_max_coordinate_difference_m": 0.011445115713887039,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111087,
+      "closest_known_source": "historical_reset_2026102501",
+      "minimum_max_coordinate_difference_m": 0.015142929087402807,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111088,
+      "closest_known_source": "new_2026111076",
+      "minimum_max_coordinate_difference_m": 0.016659476384450714,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111089,
+      "closest_known_source": "demo_47",
+      "minimum_max_coordinate_difference_m": 0.012833994578644745,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111090,
+      "closest_known_source": "demo_28",
+      "minimum_max_coordinate_difference_m": 0.016977658399815944,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111091,
+      "closest_known_source": "historical_reset_2026102517",
+      "minimum_max_coordinate_difference_m": 0.017267309450459734,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111092,
+      "closest_known_source": "new_2026111084",
+      "minimum_max_coordinate_difference_m": 0.013310663972366105,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111093,
+      "closest_known_source": "demo_30",
+      "minimum_max_coordinate_difference_m": 0.016089900510771027,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111094,
+      "closest_known_source": "new_2026111070",
+      "minimum_max_coordinate_difference_m": 0.018321826688401877,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111095,
+      "closest_known_source": "demo_0",
+      "minimum_max_coordinate_difference_m": 0.014029923260743642,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111096,
+      "closest_known_source": "demo_12",
+      "minimum_max_coordinate_difference_m": 0.014680451230622095,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111097,
+      "closest_known_source": "new_2026111082",
+      "minimum_max_coordinate_difference_m": 0.016507724535259338,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111098,
+      "closest_known_source": "demo_31",
+      "minimum_max_coordinate_difference_m": 0.013274715252036606,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111099,
+      "closest_known_source": "demo_6",
+      "minimum_max_coordinate_difference_m": 0.01019243027281011,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111100,
+      "closest_known_source": "demo_14",
+      "minimum_max_coordinate_difference_m": 0.016206526652970704,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111101,
+      "closest_known_source": "demo_29",
+      "minimum_max_coordinate_difference_m": 0.011393260826062235,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111102,
+      "closest_known_source": "demo_38",
+      "minimum_max_coordinate_difference_m": 0.01436283413137325,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111103,
+      "closest_known_source": "historical_reset_2026102509",
+      "minimum_max_coordinate_difference_m": 0.014712397251413323,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111104,
+      "closest_known_source": "new_2026111087",
+      "minimum_max_coordinate_difference_m": 0.011915812849955132,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111105,
+      "closest_known_source": "historical_reset_2026102515",
+      "minimum_max_coordinate_difference_m": 0.011225865997375628,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111106,
+      "closest_known_source": "demo_16",
+      "minimum_max_coordinate_difference_m": 0.016664924610971965,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111107,
+      "closest_known_source": "demo_19",
+      "minimum_max_coordinate_difference_m": 0.014052826407958657,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111108,
+      "closest_known_source": "historical_reset_2026102505",
+      "minimum_max_coordinate_difference_m": 0.014376952694911294,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111109,
+      "closest_known_source": "historical_reset_2026102505",
+      "minimum_max_coordinate_difference_m": 0.01646748490546164,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111110,
+      "closest_known_source": "historical_reset_2026102509",
+      "minimum_max_coordinate_difference_m": 0.01467758725742577,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111111,
+      "closest_known_source": "new_2026111107",
+      "minimum_max_coordinate_difference_m": 0.014965635988268389,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111112,
+      "closest_known_source": "new_2026111076",
+      "minimum_max_coordinate_difference_m": 0.014780859076410496,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111113,
+      "closest_known_source": "demo_19",
+      "minimum_max_coordinate_difference_m": 0.014454212665582097,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111114,
+      "closest_known_source": "new_2026111074",
+      "minimum_max_coordinate_difference_m": 0.014571857158672763,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111115,
+      "closest_known_source": "new_2026111102",
+      "minimum_max_coordinate_difference_m": 0.01145200455004558,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111116,
+      "closest_known_source": "historical_reset_2026102516",
+      "minimum_max_coordinate_difference_m": 0.013135253563565378,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111117,
+      "closest_known_source": "demo_31",
+      "minimum_max_coordinate_difference_m": 0.015221347571316018,
+      "duplicate": false
+    },
+    {
+      "seed": 2026111118,
+      "closest_known_source": "new_2026111077",
+      "minimum_max_coordinate_difference_m": 0.01607362347635602,
+      "duplicate": false
+    }
+  ],
+  "pass_all": true
+}
