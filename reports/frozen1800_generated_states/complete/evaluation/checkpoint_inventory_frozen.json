@@ -1,0 +1,38 @@
+[
+  {
+    "model": "C-low_seed31001_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31001/C-low/C-low/formal/step1800.pt",
+    "sha256": "d429e10d4f9b26526f8416124d3fa5ca6a23ae36ee76f8562aa08de4809a6a59",
+    "step": 1800
+  },
+  {
+    "model": "D-low_seed31001_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31001/D-low/D-low/formal/step1800.pt",
+    "sha256": "76a7cd046aecd9a13296406243d09b1060e1973e674fe5b64aa3914e56964799",
+    "step": 1800
+  },
+  {
+    "model": "C-low_seed31002_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31002/C-low/C-low/formal/step1800.pt",
+    "sha256": "bc28992234b8fa25205ad86a801698d11b4e132acd3bb5ab3effc5d564fa4aa0",
+    "step": 1800
+  },
+  {
+    "model": "D-low_seed31002_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31002/D-low/D-low/formal/step1800.pt",
+    "sha256": "cc094dab52cbd2d43cafd735ee30c90332908118e4c40ca23e631358346a00e7",
+    "step": 1800
+  },
+  {
+    "model": "C-low_seed31003_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31003/C-low/C-low/formal/step1800.pt",
+    "sha256": "664214024cd6214464a57ec38465766599fd2e80cead8fc799ac447a2ca73fc7",
+    "step": 1800
+  },
+  {
+    "model": "D-low_seed31003_s1800",
+    "path": "<PROJECT_ROOT>/experiments/rla_low_lr_continuation/run_20261030_01/seed_31003/D-low/D-low/formal/step1800.pt",
+    "sha256": "609cd07db423b0e6dee18a40ac9144b2c33656953dda4fae00dda8f347c0dd75",
+    "step": 1800
+  }
+]

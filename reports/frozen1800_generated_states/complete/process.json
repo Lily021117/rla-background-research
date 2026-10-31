@@ -1,0 +1,18 @@
+{
+  "returncode": 0,
+  "seconds": 22323.561171770096,
+  "command": [
+    "<PROJECTS_ROOT>/vla-adapter-ref/.venv-cpu/bin/python",
+    "-u",
+    "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_01/code/experiments/rla_lr_budget_sweep/bootstrap.py",
+    "--out",
+    "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/evaluation",
+    "--arm",
+    "evaluation",
+    "--entry",
+    "frozen1800_state_readiness.evaluate",
+    "--attempt",
+    "formal"
+  ],
+  "GPU": "GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e"
+}

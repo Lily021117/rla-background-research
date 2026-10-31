@@ -1,0 +1,22 @@
+{
+  "status": "PASS_TECHNICAL_NOT_POLICY",
+  "N": 50,
+  "candidate_attempts_all_revisions": 119,
+  "candidate_cap": 500,
+  "v1_candidate_attempts": 29,
+  "v2_candidate_attempts": 40,
+  "v3_candidate_attempts": 50,
+  "prepared_states_role": "\u6309\u51bb\u7ed3\u521d\u59cb\u5316\u5206\u5e03\u65b0\u751f\u6210\u7684\u4eff\u771f\u72b6\u6001\u9a8c\u8bc1",
+  "policy_forwards_before_freeze": 0,
+  "policy_rollouts_before_freeze": 0,
+  "backward": 0,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "source_audit_reads_sealed_contents": true,
+  "old_candidate_states_scored": 0,
+  "geometry_depth_segmentation_and_state_checks": true,
+  "phase_aware_layout_dedup": true,
+  "generation_physics_steps_separate_from_policy": true,
+  "source_adapter_exact_replacement_check": "PASS",
+  "paired_statistics_synthetic_algebra_check": "PASS; not experiment results"
+}

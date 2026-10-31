@@ -1,0 +1,198 @@
+[
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111081,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111086,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111089,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111107,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111108,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "C-low",
+    "state": 2026111116,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111072,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111075,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111079,
+    "condition": "clean",
+    "stage": "near_target_grasp_or_contact_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111095,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111097,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111099,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31001,
+    "method": "D-low",
+    "state": 2026111105,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "C-low",
+    "state": 2026111080,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "C-low",
+    "state": 2026111094,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "C-low",
+    "state": 2026111102,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "C-low",
+    "state": 2026111110,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "D-low",
+    "state": 2026111072,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "D-low",
+    "state": 2026111084,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "D-low",
+    "state": 2026111090,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31002,
+    "method": "D-low",
+    "state": 2026111099,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "C-low",
+    "state": 2026111072,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "C-low",
+    "state": 2026111098,
+    "condition": "clean",
+    "stage": "near_target_grasp_or_contact_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "C-low",
+    "state": 2026111107,
+    "condition": "clean",
+    "stage": "near_target_grasp_or_contact_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "C-low",
+    "state": 2026111109,
+    "condition": "clean",
+    "stage": "near_target_grasp_or_contact_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "C-low",
+    "state": 2026111111,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "D-low",
+    "state": 2026111081,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  },
+  {
+    "seed": 31003,
+    "method": "D-low",
+    "state": 2026111111,
+    "condition": "clean",
+    "stage": "post_lift_or_placement_failure"
+  }
+]

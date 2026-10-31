@@ -1,0 +1,16 @@
+seed,condition,D_success_C_failure,C_success_D_failure,both_success,both_failure
+31001,clean,6,7,37,0
+31001,new_background_1,5,8,34,3
+31001,new_background_2,5,5,37,3
+31001,new_background_3,3,7,39,1
+31001,new_background_4,1,8,41,0
+31002,clean,4,4,42,0
+31002,new_background_1,4,2,44,0
+31002,new_background_2,7,2,41,0
+31002,new_background_3,2,0,48,0
+31002,new_background_4,1,0,49,0
+31003,clean,4,1,44,1
+31003,new_background_1,5,2,43,0
+31003,new_background_2,2,1,47,0
+31003,new_background_3,4,2,44,0
+31003,new_background_4,1,7,42,0

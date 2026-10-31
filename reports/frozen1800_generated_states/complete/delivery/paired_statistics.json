@@ -1,0 +1,257 @@
+{
+  "results": [
+    {
+      "seed": 31001,
+      "metric": "clean",
+      "difference": -0.02,
+      "CI95": [
+        -0.16,
+        0.12
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "background",
+      "difference": -0.07,
+      "CI95": [
+        -0.135,
+        -0.005
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "interaction",
+      "difference": -0.05,
+      "CI95": [
+        -0.195,
+        0.095
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_1",
+      "difference": -0.06,
+      "CI95": [
+        -0.2,
+        0.08
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_2",
+      "difference": 0.0,
+      "CI95": [
+        -0.12,
+        0.12
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_3",
+      "difference": -0.08,
+      "CI95": [
+        -0.2,
+        0.04
+      ]
+    },
+    {
+      "seed": 31001,
+      "metric": "new_background_4",
+      "difference": -0.14,
+      "CI95": [
+        -0.26,
+        -0.04
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "clean",
+      "difference": 0.0,
+      "CI95": [
+        -0.1,
+        0.12
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "background",
+      "difference": 0.05,
+      "CI95": [
+        0.005,
+        0.095
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "interaction",
+      "difference": 0.05,
+      "CI95": [
+        -0.065,
+        0.165
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_1",
+      "difference": 0.04,
+      "CI95": [
+        -0.06,
+        0.14
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_2",
+      "difference": 0.1,
+      "CI95": [
+        -0.02,
+        0.22
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_3",
+      "difference": 0.04,
+      "CI95": [
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "seed": 31002,
+      "metric": "new_background_4",
+      "difference": 0.02,
+      "CI95": [
+        0.0,
+        0.06
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "clean",
+      "difference": 0.06,
+      "CI95": [
+        -0.02,
+        0.14
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "background",
+      "difference": 0.0,
+      "CI95": [
+        -0.05,
+        0.05
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "interaction",
+      "difference": -0.06,
+      "CI95": [
+        -0.17,
+        0.04
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_1",
+      "difference": 0.06,
+      "CI95": [
+        -0.04,
+        0.16
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_2",
+      "difference": 0.02,
+      "CI95": [
+        -0.04,
+        0.08
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_3",
+      "difference": 0.04,
+      "CI95": [
+        -0.06,
+        0.14
+      ]
+    },
+    {
+      "seed": 31003,
+      "metric": "new_background_4",
+      "difference": -0.12,
+      "CI95": [
+        -0.24,
+        -0.02
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "clean",
+      "difference": 0.01333333333333333,
+      "CI95": [
+        -0.05333333333333333,
+        0.08
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "background",
+      "difference": -0.006666666666666666,
+      "CI95": [
+        -0.04,
+        0.02666666666666667
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "interaction",
+      "difference": -0.019999999999999997,
+      "CI95": [
+        -0.09999999999999998,
+        0.05666666666666668
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "new_background_1",
+      "difference": 0.013333333333333334,
+      "CI95": [
+        -0.05333333333333332,
+        0.07333333333333333
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "new_background_2",
+      "difference": 0.039999999999999994,
+      "CI95": [
+        -0.013333333333333332,
+        0.09333333333333332
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "new_background_3",
+      "difference": -4.440892098500626e-18,
+      "CI95": [
+        -0.06,
+        0.05999999999999999
+      ]
+    },
+    {
+      "seed": "equal_three_seed",
+      "metric": "new_background_4",
+      "difference": -0.07999999999999999,
+      "CI95": [
+        -0.13333333333333333,
+        -0.026666666666666665
+      ]
+    }
+  ],
+  "bootstrap": "physical-state cluster,20k draws,all appearances/models/seeds together; not training-seed/AE/task uncertainty"
+}

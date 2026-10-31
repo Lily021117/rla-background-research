@@ -1,0 +1,607 @@
+{
+  "status": "ROUTE_A_NOT_CERTIFIED_AT_LEAST20",
+  "official_init_shape": [
+    50,
+    92
+  ],
+  "selected_indices": [
+    11,
+    16,
+    24,
+    6,
+    12,
+    13,
+    18,
+    19,
+    20,
+    23,
+    34,
+    35,
+    36,
+    26,
+    29,
+    30,
+    33,
+    37,
+    43,
+    8
+  ],
+  "source_attributes": {
+    "bddl_file_name": "libero/libero/bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "env_args": "{\"type\": 1, \"env_name\": \"Libero_Tabletop_Manipulation\", \"problem_name\": \"libero_tabletop_manipulation\", \"bddl_file\": \"chiliocosm/bddl_files/libero_spatial/pick_the_akita_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl\", \"env_kwargs\": {\"robots\": [\"Panda\"], \"controller_configs\": {\"type\": \"OSC_POSE\", \"input_max\": 1, \"input_min\": -1, \"output_max\": [0.05, 0.05, 0.05, 0.5, 0.5, 0.5], \"output_min\": [-0.05, -0.05, -0.05, -0.5, -0.5, -0.5], \"kp\": 150, \"damping_ratio\": 1, \"impedance_mode\": \"fixed\", \"kp_limits\": [0, 300], \"damping_ratio_limits\": [0, 10], \"position_limits\": null, \"orientation_limits\": null, \"uncouple_pos_ori\": true, \"control_delta\": true, \"interpolation\": null, \"ramp_ratio\": 0.2}, \"bddl_file_name\": \"chiliocosm/bddl_files/libero_spatial/pick_the_akita_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl\", \"has_renderer\": false, \"has_offscreen_renderer\": true, \"ignore_done\": true, \"use_camera_obs\": true, \"camera_depths\": false, \"camera_names\": [\"robot0_eye_in_hand\", \"agentview\"], \"reward_shaping\": true, \"control_freq\": 20, \"camera_heights\": 128, \"camera_widths\": 128, \"camera_segmentations\": null}}",
+    "env_name": "Libero_Tabletop_Manipulation",
+    "macros_image_convention": "opengl",
+    "num_demos": "50",
+    "problem_info": "{\"problem_name\": \"libero_tabletop_manipulation\", \"domain_name\": \"robosuite\", \"language_instruction\": \"pick up the black bowl on the stove and place it on the plate\"}",
+    "tag": "libero-v1",
+    "total": "7111"
+  },
+  "episodes": [
+    {
+      "demo": "demo_0",
+      "states_shape": [
+        155,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "40f8e6da4abbe6c17ff91304cef48405731c485cc8f9c0774b6561309ca554ab",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_1",
+      "states_shape": [
+        125,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "5f3154c550ca003b3076a4f71750d0f38e6614e93aab4ec1b478136b44f44d31",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_2",
+      "states_shape": [
+        124,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "65c0a3b121fecbabbbc3fd4d0aed820e43737d5c3a81d47dd269a638e6422352",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_3",
+      "states_shape": [
+        191,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "db5dfd8e9517489b32970384b3905b58d363cd8175ed8f57ebe5dd3ca7cf2e19",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_4",
+      "states_shape": [
+        136,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "2f90f29b4edb17778e819d78a3ecdae8d36b8ed35a5064e30e695ce46dd75496",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_5",
+      "states_shape": [
+        138,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "514b7d2d21c4e23c2a00d5b0a4924156e3a3958a4b993a0810e56a12b94d91b6",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_6",
+      "states_shape": [
+        133,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "5a5401b9d2ccffd2b05c666872f4ead21677c49f4c49871e98857b45c057a5b4",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_7",
+      "states_shape": [
+        130,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "71b5226551d4ab17c1d10666d1cc05718b1ea7fc5933981785df7c27dea69ee8",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_8",
+      "states_shape": [
+        139,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "abe7f7f94462926885434c50a92481c4c0269651b5bc70bc17573d424c4a9d49",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_9",
+      "states_shape": [
+        145,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "ddfc0cf264e8a0e8c9ec207d86fb937ce3212d8e5b8703c6c28c7adf34a4d4f9",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_10",
+      "states_shape": [
+        140,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "392f7a99821a4b3965a4639ed218a5d19e577696876777c828b74bc6f372b8ff",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_11",
+      "states_shape": [
+        164,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "9454b65c847634c2a6adafa04191469c62d44b396e9d2cbae4c298d5d8630753",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_12",
+      "states_shape": [
+        124,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "4b1a2619d8d46703e9fa1d88f3c46da82d524dc0f76bf3673bebea3bf67ee780",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_13",
+      "states_shape": [
+        138,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "dcd6c2a4622f246e11d245e024276816f7aab80357b27204706e6d017b93bec2",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_14",
+      "states_shape": [
+        120,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "66513184d5898981e75e2afec933b3a408a9e110cd91f8df7ddad25970081781",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_15",
+      "states_shape": [
+        137,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "a5cbcd018322ec859f8c8517a31b5be93201a59d79fdfde19dac0b1500e7fe5d",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_16",
+      "states_shape": [
+        141,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "264a78b480539fde70d9a9d6b654b5fc9e29195a82367a7b2bd822957aab257d",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_17",
+      "states_shape": [
+        152,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "b5b122d1cbff02278eb1ce0849d66e452835f8322cf731f34cecdc9f6adbe39f",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_18",
+      "states_shape": [
+        137,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "8269c07faed72bd1048dd026d86ba489680476eb3c6ec92be0a46269feb78fc8",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_19",
+      "states_shape": [
+        128,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "f38fae285d3b10f8ca71b5aba67acbfc0f8368341df4e3dee6a3c2d84bf92da6",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_20",
+      "states_shape": [
+        197,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "2b82c115d1259081f7c4fdb167afea740a881955fc659009818e46d5b2fe224e",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_21",
+      "states_shape": [
+        124,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "a1ce73a8c2cd9688b865dd9736b380320428589c42cb02ec22b05a8af8422738",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_22",
+      "states_shape": [
+        128,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "8fb4e15b201066a47ba1e577dfe4ec47a239f222f7230987960d9eb72251ca50",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_23",
+      "states_shape": [
+        126,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "76ce38562be4c199778491a6a2041d780861bac606fa58bc6be4a34a2689cb2a",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_24",
+      "states_shape": [
+        144,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "51eddab384051cbdecbd586030e0e72fbf0f8ddb2913c34c7e4c62e714fc679c",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_25",
+      "states_shape": [
+        129,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "51f239aa7068044ae5d7647b35c9494c0bbb048935a4b6059b78aa1102fbe54c",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_26",
+      "states_shape": [
+        168,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "88ed1fcbb35d901f4226c49564d9658c725b12e926cfde9cdb317366cc73a9b7",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_27",
+      "states_shape": [
+        132,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "aaf979525363ab1cdf285a593e09ee4f13e033ea3a256bb6fb7d883c58a2fbf0",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_28",
+      "states_shape": [
+        140,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "9dde6620623277d5a21e03cef43e452a80068ac468f73b7a561e3a74ec305a69",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_29",
+      "states_shape": [
+        133,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "bc9e2db8d90a81646fd47eaf50ba39a5a2afc60ca2c3ed53d58051823405f7f0",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_30",
+      "states_shape": [
+        135,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "18bad7e427535ff5f8e50f7df4a31f64af1954d420e6c591087099eeac1c97bc",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_31",
+      "states_shape": [
+        140,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "66ca01ed41cc6c2aac354b6e2c88e7e06e8a77b1075fb1bfcc6d6416bacde424",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_32",
+      "states_shape": [
+        142,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "dc1edeca9fae174fd07e7c05f3b6d45024059ffcab35f2eeaf317a6feb2ebdcb",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_33",
+      "states_shape": [
+        133,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "852bd5fdaf75b70a2658d9850594f1856ba4e74b197fbc3965e34f63b12d2e86",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_34",
+      "states_shape": [
+        157,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "e36ca384df4a1bff804e18476ed0ac96998f194eba1c80b54c731c086c107c20",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_35",
+      "states_shape": [
+        167,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "10b041cefab5cf81b3e7745aebad7759d7ec6b572a57f0892c48a127cb2c71ee",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_36",
+      "states_shape": [
+        148,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "91ea003d9b36f63c5b082b12ddd008856a3938b9c3314c9843497f4e401a528b",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_37",
+      "states_shape": [
+        128,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "3b25dfadb18d69e1c9be30b1658463d5f408d7c0dfb357c6a5f259dc31ed8034",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_38",
+      "states_shape": [
+        133,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "732aeffd39be3331736b2a3e7610debb350fa2f1d28ee353f51be236231aa8cc",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_39",
+      "states_shape": [
+        128,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "9fcadc6e375a3f21a53af7794df2023984887f6c842448e7d3e89b6a2124018e",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_40",
+      "states_shape": [
+        130,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "1b863170c9b81098b5492473360f1ac6d27025cad167c315f33222924b408ebc",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_41",
+      "states_shape": [
+        129,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "cd3e2f8d768c5c2d185ed4966870b2cb1dcfb76febf27c73fa55c1f0c794e6ca",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_42",
+      "states_shape": [
+        176,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "05d20233331741434164dd582a48a82d6c64416a74c814751f3149428942b3e8",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_43",
+      "states_shape": [
+        170,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "6da89dedc4af68b3f45046d5ae6ffc0cda4285fc61ebd5e651b735b86858ff86",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_44",
+      "states_shape": [
+        141,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "bdaaa949733de600d33dff330bc06bde5c60edfda0d56541332b889e3934582d",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_45",
+      "states_shape": [
+        142,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "70639081ccf59e3cde336665b29e7f091fe005d5aeb0700178c8a34a0cc37ab4",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_46",
+      "states_shape": [
+        180,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "8f4cc32e809641cf87abb21f5403ed1876e5c3328178fb9bc16034e26f966afb",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_47",
+      "states_shape": [
+        124,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "1054ba98738fc177f7118dd73304861d05fc59606b39f173514a223f3e5b3ce2",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_48",
+      "states_shape": [
+        136,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "7935a938084b7bd6cda56a7cc29396dc89751ef89eaaa5cdac4ed621258d2725",
+      "first_state_time": 0.25000000000000017
+    },
+    {
+      "demo": "demo_49",
+      "states_shape": [
+        154,
+        92
+      ],
+      "read_state_rows": 21,
+      "xml_present": true,
+      "xml_sha256": "d8b367b8a6676ec9ac9d42dfb45298f83be5db350c14e66884af693907cb6f2e",
+      "first_state_time": 0.25000000000000017
+    }
+  ],
+  "exact_ignoring_time_matches": [],
+  "mapping": "No index-to-demo assumption. No generation/pruning map found in bounded local LIBERO scripts/utils/benchmark search; an init state array alone does not identify episode XML/fixture placement. No unmatched state is certified independent.",
+  "prior_metadata_audit": {
+    "raw_registered": 15,
+    "raw_prior_use": 5,
+    "raw_remaining_at_most": 10,
+    "official_registered": 20,
+    "official_development_overlap_indices": [
+      13,
+      23,
+      35
+    ]
+  },
+  "decision": "Route B, separately frozen generator; no old ambiguous state admitted",
+  "policy_forward": 0,
+  "rollouts": 0
+}

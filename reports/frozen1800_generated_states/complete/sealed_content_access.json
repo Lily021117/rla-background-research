@@ -1,0 +1,16 @@
+{
+  "purpose": "source mapping and dedup only; no policy loading or scoring",
+  "sealed_contents_read": true,
+  "reads": [
+    {
+      "path": "<LIBERO_ROOT>/libero/libero/init_files/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.pruned_init",
+      "scope": "torch container deserialization; selected20 indices inspected; container may deserialize all states",
+      "sha256": "ea9cba2814bc166f3682f3f5a97329467839bcf584069cd419191b6c17adae25"
+    },
+    {
+      "path": "<PROJECT_ROOT>/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5",
+      "scope": "all50 episode XML/config and first up to21 physical states; no actions/images or success scores",
+      "sha256": "1fcb3990cf9fd6185f56531cc9f6dec0a77a59bfa0c7f39dff95b7e43cf6aeaa"
+    }
+  ]
+}
