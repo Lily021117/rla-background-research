@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE",
+  "valid_new_rollouts": 900,
+  "actual_attempts": 900,
+  "invalid_trials": 0,
+  "reused_clean": 150,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "backward": 0,
+  "offline_policy": {
+    "status": "PASS",
+    "policy_forward_calls": 4200,
+    "models": 6,
+    "anchors": 100,
+    "optimizer_updates": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "backward": 0,
+    "target_in_policy_inputs": false,
+    "random_conditions": "same explicit Python/NumPy/torch/CUDA seed per anchor; eval inference; all appearances/models reset",
+    "action_units": "normalized common training coordinates; decoded controller command units, not measured pose displacement or angle; gripper continuous before deployment threshold",
+    "execution": "chunk8 executed open loop until success/done; all8 eligible, first entry additionally reported; no alternative horizon deployment"
+  },
+  "offline_AE": {
+    "status": "PASS",
+    "counts": {
+      "DINO_calls": 2100,
+      "AE_encoder_calls": 1400,
+      "backward": 0
+    },
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "horizon": "t to t+h h1..8",
+    "normalization": "existing frozen own AE training statistics; no refitting",
+    "temporary_official_constructor_weights": "strictly replaced before any AE encoder forward; only DINO extraction precedes replacement"
+  }
+}
