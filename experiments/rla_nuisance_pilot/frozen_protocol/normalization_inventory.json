@@ -1,0 +1,10 @@
+{
+  "C": {
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/statistics.json",
+    "sha256": "39407e0ed4b2ee3b06fd4b3464cde53a84c8bbdfa77c3d4c0cfb40359be903c7"
+  },
+  "D": {
+    "path": "<PROJECT_ROOT>/experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/statistics.json",
+    "sha256": "1be4c355356df04bbd6acd301d9308eb6a66384ea5a6b71de7992313b36675a4"
+  }
+}

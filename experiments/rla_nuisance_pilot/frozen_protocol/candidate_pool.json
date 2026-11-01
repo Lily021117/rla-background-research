@@ -1,0 +1,678 @@
+{
+  "rule": "before any rendering or scoring: first12 unique metadata candidates by fixed hash in each category; no extension if insufficient valid candidates",
+  "libero_commit": "4976dc30028e805ff8094b55501d532c48fec182",
+  "candidates": [
+    {
+      "candidate_id": "texture:d2f61ca5b321bf6a8a345a6e103de3c3d6f4804ae42174689c8d80cb4ea9c32b:06e648531d94b0328a95dfcee355bf1831ea289072c5096374e0a2a1aacf9e26",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/047b297df09a40b9c29cbec2eb9fa5d2e30da39965988dc12775b5e568b0aab8_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/047b297df09a40b9c29cbec2eb9fa5d2e30da39965988dc12775b5e568b0aab8_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricCottonTwill001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricCottonTwill001_COL_VAR1_3K.png",
+          "sha256": "d2f61ca5b321bf6a8a345a6e103de3c3d6f4804ae42174689c8d80cb4ea9c32b",
+          "resized_sha256": "f3da51b5a4d6e7f61cf900d1e530b2502f2d50d14c7d4ece7ad855f53ec4209d",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricCreasesWrinkles001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricCreasesWrinkles001_COL_4K.png",
+          "sha256": "06e648531d94b0328a95dfcee355bf1831ea289072c5096374e0a2a1aacf9e26",
+          "resized_sha256": "7325f5f0e95ba6d2afe8757f19b643d71ba54fd1b4e456503e76a97eefda9d9b",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:7d1175c2c2326f1e1cd02d7d29a70ff4eae264954bfa918293da166201fc1f73:db44d0b770f17c605388911802db8a3697531d4b8d28139397b64eaee0060278",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/275a91ee9f0b8fef1d7f35e57c85da9f635fb55aa15a7aa259c3706478a8260a_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/275a91ee9f0b8fef1d7f35e57c85da9f635fb55aa15a7aa259c3706478a8260a_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricTarpPlastic001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricTarpPlastic001_COL_VAR1_3K.png",
+          "sha256": "7d1175c2c2326f1e1cd02d7d29a70ff4eae264954bfa918293da166201fc1f73",
+          "resized_sha256": "3a530e756af3e22db0d85cf841a6744891572593404bde51f81ff222e93dc6bb",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricTowel001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricTowel001_COL_3K.png",
+          "sha256": "db44d0b770f17c605388911802db8a3697531d4b8d28139397b64eaee0060278",
+          "resized_sha256": "2dfdaa54e25ba6836859c0ad8c074dcea0a2c51f31e1bec061660198a7085030",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:830ced314bd3514f30ea9339944bb06ff8882a5e981e2d8fa06c6e97a3445f4c:97ba1ca5db67eb96828fd259b921a1ce302706b83965173ae3beca0f21281688",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/292abe7aeb6ed905e610dd16c7366d1140906b7e2770fd9a29812e227b883767_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/292abe7aeb6ed905e610dd16c7366d1140906b7e2770fd9a29812e227b883767_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricDenim001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricDenim001_COL_VAR1_6K.png",
+          "sha256": "830ced314bd3514f30ea9339944bb06ff8882a5e981e2d8fa06c6e97a3445f4c",
+          "resized_sha256": "70d02c029b5e743431eff2b6d94cb479532d105b9df933d968f0c70ed7ca1c0f",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricDenim002",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricDenim002_COL_VAR1_3K.png",
+          "sha256": "97ba1ca5db67eb96828fd259b921a1ce302706b83965173ae3beca0f21281688",
+          "resized_sha256": "d00fc14515ad066eafd4abdf663ca427e77fd409be5284b5b864cc962dd20330",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:454ced22ec9da7df22728d06c5f065ecd866d734f3a281e558e7b8583d50a752:89b9e159732c5bf461189c984b7d5956311f566a88ecd78859c1a25d9168b6d6",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/2e241b51be16f06f273b2cbc9b1bac0d55e6cc7e052f28cd965e2b7a7ad6af8a_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/2e241b51be16f06f273b2cbc9b1bac0d55e6cc7e052f28cd965e2b7a7ad6af8a_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricCotton001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricCotton001_COL_VAR1_6K.png",
+          "sha256": "454ced22ec9da7df22728d06c5f065ecd866d734f3a281e558e7b8583d50a752",
+          "resized_sha256": "d60f3df6b29df399b994fe0e62becf28fc4e424b9b5434ad2f3efa34a7a9c33d",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricCotton002",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricCotton002_COL_VAR1_HIRES.png",
+          "sha256": "89b9e159732c5bf461189c984b7d5956311f566a88ecd78859c1a25d9168b6d6",
+          "resized_sha256": "276d6598ce2af2ac21b0b8fc02f1e6b4d493a0f6209bade903357b1a50913485",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:6878ff0b45cae43a14629f7d4133cfa29d2fc2bec7e4dfa4b78d5f51d09be31f:bc1219dc29b158f3e970facbe7ed1eb29c01f17d16bc6246d2eac7a2caac0971",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/4a38dc19c3e85b1bb04f79d32cbc8197f15f9bdc6a597f9191d5b3b819149816_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/4a38dc19c3e85b1bb04f79d32cbc8197f15f9bdc6a597f9191d5b3b819149816_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricPolyester002",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricPolyester002_COL_VAR1_6K.png",
+          "sha256": "6878ff0b45cae43a14629f7d4133cfa29d2fc2bec7e4dfa4b78d5f51d09be31f",
+          "resized_sha256": "6b76087a6820875e95e7784dce74aee79c8ea38c157e382fcc57f063da77249e",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricPolyester003",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricPolyester003_COL_6K.png",
+          "sha256": "bc1219dc29b158f3e970facbe7ed1eb29c01f17d16bc6246d2eac7a2caac0971",
+          "resized_sha256": "21d54c49f3a7466776aeee77ba4961149e01605686dae80764c71d718d67d436",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:809731521c60c321b13197bf4934f7385abf7a2a3bc2713692f5dae67b0664d7:10ca6dd9e5391973d31cfb75421aad05cc0997f34fded26de205a152995759d4",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/4c7424b31cc5959888c45f711d453b157eafe11a028ee1e030d0ab67985b1ab4_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/4c7424b31cc5959888c45f711d453b157eafe11a028ee1e030d0ab67985b1ab4_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricMuslin001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricMuslin001_COL_4K.png",
+          "sha256": "809731521c60c321b13197bf4934f7385abf7a2a3bc2713692f5dae67b0664d7",
+          "resized_sha256": "6df93d45149cfad6d1b11af5046227f8de91e2f2ff5b65d63ba5cb54763c3391",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricPolyester001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricPolyester001_COL_VAR1_3K.png",
+          "sha256": "10ca6dd9e5391973d31cfb75421aad05cc0997f34fded26de205a152995759d4",
+          "resized_sha256": "6bc4e82aabdfb51deab971a96874fcf0bbd69a05faf436cd1b9fcc3f4ba8de7a",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:79433a80dff5f0f0af8bbf3f2c5add22fabf0c48183144cc73a64e768a35be9d:c6e522d98b313d6d7fa6cf797cda9793befce2a444e89f6d4df35ac0477d23a3",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/53332e1e0bac8dfd41e00bbfe34ec631d4411d45d2d5479a1d5c98d61d8e37ac_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/53332e1e0bac8dfd41e00bbfe34ec631d4411d45d2d5479a1d5c98d61d8e37ac_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricWeaveWooly001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricWeaveWooly001_COL_4K.png",
+          "sha256": "79433a80dff5f0f0af8bbf3f2c5add22fabf0c48183144cc73a64e768a35be9d",
+          "resized_sha256": "c605fdf3cd215c324431261c3ecef9b218d85e7ad688ef1c8fda3f50c3d93a56",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricWeaveZigZag001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricWeaveZigZag001_COL_6K.png",
+          "sha256": "c6e522d98b313d6d7fa6cf797cda9793befce2a444e89f6d4df35ac0477d23a3",
+          "resized_sha256": "aa36b52e371e02dee5172a5f543f74e1f572ff9b1d7d56f56277904e6dcedac0",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:f5ed77d45bd73caf019967c8ea24ed36e9bc381514c690ad93ea98daa921e91f:34fb0e6ab9a312a94b3d732f55ba3e99250742eafbddce17b711a11850257e58",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/53fe7778eaea30e95ebc26ddfcd2782454f870d5e6e5b74e8c7d185fe7187c68_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/53fe7778eaea30e95ebc26ddfcd2782454f870d5e6e5b74e8c7d185fe7187c68_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricPolyester004",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricPolyester004_COL_VAR1_6K.png",
+          "sha256": "f5ed77d45bd73caf019967c8ea24ed36e9bc381514c690ad93ea98daa921e91f",
+          "resized_sha256": "48a1e777f7f1bfd0171f5ef18ad2177ad0a324f1ae907a917f6c9e7f7876721e",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricPolyester005",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricPolyester005_COL_VAR1_3K.png",
+          "sha256": "34fb0e6ab9a312a94b3d732f55ba3e99250742eafbddce17b711a11850257e58",
+          "resized_sha256": "08c5cc774117eb1008e5386fa8b730f62e8161dd5a7ae8bf2a9e7d3eca9e01b4",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:341e8c6ef0b89ef804259f45d5742ac8c86bb29596ba0fe1eac80aa4515a2acb:a2ec80e5a10751a84efba3fba26d559da1970f5313219418675235a6fc44f761",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/55a99186c895020f7c5bd8be6ce3f1ca5ba212132d09d39b0a94b92cd02287df_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/55a99186c895020f7c5bd8be6ce3f1ca5ba212132d09d39b0a94b92cd02287df_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricModeledPolyester001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricModeledPolyester001_COL_3K.png",
+          "sha256": "341e8c6ef0b89ef804259f45d5742ac8c86bb29596ba0fe1eac80aa4515a2acb",
+          "resized_sha256": "2e6b0bc6ed98a46de38ea006acd87533cfc1191c5ace944089a8b5ee23bbf62e",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricModeledWool001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricModeledWool001_COL_3K.png",
+          "sha256": "a2ec80e5a10751a84efba3fba26d559da1970f5313219418675235a6fc44f761",
+          "resized_sha256": "483f1ee20ef8e7af93e1bc9f555035a18e22e384c428dce96b2373258fd1244d",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:4d7678615b6e0e3a44c3f583c956a8c6a7ac9277e1fab08ebcef6708c4f5eb7c:e3d4c425c657407c92f5f451980bbf9294cdb298174c2dcdf2bb45df222dd8c7",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/5882aa1a2628196e49494568cbb99614710a3ddb5d62ede5480fd87356a4d2b5_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/5882aa1a2628196e49494568cbb99614710a3ddb5d62ede5480fd87356a4d2b5_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricModeledLinen001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricModeledLinen001_COL_VAR1_3K.png",
+          "sha256": "4d7678615b6e0e3a44c3f583c956a8c6a7ac9277e1fab08ebcef6708c4f5eb7c",
+          "resized_sha256": "fc322720e9fe216a5f7ecf6f1de877772f1a4e68266dc057978f2695dad7284e",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricModeledNylon001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricModeledNylon001_COL_3K.png",
+          "sha256": "e3d4c425c657407c92f5f451980bbf9294cdb298174c2dcdf2bb45df222dd8c7",
+          "resized_sha256": "f7015def4bb2349ae2ce3b0ad855f4a7def7e71306ba4f50aa17d6d1bef6a24d",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:e5216723bc7241123092a7c6f08d7b2ba8ad9942999c18cd645ac3e86ae066d5:4eef94cdab67c8e9c488f49076010a6b3126de4f2b378ad631858e1d67a0acf8",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/5abdf16ebbfde6a9c8d4182b5425d55b87aa0dd79e9d966080008250f5a62d6a_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/5abdf16ebbfde6a9c8d4182b5425d55b87aa0dd79e9d966080008250f5a62d6a_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricLeatherRed001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricLeatherRed001_COL_6K.png",
+          "sha256": "e5216723bc7241123092a7c6f08d7b2ba8ad9942999c18cd645ac3e86ae066d5",
+          "resized_sha256": "d09c677e9a5b02d198c87074413d7e411e294a97407f6966f3cbd38ba1dfec3c",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricLeatherWhite001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricLeatherWhite001_COL_HIRES.png",
+          "sha256": "4eef94cdab67c8e9c488f49076010a6b3126de4f2b378ad631858e1d67a0acf8",
+          "resized_sha256": "15e53d2545be3ae7c081ae75b7ee35c755d787ca52313e4e51deded0fba5bd4a",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "texture:4c8fef9a173c0cb6bdae96a5dea818d908ce03504e641fcacd011b3364cc66d5:521b53db9673b71faeda8a8cec1e5eaee8bd351aa02866feba8c0323f23e7fae",
+      "kind": "background",
+      "textures": {
+        "tex-table": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/863099ec1cdd33a98c94fed79a6e39ad9332c0316fc189148d98465a0e022945_tex-table.png",
+        "tex-wall": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/assets/863099ec1cdd33a98c94fed79a6e39ad9332c0316fc189148d98465a0e022945_tex-wall.png"
+      },
+      "sources": [
+        {
+          "family": "FabricSuedeFine001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricSuedeFine001_COL_4K.png",
+          "sha256": "4c8fef9a173c0cb6bdae96a5dea818d908ce03504e641fcacd011b3364cc66d5",
+          "resized_sha256": "3f6bcac67deb255ee8896b9fdc2e66934351fd1c0aa4510bef64d04b6df43982",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "family": "FabricSuedePatchy001",
+          "path": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/textures/FabricSuedePatchy001_COL_4K.png",
+          "sha256": "521b53db9673b71faeda8a8cec1e5eaee8bd351aa02866feba8c0323f23e7fae",
+          "resized_sha256": "b6126223c641fd453df04e63c23bce91dc4c9b90c4171c3a6fdef593a88b1aef",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "light:ecb1adb4582c50b825d24cb23f24e0443315d91800cc8f3b10fd8803597d1e1d",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "-0.5 0.5 -1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "-0.5 0.5 -1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_837.xml",
+      "source_sha256": "84ecba056261948c18405ab844b2690ff2f6df444445a0d48cf51e9281b8da37"
+    },
+    {
+      "candidate_id": "light:2737f18b5f4474c851ed7025a7f39026831d0d78590e469741d47a2e6eec017c",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "-0.5 0.5 -1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "-0.5 0.5 -1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_197.xml",
+      "source_sha256": "0d384698169e3110735ed78884485605525f69ec0f5212fcb70bf07355ff0bc7"
+    },
+    {
+      "candidate_id": "light:ba3dce9e9eebb9282a5c0525001c55c63846014f806f33a75253d5734de14efb",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0 0 1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.3 0.3 0.3",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0 0 1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.3 0.3 0.3",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_907.xml",
+      "source_sha256": "53c12bb3b79697811cb0acf848cc26a49a48e2e6582cd23b281a762145338ecc"
+    },
+    {
+      "candidate_id": "light:c3b1f63effe0378f87ae61d682eb0a6a59370b3446a5302ae1d38d91c819e5f6",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "0 -0.15 -1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "true"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "0 -0.15 -1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "true"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_244.xml",
+      "source_sha256": "b1a2516d56a09742cc661b0cc07a2785c2ebf0aa5db2116d052e53dfbb03ff33"
+    },
+    {
+      "candidate_id": "light:365d0e1ec714172606d2b901d101c4fa4ad5d93a3abd7539e6b73cdb5696d59e",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "0 -0.3 -0.8",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "0 -0.3 -0.8",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_894.xml",
+      "source_sha256": "647035370047f759eaf9a6f8bd66574776c062fa4eab16722419b909576b4012"
+    },
+    {
+      "candidate_id": "light:dcf52f0e6039d7e226357d91e0f497ed1975fb2993648905ae1bd128707edec9",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0.5 0.5 1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.3 0.3 0.3",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0.5 0.5 1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.3 0.3 0.3",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_979.xml",
+      "source_sha256": "5ab13f7df8d284fc0e90375d69dbe8852030cd592514eb4f06ba5fa9cbb526aa"
+    },
+    {
+      "candidate_id": "light:4316a58dcca98c5db64b1ee0c31b0e792fee1dd23938a78af014aabde541db38",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "0 1 0",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.3 0.3 0.3",
+          "dir": "0 1 0",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_158.xml",
+      "source_sha256": "a2cdac791510adf85d9a4757744b281b14007ea72c11216487ff806a6f453ba0"
+    },
+    {
+      "candidate_id": "light:05d0aa7cbb3567241872ae65ff228b672ec3be03a097f9c83c0061dea27ecfff",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0 -0.15 -1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 0.0 1.0",
+          "dir": "0 -0.15 -1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_1015.xml",
+      "source_sha256": "6c5850f3309f0b20116c403a7bf8a38c701a194a78a0436c866d9fa4375a3854"
+    },
+    {
+      "candidate_id": "light:c53c9086eda006bddfced58ee63e7ab00d9ee3928898b629e130facb4bcac452",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "0.5 0.5 1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.0 0.0 0.0",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "0.0 1.0 0.0",
+          "dir": "0.5 0.5 1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.0 0.0 0.0",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_849.xml",
+      "source_sha256": "e6a7d536d10194c2ff80c31d6ed7dd677a048ad872a62faad7b52fbabee9d1d4"
+    },
+    {
+      "candidate_id": "light:d138bea1b3f68aa38146c89a9c4574a721a480d8710b19ec0fac1ff0965e73ac",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "1.0 0.0 0.0",
+          "dir": "-0.5 0.5 1",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.0 0.0 0.0",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "1.0 0.0 0.0",
+          "dir": "-0.5 0.5 1",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.0 0.0 0.0",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_737.xml",
+      "source_sha256": "5162dcac1de96ba365c22ee4836c33b2fa4d40c96fb3d54ac2672f9bd1ee0311"
+    },
+    {
+      "candidate_id": "light:e8b5f9324562a5ff227047acfb7a92787fef97223fd2be35b627e53e850c882f",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "1.0 0.0 0.0",
+          "dir": "0 -1 0",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        },
+        {
+          "name": "light2",
+          "diffuse": "1.0 0.0 0.0",
+          "dir": "0 -1 0",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "1.0 1.0 1.0",
+          "castshadow": "true"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_662.xml",
+      "source_sha256": "2824e0d8764612a84cbc6da40bd58ea71fe981c545643fa83d7b851f8f523346"
+    },
+    {
+      "candidate_id": "light:bcd08491846aba87fe017691e7f9d5d29dd26237a2c7024b936ef577c26394c4",
+      "kind": "lighting",
+      "lights": [
+        {
+          "name": "light1",
+          "diffuse": "1.0 1.0 1.0",
+          "dir": "0 -1 0",
+          "directional": "false",
+          "pos": "1 1 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        },
+        {
+          "name": "light2",
+          "diffuse": "1.0 1.0 1.0",
+          "dir": "0 -1 0",
+          "directional": "false",
+          "pos": "-3. -3. 4.0",
+          "specular": "0.7 0.7 0.7",
+          "castshadow": "false"
+        }
+      ],
+      "source": "<DATA_ROOT>/projects/LIBERO-plus/libero/libero/assets/scenes/lights/tabletop_light_sync_modified_533.xml",
+      "source_sha256": "d12343fe656c6f30bd94abc507bcd9c9ddad882a8a0b99f0b789fce34337c6fb"
+    }
+  ]
+}

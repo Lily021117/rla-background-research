@@ -1,0 +1,931 @@
+{
+  "new_development_states": [
+    {
+      "seed": 2026111104,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111104/state.npy",
+      "state_sha256": "c0bb3ae2ce8fc78d743e93700d2c29789f37374ffeb7c27592fc23c9db7523f2",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "17d12aea6624eb12b97e2dca6edff1124e609fa21c407b0b5a0f24d404c2ecb3"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "8103e375b4a6ecc59728db0ba3542ed8189a873336b43e872f9e798da28ba1cd"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "a1478014644fa4fb5ae2eb4603ad9ca0f8abbaa26f692675fad1001c8df4ebaf"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "0f3baf4a578cabb7d714f645136742251a7fda0c527c84e9ad844a818e06c71b"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "1314fcf1b9ce379ea66b8792347b1b0017e387d95b8743156e36d69df9ea578b"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "a2f38f4b6365419a273855cfff78104f1e7d235382aaef1c4f2efaf04aa025da"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "a01acc64e8127cc3399aaaafdeb7e9628bf5ccdb5f476f6411c3be5369af98e4"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111104/state.npy",
+      "source_group": "2026111104"
+    },
+    {
+      "seed": 2026111075,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111075/state.npy",
+      "state_sha256": "af58a7fbcc9e1de545ae447d8049cc5914c43db548acd845fefda84f9babdab6",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "60522de60d28537775ddce63ca778c7cb3ad62738bc7c9332dc9d3cdac4529ff"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "63974eca1e39ba8d4045493446893958fcfed22342ffe89e0896e75e165cd9bc"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "76b478aecf20f38e2d0ebf9532459c4d2c29871da1639f60704f45627e3837fa"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "46a84a35b62dceb97e1353c87b74434c7f14fc6e0d8f50372b0bfdb37f8aed5c"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "3489e090ba947a7ea2d9bdd8359ff172d85263beba9cbd06971762b0f0f296e2"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "d110908389066215664db87ba1c57c27d896d5648cf3e353c321bac0ad889a06"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "3e4de9461678e9811d264bb3a285e265c5a14a671eb7dcc0d90736e341c9ce7e"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111075/state.npy",
+      "source_group": "2026111075"
+    },
+    {
+      "seed": 2026111085,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111085/state.npy",
+      "state_sha256": "da9ba4d27fb9afd4f336eb6b06b140e315061e57f60a2b9b503a3b62df284252",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "3b57371d4c58522b49e49ba9d83dfcd36bc7a39a338213f6ef61d2b139534fad"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "fb832c90a8b7c02dce92d4ba71952bd24c9721a17b473aea9b9f29f92ce43eef"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "f3fba489107ea890714b82f31b014186e1cf41689c4b62a7ba72ebfc1d8b6002"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "7c7d3139d891e554e8d32f48e27c9843adccc86b33d91c1176c12f9fce1f0379"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "a5698a0bf5ce990216bd2e041bfb3e541313b59ff3c9ac35eba25b7f0fe06300"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "29cc6778fede6b7160080bb6828dd8b4e38191fd5cf95c11728823d36ade2d17"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "bd3a3a5e7b42e313964ec4215244e258b2178b9d5c1be5d19504adfd682b1407"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111085/state.npy",
+      "source_group": "2026111085"
+    },
+    {
+      "seed": 2026111081,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111081/state.npy",
+      "state_sha256": "8430dd6cc31dead7c75fdcba386d0d4da4ac100924ea592785fd8b34cb455488",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "be15f631c8fee71c412d34b08a2863343a5aa02a0d17e12c9ca5cb32d1680ff3"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "97ebf56c4500f8cbc6fdf775190c5694b63da694088a21bd5020c401ad5ea598"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "35469d27c141084652467263efe10e47158e8c643e21dfdc2b8b9355b76b95aa"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "0569fd1c605c2c712a0d2a492b53561099746867f2c96b56f4f94923a1740eda"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "90d5c1489cb6873012a926c87ed33724b760a63f7f00c33f17d14c0e8b40d76d"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "1808e46ff339430b375d4b7e26c64aac293a4ffa0a9c6e06876b3102629c6711"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "7aadf3408d64bc3daae96be707db961d74bc49cbcb8365b593f9ea267d84da33"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111081/state.npy",
+      "source_group": "2026111081"
+    },
+    {
+      "seed": 2026111116,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111116/state.npy",
+      "state_sha256": "42bf2c9a52c131f5d1cce18a8c86e5c34885aa664394b04041a6c0da3d24a2b0",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "8b89d96c099938419555e999a8f3b3411bef399f8611bd067d576b47d0ce8abd"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "211c2dc68fb40c156b9481e9424d3654c39b29172d59bc303f6d77022b7ebb32"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "4d9e20b531b891024c1eaf99aa5e59ed97a53b274c10843795f836ba9b586c3c"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "3e75ea686679e240cbbcaeb198be851c882860eac32e669bb5f8837c825e6ad5"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "a58d5d1ccaa46a69270941aaed142bf246a3b1781f2c22456190a0e3f48aace6"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "14ed786b736100c06df6f983d8b8c4e2fc2ad8f3e9ce3212e9826d3bf368f2a4"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "cc69103c685ab6b57a77388f7605fcd901bb986c55f36b7cfaa228f55a0df75b"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111116/state.npy",
+      "source_group": "2026111116"
+    },
+    {
+      "seed": 2026111077,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111077/state.npy",
+      "state_sha256": "4fcb4b2c29eea7286df1459053eebb53133f80d8f28aa668935e2207ea013e9b",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "a682de75026bb3ad653690579faf96251a904f5d194a7a4c76cf6b26f84b4bd4"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "9f513dff4d57447207a07050ab76548e8bbf7b039b9af65aaa4f8b23987e8c51"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "24f8682f03c7adaad3be1b8447ef6688abb35f901263042f331f0ab3974ec03c"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "e0890df044a966d6778ab85bb3fff622aa141b81e94f130d2c76dc3b5fcf8146"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "ce8001fb5c9e18e495b40e12ca17ad338315ac6b59aafe8ca8745cf81d796792"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "3a15f7e2a158c9708582ae73111e5de26472d5fe99d5e033c0ff88063e9650e2"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "977cf93931cf1c7aa02edf4f2694b17b53b153a77d21915c982bc0afbc9a432d"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111077/state.npy",
+      "source_group": "2026111077"
+    },
+    {
+      "seed": 2026111070,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111070/state.npy",
+      "state_sha256": "76aed77b1233e14511e11375aee574bd4469076cb0f0ab36088e3737e2457063",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "e19974078d00875ca5ac432399bef14248658f8b8169d0c8e9f87db8423c62ac"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "acdad336cf87c0143ece37f609c71bf2696823e529cd1908ccda299e09a7316f"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "7d7d79454181c0f734d7b447d6d794db9905b610d5f11d3777010b89bdcdba95"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "7ddf42b9f511c81e9952fc053501d0d2065da2e61f33f9aa02e26a1e0a9eca64"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "e5fda05f8d3c19f18f7f699ab00c78177f805a0b2101a76112e5f43c69577f1b"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "657dcb773cfc398d4657b49b9dd9958918edb6b5777c77878c1737ebc4979326"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "209c42144ff32ab21b01f9567864228f448ba9ff8154c00776795af46610ee4d"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111070/state.npy",
+      "source_group": "2026111070"
+    },
+    {
+      "seed": 2026111110,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111110/state.npy",
+      "state_sha256": "390168b0de4d30cb95448c30fca87a63b0d18814c30d53e4d029f13eafc23622",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "18a162abf74827da04558a94cfabec3a86b75306f6b26382aa24f73713c378c2"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "872cffad0d0b106727e382819dfd6fccc6d603f596fbfc0b408f305d7fb490db"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "c6d73ee313c816728823a4744ed4b8087bcb0f9d910e3ef44e0c51c8b6735c06"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "4b6a82ec7889d711180f81a9cdd4bc4e43d397e0debbe983c749e64490260cbb"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "e19bf8f09cf2aa890c576694e9bf80bf192df62be52279182fceca25dda51fc1"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "2210e8db3aa3681390e09f07d3dc6a490f36618dbf41330ae5bb02899b643e3b"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "d93f02245703688bd9162f5aaff5ea4cb9f73d0d1aa509e58aacc73c46abf0cf"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111110/state.npy",
+      "source_group": "2026111110"
+    },
+    {
+      "seed": 2026111091,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111091/state.npy",
+      "state_sha256": "daedc35a648654f09eca5aece7cf9dee253f153458f858a578f936e03d0762f3",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "079eba44f02bb1aee7149aaefe47e4c5c34234d27748fce388a8e447fc4c759e"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "a3a1d6b32f069ce09e3b7ec352203bf85a7a4d010df23cc149f4c2e751ef9ca3"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "740c534d7c159c5232c8df8e57609ce9547dc5d57cd1cc46fa974d973fb8d70d"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "63eee223f7146f778eef37dc97003a7f9e7419091d4bc2d0171015dbcc693db1"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "6894988026351288149992da97f41f33794fbf0fb0a2080b65a7650b62119152"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "ff1bc40a3124c67f31542081f6714a0dca47a66bdc6658da88fbbc43c82d3f23"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "f1bb9fe36a9739fcc5f762eb4d5d136b548ebe3f9366b5f8772e9e690bc3655a"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111091/state.npy",
+      "source_group": "2026111091"
+    },
+    {
+      "seed": 2026111113,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111113/state.npy",
+      "state_sha256": "a4e4e2f03931c9664c93ab8bf3833bb51682473922caba856c152f508336d801",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "39ff6b0850687f78e947a24e1a0a24b4496500cd54a77275a7c7dfbb0458ecfb"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "8a878d259e8ffcb3ba3e7648098fad6aa22e6080a4ff61a83ceb7bf292c1fd5d"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "9ab4b1bb05f72bac1a730ada5d72f58592e2b784944c8f50a641e067cea1beeb"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "7b1997b6610a16849811c7055452d5cf1ec24c950e7822f71bdc8100b24149e1"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "3d56f4fe5e912d36e3ad43411cc41a72e41d75d9bd40b86040ef821874bed657"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "fd10d81c027c29dfb5913e00c33305157e54393463599f349ac40d30c74e642d"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "5dbcb694a2e53993ba342578dcaa60906849a1785f5a693bfb6daffd1e9cc60e"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111113/state.npy",
+      "source_group": "2026111113"
+    },
+    {
+      "seed": 2026111112,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111112/state.npy",
+      "state_sha256": "9d131b32a2c164b95a8e82c5fb6729a89d092e443825fb3543c3a8ce5024d640",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "40211f3f3f42c0d636ff27f0721e12f3ac56be01d5874f33731d992e3b44a2a3"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "c15766222f896c9972a21e2208cfa6b2092389f31c97165a471969bac10129ad"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "5f63a8e258cb1d5f3f06e46c34cf5c37b43f4fdcd6afe147a6eddd46fa52180d"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "9ae2362e899da9346bed17d6b30960248d591876afac5a07556132b479673cf5"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "3b13d8320bafe698f89177a5de365615fd794010031c976a693cbc8519dfd3c5"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "949b32c5025f0d5734e573e261b2b534c694023d43722334aa8f860cc40c17a2"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "494b41d16de414c714f3cd5d162a18e827c12d2bff79d22ca8407b60f7271b83"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111112/state.npy",
+      "source_group": "2026111112"
+    },
+    {
+      "seed": 2026111100,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111100/state.npy",
+      "state_sha256": "efaf566a2715e4328049ea4a9b04c03942f1f6a46de668f4489bd95996ccda4f",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "e47b287763daa0dcc4210dfb5f9c7dd0e988b807b924c574aff3188bfaa7ac74"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "c8d553c73441d6850bbc76249e96af20603c94270f07709e99d9dcf5bc99a24e"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "a5ac3a28a17b762e40df14047b33cbd9d65f1d03668fdc1094337a2e0de1c72c"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "ce9f059c2431f5dc1700a36f42721dc834e8fa3f172d97a76f9c1dedfd5f859e"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "59c6c6de9eaeccb698dab753b4b7d9b5334a9ab77deaa3cf110352ce65b21b43"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "4655c5634d712f09a8e83fb8892cda2192a07dfdaad3e2bf817e7e06d57adbdb"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "863a54cba17fe08956ae2b866473428447dad4d512f2573b09ecdf6b567e1e0e"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111100/state.npy",
+      "source_group": "2026111100"
+    },
+    {
+      "seed": 2026111098,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111098/state.npy",
+      "state_sha256": "42ada3b6bff561579e5710f83636ce31f6f8d870d2073963576cbc43b0e5bb63",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "7fa297b3d83fe5d7db643ba46eb5f06142d28ce3330a2ac279aa3b1044600f78"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "455902be74a2d51ae0c1a5bed4c315be0ddbd8c141f71548e31b5b78ab7103d6"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "55cd5014bb146eca274babd41a573fa8b51c6d43e7f0c6ccd4357fdd874ce6a4"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "5c1d032c409d9d1c97dc4be90355fce32bb49cb6431251e3a634c7b5da85dade"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "61b97b90c4b909b2d367c6d30d0426521e11141db9b6d53bd86a3dd8c34ba6d6"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "ae9e814764861799d6b0587084535a3440ad9465e4e9d0169508fce459017e99"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "9c52762c7f5baa8b323313485691a7249c8d77686c741140cceb779437720a48"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111098/state.npy",
+      "source_group": "2026111098"
+    },
+    {
+      "seed": 2026111076,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111076/state.npy",
+      "state_sha256": "02094902c613c89bc2c0ac83cd2f434c7d2304f7512193502b6522db74d0ef10",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "b22408021b265d62d31b9b32279b2ea7bb1467bb1a6d17d5960fc417f10b5477"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "021bc1ed35e6fd0430eec7eb81952627e25812dd6664cbbd7e0de36f6dc0707f"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "4c007191cd88264134c882dc277cbde9ce1595d298e74a25154c22a0b8efc6d3"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "e37d2719a69be80b1854032fc4763238414a9b4b3fc0972e5bafffc313ed63bf"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "de721d79fdb3a7529943fe277565db20aa8ffeec9933471289e50333315d852d"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "6acaf9e37cebfaca79286edf991f87f1cc7c83255608485976da01fdddde3434"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "65bd7a0125ad5e5c729fc5025b3dda491ab2df917c013de095c6c55b259a7b76"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111076/state.npy",
+      "source_group": "2026111076"
+    },
+    {
+      "seed": 2026111087,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111087/state.npy",
+      "state_sha256": "e803bac9cefa6f447ad4c5f6ec7be508802fd2aeb91eefd513e319007010e16c",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "d0e2f5a21938df7be675a4adfb2a52ca471c74c92521373c632a13c9234b9550"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "811513f6f716ce62dfbbd6ffe25c04ab92138bf9c5462d5786fdbbf5171d0d36"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "120738c1168fafc9a88e6f083f9168c75812b557396e89e420ab7f98bd6a8668"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "64280d41a70334938c77615bf76ea3770f390b572ff3471d9e7f53f873553f81"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "078c6a0f2b7ed41cbeee2555eafc9acfb1f787cece5b9eee1e08a1da27bbbeed"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "576fdb49460029279dfb5185577e8126b48932e795cbf57094e6763509823f6b"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "dd0066a63745bfd12534e90479dece6d24afc348e4173d8ef86e6ee1fb2b5b06"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111087/state.npy",
+      "source_group": "2026111087"
+    },
+    {
+      "seed": 2026111102,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111102/state.npy",
+      "state_sha256": "60b46b842a1deb57de5e98e981789daa6da57ba7f565e458d42fcd85cba3cdf2",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "ee3e05b37ead791aaa6ba826fbff878b429cf60f1757852d90454bc0b470b74a"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "fdbd28491aaa802e6b19ea712775a56e6a3392e1bd8773b16cfc6621c9acf6ae"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "3213758363b44dc02ef913df2c512d1ac0768e2b73a221a1c80573b924e2e3e2"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "9b2a3cfac2afdac5f763002a942d0e40edd482b1185ba17cca8059a709869356"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "17899fabca3268ee2ffe6c53fb5f8e6c94f05425d466ad70d3c4b11ced4b3ab6"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "d9c401fc399e3ad744a462177ea18f846ce124cf2043650edea9c3192309b8f5"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "f1ae458f73b3920cdeb8734935d663f3afe1a7ba60b74994fbd2a9c8c700b1b4"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111102/state.npy",
+      "source_group": "2026111102"
+    },
+    {
+      "seed": 2026111096,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111096/state.npy",
+      "state_sha256": "4828b693b40f83f995e9a9c6ca9960772f6febc645975fb4da306a0138f407c5",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "4e447535c16bd6453268a5bb8cea040b36b41ad4d33e270e2b4631be886fef66"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "df1cdac000556ecf17de4f8419ee1368fd255176d8902fc32cadb82aa7c56839"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "591fee27b696dfffd4e13c5f622a386acbfbadfc25ad37c5d6a1ed132ebe7442"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "0c739b8e3814c42c7cf2be49c6dbb1f11cf9577d061d7929c86dee5744c71255"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "89483e95f525fa67326bf248027b088b518e3c0ab31c174f6d3ec407e7444c9a"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "599f59d21c6148fc6062e9b385115598cbf7152425c1dca241ef2d36961b4bd8"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "32088094f11ff06994b1353d23cb5a1311aa5d43406064f7f6881726edcf7b0a"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111096/state.npy",
+      "source_group": "2026111096"
+    },
+    {
+      "seed": 2026111080,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111080/state.npy",
+      "state_sha256": "c0ba23e9575ac6d9db9d38ffa43a279259094230f7597b98196b981046646800",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "2bd1e9c8146ccc93128f205c8099fc6d0a601a3bb88ab54a49c35043d8696212"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "7640d193e6c2371119c42e3848f49e3e78fc4d4ce3c80d083af9d3d167f33653"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "c4bf2a89c7e8c6b3566081788fe3145033778d0c1d4e726f04e6e81350dc7f8a"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "ce3de6b358ccccb31672f8a7264c34d22a14547a5bfc2e164b4a3d5b1836691d"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "ca1400fd9bd052acf8bdf2c885cf8a1c282cafb3ffa2d86789cd21717484764d"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "b0e3adfadc644f2db03fcce76da01bdd087ec032001ae951645c24e290639f0a"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "887c3a5f05197eb10aa88aca9c1d88fdc35b53a92057593144459bbfaa3ddc24"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111080/state.npy",
+      "source_group": "2026111080"
+    },
+    {
+      "seed": 2026111084,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111084/state.npy",
+      "state_sha256": "e2a199d7b47c47ce2a7d40e370ffb9348889ab81eece3f69aac97cb053054f91",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "dca8d6ce06b7dc8e958f46a90834a24d251be7a442cf2f34a38b6061595d9ecc"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "f0e266fa1a30bf6729707f4ba72b40a0e8b03731311c0e9e68f0052094ca5019"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "4e934ec984bc135b13278d137c8ad859b5e29ff3bbb669c199ec667fcbad36cf"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "a769ca4c688ea0558234eba0a3e3e692ec8de6a652defb9fbfde06748b2a3ee8"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "31b4c4120282f2dd85705b76da051b635b3961ee42538c7dde4abdc820207a89"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "75cb5efe1d9d3e52b072cf02bc9448a0812f82d478ef7ec18966968fcdd16aa8"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "57f08891a8d43dc03b239ea97e2d3f40d1ffd1e7492cdeb0de85596f97e64dc9"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111084/state.npy",
+      "source_group": "2026111084"
+    },
+    {
+      "seed": 2026111106,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111106/state.npy",
+      "state_sha256": "5ac1c3fa140e8ea6fdc2c109fe518d411ce3024d8b724f7ba3ff1fcd344cef90",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "0cfdb694b8986c0f1af34a7295962a4c5e94b0f6d1d24eced013a007fe67b885"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "b23b0de8d70d71cdde12daf7cd4b9ee7f00d2c2d274c732959065404238bb64c"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "a3f5e786f865b2c41784046440efa7ac40199e0c99eaf1e1f2c05a081b189c90"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "664abfa221d97f4338517203ceded02148767660a67132aa6a395e4b664332c8"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "5bccbd55babe6b17c0acfe7de70ede968c237f2680220d31b91acd71d380981d"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "8d728de04e29ca8d77efd5fb9b08f9f001bb0802ee7972c392130ce3cb59b845"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "1b59179c609bb9e10bf4e1b9aa155c505680d60b93d9c6a5860030f3ea4718c0"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111106/state.npy",
+      "source_group": "2026111106"
+    },
+    {
+      "seed": 2026111092,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111092/state.npy",
+      "state_sha256": "5fa0a441835fb17cde5c1ac0e981ebe7d17784ea2bc994a4f75aca01d7325f95",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "db6d37cc017f29f285b701ad1839ae81bba01511924f8d0d1c3a073a54fde46d"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "d1a6f9536be257a972946688a733aa93281d7a27c8a262ddca8827609cfc717d"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "0845acd56ec4f87a25da2deefb448313ba845b40d1e664943df71983f8e92830"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "473024da23ace0528ca478d72036745d28061b0272f0c889ec079cdda65d84fe"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "caecad1c686b874050501379bb7467cbbac45e0fb940c2a89f78513323e4f908"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "1b0e41c971247bdff7011dba5ecf1b334d4e12101e27f4532621d111568ec620"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "eb982ed8c375ef81be0a27c30cab2b8f0314a504885e0f5ce1809d507e70f77b"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111092/state.npy",
+      "source_group": "2026111092"
+    },
+    {
+      "seed": 2026111111,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111111/state.npy",
+      "state_sha256": "4b4d0ac490a24e12ee2cd4ae07975cef9cf8131b6940cf490cbf5412aecc7bf4",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "73bb14cfc9c54b5cc48573f3bdab38bd7cbc5677473dd55d0dd88235df558fca"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "9f74a42f2d3ab36a9daf459f84fc7f17dda8a6b7bea014b5f22116cbfc3b2d72"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "00e140287992d8b4cd2ccd70f25e58cf148168049ac40f332e3688ad2210b3a8"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "9f32a2ccb7873afc11fc043b258834557fa397096cd08b492db529a4421faf78"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "4fc3cfa412b1834d6e92c643d6e4ee57219b44fa4b0780d0eef26642041dcc17"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "f7a0c449321656c0ec7c0d1e9424724a147ef3d95941aaa2fea98f036e72e2a3"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "f2557679d24c2eda4374ea9c5f66cfbb8081a4679f146bd7dbadb6cda7aec03b"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111111/state.npy",
+      "source_group": "2026111111"
+    },
+    {
+      "seed": 2026111109,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111109/state.npy",
+      "state_sha256": "52924baa73aee8d8cdfec5702449abe9a7d4ebb8d74495d1b769331d929b7ddf",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "ea7132030388456e9eb5d89dda649abf06a8674942c495e09942f9272d73293d"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "e1be3bcc44e2378b4a6df1eaeb920faecb95b87043a37f8141567f5e19548d4f"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "aae5cec97d4408a2998288c8fb238b40740e95eea2d88717ffb79301990b84da"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "a06b7a97e3146791434cdc03bef0f78926f600146e9377263c4b3cb0f93bf615"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "628231765b8fcead16ab8e190d80b0a17425c33f087d20e38cb7393747b4d0ad"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "64f0e0a9338f3c359d21017b4374fe2256623ac4a911714cdb8300700021f0e1"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "2d7d22e82ce1b353096239c3319b7b5b78131c36a79839d9ecda609c3d87a06c"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111109/state.npy",
+      "source_group": "2026111109"
+    },
+    {
+      "seed": 2026111074,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111074/state.npy",
+      "state_sha256": "3d22d8dfa0405e520d0bd0df77e5313d8d9b13b12236449ebcc7b91e0b4fb7a4",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "e4ae1e56f35d829df30b17748d264be613c4bf290dc2b658d07b684ea4df8832"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "e258d8b45f162609f7edcd510507a1b70f3b5eb7981ce83de48f2c654d4214e5"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "be06fd285dde338079541c23c2d6d7773f793cc3f5494599c5c25305911c1e30"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "c8fabbbaab91f680b707ca2b49bea74e44da2a6ec4b069f95a463932a9d85944"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "40f0563e638fe55d6bd8ea9575fed8456f8e8e9312a442f7901bd1fb1bf05d1f"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "2f2cb99666faf15b201b585a770b45b197855487b401826e01a53e0f92a9847a"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "e2c664382f85b58d0928784ae4d2d36c35d132b6fd312879b7c18eb2a8bdaa2d"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111074/state.npy",
+      "source_group": "2026111074"
+    },
+    {
+      "seed": 2026111117,
+      "state_file": "<PROJECT_ROOT>/experiments/rla_frozen_nuisance_pilot/run_20261101_01/states/2026111117/state.npy",
+      "state_sha256": "b6745556aced2cfe70967fb5bd6ed921d0b2020d0f7dcabb614965fd2c54831f",
+      "conditions": [
+        {
+          "condition": "clean",
+          "XML_sha256": "8e64e8a6f96eec1f44982d916db3335c78539c0de02cf559c58a0c0d1b022bfe"
+        },
+        {
+          "condition": "background_1",
+          "XML_sha256": "f21a9488ee6c30ceb6992b0f31a1db77b607b9ede69e0b0b7eac3d0d51d3ae23"
+        },
+        {
+          "condition": "background_2",
+          "XML_sha256": "3479703a7ed941fbc5c65772e5c81b476552533a6bd986ec789cfe43c3754496"
+        },
+        {
+          "condition": "background_3",
+          "XML_sha256": "8ef9784fec25c1ee3d1921ee3ee6b6371b418c388de30759468e84d8bdd34c62"
+        },
+        {
+          "condition": "lighting_1",
+          "XML_sha256": "ad1bf3fbbe2d036035cefd1f1ddfcaa560c77b523e45e8fa93463d040b19ee88"
+        },
+        {
+          "condition": "lighting_2",
+          "XML_sha256": "d255453809ca1c086bf5ed8193e87a182cc28d5883b3ccdbf53af195f31adbd9"
+        },
+        {
+          "condition": "lighting_3",
+          "XML_sha256": "a181d03697de05cd2d180038465b46fb34e8abd41343cb5bad84e81f26d5095d"
+        }
+      ],
+      "original_state_file": "<PROJECT_ROOT>/experiments/rla_frozen1800_independent_states/run_20261031_02/route_b_v3/generated_states/seed_2026111117/state.npy",
+      "source_group": "2026111117"
+    }
+  ],
+  "status": "FROZEN",
+  "role": "existing states, new appearance exploration"
+}

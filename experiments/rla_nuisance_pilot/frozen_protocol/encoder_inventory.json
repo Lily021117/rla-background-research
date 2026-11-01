@@ -1,0 +1,16 @@
+{
+  "C": {
+    "arm": "C",
+    "step": "2000",
+    "path": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/C/step2000.pt",
+    "sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+    "bytes": "4287495147"
+  },
+  "D": {
+    "arm": "D",
+    "step": "2000",
+    "path": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/D/step2000.pt",
+    "sha256": "f2d82d593582cc8c6073a6d70e4a1569fb4d6201aa953099e59a7450bf8ebe0c",
+    "bytes": "4287495147"
+  }
+}

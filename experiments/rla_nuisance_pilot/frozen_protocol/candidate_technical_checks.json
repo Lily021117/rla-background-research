@@ -1,0 +1,242 @@
+[
+  {
+    "candidate_id": "light:ecb1adb4582c50b825d24cb23f24e0443315d91800cc8f3b10fd8803597d1e1d",
+    "kind": "lighting",
+    "rank": "005fdfc8f1e8506b90cbfd38b0a084c537fc20a7cd76b356f9c375cad654b706",
+    "valid": true,
+    "RGB_MAE": 44.978781356292515,
+    "mean": 81.70675887542517,
+    "std": 36.932600151432325,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:2737f18b5f4474c851ed7025a7f39026831d0d78590e469741d47a2e6eec017c",
+    "kind": "lighting",
+    "rank": "0094157901c1e15d0b63990ef4e114aec2f78efef20c1bcf0410623438971e74",
+    "valid": true,
+    "RGB_MAE": 44.64719852784864,
+    "mean": 81.38878148915816,
+    "std": 36.297281433706715,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:ba3dce9e9eebb9282a5c0525001c55c63846014f806f33a75253d5734de14efb",
+    "kind": "lighting",
+    "rank": "009b69009e77b1f175c167eb29e53a25faf95a23f996a35949ac1d56d4651d01",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:c3b1f63effe0378f87ae61d682eb0a6a59370b3446a5302ae1d38d91c819e5f6",
+    "kind": "lighting",
+    "rank": "00b33309b42cf60ba69fae66d8239818dd716adccca7cc385737dc47855ab28c",
+    "valid": true,
+    "RGB_MAE": 25.333745216836736,
+    "mean": 100.18720769557824,
+    "std": 46.36260828176711,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:365d0e1ec714172606d2b901d101c4fa4ad5d93a3abd7539e6b73cdb5696d59e",
+    "kind": "lighting",
+    "rank": "018d0c0715c48d17cc95861a4d28c64c038c79b8bde08e8249983ae17d12f9d3",
+    "valid": true,
+    "RGB_MAE": 34.58675462372449,
+    "mean": 107.2831034757653,
+    "std": 61.18917614952672,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:dcf52f0e6039d7e226357d91e0f497ed1975fb2993648905ae1bd128707edec9",
+    "kind": "lighting",
+    "rank": "030b2405241be333f1ca6bcd12f7f56fa1c4941682e939008c6b0b339b7bf375",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:4316a58dcca98c5db64b1ee0c31b0e792fee1dd23938a78af014aabde541db38",
+    "kind": "lighting",
+    "rank": "0311359aa4c52287d6072dba905ef530239e295b1e2e2247c33b35ed62f8583e",
+    "valid": true,
+    "RGB_MAE": 47.82035235969388,
+    "mean": 77.6996771364796,
+    "std": 34.42282708932191,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:05d0aa7cbb3567241872ae65ff228b672ec3be03a097f9c83c0061dea27ecfff",
+    "kind": "lighting",
+    "rank": "031dbde156fc720153212ac76fe9efdbf42737040274d5fa41e0133d13828113",
+    "valid": true,
+    "RGB_MAE": 28.888675196641156,
+    "mean": 101.26268534757654,
+    "std": 47.932173196666504,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:c53c9086eda006bddfced58ee63e7ab00d9ee3928898b629e130facb4bcac452",
+    "kind": "lighting",
+    "rank": "0359d7f4e5270da95bd175c8152ec8c22fa1bfdbeca0c2a5b9217a53385368e0",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:d138bea1b3f68aa38146c89a9c4574a721a480d8710b19ec0fac1ff0965e73ac",
+    "kind": "lighting",
+    "rank": "037af5cf7e8ecaaeb410c7916c673c22c9de8a7e0e0b3f40c13deecd17c89d23",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:e8b5f9324562a5ff227047acfb7a92787fef97223fd2be35b627e53e850c882f",
+    "kind": "lighting",
+    "rank": "038930259229b183dc84432857fdbeeebad8cc0a36169fd60ff481852913a951",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "light:bcd08491846aba87fe017691e7f9d5d29dd26237a2c7024b936ef577c26394c4",
+    "kind": "lighting",
+    "rank": "0402c4a146e4bc9f62c276604b361cdc5cb406bcf59ed2810dd7ca1254873a0d",
+    "valid": true,
+    "RGB_MAE": 47.82051179846939,
+    "mean": 77.69951769770408,
+    "std": 34.42284306707584,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:d2f61ca5b321bf6a8a345a6e103de3c3d6f4804ae42174689c8d80cb4ea9c32b:06e648531d94b0328a95dfcee355bf1831ea289072c5096374e0a2a1aacf9e26",
+    "kind": "background",
+    "rank": "047b297df09a40b9c29cbec2eb9fa5d2e30da39965988dc12775b5e568b0aab8",
+    "valid": true,
+    "RGB_MAE": 34.60190462903912,
+    "mean": 90.91546755420919,
+    "std": 38.29330070867007,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:7d1175c2c2326f1e1cd02d7d29a70ff4eae264954bfa918293da166201fc1f73:db44d0b770f17c605388911802db8a3697531d4b8d28139397b64eaee0060278",
+    "kind": "background",
+    "rank": "275a91ee9f0b8fef1d7f35e57c85da9f635fb55aa15a7aa259c3706478a8260a",
+    "valid": true,
+    "RGB_MAE": 48.454556627338434,
+    "mean": 77.06611062393708,
+    "std": 51.4109832948021,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:830ced314bd3514f30ea9339944bb06ff8882a5e981e2d8fa06c6e97a3445f4c:97ba1ca5db67eb96828fd259b921a1ce302706b83965173ae3beca0f21281688",
+    "kind": "background",
+    "rank": "292abe7aeb6ed905e610dd16c7366d1140906b7e2770fd9a29812e227b883767",
+    "valid": true,
+    "RGB_MAE": 63.78106730973639,
+    "mean": 61.73623179740646,
+    "std": 36.01938096177567,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:454ced22ec9da7df22728d06c5f065ecd866d734f3a281e558e7b8583d50a752:89b9e159732c5bf461189c984b7d5956311f566a88ecd78859c1a25d9168b6d6",
+    "kind": "background",
+    "rank": "2e241b51be16f06f273b2cbc9b1bac0d55e6cc7e052f28cd965e2b7a7ad6af8a",
+    "valid": true,
+    "RGB_MAE": 37.371997236394556,
+    "mean": 88.1453018707483,
+    "std": 38.730437149375796,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:6878ff0b45cae43a14629f7d4133cfa29d2fc2bec7e4dfa4b78d5f51d09be31f:bc1219dc29b158f3e970facbe7ed1eb29c01f17d16bc6246d2eac7a2caac0971",
+    "kind": "background",
+    "rank": "4a38dc19c3e85b1bb04f79d32cbc8197f15f9bdc6a597f9191d5b3b819149816",
+    "valid": true,
+    "RGB_MAE": 24.06744924532313,
+    "mean": 107.51575786564626,
+    "std": 65.01419645335785,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:809731521c60c321b13197bf4934f7385abf7a2a3bc2713692f5dae67b0664d7:10ca6dd9e5391973d31cfb75421aad05cc0997f34fded26de205a152995759d4",
+    "kind": "background",
+    "rank": "4c7424b31cc5959888c45f711d453b157eafe11a028ee1e030d0ab67985b1ab4",
+    "valid": true,
+    "RGB_MAE": 33.63973147852891,
+    "mean": 91.87756762861395,
+    "std": 42.70769338012519,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:79433a80dff5f0f0af8bbf3f2c5add22fabf0c48183144cc73a64e768a35be9d:c6e522d98b313d6d7fa6cf797cda9793befce2a444e89f6d4df35ac0477d23a3",
+    "kind": "background",
+    "rank": "53332e1e0bac8dfd41e00bbfe34ec631d4411d45d2d5479a1d5c98d61d8e37ac",
+    "valid": true,
+    "RGB_MAE": 42.71835140306123,
+    "mean": 82.79997741284014,
+    "std": 40.502031769859826,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:f5ed77d45bd73caf019967c8ea24ed36e9bc381514c690ad93ea98daa921e91f:34fb0e6ab9a312a94b3d732f55ba3e99250742eafbddce17b711a11850257e58",
+    "kind": "background",
+    "rank": "53fe7778eaea30e95ebc26ddfcd2782454f870d5e6e5b74e8c7d185fe7187c68",
+    "valid": true,
+    "RGB_MAE": 63.08563855229592,
+    "mean": 62.431660554846935,
+    "std": 34.927023861981716,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:341e8c6ef0b89ef804259f45d5742ac8c86bb29596ba0fe1eac80aa4515a2acb:a2ec80e5a10751a84efba3fba26d559da1970f5313219418675235a6fc44f761",
+    "kind": "background",
+    "rank": "55a99186c895020f7c5bd8be6ce3f1ca5ba212132d09d39b0a94b92cd02287df",
+    "valid": true,
+    "RGB_MAE": 11.240480176445578,
+    "mean": 119.6178518282313,
+    "std": 55.175848021176996,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:4d7678615b6e0e3a44c3f583c956a8c6a7ac9277e1fab08ebcef6708c4f5eb7c:e3d4c425c657407c92f5f451980bbf9294cdb298174c2dcdf2bb45df222dd8c7",
+    "kind": "background",
+    "rank": "5882aa1a2628196e49494568cbb99614710a3ddb5d62ede5480fd87356a4d2b5",
+    "valid": true,
+    "RGB_MAE": 34.005254836309526,
+    "mean": 91.51204427083333,
+    "std": 39.12296800817742,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:e5216723bc7241123092a7c6f08d7b2ba8ad9942999c18cd645ac3e86ae066d5:4eef94cdab67c8e9c488f49076010a6b3126de4f2b378ad631858e1d67a0acf8",
+    "kind": "background",
+    "rank": "5abdf16ebbfde6a9c8d4182b5425d55b87aa0dd79e9d966080008250f5a62d6a",
+    "valid": true,
+    "RGB_MAE": 56.82235530931123,
+    "mean": 68.69683049000851,
+    "std": 58.01781352867849,
+    "geometry_depth_segmentation_exact": true
+  },
+  {
+    "candidate_id": "texture:4c8fef9a173c0cb6bdae96a5dea818d908ce03504e641fcacd011b3364cc66d5:521b53db9673b71faeda8a8cec1e5eaee8bd351aa02866feba8c0323f23e7fae",
+    "kind": "background",
+    "rank": "863099ec1cdd33a98c94fed79a6e39ad9332c0316fc189148d98465a0e022945",
+    "valid": true,
+    "RGB_MAE": 16.564625850340136,
+    "mean": 108.95421449829932,
+    "std": 49.308212577443854,
+    "geometry_depth_segmentation_exact": true
+  }
+]

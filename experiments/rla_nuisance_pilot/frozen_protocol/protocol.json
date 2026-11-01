@@ -1,0 +1,271 @@
+{
+  "name": "frozen C/D new appearance pilot",
+  "state_selection": {
+    "rule": "SHA256(UTF8(\"nuisance_pilot_v1:\" + decimal state_id)), ascending first25; no outcome read",
+    "ranked": [
+      {
+        "state_id": 2026111104,
+        "hash": "025f616f022d0897bcee5f91b623946c60bdcdf19b94f1a0c2e4f72bde59d8aa"
+      },
+      {
+        "state_id": 2026111075,
+        "hash": "1a0f063e8bf6b1f3f2b6d82c14b4a990f9784ca35c85e2c2ba34a4c00fba5ac4"
+      },
+      {
+        "state_id": 2026111085,
+        "hash": "1db166ca9a37db67b47d6dae782a904a1e6d95cb73abb66256a5ccad5586dd8f"
+      },
+      {
+        "state_id": 2026111081,
+        "hash": "20797346155b0e08f348eca8b10d071b62374f12134f8345ce34191d6efd51ba"
+      },
+      {
+        "state_id": 2026111116,
+        "hash": "26b2e870ba7f94221bc262afa4bfeaf9e782bd48a6e31b0a3ce6b3d1167cd406"
+      },
+      {
+        "state_id": 2026111077,
+        "hash": "27056a71ba34a9ff035282dd2694e5611c81f58c7fd3a72119533b380f014508"
+      },
+      {
+        "state_id": 2026111070,
+        "hash": "2759c0f5d4700ed1a8dd60a94c9c9a6fe216c4033af767a6fda279119cec4c76"
+      },
+      {
+        "state_id": 2026111110,
+        "hash": "2c6b5f5417b11b532aacbd1c21cc6af3028a27a50642c7c0de4404d29c670085"
+      },
+      {
+        "state_id": 2026111091,
+        "hash": "2c8f189bb890e6c11e913f6ea81e974127a9a8b0b4d4a7a1ed6865b01d749c1f"
+      },
+      {
+        "state_id": 2026111113,
+        "hash": "2de84190e3eeaf7237d0a373193898dab27db733135dbb0f7e81455997723fde"
+      },
+      {
+        "state_id": 2026111112,
+        "hash": "36f7d3cb19d84e23107d5538b8b7276423886ecaeee9e33dc98c111ae51662f8"
+      },
+      {
+        "state_id": 2026111100,
+        "hash": "38d3208fccb23e4eb6b06955b5e9cf25689181096fd612ba5f7396c3998a8fa6"
+      },
+      {
+        "state_id": 2026111098,
+        "hash": "3f0f9800ea619f96944b6e1f5673650ffdc9bf3f4533c45fe5b33f4c2de6ccbe"
+      },
+      {
+        "state_id": 2026111076,
+        "hash": "44eef177109347e676ac3c852221e0fb747628637c302499f8441c1901bc2326"
+      },
+      {
+        "state_id": 2026111087,
+        "hash": "4530b180f8b5c0daf695d18401fb15e342d1e87d655817afe80d1204be1b2f30"
+      },
+      {
+        "state_id": 2026111102,
+        "hash": "4cf4e33320df82073210fefa96f2b4828c08835d48046f9f61f9ac55997a7675"
+      },
+      {
+        "state_id": 2026111096,
+        "hash": "4e0642dacec30d0c2356bf09136e886c524d453e8fd4c407f41d39c9c4910b50"
+      },
+      {
+        "state_id": 2026111080,
+        "hash": "59ffff2a9b420f5088b06372f1857d0bfe36b399f82d12a102b72c38fa636c0d"
+      },
+      {
+        "state_id": 2026111084,
+        "hash": "5b9d355229d461c6b66043a1bf0ef4736795033170a4491ed6861a7f6d23b698"
+      },
+      {
+        "state_id": 2026111106,
+        "hash": "602d962c9fda3c62618bacc635bd5297690115eac54c4c36ba892e311cdf450b"
+      },
+      {
+        "state_id": 2026111092,
+        "hash": "6ada9f7e460d79d1bd8a05da30df2722edd010c25274897d79b7af4a01b5e52d"
+      },
+      {
+        "state_id": 2026111111,
+        "hash": "6db89ee5941ec5915fa13e4530d128fae620cebb513d79ba5132dd5a7ea5b78b"
+      },
+      {
+        "state_id": 2026111109,
+        "hash": "704565bcf2b66a1358013ab65140a1a6d3c2e370d2cb04800c493c15a9e77016"
+      },
+      {
+        "state_id": 2026111074,
+        "hash": "7140dc424b1fb54850ecb86713f4921b9354240d90e10dd2cf0a639c7fbcec67"
+      },
+      {
+        "state_id": 2026111117,
+        "hash": "73ad793f6946393496c2d74a3fce7f05de4e4c602fa9a40b8794bfd860b4ba49"
+      },
+      {
+        "state_id": 2026111079,
+        "hash": "75540981e5650e132e18ea40ae5e653387ba8302747774737043cc38819143d4"
+      },
+      {
+        "state_id": 2026111073,
+        "hash": "768ff42ce48fb0814ef0006493b347d0710c985b95feab094aebcd4285b96b5d"
+      },
+      {
+        "state_id": 2026111089,
+        "hash": "76ea3f3d4450a797aaebbf123c1a116098bd93683fc2ae227e638df97e551daf"
+      },
+      {
+        "state_id": 2026111086,
+        "hash": "78aee68f9c7defa1a98b19653b341b89ccc1d5ef165255fe3732c6f7c87b2fdb"
+      },
+      {
+        "state_id": 2026111115,
+        "hash": "7a2a3688b194edb031117dd95810e7f1ab06a038333ea518ca63f7d024b0cfe9"
+      },
+      {
+        "state_id": 2026111083,
+        "hash": "8377a77819fc391270cae8a88afcc04c4559a9ca9c1d88a9f7a36ef37a84f3b7"
+      },
+      {
+        "state_id": 2026111082,
+        "hash": "8b1cffd0c66282b0fba016e0264feab03db97c04191ce7bce586d59b120704d2"
+      },
+      {
+        "state_id": 2026111071,
+        "hash": "913797b9e74ee3c5989149feb57d5ddca8474cf15fe386a75f0650ce22fee6f2"
+      },
+      {
+        "state_id": 2026111108,
+        "hash": "913db139583d610883fc77d6a0e3d82e214314353345f1c2b13c27d842b65e72"
+      },
+      {
+        "state_id": 2026111099,
+        "hash": "966c614c5a8d5e52baacb3b7aecd839f3212f9f9fd2fd5e8aa10bc3ca9721664"
+      },
+      {
+        "state_id": 2026111072,
+        "hash": "a2da0593042cfbad8c615931ae5083cc20f3fe73e109650448e52072400755ea"
+      },
+      {
+        "state_id": 2026111095,
+        "hash": "a99fdfe3d351151a456312611b429be51b31f5560a3c8019c3203c8ab691453e"
+      },
+      {
+        "state_id": 2026111088,
+        "hash": "ab0bc16c75d7f2a406a724452fd0b43c7fba8a14276f03b65854da6003ec8483"
+      },
+      {
+        "state_id": 2026111069,
+        "hash": "bbcb84a680b215400dfe010214e0e457bf5e10fbe1cb72af886ad3db4bc1a5b0"
+      },
+      {
+        "state_id": 2026111097,
+        "hash": "ca6c61d106ce2df38332674a107933f7c748910749e79d064f7a51db98d4de65"
+      },
+      {
+        "state_id": 2026111090,
+        "hash": "d55fd561d44f99c8271a98d33d4f7a42059542da55a6abeeec7e65e1acc7a679"
+      },
+      {
+        "state_id": 2026111114,
+        "hash": "df7a5d32a2251f0def378dea18063041faed8a0d5dfa181c4d0aaaf559465273"
+      },
+      {
+        "state_id": 2026111118,
+        "hash": "e02110f67b7358fe2d4de934a44c20238d3fd7a47d3eb002c68282c1ff795478"
+      },
+      {
+        "state_id": 2026111107,
+        "hash": "e411686436d74fcd9fd17868805d0a297651d1a46b8380bb5624522912067aa3"
+      },
+      {
+        "state_id": 2026111078,
+        "hash": "e6a0fa7d2da0ce6d0bbe26b65f7e7801fa84faca24f7a27cfb5492f6eea1a524"
+      },
+      {
+        "state_id": 2026111093,
+        "hash": "e7952c66b6bfe7078b38ee05adc5c967deba33d2b60432acb49104189e39a06f"
+      },
+      {
+        "state_id": 2026111105,
+        "hash": "f26f48ec560b6b4440420ce2e913a927ceeb4da31f31aa3efa15582d2974506d"
+      },
+      {
+        "state_id": 2026111101,
+        "hash": "f9dc292195624cf099512981ee9e16be47484373a8436177381e1c7ff96306a3"
+      },
+      {
+        "state_id": 2026111094,
+        "hash": "fab1d6106e8b011fc491add54107a4cb8d04f469df3a1e11e50ea9bb1c9eac79"
+      },
+      {
+        "state_id": 2026111103,
+        "hash": "fd4d4c267c34d265370587d3520cbf2fd1c1dc9e6c5d4657e34444bd42465a88"
+      }
+    ],
+    "selected": [
+      2026111104,
+      2026111075,
+      2026111085,
+      2026111081,
+      2026111116,
+      2026111077,
+      2026111070,
+      2026111110,
+      2026111091,
+      2026111113,
+      2026111112,
+      2026111100,
+      2026111098,
+      2026111076,
+      2026111087,
+      2026111102,
+      2026111096,
+      2026111080,
+      2026111084,
+      2026111106,
+      2026111092,
+      2026111111,
+      2026111109,
+      2026111074,
+      2026111117
+    ],
+    "role": "existing evaluated states, new-appearance exploratory evaluation"
+  },
+  "condition_ids": [
+    "background_1",
+    "background_2",
+    "background_3",
+    "lighting_1",
+    "lighting_2",
+    "lighting_3"
+  ],
+  "primary": "equal3background/equal3seed D-low minus C-low",
+  "secondary": "equal3staticlighting/equal3seed D-low minus C-low; cross-intervention transfer, not trained lighting invariance",
+  "valid_new_rollouts": 900,
+  "reused_clean": 150,
+  "maximum_new_clean": 0,
+  "offline_anchors": 100,
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "offline": "same saved pre-action state; Clean+6conditions; future only AE labels; no environment step; paired actions and per-demo summary; normalized and raw latent distances, normalized actions + decoded physical components",
+  "chunk": "8 predicted and8 executed per replan; current step separately; no hypothetical1-step execution change",
+  "statistics": "20000 paired physical-state resamples seed31001 preserve all models/seeds/conditions; excludes training-seed AE condition-sampling task uncertainty; offline aggregate by5source demos",
+  "selection_no_outcomes": true,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "backward": 0,
+  "historical_negative_results_unchanged": true,
+  "no_sealed_reads": true,
+  "stop": "hardware/numerical error stop; preserve invalid; no silent retries or valid failure reruns"
+}

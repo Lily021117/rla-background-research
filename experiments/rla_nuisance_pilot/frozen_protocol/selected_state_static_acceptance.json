@@ -1,0 +1,2107 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "state": 2026111104,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.51729910714286,
+      "RGB_std": 56.73847521979091,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.91546755420919,
+      "RGB_std": 38.29330070867007,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.06611062393708,
+      "RGB_std": 51.4109832948021,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.73623179740646,
+      "RGB_std": 36.01938096177567,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.70675887542517,
+      "RGB_std": 36.932600151432325,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.38878148915816,
+      "RGB_std": 36.297281433706715,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111104,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.69951769770408,
+      "RGB_std": 34.42284306707584,
+      "target_pixels": {
+        "akita_black_bowl_1": 325,
+        "plate_1": 1083
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.50916440795068,
+      "RGB_std": 56.72082541025549,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.18911099596089,
+      "RGB_std": 38.7718815231776,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.46772361288265,
+      "RGB_std": 51.74642439037616,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.26385456526361,
+      "RGB_std": 37.03514484242021,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.76579772534014,
+      "RGB_std": 36.787069658431925,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.4503248565051,
+      "RGB_std": 36.14864331835525,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111075,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.76159584927721,
+      "RGB_std": 34.270798118776725,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.72004876169218,
+      "RGB_std": 56.70219758887767,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.26224024766157,
+      "RGB_std": 38.73289630500013,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.46223626169218,
+      "RGB_std": 51.79348299256224,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.19283455569728,
+      "RGB_std": 36.942042834702114,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.82416892538265,
+      "RGB_std": 36.78540544063822,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.51176525297619,
+      "RGB_std": 36.14091868542064,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111085,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.80902888499149,
+      "RGB_std": 34.25879096489151,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1018
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.41245150403911,
+      "RGB_std": 56.08823567833748,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 92.00332828443878,
+      "RGB_std": 38.60922526814059,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.2196966677296,
+      "RGB_std": 51.879625504617906,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.96109361713435,
+      "RGB_std": 37.426248483551134,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.24275882227892,
+      "RGB_std": 36.38748468115978,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.92636253720238,
+      "RGB_std": 35.75128814784255,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111081,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.2351755155187,
+      "RGB_std": 33.89294634310839,
+      "target_pixels": {
+        "akita_black_bowl_1": 433,
+        "plate_1": 1008
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 124.9792098480017,
+      "RGB_std": 57.07426567351658,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.7612072172619,
+      "RGB_std": 38.86391072408523,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.11261360012755,
+      "RGB_std": 51.68583987769429,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.898613546981295,
+      "RGB_std": 36.75498810584294,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.39031608737245,
+      "RGB_std": 37.13045613292026,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.07514216624149,
+      "RGB_std": 36.490912775769935,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111116,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.38046409970238,
+      "RGB_std": 34.5918819215419,
+      "target_pixels": {
+        "akita_black_bowl_1": 306,
+        "plate_1": 1061
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.5321966677296,
+      "RGB_std": 56.76187448573903,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.04598480017007,
+      "RGB_std": 38.568777181421986,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.23129916028911,
+      "RGB_std": 51.605189492887575,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.95843962585034,
+      "RGB_std": 36.543715467031895,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.77876541241497,
+      "RGB_std": 36.88369950687402,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.46334568983843,
+      "RGB_std": 36.247606026524686,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111077,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.78041626806973,
+      "RGB_std": 34.38288083064704,
+      "target_pixels": {
+        "akita_black_bowl_1": 412,
+        "plate_1": 1065
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.29508463541667,
+      "RGB_std": 56.95101652178937,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.2034837372449,
+      "RGB_std": 39.23710621566626,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.60248923788265,
+      "RGB_std": 52.04486048310335,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.431952859268705,
+      "RGB_std": 37.634913825253506,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.61509486607143,
+      "RGB_std": 36.98500935759186,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.30008038371598,
+      "RGB_std": 36.351008215045994,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111070,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.60720264668367,
+      "RGB_std": 34.45999812095839,
+      "target_pixels": {
+        "akita_black_bowl_1": 382,
+        "plate_1": 998
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.38793114902211,
+      "RGB_std": 56.1016900193189,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.46007387329932,
+      "RGB_std": 37.86247488526826,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.45421117665816,
+      "RGB_std": 51.33812747144137,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.05854724702381,
+      "RGB_std": 35.946976810134096,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.28064878295068,
+      "RGB_std": 36.44463168966775,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.96493011267007,
+      "RGB_std": 35.803438099634555,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111110,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.28043951955782,
+      "RGB_std": 33.96692806866141,
+      "target_pixels": {
+        "akita_black_bowl_1": 410,
+        "plate_1": 1074
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 127.05707908163265,
+      "RGB_std": 56.00689895449353,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.9636911405187,
+      "RGB_std": 38.03672642624177,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.89978608630952,
+      "RGB_std": 51.64231732429771,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.42655519238946,
+      "RGB_std": 36.397314221806475,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.72297180590986,
+      "RGB_std": 36.41079459148005,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.40762848107993,
+      "RGB_std": 35.765584124045986,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111091,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.70763911033163,
+      "RGB_std": 33.944633879543794,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1042
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.55870336415816,
+      "RGB_std": 56.75732453728042,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.3550568664966,
+      "RGB_std": 38.98098702957796,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.6753162202381,
+      "RGB_std": 51.91455636787244,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.481315768494895,
+      "RGB_std": 37.36022236985941,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.7494884672619,
+      "RGB_std": 36.86327185983036,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.43441087372449,
+      "RGB_std": 36.22625577027338,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111113,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.74247316113946,
+      "RGB_std": 34.353342742049016,
+      "target_pixels": {
+        "akita_black_bowl_1": 400,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.42867439944727,
+      "RGB_std": 56.174102838857536,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.90679474914965,
+      "RGB_std": 38.56428559803521,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.0907206632653,
+      "RGB_std": 51.862419274922196,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.80321933460884,
+      "RGB_std": 37.24689091755835,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.26264216624149,
+      "RGB_std": 36.48129012799419,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.94473785607993,
+      "RGB_std": 35.84630869500229,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111112,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.24456247342687,
+      "RGB_std": 33.980488777074136,
+      "target_pixels": {
+        "akita_black_bowl_1": 404,
+        "plate_1": 1011
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.58844866071429,
+      "RGB_std": 56.74008058935764,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.15047366602892,
+      "RGB_std": 38.63358699894706,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.3542098480017,
+      "RGB_std": 51.67267698076306,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.13740300807823,
+      "RGB_std": 36.715702498153696,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.77593205250851,
+      "RGB_std": 36.87103426734494,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.46299359587584,
+      "RGB_std": 36.22963255885447,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111100,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.77875876913265,
+      "RGB_std": 34.356873409845704,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1050
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 124.94545865221089,
+      "RGB_std": 56.846606223536455,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.76437274128402,
+      "RGB_std": 38.60366630455689,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.10117718962584,
+      "RGB_std": 51.47233297676391,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.934836043792515,
+      "RGB_std": 36.57396651106172,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.39197690795068,
+      "RGB_std": 36.9513587258656,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.07486979166667,
+      "RGB_std": 36.316612173184744,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111098,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.40067960778062,
+      "RGB_std": 34.42514635360818,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1073
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.30557437818878,
+      "RGB_std": 56.87490496988651,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.11669257546768,
+      "RGB_std": 38.94325692110549,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.46404655612245,
+      "RGB_std": 51.825407254356335,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.26131683142007,
+      "RGB_std": 37.1456214158334,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.59662654124149,
+      "RGB_std": 36.951753627326774,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.28096101721938,
+      "RGB_std": 36.31437717211342,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111076,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.58820618090986,
+      "RGB_std": 34.422809675593975,
+      "target_pixels": {
+        "akita_black_bowl_1": 379,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.01696362138605,
+      "RGB_std": 56.347830010122905,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.47745269982993,
+      "RGB_std": 38.32179500051416,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.65619685374149,
+      "RGB_std": 51.56336234717299,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.350227200255105,
+      "RGB_std": 36.56509329756636,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.98814506271259,
+      "RGB_std": 36.655624866435645,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.66962292729592,
+      "RGB_std": 36.02055629097801,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111087,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.97791772959184,
+      "RGB_std": 34.14793469558736,
+      "target_pixels": {
+        "akita_black_bowl_1": 380,
+        "plate_1": 1051
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.12603635204081,
+      "RGB_std": 56.4486612490755,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.70066366390306,
+      "RGB_std": 38.79232192884281,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.92179528061224,
+      "RGB_std": 51.93631742626374,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.683384486607146,
+      "RGB_std": 37.374601379867144,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.0679474914966,
+      "RGB_std": 36.63305431257509,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.75057464392007,
+      "RGB_std": 35.996357608554554,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111102,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.04726695365646,
+      "RGB_std": 34.11002764301806,
+      "target_pixels": {
+        "akita_black_bowl_1": 432,
+        "plate_1": 1017
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.27044470131803,
+      "RGB_std": 57.01878205851736,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.74135708971089,
+      "RGB_std": 38.56681194948577,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 76.94137303358843,
+      "RGB_std": 51.5344315621433,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.62978316326531,
+      "RGB_std": 36.21820326863039,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.60204413796768,
+      "RGB_std": 37.10177108821777,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.28445870535714,
+      "RGB_std": 36.467801712933806,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111096,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.59410209396259,
+      "RGB_std": 34.58106036385523,
+      "target_pixels": {
+        "akita_black_bowl_1": 339,
+        "plate_1": 1067
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.38838289221938,
+      "RGB_std": 56.082355153216774,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.8685227997449,
+      "RGB_std": 38.38038746960799,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.05019996279762,
+      "RGB_std": 51.6989796128622,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.747093563988095,
+      "RGB_std": 37.005549460735736,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.25580955038265,
+      "RGB_std": 36.44043023464879,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.9382706207483,
+      "RGB_std": 35.80464642306583,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111080,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.24918951955782,
+      "RGB_std": 33.9560824887155,
+      "target_pixels": {
+        "akita_black_bowl_1": 428,
+        "plate_1": 1036
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.64493649022108,
+      "RGB_std": 56.778530842474154,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.37388725021259,
+      "RGB_std": 38.942022282542254,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.68591557716837,
+      "RGB_std": 51.92023707202643,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.45367307079081,
+      "RGB_std": 37.27291886658714,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.75096991921768,
+      "RGB_std": 36.903095727771955,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.43540736607143,
+      "RGB_std": 36.26861931343729,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111084,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.73597603103741,
+      "RGB_std": 34.386437094664615,
+      "target_pixels": {
+        "akita_black_bowl_1": 359,
+        "plate_1": 1016
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.17397759885205,
+      "RGB_std": 56.78597676590119,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.88943585246598,
+      "RGB_std": 38.5563470226754,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.16518189306973,
+      "RGB_std": 51.50064138458493,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.97669868728742,
+      "RGB_std": 36.537517699413065,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.48519544536565,
+      "RGB_std": 36.90692096051391,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.17150961947279,
+      "RGB_std": 36.2680517758277,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111106,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.4921111022534,
+      "RGB_std": 34.389227945257865,
+      "target_pixels": {
+        "akita_black_bowl_1": 419,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.54336402529762,
+      "RGB_std": 56.226932270546584,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.79759247448979,
+      "RGB_std": 38.36826290807381,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.90004517431973,
+      "RGB_std": 51.746406217623324,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.556962824192176,
+      "RGB_std": 36.83065652586328,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.32012648809524,
+      "RGB_std": 36.51176115079997,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.00218231823979,
+      "RGB_std": 35.873961575883826,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111092,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.30095065369898,
+      "RGB_std": 34.01219976078835,
+      "target_pixels": {
+        "akita_black_bowl_1": 417,
+        "plate_1": 1031
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.88125132865646,
+      "RGB_std": 56.55909491758453,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.60000797193878,
+      "RGB_std": 38.87537565166103,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.89013671875,
+      "RGB_std": 51.924423519563334,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.67241310586735,
+      "RGB_std": 37.416098952842496,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.92648875956633,
+      "RGB_std": 36.72525055185998,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.61257374043367,
+      "RGB_std": 36.08102710923196,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111111,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.91233856823979,
+      "RGB_std": 34.208963065086834,
+      "target_pixels": {
+        "akita_black_bowl_1": 416,
+        "plate_1": 1000
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 125.45956566220238,
+      "RGB_std": 56.74673199025368,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 90.85785700999149,
+      "RGB_std": 38.35010044227073,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.00486288265306,
+      "RGB_std": 51.44427692462521,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 61.687290736607146,
+      "RGB_std": 36.101001164270144,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.69787016369048,
+      "RGB_std": 36.87826181429094,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.37946428571429,
+      "RGB_std": 36.2425606847132,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111109,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 77.68920068027211,
+      "RGB_std": 34.35595875732946,
+      "target_pixels": {
+        "akita_black_bowl_1": 354,
+        "plate_1": 1068
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.44125677614795,
+      "RGB_std": 56.17769484583703,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.9281462585034,
+      "RGB_std": 38.52692959454283,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.12591345131803,
+      "RGB_std": 51.82232484360647,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.83208107461735,
+      "RGB_std": 37.18475675667603,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.27516807504252,
+      "RGB_std": 36.53665841582678,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.95992772108843,
+      "RGB_std": 35.894691791909665,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111074,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.25464033269557,
+      "RGB_std": 34.03446331887824,
+      "target_pixels": {
+        "akita_black_bowl_1": 424,
+        "plate_1": 1027
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "clean",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 126.26064585990646,
+      "RGB_std": 56.211786858842174,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "background_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 91.8141176392432,
+      "RGB_std": 38.55303246574412,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "background_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.00786564625851,
+      "RGB_std": 51.79786134265439,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "background_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 62.71948076105442,
+      "RGB_std": 37.16653193540952,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "lighting_1",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 82.16922433035714,
+      "RGB_std": 36.48596562930466,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "lighting_2",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 81.85197106186224,
+      "RGB_std": 35.85139650426061,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    },
+    {
+      "state": 2026111117,
+      "condition": "lighting_3",
+      "depth_segmentation_physics_camera_exact": true,
+      "RGB_mean": 78.16320551658163,
+      "RGB_std": 33.98981349478786,
+      "target_pixels": {
+        "akita_black_bowl_1": 422,
+        "plate_1": 1019
+      },
+      "physical_steps": 0
+    }
+  ],
+  "policy_calls": 0,
+  "physics_steps": 0
+}

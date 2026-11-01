@@ -1,0 +1,702 @@
+[
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 0,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 6,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 13,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 20,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 27,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 34,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 41,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 48,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 55,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 62,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 68,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 75,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 82,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 89,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 96,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 103,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 110,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 117,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 124,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_10_v1",
+    "t": 131,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_10_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_10"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 0,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 6,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 13,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 20,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 26,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 33,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 40,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 47,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 53,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 60,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 67,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 74,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 80,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 87,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 94,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 101,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 107,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 114,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 121,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_15_v1",
+    "t": 128,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_15_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_15"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 0,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 6,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 13,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 19,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 26,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 33,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 39,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 46,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 53,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 59,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 66,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 72,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 79,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 86,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 92,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 99,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 106,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 112,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 119,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_30_v1",
+    "t": 126,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_30_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_30"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 0,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 6,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 13,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 20,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 27,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 34,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 41,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 48,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 55,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 62,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 68,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 75,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 82,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 89,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 96,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 103,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 110,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 117,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 124,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_31_v1",
+    "t": 131,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_31_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_31"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 0,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 9,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 19,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 28,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 38,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 47,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 57,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 67,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 76,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 86,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 95,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 105,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 114,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 124,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 134,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 143,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 153,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 162,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 172,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  },
+  {
+    "episode": "derived_stove_demo_3_v1",
+    "t": 182,
+    "root": "<PROJECT_ROOT>/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_3_v1",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "source_demo": "demo_3"
+  }
+]
