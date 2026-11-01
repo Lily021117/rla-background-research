@@ -1,0 +1,58 @@
+{
+  "BC-standard": {
+    "clean_seed_rates": [
+      0.9,
+      1.0,
+      0.9
+    ],
+    "clean_mean": 0.9333333333333333,
+    "clean_SD": 0.05773502691896257,
+    "gate_passed": true,
+    "background_seed_means": [
+      0.95,
+      0.775,
+      0.7875
+    ],
+    "background_mean": 0.8375,
+    "background_SD": 0.09762812094883316,
+    "background_minus_clean_by_seed": [
+      0.05,
+      -0.225,
+      -0.1125
+    ],
+    "background_minus_clean_mean": -0.09583333333333334,
+    "paired_state_CI": [
+      -0.1625,
+      -0.029166666666666664
+    ],
+    "gap_candidate": false
+  },
+  "C-low": {
+    "clean_seed_rates": [
+      0.9,
+      1.0,
+      0.8
+    ],
+    "clean_mean": 0.9,
+    "clean_SD": 0.09999999999999998,
+    "gate_passed": true,
+    "background_seed_means": [
+      0.7,
+      0.9875,
+      0.975
+    ],
+    "background_mean": 0.8875,
+    "background_SD": 0.16250000000000003,
+    "background_minus_clean_by_seed": [
+      -0.2,
+      -0.0125,
+      0.175
+    ],
+    "background_minus_clean_mean": -0.0125,
+    "paired_state_CI": [
+      -0.08333333333333333,
+      0.06250000000000001
+    ],
+    "gap_candidate": false
+  }
+}

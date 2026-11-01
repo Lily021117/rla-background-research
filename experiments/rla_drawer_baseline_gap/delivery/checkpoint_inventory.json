@@ -1,0 +1,86 @@
+[
+  {
+    "policy_seed": 31001,
+    "method": "BC-standard",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/BC-standard/formal/step0600.pt",
+    "sha256": "7ee970c3a1cefd25c6c14d965c1e431e1382baf30b13a326d77342df3daf7204"
+  },
+  {
+    "policy_seed": 31001,
+    "method": "BC-standard",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/BC-standard/formal/step1800.pt",
+    "sha256": "8eb495691f34158a45e3eb095df9922dd22b0289cb1c4a6755ba00be3727844c"
+  },
+  {
+    "policy_seed": 31001,
+    "method": "C-low",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/C-low/formal/step0600.pt",
+    "sha256": "0488fb06bcf67126b2c2862a4c4cb73c7e075c227f209e52c63a99c45d415aee"
+  },
+  {
+    "policy_seed": 31001,
+    "method": "C-low",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/C-low/formal/step1800.pt",
+    "sha256": "4d77589df325e37f7ff692dd16808a4435bedcdc672a58d7bf32e02844d2eccd"
+  },
+  {
+    "policy_seed": 31002,
+    "method": "BC-standard",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31002/BC-standard/formal/step0600.pt",
+    "sha256": "f6fdf997cda687a1b6c13657eff23194aa27a00fcb09144ff847263fcf806e3c"
+  },
+  {
+    "policy_seed": 31002,
+    "method": "BC-standard",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31002/BC-standard/formal/step1800.pt",
+    "sha256": "0d56c33233d50d496eaeaad9cfc01645f16b3ae16d98d4740efb051b9008a2cc"
+  },
+  {
+    "policy_seed": 31002,
+    "method": "C-low",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31002/C-low/formal/step0600.pt",
+    "sha256": "dd8164f7239bc40872900dab1067e3b56ac9b9b99742a2ef350b4e0ea61ec52c"
+  },
+  {
+    "policy_seed": 31002,
+    "method": "C-low",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31002/C-low/formal/step1800.pt",
+    "sha256": "d6f9d2337589e0f2c516990b342c9f20fb114441e69cb12f9b16b033f731d0e8"
+  },
+  {
+    "policy_seed": 31003,
+    "method": "BC-standard",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31003/BC-standard/formal/step0600.pt",
+    "sha256": "ba7e065781f340d713f882164cde4333663167efd6df2842dd807a56cc882d87"
+  },
+  {
+    "policy_seed": 31003,
+    "method": "BC-standard",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31003/BC-standard/formal/step1800.pt",
+    "sha256": "5e32568279a121ad99ccc60ae9cc6f71012f8b611d87541971ba8ac67ecb2724"
+  },
+  {
+    "policy_seed": 31003,
+    "method": "C-low",
+    "step": 600,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31003/C-low/formal/step0600.pt",
+    "sha256": "da77f97c47a73b93495e6c186efd9202c3ced4f880cfe405e9b7527c592a7ad3"
+  },
+  {
+    "policy_seed": 31003,
+    "method": "C-low",
+    "step": 1800,
+    "path": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31003/C-low/formal/step1800.pt",
+    "sha256": "3cdaa55d720b31f0dc2d4a46797103f5144b33dc0017997a37cf6441f56060e9"
+  }
+]
