@@ -1,0 +1,61 @@
+{
+  "task": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+  "methods": [
+    "BC-standard",
+    "C-low"
+  ],
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "full_policy_seeds": true,
+  "updates_per_model": 1800,
+  "total_policy_updates": 10800,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "lambda_aux": 0.11204268292682927,
+  "LR": {
+    "updates1_600": 0.0002,
+    "updates601_1800": 2e-05
+  },
+  "optimizer": "AdamW betas0.9/0.999 eps1e-8 weight_decay0.01; no clipping",
+  "scheduler": "MultiStepLR milestone600 gamma0.1 after optimizer; no additional decay",
+  "physical_batch": 8,
+  "appearance_batch": 16,
+  "microbatch": 8,
+  "accumulation": 2,
+  "dtype": "BF16",
+  "backend": "Math SDPA",
+  "activation_checkpointing": true,
+  "checkpoints": [
+    0,
+    300,
+    600,
+    900,
+    1200,
+    1500,
+    1800
+  ],
+  "validation": [
+    0,
+    600,
+    1200,
+    1800
+  ],
+  "closed_loop_checkpoint": 1800,
+  "train_episodes": 20,
+  "development_episodes": 5,
+  "train_windows": 2647,
+  "sampling": "independent RandomState(seed), episode-balanced complete window cycles; no development selection",
+  "normalization": "action/proprio existing drawer train-only statistics; latent new AE-C per-position mean + global raw std over all train windows/horizons/both appearances",
+  "state_protocol": "<PROJECT_ROOT>/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+  "clean_gate": "separately for each method, all three seeds >=16/20",
+  "background_gap_candidate": "all three seed background means < respective Clean AND equal-seed mean decrease >=0.10",
+  "statistics": "state-cluster paired bootstrap preserves all backgrounds and seeds; does not cover training-seed/AE/task uncertainty",
+  "stop": "numerical/CUDA/ECC failure stops and preserves; no silent retry, no valid failure rerun; no extension",
+  "architecture_confounding": true,
+  "initialization_matching": "same pretrained VLA, LoRA, action queries, proprio and compatible head keys; RLA extra modules seed+1 in fork_rng; common saved RNG, shapes consume RNG differently during forward so exact trajectories not claimed",
+  "source_commit": "fa7a90f21df2ed07a33a8c9b8845335c8bc5f7d3",
+  "sealed_reads": 0
+}

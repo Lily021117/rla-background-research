@@ -1,0 +1,61 @@
+{
+  "status": "PASS_REUSE",
+  "acceptance": {
+    "status": "PASS",
+    "train": 20,
+    "development": 5,
+    "frames": 3470,
+    "train_windows": 2647,
+    "development_windows": 623,
+    "appearance_variants": 2,
+    "source_hash_verified": true,
+    "exact_paired_state_camera_depth_segmentation": true,
+    "FK_robot_only_checked": true,
+    "raw_observation_phase": "post action, not used directly",
+    "physics_steps": 0,
+    "policy_calls": 0
+  },
+  "source": "<PROJECT_ROOT>/experiments/rla_new_task_baseline/run_20261028_02/downloads/libero_goal/open_the_middle_drawer_of_the_cabinet_demo.hdf5",
+  "task": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+  "train": [
+    "demo_0",
+    "demo_1",
+    "demo_2",
+    "demo_3",
+    "demo_4",
+    "demo_5",
+    "demo_6",
+    "demo_7",
+    "demo_8",
+    "demo_9",
+    "demo_10",
+    "demo_11",
+    "demo_12",
+    "demo_13",
+    "demo_14",
+    "demo_15",
+    "demo_16",
+    "demo_17",
+    "demo_18",
+    "demo_19"
+  ],
+  "development": [
+    "demo_20",
+    "demo_21",
+    "demo_22",
+    "demo_23",
+    "demo_24"
+  ],
+  "old_root_BLOCKED_report": "superseded by accepted dataset_v2; wrong middle_joint identifier fixed historically",
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "no_new_render_or_sealed_reads": true
+}

@@ -1,0 +1,17 @@
+{
+  "path": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/C/step2000.pt",
+  "sha256": "8bfa58c22b906e200f511a8bb3876e7b5bb98f5a15ad424e59ec93508c1e8278",
+  "global_step": 2000,
+  "identity": "scratch common-untrained-constructor AE-C formal final",
+  "trained_tasks": [
+    "cookie",
+    "drawer_bowl",
+    "stove"
+  ],
+  "drawer_open_training": false,
+  "role": "frozen representation transfer",
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "configuration": "<PROJECT_ROOT>/experiments/rla_ae_from_scratch/run_20261029_01/precalibration_plan.json",
+  "configuration_sha256": "4d1db54063ac25768ac5c3b06299e2115cb59ea5f68990bc77d32f1593133ec0"
+}

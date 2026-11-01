@@ -1,0 +1,17 @@
+{
+  "methods": [
+    "BC-standard",
+    "C-low"
+  ],
+  "orders": [
+    31001,
+    31002,
+    31003
+  ],
+  "maximum_control_steps": 300,
+  "updates": 10800,
+  "clean_trials": 120,
+  "background_trials_per_passed_method": 240,
+  "maximum_valid_trials": 600,
+  "gate": "per method: all three seeds Clean>=16/20"
+}

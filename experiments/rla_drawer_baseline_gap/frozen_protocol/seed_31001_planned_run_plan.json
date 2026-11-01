@@ -1,0 +1,60 @@
+{
+  "frozen": true,
+  "previous": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/sidecars",
+  "common_step0": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/rla_step0.pt",
+  "common_step0_sha256": "PENDING_INITIALIZATION",
+  "inputs": {
+    "project": "<PROJECT_ROOT>",
+    "B20_step0": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/standard_step0.pt",
+    "B20_sampling_order": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/sampling_order.json",
+    "B20_sampling_sha256": "b4c9d4ac22c7d8b261cf2d0a74a30271c9afea721ea996d3280d02aac6e6d458",
+    "data_manifest": "<PROJECT_ROOT>/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/frozen_dataset_manifest.json",
+    "action_proprio_statistics": "<PROJECT_ROOT>/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/normalization_statistics_expanded_train_only.json"
+  },
+  "standard_gate": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/preflight-standard/formal/preflight_acceptance.json",
+  "rla_gate": "<PROJECT_ROOT>/experiments/rla_drawer_baseline_gap/run_20261101_01/seed_31001/preflight-rla/formal/preflight_acceptance.json",
+  "shared_protocol": {
+    "task_id": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "successful_updates": 1800,
+    "optimizer": "AdamW",
+    "lr": 0.0002,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "scheduler": "MultiStepLR([600],gamma=.1); optimizer.step then scheduler.step",
+    "lambda_aux": 0.11204268292682927,
+    "microbatch": 8,
+    "accumulation": 2,
+    "effective_appearance_batch": 16,
+    "model_seed": 31001,
+    "sampler_seed": 31001,
+    "physical_exposures": 14400,
+    "appearance_exposures": 28800,
+    "train_episodes": 20,
+    "development_episodes": 5,
+    "backend": "Math SDPA",
+    "dtype": "BF16",
+    "activation_checkpointing": true,
+    "gradient_clip": null,
+    "keep": 0,
+    "AE_updates": 0,
+    "normalization": "new-task training data only; shared across all policies",
+    "initialization": "strict pretrained backbone + full seed constructor initialization; compatible standard/RLA head keys copied",
+    "lr_schedule": "updates1..600 2e-4;601..1800 2e-5; MultiStepLR600 AFTER optimizer"
+  },
+  "checkpoint_steps": [
+    0,
+    300,
+    600,
+    900,
+    1200,
+    1500,
+    1800
+  ],
+  "selection": "final1800 only",
+  "experiment": "drawer_baseline_gap",
+  "policy_seed": 31001
+}

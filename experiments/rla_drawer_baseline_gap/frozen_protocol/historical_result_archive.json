@@ -1,0 +1,8 @@
+{
+  "source": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/report.md",
+  "commit": "fa7a90f21df2ed07a33a8c9b8845335c8bc5f7d3",
+  "conclusion": "D background advantage did not replicate on 50 newly generated stove states",
+  "background_D_minus_C_pp": -0.6666666666667,
+  "used_for_selection": false,
+  "history_unchanged": true
+}
