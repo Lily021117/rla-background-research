@@ -21,7 +21,7 @@ def main():
  env=os.environ.copy()
  for k in ['HTTPS_PROXY','HTTP_PROXY','ALL_PROXY','https_proxy','http_proxy','all_proxy']:env.pop(k,None)
  env['GH_CONFIG_DIR']='/data/lyc/tools/github-cli/config'
- auth=['-c','http.proxy=','-c','credential.helper=','-c','credential.helper=!/data/lyc/tools/github-cli/v2.103.0/gh_2.103.0_linux_amd64/bin/gh auth git-credential']
+ auth=['-c','http.version=HTTP/1.1','-c','http.lowSpeedLimit=100','-c','http.lowSpeedTime=60','-c','http.proxy=','-c','credential.helper=','-c','credential.helper=!/data/lyc/tools/github-cli/v2.103.0/gh_2.103.0_linux_amd64/bin/gh auth git-credential']
  branch='experiments/rla-drawer-baseline-gap';git(*auth,'push','origin','HEAD:refs/heads/'+branch,env=env)
  head=git('rev-parse','HEAD');remote=git(*auth,'ls-remote','origin','refs/heads/'+branch,env=env).split()[0];assert remote==head
  save(ROOT/('protocol_commit.json' if stage=='protocol' else 'github_final.json'),dict(commit=head,branch=branch,remote_verified=True,repository='https://github.com/Lily021117/rla-background-research'))

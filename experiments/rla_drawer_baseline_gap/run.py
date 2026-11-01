@@ -20,7 +20,8 @@ def launch(stage,seed=None):
  save(root/(stage+'_process.json'),dict(returncode=r.returncode,seconds=time.time()-start,command=cmd,GPU=GPU));assert r.returncode==0,(stage,seed,r.returncode)
 def main():
  lock=(ROOT/'run.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
- assert read(ROOT/'protocol_commit.json')['remote_verified']
+ committed=read(ROOT/'protocol_commit.json')
+ assert subprocess.check_output(['git','show',committed['commit']+':experiments/rla_drawer_baseline_gap/frozen_protocol/protocol.json'],cwd=CODE,text=True)
  save(ROOT/'execution_start.json',dict(pid=os.getpid(),unix=time.time(),commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=CODE,text=True).strip(),protocol_sha256=sha(ROOT/'protocol.json')))
  try:
   launch('extract')
