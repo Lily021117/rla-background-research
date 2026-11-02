@@ -129,7 +129,7 @@ entry('I1+I2','炉灶','不改训练','同一新AE对','同六step1800；0新训
 entry('R1+R2','打开中层抽屉','本任务20/5','迁移三取碗任务AE-C最终2000','BC/C各完整seed31001/02/03从原始起点','6×1800=10800','均过Clean；背景变化seed依赖，未达推进门槛','本任务20development×5外观','历史初态/纹理复用；此次评分为新增','无D训练；见R4',600)
 entry('N1+N3','炉灶','不改训练；离线5dev×20anchor','同一新AE对','同六step1800','0','新背景-2.67pp；静态光照-1.33pp','50中哈希选25已评状态；新6条件','Clean150复用；旧四背景不混入','新增尝试900有效900无效0',900)
 with (OUT/'experiment_ledger.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=list(ledger[0]));w.writeheader();w.writerows(ledger)
+ w=csv.DictWriter(f,fieldnames=list(ledger[0]),lineterminator='\n');w.writeheader();w.writerows(ledger)
 report=OUT/'decision_report.md';text=report.read_text().split('\n## CPU核验附表')[0].split('\n## 引用文件定位')[0]
 text+='\n## CPU核验附表\n\n从A4原统计筛选最终2000步、validation、Clean行；配对距离本身涉及两外观。各任务45个固定anchor/horizon样本，非45条独立示范。\n\n|任务|AE|latent范数|逐坐标方差|有效秩|单位范数配对L2|\n|---|---|---:|---:|---:|---:|\n'
 for r in ae:text+=f"|{r['task']}|{r['arm']}|{float(r['latent_norm']):.3f}|{float(r['mean_coordinate_variance']):.4f}|{float(r['entropy_effective_rank']):.4f}|{float(r['paired_unit_L2']):.5f}|\n"
