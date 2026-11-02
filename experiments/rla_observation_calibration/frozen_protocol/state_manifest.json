@@ -1,0 +1,842 @@
+[
+  {
+    "task": "stove",
+    "seed": 2026102517,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102517/state.npy",
+    "state_sha256": "c328923e6013997b744f7464ed29ce2b993229f6347429843e58f5690d2a6850",
+    "state_file_sha256": "bf8de0ec074686e5779341a4ce2026b40c9e94c0523c6a786178c93704afc64f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102517/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "8f638721af7eb847167cc5760f2bcac99fed0edd5175f96fedefecd0d20ef1c3"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "045df02c75150d4031fa131b690ac89c259fc972d17076cbe369132de7692c86",
+    "subset": "calibration",
+    "rank": 0
+  },
+  {
+    "task": "stove",
+    "seed": 2026102501,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102501/state.npy",
+    "state_sha256": "63a73aa79d31436295145344fdd8b728ff41ab894d1230449b5313cefb800d8b",
+    "state_file_sha256": "da5eb43a0090606042e3dea09f7045f2812ad1776049d0efcb13ee90f684d619",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102501/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "1cc979580a79727f07167abaf6ff642be9599ac5e72c7bb013febe7d655711bf"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "512fce61c9ac9d8f107df7a936e0d4db8e224bcd2b20d6ef03e3834f3652eac8",
+    "subset": "calibration",
+    "rank": 1
+  },
+  {
+    "task": "stove",
+    "seed": 2026102512,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102512/state.npy",
+    "state_sha256": "f01bf20e0956be414a9f7b884bdc1d7f01ccaa844dda0a7b21c6109fe3771d81",
+    "state_file_sha256": "f4d81943951a3868f08f0c349148e0212935fe8da89dede8bdcb8c3e2ef9f504",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102512/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "09620d9647eb1d34bd699a150b87cfa1771e3dce21060b182911c20f380c24ca"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "5c4e6b988311909c02ee4b5cf609354a11dd88be706ad54fcd57cd87f2de2b02",
+    "subset": "calibration",
+    "rank": 2
+  },
+  {
+    "task": "stove",
+    "seed": 2026102509,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102509/state.npy",
+    "state_sha256": "e1d65cdfbf53855e1e2e605e8dbc12aa59df81b8ab92748c2026cfe1e277c56b",
+    "state_file_sha256": "053017b6c5267429a49e604c21282897e25a2507cba3e6d3280337daae7fd608",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102509/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "b388e063df1e39593bea9bf24025dd3fbeabf7a54cc0abbd37581a05b5245347"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "85ced6191408b6551ef5fab71b010ce7ea359cc669a1072959504a5cb2367e91",
+    "subset": "calibration",
+    "rank": 3
+  },
+  {
+    "task": "stove",
+    "seed": 2026102515,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102515/state.npy",
+    "state_sha256": "deccf7ea2510bdfbd648cf384f244d563814b7e3b16a0a2f1b74eaaa70416cf0",
+    "state_file_sha256": "b4e088381f2b236ed90be387f72e6002f4d3c56aba07c2e8b8c6808b3a125bfc",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102515/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "dd79150a14bf517d65822852171997bd92ebe89d4df0b68ad4dde06d25a75a75"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "8d8ada09330730d4a67f6b815ad1ae4fb6c944eed07974241165b004a3a60f80",
+    "subset": "calibration",
+    "rank": 4
+  },
+  {
+    "task": "stove",
+    "seed": 2026102503,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102503/state.npy",
+    "state_sha256": "b2cd7550f601bed79d8678afd62c1c081b4f3e894abdf3c30d1d7113a562cad0",
+    "state_file_sha256": "88e471a6f83da1cd81d10bd07e1995079c04a936d7b0646c0a4cb4f051530e19",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102503/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "939369e3cb3edf76187f1df115bcbb1c39c734147a5513943f99d45f0d5a27d1"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "9b59288bb21fb37e8b52ab53186994a9d2564d23c30a3af4776a940a0c7c0244",
+    "subset": "calibration",
+    "rank": 5
+  },
+  {
+    "task": "stove",
+    "seed": 2026102510,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102510/state.npy",
+    "state_sha256": "373c309fa6f16d902ccaec7d682d86aeda31be2075d3dbd7958266a3d0bbe2ca",
+    "state_file_sha256": "e668e0a85ab705c1f69699520964da309d110dd24dba7c9946716a1b2ea5dd36",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102510/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "6cee861a79323981c3a6704abbc7e7bc65ba03ad69b563154b71cac6265b5444"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "9cde970fc492c2dd7081296a7bc12c8ad38847125df259a2f1365c3a5cf23898",
+    "subset": "calibration",
+    "rank": 6
+  },
+  {
+    "task": "stove",
+    "seed": 2026102514,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102514/state.npy",
+    "state_sha256": "57c934b50b259aebb6fb4daf80ce4f82722f024abccc400f076341fcd789a1b7",
+    "state_file_sha256": "98cf6a86d2f9404c765aec912dd0db4ebace79b61781535aceac5d26e3c1d417",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102514/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "479d4ad7f22088cbc747d2b7b03848f85c9063c49b38f2a1837c0a20fc68e5a8"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "a26f6c548c41c5a32438c7e8c75ca1848f474069b53527f3a46405d4b623a0ac",
+    "subset": "calibration",
+    "rank": 7
+  },
+  {
+    "task": "stove",
+    "seed": 2026102508,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102508/state.npy",
+    "state_sha256": "82fbf24e506ad959a6fc138a69732082c1f0d6dd64a463d23a65be1b80bf6cbe",
+    "state_file_sha256": "61f0c1d5b54d8aeaa21a24c00b68d22336b360a0bf5ecb20cfccbc9a02e44c14",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102508/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "818cd97e5552f3daf2fdff70f2cf82c209ac63f181c4f7ac1703179767fc16a3"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "a876aeb244414ebe8f9765e8e1aeea73d0fe6ca121a18981010a0edebde2a08c",
+    "subset": "calibration",
+    "rank": 8
+  },
+  {
+    "task": "stove",
+    "seed": 2026102504,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102504/state.npy",
+    "state_sha256": "3c0380e04049bdb41ba4ee9766042366a20dec8b6f6d58340907e4b3a12471a2",
+    "state_file_sha256": "eb1e3ea35740b38b693b69e09555d8e17304a8bf3cbcb3c17a809bc0d0b0b048",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102504/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "b1712eecafa2336b1ecb7b6db1b53f0c0f0c433ae5f3b76b627af830b8d81086"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "ac2e02aac061a5ea3990a83e7a0ca8d823a3a1ed095506ab12a17ac3d331eff4",
+    "subset": "calibration",
+    "rank": 9
+  },
+  {
+    "task": "stove",
+    "seed": 2026102511,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102511/state.npy",
+    "state_sha256": "2c22d5d0dbc5271bef3bd518a04b8833bf6a5a8d7311d4a865746eb0abc545d7",
+    "state_file_sha256": "3f4a0e5e481719c726882a21c71f9bddedff2b24a672bf3252a4265c0eeadbe5",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102511/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "dc58c575c09a8826acf0c4d4b9ca015bde9e8e81ca568df127d0bdecfb4db7b3"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "b7935bd4f7836f29dc71e9947fab4a4873613f8b393877e965c1f01753854f2c",
+    "subset": "review",
+    "rank": 10
+  },
+  {
+    "task": "stove",
+    "seed": 2026102516,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102516/state.npy",
+    "state_sha256": "21da2c26cae6144f7c03612aa2859325a4baafdd551ee652aa3f0af62cf05bd1",
+    "state_file_sha256": "8b29c0096cb8a93580b4a1c66acd80fd97a18ed5a468c0fffbcaa3e708566682",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102516/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "56c2695c5a223d7e1ccee761dbe42b04e5515837546cf4e3ba8f3cef1f02f3ef"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "bad3871d9680f7763b4cc66869bea40fcf23a85feb26e7b49178ca6013da8257",
+    "subset": "review",
+    "rank": 11
+  },
+  {
+    "task": "stove",
+    "seed": 2026102513,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102513/state.npy",
+    "state_sha256": "40e486f5d742258d2cc13a5149664c5df537779857357963f5e71960ff9d5fa6",
+    "state_file_sha256": "838b54dabb50d31b9df092fdc58a4802cbfaded00f1a07a480c1a2a807517908",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102513/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "e8884958cef660c24f2d97a72c7a04f4bded8592d4769da6d174be1ae93c4c20"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "e3dd366aa344070c08e99c26a5621398edd7cdc99579d505d3b4601032e434ed",
+    "subset": "review",
+    "rank": 12
+  },
+  {
+    "task": "stove",
+    "seed": 2026102507,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102507/state.npy",
+    "state_sha256": "aa956cab3c4d886e50697b63ecbade2dbe6d33058e3c3f6c94f326a643d37cc5",
+    "state_file_sha256": "b034d78b37e0be80ff373774429ddfc1c1cf53a5c8bb8fa67893d1a656969869",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102507/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "f3d130f51c90ee866968cc26729b80d4f9840ac25ebc1eaf98731b739118dcce"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "e4c9f2f67c28284741fdaa350d15741a306f1cc14aed3356c3897abb3919c514",
+    "subset": "review",
+    "rank": 13
+  },
+  {
+    "task": "stove",
+    "seed": 2026102500,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102500/state.npy",
+    "state_sha256": "4249e2b7e03e36536aa31fb94a762c65ade192404ef826e7e817209665ebde8b",
+    "state_file_sha256": "a7b65c78cd9fa0fbe4bf83c74d3b166287ea995d6feae37b96687302453ca59d",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102500/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "50d8ce72854bfc808fefc597e01e1cf7246c61238256103b7d7227b741078891"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "e5ffeaf254d032488dc854ae28d153892f99af80c13612d17d283693ab781894",
+    "subset": "review",
+    "rank": 14
+  },
+  {
+    "task": "stove",
+    "seed": 2026102506,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102506/state.npy",
+    "state_sha256": "53f45a833001d60460fa543322c75e3e742eef09665010753824ba4f782f8f36",
+    "state_file_sha256": "226bec6ad6f257b509908cc2e66d8d6818c34f8e9caabb6a70114250eed33656",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102506/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "90bc7f9a6d8b20ceb8e8b617b832e9a13ff64f8d11a8f65c9803fad8e6856146"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "e9c23fef538662b25dc7a1ad3dc3e26fdb1082a6a61aedbf0122d1b5359958da",
+    "subset": "review",
+    "rank": 15
+  },
+  {
+    "task": "stove",
+    "seed": 2026102519,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102519/state.npy",
+    "state_sha256": "fadb9be944b3284805abc370efd6d54f9e099d5d03b4f17df932b07f91dbd265",
+    "state_file_sha256": "5037740c5480182cb125680b92a9bf2ef1ea65adea7051a516ccfc9207bb9f19",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102519/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "58f29ccb3911e6273b32315249fe8fbc11187bfe438331768f7c8301f2e03633"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "eb1f148108f233bbf63ba23a8c3f84caff7cd239764d02c40fea7d7649f0332f",
+    "subset": "review",
+    "rank": 16
+  },
+  {
+    "task": "stove",
+    "seed": 2026102505,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102505/state.npy",
+    "state_sha256": "81d1b14f87f53953d16c95540e90f01c7d6fda671301be2ea171db9c26618e93",
+    "state_file_sha256": "a7ce3d897e2a9c34ed19649d1c082bc822f8faacfc3f772469516ddae7139d6f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102505/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "19275729b7fc62e33ea2c7c23252a2e0f0374e5eec6d73a0dd3e3b396c40be94"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "ed37e94e7f825a6959967f715f8df41f2974c3c0435a6415a2bbecc9d4ea1252",
+    "subset": "review",
+    "rank": 17
+  },
+  {
+    "task": "stove",
+    "seed": 2026102518,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102518/state.npy",
+    "state_sha256": "4410d9980c0ebb1417feeeab67d2750e0e36c08deb2c9bc163b2735b6dcb5ccb",
+    "state_file_sha256": "a8c6d1285fbbde92702f212d18ed88d074294530e9d41d60ebcc654311910315",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102518/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "a06c05d4f99b4f1c7e2a61349d4e4704f32e1346acec96dc5954b16cd5a041c3"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "ef2972e599b43fe37b66cba70bbf06fd378783d84cf180beb1fcf0d4e0734d58",
+    "subset": "review",
+    "rank": 18
+  },
+  {
+    "task": "stove",
+    "seed": 2026102502,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102502/state.npy",
+    "state_sha256": "3ea910c7c85775e7969c1b939e1f594e7eac7a2e24259168bef3e605f68c6fb9",
+    "state_file_sha256": "b5f458d8b40f69240ade8490737c6942fb4ed0fd3df61e5b2c99b43a8a376feb",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102502/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "00bc27b64f8b0505c04218b4810c286e4ce6b26348a1ffbfad3e2acdf6a87e8d"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "sort_key": "efeaf2b2ecadbf7c65d059cdb85f175270ce9e1c72220459ab081e8e2f9f06c6",
+    "subset": "review",
+    "rank": 19
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111006,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111006/state.npy",
+    "state_sha256": "671e6eef78f8565bc0b2992f17a1a93c0f4765cd6385aaef1e81a53cbb13f21b",
+    "state_file_sha256": "78bc1d76748971ca320091fd9cb4924412a85f64352bcff39f57d90a7b6ecb59",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111006/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "c8dfc2575ebaf21a260fe3776fdd67bfe595612006022939643d569d982d1d9c"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "0b3ce59fb7d3158c816637cfde0100d95e2d496665054674522d4164cea90dfc",
+    "subset": "calibration",
+    "rank": 0
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111015,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111015/state.npy",
+    "state_sha256": "27f2477eca562821bf71da0f48c1a3ecaab580a7206178e8f0d0ed75da51c75f",
+    "state_file_sha256": "dff4f3e42561843b19f2701b86d65de00c4aa97a3a78f37932674e149a764574",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111015/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "6e826e284dc4c4548f546e6bb9b787dbe0b37ec7320568fc615d8dea89386223"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "0e245aeb26929fd83a0699933c52d379c46a5345ad1b05ad6783b71e762ee3dd",
+    "subset": "calibration",
+    "rank": 1
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111007,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111007/state.npy",
+    "state_sha256": "e4eff8e0ca7eb424822bbcdc001dc93e8c35415e9545d06b470226a91a1d2902",
+    "state_file_sha256": "c4bc5b30cc55456a2d3e67dc6a0d93bf096e1c6131068d1bc1986edb96ea0cfb",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111007/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "1dc6cd0ba49a1fb984f1dc3927e93ef7c1b5d1034df052f46b58ce6bd64d87cf"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "26f824b20a7611fd6d13bffad10bb253471d1227214e409a9f836bf9451d33c3",
+    "subset": "calibration",
+    "rank": 2
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111008,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111008/state.npy",
+    "state_sha256": "440301e6c5e54038ca77446b2915b241c13bfd6acd9bf2cd8df3257ad75566bc",
+    "state_file_sha256": "19c0475d11bf9db6bb38596f8cee7da324fa56f284eaa9aeb53643ca408ce630",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111008/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "b78c75ef83c8012b24e4d376aea0fa4df30a0ad35d8d7bb803cfecc5e63d3068"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "3be935e60c9d78c0a820aa9ca680ba78a5d8da49951723b48e5afef5704f9cea",
+    "subset": "calibration",
+    "rank": 3
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111003,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111003/state.npy",
+    "state_sha256": "36300f22f249f278d704d5ded0878ebfc01189d8a405fc291865dc2f40e46120",
+    "state_file_sha256": "9e0a7e9d92c0609c8d0b2d2d9f8d888b578fbc14125d1c84e3863c7595b925d4",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111003/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "f2be74995f80e19803f3716e146bbe2021035ef3b08443dc4f9344a159f6ab8f"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "451d1afc3ed8c263743ac554a97595e802b710d7dff97e7334b2a7b5edce4519",
+    "subset": "calibration",
+    "rank": 4
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111011,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111011/state.npy",
+    "state_sha256": "71c621f34ffc35b344305c2dae5c5214ff82b32a97bfed4957cb100b2b2ea708",
+    "state_file_sha256": "b0f800f5c3462d307443ad0e82fc0027b3be0ca397083880c1a09322619be6d8",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111011/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "c64e7a5fd3ddaecd0edd903e2503dfa0ea519311181fe4e07f5484997101286b"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "452ec90133a18847762a0b4d27a256b55a4889f61cac81c7d3e725077aa31450",
+    "subset": "calibration",
+    "rank": 5
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111013,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111013/state.npy",
+    "state_sha256": "3e33cae8f4b32c8b66a347244d8412d7c0ac1c32dabdf2528be4370736108170",
+    "state_file_sha256": "f5a6d6bc8c94e9a0bcc3d56275887a0e206413373fad20e6eb2a2427f72ad784",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111013/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "73b79c90d76aac2cbe3bf844ee6c60d5a11c91116c365c1e1c44dd2430eeab1a"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "69236b55bc709292548e5c5764739afca0722658bf1405fc6c57fe1f22abbde2",
+    "subset": "calibration",
+    "rank": 6
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111000,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111000/state.npy",
+    "state_sha256": "2bcbd1599c93748354908fa7713435294d33d2ad56152de3782755436b332944",
+    "state_file_sha256": "cb07ba86ce8ad2a41cfe41a04dc3e30f7298496040a78681c3252a8515207403",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111000/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "9072847b66a02c653c58242be821b1fc79a014f47ef81d812f263421d980ee7e"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "6bcef97c506e7895cb2234961dace09d10285363cd9dbcc5c40a3668b0f3e92b",
+    "subset": "calibration",
+    "rank": 7
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111017,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111017/state.npy",
+    "state_sha256": "04fde242a4f1142cfcb0e7a2e1a8db1fa538a14efc49423f8e7cef55207434f9",
+    "state_file_sha256": "8c6fc82ab9587dd0a364c3867e80958d84425e68490781ced2fa5df6a31bd510",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111017/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "d3591c5163ee49aa4ea04d52c357fd868e2f4f9377bfd31976a640d12b253081"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "8364fdf6d7b035a6147183e42f2ac650604c3f99aefb8fa21aca48a98ef84adf",
+    "subset": "calibration",
+    "rank": 8
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111009,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111009/state.npy",
+    "state_sha256": "f614cf4b9ca59a5536b714914b39410d8ac1244492f153b6e6c633f71468cd9c",
+    "state_file_sha256": "aa01a8ebb7b7cdce87d33fe0147a6171ba16399881cd2341cc55be184cfd7e87",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111009/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "ef5380937b02398c272b0fc5c3aa8694b4eb536d962cbd29a973345286f07ad7"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "8ccb8be7b545cda432a3b07ef5f001b7660ba24694a8e4c82542390532eecf70",
+    "subset": "calibration",
+    "rank": 9
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111005,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111005/state.npy",
+    "state_sha256": "fc227815d8967905a65c9706fc9c6764de36cdc83fc1797257d9668f77c15666",
+    "state_file_sha256": "223eadabaf8a703b9e873b27ca6415aa54a30c7f729b63784731fe3d2c90a129",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111005/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "e84cc0d88266d022c030df4ad5b37856624ded8eabaa8e21eeb5f9819006ed09"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "8ef743baff69405494371600bc19e27bb96a1d2071ea15a138b31fd538d121b3",
+    "subset": "review",
+    "rank": 10
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111002,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111002/state.npy",
+    "state_sha256": "4adf5cc990ab52d4fdea91e51df296a4e42ad71b40448b09c72a05e2943cf8ce",
+    "state_file_sha256": "ef57cd7d9abf4a6edb6a867227421d97b398d56f503853e765d0a61ff8595131",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111002/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "3057e2d7b79ce8c875071edb2e118fc8b1a0a755e264a7888de7271ede43e611"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "8f09911d620304dee6a46d82a8c41ddba0cb1a5739fcefb1316c4e552d6e65d2",
+    "subset": "review",
+    "rank": 11
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111001,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111001/state.npy",
+    "state_sha256": "9b11a8efc572121ef3aaaa898a72da85d23f1304df802c9aa46fcd0c5f294367",
+    "state_file_sha256": "ab920b6601e59fd41e26a29787acb0e47ae42ebcbd892c7a17c0b7c816e3b7e2",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111001/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "cd9098c8f3b19a681422f9888289ac7eb8175904eef0dd11ab01ae5ce34b9dd5"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "bdc75d4b89b6c1826d5d09736acd086283a0a777765856258ab8424354f83d9c",
+    "subset": "review",
+    "rank": 12
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111012,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111012/state.npy",
+    "state_sha256": "c07008ef846cb89f664f7cb79bde351db27a8e4f31b0db939ea7f3b843220a99",
+    "state_file_sha256": "18608c493019c8f15c89b94ad9b2d0746fac97f92bedadfaa07870166b3c9d83",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111012/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "8f9c69e4ef8b1c479af603a679927b77b10747e889f4912d5d52f7217d25a327"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "be667cbb1590f049bd7d5a86cd2bfc223b8baaa49bd1cfefb519727acecc4b87",
+    "subset": "review",
+    "rank": 13
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111016,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111016/state.npy",
+    "state_sha256": "4caf4701144543f14db9b67d33d7698303b061a582218cc0abb9a097160572e3",
+    "state_file_sha256": "390d30a3992e4bb22d234562b37acee467cc2b853f6e667ba22aa31061a69a6f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111016/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "8dd169d1963049bdbf66b7147c61d37ff375737a304206c1a4dc2d13d5d9d157"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "c4e0abea32d845751a6d53b4a08c1f940c202938d84c6f3e1707e84bae066efb",
+    "subset": "review",
+    "rank": 14
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111014,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111014/state.npy",
+    "state_sha256": "ef5b190bf6eb4ea619119148c64ce5c5c72f2cf45cd2e1707d76161c5bb57023",
+    "state_file_sha256": "f803ff64d1fb2f84cc0c93b0b72ca1ec21217640f19ff712bdebee90a480dff7",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111014/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "7e656106e99cca8e8bf66feb8d14b47558e58c28e15e5f14f9297c74162feb6d"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "c6b4db43e3d3d4672903cdcb0fc3fc14394918bde2fd0bc0ab186e5637fa77a3",
+    "subset": "review",
+    "rank": 15
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111010,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111010/state.npy",
+    "state_sha256": "b87cfd47cd6ffe4d4f6290ebbd84167060fc9352fb221498563db622b924e445",
+    "state_file_sha256": "b24875d4bf25fd52c0598e2dad0ebf8f0d7674e079180541af7db0d7331fa90b",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111010/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "ebb554ee2bc4972b187f3f464b7f91e811a07dde89d8c300ba3ddb001b9cab9e"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "d391cab3a31c6a083a0f4579d749d563d14242066bffdf34e5b4207f0834d0f9",
+    "subset": "review",
+    "rank": 16
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111019,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111019/state.npy",
+    "state_sha256": "d25526e5cd3471616f2b0a7e41246d0fc761f7dec5d92d510e3c828176f49191",
+    "state_file_sha256": "6e310588b1fcd9a6aa85da591e86d1377c17c3bf00c5b58b1047a35a60e9a048",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111019/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "1eb39dc3a7fc0f9fc86a9a268ef8cd91ffe03bf1870b3d6ebeae70b1e4032266"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "de049735d627e205dc667596be8202469d8973904f009be88206f0ec528d376f",
+    "subset": "review",
+    "rank": 17
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111018,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111018/state.npy",
+    "state_sha256": "d27176e1c967ccb928871ecd2d8e2bfc16794979072773153402282eabd7d9a8",
+    "state_file_sha256": "35889b6b89f78d6bd94925d556705117ff8c6bfb3a4fcf367d13288edbd3436f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111018/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "3c73cc5a84cc2d9c1b406ff2cb2e22948a9af8e0708f931f5d2cc06a8ea874bc"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "dfb95741f38d9c01711da540d15170d7752ca0e83eed92abb389ed5437b6f758",
+    "subset": "review",
+    "rank": 18
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111004,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111004/state.npy",
+    "state_sha256": "491e7e3bf9c96df5f4c3b5e8cb8fde662b7949a6ab8d5aa9d089ae066f604b15",
+    "state_file_sha256": "2ce3a876b477634dbe53dfa9325dbf41cfb3fef0e33fbdd15a8d40a3963d10d7",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111004/clean.xml"
+    },
+    "xml_sha256": {
+      "clean": "839ca5e4d17f94802bdb57090f1ece1955b9d121dc5c6c24907ec5f1dfc53fce"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+    "sort_key": "f90c1f85fe1b812d6f0c377b13873cddf9534f3409142ff742f294dbd2d3e4b7",
+    "subset": "review",
+    "rank": 19
+  }
+]

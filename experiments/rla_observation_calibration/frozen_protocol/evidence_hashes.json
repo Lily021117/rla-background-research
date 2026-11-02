@@ -1,0 +1,9 @@
+{
+  "${RUN_ROOT}/calibration_protocol.json": "6a55bf563fe3202435d32d88e531712a110843dc2b588516db29e1831bc8c50f",
+  "${RUN_ROOT}/checkpoint_inventory.json": "73d9033fab3f2e905cfbad92c89ddb1bb64daef0a11c3628c60f2f5aab3ea193",
+  "${RUN_ROOT}/state_manifest.json": "c1a6343060b1e0252799d1627bbc166274d791c32db321d07af72059d8324873",
+  "${RUN_ROOT}/image_acceptance/implementation_checks.json": "66dfdc4ffdd7586ba1ad56157c7380e6253dce8605721afd406aa8dbec54b6a3",
+  "${RUN_ROOT}/image_acceptance/numeric_checks.json": "2d999d5042ad7800c620e43a913247138e642df9ec10e75950ce11d4103ddc9b",
+  "${RUN_ROOT}/image_acceptance/samples.json": "e90718bbf76a9fd084c374861fbb93fcc7a12ebe9201ccd1a04fc420adc51deb",
+  "${RUN_ROOT}/image_acceptance/manual_review.json": "bde1b9764353ab922d8bbd39e287d13dd2d6d8252dddd73a3a65520077df84cc"
+}

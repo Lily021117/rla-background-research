@@ -1,0 +1,15 @@
+{
+  "reviewed_before_policy_scoring": true,
+  "reviewer": "assistant visual inspection of all 10 fixed dual-camera contact sheets",
+  "sample_rule": "first numeric train demo, five floor-linspace timesteps",
+  "stove_timesteps": [0,38,77,115,154],
+  "drawer_timesteps": [0,34,68,102,137],
+  "accepted_by_task": {
+    "stove": ["blur_1","blur_2","blur_3","noise_003","noise_007","noise_012","crop_095","crop_085","crop_075","blur2_noise007"],
+    "drawer": ["blur_1","blur_2","blur_3","noise_003","noise_007","noise_012","crop_095","crop_085","crop_075","blur2_noise007"]
+  },
+  "excluded": [],
+  "stove_observation": "Bowl, plate and moving gripper remain distinguishable in at least one view at each fixed time. Wrist bowl/plate edges are partially cropped, but agentview retains the manipulation area. Blur3 reduces edge precision; noise012 adds substantial grain; neither creates a blank or globally saturated image. Combo is more degraded but gross target and gripper locations remain visible.",
+  "drawer_observation": "Agentview retains cabinet and approaching/opening gripper. Wrist handle is near image boundary in initial/late frames also in Clean; middle-drawer handle is visible in agentview or wrist at the corresponding sampled times. Blur3 weakens small handle detail but does not erase cabinet/handle region in both views. Crop075 removes some peripheral content but not all task-critical content across both views. No channel reversal or global severe saturation observed.",
+  "limitation": "Necessary visual information-retention screen only, not a proof of learnability or guaranteed visibility along future policy trajectories. No result-based trial exclusion permitted. No policies or success rates used for admission."
+}

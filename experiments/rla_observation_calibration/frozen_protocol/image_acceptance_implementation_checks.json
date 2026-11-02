@@ -1,0 +1,8 @@
+{
+  "no_global_rng_consumption": true,
+  "noise_repeatable": true,
+  "clean_pixel_identity": true,
+  "finite_unit_interval": true,
+  "negative_fx_preserved": true,
+  "policy_forwards": 0
+}

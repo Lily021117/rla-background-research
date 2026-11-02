@@ -1,0 +1,82 @@
+[
+  {
+    "task": "stove",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "t": 0,
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/frames/0000.npz",
+    "sha256": "aa2950df05c2018d763d410065043ca7faf16407577c0a1a6d65873dae8c5011"
+  },
+  {
+    "task": "stove",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "t": 38,
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/frames/0038.npz",
+    "sha256": "3534bf3e9a32ea341b8c503cbf396d6f6ed987c871ea325ea84c5f5dffc63533"
+  },
+  {
+    "task": "stove",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "t": 77,
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/frames/0077.npz",
+    "sha256": "f49993ff001dfa0ed11a6193cc30d6ab48176778d29d8e21ab6a92daae151066"
+  },
+  {
+    "task": "stove",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "t": 115,
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/frames/0115.npz",
+    "sha256": "ff04c4fd731701c695fd26eabbe7c98c782b1f95fa65ebfe7d5199812380a592"
+  },
+  {
+    "task": "stove",
+    "episode": "derived_stove_demo_0_v1",
+    "split": "train",
+    "t": 154,
+    "path": "${PROJECT_ROOT}/experiments/official_libero_rla_consistency/run_20261023_10/stove/episodes/derived_stove_demo_0_v1/frames/0154.npz",
+    "sha256": "efb1b1d5c57acdfdf7dfe9c676a1fc1e1901e2d0299707fdb97cc670a6a979ac"
+  },
+  {
+    "task": "drawer",
+    "episode": "official_goal_middle_demo_0_v1",
+    "split": "train",
+    "t": 0,
+    "path": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/episodes/official_goal_middle_demo_0_v1/frames/0000.npz",
+    "sha256": "247803889686283b139f67a959886ac36df6379961a253a1471b870a4f444a43"
+  },
+  {
+    "task": "drawer",
+    "episode": "official_goal_middle_demo_0_v1",
+    "split": "train",
+    "t": 34,
+    "path": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/episodes/official_goal_middle_demo_0_v1/frames/0034.npz",
+    "sha256": "fcc0872b4e4fb52f929d95c634afc2af9699110bfa18cd7b9dccc66e3fa91ab5"
+  },
+  {
+    "task": "drawer",
+    "episode": "official_goal_middle_demo_0_v1",
+    "split": "train",
+    "t": 68,
+    "path": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/episodes/official_goal_middle_demo_0_v1/frames/0068.npz",
+    "sha256": "c10a7d10db09f2942c2e61deb8c4ae5b87053745b7339ceedc712c3324ef27fa"
+  },
+  {
+    "task": "drawer",
+    "episode": "official_goal_middle_demo_0_v1",
+    "split": "train",
+    "t": 102,
+    "path": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/episodes/official_goal_middle_demo_0_v1/frames/0102.npz",
+    "sha256": "47fcab373af99a8b31d3f0ba9f9ddcc644e1004ba9f4b8f0e438c089deda6853"
+  },
+  {
+    "task": "drawer",
+    "episode": "official_goal_middle_demo_0_v1",
+    "split": "train",
+    "t": 137,
+    "path": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/episodes/official_goal_middle_demo_0_v1/frames/0137.npz",
+    "sha256": "66b7814f6d97c2a635cc1572497f4bfc4e1aa36160e87ea7cf51a2578077c913"
+  }
+]

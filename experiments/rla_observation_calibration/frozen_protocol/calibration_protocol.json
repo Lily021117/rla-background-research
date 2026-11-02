@@ -1,0 +1,76 @@
+{
+  "name": "Frozen C-low observation degradation development calibration",
+  "base_commit": "39645b9e0ff7a379157947d01684a7e645f75083",
+  "conditions": [
+    "blur_1",
+    "blur_2",
+    "blur_3",
+    "noise_003",
+    "noise_007",
+    "noise_012",
+    "crop_095",
+    "crop_085",
+    "crop_075"
+  ],
+  "combo": "blur2_noise007",
+  "max_steps": {
+    "stove": 220,
+    "drawer": 300
+  },
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "max_new_valid": 660,
+  "max_with_clean_fallback": 780,
+  "clean_reuse": 120,
+  "updates": 0,
+  "backward": 0,
+  "selection": {
+    "target": "0.4 <= equally weighted three-seed rate < 0.6",
+    "priority": [
+      "blur",
+      "noise",
+      "crop"
+    ],
+    "within_family": "lowest strength",
+    "combo_gate": "all nine conditions admitted and each >= 0.6; only blur2_noise007",
+    "combo_candidate": "same 0.4 <= rate < 0.6",
+    "review": "only one selected candidate per task; no reselection after review"
+  },
+  "image": {
+    "position": "after original resize/crop/to_tensor at 224x224 [0,1], before both backbone normalizations; once per camera",
+    "blur": "reflect padding, kernel 2*ceil(3*sigma)+1",
+    "noise": "float32 PCG64 local generator; SHA256-derived 128-bit seed; no model seed/strength in key; clip [0,1]",
+    "crop": "floor(224*ratio), offset floor((224-size)/2), tensor bilinear antialias=True; half-pixel K affine; preserve negative fx",
+    "clean": "exact existing processor geometry; no added reencoding"
+  },
+  "image_admission": {
+    "sample": "first numeric train demo per task; floor linspace(0,n-1,5)",
+    "exclude": [
+      "wrong channel/shape/nonfinite/empty images",
+      "transformation bug or global severe saturation obscuring manipulation",
+      "crop removes previously visible task-critical content from BOTH cameras at any sampled time",
+      "target/gripper/manipulation region becomes unrecognizable in BOTH cameras at a previously observable sample"
+    ],
+    "manual": "all conditions inspected before any scoring; no success-based exclusions; no replacement"
+  },
+  "statistics": {
+    "bootstrap": 20000,
+    "seed": 20261102,
+    "unit": "physical state preserving all policies/conditions",
+    "calibration_and_review_separate": true,
+    "uncertainty_excludes": [
+      "full training seeds",
+      "AE",
+      "noise implementation",
+      "task"
+    ]
+  },
+  "failures": {
+    "task_failure": "valid, never retry",
+    "infrastructure": "preserve attempt, stop; no auto hardware switch",
+    "no_future_expansion": true
+  }
+}
