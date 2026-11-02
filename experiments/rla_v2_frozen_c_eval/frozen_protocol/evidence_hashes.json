@@ -1,0 +1,8 @@
+{
+  "${RUN_ROOT}/evaluation_protocol.json": "24def699a111a02ec1ab39df688bf256319bee383f7b5e676a7008559c13fd3f",
+  "${RUN_ROOT}/checkpoint_inventory.json": "73d9033fab3f2e905cfbad92c89ddb1bb64daef0a11c3628c60f2f5aab3ea193",
+  "${RUN_ROOT}/state_manifest.json": "47c8f5fce4d059647fe8de063d16ff22d9e95db72b038810377bb5562a06111b",
+  "${RUN_ROOT}/integration_static_checks.json": "cea89ed01c7912c02685b439ce67d80f9986452cc23165a9814b7363b473c042",
+  "${RUN_ROOT}/clean_reuse_audit.json": "7c5517b836896659ce7c7069e3a3ccf4bec123d0a5c4d89c563b033db4c8a7b3",
+  "${RUN_ROOT}/configuration_identity.json": "4fd45d66f2247535d9d1c23bdafb54ffb7563cf730c5caa863316fb291b763f0"
+}

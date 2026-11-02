@@ -1,0 +1,71 @@
+{
+  "version": "V2 frozen C development evaluation",
+  "prototype_commit": "91f5ebed6634b8443fab509aef4a3773a591193b",
+  "prototype_files": {
+    "appearance_configs.json": "f716dd0512a94eecd4a4737b28df6fe2eec45d10c02e6a1f5d548fc0e33c8ba1",
+    "prototype_protocol.json": "a649bb025d154dc40b109ac4d9378752b9c653ec7603f60337c0a49ac28ad1dc",
+    "validation_results.json": "62b4ab8dd8280f3cc9c585b000ee666801be0e4e6dd5632eaa3112dcc3ffad30"
+  },
+  "tasks": [
+    "stove",
+    "drawer"
+  ],
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "conditions": [
+    "object_1",
+    "object_2",
+    "light_intensity",
+    "light_direction"
+  ],
+  "states_per_task": 20,
+  "new_valid_budget": 480,
+  "max_with_clean": 600,
+  "reuse_clean_expected": 120,
+  "order": "task stove/drawer; historical state manifest order; condition listed order; policy seeds31001/31002/31003",
+  "control_hz": 20,
+  "chunk": 8,
+  "max_steps": {
+    "stove": 220,
+    "drawer": 300
+  },
+  "image": {
+    "cameras": [
+      "agentview",
+      "robot0_eye_in_hand"
+    ],
+    "resolution": 224,
+    "flip": "horizontal",
+    "reflection": 1,
+    "MSAA": 4
+  },
+  "backend": "BF16 Math SDPA; same bootstrap and action decoder",
+  "success": "unchanged official env.check_success",
+  "randomness": "reset Python/NumPy/torch/CUDA to historical environment seed each trial",
+  "technical_failure": "preserve failed attempt and stop; identical trial retry only after documented repair; task failure never retry",
+  "statistics": {
+    "bootstrap_draws": 20000,
+    "seed": 20261102,
+    "cluster": "within task physical initial state, retaining all seeds and conditions",
+    "contrasts": [
+      "each intervention minus Clean",
+      "four-condition mean minus Clean",
+      "two-object mean minus Clean",
+      "two-light mean minus Clean"
+    ],
+    "no_effect_threshold": true,
+    "excluded_uncertainty": [
+      "full training seed",
+      "AE",
+      "condition sampling",
+      "task"
+    ]
+  },
+  "interpretation": "used development states; interventions may enter future training; neither final unseen-appearance test nor D evaluation",
+  "updates": 0,
+  "backward": 0,
+  "no_AE_feature_generation": true
+}

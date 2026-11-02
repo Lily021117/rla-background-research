@@ -1,0 +1,11 @@
+{
+  "status": "MATCHED_PENDING_RUNTIME_INTEGRATION",
+  "count": 120,
+  "checkpoints_states_XML_language_results_verified": true,
+  "old_evaluators": [
+    "rla_scratch_policy_aux/evaluation.py with1800 adapter",
+    "rla_new_task_baseline/evaluation.py with drawer1800 adapter"
+  ],
+  "unchanged_inference_source": true,
+  "device": "same authorized GPU UUID; current ECC baseline separately recorded"
+}

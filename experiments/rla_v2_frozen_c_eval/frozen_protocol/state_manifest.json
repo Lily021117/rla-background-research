@@ -1,0 +1,1042 @@
+[
+  {
+    "task": "stove",
+    "seed": 2026102500,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102500/state.npy",
+    "state_sha256": "4249e2b7e03e36536aa31fb94a762c65ade192404ef826e7e817209665ebde8b",
+    "state_file_sha256": "a7b65c78cd9fa0fbe4bf83c74d3b166287ea995d6feae37b96687302453ca59d",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102500/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102500/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102500/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102500/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102500/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "50d8ce72854bfc808fefc597e01e1cf7246c61238256103b7d7227b741078891",
+      "object_1": "f7eb1a55b9623be58d03a7f4a702c27dfe3147fc566481525f08c3557da325bd",
+      "object_2": "ec3fc7aa8fd824caf5ded617e8295b2bab127b354ab50cd1c5f04510f5f4a540",
+      "light_intensity": "bf6e0fe71be8adce5879facdbaaf817aa7b2019853e165c567c5bf1086e952c6",
+      "light_direction": "32750343104822ea2a30d3222c8fa877fda1672cb7369c73d5ed5c5f09dbf6ac"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102501,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102501/state.npy",
+    "state_sha256": "63a73aa79d31436295145344fdd8b728ff41ab894d1230449b5313cefb800d8b",
+    "state_file_sha256": "da5eb43a0090606042e3dea09f7045f2812ad1776049d0efcb13ee90f684d619",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102501/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102501/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102501/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102501/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102501/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "1cc979580a79727f07167abaf6ff642be9599ac5e72c7bb013febe7d655711bf",
+      "object_1": "86dcb6a7c9fbfc829c22d121d52b0f34f4ef355eeffc14e1b4a2b2f8cb50698a",
+      "object_2": "683935a59fc936f8069613c3375d65bd6cc02fb145d1e784657d85143283071b",
+      "light_intensity": "ccb8a0a21531f1c939f8abf8f5be2c1370db7764934cefa39f941acf4ddeffc9",
+      "light_direction": "c5762d16728b18c8f7af33db613ad7fce6ef2ff20cf884d30448617ea47999a6"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102502,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102502/state.npy",
+    "state_sha256": "3ea910c7c85775e7969c1b939e1f594e7eac7a2e24259168bef3e605f68c6fb9",
+    "state_file_sha256": "b5f458d8b40f69240ade8490737c6942fb4ed0fd3df61e5b2c99b43a8a376feb",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102502/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102502/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102502/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102502/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102502/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "00bc27b64f8b0505c04218b4810c286e4ce6b26348a1ffbfad3e2acdf6a87e8d",
+      "object_1": "cf971622c024b59216ede18d457b29fd53ac9442c3c0a19c6f144add78afb2c4",
+      "object_2": "eb9bd39ec03098d627b943aac61e09a8c941730c62da4a1a51e94e6aff2273ce",
+      "light_intensity": "bf1ebea0519d399d14818d8a1f373e0628373fcd3e109a6244a407d6da6edae3",
+      "light_direction": "dd449f4a7fce99a80ae9207904d065a8b0b98c6893e617fcec283388ca0d4d1a"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102503,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102503/state.npy",
+    "state_sha256": "b2cd7550f601bed79d8678afd62c1c081b4f3e894abdf3c30d1d7113a562cad0",
+    "state_file_sha256": "88e471a6f83da1cd81d10bd07e1995079c04a936d7b0646c0a4cb4f051530e19",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102503/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102503/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102503/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102503/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102503/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "939369e3cb3edf76187f1df115bcbb1c39c734147a5513943f99d45f0d5a27d1",
+      "object_1": "32e8bfbedd2a8e7652c1135331841d80ea587d43231f43f164b2f29107fe5037",
+      "object_2": "f10a9f6bcfb8a2dd909fac349cc183b3e989b96a578e769a7cb4365028b17907",
+      "light_intensity": "21d4d56282658d19ae248a2445dc37cb265c29de07a2d8eb4295d18696f6bb13",
+      "light_direction": "dc31a9aa0ab1287b420576f25dd5b45e5c4a82a11089412d76cddac0da7e7c7b"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102504,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102504/state.npy",
+    "state_sha256": "3c0380e04049bdb41ba4ee9766042366a20dec8b6f6d58340907e4b3a12471a2",
+    "state_file_sha256": "eb1e3ea35740b38b693b69e09555d8e17304a8bf3cbcb3c17a809bc0d0b0b048",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102504/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102504/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102504/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102504/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102504/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "b1712eecafa2336b1ecb7b6db1b53f0c0f0c433ae5f3b76b627af830b8d81086",
+      "object_1": "b01b815fced45acf468eff44d8e359713b2a1f51831b93df88b87c1b37e6e048",
+      "object_2": "e90aac4c40123c76c822e30f630cad5a5aec14d0629dc844353da169717413b5",
+      "light_intensity": "aadcfd2d3130ab743e4556f1f033526b21efe651504da8c577da2499064637ce",
+      "light_direction": "1b0a3494d1b63c353052be71fea78117827abcbc773582fa31ea1636b5b462f9"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102505,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102505/state.npy",
+    "state_sha256": "81d1b14f87f53953d16c95540e90f01c7d6fda671301be2ea171db9c26618e93",
+    "state_file_sha256": "a7ce3d897e2a9c34ed19649d1c082bc822f8faacfc3f772469516ddae7139d6f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102505/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102505/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102505/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102505/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102505/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "19275729b7fc62e33ea2c7c23252a2e0f0374e5eec6d73a0dd3e3b396c40be94",
+      "object_1": "303cd5014cdcdba15bd74ada54a2ba95ea0af78d3bf75a9fcd92eae5f7969efa",
+      "object_2": "eea58c5a6aa3ad6cfd140db1fa3941ec65d817ca0753772ca155343b2cd7c4a3",
+      "light_intensity": "7326a7968923523c011fa1e53cad5bf010cf7f997eea92afc705a81c10c7d43a",
+      "light_direction": "e0bb8dd6289071d8e521c6fba06b2540f7abd545e7cec8e209c9676d20e89ff6"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102506,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102506/state.npy",
+    "state_sha256": "53f45a833001d60460fa543322c75e3e742eef09665010753824ba4f782f8f36",
+    "state_file_sha256": "226bec6ad6f257b509908cc2e66d8d6818c34f8e9caabb6a70114250eed33656",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102506/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102506/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102506/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102506/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102506/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "90bc7f9a6d8b20ceb8e8b617b832e9a13ff64f8d11a8f65c9803fad8e6856146",
+      "object_1": "9e3b07812372ed00ce997717b737f4cdeef36f4ff5dbcebac11a0cef3d7affe6",
+      "object_2": "82090494cfb29cb0c59c95d97f5da0397a0e885d0a377c990d0cf737b99252c3",
+      "light_intensity": "2955f5de0a85ed3f3ff82a730b493c94852af92c42a0d8a8ed47e49f986b99b0",
+      "light_direction": "fe38ccddb465af979a717d163d665576e3a79764d30cc5764c8c3f419715509e"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102507,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102507/state.npy",
+    "state_sha256": "aa956cab3c4d886e50697b63ecbade2dbe6d33058e3c3f6c94f326a643d37cc5",
+    "state_file_sha256": "b034d78b37e0be80ff373774429ddfc1c1cf53a5c8bb8fa67893d1a656969869",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102507/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102507/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102507/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102507/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102507/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "f3d130f51c90ee866968cc26729b80d4f9840ac25ebc1eaf98731b739118dcce",
+      "object_1": "0c6846cdc26cd8326157bd0a2f07de32caba84a2406e40571f6027929102cc86",
+      "object_2": "23c1e30846fab7abd8ee49eea730a62663a5c6e8b712ff321faa9dcd2609e6b5",
+      "light_intensity": "eb399f409bed199ed3b0fbc408667a1eedf6ac7bc175f814b7d18406eda89a50",
+      "light_direction": "02065aca7d20de96fc0b6b228bd397be4fe2fe1a9e284e4d38d6097a06df18e2"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102508,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102508/state.npy",
+    "state_sha256": "82fbf24e506ad959a6fc138a69732082c1f0d6dd64a463d23a65be1b80bf6cbe",
+    "state_file_sha256": "61f0c1d5b54d8aeaa21a24c00b68d22336b360a0bf5ecb20cfccbc9a02e44c14",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102508/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102508/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102508/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102508/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102508/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "818cd97e5552f3daf2fdff70f2cf82c209ac63f181c4f7ac1703179767fc16a3",
+      "object_1": "d16753ea3dd172f82ee54f7771076f3a3ef7c061a8c1732cedfc9a1a406d4b91",
+      "object_2": "f9d77f0f8c19713690c92a15d6c7d1ed76408b19afc69ccda81394433b986f99",
+      "light_intensity": "6f83ab28df2a10547ca3d7a688dc5a6182308a76cc4f371224c04293d98fa32e",
+      "light_direction": "60aefdcba06ae3cc5905851df6885e1c8aeb81646823da547580cc900d13e421"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102509,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102509/state.npy",
+    "state_sha256": "e1d65cdfbf53855e1e2e605e8dbc12aa59df81b8ab92748c2026cfe1e277c56b",
+    "state_file_sha256": "053017b6c5267429a49e604c21282897e25a2507cba3e6d3280337daae7fd608",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102509/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102509/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102509/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102509/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102509/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "b388e063df1e39593bea9bf24025dd3fbeabf7a54cc0abbd37581a05b5245347",
+      "object_1": "e3a392371200eb5571c0da3877d45f3ff906014d37ba3b30309838cf03b906ae",
+      "object_2": "95732aecad3739e2cc6d59a5f223a166e02d6965b5900710464a77fb7710620f",
+      "light_intensity": "801cbfa216e6fec60a10504f18915ad3fca266aae8a4bff692099fe433011d6a",
+      "light_direction": "2b3c0f8657735d841200cd9cebda3c807a1b591f94753cd7f647cb510642b04a"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102510,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102510/state.npy",
+    "state_sha256": "373c309fa6f16d902ccaec7d682d86aeda31be2075d3dbd7958266a3d0bbe2ca",
+    "state_file_sha256": "e668e0a85ab705c1f69699520964da309d110dd24dba7c9946716a1b2ea5dd36",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102510/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102510/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102510/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102510/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102510/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "6cee861a79323981c3a6704abbc7e7bc65ba03ad69b563154b71cac6265b5444",
+      "object_1": "2eda548280b6f5996a3ef39f7f86577640c9a247fcd0579af26c725860540d69",
+      "object_2": "48f4e2485fad97bb35fee5d6390288ce428c216352fcbff29a2cef8c2e2385f4",
+      "light_intensity": "f3f085aef156c94256bcddf58bde8696d7327ded0b6696a70d07e6ebc05dcc55",
+      "light_direction": "0f92729ee68677a59b1039b7282f5b833fd45b3833b0d97195a5b64609a69282"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102511,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102511/state.npy",
+    "state_sha256": "2c22d5d0dbc5271bef3bd518a04b8833bf6a5a8d7311d4a865746eb0abc545d7",
+    "state_file_sha256": "3f4a0e5e481719c726882a21c71f9bddedff2b24a672bf3252a4265c0eeadbe5",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102511/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102511/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102511/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102511/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102511/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "dc58c575c09a8826acf0c4d4b9ca015bde9e8e81ca568df127d0bdecfb4db7b3",
+      "object_1": "b97f1eb001531528d628f1d997eccea9a0e0f98f9b47dfa1344c9b1788f7c642",
+      "object_2": "e22156d43d431435371274d9dc1efc0b48ca95e761c6806fba9b9ac597765913",
+      "light_intensity": "b5f04fd7e3ef3f8edefd3a0a193d4ba047db0eae155347cdecdc5dc2eed1afe7",
+      "light_direction": "6f15470c1d3645cf35e65d8e7ab2c649081c356c1acbf79b69a56ffe9051d909"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102512,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102512/state.npy",
+    "state_sha256": "f01bf20e0956be414a9f7b884bdc1d7f01ccaa844dda0a7b21c6109fe3771d81",
+    "state_file_sha256": "f4d81943951a3868f08f0c349148e0212935fe8da89dede8bdcb8c3e2ef9f504",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102512/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102512/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102512/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102512/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102512/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "09620d9647eb1d34bd699a150b87cfa1771e3dce21060b182911c20f380c24ca",
+      "object_1": "8c3cbb13b41a86ffe71809e3355450482f1774813c7736806c976e3dfe1a2a02",
+      "object_2": "5d6869469823b78119812e36bfffcb4cc781830f3a0aa7351a6fe9d241614e32",
+      "light_intensity": "110d3dee56825718e1c9cbcafac9f43f96ef721d9d7bfb1b05ceb586d19a7e3f",
+      "light_direction": "2c9e4293a37d42096227cad6cab281b323ab140073621cba7667975a6de5a20f"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102513,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102513/state.npy",
+    "state_sha256": "40e486f5d742258d2cc13a5149664c5df537779857357963f5e71960ff9d5fa6",
+    "state_file_sha256": "838b54dabb50d31b9df092fdc58a4802cbfaded00f1a07a480c1a2a807517908",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102513/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102513/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102513/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102513/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102513/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "e8884958cef660c24f2d97a72c7a04f4bded8592d4769da6d174be1ae93c4c20",
+      "object_1": "ace081fa79b26207d650b0abbd7e8a53f8585ae2bcad23a0b5b58dfbdc56fb24",
+      "object_2": "c39f368c8555786d3531b0aa4dbf1f35cb880259dc08deea13b75de2d371d0d9",
+      "light_intensity": "49d540950ce4547020c691a870c3dd910593bf7e99b442a6d7b8e5c965cff119",
+      "light_direction": "d2280a12040b666e61b080aefac797e9e870619f5441a0267b3228138f983972"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102514,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102514/state.npy",
+    "state_sha256": "57c934b50b259aebb6fb4daf80ce4f82722f024abccc400f076341fcd789a1b7",
+    "state_file_sha256": "98cf6a86d2f9404c765aec912dd0db4ebace79b61781535aceac5d26e3c1d417",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102514/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102514/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102514/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102514/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102514/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "479d4ad7f22088cbc747d2b7b03848f85c9063c49b38f2a1837c0a20fc68e5a8",
+      "object_1": "ebd1fdb7ff9eaf6758e1ee2bf00df324dafd03e4a8c61a230fd4ca29381dc338",
+      "object_2": "6031cc35f46ff0a11d8ec1ce42dd30dcebea068fc27b56ef9a485a054a112008",
+      "light_intensity": "c72901ae85c8cafe8195ac4994a1d22097bb166edc0a1688718ed0c433e79e0e",
+      "light_direction": "0cd117bb6f9dc78567e3bd00af27b234cb0be7f77103d9ea03b767cdfe55c6c9"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102515,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102515/state.npy",
+    "state_sha256": "deccf7ea2510bdfbd648cf384f244d563814b7e3b16a0a2f1b74eaaa70416cf0",
+    "state_file_sha256": "b4e088381f2b236ed90be387f72e6002f4d3c56aba07c2e8b8c6808b3a125bfc",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102515/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102515/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102515/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102515/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102515/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "dd79150a14bf517d65822852171997bd92ebe89d4df0b68ad4dde06d25a75a75",
+      "object_1": "ebd0e130ac168afc6a86a3fcacef5b0af966bf011cec4e878e945938c62c2818",
+      "object_2": "a6648e640df75461258b1fd0cb6e2cfc0cad3a07ffc0ea8de6f8842660d14f39",
+      "light_intensity": "fde8576e6e5ff981e9a70029b2cb0635da30140701b77693ad5a211727fd5154",
+      "light_direction": "fba1f9d32ae32d33e0eb4606c8ea75f36cd677787c14d050074bebce293879b5"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102516,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102516/state.npy",
+    "state_sha256": "21da2c26cae6144f7c03612aa2859325a4baafdd551ee652aa3f0af62cf05bd1",
+    "state_file_sha256": "8b29c0096cb8a93580b4a1c66acd80fd97a18ed5a468c0fffbcaa3e708566682",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102516/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102516/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102516/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102516/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102516/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "56c2695c5a223d7e1ccee761dbe42b04e5515837546cf4e3ba8f3cef1f02f3ef",
+      "object_1": "8a8b45036d122a1b4b564e31fe7db3a69575ab92b94c59fb6ee9c3ae59d853ac",
+      "object_2": "03686a9e82974a2031ba61be4738af888ec3fc1f23d870a4add06ff3732f6464",
+      "light_intensity": "c82dbe058006823dc6c6759c94d8922395f432d94116ab2e3cdf0b15a2d8f54c",
+      "light_direction": "8a2662fbf2e515c5acc4a65790f60865eed999175677b3376c665bd3befbcdd8"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102517,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102517/state.npy",
+    "state_sha256": "c328923e6013997b744f7464ed29ce2b993229f6347429843e58f5690d2a6850",
+    "state_file_sha256": "bf8de0ec074686e5779341a4ce2026b40c9e94c0523c6a786178c93704afc64f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102517/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102517/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102517/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102517/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102517/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "8f638721af7eb847167cc5760f2bcac99fed0edd5175f96fedefecd0d20ef1c3",
+      "object_1": "b4de811ca714d89743ade53465469f0c0873d38a2fa325ac24f70d5c7a1f43bd",
+      "object_2": "e0aee005a3b187a553bfeab53b1d55d775e6f853c55ab3db559c4e3a88262244",
+      "light_intensity": "4c70a7381efef5c57eba2de64148104cc76ce94291e7115cede359ec78242a85",
+      "light_direction": "7499985bedb6bc59ae07f422eae0ef91514a9f5e69524f8f360ed98cc20306c5"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102518,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102518/state.npy",
+    "state_sha256": "4410d9980c0ebb1417feeeab67d2750e0e36c08deb2c9bc163b2735b6dcb5ccb",
+    "state_file_sha256": "a8c6d1285fbbde92702f212d18ed88d074294530e9d41d60ebcc654311910315",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102518/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102518/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102518/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102518/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102518/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "a06c05d4f99b4f1c7e2a61349d4e4704f32e1346acec96dc5954b16cd5a041c3",
+      "object_1": "47dbecf2d8fb39d6f2426e22c49c26c7cf5dfee36b9e9a6e237e2a9838f89765",
+      "object_2": "2d4e73a405bc66039ec2e3692a9feb1163a040614eadb31a76d2dd019fdacbd6",
+      "light_intensity": "f057d7b04d9dbd63c7259ef2b8370c222bd91920d13c05f4ad875f03218e67e6",
+      "light_direction": "4dc78fd3141967ceee3aaac578d26fa74a25781c0ba84564018b6a2eda3bb3c2"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "stove",
+    "seed": 2026102519,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102519/state.npy",
+    "state_sha256": "fadb9be944b3284805abc370efd6d54f9e099d5d03b4f17df932b07f91dbd265",
+    "state_file_sha256": "5037740c5480182cb125680b92a9bf2ef1ea65adea7051a516ccfc9207bb9f19",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "431cafbaf33812a7cac69fb1cb044fa677a967cd91aedd41c0842495b75a0574",
+    "source": "unchanged historical frozen development reset state; reused",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_appearance_gap_eval/run_20261027_01/development_protocol/seed_2026102519/clean.xml",
+      "object_1": "${RUN_ROOT}/states/stove/2026102519/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/stove/2026102519/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/stove/2026102519/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/stove/2026102519/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "58f29ccb3911e6273b32315249fe8fbc11187bfe438331768f7c8301f2e03633",
+      "object_1": "907613f24c424e47b25e47c3f896a9ecf3a369a9ae5afadd28c6249170c4c86c",
+      "object_2": "eea102590ec9f62324dd9da9cbd1f577f1af9ae2570e1bf794df42fec3bada93",
+      "light_intensity": "b21a452a3225737e954ac22a4d684c79d7bda28e393b8c7064d9170e023fd67a",
+      "light_direction": "00560ce7d3c8ae37eaefdb9fefb37c0e18adb6e2a38406a565013a75f5e573fb"
+    },
+    "language": "pick up the black bowl on the stove and place it on the plate",
+    "bddl": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111000,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111000/state.npy",
+    "state_sha256": "2bcbd1599c93748354908fa7713435294d33d2ad56152de3782755436b332944",
+    "state_file_sha256": "cb07ba86ce8ad2a41cfe41a04dc3e30f7298496040a78681c3252a8515207403",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111000/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111000/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111000/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111000/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111000/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "9072847b66a02c653c58242be821b1fc79a014f47ef81d812f263421d980ee7e",
+      "object_1": "94d7d948d81146b5597102b70da5bd1aeb0118cd793085c7047f732c9438b917",
+      "object_2": "ac5a0168b5b551c782ff92423f9975dd02ecdaaf07c8383ec5199a3da0522e4b",
+      "light_intensity": "5b2b7b2d4fb85c6481c6e2f87733ed3cc93248e27c7a0c19a87b7f201ed43761",
+      "light_direction": "715555cb344a85f2f89b4d42d72c429c145f0ad71426b1bad51e5dfdd03eb3bb"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111001,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111001/state.npy",
+    "state_sha256": "9b11a8efc572121ef3aaaa898a72da85d23f1304df802c9aa46fcd0c5f294367",
+    "state_file_sha256": "ab920b6601e59fd41e26a29787acb0e47ae42ebcbd892c7a17c0b7c816e3b7e2",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111001/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111001/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111001/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111001/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111001/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "cd9098c8f3b19a681422f9888289ac7eb8175904eef0dd11ab01ae5ce34b9dd5",
+      "object_1": "a7725123dedaca9a0f0faf22e36c83785d4a76a125b480ea2f657cc4ff79890c",
+      "object_2": "45f2708fc6b36bc44f11fcc3422e54df598463cdf43c3df70b52402b47e91db3",
+      "light_intensity": "1f4e0e5f7b82e1212a71456c41f6c76259c5647e355963d940812897c75ac4aa",
+      "light_direction": "77aeb760abd17172db1c30002459a4cc37e10d2a89e49e70f326e40e031091de"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111002,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111002/state.npy",
+    "state_sha256": "4adf5cc990ab52d4fdea91e51df296a4e42ad71b40448b09c72a05e2943cf8ce",
+    "state_file_sha256": "ef57cd7d9abf4a6edb6a867227421d97b398d56f503853e765d0a61ff8595131",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111002/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111002/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111002/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111002/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111002/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "3057e2d7b79ce8c875071edb2e118fc8b1a0a755e264a7888de7271ede43e611",
+      "object_1": "518b00caa064277664a7e8d40ac54eeb5c14bbe28a1bcea8b3060df4fabf6c5a",
+      "object_2": "0dd1f09856e264bda3f692102112f42560839d99336082711fe2bd8fa4e1c949",
+      "light_intensity": "7b79893fc1c0d6255bfb67b259ff55ff7a0a68f6b26901098289ed63a609f22b",
+      "light_direction": "7a4cd5a0b330e7a9cc6a60f399dc962a467a6af6ac9f8776f6e7ae2a9555bba9"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111003,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111003/state.npy",
+    "state_sha256": "36300f22f249f278d704d5ded0878ebfc01189d8a405fc291865dc2f40e46120",
+    "state_file_sha256": "9e0a7e9d92c0609c8d0b2d2d9f8d888b578fbc14125d1c84e3863c7595b925d4",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111003/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111003/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111003/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111003/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111003/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "f2be74995f80e19803f3716e146bbe2021035ef3b08443dc4f9344a159f6ab8f",
+      "object_1": "5d8e7a00ae77ba50517ea7f278ec07e5a1ca7095a7364e13c4171be9816295d1",
+      "object_2": "5a3e2cdc5193f7c4cc6c9e0abfd70beced5e16cdc2c0a9e31022c0d876ef562a",
+      "light_intensity": "8da921f5f90a3f08de281586871eaffc187705f7cc7c971ca5ed119bc6b32d06",
+      "light_direction": "be685757c0c02dde4d40eae476758cc71013d1343a7f01a79d04fd9ad40049d8"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111004,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111004/state.npy",
+    "state_sha256": "491e7e3bf9c96df5f4c3b5e8cb8fde662b7949a6ab8d5aa9d089ae066f604b15",
+    "state_file_sha256": "2ce3a876b477634dbe53dfa9325dbf41cfb3fef0e33fbdd15a8d40a3963d10d7",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111004/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111004/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111004/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111004/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111004/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "839ca5e4d17f94802bdb57090f1ece1955b9d121dc5c6c24907ec5f1dfc53fce",
+      "object_1": "767027ee8eba8458d7259109ecd1d0e3823badb64b464572eb44b866d35c297a",
+      "object_2": "167e5ce64f3e03d8115f59181bd4a25c4a66d68cacc6f7a449b8a5f8c94676ee",
+      "light_intensity": "e9f568d2ce043f7a135372b4add06846bb29ee387ead3e9218ca6683da42becb",
+      "light_direction": "4e10f8aa55a299c18bb57f2790bc95c4bc530fce3fc68caf7162712dcee42683"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111005,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111005/state.npy",
+    "state_sha256": "fc227815d8967905a65c9706fc9c6764de36cdc83fc1797257d9668f77c15666",
+    "state_file_sha256": "223eadabaf8a703b9e873b27ca6415aa54a30c7f729b63784731fe3d2c90a129",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111005/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111005/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111005/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111005/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111005/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "e84cc0d88266d022c030df4ad5b37856624ded8eabaa8e21eeb5f9819006ed09",
+      "object_1": "cf962069c385cdbcf4bea80ccbed91c77ffeeb062244fe4211bbf415c8c5dd52",
+      "object_2": "105c2d4f351e7dfb17bf9abb757a1845b625e1cd3708c865a10dfc068e4a7fd2",
+      "light_intensity": "efe5fd06125079c6c798f82c1d3a573089cc1715b238eb72078cbf0810549e7c",
+      "light_direction": "5091cfbf326aa492c010f95b419081c5d545053993ad9b4ea1e999a726c11f50"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111006,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111006/state.npy",
+    "state_sha256": "671e6eef78f8565bc0b2992f17a1a93c0f4765cd6385aaef1e81a53cbb13f21b",
+    "state_file_sha256": "78bc1d76748971ca320091fd9cb4924412a85f64352bcff39f57d90a7b6ecb59",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111006/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111006/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111006/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111006/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111006/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "c8dfc2575ebaf21a260fe3776fdd67bfe595612006022939643d569d982d1d9c",
+      "object_1": "ef88a94426993b8bd47bea8b97c4c9e1262a35ac97175a40964c38aa74c8904f",
+      "object_2": "7c53993105f8da9919cbe17dbe473a58e94ddc65ee281778255c1528be815f76",
+      "light_intensity": "6392959cdefd095fedcef780566ca8cf027911650ea490b61c2cdc0fa0bc5001",
+      "light_direction": "bd76bde3e351d8b8e56d2b7b0ea5af2b0ca926ab29e8adf5dc0483a3d10f16dd"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111007,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111007/state.npy",
+    "state_sha256": "e4eff8e0ca7eb424822bbcdc001dc93e8c35415e9545d06b470226a91a1d2902",
+    "state_file_sha256": "c4bc5b30cc55456a2d3e67dc6a0d93bf096e1c6131068d1bc1986edb96ea0cfb",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111007/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111007/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111007/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111007/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111007/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "1dc6cd0ba49a1fb984f1dc3927e93ef7c1b5d1034df052f46b58ce6bd64d87cf",
+      "object_1": "4286a428d8b3781af4e9799af31a0c7d211acc42a2b56d5be651aec8bef53f13",
+      "object_2": "a8c5820c3dc61fc32207356e9565eab01ef4137535726f61d06e79e55772458e",
+      "light_intensity": "81b18c7789295771288eaeb165124b1f5814f31e54b128cb01cc0035cc2cacc9",
+      "light_direction": "8db94def3db616bf0508e466e21ccda04ae221dc014bb8b668aaba6e07e3923d"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111008,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111008/state.npy",
+    "state_sha256": "440301e6c5e54038ca77446b2915b241c13bfd6acd9bf2cd8df3257ad75566bc",
+    "state_file_sha256": "19c0475d11bf9db6bb38596f8cee7da324fa56f284eaa9aeb53643ca408ce630",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111008/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111008/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111008/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111008/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111008/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "b78c75ef83c8012b24e4d376aea0fa4df30a0ad35d8d7bb803cfecc5e63d3068",
+      "object_1": "a44755a5aacdf32ab268d95e2f5369057123306a78e4d3056c44816d581342f1",
+      "object_2": "44f86a479f1ffe58daf97c8420131f3c10b990ab71fc00469a6b5db28047f5aa",
+      "light_intensity": "7ab7afa98dd1d9eb1d1002e055f35ad5b2f07eba06a85c2910fd7ea7eb85244b",
+      "light_direction": "c889f5ea1429cb563768d23c205f68ef6318765d6d36cb7addbd02642dcf44f8"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111009,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111009/state.npy",
+    "state_sha256": "f614cf4b9ca59a5536b714914b39410d8ac1244492f153b6e6c633f71468cd9c",
+    "state_file_sha256": "aa01a8ebb7b7cdce87d33fe0147a6171ba16399881cd2341cc55be184cfd7e87",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111009/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111009/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111009/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111009/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111009/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "ef5380937b02398c272b0fc5c3aa8694b4eb536d962cbd29a973345286f07ad7",
+      "object_1": "222703529dc2e707637eddf622318f2b76a1ab5934cfd7a36c5a11418d14f84d",
+      "object_2": "5079a8c28dd0968ede16c421c1883f3e83f554ba762152d4c1918252e2f728b9",
+      "light_intensity": "0f38734480338533cdbd3a7125f935381e1f3ec9d95986e86bd76bee650fb60d",
+      "light_direction": "06d2643cafa83044dfce6c9f38245544f4aad01eae6be8f86df7144d448f5da1"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111010,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111010/state.npy",
+    "state_sha256": "b87cfd47cd6ffe4d4f6290ebbd84167060fc9352fb221498563db622b924e445",
+    "state_file_sha256": "b24875d4bf25fd52c0598e2dad0ebf8f0d7674e079180541af7db0d7331fa90b",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111010/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111010/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111010/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111010/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111010/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "ebb554ee2bc4972b187f3f464b7f91e811a07dde89d8c300ba3ddb001b9cab9e",
+      "object_1": "fef21cdf131bc48dc5f390cccebff02b56ad2db266752358801bee983de6c6fa",
+      "object_2": "e97fe4baba4b0952098d6a5b1f134ed23987086085ab4f4282e07c3db36ac5a4",
+      "light_intensity": "f081facae800bdde96cac13a3aefe9eb59bfcb12c38bb605ca9d2b62f60e291f",
+      "light_direction": "dfb061b85190e97694e02c5db268031cf659d7fef891986c8ca52222b2aff8ce"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111011,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111011/state.npy",
+    "state_sha256": "71c621f34ffc35b344305c2dae5c5214ff82b32a97bfed4957cb100b2b2ea708",
+    "state_file_sha256": "b0f800f5c3462d307443ad0e82fc0027b3be0ca397083880c1a09322619be6d8",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111011/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111011/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111011/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111011/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111011/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "c64e7a5fd3ddaecd0edd903e2503dfa0ea519311181fe4e07f5484997101286b",
+      "object_1": "0a9fc38624c4322a929d9f3a70a3c4a98af1aaec8aba92155f516e13c1327e33",
+      "object_2": "86ebe7dc8894ddf6b679c428985db788c8d08bd21fcb251cf141dfde2c5181b8",
+      "light_intensity": "bf73392da2c6676a25854382a4ad53a46679bebb622860e4e874beaf3355e723",
+      "light_direction": "943d6508c6266bdc204c11c2317b9673872f52ce8cf0c8725f3210c1a3178111"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111012,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111012/state.npy",
+    "state_sha256": "c07008ef846cb89f664f7cb79bde351db27a8e4f31b0db939ea7f3b843220a99",
+    "state_file_sha256": "18608c493019c8f15c89b94ad9b2d0746fac97f92bedadfaa07870166b3c9d83",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111012/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111012/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111012/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111012/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111012/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "8f9c69e4ef8b1c479af603a679927b77b10747e889f4912d5d52f7217d25a327",
+      "object_1": "47a2aa8923f7bf4e9e8b1c588373c04c96ea106c33e5d87565a7e35ecdc1f751",
+      "object_2": "140b5cf8cb6f638ec1939f009bdfda17ff4ebb0479110c8e5814e77172196322",
+      "light_intensity": "4b28217a4be9891c833cd3b8a50ad48ab1126c777a62a052fcfdd90aa42558d4",
+      "light_direction": "d71d7377943678cd040255088a022b04cd483cbcadd863f5869c1abc76e1545d"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111013,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111013/state.npy",
+    "state_sha256": "3e33cae8f4b32c8b66a347244d8412d7c0ac1c32dabdf2528be4370736108170",
+    "state_file_sha256": "f5a6d6bc8c94e9a0bcc3d56275887a0e206413373fad20e6eb2a2427f72ad784",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111013/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111013/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111013/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111013/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111013/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "73b79c90d76aac2cbe3bf844ee6c60d5a11c91116c365c1e1c44dd2430eeab1a",
+      "object_1": "3271dd5c84ef89bb212c69bb139c6e81f1adf08d190dd79aa6e6f2352bde333d",
+      "object_2": "03133d78b9ac62d03a3255c76551529e42aec00300ac6a2fc888fd733ea5660e",
+      "light_intensity": "dfd724222e56cdd8b3e23ed627a655129b4ed7773a18325e57ff7ec67001df95",
+      "light_direction": "421397a0a80cc103d1c39de0f47e4f5612bf53ac99ed7367705f064ffbd29272"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111014,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111014/state.npy",
+    "state_sha256": "ef5b190bf6eb4ea619119148c64ce5c5c72f2cf45cd2e1707d76161c5bb57023",
+    "state_file_sha256": "f803ff64d1fb2f84cc0c93b0b72ca1ec21217640f19ff712bdebee90a480dff7",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111014/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111014/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111014/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111014/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111014/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "7e656106e99cca8e8bf66feb8d14b47558e58c28e15e5f14f9297c74162feb6d",
+      "object_1": "8334ba5fe53d29c5a91a78420ac0c8646494e4269d288b0313bac9f42d692a8a",
+      "object_2": "efdcc811fd1f8df492200cf9032a82aff267ade39a2a26c320f97ffd11591ba9",
+      "light_intensity": "5f19130a98bb238ffbcbdc875150b4a6a75a6dcc9833c5cd72cbe9340cf22b57",
+      "light_direction": "bc06c91273776970dfc7f01428527e5fe00faa9fffb9aff33be7db31e937a2a3"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111015,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111015/state.npy",
+    "state_sha256": "27f2477eca562821bf71da0f48c1a3ecaab580a7206178e8f0d0ed75da51c75f",
+    "state_file_sha256": "dff4f3e42561843b19f2701b86d65de00c4aa97a3a78f37932674e149a764574",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111015/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111015/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111015/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111015/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111015/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "6e826e284dc4c4548f546e6bb9b787dbe0b37ec7320568fc615d8dea89386223",
+      "object_1": "98d757b15eb256e33d4eb28e4638e4da6415dab9b37abf89dcef7a7efce82a6c",
+      "object_2": "51c444c6bfb508a885265bf55b1116ec2dbb3639de356e2d6b72fa6d24a22f4a",
+      "light_intensity": "bc951e12dc719513b8176f0f21af7601c4aa05ef8241eccf63cab8a9a2b13d18",
+      "light_direction": "a5a8cec3060d788a024a50b1bd73b37c3c961138ae33e59b23c5c6c805ca5111"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111016,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111016/state.npy",
+    "state_sha256": "4caf4701144543f14db9b67d33d7698303b061a582218cc0abb9a097160572e3",
+    "state_file_sha256": "390d30a3992e4bb22d234562b37acee467cc2b853f6e667ba22aa31061a69a6f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111016/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111016/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111016/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111016/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111016/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "8dd169d1963049bdbf66b7147c61d37ff375737a304206c1a4dc2d13d5d9d157",
+      "object_1": "340c966ddd7506eb1dc84194c061cea4d8978b93b8283a559dc6a0ee09fd15a1",
+      "object_2": "1209be332c5e548e96e3567005db9f73aa4c778de715d8bcd635fc9e9645b9d0",
+      "light_intensity": "f91adade2c8a95055823a2ebb7995672c95f1b2327083d980b4e7cbd47a7f213",
+      "light_direction": "f643c1baf709b95d0b64d32be28bcee9ddc78a7cf00d172513e0ab4992e80a1c"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111017,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111017/state.npy",
+    "state_sha256": "04fde242a4f1142cfcb0e7a2e1a8db1fa538a14efc49423f8e7cef55207434f9",
+    "state_file_sha256": "8c6fc82ab9587dd0a364c3867e80958d84425e68490781ced2fa5df6a31bd510",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111017/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111017/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111017/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111017/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111017/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "d3591c5163ee49aa4ea04d52c357fd868e2f4f9377bfd31976a640d12b253081",
+      "object_1": "c51cebfa3928063687d919b3c1ed61a8946ae22fae7cb35b1f78e4d819873959",
+      "object_2": "4d85eb317fcd59551a72dea1e7b7e1fb270bbb7b36411e58e1a887f6029691da",
+      "light_intensity": "864d8518d7270d83229c2c21b1857edba8bf612d229f8d2ca73371ac2e08fdec",
+      "light_direction": "a9400d21cde314614d43b3f95f07e1777e871532b1bc8a2c4f9cf803435f8bc0"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111018,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111018/state.npy",
+    "state_sha256": "d27176e1c967ccb928871ecd2d8e2bfc16794979072773153402282eabd7d9a8",
+    "state_file_sha256": "35889b6b89f78d6bd94925d556705117ff8c6bfb3a4fcf367d13288edbd3436f",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111018/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111018/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111018/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111018/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111018/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "3c73cc5a84cc2d9c1b406ff2cb2e22948a9af8e0708f931f5d2cc06a8ea874bc",
+      "object_1": "c450f395e0161cb499d891d8b84105104936b4bfb5a72d0e22f81bbaba47fa5a",
+      "object_2": "b288227588ca01b3e2fb8d84951973111ba52118bdb97538f2706980e8cceddb",
+      "light_intensity": "e1a59d88b621cf3ee41fd9fd3b40001f3f82a8d653c621c4ace471507b927d7b",
+      "light_direction": "df35c910e394f6398243eb386a9d2c3bfd9934ce45566d18a62711fc185b12f7"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  },
+  {
+    "task": "drawer",
+    "seed": 2026111019,
+    "state_file": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111019/state.npy",
+    "state_sha256": "d25526e5cd3471616f2b0a7e41246d0fc761f7dec5d92d510e3c828176f49191",
+    "state_file_sha256": "6e310588b1fcd9a6aa85da591e86d1377c17c3bf00c5b58b1047a35a60e9a048",
+    "source_protocol": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/evaluation_protocol.json",
+    "source_protocol_sha256": "acd77054e4f6ec366ebb6b5a9a6afbaeacb7e9ff95033cb4c556bf6f8b089b4d",
+    "source": "historical drawer development reset, not prototype demonstration",
+    "xmls": {
+      "clean": "${PROJECT_ROOT}/experiments/rla_new_task_baseline/run_20261028_02/dataset_v2/development_protocol/seed_2026111019/clean.xml",
+      "object_1": "${RUN_ROOT}/states/drawer/2026111019/object_1.xml",
+      "object_2": "${RUN_ROOT}/states/drawer/2026111019/object_2.xml",
+      "light_intensity": "${RUN_ROOT}/states/drawer/2026111019/light_intensity.xml",
+      "light_direction": "${RUN_ROOT}/states/drawer/2026111019/light_direction.xml"
+    },
+    "xml_sha256": {
+      "clean": "1eb39dc3a7fc0f9fc86a9a268ef8cd91ffe03bf1870b3d6ebeae70b1e4032266",
+      "object_1": "6f6b33523eb60d2204cdb904f9d40e469b834407d5e2b6a42534681f89c2ab87",
+      "object_2": "d0cae13314b2f74715b82d2b8bd76e2b3e39bc29c28cf5858535a3ab8cdc679b",
+      "light_intensity": "bfec0ebcfed5ce4e6a84f11e00d0c53363b1b1c66208583b15fb0b1acdb37d01",
+      "light_direction": "bf3aeeb6b772e22a4af16f9b3816dc1440f6d95f305f7e8a9df6640b38da3618"
+    },
+    "language": "open the middle drawer of the cabinet",
+    "bddl": "libero_goal/open_the_middle_drawer_of_the_cabinet.bddl"
+  }
+]

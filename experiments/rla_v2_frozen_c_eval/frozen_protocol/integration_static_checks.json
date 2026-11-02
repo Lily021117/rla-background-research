@@ -1,0 +1,1814 @@
+{
+  "status": "PASS_RAW_MODEL_STATIC",
+  "checks": [
+    {
+      "task": "stove",
+      "seed": 2026102500,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102500,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4249906994047619,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102500,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.36750969919217685,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102500,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.6863174957483,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102500,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.250023251488095,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102501,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102501,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5330602944302721,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102501,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.46677694515306123,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102501,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.715411750637756,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102501,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.389399314413264,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102502,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102502,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4930577699829932,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102502,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.43093311543367346,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102502,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.711831021471088,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102502,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.410309045493197,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102503,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102503,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5054541347789115,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102503,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.44289102359693877,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102503,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.682686941964286,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102503,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.321744127338434,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102504,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102504,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5047665550595238,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102504,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4423329878826531,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102504,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.750202620110544,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102504,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.342368197278912,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102505,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102505,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4602598852040816,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102505,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.39695272640306123,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102505,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.677481930272108,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102505,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.209974224064627,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102506,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102506,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.49853847789115646,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102506,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.43704161352040816,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102506,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.697528034651361,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102506,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.39877630739796,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102507,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102507,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4919583067602041,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102507,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.43113905718537415,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102507,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.72278911564626,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102507,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.19540882759354,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102508,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102508,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5293998458758503,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102508,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4626182504251701,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102508,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.77402875212585,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102508,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.411823713860546,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102509,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102509,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.41901838860544216,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102509,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.366124574829932,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102509,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.720942283163266,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102509,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.328337585034014,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102510,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102510,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.42999309098639454,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102510,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.3773284704506803,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102510,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.725815130739797,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102510,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.41767644557823,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102511,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102511,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5205808886054422,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102511,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.45383915284863946,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102511,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.874422034438776,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102511,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.384058115433675,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102512,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102512,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.40962146577380953,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102512,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.3590893388605442,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102512,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.787175807823129,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102512,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.204885469812925,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102513,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102513,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4999236022534014,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102513,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4346301020408163,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102513,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.63568571960034,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102513,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.450480973639454,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102514,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102514,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5665125425170068,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102514,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5000797193877551,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102514,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.742101137329932,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102514,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.261878188775512,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102515,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102515,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.4993257068452381,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102515,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.43466996173469385,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102515,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.761871545493197,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102515,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.348018308886054,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102516,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102516,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5383483471513606,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102516,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.47052707801870747,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102516,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.757081738945578,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102516,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.363125132865648,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102517,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102517,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5209861288265306,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102517,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.45666586947278914,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102517,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.65777131164966,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102517,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.374332350127553,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102518,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102518,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.41088701105442177,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102518,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.35653499681122447,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102518,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.740865486819727,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102518,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.240998352465986,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102519,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102519,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5734780240221088,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102519,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.5077327806122449,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102519,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 15.89145208864796,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "stove",
+      "seed": 2026102519,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.4820099914966,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111000,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111000,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.14262794961734693,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111000,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.012432902848639456,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111000,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.869990965136054,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111000,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.648048867984695,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111001,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111001,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.15673163796768708,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111001,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.013924319727891156,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111001,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.59727093962585,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111001,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.383453576743197,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111002,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111002,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.19017724277210885,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111002,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.017584768282312924,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111002,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.60269850127551,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111002,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.520012887967688,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111003,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111003,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.18455702593537415,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111003,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.01680750425170068,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111003,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.58134699192177,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111003,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.339292357568027,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111004,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111004,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.1714930112670068,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111004,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.014934098639455782,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111004,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.683560533588436,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111004,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.428003427933675,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111005,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111005,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.15883091517857142,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111005,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.013997395833333334,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111005,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.750777264030612,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111005,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.428903592687075,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111006,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111006,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.17153287096088435,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111006,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.014582004676870748,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111006,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.68599861819728,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111006,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.58373857355442,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111007,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111007,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.17903645833333334,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111007,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.015734614158163265,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111007,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.672283561862244,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111007,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.49829267644558,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111008,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111008,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.14657073767006804,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111008,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.012532552083333334,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111008,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.59699856505102,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111008,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.394501355229593,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111009,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111009,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.14866337159863946,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111009,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.01192469175170068,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111009,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.651450228528912,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111009,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.597028459821427,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111010,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111010,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.18137157206632654,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111010,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.01604684842687075,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111010,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.598061490221088,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111010,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.577653326955783,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111011,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111011,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.1494771736819728,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111011,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.01215720663265306,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111011,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.721310985331632,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111011,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.507782605229593,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111012,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111012,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.1706592793367347,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111012,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.01508689413265306,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111012,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.743170705782314,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111012,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.50698541135204,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111013,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111013,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.15050356079931973,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111013,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.012808248299319728,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111013,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.663511107568027,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111013,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.630321269132654,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111014,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111014,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.14176764455782312,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111014,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.011516129889455782,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111014,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.778409996811224,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111014,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.361311516794217,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111015,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111015,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.1858591092687075,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111015,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.016707855017006803,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111015,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.627474622661564,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111015,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.30380394345238,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111016,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111016,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.16478661777210885,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111016,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.014538823341836735,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111016,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.782950680272108,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111016,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.447634327168366,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111017,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111017,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.17248618197278912,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111017,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.015967129039115645,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111017,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.752052774234693,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111017,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.35979020514456,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111018,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111018,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.1816240167942177,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111018,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.016571667729591837,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111018,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.663680511267007,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111018,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.37000425170068,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111019,
+      "condition": "clean",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.0,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111019,
+      "condition": "object_1",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.15449949511054423,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111019,
+      "condition": "object_2",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 0.012359826743197279,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111019,
+      "condition": "light_intensity",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 14.639296343537415,
+      "render_no_time_advance": true
+    },
+    {
+      "task": "drawer",
+      "seed": 2026111019,
+      "condition": "light_direction",
+      "physics_equal": true,
+      "pose_equal": true,
+      "rgb_mae": 21.512153884991495,
+      "render_no_time_advance": true
+    }
+  ],
+  "policy_calls": 0,
+  "render_images": 400,
+  "state_restorations": 200,
+  "physics_steps": 0,
+  "prototype_configuration_by_task": {
+    "stove": "v2_stove_demo_11",
+    "drawer": "v2_drawer_demo_25"
+  },
+  "runtime_ControlEnv_reset_check_required": true
+}
