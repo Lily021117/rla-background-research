@@ -1,0 +1,32 @@
+{
+  "status": "PASS_READ_ONLY_REVIEW",
+  "historical_cited_files_unchanged": true,
+  "actual_cited_files": 68,
+  "ledger_experiments": 18,
+  "new_model_or_simulator_processes_started": false,
+  "counts": {
+    "policy_updates": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "model_forwards": 0,
+    "backward": 0,
+    "new_rollouts": 0,
+    "simulation_replays": 0,
+    "new_sealed_reads": 0
+  },
+  "missing_files": [],
+  "limitations": [
+    "Historical related commits not individually verified unless specified",
+    "Partial historical gradient coverage not repaired",
+    "No complete historical rollout/replay grand total claimed",
+    "Same AE/models reused across evaluation rounds, not independent training replications"
+  ],
+  "files": {
+    "arithmetic_checks.json": "b152a8da33eb89a8bf31f39d67250929e069a8e3cb0cfd64ab49dd3aabec9369",
+    "experiment_ledger.csv": "ab476c5f74bdb491936d05db98bae5bed3752ab65484f43a08fd94b8d9c01822",
+    "evidence_manifest.json": "a42e0d6a806175f399f5befd83b2f49f3e235e1fdcf7a412c4e7b0e3fdcf6502",
+    "decision_report.md": "4c7b16e33b50415a109d5769bdeffd35329ace554b5dc961734633814322ab5e",
+    "build_evidence.py": "039daaf52977efdec05acaf88e86e1fc590b34c7a3f799cd5e81490ee501834b",
+    "mentor_brief.md": "eccf437f75928f3803e326ac92d6d340452162634e116d40f16bfd47a98fa217"
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "project_root": "<PROJECT_ROOT>",
+  "base_commit": "44615033c8d6227f1daf17dec6230136076c8a03",
+  "scope": "explicit cited small files only; no weights/raw states/sealed scan",
+  "files": [
+    {
+      "id": "A1",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/delivery/report.md",
+      "bytes": 2492,
+      "sha256": "cbcc0561daa07a80e93c80b553b43f8456732d3390673e2c0f548e3d19e82900",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "S1",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/protocol.json",
+      "bytes": 1638,
+      "sha256": "9d5f522da781043e1e5fcbc022f1a2e86fde27535c34bbb3ee62b31c529bc5b8",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "L1",
+      "path": "experiments/rla_low_lr_continuation/run_20261030_01/protocol.json",
+      "bytes": 1357,
+      "sha256": "cb2abea461638be027a999343e4da61b61395920594943e27d856999cbf1d84d",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "I1",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/report.md",
+      "bytes": 2845,
+      "sha256": "491bb5c11b5f6fd251c8562ab7adf9bf4e5d997b5348165dda2d53bd81255792",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "R1",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/protocol.json",
+      "bytes": 2252,
+      "sha256": "0947f0ef839f50b7aa4524e7031aea28b9a4c6410dcf37608727a233c3c2893c",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "N1",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/protocol.json",
+      "bytes": 8713,
+      "sha256": "7fb6454cbe3c32089ec78a77e284003f4c3ebab3a1cff902b5acd2911f6481cf",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "A2",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/frozen_plan.json",
+      "bytes": 3263,
+      "sha256": "6a0d87330094eb2d84256b7f16d97b1b5c6f4708c7e7d283a249b204aa5012c3",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "A3",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/delivery/reconstruction_summary.csv",
+      "bytes": 71498,
+      "sha256": "93c8b5e5327044711d288e026b7f61360bfca22bb166f9afbe3f4de13a56f8f5",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "A4",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/delivery/representation_summary.csv",
+      "bytes": 29027,
+      "sha256": "7664b23a4bb2bb4f79156011a7efbebffc7fc87954ea4bbbc47d4c568ecdb834",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "A5",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/code/experiments/rla_ae_from_scratch/run.py",
+      "bytes": 22830,
+      "sha256": "15adedf1a61439f15b12eb39fc82f65f8af631b6de46d1859574e3df2f42cb35",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "A6",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/initialization_audit.json",
+      "bytes": 8282,
+      "sha256": "eb7aea665c9bec1c7bb97028331d0147947df72330b95b703943728a11a5bc0a",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "P1",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/protocol.json",
+      "bytes": 2728,
+      "sha256": "922e1ba356ca2dda45acf5d20bf04d264e0b56fa542da47e66cc2e06a4ff40e7",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "P2",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/delivery/success_summary.csv",
+      "bytes": 1743,
+      "sha256": "c5b9d3441d09e1c29666f397c6a9b665f99c006540e88426f275e199b665cc6e",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "P3",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/protocol.json",
+      "bytes": 1638,
+      "sha256": "9d5f522da781043e1e5fcbc022f1a2e86fde27535c34bbb3ee62b31c529bc5b8",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "P4",
+      "path": "experiments/rla_scratch_policy_aux/run_20261030_01_c_low/delivery/success_summary.csv",
+      "bytes": 1291,
+      "sha256": "1d831b683de84390cc61acd9ddcb69e82a78a99c8fc6d3177ee83f9cb60d5141",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "P5",
+      "path": "experiments/rla_scratch_policy_aux/run_20261030_01_c_low/delivery/delivery_verification.json",
+      "bytes": 361,
+      "sha256": "4fc070701a055818c7664c8a19d4f4bd1942138bc97e430b507fd642f1e6f86d",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "S2",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/delivery/success_summary.csv",
+      "bytes": 1166,
+      "sha256": "6ea3a34ace78f5482d11b89b494c07e47c520bd861861c6d4689556a4bd7a843",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "S3",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/delivery/delivery_verification.json",
+      "bytes": 477,
+      "sha256": "61abc6ccf8b8aec247725857aedecbdabdaa0a72d834fc5e0793c64cd2257beb",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "L2",
+      "path": "experiments/rla_low_lr_continuation/run_20261030_01/delivery/success_summary.csv",
+      "bytes": 2587,
+      "sha256": "dc5b34c3ceb96d59bbc8a682026292fd74a2584f6e0251bff2363e7c27802eb6",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "L3",
+      "path": "experiments/rla_low_lr_continuation/run_20261030_01/delivery/delivery_verification.json",
+      "bytes": 330,
+      "sha256": "19f3d0280d727a554381f79dde15debe7efacae15f764f336c78a4230a646c30",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "I2",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/success_summary.csv",
+      "bytes": 1174,
+      "sha256": "9cd396b138947d08bd1352302664cf642d6e1891e4a4dd756a8a97164470aebc",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "I3",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/delivery_verification.json",
+      "bytes": 266,
+      "sha256": "d1223beb307d929baaf0b313e3cedd034a321b237b8005d2e0ea7bb3182d1758",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "I4",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/paired_statistics.json",
+      "bytes": 4585,
+      "sha256": "4176b9699943816c91b13468c60499593628a3e2dab13534fa7ae0087f7a02ac",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "R2",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/delivery/success_by_seed_appearance.csv",
+      "bytes": 1930,
+      "sha256": "207c974b4e25a7d84261da5a7752878dc148d4cab7d5eb11daaf44e94f793444",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "R3",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/delivery/method_summary.json",
+      "bytes": 1145,
+      "sha256": "26948c12fc360d13821861cfdcab0eec5f5c7d3e547f7c97a525da87400a0b30",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "R4",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/delivery/delivery_verification.json",
+      "bytes": 1573,
+      "sha256": "89161c24a448da97664524287602d7708ce45e90610a580730d5872679152cf4",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "N2",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/clean_reuse.json",
+      "bytes": 246615,
+      "sha256": "5930c66ad33d7ab180bab845b187c3c9958b885d245805ddc5c91f4868dbe09f",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "N3",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/main_statistics.json",
+      "bytes": 2583,
+      "sha256": "ed56ee1acb9ca04f4081cc48dfb141d8095bbf38a1dc6f8b9b8e773bc5265916",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "N4",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/offline_stage_summary.csv",
+      "bytes": 1117,
+      "sha256": "366fd00830512c4cf59b2407a325e8f590dc77f0fb7df29663e2ede24c42fff2",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "N5",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/offline_by_demo.csv",
+      "bytes": 180933,
+      "sha256": "70fe9003780b9b7703edce1dcc129d1708166e04b38f5e817d1c2589bc12ef04",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "N6",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/success_by_seed_condition.csv",
+      "bytes": 1961,
+      "sha256": "094ffb0847d166ed85ebb9858147b6be2b14afc306c70889f67f9f1f19886945",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "N7",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/delivery_verification.json",
+      "bytes": 1364,
+      "sha256": "7c8d873edd50653103f1ea607e1b1d4a4f477eaf653247ca75db9a79b63aab57",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "H1",
+      "path": "experiments/official_libero_rla_consistency/run_20261023_10/recovery_20261024/completion/report.md",
+      "bytes": 11514,
+      "sha256": "f7b8f57f364ddb6e64a77edb7c3a3fa572d8417904e56d7fdc4190270f78d216",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H2",
+      "path": "experiments/official_libero_rla_consistency/run_20261023_09/report.md",
+      "bytes": 7957,
+      "sha256": "1050e6ad2230214390c8d3ceccd83e1c38b88295b15b8f03cffe227867a22027",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H3",
+      "path": "experiments/official_libero_rla_consistency/stove_centering/run_20261024_01/report.md",
+      "bytes": 9172,
+      "sha256": "2440ff8cb04f8fbb423c754a4fd408317e8ef069270773b2563fa55f6bab875a",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H4",
+      "path": "experiments/official_libero_rla_consistency/stove_aux_weight/run_20261025_01/completion_report.md",
+      "bytes": 11056,
+      "sha256": "d4f7eafb32bda1940a60ff8aff2549f644e47bd2d30bb7711f24a8d19087f4fb",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H5",
+      "path": "experiments/rla_ae_consistency_strength/run_20261026_01/report.md",
+      "bytes": 7672,
+      "sha256": "c266e4463a608eeed473113087fbf316ca11b81c08ca1c7a68f10ce4ce343f97",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H6",
+      "path": "experiments/control_preserving_rla/run_20261025_01/results/report.md",
+      "bytes": 16306,
+      "sha256": "5d71adbf3b58c758b11762422f805b9022d68d97d19e625a30481c398368880b",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H7",
+      "path": "experiments/rla_appearance_gap_eval/run_20261028_01/report.md",
+      "bytes": 6577,
+      "sha256": "71c92c5a5b0cfb8e1a61bbc48f26fdb863f4e43356d2d56628180ea5a23f19bb",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H8",
+      "path": "experiments/rla_aux_interference_diagnostic/run_20261028_01/report.md",
+      "bytes": 9333,
+      "sha256": "91330b94f11983e5f73a20b940092e4f76ea667c6149586617fa2b91e4e7c7e2",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H9",
+      "path": "experiments/rla_trajectory_divergence_analysis/run_20261028_01/analysis/report.md",
+      "bytes": 12430,
+      "sha256": "0707c82c781f12ea60892e5baf6a0e5f874b1fb15fad389266bc22459f1c8813",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H10",
+      "path": "experiments/rla_task_geometry_target/run_20261028_01/report.md",
+      "bytes": 1341,
+      "sha256": "a9261654f87daa32be9d62c43a80cb265d18cbe69d18b1c5758634b77e0eff25",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Preport",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/delivery/report.md",
+      "bytes": 1861,
+      "sha256": "eaf52b8244c67cee7e29039878d8a0b0532d69f4c8cdad6779f72c71428c286b",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Pverification",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/delivery/delivery_verification.json",
+      "bytes": 850,
+      "sha256": "def2b824e0f2921f98697d68d37501355ddfb5c472a613417a74215af1a4424c",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Qreport",
+      "path": "experiments/rla_scratch_policy_aux/run_20261030_01_c_low/delivery/report.md",
+      "bytes": 2327,
+      "sha256": "1688a0b27168ed0269fb585845f1017744804b67aef788659fd0e94c07a102eb",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Qverification",
+      "path": "experiments/rla_scratch_policy_aux/run_20261030_01_c_low/delivery/delivery_verification.json",
+      "bytes": 361,
+      "sha256": "4fc070701a055818c7664c8a19d4f4bd1942138bc97e430b507fd642f1e6f86d",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Sreport",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/delivery/report.md",
+      "bytes": 2391,
+      "sha256": "65126f5cb349ee82be276ef3bd3ff690f947b1fafb2cecdb376be85aa636692d",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Sverification",
+      "path": "experiments/rla_scratch_low_policy_seeds/run_20261030_01/delivery/delivery_verification.json",
+      "bytes": 477,
+      "sha256": "61abc6ccf8b8aec247725857aedecbdabdaa0a72d834fc5e0793c64cd2257beb",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Lreport",
+      "path": "experiments/rla_low_lr_continuation/run_20261030_01/delivery/report.md",
+      "bytes": 4080,
+      "sha256": "8c07045eb487a86e2c4f2cde175b637ace642f0f3c4980effdf9484acffb113b",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Lverification",
+      "path": "experiments/rla_low_lr_continuation/run_20261030_01/delivery/delivery_verification.json",
+      "bytes": 330,
+      "sha256": "19f3d0280d727a554381f79dde15debe7efacae15f764f336c78a4230a646c30",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Ireport",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/report.md",
+      "bytes": 2845,
+      "sha256": "491bb5c11b5f6fd251c8562ab7adf9bf4e5d997b5348165dda2d53bd81255792",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Iverification",
+      "path": "experiments/rla_frozen1800_independent_states/run_20261031_02/delivery/delivery_verification.json",
+      "bytes": 266,
+      "sha256": "d1223beb307d929baaf0b313e3cedd034a321b237b8005d2e0ea7bb3182d1758",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Rreport",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/delivery/report.md",
+      "bytes": 2341,
+      "sha256": "c7fa7e50721d8c2e4f18b8de9e5299ddc206f48692ca99d822de590395d8ecc7",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "Rverification",
+      "path": "experiments/rla_drawer_baseline_gap/run_20261101_01/delivery/delivery_verification.json",
+      "bytes": 1573,
+      "sha256": "89161c24a448da97664524287602d7708ce45e90610a580730d5872679152cf4",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "752fbdd2bcf17361a00a5ff0cedaf9c18c05ae2e"
+    },
+    {
+      "id": "Nreport",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/report.md",
+      "bytes": 4428,
+      "sha256": "3dffb85bd282fe426efd387b659ff57544251420238cf12ee7f05af9c37320d6",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "Nverification",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/delivery/delivery_verification.json",
+      "bytes": 1364,
+      "sha256": "7c8d873edd50653103f1ea607e1b1d4a4f477eaf653247ca75db9a79b63aab57",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "Averification",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/delivery/delivery_verification.json",
+      "bytes": 4585,
+      "sha256": "c6ceb4e6415d9a0b8e352d29029cbccfb03a977e18f95df0f36593115ed89fce",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Adata",
+      "path": "experiments/rla_ae_from_scratch/run_20261029_01/data_inventory.csv",
+      "bytes": 314,
+      "sha256": "5008476fcb4625b8545a01e288ca197e4ebec70f90af9e2cf6d5927fec76efcf",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "PnormC",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/targets/C/statistics.json",
+      "bytes": 53503,
+      "sha256": "39407e0ed4b2ee3b06fd4b3464cde53a84c8bbdfa77c3d4c0cfb40359be903c7",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "PnormD",
+      "path": "experiments/rla_scratch_policy_aux/run_20261029_01/targets/D/statistics.json",
+      "bytes": 53820,
+      "sha256": "1be4c355356df04bbd6acd301d9308eb6a66384ea5a6b71de7992313b36675a4",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H10stats",
+      "path": "experiments/rla_task_geometry_target/run_20261028_01/success_summary.csv",
+      "bytes": 1548,
+      "sha256": "de3649433dcfcb1e9d26fe78e15ac50d4bf5f3c771ddc7d5b0adcff767fe9e2a",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H7stats",
+      "path": "experiments/rla_appearance_gap_eval/run_20261028_01/complete_comparison_table.csv",
+      "bytes": 2838,
+      "sha256": "7e72decdb0f375f188cdb4c0d6d7e332ca3d832f8c18cee0455c21cee5d40572",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H8stats",
+      "path": "experiments/rla_aux_interference_diagnostic/run_20261028_01/target_switch_summary.csv",
+      "bytes": 36912,
+      "sha256": "1a0d2b22834495ceb599149b9b80548641d9f4cb3de97d66d29c8e5d352b46f8",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H9stats",
+      "path": "experiments/rla_trajectory_divergence_analysis/run_20261028_01/analysis/paired_summary.csv",
+      "bytes": 55472,
+      "sha256": "aa4779c539233a0c3fb5a79b14d913dadb678cc98e6c2e017518d6c9d1a4b474",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "H1stats",
+      "path": "experiments/official_libero_rla_consistency/run_20261023_10/recovery_20261024/completion/per_trial_results_combined.csv",
+      "bytes": 402751,
+      "sha256": "a4e7f9fcc6e013d3a88f737d1eca3197ae225c8c3d6e0544d1e0618f43644eb5",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "未核验；以现存文件hash定位"
+    },
+    {
+      "id": "Nrender",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/offline_render_acceptance.json",
+      "bytes": 159,
+      "sha256": "1a745db1c7323c88d1bd746f959d80c60b2b84b92c795a25f66ee3f94df405fc",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "Nae",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/offline_ae_acceptance.json",
+      "bytes": 401,
+      "sha256": "69dc677e24d8361234efe375eec04b83073488c1efc40865df62810a6bc1dbda",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    },
+    {
+      "id": "Npolicy",
+      "path": "experiments/rla_frozen_nuisance_pilot/run_20261101_01/offline_policy_acceptance.json",
+      "bytes": 663,
+      "sha256": "21a6f6c4bc3f078552551c29109ba32e074ce560bde3b38f634dda93db11ce03",
+      "status": "已读取；引用材料hash核验，不代表重审原始轨迹",
+      "related_commit": "44615033c8d6227f1daf17dec6230136076c8a03"
+    }
+  ],
+  "this_review": {
+    "policy_updates": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "model_forwards": 0,
+    "backward": 0,
+    "new_rollouts": 0,
+    "simulation_replays": 0,
+    "new_sealed_reads": 0
+  }
+}

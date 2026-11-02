@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "checks": {
+    "P2": {
+      "rows": 40,
+      "successes": 348,
+      "displayed_trials": 800,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "P4": {
+      "rows": 30,
+      "successes": 331,
+      "displayed_trials": 600,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "S2": {
+      "rows": 30,
+      "successes": 215,
+      "displayed_trials": 600,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "L2": {
+      "rows": 60,
+      "successes": 763,
+      "displayed_trials": 1200,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "I2": {
+      "rows": 30,
+      "successes": 1374,
+      "displayed_trials": 1500,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "R2": {
+      "rows": 30,
+      "successes": 524,
+      "displayed_trials": 600,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "N6": {
+      "rows": 42,
+      "successes": 975,
+      "displayed_trials": 1050,
+      "note": "展示总数包含复用，不能当新增闭环"
+    },
+    "nuisance_recomputed": [
+      {
+        "category": "clean",
+        "C-low": 0.8933333333333333,
+        "D-low": 0.9466666666666667,
+        "D_minus_C": 0.053333333333333344
+      },
+      {
+        "category": "background",
+        "C-low": 0.9422222222222222,
+        "D-low": 0.9155555555555556,
+        "D_minus_C": -0.026666666666666616
+      },
+      {
+        "category": "lighting",
+        "C-low": 0.9377777777777778,
+        "D-low": 0.9244444444444444,
+        "D_minus_C": -0.01333333333333342
+      }
+    ],
+    "early_task_raw_trial_recount": {
+      "cookie_historical/B20": {
+        "successes": 53,
+        "trials": 60
+      },
+      "cookie_historical/C": {
+        "successes": 59,
+        "trials": 60
+      },
+      "cookie_historical/D": {
+        "successes": 60,
+        "trials": 60
+      },
+      "drawer/B": {
+        "successes": 0,
+        "trials": 60
+      },
+      "drawer/C": {
+        "successes": 1,
+        "trials": 60
+      },
+      "drawer/D": {
+        "successes": 0,
+        "trials": 60
+      },
+      "stove/B": {
+        "successes": 9,
+        "trials": 60
+      },
+      "stove/C": {
+        "successes": 59,
+        "trials": 60
+      },
+      "stove/D": {
+        "successes": 0,
+        "trials": 60
+      }
+    },
+    "continuation_600": {
+      "C-low_clean": 0.18333333333333332,
+      "C-low_background": 0.1375,
+      "D-low_clean": 0.45,
+      "D-low_background": 0.6
+    },
+    "continuation_1800": {
+      "C-low_clean": 0.9666666666666667,
+      "C-low_background": 0.8541666666666666,
+      "D-low_clean": 0.95,
+      "D-low_background": 0.95
+    },
+    "AE_final_representation": [
+      {
+        "arm": "C",
+        "step": "2000",
+        "task": "cookie",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "208.73648071289062",
+        "latent_mean": "0.06218508630990982",
+        "mean_coordinate_variance": "7.484514236450195",
+        "entropy_effective_rank": "4.070549011230469",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "2.453061819076538",
+        "paired_unit_L2": "0.20826049149036407",
+        "cosine": "0.9715255498886108"
+      },
+      {
+        "arm": "C",
+        "step": "2000",
+        "task": "drawer_bowl",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "205.58253479003906",
+        "latent_mean": "0.04939843341708183",
+        "mean_coordinate_variance": "8.829604148864746",
+        "entropy_effective_rank": "3.998643398284912",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "1.2960764169692993",
+        "paired_unit_L2": "0.16003204882144928",
+        "cosine": "0.9845336079597473"
+      },
+      {
+        "arm": "C",
+        "step": "2000",
+        "task": "stove",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "207.23391723632812",
+        "latent_mean": "0.09090559184551239",
+        "mean_coordinate_variance": "7.779542446136475",
+        "entropy_effective_rank": "4.22194766998291",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "1.7781426906585693",
+        "paired_unit_L2": "0.18618597090244293",
+        "cosine": "0.9794735312461853"
+      },
+      {
+        "arm": "D",
+        "step": "2000",
+        "task": "cookie",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "148.5174560546875",
+        "latent_mean": "0.030586855486035347",
+        "mean_coordinate_variance": "3.226480484008789",
+        "entropy_effective_rank": "3.8233327865600586",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "0.6410794258117676",
+        "paired_unit_L2": "0.15453113615512848",
+        "cosine": "0.9850208759307861"
+      },
+      {
+        "arm": "D",
+        "step": "2000",
+        "task": "drawer_bowl",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "148.09486389160156",
+        "latent_mean": "0.0178642850369215",
+        "mean_coordinate_variance": "3.6127238273620605",
+        "entropy_effective_rank": "3.8561108112335205",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "0.409562349319458",
+        "paired_unit_L2": "0.12915456295013428",
+        "cosine": "0.990399956703186"
+      },
+      {
+        "arm": "D",
+        "step": "2000",
+        "task": "stove",
+        "split": "validation",
+        "appearance": "clean",
+        "n": "45",
+        "latent_norm": "148.02728271484375",
+        "latent_mean": "0.03136643394827843",
+        "mean_coordinate_variance": "3.174042224884033",
+        "entropy_effective_rank": "3.8514292240142822",
+        "rank_sample_ceiling": "44",
+        "paired_MSE": "0.44454213976860046",
+        "paired_unit_L2": "0.13568352162837982",
+        "cosine": "0.9896055459976196"
+      }
+    ],
+    "AE_configuration": {
+      "seed": 20261029,
+      "formal_updates": 4000,
+      "pilot_updates": 60,
+      "lambda_cons": 4.362407926306656e-05
+    }
+  },
+  "this_review": {
+    "policy_updates": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "model_forwards": 0,
+    "backward": 0,
+    "new_rollouts": 0,
+    "simulation_replays": 0,
+    "new_sealed_reads": 0
+  }
+}
