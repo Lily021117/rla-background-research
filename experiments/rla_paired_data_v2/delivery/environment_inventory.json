@@ -1,0 +1,27 @@
+{
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "Pillow": "12.3.0",
+    "h5py": "3.16.0",
+    "mujoco": "3.3.2",
+    "robosuite": "1.4.1",
+    "imageio": "2.38.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "device": "CPU OSMesa",
+  "cuda_visible_devices": "",
+  "reflection_scene_default_verified": 1,
+  "threads_per_render_process": 2,
+  "max_render_processes": 2,
+  "code_sha256": {
+    "history_check.py": "3f297ab52179436b6ba9aee5b50799fbd42e9298ac391c76cf40a06b72018ce5",
+    "prepare.py": "86c20d49bcece7163d601dffabbe2c6e20d4ffd0261bb68d48ca75680184459e",
+    "finish.py": "86b470d071323803390ad003315124a78fe1f5318a5fadb2ed53f04176d23213",
+    "batch_render.py": "5323c1aa2d0dd97364d1aae0cf315e9335daf63045d1101f3cebc9882f20ff57",
+    "verify.py": "91254c06aa99b8ff28645336db176ed359b462c35477a0b3ee7eb5052e824abc",
+    "render.py": "99881df6f029d974a4d36bbb38e7d2238be26840a467d6ec70fb2dc077aa7360",
+    "common.py": "547ad1b1d6a85f582466bd0a0df380f44c341481d70d747b6174901f214cf3e6",
+    "package.py": "ab4ea9c98af55e29b0fc042b31e7d7fe867c73d3bd22be0fbfacf7189616923b"
+  }
+}

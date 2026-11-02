@@ -1,0 +1,74 @@
+{
+  "version": "training-prototype-v2",
+  "tasks": [
+    "stove_bowl_to_plate",
+    "open_middle_drawer"
+  ],
+  "max_candidates_per_task": 20,
+  "max_sources": 10,
+  "max_complete_render_versions": 50,
+  "max_open_loop_replays": 50,
+  "planned_open_loop_replays": 0,
+  "selection": "numeric unused legal source ID first; then numeric historical train fallback; never development/protected; stop when5 pass",
+  "partition": "training-prototype only, not train/dev/test split",
+  "conditions": [
+    "clean",
+    "object_1",
+    "object_2",
+    "light_intensity",
+    "light_direction"
+  ],
+  "camera_order": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "resolution": [
+    224,
+    224
+  ],
+  "control_hz": 20,
+  "reflection": 1,
+  "MSAA": 4,
+  "small_sample": "first selected source/task; indices floor(linspace(0,N-1,5))",
+  "geometry_tolerances": {
+    "state": 0,
+    "compiled_physics": 0,
+    "FK_camera": 0,
+    "depth_m": 1e-06,
+    "segmentation_pixels": 0
+  },
+  "image_gate": "fixed sample: image mean in(3,252),std>3; if Clean ROI>=4px and mean>3, variant ROI mean>=max(2,.35*Clean) and<250; legitimate Clean occlusion is missing visibility not variant failure; changed RGB>0 somewhere; no policy selection",
+  "model_forwards": 0,
+  "training_updates": 0,
+  "backward": 0,
+  "policy_rollouts": 0,
+  "simulation_integration_steps": 0,
+  "light_intensity": "multiply diffuse/specular/ambient by0.65; preserve hue and direction",
+  "light_direction": "rotate each existing light direction30deg about world Y; no position/intensity change",
+  "object_whitelist": [
+    "clone only target visual materials and textures",
+    "target visual geom material reference",
+    "material specular/shininess/reflectance",
+    "texture file, same geometry/UV"
+  ],
+  "forbidden": [
+    "mass",
+    "friction",
+    "collision",
+    "geometry",
+    "camera",
+    "dynamics",
+    "task goal",
+    "source actions",
+    "source states"
+  ],
+  "runtime": {
+    "mujoco": "3.3.2",
+    "libero_commit": "4976dc30028e805ff8094b55501d532c48fec182"
+  },
+  "source_code": {
+    "path": "${LIBERO_ROOT}/scripts/create_dataset.py",
+    "sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f",
+    "semantics": "env.step(actions[j]) then obs; writes states[valid_index] with same actions index; regenerate at saved pre-action states; no settling added to state before render"
+  }
+}

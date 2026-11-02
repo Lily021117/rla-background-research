@@ -1,0 +1,22 @@
+{
+  "stove": {
+    "total_source_episodes": 50,
+    "old_train": 20,
+    "old_development": 5,
+    "protected_count": 15,
+    "relationship": "same original HDF5+demo identity; no Cosmos ID join; prior source audit may have read content but not necessarily trained/scored; unexamined candidates NOT certified independent additions",
+    "selected_new": 5,
+    "selected_reused": 0,
+    "remaining_unexamined_potential": 5
+  },
+  "drawer": {
+    "total_source_episodes": 50,
+    "old_train": 20,
+    "old_development": 5,
+    "protected_count": 0,
+    "relationship": "same original HDF5+demo identity; no Cosmos ID join; prior source audit may have read content but not necessarily trained/scored; unexamined candidates NOT certified independent additions",
+    "selected_new": 5,
+    "selected_reused": 0,
+    "remaining_unexamined_potential": 20
+  }
+}

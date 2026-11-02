@@ -1,0 +1,1512 @@
+{
+  "v2_stove_demo_11": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/clean.xml",
+      "xml_sha256": "a1cd8454f97f9370a599a3de4a1193bb2d8dc0cc356abf0d281ca28923dc0e97",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/object_1.xml",
+      "xml_sha256": "0d11c08276ac59b2bb8a42fe5e07afa727862109b081ed4417774a0d25e74d67",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_1",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/assets/akita_black_bowl_1_tex-akita_black_bowl_object_1.png"
+          },
+          "texture_sha256": "2224610d468e3f931fb3faedcdca3a721b966ba246853210da1d7731c4eaeef2"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/object_2.xml",
+      "xml_sha256": "cad93ce52047517bb2031836b4df455a51d71b3154a14cdba48fab8889eb6615",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_2",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/assets/akita_black_bowl_1_tex-akita_black_bowl_object_2.png"
+          },
+          "texture_sha256": "edf320e494f29c03217abbf73c778e68a55fc10cf8529781aaaab0de37f27c9b"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/light_intensity.xml",
+      "xml_sha256": "37e6edd7f2defd5a127b1f6b3696d1af8b7d39ec8775b69f3ffa51cf0b820228",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_11/light_direction.xml",
+      "xml_sha256": "8c4490e8dd582f6e50d7bf2ee6fb5c857a72de387ce05846008fdb1899f85ff6",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_stove_demo_22": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/clean.xml",
+      "xml_sha256": "3ebefb116e1d13b4353eff18359fa34e8f067723351fd7d409d9694c79c4432e",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/object_1.xml",
+      "xml_sha256": "10629524143d699b9b3b3db8b7eddc2d1f3d0ad7ad7759bc863493f9285273e4",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_1",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/assets/akita_black_bowl_1_tex-akita_black_bowl_object_1.png"
+          },
+          "texture_sha256": "2224610d468e3f931fb3faedcdca3a721b966ba246853210da1d7731c4eaeef2"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/object_2.xml",
+      "xml_sha256": "bea69a8a612e0221f0c634414dc7a7fb780d6d77d3f959adb764264f24d1a068",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_2",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/assets/akita_black_bowl_1_tex-akita_black_bowl_object_2.png"
+          },
+          "texture_sha256": "edf320e494f29c03217abbf73c778e68a55fc10cf8529781aaaab0de37f27c9b"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/light_intensity.xml",
+      "xml_sha256": "c1e4c496aea5ccef3166671fdbb51493c4b246e0f9fcebc3ff32cbf4f9bbe4d8",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_22/light_direction.xml",
+      "xml_sha256": "51ae4ea3b3a94769fbf9a792c69e61d7a602c770eb2964f1402ea75d99516d87",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_stove_demo_23": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/clean.xml",
+      "xml_sha256": "1a9355d6bccf0208922378d48594356000e09d3eee79adf3b9962e8b5fc4b6a2",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/object_1.xml",
+      "xml_sha256": "fbb2ca2682c0c5e56d3bee86b627e91fbc8daac7b6c9c4610de5c4d8e13a2c5a",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_1",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/assets/akita_black_bowl_1_tex-akita_black_bowl_object_1.png"
+          },
+          "texture_sha256": "2224610d468e3f931fb3faedcdca3a721b966ba246853210da1d7731c4eaeef2"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/object_2.xml",
+      "xml_sha256": "54263c7f60b8857b054d8d6f8ddd7fe208e642db6550822252b387b88d121d13",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_2",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/assets/akita_black_bowl_1_tex-akita_black_bowl_object_2.png"
+          },
+          "texture_sha256": "edf320e494f29c03217abbf73c778e68a55fc10cf8529781aaaab0de37f27c9b"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/light_intensity.xml",
+      "xml_sha256": "0c9ec26be3ea9e6b5b350277f417d8e45d950eb12232936df36d444e11ea9374",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_23/light_direction.xml",
+      "xml_sha256": "9dee9be1690e298772fed28ad2ff215117c8dcb2a43f8379dabb45d8acc0ac64",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_stove_demo_24": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/clean.xml",
+      "xml_sha256": "626f669554010cda16bc1d3b355574746cd964f1aa5c780c11a6c45f98c0de4b",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/object_1.xml",
+      "xml_sha256": "760af8a71589b141c1a65853b8a91568f4796b9e70c9a423b603204607dbae32",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_1",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/assets/akita_black_bowl_1_tex-akita_black_bowl_object_1.png"
+          },
+          "texture_sha256": "2224610d468e3f931fb3faedcdca3a721b966ba246853210da1d7731c4eaeef2"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/object_2.xml",
+      "xml_sha256": "a0d27a7ec0ad553745d654c4213f41a56e0e6445d009df68ca008e38334de95a",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_2",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/assets/akita_black_bowl_1_tex-akita_black_bowl_object_2.png"
+          },
+          "texture_sha256": "edf320e494f29c03217abbf73c778e68a55fc10cf8529781aaaab0de37f27c9b"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/light_intensity.xml",
+      "xml_sha256": "9e72211ac4412f979c72ccb58d1efd7e9c72bb393c58f1aa5d9e30d495add7d6",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_24/light_direction.xml",
+      "xml_sha256": "3b424a528e049f9bb5bcab6bf28068bd59dba7d752a4492a3d5c54e9759abba7",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_stove_demo_25": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/clean.xml",
+      "xml_sha256": "7d209f06c5484a1b21bd6e8884a414b12c97d321734513ea7aff0817ade4574c",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/object_1.xml",
+      "xml_sha256": "2d729ca6f4b6c0a2e6358735f2ce8eb9328bf97fa5d3af400e0470ebba2ad6dd",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_1",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/assets/akita_black_bowl_1_tex-akita_black_bowl_object_1.png"
+          },
+          "texture_sha256": "2224610d468e3f931fb3faedcdca3a721b966ba246853210da1d7731c4eaeef2"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/object_2.xml",
+      "xml_sha256": "680a7f975d3286f6054878c2498f570aa144ba4d6f10e2e16679a47c023b61ab",
+      "changes": [
+        {
+          "original_material": "akita_black_bowl_1_akita_black_bowl",
+          "new_material": {
+            "name": "akita_black_bowl_1_akita_black_bowl_v2_object_2",
+            "texture": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "akita_black_bowl_1_tex-akita_black_bowl_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/assets/akita_black_bowl_1_tex-akita_black_bowl_object_2.png"
+          },
+          "texture_sha256": "edf320e494f29c03217abbf73c778e68a55fc10cf8529781aaaab0de37f27c9b"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/light_intensity.xml",
+      "xml_sha256": "e6bc87e9c2202cf5c7a27ec8db8b5a097f37a9cc5b3ec65342a862cdd54b871d",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_stove_demo_25/light_direction.xml",
+      "xml_sha256": "d07d9cdaa5f691dd13b19b9f7b1d232ddf28f9bfd7900068469621f0034cefa0",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_drawer_demo_25": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/clean.xml",
+      "xml_sha256": "5617fab82b756e4af48b0f5174527d409e8434e446c613a5d8992bbe2736da71",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/object_1.xml",
+      "xml_sha256": "4f62179dc549f05672a20975945c915bf7ef1230dab8b4a2f2d40723ec9a703b",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/assets/wooden_cabinet_1_tex-wooden_cabinet_object_1.png"
+          },
+          "texture_sha256": "019ad2a5713114bb1ecdea7b3163c8aaa284e742222100772a2ee4e931ccb589"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_1.png"
+          },
+          "texture_sha256": "18b36bf4e916b027f4ca6b830d94c49a735aff8c6b56871e31c71806d9a112dc"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/object_2.xml",
+      "xml_sha256": "e60ad316d4804ca6e10edf2bc2bb0039e567d6ee2c9be0623df3c3ccda75933b",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/assets/wooden_cabinet_1_tex-wooden_cabinet_object_2.png"
+          },
+          "texture_sha256": "30c7dd36c887bf48a66cdebe5731dc8113971c4fd8d4c74049ff5b2d394fc8ae"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_2.png"
+          },
+          "texture_sha256": "5eff93a6cf9ac062fda84f7ac45b7027126765e313ccd24b80c19d318e6f64c5"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/light_intensity.xml",
+      "xml_sha256": "0479ed0d583e6ea93f8e796c026ed6b9386d92b30d6de9905398280171f8a292",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_25/light_direction.xml",
+      "xml_sha256": "3ce0a0446c3fd32be74a9ebb97bdd6c292198b25a8e525f1454b7986b025df62",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_drawer_demo_26": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/clean.xml",
+      "xml_sha256": "7eab0786cfd73f5a9c009d6a539e18093ba210005895352751d2138c94d8c172",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/object_1.xml",
+      "xml_sha256": "6fff250cf2716fb87bb1f1d2da5c47b6d38eeaa334c2b021c045607fcb1dbbf3",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/assets/wooden_cabinet_1_tex-wooden_cabinet_object_1.png"
+          },
+          "texture_sha256": "019ad2a5713114bb1ecdea7b3163c8aaa284e742222100772a2ee4e931ccb589"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_1.png"
+          },
+          "texture_sha256": "18b36bf4e916b027f4ca6b830d94c49a735aff8c6b56871e31c71806d9a112dc"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/object_2.xml",
+      "xml_sha256": "b9dfd4806cda2c9d01eac56d7354ffd75477a2d9b703311ade7ddbac438726cd",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/assets/wooden_cabinet_1_tex-wooden_cabinet_object_2.png"
+          },
+          "texture_sha256": "30c7dd36c887bf48a66cdebe5731dc8113971c4fd8d4c74049ff5b2d394fc8ae"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_2.png"
+          },
+          "texture_sha256": "5eff93a6cf9ac062fda84f7ac45b7027126765e313ccd24b80c19d318e6f64c5"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/light_intensity.xml",
+      "xml_sha256": "75b64a25b822cba2e588d1f42a34c12e9cc516af6e6eecfc4b81216f69e67499",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_26/light_direction.xml",
+      "xml_sha256": "6bac6d608a40467da96adcb4919beea7726fe3f7639061acbe33b61d9d84960b",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_drawer_demo_27": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/clean.xml",
+      "xml_sha256": "5c2bd36f74d114de90c5b8536756b93878a1b3c4e7e03fd2775fa62b6d9573ba",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/object_1.xml",
+      "xml_sha256": "62384070363944be4450b4557fcd4138111016cadf5e86399154aa4c374f49d0",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/assets/wooden_cabinet_1_tex-wooden_cabinet_object_1.png"
+          },
+          "texture_sha256": "019ad2a5713114bb1ecdea7b3163c8aaa284e742222100772a2ee4e931ccb589"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_1.png"
+          },
+          "texture_sha256": "18b36bf4e916b027f4ca6b830d94c49a735aff8c6b56871e31c71806d9a112dc"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/object_2.xml",
+      "xml_sha256": "1d85b42342bfa4d34b3d1967594b2ee774a5abd540755ca983c18828823f74bb",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/assets/wooden_cabinet_1_tex-wooden_cabinet_object_2.png"
+          },
+          "texture_sha256": "30c7dd36c887bf48a66cdebe5731dc8113971c4fd8d4c74049ff5b2d394fc8ae"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_2.png"
+          },
+          "texture_sha256": "5eff93a6cf9ac062fda84f7ac45b7027126765e313ccd24b80c19d318e6f64c5"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/light_intensity.xml",
+      "xml_sha256": "fc735349e3fedce22ed92529dfdb40c13a7139392f281b2ad92d0efc8b63afb6",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_27/light_direction.xml",
+      "xml_sha256": "14510c594b28b026d3b6b5ef3fd25a6193d1f94f6c8b8fec8124c866fef61d20",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_drawer_demo_28": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/clean.xml",
+      "xml_sha256": "2c3e96c727c286770c290cb71d37e561c27dbc74020a634acbd8a5012efaf984",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/object_1.xml",
+      "xml_sha256": "77ae5f8cb0834e2f9d410bfb022b2179205bb99184e963fc57f8a2cda46f5f6a",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/assets/wooden_cabinet_1_tex-wooden_cabinet_object_1.png"
+          },
+          "texture_sha256": "019ad2a5713114bb1ecdea7b3163c8aaa284e742222100772a2ee4e931ccb589"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_1.png"
+          },
+          "texture_sha256": "18b36bf4e916b027f4ca6b830d94c49a735aff8c6b56871e31c71806d9a112dc"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/object_2.xml",
+      "xml_sha256": "407ecce08ebf013958b561e463ebfb9f90a4bc1c4cc09843c46c11057a53cc85",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/assets/wooden_cabinet_1_tex-wooden_cabinet_object_2.png"
+          },
+          "texture_sha256": "30c7dd36c887bf48a66cdebe5731dc8113971c4fd8d4c74049ff5b2d394fc8ae"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_2.png"
+          },
+          "texture_sha256": "5eff93a6cf9ac062fda84f7ac45b7027126765e313ccd24b80c19d318e6f64c5"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/light_intensity.xml",
+      "xml_sha256": "a7c1675908aad7dceb5f0f644af261dd70f89969e9c266a0d3806f1b7cc17394",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_28/light_direction.xml",
+      "xml_sha256": "8ac6dacc1fa44459883c23e1f6c8d929387358227f2e95653610f5124f0689ef",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  },
+  "v2_drawer_demo_29": {
+    "clean": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/clean.xml",
+      "xml_sha256": "48e8294b0f4f16b46d891331aa18ba07e22b0656fe1946eee036c99513e72461",
+      "changes": []
+    },
+    "object_1": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/object_1.xml",
+      "xml_sha256": "98dbdb36f02636a6805dab2b6c1d51d23e853e880f8e6075d2475b97881c4e4a",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/assets/wooden_cabinet_1_tex-wooden_cabinet_object_1.png"
+          },
+          "texture_sha256": "019ad2a5713114bb1ecdea7b3163c8aaa284e742222100772a2ee4e931ccb589"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_1",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "reflectance": "0",
+            "specular": "0",
+            "shininess": "0"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_1",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_1.png"
+          },
+          "texture_sha256": "18b36bf4e916b027f4ca6b830d94c49a735aff8c6b56871e31c71806d9a112dc"
+        }
+      ]
+    },
+    "object_2": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/object_2.xml",
+      "xml_sha256": "1d67f244c97368822d4b0c0e843a37656cfd19af2065dc6d0888c3b3f94db5d1",
+      "changes": [
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/assets/wooden_cabinet_1_tex-wooden_cabinet_object_2.png"
+          },
+          "texture_sha256": "30c7dd36c887bf48a66cdebe5731dc8113971c4fd8d4c74049ff5b2d394fc8ae"
+        },
+        {
+          "original_material": "wooden_cabinet_1_wooden_cabinet_middle_handle",
+          "new_material": {
+            "name": "wooden_cabinet_1_wooden_cabinet_middle_handle_v2_object_2",
+            "texture": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "reflectance": "0.5",
+            "specular": "0.7",
+            "shininess": "0.8"
+          },
+          "texture": {
+            "type": "2d",
+            "name": "wooden_cabinet_1_tex-wooden_cabinet_handle_v2_object_2",
+            "file": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/assets/wooden_cabinet_1_tex-wooden_cabinet_handle_object_2.png"
+          },
+          "texture_sha256": "5eff93a6cf9ac062fda84f7ac45b7027126765e313ccd24b80c19d318e6f64c5"
+        }
+      ]
+    },
+    "light_intensity": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/light_intensity.xml",
+      "xml_sha256": "6eedeec3ffddd389f475424c7095677ed137c579df0bb12a8b0f9f97abbb8a2d",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.52 0.52 0.52",
+            "specular": "0.195 0.195 0.195",
+            "ambient": "0 0 0"
+          }
+        }
+      ]
+    },
+    "light_direction": {
+      "xml": "${PROTOTYPE_ROOT}/sources/v2_drawer_demo_29/light_direction.xml",
+      "xml_sha256": "f3ef4ea897fab2fb023a332e005a6dbaf6ddadabc7f91758da87010333c4618e",
+      "changes": [
+        {
+          "name": "light1",
+          "before": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light1",
+            "pos": "1 1 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        },
+        {
+          "name": "light2",
+          "before": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "0 -0.14834 -0.988936",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          },
+          "after": {
+            "name": "light2",
+            "pos": "-3 -3 4",
+            "dir": "-0.494468 -0.14834 -0.856443698717",
+            "castshadow": "false",
+            "diffuse": "0.8 0.8 0.8"
+          }
+        }
+      ]
+    }
+  }
+}

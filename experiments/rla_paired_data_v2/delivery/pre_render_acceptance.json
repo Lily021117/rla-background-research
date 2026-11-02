@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sources": 10,
+  "independent_source_keys": 10,
+  "candidates_checked": 10,
+  "new": 10,
+  "reused": 0,
+  "sealed_contents_read": false,
+  "physics_steps": 0,
+  "model_forwards": 0
+}

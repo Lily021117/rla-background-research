@@ -1,0 +1,6 @@
+{
+  "local_manifest": "${PROTOTYPE_ROOT}/pairing_manifest.jsonl",
+  "sha256": "bad8b4fb8d0bcfb0bbd6eb32913b3ecfd08e1cc9b968c7b65ec6da92048e78fd",
+  "rows": 7340,
+  "schema": "source_id,episode,timestep,appearance_id,version,split,rgb_file,rgb_index,physical_file,future_horizons,future_valid_mask,camera_order,source_time"
+}

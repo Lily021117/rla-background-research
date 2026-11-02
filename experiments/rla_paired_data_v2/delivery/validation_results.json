@@ -1,0 +1,385 @@
+{
+  "status": "PASS_PROTOTYPE_WITH_LIMITATIONS",
+  "counts": {
+    "independent_source_demonstrations": 10,
+    "new_to_training_pool": 10,
+    "reused_old_training": 0,
+    "physical_frames": 1468,
+    "complete_render_versions": 50,
+    "full_rgb_images": 14680,
+    "state_restorations": 7440,
+    "render_calls": 15280,
+    "sample_rgb_images_including_rejected_revision": 200,
+    "source_action_open_loop_replays": 0,
+    "model_forwards": 0,
+    "backward": 0,
+    "optimizer_updates": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "policy_rollouts": 0,
+    "simulation_steps": 0
+  },
+  "complete_sources": [
+    {
+      "episode": "v2_stove_demo_11",
+      "sample": false,
+      "frames": 164,
+      "state_restorations": 820,
+      "render_calls": 1640,
+      "rgb_images": 1640,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 251.83861565589905,
+      "files": {
+        "clean.npz": "28d01e11a51728f87fab82c211bc38e06d75df151ac704694d3c8e19c29fa4a9",
+        "light_direction.npz": "8d508ebeea472d8db7428d316a1ca8da7438f5602a0e0c4fc5617e389a1ce4c2",
+        "light_intensity.npz": "ec04b93b37adaf562ea4194bcbba804d102875507c00baa9b00de483ad353939",
+        "object_1.npz": "fbf5f0a46151ccec4bdda00c4355654eaa01ee329ce8fb7c24bf3c5a23ec95f4",
+        "physical.npz": "ce97c323157290eef9a80d38a1b4080e3e56eec81d85b6654f510d4149f33da7",
+        "object_2.npz": "833959ce356e16416566fb76e45cf653c2b11df1bfea9c340a9b0dcea7fcac29",
+        "visual_metrics.csv": "f5d4347210df078882fd1b63bac19dccaea37ac498ae13c0d51614e113c87be5"
+      }
+    },
+    {
+      "episode": "v2_stove_demo_22",
+      "sample": false,
+      "frames": 128,
+      "state_restorations": 640,
+      "render_calls": 1280,
+      "rgb_images": 1280,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 196.97437405586243,
+      "files": {
+        "clean.npz": "2275daa3029075a80db1fdff5538c9a0548d8dca64e41b791297286032b7c9d9",
+        "light_direction.npz": "e77609b4f0448e89e33c0365b64ba78fabedd51dc82e0db12ab24fefee3a1601",
+        "light_intensity.npz": "56dce5643511a11de60623d7e1c79065529dffb01e464ade95ae5f057dcd68bf",
+        "object_1.npz": "3fcc9d5b764f511cf12c574308740cc9938a8da8815b315369a959c294cd84b5",
+        "physical.npz": "a72736d1c1b3476092978a27f86d6b2c21fda0bb04243c9feee04ed64ca55a4f",
+        "object_2.npz": "5d4fa12106332ef66dc6c00464f0453c801a669a366792d53947480adcc734c7",
+        "visual_metrics.csv": "0ae771a81f0c845f2805d39ccdc169af08bdbbdc4100061aa39cf2a12aa73b89"
+      }
+    },
+    {
+      "episode": "v2_stove_demo_23",
+      "sample": false,
+      "frames": 126,
+      "state_restorations": 630,
+      "render_calls": 1260,
+      "rgb_images": 1260,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 195.8064079284668,
+      "files": {
+        "clean.npz": "31d3f6090d802a83bb4ad4ecd0a6fd1c098be36874934b519cb7c7fe82b4686f",
+        "light_direction.npz": "c8d2171bd7188f27ba4a0a582c0b9218264b5b094bfb425de01182313af022a6",
+        "light_intensity.npz": "3f4b6bcc7286d5278c214bfe73d57ca510ed77672475c10fd319745b7fe706d6",
+        "object_1.npz": "b947d16ee0d3edf9d9c35d41083018c059a69b10bd658235365564b6dd226fff",
+        "physical.npz": "7f6b1b0cd92e1a4313949f12b6cc2a2918a6331edb421ce22a096f36b8804066",
+        "object_2.npz": "642046428bd682d941f693b003dea0435a4e6c36d72e6fc976bd92a240727872",
+        "visual_metrics.csv": "f7c7affa3916f680083e93f5e29e5f32043dc46308123f513beaecd1f98c1ca7"
+      }
+    },
+    {
+      "episode": "v2_stove_demo_24",
+      "sample": false,
+      "frames": 144,
+      "state_restorations": 720,
+      "render_calls": 1440,
+      "rgb_images": 1440,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 220.70537686347961,
+      "files": {
+        "clean.npz": "f50703f65be7acff88e2aa0e254e64d3d6d9a6cac28081852b68b06a85750b79",
+        "light_direction.npz": "f0d3adcf03fbeb32ea9f7042a6a8d801e0508f8b1f4a9f7afe6f49ff07f10c9f",
+        "light_intensity.npz": "bc568faf734fa0011e5479f845f555e0b27cd936b91bea3386a8e062abdb2b37",
+        "object_1.npz": "7601446e7227473888af8aa9140e974840e55cfa9df9b717faaa8f45a2d8034c",
+        "physical.npz": "5057336ad5eb9289766ac87cc7e776dad763339dd7670ad08875d66311cd5c2d",
+        "object_2.npz": "8a669541c24cddee3c2845844163d455a5d8741ff01b3d71b496cad8604a59e4",
+        "visual_metrics.csv": "cf370950dcbfad418e3352ddc6889c09e2e324bf99e9234f78b0025647c27d66"
+      }
+    },
+    {
+      "episode": "v2_stove_demo_25",
+      "sample": false,
+      "frames": 129,
+      "state_restorations": 645,
+      "render_calls": 1290,
+      "rgb_images": 1290,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 197.0671353340149,
+      "files": {
+        "clean.npz": "714db26dd9adc81376806a0eb405ece221246e0ec458b0f43ab6becbd3ce2517",
+        "light_direction.npz": "5ce925a974bbbbe4fda798f165c9efe1d015308446e72b66ec482a6775573ae8",
+        "light_intensity.npz": "f8b35d41b8071c46f01229996ca2af5c5dcce331b482bc87eba2835daeab287d",
+        "object_1.npz": "9ea55748488f2160e2c164eb29cebd779e938d2acc73d28b466b41417aa6ac19",
+        "physical.npz": "f2bfea94794c5aa5292b1af64f34c46c91044ef4a46c6b1640df51cd2d158fa5",
+        "object_2.npz": "810649b6ac4c3a391323bafd3998d415c3ba098a05fa900f700ae65285348230",
+        "visual_metrics.csv": "0212214363e287e5086694031c1e99800baa92db31ecc5df5d2f22d778bebbf7"
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_25",
+      "sample": false,
+      "frames": 160,
+      "state_restorations": 800,
+      "render_calls": 1600,
+      "rgb_images": 1600,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 209.3510184288025,
+      "files": {
+        "clean.npz": "ea2a67b9907b970b9489373a313e9c06666b541b3c3ed1cdb3348283a0f62757",
+        "light_direction.npz": "ef6928d9ef478a8fd8ec2422a6b78859ff263574fb0f033f4ea3fccd7af40d47",
+        "light_intensity.npz": "0e5ecc3b798443d481bf354cb176a0ff37b0728b219bc642108c3fa4f16c1780",
+        "object_1.npz": "1715a2c83e844c12970c7519ad682bb4846c7b21be72d9588b7c40e89fa48967",
+        "physical.npz": "a20118994fffa4b3abb6c029907224cc771bc70e8da6dee1e6022a1402e5ea3e",
+        "object_2.npz": "e4e1d70513a17174468c3ac87da7ca53a633664742651015b59a63380c82fd99",
+        "visual_metrics.csv": "1184dbd6a232921718a39e05832ad551094d3d896efb7bfe8feb154d564296ec"
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_26",
+      "sample": false,
+      "frames": 128,
+      "state_restorations": 640,
+      "render_calls": 1280,
+      "rgb_images": 1280,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 173.97963404655457,
+      "files": {
+        "clean.npz": "bf1e789d8727ea3f95363933bf213e86c0268348395fff8e0a1bffbcb99eeca7",
+        "light_direction.npz": "8de9ffae6ad3a81578fea6c1fec8e3b16bcad8bef1e56aedc44aea4c820a06dd",
+        "light_intensity.npz": "03f076b796a9518b1d2d0a140089c2e182209c3643f443c9091cea3281efb435",
+        "object_1.npz": "1b38219a06a330e0f6ae16e132e327d6c3da005fa346c3c255ffbc1ea26b2ca2",
+        "physical.npz": "5408e2336e76454374b64e5bf13a310cf29a51b6ad05bad725ba9ca6e63d5c8a",
+        "object_2.npz": "e221d92a30bc277ae7d0089603e22eae1fd7167c56a57aed3ec0a18c958e181b",
+        "visual_metrics.csv": "b8a898e6ecfe733db4e52aa4a983d72dc62c310c9c974ce9e7dc38cdcb196fa0"
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_27",
+      "sample": false,
+      "frames": 156,
+      "state_restorations": 780,
+      "render_calls": 1560,
+      "rgb_images": 1560,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 205.20775842666626,
+      "files": {
+        "clean.npz": "8157e23a97d068307fb8ef295d7b28ce134b2c8543a947e6e9f674d8ef74b6be",
+        "light_direction.npz": "b922f8a8c54a15d70f56957ac9d8982904181bce49460d285b08941a401ff408",
+        "light_intensity.npz": "61a0d46a1ff79204dbeebc3170e3aad9da0d0fafbcf457f93991d4cd8aa8002f",
+        "object_1.npz": "5d932b540fa52119e1421a482983337eea04972dcf8eb5b82e402644f63170c6",
+        "physical.npz": "a23d4e45d92f11f47baed56c0d31957395e3d8e2160156690cf08a1cae59fad6",
+        "object_2.npz": "6127828c5363bf681b9b7c9bb71f6995d54f0b0f8533abd491c4ddf21bbb6586",
+        "visual_metrics.csv": "b3d91a8b8eac35f3c29c8628c839f73ed9d842da3198cef60b514bc14f9195ea"
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_28",
+      "sample": false,
+      "frames": 187,
+      "state_restorations": 935,
+      "render_calls": 1870,
+      "rgb_images": 1870,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 236.92313265800476,
+      "files": {
+        "clean.npz": "52d7cf474954f13e3b5227f19a3d69322e93a62bd9c8e212e2e74887b9dc4839",
+        "light_direction.npz": "75e7fd64c2a10490f5682ddd886bea46d18d6cd3ed402fe4072467680c67ea26",
+        "light_intensity.npz": "1958e5f558106181e3654e4b61e4eac9d946922d597c21676dec03bbd8c18e2a",
+        "object_1.npz": "e366864875e25397567c90fb80afc806f550911af550707d0d12a8bd8ebd54ba",
+        "physical.npz": "28f26b56faebf1b241de09141a8417327369b5f7ce235f0046a2342dffa062dc",
+        "object_2.npz": "ec545af9d4ee6a4c8f9788044c983a7e805d8e5f09099d5241faad1ac25e1985",
+        "visual_metrics.csv": "42084152eb9239d6419d804bd73c6b50f829102a8c98766949c250474b9eed96"
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_29",
+      "sample": false,
+      "frames": 146,
+      "state_restorations": 730,
+      "render_calls": 1460,
+      "rgb_images": 1460,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 189.69282054901123,
+      "files": {
+        "clean.npz": "57c90f0af00cc35c7b2132f5b2986647436c276485bbe901a78e8f179bc5bff4",
+        "light_direction.npz": "3683b391df19629bac5b273a24c605830d68bd2355c2e6895d0dcb66635f6fd6",
+        "light_intensity.npz": "3c980481a3ec3690e3f9b66f9b2600a116b9afe77e035ba70f54f5e53775591b",
+        "object_1.npz": "07a21196d85cef189a210b619c3706cfb8c31a48fd784fbd8267b4758d6b2217",
+        "physical.npz": "79989ebdd9eeb35c2507fdca57c0bdc24d59d5482a2b2228d9c836c0b442729d",
+        "object_2.npz": "b2d03a5a6a6b74ac2096c7a766ff2b41bfad547240a078c2a52d924de0b2ca59",
+        "visual_metrics.csv": "f056d0ee48e42560a92552479e7639a425a460eb3516846cba6a7146373e5891"
+      }
+    }
+  ],
+  "sample_attempts": [
+    {
+      "episode": "v2_drawer_demo_25",
+      "sample": true,
+      "frames": 5,
+      "state_restorations": 25,
+      "render_calls": 150,
+      "rgb_images": 50,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 16.499850034713745,
+      "files": {
+        "clean.npz": "78b1b99f1311493b70a3c12ed6e97e612aab9603be593ab276c35db698761b6a",
+        "light_direction.npz": "3c126bc07d835502da44516d7d531b97a809dc1ae6984644138b94d97d5346f3",
+        "light_intensity.npz": "7e6d20fb7b63fa0125336634d7561175485310cf3ac10fd0a0441297ae89d05c",
+        "object_1.npz": "b6e1db77ed8d58b88175162278b29e870d197331e3243864cd3cfa82e544e220",
+        "compare_0000.png": "00199304389a4881a442eb1eceacb2d1569516caa7cf1c5a333822046af5524e",
+        "compare_0159.png": "ffab5d4c13bf4704da33de3596259971be495c1d09148e95a227ada1d6ed0c54",
+        "physical.npz": "3a70762f4b57e4580c5d6b2bd9a68a86f2123ce4c515c21c8d822b4cbe706dbd",
+        "object_2.npz": "4c5383933551612959fde12a9b8a6e226a8b7cf5287ebfe98e1c2f5d5f1df22d",
+        "compare_0039.png": "bbc56a2a57a4540aa3c8b86fa7ba59feb14cbbbdee5c5fe0e1378c40bad8ee49",
+        "compare_0079.png": "7c77393946519693f32c2b8403a8bdd0e37516dc479c8c7816c7ea550a5f31d0",
+        "visual_metrics.csv": "d1d6851bd24f02398e5b2bf5e6fc9c163a6ca429a968a8698da6118a806e9a1a",
+        "compare_0119.png": "a4b8ef8de1bae829e1bdcbbd0306eb013a3f0da5dc694f60f912b47a60c2fa2a"
+      },
+      "visual_gate": true,
+      "target_visibility_gate": true,
+      "nonzero_effect": {
+        "object_1": true,
+        "object_2": true,
+        "light_intensity": true,
+        "light_direction": true
+      }
+    },
+    {
+      "episode": "v2_stove_demo_11",
+      "sample": true,
+      "frames": 5,
+      "state_restorations": 25,
+      "render_calls": 150,
+      "rgb_images": 50,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 23.664978742599487,
+      "files": {
+        "clean.npz": "cf6fbe113896dc2c5dabc42700305b138924dfbbe57293b77a5f8bad577b5ed8",
+        "light_direction.npz": "f2520226d61866db40e595eb9beb44c0c78bb32c61fd78134144dd0cefbe4164",
+        "light_intensity.npz": "62f6c943994f7de57e5ab1d9991f4407b114c2c4575264c1bc0fa42843d71718",
+        "object_1.npz": "ccb8c2f036e156b1671fd2e3c24f30402ed18fb55d58cbe386b10b9e20a8b0b2",
+        "compare_0000.png": "f14c03402b630782e396ae56917d7baa7a52dbec59658803ed55656cc0ce3c00",
+        "compare_0163.png": "84d2c78b720d690c3a319e9db9252d68f24fc32248b474d21be6f9e41a5c0744",
+        "physical.npz": "525d53d2d3037d3ca82b5a6bd6171e7054190ac980c1ce4a40534019c47d5261",
+        "compare_0081.png": "0e7b4e418c83e93a593d5fac01e26257dd71472fa6f986441a5af2bc7e19c4d0",
+        "object_2.npz": "3eeb63162970960331ac50073046cadf9818db8d47e81ad71d71a1d0c88248ce",
+        "compare_0122.png": "93ef7b6a9e325c6b0189997e53e7d14d6f6d6eddcb9279e4c8cd811a90e1e70b",
+        "compare_0040.png": "763f5156b5372c5a2ec2106311a1299081ce3c3a5ffa469cc3d84f0d006c4c5e",
+        "visual_metrics.csv": "5a9c0f0dd3118abfb2023ebafc9eaf839f3a8974d198b8dbf5cb885f7c819ff3"
+      },
+      "visual_gate": true,
+      "target_visibility_gate": false,
+      "nonzero_effect": {
+        "object_1": true,
+        "object_2": true,
+        "light_intensity": true,
+        "light_direction": true
+      }
+    },
+    {
+      "episode": "v2_drawer_demo_25",
+      "sample": true,
+      "frames": 5,
+      "state_restorations": 25,
+      "render_calls": 150,
+      "rgb_images": 50,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 16.089296340942383,
+      "files": {
+        "clean.npz": "78b1b99f1311493b70a3c12ed6e97e612aab9603be593ab276c35db698761b6a",
+        "light_direction.npz": "3c126bc07d835502da44516d7d531b97a809dc1ae6984644138b94d97d5346f3",
+        "light_intensity.npz": "7e6d20fb7b63fa0125336634d7561175485310cf3ac10fd0a0441297ae89d05c",
+        "object_1.npz": "b6e1db77ed8d58b88175162278b29e870d197331e3243864cd3cfa82e544e220",
+        "compare_0000.png": "00199304389a4881a442eb1eceacb2d1569516caa7cf1c5a333822046af5524e",
+        "compare_0159.png": "ffab5d4c13bf4704da33de3596259971be495c1d09148e95a227ada1d6ed0c54",
+        "physical.npz": "3a70762f4b57e4580c5d6b2bd9a68a86f2123ce4c515c21c8d822b4cbe706dbd",
+        "object_2.npz": "4c5383933551612959fde12a9b8a6e226a8b7cf5287ebfe98e1c2f5d5f1df22d",
+        "compare_0039.png": "bbc56a2a57a4540aa3c8b86fa7ba59feb14cbbbdee5c5fe0e1378c40bad8ee49",
+        "compare_0079.png": "7c77393946519693f32c2b8403a8bdd0e37516dc479c8c7816c7ea550a5f31d0",
+        "visual_metrics.csv": "d1d6851bd24f02398e5b2bf5e6fc9c163a6ca429a968a8698da6118a806e9a1a",
+        "compare_0119.png": "a4b8ef8de1bae829e1bdcbbd0306eb013a3f0da5dc694f60f912b47a60c2fa2a"
+      },
+      "visual_gate": true,
+      "target_visibility_gate": true,
+      "nonzero_effect": {
+        "object_1": true,
+        "object_2": true,
+        "light_intensity": true,
+        "light_direction": true
+      }
+    },
+    {
+      "episode": "v2_stove_demo_11",
+      "sample": true,
+      "frames": 5,
+      "state_restorations": 25,
+      "render_calls": 150,
+      "rgb_images": 50,
+      "geometry_exact": true,
+      "physical_compilation_exact": true,
+      "render_did_not_advance_state": true,
+      "seconds": 22.88486337661743,
+      "files": {
+        "clean.npz": "cf6fbe113896dc2c5dabc42700305b138924dfbbe57293b77a5f8bad577b5ed8",
+        "light_direction.npz": "f2520226d61866db40e595eb9beb44c0c78bb32c61fd78134144dd0cefbe4164",
+        "light_intensity.npz": "62f6c943994f7de57e5ab1d9991f4407b114c2c4575264c1bc0fa42843d71718",
+        "object_1.npz": "383a087434443cca1d8fcd315025dff07ec084754f055d6ca0af9c3e7f6c7656",
+        "compare_0000.png": "fe45f481b631a84544d7dd3706545eede323c067d4a89a5dc1b6f247cc23a751",
+        "compare_0163.png": "f654f54ca97915d902bfed34294ec06444b6d69527e25bedff28d7dff30148f4",
+        "physical.npz": "525d53d2d3037d3ca82b5a6bd6171e7054190ac980c1ce4a40534019c47d5261",
+        "compare_0081.png": "64bebd2a4679997dd59870d50c5891458f7a7d06d7a9ea5c9e0be2a63abbb70c",
+        "object_2.npz": "3b85c56410d8ab757125d3829b3f06846f2ea5a4f599d5fc2bf7781fd990b184",
+        "compare_0122.png": "76a21aa13bdd1002487a2aac0e1ced73473beeeeb10852b07c7f6a6e99a928cb",
+        "compare_0040.png": "3e213c819285143e05fb6db94f0320067dcdebb4b42a4e04da45f86bee57840a",
+        "visual_metrics.csv": "d0e0654593eaf7c9f89264c05dad99b51f0c541975df29b614c69b1cd40bbe44"
+      },
+      "visual_gate": true,
+      "target_visibility_gate": true,
+      "nonzero_effect": {
+        "object_1": true,
+        "object_2": true,
+        "light_intensity": true,
+        "light_direction": true
+      }
+    }
+  ],
+  "sample_review": {
+    "approved": true,
+    "review": "Both tasks pass frozen RGB/target visibility, depth, segmentation, physical model and FK/camera checks. Inspected fixed first/mid/last views: task object, gripper and operation context remain interpretable where visible in Clean; existing wrist occlusion/out-of-frame portions are retained, not asserted visible.",
+    "semantics": "Black bowl outer surface retained, neutral interior pattern retained; middle drawer wood/metal hue retained; no instruction changes.",
+    "technical_revision": "Revision1 stove albedo hard caps 55/75 failed the predefined target brightness gate. Revision2 replaces caps by original grayscale times 0.85 or 0.95 times fixed stripe. No acceptance thresholds changed. Revision1 files retained. Drawer and lights unchanged.",
+    "limits": "Human check is qualitative, not a visibility guarantee at every frame. No model-based strength selection. No source-action replay; pairing uses saved states and invariant compiled physics."
+  },
+  "limits": [
+    "Not an open-loop reproduction validation: no dynamics integration performed.",
+    "Geometry depth/segmentation checked at five fixed moments/task; compiled physics and FK/cameras checked at every complete rendered state.",
+    "Additional unexamined candidates are metadata potential, not certified admitted data.",
+    "No downstream quality or control claims."
+  ]
+}

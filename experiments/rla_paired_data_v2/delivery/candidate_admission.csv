@@ -1,0 +1,11 @@
+task,source_demo,historical_usage,status,reason
+stove,demo_11,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+stove,demo_22,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+stove,demo_23,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+stove,demo_24,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+stove,demo_25,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+drawer,demo_25,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+drawer,demo_26,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+drawer,demo_27,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+drawer,demo_28,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"
+drawer,demo_29,unassigned_unprotected,ACCEPTED,"source XML/layout, temporal interval and next-state/post-action proprio verified; no source RGB reused"

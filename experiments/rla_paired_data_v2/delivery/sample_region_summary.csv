@@ -1,0 +1,17 @@
+task,variant,camera,fixed_times,times_target_at_least4pixels,target_rgb_mae_mean_visible_times,global_rgb_mae_mean,depth_max_error,seg_all_equal
+stove,object_1,agentview,5,5,14.910373561765931,0.10254570578231292,0.0,True
+stove,object_1,robot0_eye_in_hand,5,5,18.774548045154965,3.6365739264455783,0.0,True
+stove,object_2,agentview,5,5,13.620103806178857,0.09358391794217687,0.0,True
+stove,object_2,robot0_eye_in_hand,5,5,17.19946627775787,3.2918925382653064,0.0,True
+stove,light_intensity,agentview,5,5,13.086711356283436,15.21714099702381,0.0,True
+stove,light_intensity,robot0_eye_in_hand,5,5,14.368236555695225,13.558783747874148,0.0,True
+stove,light_direction,agentview,5,5,21.443517897855795,30.45943744685374,0.0,True
+stove,light_direction,robot0_eye_in_hand,5,5,20.273166826540432,10.798392325680272,0.0,True
+drawer,object_1,agentview,5,5,10.430622780610395,0.19309762967687077,0.0,True
+drawer,object_1,robot0_eye_in_hand,5,5,11.759752235105193,1.9364131590136053,0.0,True
+drawer,object_2,agentview,5,5,1.0718565598708283,0.027282631802721093,0.0,True
+drawer,object_2,robot0_eye_in_hand,5,5,1.9204215028365426,0.3330011692176871,0.0,True
+drawer,light_intensity,agentview,5,5,4.984879787089801,15.415737935799319,0.0,True
+drawer,light_intensity,robot0_eye_in_hand,5,5,3.74852380263401,14.628127657312927,0.0,True
+drawer,light_direction,agentview,5,5,4.13969623758147,28.7678159545068,0.0,True
+drawer,light_direction,robot0_eye_in_hand,5,5,3.337484840984281,8.907068452380951,0.0,True

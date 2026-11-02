@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "path": "${PROTOTYPE_ROOT}/prototype_report.md",
+      "sha256": "22d63ff47c939cd2bc8251b5bf1f1be81a6571450f51df76c9d4ea8dc0762b01"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/next_experiment_design.md",
+      "sha256": "f9fdd555d1df9b2d482e35ea88755cc40d6b9dffb9ae0aa339692da5a1aabfec"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/prototype_protocol.json",
+      "sha256": "a649bb025d154dc40b109ac4d9378752b9c653ec7603f60337c0a49ac28ad1dc"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/source_manifest.csv",
+      "sha256": "420feac418a14ecbea5e67abcc82130b73a75b687f735f840eefd51284ea3b59"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/source_manifest.json",
+      "sha256": "7b0e96c733cbb95f4d94015de5f620af8f57c4146e8988627e80c36f9d831a74"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/candidate_admission.csv",
+      "sha256": "99600f11dfe53b2904510478faa1aa0a0e1b1480f030d4f56e3b6f70475ecfcc"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/appearance_configs.json",
+      "sha256": "f716dd0512a94eecd4a4737b28df6fe2eec45d10c02e6a1f5d548fc0e33c8ba1"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/validation_results.json",
+      "sha256": "62b4ab8dd8280f3cc9c585b000ee666801be0e4e6dd5632eaa3112dcc3ffad30"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/sample_review.json",
+      "sha256": "ba68cb64854f4a359ad57a8845916193397773e5125c61be3481345f272309ab"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/pre_render_acceptance.json",
+      "sha256": "95c42bb68a6141e7fd9e473a2e40b476194dcd85096b0b83a77d84ef464e15cf"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/visual_summary.csv",
+      "sha256": "deaf8affe17196a84b9365ad284bba8aac944d2cf430b4e0b6c3505e977d8959"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/sample_region_summary.csv",
+      "sha256": "44d2fcff080b8bffe819e3ab565319c47ed900a4b8149beb3deeacef685b362e"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/artifact_integrity.json",
+      "sha256": "99e59204154580ffeac9a13fdc5409128e41d41a3a3951d487fce0d69650c182"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/additional_history_check.json",
+      "sha256": "c4ea75f0ca2555a969c81b907361db41697c9869a95547cd4f3fb9805378f898"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/environment_inventory.json",
+      "sha256": "630c2653bcdcccb222a95140b1db050a83f1a88cafa8c89babba0aa63de09aae"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/pairing_manifest.jsonl",
+      "sha256": "bad8b4fb8d0bcfb0bbd6eb32913b3ecfd08e1cc9b968c7b65ec6da92048e78fd"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/source_inventory.json",
+      "sha256": "795d0c7eda43585c2c29b5778ba2a2516a324316a2e65b4d1d5204a9e54f8e87"
+    },
+    {
+      "path": "${PROTOTYPE_ROOT}/asset_inventory.json",
+      "sha256": "5616e7ca20d48cb4a9ed2382c4320c36889e2dfc3b05eec7dccf90b23786b708"
+    }
+  ],
+  "base_commit": "7c986d2e382ac20e97f10699b10d439e9a670e38",
+  "note": "Local original hashes; published copies sanitize paths."
+}

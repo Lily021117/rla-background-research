@@ -1,0 +1,7 @@
+{
+  "approved": true,
+  "review": "Both tasks pass frozen RGB/target visibility, depth, segmentation, physical model and FK/camera checks. Inspected fixed first/mid/last views: task object, gripper and operation context remain interpretable where visible in Clean; existing wrist occlusion/out-of-frame portions are retained, not asserted visible.",
+  "semantics": "Black bowl outer surface retained, neutral interior pattern retained; middle drawer wood/metal hue retained; no instruction changes.",
+  "technical_revision": "Revision1 stove albedo hard caps 55/75 failed the predefined target brightness gate. Revision2 replaces caps by original grayscale times 0.85 or 0.95 times fixed stripe. No acceptance thresholds changed. Revision1 files retained. Drawer and lights unchanged.",
+  "limits": "Human check is qualitative, not a visibility guarantee at every frame. No model-based strength selection. No source-action replay; pairing uses saved states and invariant compiled physics."
+}

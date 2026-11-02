@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "evidence": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_ae_from_scratch/run_20261029_01/data_manifest.json",
+      "sha256": "856392f020050f37b957e33fbf327b8b696b27e9ac3e4351aa45524270199374"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/rla_drawer_baseline_gap/run_20261101_01/data_source_audit.json",
+      "sha256": "fa4f043477cd37cf9f16e72903dc541ac8241d585c3649ff3a05dec733507ff3"
+    }
+  ],
+  "checks": [
+    {
+      "episode": "v2_stove_demo_11",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_stove_demo_22",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_stove_demo_23",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_stove_demo_24",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_stove_demo_25",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_drawer_demo_25",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_drawer_demo_26",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_drawer_demo_27",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_drawer_demo_28",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    },
+    {
+      "episode": "v2_drawer_demo_29",
+      "overlap_with_scratch_AE_or_latest_drawer": false
+    }
+  ],
+  "scope": "registered common-ancestor source IDs, not a proof of absent unknown upstream pretraining exposure"
+}
