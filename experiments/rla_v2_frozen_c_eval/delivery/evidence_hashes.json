@@ -1,0 +1,19 @@
+{
+  "${RUN_ROOT}/delivery/paired_flips.csv": "593d391fc54c94e4cf58917bf1a067bf8c616736198f39ecf9822911a0eac724",
+  "${RUN_ROOT}/delivery/delivery_verification.json": "53e4633aae9fd606173d8a5219327e6ac7b56c1a62e7e8eb0295790d48ab3641",
+  "${RUN_ROOT}/delivery/success_by_seed_condition.csv": "e00537cadc09ed2b7a48742fb5f93d0de99339cf540fd3c36a96f64bc4efcac5",
+  "${RUN_ROOT}/delivery/report.md": "a14389b2903b3b9b22d218d7185e31487fbce443d9e2ed12cde4d1e691770894",
+  "${RUN_ROOT}/delivery/seed_contrasts.csv": "797263abd1adcf37d4dfe396954135f9d7b8abd50d17927f93a8a399ccd5904a",
+  "${RUN_ROOT}/delivery/cluster_intervals.json": "02cbe8da9283ebdcc18487a8513d9bf5f7e84f21ce4c8cbc5c5690d15d3a94a1",
+  "${RUN_ROOT}/delivery/per_trial_results.json": "f2e6c1b187e575705609de424aa69434576870686bc4c71e0dc5c06e062ba419",
+  "${RUN_ROOT}/delivery/per_trial_results.csv": "344927fb200da41050d65fd2e5b320b1ceb0bc53407b72d763d8a357d807670d",
+  "${RUN_ROOT}/delivery/failure_stage_summary.csv": "05e9451d4f81517fd17d13c61b8f5fe7e193dbe7e7ccccb55b164390b0d0eb0d",
+  "${RUN_ROOT}/stove/runtime_integration.json": "37ab24216315c88b467965b99a9e16598b3b601d706594514e83baa7e3ac276c",
+  "${RUN_ROOT}/stove/inference_identity.json": "c29a8689a11be614adc65e528c81f8a0e27d4abc57fa97c4af58e43577b59fe2",
+  "${RUN_ROOT}/stove/completion.json": "4e554cd6e4afa4f751913f6e03b5ccba61eedfc371f9cca5b8d2776c2ac17469",
+  "${RUN_ROOT}/drawer/runtime_integration.json": "16df854d6d97f1436a22b2b29699b602af0259ae0f0c021e8c59ab41187ce5e8",
+  "${RUN_ROOT}/drawer/inference_identity.json": "c29a8689a11be614adc65e528c81f8a0e27d4abc57fa97c4af58e43577b59fe2",
+  "${RUN_ROOT}/drawer/completion.json": "1dcf1336ab6293817b0dfe1f7cf45bfbf44e7ad908b94d2cae5d5073b17a7a37",
+  "${RUN_ROOT}/prototype_configuration_equivalence.json": "261be392edbd8858360c40a7d0c0b9ac5d7932bd5108aebdf3a4d210e1f2d552",
+  "${RUN_ROOT}/resource_release.json": "2e173765fd61f198ab0409ca9984a049e74de7021d2e3155a2417e3a329df482"
+}

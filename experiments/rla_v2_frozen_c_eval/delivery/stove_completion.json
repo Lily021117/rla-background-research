@@ -1,0 +1,11 @@
+{
+  "valid": 240,
+  "actual_attempts": 240,
+  "invalid": 0,
+  "policy_forwards": 3697,
+  "optimizer_updates": 0,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "backward": 0,
+  "peak_gpu_bytes": 3998159872
+}

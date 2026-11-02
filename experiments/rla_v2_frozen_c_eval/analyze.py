@@ -21,6 +21,9 @@ def main():
   for label,idx in [('all_four',[1,2,3,4]),('object_mean',[1,2]),('light_mean',[3,4])]+[(c,[i]) for i,c in enumerate(conditions[1:],1)]:
    diff=arr[:,:,idx].mean(axis=2)-arr[:,:,0];bs=diff[:,draws].mean(axis=(0,2))*100;intervals.append(dict(task=task,contrast=label+'-Clean',delta_pp=float(diff.mean()*100),ci_low=float(np.quantile(bs,.025)),ci_high=float(np.quantile(bs,.975)),seed_delta_pp=(diff.mean(axis=1)*100).tolist(),cluster='physical state; all seeds/conditions retained',n=20))
  table(out/'success_by_seed_condition.csv',success);table(out/'paired_flips.csv',flips);table(out/'seed_contrasts.csv',contrasts);save(out/'cluster_intervals.json',intervals)
+ from collections import Counter
+ stages=Counter((r['task'],r['policy_seed'],r['condition'],r.get('stage','unrecorded')) for r in rows)
+ table(out/'failure_stage_summary.csv',[dict(task=t,policy_seed=s,condition=c,stage=stage,count=n,interpretation='historical descriptive proxy, not physical cause') for (t,s,c,stage),n in sorted(stages.items())])
  report='# 冻结C策略：V2对象外观与静态光照development评估\n\n仅检验四种干预对当前冻结C-low的影响，不检验增强训练能否解决或D是否有效。炉灶和开中层抽屉分别分析；后者不是抽屉取碗。原有负结果保持不变。\n\n'
  for task in ['stove','drawer']:
   report+=f'## {task}\n\n|seed|Clean（复用）|对象1|对象2|光强|光向|\n|---|---:|---:|---:|---:|---:|\n'

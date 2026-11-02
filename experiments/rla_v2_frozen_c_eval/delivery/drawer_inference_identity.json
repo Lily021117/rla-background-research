@@ -1,0 +1,9 @@
+{
+  "source": "${RUN_ROOT}/code/experiments/rla_scratch_policy_aux/evaluation.py",
+  "source_sha256": "9bfe3f07b1e7b4c0b075880408972096cef8ee2ca4c152dafba54d8aab10dbc2",
+  "nested_infer_proprio_sha256": "9787799b7b465089dcc22b6011c378989bfd74ccbb793f82fa9ce6a8cd30a37c",
+  "unchanged": true,
+  "checkpoint_full_trainable_keys_verified": true,
+  "training": false,
+  "AE_loaded": false
+}

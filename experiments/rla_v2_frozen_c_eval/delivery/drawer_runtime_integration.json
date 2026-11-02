@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "condition": "clean",
+      "expected_visual_signature": {
+        "mat_rgba": "80af96c42b6a5dac8541f7adf75ff8c7c578441a0c86ea387187cf6ec6fc35bb",
+        "mat_texid": "04823ccf973ca3c67cf29c16783e2c5e448cb8ff0df1f063bfb9c79874739657",
+        "mat_reflectance": "fe559a8337a46f63b7fd9860dd38ab6758c27dc40de3231cc1972589c3c1a749",
+        "mat_specular": "a5a7a1feacee026e33e8abe31dc9006d7c5cb1b964ef6c4813ec4e5ef7746b17",
+        "mat_shininess": "76f2f3040866181af6ac4bc19d3e0cf76134b802b4cc1a2c021576ac264aa0b1",
+        "geom_matid": "698e6d17b79106a64fb05980a59d42827654be6a7db8caa18d6bf3d5761fd0d7",
+        "light_pos": "af1c32ed695dd6c9f826d24e0609f717615409c141f94151a52a4bdc8f3ab68a",
+        "light_dir": "59952794a0e690dbe070b065238b57f140bc83e33ce1ddd0eedb4081e2cd0605",
+        "light_diffuse": "b11500257174f11f2cccf85e4eccc10732bba7f304b9c74bba5d48c157b5d731",
+        "light_ambient": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+        "light_specular": "82e8cf916ab0d8a8a1ed55d86b4fc31146281670d4c712a611761a5e5b5bee40"
+      },
+      "physics_equal": true,
+      "actual_ControlEnv_reset_preserves_V2": true,
+      "initial_success": false
+    },
+    {
+      "condition": "object_1",
+      "expected_visual_signature": {
+        "mat_rgba": "e08d4235890ca79fa299658d429d7fafb1de3901b9af8ba13278efc5765557e1",
+        "mat_texid": "13df04beb693c103481181c135cb590330c471aaf593fbb2af9111b6cd70dbfc",
+        "mat_reflectance": "6ddd6661c3dd0afbd22cb45678a75933026d670173e46aee50c3bbb9368c8339",
+        "mat_specular": "77de2a4be4c60a732e57a1b0d225166c7aa0c9ff35a53a032d3f1e849b61cb56",
+        "mat_shininess": "0644e5f4a908b0df365dc55c198cb4a158b5644bde1f3ce481c567d372d98ac8",
+        "geom_matid": "8e64b740c9966771106e9d7db2bc44bd73436783156390b1ae5a0aba6a44c845",
+        "light_pos": "af1c32ed695dd6c9f826d24e0609f717615409c141f94151a52a4bdc8f3ab68a",
+        "light_dir": "59952794a0e690dbe070b065238b57f140bc83e33ce1ddd0eedb4081e2cd0605",
+        "light_diffuse": "b11500257174f11f2cccf85e4eccc10732bba7f304b9c74bba5d48c157b5d731",
+        "light_ambient": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+        "light_specular": "82e8cf916ab0d8a8a1ed55d86b4fc31146281670d4c712a611761a5e5b5bee40"
+      },
+      "physics_equal": true,
+      "actual_ControlEnv_reset_preserves_V2": true,
+      "initial_success": false
+    },
+    {
+      "condition": "object_2",
+      "expected_visual_signature": {
+        "mat_rgba": "e08d4235890ca79fa299658d429d7fafb1de3901b9af8ba13278efc5765557e1",
+        "mat_texid": "13df04beb693c103481181c135cb590330c471aaf593fbb2af9111b6cd70dbfc",
+        "mat_reflectance": "77200005cd25dee347fbf3a1807d47f524e3b2e124bec06b92755502b4d40981",
+        "mat_specular": "2f96767e3c5f5134047a86fbe2bc751ed2c6a4cee260c31430ff231265c04b98",
+        "mat_shininess": "27a649a735864370bf7b2af2d2357e1f582bfb0718528331aacb9097b03450ad",
+        "geom_matid": "8e64b740c9966771106e9d7db2bc44bd73436783156390b1ae5a0aba6a44c845",
+        "light_pos": "af1c32ed695dd6c9f826d24e0609f717615409c141f94151a52a4bdc8f3ab68a",
+        "light_dir": "59952794a0e690dbe070b065238b57f140bc83e33ce1ddd0eedb4081e2cd0605",
+        "light_diffuse": "b11500257174f11f2cccf85e4eccc10732bba7f304b9c74bba5d48c157b5d731",
+        "light_ambient": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+        "light_specular": "82e8cf916ab0d8a8a1ed55d86b4fc31146281670d4c712a611761a5e5b5bee40"
+      },
+      "physics_equal": true,
+      "actual_ControlEnv_reset_preserves_V2": true,
+      "initial_success": false
+    },
+    {
+      "condition": "light_intensity",
+      "expected_visual_signature": {
+        "mat_rgba": "80af96c42b6a5dac8541f7adf75ff8c7c578441a0c86ea387187cf6ec6fc35bb",
+        "mat_texid": "04823ccf973ca3c67cf29c16783e2c5e448cb8ff0df1f063bfb9c79874739657",
+        "mat_reflectance": "fe559a8337a46f63b7fd9860dd38ab6758c27dc40de3231cc1972589c3c1a749",
+        "mat_specular": "a5a7a1feacee026e33e8abe31dc9006d7c5cb1b964ef6c4813ec4e5ef7746b17",
+        "mat_shininess": "76f2f3040866181af6ac4bc19d3e0cf76134b802b4cc1a2c021576ac264aa0b1",
+        "geom_matid": "698e6d17b79106a64fb05980a59d42827654be6a7db8caa18d6bf3d5761fd0d7",
+        "light_pos": "af1c32ed695dd6c9f826d24e0609f717615409c141f94151a52a4bdc8f3ab68a",
+        "light_dir": "59952794a0e690dbe070b065238b57f140bc83e33ce1ddd0eedb4081e2cd0605",
+        "light_diffuse": "b3818ada731497665361895c84293dabc4de65c7f8b38283e91aa1dcee9cd36a",
+        "light_ambient": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+        "light_specular": "4078ec8ed6371d81ffa786fe83aaa46f776af9ac6d66f0989ac029ed935a34d3"
+      },
+      "physics_equal": true,
+      "actual_ControlEnv_reset_preserves_V2": true,
+      "initial_success": false
+    },
+    {
+      "condition": "light_direction",
+      "expected_visual_signature": {
+        "mat_rgba": "80af96c42b6a5dac8541f7adf75ff8c7c578441a0c86ea387187cf6ec6fc35bb",
+        "mat_texid": "04823ccf973ca3c67cf29c16783e2c5e448cb8ff0df1f063bfb9c79874739657",
+        "mat_reflectance": "fe559a8337a46f63b7fd9860dd38ab6758c27dc40de3231cc1972589c3c1a749",
+        "mat_specular": "a5a7a1feacee026e33e8abe31dc9006d7c5cb1b964ef6c4813ec4e5ef7746b17",
+        "mat_shininess": "76f2f3040866181af6ac4bc19d3e0cf76134b802b4cc1a2c021576ac264aa0b1",
+        "geom_matid": "698e6d17b79106a64fb05980a59d42827654be6a7db8caa18d6bf3d5761fd0d7",
+        "light_pos": "af1c32ed695dd6c9f826d24e0609f717615409c141f94151a52a4bdc8f3ab68a",
+        "light_dir": "c80cef1de796833be65a43861f0b4e7266d646fed6400f35dad9f39524fbcbe5",
+        "light_diffuse": "b11500257174f11f2cccf85e4eccc10732bba7f304b9c74bba5d48c157b5d731",
+        "light_ambient": "9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0",
+        "light_specular": "82e8cf916ab0d8a8a1ed55d86b4fc31146281670d4c712a611761a5e5b5bee40"
+      },
+      "physics_equal": true,
+      "actual_ControlEnv_reset_preserves_V2": true,
+      "initial_success": false
+    }
+  ],
+  "policy_forwards": 0,
+  "policy_rollouts": 0,
+  "steps": 0
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "task": "stove",
+    "contrast": "all_four-Clean",
+    "delta_pp": -3.3333333333333335,
+    "ci_low": -7.5,
+    "ci_high": 1.6666666666666667,
+    "seed_delta_pp": [
+      -10.0,
+      -3.75,
+      3.75
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "object_mean-Clean",
+    "delta_pp": -4.166666666666666,
+    "ci_low": -9.166666666666666,
+    "ci_high": 1.6666666666666667,
+    "seed_delta_pp": [
+      -15.0,
+      0.0,
+      2.5
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "light_mean-Clean",
+    "delta_pp": -2.5,
+    "ci_low": -7.5,
+    "ci_high": 3.3333333333333335,
+    "seed_delta_pp": [
+      -5.0,
+      -7.5,
+      5.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "object_1-Clean",
+    "delta_pp": -6.666666666666667,
+    "ci_low": -15.0,
+    "ci_high": 0.0,
+    "seed_delta_pp": [
+      -20.0,
+      0.0,
+      0.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "object_2-Clean",
+    "delta_pp": -1.6666666666666667,
+    "ci_low": -8.333333333333332,
+    "ci_high": 5.0,
+    "seed_delta_pp": [
+      -10.0,
+      0.0,
+      5.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "light_intensity-Clean",
+    "delta_pp": -1.6666666666666667,
+    "ci_low": -6.666666666666667,
+    "ci_high": 3.3333333333333335,
+    "seed_delta_pp": [
+      -5.0,
+      -5.0,
+      5.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "stove",
+    "contrast": "light_direction-Clean",
+    "delta_pp": -3.3333333333333335,
+    "ci_low": -11.666666666666666,
+    "ci_high": 5.0,
+    "seed_delta_pp": [
+      -5.0,
+      -10.0,
+      5.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "all_four-Clean",
+    "delta_pp": 1.25,
+    "ci_low": -2.9166666666666665,
+    "ci_high": 5.833333333333333,
+    "seed_delta_pp": [
+      -2.5,
+      -1.25,
+      7.5
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "object_mean-Clean",
+    "delta_pp": 0.0,
+    "ci_low": -3.3333333333333335,
+    "ci_high": 3.3333333333333335,
+    "seed_delta_pp": [
+      -2.5,
+      0.0,
+      2.5
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "light_mean-Clean",
+    "delta_pp": 2.5,
+    "ci_low": -4.166666666666666,
+    "ci_high": 9.166666666666666,
+    "seed_delta_pp": [
+      -2.5,
+      -2.5,
+      12.5
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "object_1-Clean",
+    "delta_pp": -1.6666666666666667,
+    "ci_low": -5.0,
+    "ci_high": 0.0,
+    "seed_delta_pp": [
+      -5.0,
+      0.0,
+      0.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "object_2-Clean",
+    "delta_pp": 1.6666666666666667,
+    "ci_low": -3.3333333333333335,
+    "ci_high": 6.666666666666667,
+    "seed_delta_pp": [
+      0.0,
+      0.0,
+      5.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "light_intensity-Clean",
+    "delta_pp": 1.6666666666666667,
+    "ci_low": -5.0,
+    "ci_high": 8.333333333333332,
+    "seed_delta_pp": [
+      -5.0,
+      0.0,
+      10.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  },
+  {
+    "task": "drawer",
+    "contrast": "light_direction-Clean",
+    "delta_pp": 3.3333333333333335,
+    "ci_low": -5.0,
+    "ci_high": 11.666666666666666,
+    "seed_delta_pp": [
+      0.0,
+      -5.0,
+      15.0
+    ],
+    "cluster": "physical state; all seeds/conditions retained",
+    "n": 20
+  }
+]

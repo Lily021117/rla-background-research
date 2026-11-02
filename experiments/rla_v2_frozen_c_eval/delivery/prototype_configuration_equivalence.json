@@ -1,0 +1,7 @@
+{
+  "check": "Within each task compare all five revision2 source appearance change records, replacing texture file paths with their recorded content SHA256; other fields unchanged",
+  "stove_five_configs_equivalent": true,
+  "drawer_five_configs_equivalent": true,
+  "implication": "Using first admitted source per task selects the same material/light parameters and texture contents as the other four sources, not a newly selected strength",
+  "policy_or_renderer_calls": 0
+}
