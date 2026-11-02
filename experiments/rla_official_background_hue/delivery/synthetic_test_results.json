@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.003s\n\nOK\n",
+  "scope": "synthetic masks only; not real segmentation acceptance"
+}

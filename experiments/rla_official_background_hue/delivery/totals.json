@@ -1,0 +1,26 @@
+{
+  "libero_spatial": {
+    "frames": 52970,
+    "valid_starts": 52026,
+    "possible_time_pairs": 2429518,
+    "rgb_bytes": 1955222807
+  },
+  "libero_object": {
+    "frames": 66984,
+    "valid_starts": 65996,
+    "possible_time_pairs": 3265110,
+    "rgb_bytes": 2674321011
+  },
+  "libero_goal": {
+    "frames": 52042,
+    "valid_starts": 51106,
+    "possible_time_pairs": 2377298,
+    "rgb_bytes": 1830186529
+  },
+  "libero_10": {
+    "frames": 101469,
+    "valid_starts": 100631,
+    "possible_time_pairs": 5582982,
+    "rgb_bytes": 3883132579
+  }
+}

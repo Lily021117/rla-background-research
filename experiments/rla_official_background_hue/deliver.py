@@ -1,0 +1,146 @@
+"""CPU-only report and sanitized publication builder; no raw RGB publication."""
+import argparse,csv,hashlib,json,shutil,subprocess,sys
+from pathlib import Path
+from audit import sha,write_json,write_csv
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--official',type=Path,required=True)
+    a=p.parse_args();r=a.run; project=Path('/data/lyc/projects/rla-wm')
+    out=r/'delivery';out.mkdir(exist_ok=True)
+    test=subprocess.run([sys.executable,str(Path(__file__).parent/'test_pairing.py')],capture_output=True,text=True)
+    write_json(out/'synthetic_test_results.json',{'returncode':test.returncode,'stdout':test.stdout,'stderr':test.stderr,
+        'scope':'synthetic masks only; not real segmentation acceptance'})
+    assert test.returncode==0
+    rows=list(csv.DictReader(open(r/'audit/trajectory_manifest.csv')))
+    v=json.loads((r/'loader_validation.json').read_text())
+    for split in ('train','val'):
+        rs=[x for x in rows if x['split']==split]
+        assert len(rs)==v['loader_counts'][split]['trajectories']
+        assert sum(int(x['valid_starts']) for x in rs)==v['loader_counts'][split]['valid_starts']
+    assert all(x['loaded'] and x['disabled_identity'] for x in v['records'])
+    assert all(x['placeholder_unique']==[255] for x in v['records'])
+    table=[]
+    for suite in ['libero_spatial','libero_object','libero_goal','libero_10']:
+        for split in ('train','val'):
+            rr=[x for x in rows if x['suite']==suite and x['split']==split]
+            table.append(f'| {suite} | {split} | {len(rr)} | '+ ' | '.join(str(sum(int(x[k]) for x in rr)) for k in ('frames','valid_starts','possible_time_pairs'))+' |')
+    train=[x for x in rows if x['split']=='train']; starts=sum(int(x['valid_starts']) for x in train)
+    frames=sum(int(x['frames']) for x in rows)
+    rgb_bytes=sum(int(x['rgb_bytes']) for x in rows)
+    val_missing=sum(1 for x in csv.DictReader(open(r/'audit/coverage_by_task.csv')) if x['split']=='val' and int(x['trajectories'])==0)
+    raw_rgb=frames*2*224*224*3
+    byte_masks=frames*2*224*224
+    dino_half=frames*2*16*16*1024*2 # DINO patch14, 224/14=16; official YAML comment says14x14 but arithmetic is16x16.
+    report=f'''# 官方 LIBERO 配对背景颜色增强：实现与数据准入报告
+
+## 结论
+
+**PARTIAL / MASK BLOCKED**。已实现在线 RGB hue 配对模块及严格 mask 接口，完成四套件实际索引审计、官方 loader 读取与关闭增强等价验收。未取得与这些原始 RGB 严格对齐的真实背景掩码，不能生成或宣称真实增强验收通过，**目前不具备三组正式训练条件**。
+
+旧观测退化校准已按用户要求暂停：540次单因素＋30次炉灶复核已保存，抽屉复核尚未开始；不续跑。历史分支、数据、日志不删除、不移动。
+
+## 官方代码、数据来源与身份
+
+代码固定 `0fc6e97212442ebccffa06f1d42f5481e5f22950`，工作树干净。核对四个指定文件及 trainer/train.py；哈希见 evidence_manifest。
+实际转换包来自 `xyzhang368/RLA-WM` 数据仓库 revision `5fc55b89ba14e85c1d8ac064fd8a6eb11b5329f8` 的 rebuttal_libero_converted 两个分卷。
+沿用历史 resource_inventory.md 已完成的分卷 SHA-256 校验，本轮没有再次哈希10GB归档、没有下载数据。转换包的具体生成代码 commit 未附在包内：本轮以固定官方实现审计，不把文件结构相符当作完整生成历史证明。
+本地原 RLDS 仅发现 spatial 包，另三套原始 RLDS 不在该目录；四套**转换后的 RGB 包均存在可读**，不能混为数据缺失。
+没有新增 libero_90 或 LIBERO-Plus 训练数据。
+
+## 实际覆盖与划分
+
+| 套件 | 划分 | 轨迹数 | 物理帧数 | 官方有效起点数 | 可采时间对数 |
+|---|---|---:|---:|---:|---:|
+{chr(10).join(table)}
+
+共1693条、40个任务、{frames}帧；训练1653条，验证40条。每任务具体计数见 coverage_by_task.csv（含0条验证的任务）。有{val_missing}个任务在套件级ID0…9验证中没有轨迹，这不是按任务分层留出。不得自行改划分。
+所有1693条的双相机视频头帧数与 action/相机/机器人元数据长度匹配，索引与磁盘目录无差异，无长度过滤；40个语言任务可映射到 camera_params 中 BDDL 名称。**原始 HDF5 demo 对应关系1693条均未认证**，与语言任务映射是两件事。
+本轮不是全视频每帧解码认证：全量做视频头/元数据检查；按事先固定规则，对40个任务各第一条训练轨迹的三个时间对解码，再各套件一个验证样本，共124个实际读取样本，全部成功。
+
+### 官方采样规则，不套用策略 chunk
+
+train start_traj_id=10；val start=0,end=9，均为套件内自然排序ID。min_num_frames=5。
+两帧、两相机顺序 agentview_camera/wrist_camera；train horizon窗口长度2…64（时间差1…63），val长度10…64（差9…63），stride1。
+官方保留一帧尾部：N帧的有效起点是N−h_min，可行时间对总数为 sum_h max(N−h,0)，不是所有两两组合。
+manual_limit=1000000只是数据集名义长度；训练读取调用随机采样：套件按相同权重，套件内轨迹均匀、轨迹内起点均匀，再在可行范围均匀抽h。**不是所有物理时间对等权**。
+训练和验证均未使用历史h1…8、60条子集或炉灶单任务列表。manifest记录的是可加载总体，不是尚未执行的未来训练抽样日志。
+
+## 实现与验收
+
+`paired_hue.py` 使用官方采样handle，另行用SHA256键+PCG64生成delta_h∈[-0.25,0.25]；键含划分、完整采样记录、独立augseed和全局occurrence。两时刻、两相机共享一个delta_h。
+HSV中仅H循环偏移，S/V不变，回uint8有量化误差；掩码外直接拷贝原字节。原始x不修改，metadata共享原记录，未来训练必须对x/x′分别重新跑冻结DINO，不能修改已有特征缓存。
+训练augseed20261102，验证augseed20261103且occurrence=0；验证handle持久化。物理采样与颜色随机性分离。
+5项CPU合成单测通过：掩码外不变、可复现/不消耗全局RNG、灰色/空mask保留、S/V量化边界、metadata/关闭增强等价及缺失mask拒绝。**合成mask仅用于软件单测，不计真实数据通过。**
+124个官方读取样本关闭增强后像素逐元素相等、时间索引正确。真实RGB的增强全部被mask门控拒绝，故真实掩码外像素保持、颜色变化/低饱和度统计尚不能验收；不伪造零差分“通过”。
+输入保留官方224预处理及原相机矩阵；既有负fx/水平镜像约定不改。代码中的w2c字段实际传给cam2world，沿用官方数据语义，不自行求逆。
+原始action仍在HDF5，官方AE读取返回target_qpos等而非策略动作标签；增强不写源HDF5，不能声称本轮重建了原始全物理状态或动作时间映射。
+
+### 核心阻塞：真实背景 mask
+
+转换脚本明确写全255 foreground占位；124个读取样本的两相机/两帧mask唯一值均255。没有按“取反=背景”生成假mask。
+转换包没有完整物体状态、源episode XML、no-op过滤前后逐帧映射或真实分割流。qpos只有机器人，无法恢复所有任务物体遮挡；camera_params不等于完整场景状态。
+已知少量原始HDF5和历史Cosmos/V2重渲染链路不是这1693条原RGB的已认证一一映射。同名demo、同维state、近似图像都不能建立对应。未读取额外封存内容，也未用历史分割代替原RGB mask。
+下一步具体所需：转换traj→原HDF5 episode、过滤后frame→原时刻映射，匹配XML/资产/全state，原RGB相机与方向/分辨率验证，基于实际geom/body的table/wall白名单，遮挡与224缩放边界验收。或提供原RGB上已有、来源清晰且经过人工验收的真实分割。
+未使用新分割模型或whole-image ColorJitter。未重渲染替换原x。所有真实增强均BLOCKED，不自动缩成两任务旧数据集。
+
+### 可视化
+
+本地 visualizations/ 有124张固定样本面板（120训练检查＋4验证读取）。列为原图、占位mask、明确BLOCKED的增强格和差分格；不是完整合格的原/真mask/增强/差分对比。
+人工查看首个固定空间任务面板确认占位性质和标识；其余自动记录保留，不能声称124张均人工检查。真实增强图缺失是交付限制。
+
+## 三组配置与共同初始化方案
+
+AE-Base:(x,x)，AE-Aug:(x,x′)，AE-Aug-Cons:(x,x′)+lambda_cons*MSE(z,z′)。重建均为两路未来DINO mean L1+mean MSE的平均；各自未来外观，不要求未来RGB相同。
+同一official双视角16×64架构、encoder和feature decoder共同随机step0，seed20261102；decoder zero_init保留。冻结预训练DINO，不加载step90000/历史AE。DINO→RGB仅可视化，不混同feature decoder。
+三份配置已输出，但共同step0尚未创建，paired trainer端到端尚未验收。可执行命令是数据审计/读取/生成配置/准入检查；正式训练启动仍门控，不能把这些JSON直接当官方trainer可运行配置。
+官方train.py空load_dir会回退output_dir并默认latest；未来必须新空目录、明确ckpt none，并核验只加载指定共同未训练step0。仅写load_dir:null不足。
+
+### 校准与预算建议（未执行，不代表充分训练）
+
+lambda_cons暂不赋历史数值。预实验上限100步，仅训练批；记录0/10/25/50/100的encoder两项梯度。按25/50/100的非零有限范数比确定单值0.1×重建梯度/一致性梯度的中位数；至少2个有效节点，否则停止而非自动调参。step0仅检查零初始化影响，不独立决定权重。预实验模型丢弃，三正式组重载共同step0，D第一步即启用一致性。
+官方recipe为batch128、AdamW1e-4、weight_decay0，max_steps1000000是配置上限，**不是作者实际训练长度证据**。
+建议先审批每组20000步有界可行性上限，1000步验证/保存，共享物理batch128，两路重建256；每组256万物理转移曝光，512万重建目标曝光，相当于{2560000/starts:.2f}倍训练有效起点数（随机有放回，套件/轨迹分层，不是完整遍历），绝不默认2000步充分。
+三组总60000更新/768万物理曝光；当前不执行。新批量/精度与内存要另做获准吞吐验收，不改变官方batch来装作可比。
+当前RGB视频约{rgb_bytes/2**30:.2f}GiB；全部224双视角uint8展开约{raw_rgb/2**30:.2f}GiB，一份uint8背景mask约{byte_masks/2**30:.2f}GiB，bitpack约{byte_masks/8/2**30:.2f}GiB（未含证据/压缩开销）。在线增强无需永久存x′。
+历史同构初始化审计记录encoder152344640、feature decoder153395200个参数，共约3.057亿；此处只复用参数规模，不加载历史权重。以每参数14—16字节保存混合精度参数、FP32 master及AdamW两项矩估计，完整恢复checkpoint约4.0—4.6GiB；三组各20份约240—276GiB，另留原子保存临时空间、DINO和日志。实际文件大小在未来共同初始化构造后校验。
+若为全部帧保存一份双视角16×16×1024 FP16 DINO缓存，约{dino_half/2**30:.2f}GiB；随机色相缓存随occurrence增长，故本轮不生成。224/14实际16×16patch，不能照抄YAML注释中的14×14。
+本轮无模型吞吐实测，不提供伪精确GPU工时：若每更新实测为s秒，三组总约60000s/3600 GPU小时；以2/5/10秒场景估算为33.3/83.3/166.7小时，仅敏感性规划值，非ETA。不以历史小批速度冒充本recipe吞吐。
+
+## 失败、修复及边界
+
+一次CPU读取脚本把官方构造器误作位置参数，触发KeyError:max_num_cameras；改为TrajectoryDataset(**args)后124样本均读通。未改官方代码、未改原数据。
+另一次查看图片时文件名猜错，未读取文件；改用实际固定清单路径。无训练/模型失败重试。
+记录为部分完成：真实mask覆盖=0/1693；真实增强验收=0；不具备正式训练条件。不能把HSV代码单测通过写成方法有效。
+
+## 实际计算与历史保护
+
+本任务模型前向=0、AE/DINO/策略更新=0、backward=0、策略闭环=0、仿真状态设置/重放/渲染=0。
+仅CPU元数据、视频解码、HSV合成单测和图表。没有GPU任务启动，无本任务GPU残留；不停止其他进程。
+旧任务570次闭环不计入本轮；pause_record记录暂停而非完成。仅新增独立目录和分支，不覆盖历史实验。
+'''
+    (out/'report.md').write_text(report)
+    inputs=[a.official/x for x in ['rebuttal/exp2_vla_adapter/configs/rla/16x64_libero.yaml',
+        'rebuttal/exp2_vla_adapter/libero_prep/convert_libero_to_trajectory.py','src/datasets/trajectory_dataset.py',
+        'datalib/dataset.py','rebuttal/src/trainers/rla_autoencoder_multiview_trainer.py','train.py']]
+    inputs += [project/'reports/resource_inventory.md',project/'scripts/pilot/download_libero_converted.sh',
+        project/'data/libero_converted/camera_params.json',r/'loader_validation.json',r/'audit/fixed_visualization_manifest.json',
+        project/'experiments/rla_ae_from_scratch/run_20261029_01/initialization_audit.json']
+    write_json(out/'evidence_manifest.json',[{'path':str(x),'sha256':sha(x)} for x in inputs])
+    for name in ['train_manifest.csv','val_manifest.csv','coverage_by_task.csv','index_discrepancies.json','fixed_visualization_manifest.json','totals.json']:
+        shutil.copyfile(r/'audit'/name,out/name)
+    shutil.copyfile(r/'loader_validation.json',out/'validation_results.json')
+    write_json(out/'delivery_verification.json',dict(status='PARTIAL_MASK_BLOCKED',
+        official_loader_counts_match_manifest=True,fixed_samples_loaded=124,synthetic_tests_passed=5,
+        real_background_mask_trajectories=0,formal_training_ready=False,model_forwards=0,backward=0,
+        AE_updates=0,DINO_updates=0,policy_updates=0,new_rollouts=0,simulation_replays=0,
+        historical_files_preserved=True,gpu_started=False))
+    # Publish only text, replacing server root. Raw images remain local.
+    public=Path(__file__).parent/'delivery';public.mkdir(exist_ok=True)
+    for x in out.iterdir():
+        if x.suffix in ('.md','.json','.csv'):
+            (public/x.name).write_text(x.read_text().replace(str(project),'$RLA_ROOT'))
+    configdir=Path(__file__).parent/'configs';configdir.mkdir(exist_ok=True)
+    for x in (r/'configs').glob('*.json'): shutil.copyfile(x,configdir/x.name)
+    print(report[:1800])
+
+if __name__=='__main__':main()

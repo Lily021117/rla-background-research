@@ -1,0 +1,1922 @@
+[
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000011"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      40,
+      41
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000011"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      81,
+      82
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000011"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl from table center and place it on the plate",
+    "trajectory_id": "000022",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000022"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl from table center and place it on the plate",
+    "trajectory_id": "000022",
+    "frames": [
+      66,
+      67
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000022"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl from table center and place it on the plate",
+    "trajectory_id": "000022",
+    "frames": [
+      132,
+      133
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000022"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+    "trajectory_id": "000015",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000015"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+    "trajectory_id": "000015",
+    "frames": [
+      68,
+      69
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000015"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+    "trajectory_id": "000015",
+    "frames": [
+      137,
+      138
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000015"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the cookie box and place it on the plate",
+    "trajectory_id": "000013",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000013"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the cookie box and place it on the plate",
+    "trajectory_id": "000013",
+    "frames": [
+      55,
+      56
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000013"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the cookie box and place it on the plate",
+    "trajectory_id": "000013",
+    "frames": [
+      110,
+      111
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000013"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the plate and place it on the plate",
+    "trajectory_id": "000019",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000019"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the plate and place it on the plate",
+    "trajectory_id": "000019",
+    "frames": [
+      52,
+      53
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000019"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the plate and place it on the plate",
+    "trajectory_id": "000019",
+    "frames": [
+      104,
+      105
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000019"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the ramekin and place it on the plate",
+    "trajectory_id": "000020",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000020"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the ramekin and place it on the plate",
+    "trajectory_id": "000020",
+    "frames": [
+      54,
+      55
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000020"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl next to the ramekin and place it on the plate",
+    "trajectory_id": "000020",
+    "frames": [
+      109,
+      110
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000020"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the cookie box and place it on the plate",
+    "trajectory_id": "000017",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000017"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the cookie box and place it on the plate",
+    "trajectory_id": "000017",
+    "frames": [
+      49,
+      50
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000017"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the cookie box and place it on the plate",
+    "trajectory_id": "000017",
+    "frames": [
+      98,
+      99
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000017"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the ramekin and place it on the plate",
+    "trajectory_id": "000010",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000010"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the ramekin and place it on the plate",
+    "trajectory_id": "000010",
+    "frames": [
+      49,
+      50
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000010"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the ramekin and place it on the plate",
+    "trajectory_id": "000010",
+    "frames": [
+      98,
+      99
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000010"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "trajectory_id": "000053",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000053"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "trajectory_id": "000053",
+    "frames": [
+      71,
+      72
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000053"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the stove and place it on the plate",
+    "trajectory_id": "000053",
+    "frames": [
+      142,
+      143
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000053"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+    "trajectory_id": "000029",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000029"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+    "trajectory_id": "000029",
+    "frames": [
+      80,
+      81
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000029"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+    "trajectory_id": "000029",
+    "frames": [
+      161,
+      162
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_spatial/traj_000029"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "trajectory_id": "000011",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000011"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "trajectory_id": "000011",
+    "frames": [
+      80,
+      81
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000011"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "trajectory_id": "000011",
+    "frames": [
+      161,
+      162
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000011"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the bbq sauce and place it in the basket",
+    "trajectory_id": "000017",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000017"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the bbq sauce and place it in the basket",
+    "trajectory_id": "000017",
+    "frames": [
+      79,
+      80
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000017"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the bbq sauce and place it in the basket",
+    "trajectory_id": "000017",
+    "frames": [
+      158,
+      159
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000017"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the butter and place it in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000012"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the butter and place it in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      74,
+      75
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000012"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the butter and place it in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      149,
+      150
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000012"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the chocolate pudding and place it in the basket",
+    "trajectory_id": "000016",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000016"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the chocolate pudding and place it in the basket",
+    "trajectory_id": "000016",
+    "frames": [
+      79,
+      80
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000016"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the chocolate pudding and place it in the basket",
+    "trajectory_id": "000016",
+    "frames": [
+      159,
+      160
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000016"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the cream cheese and place it in the basket",
+    "trajectory_id": "000049",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000049"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the cream cheese and place it in the basket",
+    "trajectory_id": "000049",
+    "frames": [
+      75,
+      76
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000049"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the cream cheese and place it in the basket",
+    "trajectory_id": "000049",
+    "frames": [
+      150,
+      151
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000049"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the ketchup and place it in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000013"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the ketchup and place it in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      74,
+      75
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000013"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the ketchup and place it in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      148,
+      149
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000013"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the milk and place it in the basket",
+    "trajectory_id": "000010",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000010"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the milk and place it in the basket",
+    "trajectory_id": "000010",
+    "frames": [
+      70,
+      71
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000010"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the milk and place it in the basket",
+    "trajectory_id": "000010",
+    "frames": [
+      140,
+      141
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000010"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the orange juice and place it in the basket",
+    "trajectory_id": "000022",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000022"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the orange juice and place it in the basket",
+    "trajectory_id": "000022",
+    "frames": [
+      66,
+      67
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000022"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the orange juice and place it in the basket",
+    "trajectory_id": "000022",
+    "frames": [
+      133,
+      134
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000022"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the salad dressing and place it in the basket",
+    "trajectory_id": "000015",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000015"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the salad dressing and place it in the basket",
+    "trajectory_id": "000015",
+    "frames": [
+      56,
+      57
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000015"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the salad dressing and place it in the basket",
+    "trajectory_id": "000015",
+    "frames": [
+      112,
+      113
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000015"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the tomato sauce and place it in the basket",
+    "trajectory_id": "000014",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000014"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the tomato sauce and place it in the basket",
+    "trajectory_id": "000014",
+    "frames": [
+      64,
+      65
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000014"
+  },
+  {
+    "suite": "libero_object",
+    "task": "pick up the tomato sauce and place it in the basket",
+    "trajectory_id": "000014",
+    "frames": [
+      129,
+      130
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_object/traj_000014"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the middle drawer of the cabinet",
+    "trajectory_id": "000020",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000020"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the middle drawer of the cabinet",
+    "trajectory_id": "000020",
+    "frames": [
+      66,
+      67
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000020"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the middle drawer of the cabinet",
+    "trajectory_id": "000020",
+    "frames": [
+      133,
+      134
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000020"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the top drawer and put the bowl inside",
+    "trajectory_id": "000030",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000030"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the top drawer and put the bowl inside",
+    "trajectory_id": "000030",
+    "frames": [
+      91,
+      92
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000030"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "open the top drawer and put the bowl inside",
+    "trajectory_id": "000030",
+    "frames": [
+      182,
+      183
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000030"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "push the plate to the front of the stove",
+    "trajectory_id": "000021",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000021"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "push the plate to the front of the stove",
+    "trajectory_id": "000021",
+    "frames": [
+      67,
+      68
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000021"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "push the plate to the front of the stove",
+    "trajectory_id": "000021",
+    "frames": [
+      135,
+      136
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000021"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the plate",
+    "trajectory_id": "000036",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000036"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the plate",
+    "trajectory_id": "000036",
+    "frames": [
+      52,
+      53
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000036"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the plate",
+    "trajectory_id": "000036",
+    "frames": [
+      104,
+      105
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000036"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the stove",
+    "trajectory_id": "000013",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000013"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the stove",
+    "trajectory_id": "000013",
+    "frames": [
+      50,
+      51
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000013"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on the stove",
+    "trajectory_id": "000013",
+    "frames": [
+      100,
+      101
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000013"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on top of the cabinet",
+    "trajectory_id": "000019",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000019"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on top of the cabinet",
+    "trajectory_id": "000019",
+    "frames": [
+      48,
+      49
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000019"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the bowl on top of the cabinet",
+    "trajectory_id": "000019",
+    "frames": [
+      97,
+      98
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000019"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the cream cheese in the bowl",
+    "trajectory_id": "000012",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000012"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the cream cheese in the bowl",
+    "trajectory_id": "000012",
+    "frames": [
+      66,
+      67
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000012"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the cream cheese in the bowl",
+    "trajectory_id": "000012",
+    "frames": [
+      132,
+      133
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000012"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on the rack",
+    "trajectory_id": "000024",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000024"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on the rack",
+    "trajectory_id": "000024",
+    "frames": [
+      87,
+      88
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000024"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on the rack",
+    "trajectory_id": "000024",
+    "frames": [
+      174,
+      175
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000024"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on top of the cabinet",
+    "trajectory_id": "000010",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000010"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on top of the cabinet",
+    "trajectory_id": "000010",
+    "frames": [
+      55,
+      56
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000010"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "put the wine bottle on top of the cabinet",
+    "trajectory_id": "000010",
+    "frames": [
+      111,
+      112
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000010"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "turn on the stove",
+    "trajectory_id": "000011",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000011"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "turn on the stove",
+    "trajectory_id": "000011",
+    "frames": [
+      39,
+      40
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000011"
+  },
+  {
+    "suite": "libero_goal",
+    "task": "turn on the stove",
+    "trajectory_id": "000011",
+    "frames": [
+      78,
+      79
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_goal/traj_000011"
+  },
+  {
+    "suite": "libero_10",
+    "task": "pick up the book and place it in the back compartment of the caddy",
+    "trajectory_id": "000027",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000027"
+  },
+  {
+    "suite": "libero_10",
+    "task": "pick up the book and place it in the back compartment of the caddy",
+    "trajectory_id": "000027",
+    "frames": [
+      115,
+      116
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000027"
+  },
+  {
+    "suite": "libero_10",
+    "task": "pick up the book and place it in the back compartment of the caddy",
+    "trajectory_id": "000027",
+    "frames": [
+      231,
+      232
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000027"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both moka pots on the stove",
+    "trajectory_id": "000010",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000010"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both moka pots on the stove",
+    "trajectory_id": "000010",
+    "frames": [
+      190,
+      191
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000010"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both moka pots on the stove",
+    "trajectory_id": "000010",
+    "frames": [
+      380,
+      381
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000010"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the cream cheese box in the basket",
+    "trajectory_id": "000025",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000025"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the cream cheese box in the basket",
+    "trajectory_id": "000025",
+    "frames": [
+      126,
+      127
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000025"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the cream cheese box in the basket",
+    "trajectory_id": "000025",
+    "frames": [
+      252,
+      253
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000025"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the tomato sauce in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000013"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the tomato sauce in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      141,
+      142
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000013"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the alphabet soup and the tomato sauce in the basket",
+    "trajectory_id": "000013",
+    "frames": [
+      282,
+      283
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000013"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the cream cheese box and the butter in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000012"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the cream cheese box and the butter in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      138,
+      139
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000012"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put both the cream cheese box and the butter in the basket",
+    "trajectory_id": "000012",
+    "frames": [
+      276,
+      277
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000012"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "trajectory_id": "000014",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000014"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "trajectory_id": "000014",
+    "frames": [
+      127,
+      128
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000014"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "trajectory_id": "000014",
+    "frames": [
+      254,
+      255
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000014"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "trajectory_id": "000018",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000018"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "trajectory_id": "000018",
+    "frames": [
+      136,
+      137
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000018"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+    "trajectory_id": "000018",
+    "frames": [
+      273,
+      274
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000018"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000011"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      107,
+      108
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000011"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "trajectory_id": "000011",
+    "frames": [
+      215,
+      216
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000011"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the yellow and white mug in the microwave and close it",
+    "trajectory_id": "000034",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000034"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the yellow and white mug in the microwave and close it",
+    "trajectory_id": "000034",
+    "frames": [
+      223,
+      224
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000034"
+  },
+  {
+    "suite": "libero_10",
+    "task": "put the yellow and white mug in the microwave and close it",
+    "trajectory_id": "000034",
+    "frames": [
+      446,
+      447
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000034"
+  },
+  {
+    "suite": "libero_10",
+    "task": "turn on the stove and put the moka pot on it",
+    "trajectory_id": "000038",
+    "frames": [
+      0,
+      1
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000038"
+  },
+  {
+    "suite": "libero_10",
+    "task": "turn on the stove and put the moka pot on it",
+    "trajectory_id": "000038",
+    "frames": [
+      129,
+      130
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000038"
+  },
+  {
+    "suite": "libero_10",
+    "task": "turn on the stove and put the moka pot on it",
+    "trajectory_id": "000038",
+    "frames": [
+      258,
+      259
+    ],
+    "horizon": 2,
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "split": "train",
+    "source": "$RLA_ROOT/data/libero_converted/libero_10/traj_000038"
+  }
+]

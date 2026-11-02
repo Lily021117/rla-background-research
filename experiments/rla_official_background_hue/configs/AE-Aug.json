@@ -1,0 +1,301 @@
+{
+  "method": "AE-Aug",
+  "admission": "BLOCKED_VERIFIED_BACKGROUND_MASKS",
+  "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "official_recipe": {
+    "vars": {
+      "debug": false,
+      "img_size": 224,
+      "dino_channels": 1024,
+      "model_channels": 1024,
+      "num_heads": 16,
+      "num_blocks": 12,
+      "latent_num_tokens": 16,
+      "token_dim": 64,
+      "num_views": 2,
+      "horizon": 64,
+      "num_frames": 2
+    },
+    "wandb": {
+      "enabled": true,
+      "project": "rla-wm",
+      "name": "",
+      "tags": [],
+      "notes": ""
+    },
+    "models": {
+      "encoder": {
+        "name": "MultiViewTokenTransformer",
+        "args": {
+          "in_channels": 1024,
+          "model_channels": 1024,
+          "out_channels": 64,
+          "num_blocks": 12,
+          "num_heads": 16,
+          "mlp_ratio": 4.0,
+          "use_fp16": true,
+          "num_tokens": 16,
+          "norm_output_tokens": false,
+          "num_views": 2,
+          "use_view_embed": false,
+          "pos_embed_mode": "plucker",
+          "plucker_num_frequencies": 8
+        }
+      },
+      "decoder": {
+        "name": "MultiViewTokenTransformer",
+        "args": {
+          "in_channels": 1024,
+          "model_channels": 1024,
+          "out_channels": 1024,
+          "token_channels": 64,
+          "num_blocks": 12,
+          "num_heads": 16,
+          "mlp_ratio": 4.0,
+          "use_fp16": true,
+          "num_tokens": 16,
+          "zero_init": true,
+          "num_views": 2,
+          "use_view_embed": false,
+          "pos_embed_mode": "plucker",
+          "plucker_num_frequencies": 8
+        }
+      },
+      "image_decoder": {
+        "name": "DinoToImageDecoderV1",
+        "args": {
+          "in_channels": 1024,
+          "model_channels": 1024,
+          "out_channels": 3,
+          "use_fp16": true
+        }
+      }
+    },
+    "dataset": {
+      "name": "TrajectoryDataset",
+      "args": {
+        "root": "data/libero_converted",
+        "configs": {
+          "libero_spatial": {
+            "paths": [
+              "libero_spatial"
+            ],
+            "w": 1.0
+          },
+          "libero_object": {
+            "paths": [
+              "libero_object"
+            ],
+            "w": 1.0
+          },
+          "libero_goal": {
+            "paths": [
+              "libero_goal"
+            ],
+            "w": 1.0
+          },
+          "libero_10": {
+            "paths": [
+              "libero_10"
+            ],
+            "w": 1.0
+          }
+        },
+        "max_num_cameras": 2,
+        "start_traj_id": 10,
+        "min_num_frames": 5,
+        "num_frames": 2,
+        "horizon": [
+          2,
+          64
+        ],
+        "manual_limit": 1000000,
+        "read_optional_streams": false,
+        "interaction_prob": 0.0,
+        "interaction_detect": null,
+        "img_size": 224,
+        "augmentations": null,
+        "cameras": [
+          "agentview_camera",
+          "wrist_camera"
+        ],
+        "trajectory_info_cache_file": "runs/cache/dataset_idx/32x64_libero.train.num_frames2_h2-64.json",
+        "nonlinear_sampling": false,
+        "bg_mask_top": 0.0
+      }
+    },
+    "val_dataset": {
+      "name": "TrajectoryDataset",
+      "args": {
+        "root": "data/libero_converted",
+        "configs": {
+          "libero_spatial": {
+            "paths": [
+              "libero_spatial"
+            ],
+            "w": 1.0
+          },
+          "libero_object": {
+            "paths": [
+              "libero_object"
+            ],
+            "w": 1.0
+          },
+          "libero_goal": {
+            "paths": [
+              "libero_goal"
+            ],
+            "w": 1.0
+          },
+          "libero_10": {
+            "paths": [
+              "libero_10"
+            ],
+            "w": 1.0
+          }
+        },
+        "read_optional_streams": false,
+        "max_num_cameras": 2,
+        "start_traj_id": 0,
+        "end_traj_id": 9,
+        "min_num_frames": 5,
+        "num_frames": 2,
+        "manual_limit": 1000000,
+        "horizon": [
+          10,
+          64
+        ],
+        "interaction_prob": 0.0,
+        "interaction_detect": null,
+        "cameras": [
+          "agentview_camera",
+          "wrist_camera"
+        ],
+        "img_size": 224,
+        "augmentations": null,
+        "trajectory_info_cache_file": "runs/cache/dataset_idx/32x64_libero.val.num_frames2_h10-64.json",
+        "nonlinear_sampling": false,
+        "bg_mask_top": 0.0
+      }
+    },
+    "trainer": {
+      "name": "RlaAutoencoderMultiViewTrainer",
+      "args": {
+        "max_steps": 1000000,
+        "batch_size": 128,
+        "batch_split": 1,
+        "optimizer": {
+          "name": "AdamW",
+          "args": {
+            "lr": 0.0001,
+            "weight_decay": 0.0
+          }
+        },
+        "ema_rate": [],
+        "fp16_mode": "inflat_all",
+        "fp16_scale_growth": 0.001,
+        "i_log": 50,
+        "i_sample": 2500,
+        "i_save": 2500,
+        "save_latest_only": true,
+        "num_workers": 5,
+        "num_samples": 8,
+        "load_dir": null,
+        "debug": false,
+        "num_views": 2,
+        "lambda_l1": 1.0,
+        "lambda_mse": 1.0,
+        "dino_channels": 1024,
+        "freeze_models": [
+          "image_decoder"
+        ],
+        "image_decoder_ckpt": "runs/dino_to_image_v1_libero/20260724_11-59-08",
+        "snapshot_eval_samples": 200,
+        "snapshot_eval_seed": 2026,
+        "skip_initial_snapshot": true
+      }
+    }
+  },
+  "initialization": {
+    "description": "按官方实现创建的共同未训练初始化",
+    "seed": 20261102,
+    "modules": [
+      "encoder",
+      "decoder"
+    ],
+    "pretrained_ae_forbidden": true,
+    "auto_resume": false,
+    "shared_step0_path": "REQUIRED_NEW_SHARED_STEP0",
+    "shared_step0_sha256": null,
+    "dino": "frozen_pretrained_dinov2_vitl14",
+    "image_decoder": "visualization_only_not_required"
+  },
+  "paired": {
+    "branches": [
+      "x",
+      "x_prime"
+    ],
+    "augmentation": "background_hsv_hue",
+    "delta_h": [
+      -0.25,
+      0.25
+    ],
+    "augmentation_seed": 20261102,
+    "val_augmentation_seed": 20261103,
+    "mask_registry": null,
+    "mask_whitelist": [
+      "table",
+      "wall"
+    ],
+    "dedicated_occurrence_key": true,
+    "original_rgb_preserved": true,
+    "feature_cache_edit_forbidden": true
+  },
+  "loss": {
+    "reconstruction": "0.5 * sum_over_branches(mean_L1_future_DINO + mean_MSE_future_DINO)",
+    "consistency": null,
+    "lambda_cons": 0,
+    "reduction": "each mean over physical batch, both cameras, DINO patches and channels; latent mean over batch,16,64"
+  },
+  "fairness": {
+    "physical_pairs_per_update": 128,
+    "reconstruction_branches_per_pair": 2,
+    "reconstruction_targets_per_update": 256,
+    "rgb_views_per_update": 1024,
+    "identical_sampler_and_rng": true,
+    "common_update_budget": true
+  },
+  "budget": {
+    "proposed_max_updates": 20000,
+    "validation_every": 1000,
+    "checkpoint_every": 1000,
+    "status": "planning_upper_bound_not_author_actual_training_length",
+    "physical_transition_exposures": 2560000,
+    "reconstruction_target_exposures": 5120000,
+    "gpu_hours": "UNMEASURED: no model throughput benchmark authorized/executed this round"
+  },
+  "calibration": {
+    "train_only": true,
+    "disposable_updates_max": 100,
+    "checkpoints": [
+      0,
+      10,
+      25,
+      50,
+      100
+    ],
+    "rule": "On fixed train batches, median of 0.1*||g_rec_encoder||/||g_cons_encoder|| over checkpoints25,50,100; exclude near-zero/nonfinite terms; if fewer than2 usable nodes STOP",
+    "formal_start": "reload common untrained step0 for every group; consistency from first formal update",
+    "no_sweep": true
+  },
+  "launch_safety": {
+    "formal_training_enabled": false,
+    "reason": "Masks/alignment not admitted; paired trainer end-to-end and shared step0 creation remain gated",
+    "forbid": [
+      "step90000",
+      "historical AE weights",
+      "automatic latest checkpoint",
+      "whole_image_color_jitter"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "suite": "libero_spatial",
+    "indexed_missing_directory": [],
+    "unindexed_directory": []
+  },
+  {
+    "suite": "libero_object",
+    "indexed_missing_directory": [],
+    "unindexed_directory": []
+  },
+  {
+    "suite": "libero_goal",
+    "indexed_missing_directory": [],
+    "unindexed_directory": []
+  },
+  {
+    "suite": "libero_10",
+    "indexed_missing_directory": [],
+    "unindexed_directory": []
+  }
+]

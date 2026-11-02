@@ -1,0 +1,50 @@
+[
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/configs/rla/16x64_libero.yaml",
+    "sha256": "8b2a1fd1a2972293eacaccd0bdaa7e41bb24b4c63eaeccc74caa266f7b106db1"
+  },
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/libero_prep/convert_libero_to_trajectory.py",
+    "sha256": "b98f8fb36044cca272b51cee2714631c33f0bcc260ba238a6d77e99e49143d6c"
+  },
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/src/datasets/trajectory_dataset.py",
+    "sha256": "fb1e48699b17452df698a664839cdb7ba883ee7736e672681683c82ad5bfbe4a"
+  },
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/datalib/dataset.py",
+    "sha256": "def3d3903f8ee5f3de865ec85d4ee78d117883a45b1eb655efa6ddc7c6ebaf3c"
+  },
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/rebuttal/src/trainers/rla_autoencoder_multiview_trainer.py",
+    "sha256": "21430db327dff628d1ca0dd731d89516fafeeb16c4f9f5a68bb5b87ec73c1f98"
+  },
+  {
+    "path": "$RLA_ROOT/worktrees/rla-official-0fc6e97/train.py",
+    "sha256": "628a0ce1d7353b97e34424de6242d5d963565ba5642bfe1d05e72b06526502c8"
+  },
+  {
+    "path": "$RLA_ROOT/reports/resource_inventory.md",
+    "sha256": "47829f16e166701e51feef6b6a10bde379a48442fe0134a4376687946daf5c15"
+  },
+  {
+    "path": "$RLA_ROOT/scripts/pilot/download_libero_converted.sh",
+    "sha256": "1044b87bf6cd54815e2843ab615a65c1c212489eb351857c7b92c2dcf7089d13"
+  },
+  {
+    "path": "$RLA_ROOT/data/libero_converted/camera_params.json",
+    "sha256": "f983788d2c3e7f46777fff5a6c2c2427c0890129388c25a09539242ead8e5e00"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/run_20261102_01/loader_validation.json",
+    "sha256": "19f5899c6ab6dc99e3fa26cc9cc352c5ab577cabc7de6bd9493e333c4ca09a4c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/run_20261102_01/audit/fixed_visualization_manifest.json",
+    "sha256": "a1d9884ad248fd84834b408317fd956af13142a88dae7c19bf5b69e33411d1f8"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_ae_from_scratch/run_20261029_01/initialization_audit.json",
+    "sha256": "eb7aea665c9bec1c7bb97028331d0147947df72330b95b703943728a11a5bc0a"
+  }
+]
