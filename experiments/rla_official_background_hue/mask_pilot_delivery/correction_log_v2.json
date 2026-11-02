@@ -1,0 +1,1570 @@
+[
+  {
+    "video": "libero_spatial_000010_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_spatial_000010_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            150,
+            235
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            20,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            120,
+            80
+          ],
+          [
+            68,
+            115
+          ],
+          [
+            110,
+            180
+          ],
+          [
+            57,
+            180
+          ],
+          [
+            160,
+            120
+          ],
+          [
+            215,
+            160
+          ],
+          [
+            111,
+            200
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          90,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_spatial_000010_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_spatial_000010_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            120,
+            100
+          ],
+          [
+            170,
+            130
+          ],
+          [
+            180,
+            190
+          ],
+          [
+            100,
+            70
+          ]
+        ],
+        "negative": [
+          [
+            220,
+            20
+          ],
+          [
+            150,
+            10
+          ],
+          [
+            50,
+            175
+          ],
+          [
+            236,
+            139
+          ],
+          [
+            25,
+            70
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 50,
+        "positive": [
+          [
+            40,
+            50
+          ],
+          [
+            150,
+            70
+          ],
+          [
+            70,
+            150
+          ]
+        ],
+        "negative": [
+          [
+            200,
+            200
+          ],
+          [
+            40,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ],
+          [
+            245,
+            15
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_spatial_000011_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_spatial_000011_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            150,
+            235
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            20,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            120,
+            80
+          ],
+          [
+            34,
+            126
+          ],
+          [
+            68,
+            150
+          ],
+          [
+            70,
+            126
+          ],
+          [
+            60,
+            184
+          ],
+          [
+            118,
+            193
+          ],
+          [
+            163,
+            121
+          ],
+          [
+            215,
+            150
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          90,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_spatial_000011_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_spatial_000011_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            100,
+            100
+          ],
+          [
+            140,
+            170
+          ],
+          [
+            120,
+            70
+          ]
+        ],
+        "negative": [
+          [
+            215,
+            20
+          ],
+          [
+            140,
+            10
+          ],
+          [
+            225,
+            70
+          ],
+          [
+            223,
+            145
+          ],
+          [
+            60,
+            177
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 42,
+        "positive": [
+          [
+            25,
+            70
+          ],
+          [
+            25,
+            170
+          ],
+          [
+            240,
+            70
+          ]
+        ],
+        "negative": [
+          [
+            135,
+            60
+          ],
+          [
+            240,
+            85
+          ],
+          [
+            150,
+            210
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_object_000010_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_object_000010_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            230,
+            200
+          ],
+          [
+            75,
+            80
+          ],
+          [
+            225,
+            80
+          ]
+        ],
+        "negative": [
+          [
+            45,
+            130
+          ],
+          [
+            112,
+            116
+          ],
+          [
+            147,
+            118
+          ],
+          [
+            192,
+            117
+          ],
+          [
+            117,
+            160
+          ],
+          [
+            158,
+            155
+          ],
+          [
+            188,
+            165
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            10,
+            8
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          20,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_object_000010_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_object_000010_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            120,
+            80
+          ],
+          [
+            180,
+            80
+          ],
+          [
+            130,
+            180
+          ],
+          [
+            60,
+            120
+          ]
+        ],
+        "negative": [
+          [
+            30,
+            25
+          ],
+          [
+            80,
+            50
+          ],
+          [
+            240,
+            75
+          ],
+          [
+            165,
+            150
+          ],
+          [
+            92,
+            172
+          ],
+          [
+            10,
+            133
+          ],
+          [
+            144,
+            4
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 71,
+        "positive": [
+          [
+            80,
+            60
+          ],
+          [
+            160,
+            80
+          ],
+          [
+            210,
+            110
+          ]
+        ],
+        "negative": [
+          [
+            135,
+            185
+          ],
+          [
+            245,
+            145
+          ],
+          [
+            160,
+            30
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_object_000011_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_object_000011_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            230,
+            200
+          ],
+          [
+            75,
+            80
+          ],
+          [
+            225,
+            80
+          ]
+        ],
+        "negative": [
+          [
+            45,
+            130
+          ],
+          [
+            112,
+            125
+          ],
+          [
+            147,
+            119
+          ],
+          [
+            158,
+            140
+          ],
+          [
+            192,
+            123
+          ],
+          [
+            118,
+            167
+          ],
+          [
+            192,
+            151
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            10,
+            8
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          20,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_object_000011_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_object_000011_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            120,
+            80
+          ],
+          [
+            180,
+            80
+          ],
+          [
+            130,
+            180
+          ],
+          [
+            60,
+            120
+          ]
+        ],
+        "negative": [
+          [
+            48,
+            25
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            140,
+            3
+          ],
+          [
+            240,
+            80
+          ],
+          [
+            10,
+            135
+          ],
+          [
+            90,
+            173
+          ],
+          [
+            156,
+            152
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 82,
+        "positive": [
+          [
+            80,
+            50
+          ],
+          [
+            160,
+            50
+          ],
+          [
+            200,
+            100
+          ]
+        ],
+        "negative": [
+          [
+            120,
+            185
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_goal_000010_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_goal_000010_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            150,
+            235
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            20,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            120,
+            80
+          ],
+          [
+            210,
+            75
+          ],
+          [
+            70,
+            115
+          ],
+          [
+            145,
+            120
+          ],
+          [
+            170,
+            115
+          ],
+          [
+            130,
+            147
+          ],
+          [
+            92,
+            162
+          ],
+          [
+            130,
+            181
+          ],
+          [
+            220,
+            165
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          90,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_goal_000010_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_goal_000010_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            160,
+            100
+          ],
+          [
+            140,
+            165
+          ],
+          [
+            230,
+            85
+          ],
+          [
+            70,
+            200
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            120,
+            20
+          ],
+          [
+            120,
+            75
+          ],
+          [
+            179,
+            70
+          ],
+          [
+            90,
+            138
+          ],
+          [
+            15,
+            155
+          ],
+          [
+            40,
+            160
+          ],
+          [
+            230,
+            165
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 57,
+        "positive": [
+          [
+            60,
+            70
+          ],
+          [
+            160,
+            140
+          ],
+          [
+            40,
+            110
+          ]
+        ],
+        "negative": [
+          [
+            230,
+            40
+          ],
+          [
+            90,
+            160
+          ],
+          [
+            160,
+            40
+          ],
+          [
+            230,
+            160
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_goal_000011_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_goal_000011_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            150,
+            235
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            20,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            120,
+            80
+          ],
+          [
+            210,
+            75
+          ],
+          [
+            70,
+            115
+          ],
+          [
+            145,
+            120
+          ],
+          [
+            170,
+            115
+          ],
+          [
+            130,
+            147
+          ],
+          [
+            92,
+            162
+          ],
+          [
+            130,
+            181
+          ],
+          [
+            220,
+            165
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          90,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_goal_000011_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_goal_000011_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            160,
+            100
+          ],
+          [
+            140,
+            165
+          ],
+          [
+            230,
+            85
+          ],
+          [
+            70,
+            200
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            120,
+            20
+          ],
+          [
+            120,
+            75
+          ],
+          [
+            179,
+            70
+          ],
+          [
+            90,
+            138
+          ],
+          [
+            15,
+            155
+          ],
+          [
+            40,
+            160
+          ],
+          [
+            230,
+            165
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 40,
+        "positive": [
+          [
+            20,
+            30
+          ],
+          [
+            20,
+            160
+          ],
+          [
+            245,
+            200
+          ]
+        ],
+        "negative": [
+          [
+            160,
+            90
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_10_000010_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_10_000010_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            150,
+            235
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            20,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            20,
+            40
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            120,
+            80
+          ],
+          [
+            220,
+            40
+          ],
+          [
+            47,
+            143
+          ],
+          [
+            111,
+            161
+          ],
+          [
+            187,
+            126
+          ],
+          [
+            190,
+            160
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          90,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_10_000010_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_10_000010_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            150,
+            120
+          ],
+          [
+            200,
+            150
+          ],
+          [
+            130,
+            190
+          ],
+          [
+            225,
+            40
+          ]
+        ],
+        "negative": [
+          [
+            30,
+            70
+          ],
+          [
+            30,
+            143
+          ],
+          [
+            150,
+            18
+          ],
+          [
+            245,
+            75
+          ],
+          [
+            95,
+            95
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 191,
+        "positive": [
+          [
+            40,
+            40
+          ],
+          [
+            180,
+            50
+          ],
+          [
+            40,
+            120
+          ]
+        ],
+        "negative": [
+          [
+            180,
+            180
+          ],
+          [
+            100,
+            180
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  },
+  {
+    "video": "libero_10_000011_agentview_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_10_000011_agentview_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            20,
+            220
+          ],
+          [
+            220,
+            235
+          ],
+          [
+            220,
+            105
+          ],
+          [
+            30,
+            105
+          ]
+        ],
+        "negative": [
+          [
+            30,
+            30
+          ],
+          [
+            125,
+            40
+          ],
+          [
+            220,
+            25
+          ],
+          [
+            127,
+            112
+          ],
+          [
+            184,
+            132
+          ],
+          [
+            88,
+            160
+          ],
+          [
+            130,
+            228
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          65,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "video": "libero_10_000011_wrist_camera",
+    "reason": "v1 first-frame fragmented/empty mask or later empty propagation; add semantic table bounding extent and wrist middle keyframe",
+    "original_prompt_sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792",
+    "evidence": "v1/libero_10_000011_wrist_camera/overlay_review.png",
+    "changes": [
+      {
+        "frame": 0,
+        "positive": [
+          [
+            70,
+            100
+          ],
+          [
+            220,
+            100
+          ],
+          [
+            130,
+            145
+          ],
+          [
+            220,
+            30
+          ]
+        ],
+        "negative": [
+          [
+            125,
+            20
+          ],
+          [
+            180,
+            135
+          ],
+          [
+            30,
+            180
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives",
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ]
+      },
+      {
+        "frame": 109,
+        "positive": [
+          [
+            60,
+            50
+          ],
+          [
+            220,
+            70
+          ],
+          [
+            170,
+            130
+          ]
+        ],
+        "negative": [
+          [
+            100,
+            140
+          ],
+          [
+            70,
+            200
+          ],
+          [
+            35,
+            208
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            128,
+            240
+          ]
+        ],
+        "box": [
+          0,
+          0,
+          255,
+          214
+        ],
+        "basis": "Assistant inspection of pre-frozen middle original frame; tabletop only, object/robot exclusions; correction for loss of background tracking"
+      }
+    ]
+  }
+]

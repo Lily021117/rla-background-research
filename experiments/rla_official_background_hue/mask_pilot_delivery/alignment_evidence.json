@@ -1,0 +1,18 @@
+{
+  "native_resolution": [
+    256,
+    256
+  ],
+  "official_resolution": [
+    224,
+    224
+  ],
+  "decoder": "decord native RGB",
+  "resize_rgb": "cv2 INTER_LINEAR",
+  "resize_mask": "INTER_NEAREST, then 3x3 erosion",
+  "additional_flip": false,
+  "video_hashes_unchanged": true,
+  "all_lengths_verified": true,
+  "source_frames": 2576,
+  "sim_geometry_claim": false
+}

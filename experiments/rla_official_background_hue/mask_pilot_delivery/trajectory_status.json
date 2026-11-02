@@ -1,0 +1,50 @@
+[
+  {
+    "trajectory": "libero_spatial_000010",
+    "status": "NEEDS_CORRECTION",
+    "reason": "t66 plate rim suspected contamination; fragmented first/middle keyframes",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_spatial_000011",
+    "status": "NEEDS_CORRECTION",
+    "reason": "t27 plate interior incorrectly included; long near-empty segments despite visible table",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_object_000010",
+    "status": "NEEDS_CORRECTION",
+    "reason": "t0/23/47 mostly empty; table recovered later; early coverage missing",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_object_000011",
+    "status": "FAILED_TRACKING",
+    "reason": "Most fixed frames empty despite visible table; only middle prompt fragments",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_goal_000010",
+    "status": "FAILED_TRACKING",
+    "reason": "Visible table mostly unsegmented throughout fixed checks",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_goal_000011",
+    "status": "FAILED_TRACKING",
+    "reason": "Early/late table missed; t40 possible stovetop boundary inclusion",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_10_000010",
+    "status": "NEEDS_CORRECTION",
+    "reason": "First and middle prompt frames fragmented; later fixed frames have useful conservative table",
+    "complete_trajectory_training_admission": false
+  },
+  {
+    "trajectory": "libero_10_000011",
+    "status": "NEEDS_CORRECTION",
+    "reason": "t0/109 prompt frames fragmented; remaining fixed checks useful conservative table",
+    "complete_trajectory_training_admission": false
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/summary.json",
+    "sha256": "4f9a360e036c3f4b420106591641763b93c926956a35d60142b703509488ad82"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/frame_identity.json",
+    "sha256": "41f2a0c377af721d65825ba1ae196d90a20faaef3abb1846d4eb66a46b402010"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/masks_224.npz",
+    "sha256": "6007440a1abdfe770f89edde63bc130f34dea5ee75ce0544ddca585c701f4aab"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/raw_model_masks.npz",
+    "sha256": "7b4c07d7a3c3cf42cd9bca35cfae61ec1a04bac466e4f071dec6e181ead01214"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/overlay_full.mp4",
+    "sha256": "140f946d34360ca374eba2208554b5476387c97b8c8dc881d5d357a1b9280223"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/summary.json",
+    "sha256": "d6741f223ffc45c00ccf6a37716c52acd626b7e81f512b39ae4bcdf1ea404401"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/frame_identity.json",
+    "sha256": "3e1c9a7fa5c2787d0741f8ba59b9266047058b4224722f2f73e8147b4d8936d7"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/masks_224.npz",
+    "sha256": "a2cc7e7c874b33925cd8ee9d1b4525d5def398b6b201583b53934e29024c93f9"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/raw_model_masks.npz",
+    "sha256": "a9b5121d8e8394dc57aefc3bef43a1f454236dd2c479d45e47ee4d86859e5db5"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/overlay_full.mp4",
+    "sha256": "be33e3d848b2b6663e0e3173ed96110d5cfc071f0ba12070a50781f5c1f57e9f"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/summary.json",
+    "sha256": "0949ec265556e12109993b44cf47e114b22a45a916609afeb57608662f617178"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/frame_identity.json",
+    "sha256": "7249e0fbfc71140ee69eeaf962c2f4fca6caa7306539926c261e78b6bfea877a"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/masks_224.npz",
+    "sha256": "d6e779e206b81351008ffe84f1d89b7bb8664fc8fa199d1be221ae425b4bbd67"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/raw_model_masks.npz",
+    "sha256": "558bfa49aa45967b8561acb457f8ef31518f681d574e0e9ae7c1588abdbf76d8"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/overlay_full.mp4",
+    "sha256": "e745bee5a73eeb95a500f46299fd0e67618f700d0c1fb661bcf685c5025abc13"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/summary.json",
+    "sha256": "ac293fd7e3bd7cef369144671af24acfa6cfc29387c8a4eb1a81a90e84e820a7"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/frame_identity.json",
+    "sha256": "dc206542599bbd185cfefc4f5c784e7e6da06ffe66d49bb0681ebfea7860fdca"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/masks_224.npz",
+    "sha256": "0d2c81eeeebd08dd68bd24772bd7a4231126ab7287d7c516fec4da3c78ac8f4f"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/raw_model_masks.npz",
+    "sha256": "24a3883ed87283c74ab458495597cf8c21f8fc57ecf5a2cb594d0cfc30b8a54c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/overlay_full.mp4",
+    "sha256": "3e4db5869f26ac77157e9ee4ac1cac6c1c859c1dafe103c94b1e2ea390b306bb"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/summary.json",
+    "sha256": "ead3b615823ae88b24416d7eae01784dafc58666279b05462ee8c99464eb66bb"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/frame_identity.json",
+    "sha256": "2a4e97eaa17b1010ee124edfeb43f9092abd3d0bff03efe48596d823c424f3ee"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/masks_224.npz",
+    "sha256": "324b93cabed1afd347df8a1e8ed17d6b074a43998865a8714fe8804f63e151ac"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/raw_model_masks.npz",
+    "sha256": "b67434570e8cc79cc274a6f94deb2b876dec00929dcbe4b2d1fbd94dc67bc130"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/overlay_full.mp4",
+    "sha256": "c70fb9c597f83b338683dec7172f472c435da16ddf43b0fced596d98e34d3c0d"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/summary.json",
+    "sha256": "006d3f85d6ed61f08e7623d027a402f6570105f6d5317294049457968f20de68"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/frame_identity.json",
+    "sha256": "6747d336593715e306d58629800ad133b7a5491fabdd6811bf590937683c159b"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/masks_224.npz",
+    "sha256": "3784f44b1b4501fee4c16e4b28f8cc3e83274f1ac630cccc291be6138942f0cb"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/raw_model_masks.npz",
+    "sha256": "89e5e5f1485b5298427a6fa913333f094ad2f95b177e7b0e37571c6ac484f199"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/overlay_full.mp4",
+    "sha256": "3f421cb60db81850e3e5edcac2b05613718468b177ea162b8e7650fb081c7bb1"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/summary.json",
+    "sha256": "1c3bcffffd031fe67909fbe80819a8fd785d7788a649156425f723d91f58de1b"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/frame_identity.json",
+    "sha256": "309f22add5575647a72f34ca42ca72137826e9bb238e5fb521dfb5672db42171"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/masks_224.npz",
+    "sha256": "a4b37f4157956969f98d1a01f84bc409e4b629a16fdab3171b67bfee9ba1cc34"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/raw_model_masks.npz",
+    "sha256": "5a7f4b166b13f4c3e04473f69c9a7aebaa880d2e7a3bc840bb97d7633463775b"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/overlay_full.mp4",
+    "sha256": "e15328b2c8a1de3a07492d2538ab3c31fa6d18244a7c30703636c82b9a05ed5e"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/summary.json",
+    "sha256": "5adc027ffe0ca1dff34f425ba7935478425bfc41154bfed43cc016d18612e8fc"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/frame_identity.json",
+    "sha256": "5d91d9d4d9f07c632e8ec7cf3438199380bafa96c6967abc86430c6f1e33e334"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/masks_224.npz",
+    "sha256": "f98fbb5133b3c00628cf5d4206a968c986d9b5f6f1121d3523bc4b01cbe609eb"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/raw_model_masks.npz",
+    "sha256": "175bacd7bcaf7685a2b66090e851e07cf0f7fb1d521c4918129470a4cd264064"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/overlay_full.mp4",
+    "sha256": "6d0701e8c26cd38de8b2addcac419a3ac411acb53c60c1d3f12bce503132fa96"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/summary.json",
+    "sha256": "c9c8216fcaacc1d305b816e1d935fbcd64b10b5d9669d88f36b65eda2c879267"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/frame_identity.json",
+    "sha256": "a886e30e7665f524669a4af290620984ba134a55eae435f5c5311d40c605fa89"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/masks_224.npz",
+    "sha256": "4e5706587f1d95fc48344c4c2ff70613fa39a104dfc7d2409823eb10ec1bb543"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/raw_model_masks.npz",
+    "sha256": "b94bde320b8368db9b96984ed59f99fb8d37785fc5b9c2a24533b25433a58fd1"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/overlay_full.mp4",
+    "sha256": "098ede43b52ab25318454d56749c11293b70f93b0ec46b32611440055b4b0668"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/summary.json",
+    "sha256": "c598da2542ab757eafbe491e1052e14d8c299873a9e2cf8d413e354d178028b2"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/frame_identity.json",
+    "sha256": "7ae580276fae997575d6fafc04422dad798324b53d36fc9610334f2b2b92e019"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/masks_224.npz",
+    "sha256": "760c11d5ba775245ce8289557751f5275e6ed588cbfa237e9b49f28bf8c28221"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/raw_model_masks.npz",
+    "sha256": "aaee0ef8af0c3f7e877da741cf0d1dda8335bf94b6c68d2bcbd15163024e71eb"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/overlay_full.mp4",
+    "sha256": "30f5a1165c2789675ec5e6e29eb9adad783c878e27435fa7d08b2dbec2a9b8d5"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/summary.json",
+    "sha256": "61d6721034ed41206f9f074ae5a840d825a5062d0cf8fa11ed2513fc0296cb46"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/frame_identity.json",
+    "sha256": "a1eedaee6dafcd1b47bba5495902bac6420931b15a0390b391c465da1022db8d"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/masks_224.npz",
+    "sha256": "51115e01ce7bd1c7dd079442be369f57630d85eb09bcd48ec106185cbee2e6a1"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/raw_model_masks.npz",
+    "sha256": "a9a2640c283f04f35576fe796a9737ded6c12af4128af6bd5b047cb56235b051"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/overlay_full.mp4",
+    "sha256": "8f309bed1b287aaa6bbb3030fa039d55ba3ea0d3ded0412868a19f71f2584467"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/summary.json",
+    "sha256": "ec23aefcbd4bd14a3794c0ac3ccc69cd972d2fd3cc544ec9fe7f0c2903ddc68d"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/frame_identity.json",
+    "sha256": "182c0595330ce7f71ccb0ca7605f0052ca5ce882813bba5a93f036ca031a886c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/masks_224.npz",
+    "sha256": "6cdb26d3e6f2c86a1b1955b195b3dc0820de0f9a50a56e33e54cd42d7a1a1fcf"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/raw_model_masks.npz",
+    "sha256": "9418cd0ee79f0e38c64a5d8b007e5367d0c2de75d4a3f8643e315af4d04c131f"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/overlay_full.mp4",
+    "sha256": "79c79b481498aa4bfe8b87338442d0aa4d6a795ad7f088902c9b83533a086333"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/summary.json",
+    "sha256": "147bf83ffbcac1cc4c2c75bfd0e33159aab9c78bae680109a47bb90deca789a9"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/frame_identity.json",
+    "sha256": "6ad711beac2c45e894a7b89ddb76c998cbee0158a9b6f54d2ba26aa74072ef1b"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/masks_224.npz",
+    "sha256": "c4cb7a0c8a790532ade73fe66c9fc2145d33fa58682e0d54d79f1c344a7eb0a3"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/raw_model_masks.npz",
+    "sha256": "15f64a212be20d683d0d1967820f233c990ae3cd858b2be8ab7d8843384eb8d0"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/overlay_full.mp4",
+    "sha256": "a50001186a3b3223107c5ef4171189ce3592ca3278fb99f4acb91bf75d2b2a12"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/summary.json",
+    "sha256": "a998c4471317e358e889eaf5aa08de36806ec018c179b9c8e092874bf55e14ab"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/frame_identity.json",
+    "sha256": "44df39af0db509f305f9dbb5287a660f4929f069ca20fd7db8b412794f8c464c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/masks_224.npz",
+    "sha256": "a8682beb7f1825ce3c8800748039e8873e5f421764c79670640c55b8c1122e04"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/raw_model_masks.npz",
+    "sha256": "c64453cc244e58ee256b70aadb31beab5e2760cf1abba954827e2855864e4cba"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/overlay_full.mp4",
+    "sha256": "9a38de9d4ee6b658d8720b5b38afc24073677077a67366ce20903f43c19bcd40"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/summary.json",
+    "sha256": "6625f190459d588fc180d9353b8e1d702620da92b6f2139f43931d8d532daa43"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/frame_identity.json",
+    "sha256": "533b392b821d1022c9dff79aa66cf7943f5c37e62f3402957c11f9d680e0d686"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/masks_224.npz",
+    "sha256": "343c84bd207ed47652a5db44445ce0a49283e2d7e3a1cb1aa4adb4a54ad74699"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/raw_model_masks.npz",
+    "sha256": "254b15b73ebac5255b41444867a6f7ad75c2d6a2cb411905b0e58b34b3c4f836"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/overlay_full.mp4",
+    "sha256": "b97632dd134625db9a57c161e4198c753ee3498e3dc9cdf167712884495ebbc9"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/summary.json",
+    "sha256": "333d899452c8f1597985159571799809977a4bcb9818e87fb87a1e24936e213c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/frame_identity.json",
+    "sha256": "1d0aa4f7f48714718aa3befca317875fe98db2d2fedf8df70b5540f4101de3aa"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/masks_224.npz",
+    "sha256": "8c2bfc474bd10e3013f56c42031a40e559c9f4d5a0635483592c52c4cc17325c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/raw_model_masks.npz",
+    "sha256": "ea2c24d5ae476f5134418d966ece7a67b668e8268e458dd0013ceda9f30ac094"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/overlay_full.mp4",
+    "sha256": "a427c7c20e2028f76ae1d8dffea5d002a5970827bdb6db83ab7d2eee540ccccd"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/selection_and_protocol.json",
+    "sha256": "71c8b2b494d7acc92c716078c90d6003f674c0cf0927a323920113becb6b4782"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/prompts_v1.json",
+    "sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/prompts_v2.json",
+    "sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/correction_log_v2.json",
+    "sha256": "646236326940e5509ff2e912bb1d027bb254a09d90a6b075f6418cfcbe1e3598"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/infrastructure_incident.json",
+    "sha256": "cb405e26669f8cce961e8568202af8eda6c0f7bdd424e4060f741e23a5c218ca"
+  }
+]

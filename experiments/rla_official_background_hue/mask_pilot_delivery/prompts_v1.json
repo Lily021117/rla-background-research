@@ -1,0 +1,1362 @@
+{
+  "libero_spatial_000010_agentview_camera": {
+    "source_video_sha256": "be7ca87a8ee06407c64dcb771bd5716a7d6c0ab07fa3238d3b3caedc00e6d5ba",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                150,
+                235
+              ],
+              [
+                240,
+                245
+              ],
+              [
+                20,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                120,
+                80
+              ],
+              [
+                68,
+                115
+              ],
+              [
+                110,
+                180
+              ],
+              [
+                57,
+                180
+              ],
+              [
+                160,
+                120
+              ],
+              [
+                215,
+                160
+              ],
+              [
+                111,
+                200
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      16,
+      33,
+      50,
+      66,
+      83,
+      100
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_spatial_000010_wrist_camera": {
+    "source_video_sha256": "b3303ef7dfe383cce2af2503dd526007221acc36e377eaeec26a9fde25732850",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                120,
+                100
+              ],
+              [
+                170,
+                130
+              ],
+              [
+                180,
+                190
+              ],
+              [
+                100,
+                70
+              ]
+            ],
+            "negative": [
+              [
+                220,
+                20
+              ],
+              [
+                150,
+                10
+              ],
+              [
+                50,
+                175
+              ],
+              [
+                236,
+                139
+              ],
+              [
+                25,
+                70
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      16,
+      33,
+      50,
+      66,
+      83,
+      100
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_spatial_000011_agentview_camera": {
+    "source_video_sha256": "b0e47cbde94a77d99af44d835811175b5e1dfc5eaaaf60c5f6adea8f4d9e1d6f",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                150,
+                235
+              ],
+              [
+                240,
+                245
+              ],
+              [
+                20,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                120,
+                80
+              ],
+              [
+                34,
+                126
+              ],
+              [
+                68,
+                150
+              ],
+              [
+                70,
+                126
+              ],
+              [
+                60,
+                184
+              ],
+              [
+                118,
+                193
+              ],
+              [
+                163,
+                121
+              ],
+              [
+                215,
+                150
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      13,
+      27,
+      41,
+      42,
+      55,
+      69,
+      83
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_spatial_000011_wrist_camera": {
+    "source_video_sha256": "b4672c77821386ec73251606b167fe3d244ad4daced34b289d45bfdd79521dab",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                100,
+                100
+              ],
+              [
+                140,
+                170
+              ],
+              [
+                120,
+                70
+              ]
+            ],
+            "negative": [
+              [
+                215,
+                20
+              ],
+              [
+                140,
+                10
+              ],
+              [
+                225,
+                70
+              ],
+              [
+                223,
+                145
+              ],
+              [
+                60,
+                177
+              ],
+              [
+                20,
+                60
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      13,
+      27,
+      41,
+      42,
+      55,
+      69,
+      83
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_object_000010_agentview_camera": {
+    "source_video_sha256": "59a8fb34f59cedaafca4272f5f6f56647342954b58f7acafb44e1318a75e05ac",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                230,
+                200
+              ],
+              [
+                75,
+                80
+              ],
+              [
+                225,
+                80
+              ]
+            ],
+            "negative": [
+              [
+                45,
+                130
+              ],
+              [
+                112,
+                116
+              ],
+              [
+                147,
+                118
+              ],
+              [
+                192,
+                117
+              ],
+              [
+                117,
+                160
+              ],
+              [
+                158,
+                155
+              ],
+              [
+                188,
+                165
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                10,
+                8
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      23,
+      47,
+      71,
+      94,
+      118,
+      142
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_object_000010_wrist_camera": {
+    "source_video_sha256": "2bf10e306992abc636bc69607aea03d2624d3e3dcada11e9191123c1b7bbc292",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                120,
+                80
+              ],
+              [
+                180,
+                80
+              ],
+              [
+                130,
+                180
+              ],
+              [
+                60,
+                120
+              ]
+            ],
+            "negative": [
+              [
+                30,
+                25
+              ],
+              [
+                80,
+                50
+              ],
+              [
+                240,
+                75
+              ],
+              [
+                165,
+                150
+              ],
+              [
+                92,
+                172
+              ],
+              [
+                10,
+                133
+              ],
+              [
+                144,
+                4
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      23,
+      47,
+      71,
+      94,
+      118,
+      142
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_object_000011_agentview_camera": {
+    "source_video_sha256": "dd6e78cc75c51eb38b8ab845aaaf1b5049db26b3d05bf26f4ec82065b620be70",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                230,
+                200
+              ],
+              [
+                75,
+                80
+              ],
+              [
+                225,
+                80
+              ]
+            ],
+            "negative": [
+              [
+                45,
+                130
+              ],
+              [
+                112,
+                125
+              ],
+              [
+                147,
+                119
+              ],
+              [
+                158,
+                140
+              ],
+              [
+                192,
+                123
+              ],
+              [
+                118,
+                167
+              ],
+              [
+                192,
+                151
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                10,
+                8
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      27,
+      54,
+      81,
+      82,
+      108,
+      135,
+      163
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_object_000011_wrist_camera": {
+    "source_video_sha256": "9ddec0a84eeace7846a7ea2606cc51252c1cd68abcb51f083afa95f9da3e96f2",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                120,
+                80
+              ],
+              [
+                180,
+                80
+              ],
+              [
+                130,
+                180
+              ],
+              [
+                60,
+                120
+              ]
+            ],
+            "negative": [
+              [
+                48,
+                25
+              ],
+              [
+                15,
+                15
+              ],
+              [
+                140,
+                3
+              ],
+              [
+                240,
+                80
+              ],
+              [
+                10,
+                135
+              ],
+              [
+                90,
+                173
+              ],
+              [
+                156,
+                152
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      27,
+      54,
+      81,
+      82,
+      108,
+      135,
+      163
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_goal_000010_agentview_camera": {
+    "source_video_sha256": "b34ca8c92563291317cc8b2ffdcd2bfa3dfd3095f982bf548508adbc04d3cf1d",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                150,
+                235
+              ],
+              [
+                240,
+                245
+              ],
+              [
+                20,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                120,
+                80
+              ],
+              [
+                210,
+                75
+              ],
+              [
+                70,
+                115
+              ],
+              [
+                145,
+                120
+              ],
+              [
+                170,
+                115
+              ],
+              [
+                130,
+                147
+              ],
+              [
+                92,
+                162
+              ],
+              [
+                130,
+                181
+              ],
+              [
+                220,
+                165
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      18,
+      37,
+      56,
+      57,
+      75,
+      94,
+      113
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_goal_000010_wrist_camera": {
+    "source_video_sha256": "f5d8d70eb001ba876feb1fb6c90ed83033364f26de9b424e923d9aa5b38d7f0d",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                160,
+                100
+              ],
+              [
+                140,
+                165
+              ],
+              [
+                230,
+                85
+              ],
+              [
+                70,
+                200
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                120,
+                20
+              ],
+              [
+                120,
+                75
+              ],
+              [
+                179,
+                70
+              ],
+              [
+                90,
+                138
+              ],
+              [
+                15,
+                155
+              ],
+              [
+                40,
+                160
+              ],
+              [
+                230,
+                165
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      18,
+      37,
+      56,
+      57,
+      75,
+      94,
+      113
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_goal_000011_agentview_camera": {
+    "source_video_sha256": "6ce4f0a9d43e6a824427300a5c5fbc71b519b3c43fb5678ad5f6ae273497a430",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                150,
+                235
+              ],
+              [
+                240,
+                245
+              ],
+              [
+                20,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                120,
+                80
+              ],
+              [
+                210,
+                75
+              ],
+              [
+                70,
+                115
+              ],
+              [
+                145,
+                120
+              ],
+              [
+                170,
+                115
+              ],
+              [
+                130,
+                147
+              ],
+              [
+                92,
+                162
+              ],
+              [
+                130,
+                181
+              ],
+              [
+                220,
+                165
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      13,
+      26,
+      40,
+      53,
+      66,
+      80
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_goal_000011_wrist_camera": {
+    "source_video_sha256": "9a6638fe6875f967f98263b6fd5e456576e99f8bc00a04572db07a54ba7a5d89",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                160,
+                100
+              ],
+              [
+                140,
+                165
+              ],
+              [
+                230,
+                85
+              ],
+              [
+                70,
+                200
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                120,
+                20
+              ],
+              [
+                120,
+                75
+              ],
+              [
+                179,
+                70
+              ],
+              [
+                90,
+                138
+              ],
+              [
+                15,
+                155
+              ],
+              [
+                40,
+                160
+              ],
+              [
+                230,
+                165
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      13,
+      26,
+      40,
+      53,
+      66,
+      80
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_10_000010_agentview_camera": {
+    "source_video_sha256": "3ddec8b800716614e512515ab05d321d1c1fabb01fc3e8aaac13a00883f0d82e",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                150,
+                235
+              ],
+              [
+                240,
+                245
+              ],
+              [
+                20,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                20,
+                40
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                120,
+                80
+              ],
+              [
+                220,
+                40
+              ],
+              [
+                47,
+                143
+              ],
+              [
+                111,
+                161
+              ],
+              [
+                187,
+                126
+              ],
+              [
+                190,
+                160
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      63,
+      127,
+      191,
+      254,
+      318,
+      382
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_10_000010_wrist_camera": {
+    "source_video_sha256": "048029a5d91a6417eba4b099c952bbc7dfc1020a526a3ca540ecc7258cafb8f9",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                150,
+                120
+              ],
+              [
+                200,
+                150
+              ],
+              [
+                130,
+                190
+              ],
+              [
+                225,
+                40
+              ]
+            ],
+            "negative": [
+              [
+                30,
+                70
+              ],
+              [
+                30,
+                143
+              ],
+              [
+                150,
+                18
+              ],
+              [
+                245,
+                75
+              ],
+              [
+                95,
+                95
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      63,
+      127,
+      191,
+      254,
+      318,
+      382
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_10_000011_agentview_camera": {
+    "source_video_sha256": "3e4ae5c08120f24f9fc4d4f0bb430910968404d81f68c7fa19e01d89ea6e1108",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                20,
+                220
+              ],
+              [
+                220,
+                235
+              ],
+              [
+                220,
+                105
+              ],
+              [
+                30,
+                105
+              ]
+            ],
+            "negative": [
+              [
+                30,
+                30
+              ],
+              [
+                125,
+                40
+              ],
+              [
+                220,
+                25
+              ],
+              [
+                127,
+                112
+              ],
+              [
+                184,
+                132
+              ],
+              [
+                88,
+                160
+              ],
+              [
+                130,
+                228
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      36,
+      72,
+      108,
+      109,
+      144,
+      180,
+      217
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  },
+  "libero_10_000011_wrist_camera": {
+    "source_video_sha256": "272a809f6a58e487193119ecf39dc177afdee5c90330a6bfdce38d2eff32fb38",
+    "prompt_coordinate_space": "original_256x256_top_left_RGB",
+    "objects": [
+      {
+        "object_id": 1,
+        "semantic": "table",
+        "keyframes": [
+          {
+            "frame": 0,
+            "positive": [
+              [
+                70,
+                100
+              ],
+              [
+                220,
+                100
+              ],
+              [
+                130,
+                145
+              ],
+              [
+                220,
+                30
+              ]
+            ],
+            "negative": [
+              [
+                125,
+                20
+              ],
+              [
+                180,
+                135
+              ],
+              [
+                30,
+                180
+              ],
+              [
+                35,
+                208
+              ],
+              [
+                213,
+                208
+              ],
+              [
+                128,
+                240
+              ]
+            ],
+            "basis": "Assistant inspection of fixed original contact sheet: exposed tabletop positives; visible robot, objects, cabinetry and ambiguous image border negatives"
+          }
+        ]
+      }
+    ],
+    "wall_policy": "not annotated in this small prototype; uncertain wall/cabinet distinctions excluded",
+    "inspected_original_frames": [
+      0,
+      36,
+      72,
+      108,
+      109,
+      144,
+      180,
+      217
+    ],
+    "human_review": false,
+    "assistant_visual_review": true
+  }
+}

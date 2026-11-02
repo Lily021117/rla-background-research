@@ -1,5 +1,5 @@
 """Frozen SAM2.1 video inference; original RGB untouched, all frames retained."""
-import argparse,json,os,time,subprocess,gc,traceback,collections
+import argparse,json,os,time,subprocess,gc,traceback,collections,signal
 from pathlib import Path
 import numpy as np,cv2,torch,decord
 from PIL import Image,ImageDraw
@@ -18,6 +18,7 @@ def resource():
 def main():
  p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--sam-code',type=Path,required=True);p.add_argument('--checkpoint',type=Path,required=True)
  p.add_argument('--prompts',default='prompts_v1.json');p.add_argument('--revision',default='v1');p.add_argument('--only',default='')
+ p.add_argument('--reuse-mask-root',type=Path,default=None)
  a=p.parse_args();out=a.run/a.revision;out.mkdir(exist_ok=False)
  assert os.environ.get('CUDA_VISIBLE_DEVICES')==GPU
  baseline=resource();assert baseline['free_mib']>=26624
@@ -37,33 +38,43 @@ def main():
    selection_sha256=sha(a.run/'selection_and_protocol.json'))
  write_json(out/'model_identity.json',identity)
  try:
-  model=build_sam2_video_predictor(cfg,str(a.checkpoint),device='cuda',apply_postprocessing=False)
-  model.eval();model.requires_grad_(False)
-  for name in ['image_encoder','sam_mask_decoder','memory_encoder']:
-   getattr(model,name).register_forward_hook(lambda mod,args,result,n=name:counters.update([n]))
+  def interrupted(signum,frame): raise KeyboardInterrupt(f'Signal {signum}')
+  signal.signal(signal.SIGTERM,interrupted)
+  if not a.reuse_mask_root:
+   model=build_sam2_video_predictor(cfg,str(a.checkpoint),device='cuda',apply_postprocessing=False)
+   model.eval();model.requires_grad_(False)
+   for name in ['image_encoder','sam_mask_decoder','memory_encoder']:
+    getattr(model,name).register_forward_hook(lambda mod,args,result,n=name:counters.update([n]))
   for v in selected:
    assert sha(v['path'])==v['sha256'];before=resource()
    assert before['ecc_counts']==baseline['ecc_counts']
    vd=out/v['id'];vd.mkdir();tick=time.time();count_before=dict(counters)
-   with torch.inference_mode(),torch.autocast('cuda',dtype=torch.bfloat16):
-    state=model.init_state(v['path'],offload_video_to_cpu=True,offload_state_to_cpu=False)
-    assert state['num_frames']==v['frames']
-    for obj in prompts[v['id']]['objects']:
-     for k in obj['keyframes']:
-      pts=np.array(k['positive']+k['negative'],np.float32);labels=np.array([1]*len(k['positive'])+[0]*len(k['negative']),np.int32)
-      model.add_new_points_or_box(state,k['frame'],obj['object_id'],points=pts,labels=labels)
-    raw=np.zeros((v['frames'],256,256),np.uint8); seen=[]
-    for t,ids,logits in model.propagate_in_video(state,start_frame_idx=0):
-     assert logits.shape[-2:]==(256,256)
-     raw[t]=(logits[:,0]>0).any(0).cpu().numpy().astype(np.uint8);seen.append(t)
-    assert seen==list(range(v['frames']))
-   torch.cuda.synchronize();infer_seconds=time.time()-tick
+   if a.reuse_mask_root:
+    raw=np.load(a.reuse_mask_root/v['id']/'raw_model_masks.npz')['masks'];state=None
+    assert raw.shape==(v['frames'],256,256);infer_seconds=0
+   else:
+    with torch.inference_mode(),torch.autocast('cuda',dtype=torch.bfloat16):
+     state=model.init_state(v['path'],offload_video_to_cpu=True,offload_state_to_cpu=False)
+     assert state['num_frames']==v['frames']
+     for obj in prompts[v['id']]['objects']:
+      for k in obj['keyframes']:
+       pts=np.array(k['positive']+k['negative'],np.float32);labels=np.array([1]*len(k['positive'])+[0]*len(k['negative']),np.int32)
+       box=np.asarray(k['box'],np.float32) if k.get('box') else None
+       model.add_new_points_or_box(state,k['frame'],obj['object_id'],points=pts,labels=labels,box=box)
+     raw=np.zeros((v['frames'],256,256),np.uint8); seen=[]
+     for t,ids,logits in model.propagate_in_video(state,start_frame_idx=0):
+      assert logits.shape[-2:]==(256,256)
+      raw[t]=(logits[:,0]>0).any(0).cpu().numpy().astype(np.uint8);seen.append(t)
+     assert seen==list(range(v['frames']))
+    torch.cuda.synchronize();infer_seconds=time.time()-tick
+   write_json(vd/'inference_completed.json',dict(seconds=infer_seconds,counts=dict(counters),cached_masks_reused=str(a.reuse_mask_root)))
    np.savez_compressed(vd/'raw_model_masks.npz',masks=raw)
    masks=np.stack([cv2.erode(m,np.ones((7,7),np.uint8)) for m in raw])
    np.savez_compressed(vd/'conservative_masks_native.npz',masks=masks)
    decord.bridge.set_bridge('native');vr=decord.VideoReader(v['path'],num_threads=1)
    writer=cv2.VideoWriter(str(vd/'overlay_full.mp4'),cv2.VideoWriter_fourcc(*'mp4v'),10,(512,512));assert writer.isOpened()
    sheet=Image.new('RGB',(4*256,len(v['fixed_review_frames'])*282),'#222222');dr=ImageDraw.Draw(sheet)
+   overlays=Image.new('RGB',(4*256,2*282),'#222222');od=ImageDraw.Draw(overlays)
    records=[];mask224=[];framehashes=[];last=None
    # One frozen hue for this trajectory's visualization, shared between cameras.
    delta,key=hue_parameter(20261102,'train',{'suite':v['suite'],'trajectory':v['trajectory_id'],'visualization':'full_video'},0)
@@ -77,6 +88,8 @@ def main():
     writer.write(cv2.cvtColor(tile,cv2.COLOR_RGB2BGR))
     if t in v['fixed_review_frames']:
      y=v['fixed_review_frames'].index(t)*282
+     oi=v['fixed_review_frames'].index(t);ox=(oi%4)*256;oy=(oi//4)*282
+     overlays.paste(Image.fromarray(overlay),(ox,oy+26));od.text((ox+2,oy+2),f't={t} estimated table',fill='white')
      for j,im in enumerate([rgb,np.repeat((m*255).astype(np.uint8)[...,None],3,-1),aug,np.clip(diff.astype(float)*4,0,255).astype(np.uint8)]):
       sheet.paste(Image.fromarray(im),(j*256,y+26));dr.text((j*256+3,y+3),f't={t} '+['ORIGINAL','ESTIMATED BG','HUE','DIFF x4'][j],fill='white')
     hsv=cv2.cvtColor(rgb.astype(np.float32)/255,cv2.COLOR_RGB2HSV);area=float(m.mean())
@@ -95,7 +108,7 @@ def main():
     m224=cv2.erode(cv2.resize(m.astype(np.uint8),(224,224),interpolation=cv2.INTER_NEAREST),np.ones((3,3),np.uint8))
     mask224.append(m224);framehashes.append({'frame':t,'rgb_native_hash':array_hash(rgb),'rgb_224_hash':array_hash(r224)})
     last=m
-   writer.release();sheet.save(vd/'fixed_review.png');np.savez_compressed(vd/'masks_224.npz',masks=np.stack(mask224))
+   writer.release();sheet.save(vd/'fixed_review.png');overlays.save(vd/'overlay_review.png');np.savez_compressed(vd/'masks_224.npz',masks=np.stack(mask224))
    write_csv(vd/'frame_metrics.csv',records);write_json(vd/'frame_identity.json',framehashes)
    write_json(vd/'abnormal_frames.json',[x for x in records if x['flags']])
    del state,vr;gc.collect();torch.cuda.empty_cache()

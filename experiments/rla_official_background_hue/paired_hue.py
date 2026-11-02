@@ -49,20 +49,30 @@ def hue_rgb(rgb, background, delta):
 class VerifiedMaskProvider:
     """Registry entries require original-RGB identity and reviewed alignment.
 
-    Registry keys use suite/traj/frame/camera. Mask files are uint8 0/1 NPY.
+    Registry keys use suite/traj/frame/camera. Masks are uint8 0/1 NPY or
+    NPZ sequences with explicit frame_index. Estimated masks require opt-in.
     A signed-off record is necessary, not sufficient: it must refer to an
-    independently reviewed alignment report. No registry is supplied as valid
-    for the current converted dataset until that evidence actually exists.
+    reviewed alignment report. Prototype AI review is not human ground truth
+    and does not admit the rest of the trajectory for formal training.
     """
-    def __init__(self, registry):
+    def __init__(self, registry, allow_reviewed_model=False):
         self.registry = registry
+        # Explicit prototype opt-in; official training remains fail-closed.
+        self.allow_reviewed_model = allow_reviewed_model
 
     def get(self, suite, trajectory, frame, camera, rgb):
         key = f'{suite}/{trajectory}/{frame}/{camera}'
         if key not in self.registry:
             raise RuntimeError(f'BLOCKED: no verified background mask for {key}')
         entry = self.registry[key]
-        if (entry.get('source_kind') not in ('sim_geom_whitelist', 'verified_segmentation')
+        source = entry.get('source_kind')
+        if source == 'reviewed_model_segmentation':
+            if (not self.allow_reviewed_model or entry.get('semantic_status') != 'prototype_fixed_frame_pass'
+                or not entry.get('model_checkpoint_sha256') or not entry.get('prompt_sha256')
+                or entry.get('human_ground_truth') is not False
+                or not entry.get('review_evidence_sha256')):
+                raise RuntimeError(f'BLOCKED: model estimate not admitted for {key}')
+        if (source not in ('sim_geom_whitelist', 'verified_segmentation', 'reviewed_model_segmentation')
             or entry.get('alignment_status') != 'reviewed_pass'
             or not entry.get('alignment_evidence_sha256')
             or entry.get('allowed_classes') != ['table', 'wall']
@@ -72,7 +82,12 @@ class VerifiedMaskProvider:
             raw = stream.read()
         if hashlib.sha256(raw).hexdigest() != entry['sha256']:
             raise ValueError('Mask content changed')
-        mask = np.load(entry['path'], allow_pickle=False)
+        payload = np.load(entry['path'], allow_pickle=False)
+        if isinstance(payload, np.lib.npyio.NpzFile):
+            mask = payload['masks'][int(entry['frame_index'])]
+            payload.close()
+        else:
+            mask = payload
         if mask.shape != rgb.shape[:2] or not np.isin(mask, [0, 1]).all():
             raise ValueError('Mask dimensions or labels invalid')
         return mask.astype(bool)

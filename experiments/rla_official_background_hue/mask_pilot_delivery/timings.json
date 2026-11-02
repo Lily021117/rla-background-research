@@ -1,0 +1,114 @@
+[
+  {
+    "video_id": "libero_spatial_000010_agentview_camera",
+    "inference_seconds": 4.041029930114746,
+    "export_plus_inference_seconds": 5.461754560470581,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 888531968
+  },
+  {
+    "video_id": "libero_spatial_000010_wrist_camera",
+    "inference_seconds": 3.632983446121216,
+    "export_plus_inference_seconds": 5.081673622131348,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 889320960
+  },
+  {
+    "video_id": "libero_spatial_000011_agentview_camera",
+    "inference_seconds": 3.0176501274108887,
+    "export_plus_inference_seconds": 4.212967157363892,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 889320960
+  },
+  {
+    "video_id": "libero_spatial_000011_wrist_camera",
+    "inference_seconds": 2.9636149406433105,
+    "export_plus_inference_seconds": 4.0866053104400635,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 889320960
+  },
+  {
+    "video_id": "libero_object_000010_agentview_camera",
+    "inference_seconds": 5.136064052581787,
+    "export_plus_inference_seconds": 7.163684844970703,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 921366016
+  },
+  {
+    "video_id": "libero_object_000010_wrist_camera",
+    "inference_seconds": 5.068494558334351,
+    "export_plus_inference_seconds": 6.845750093460083,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 921627648
+  },
+  {
+    "video_id": "libero_object_000011_agentview_camera",
+    "inference_seconds": 5.726440906524658,
+    "export_plus_inference_seconds": 7.902569055557251,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 938961920
+  },
+  {
+    "video_id": "libero_object_000011_wrist_camera",
+    "inference_seconds": 5.7524285316467285,
+    "export_plus_inference_seconds": 7.473503828048706,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 939487232
+  },
+  {
+    "video_id": "libero_goal_000010_agentview_camera",
+    "inference_seconds": 3.936373710632324,
+    "export_plus_inference_seconds": 5.420841932296753,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 939487232
+  },
+  {
+    "video_id": "libero_goal_000010_wrist_camera",
+    "inference_seconds": 3.97609281539917,
+    "export_plus_inference_seconds": 5.236841201782227,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 939487232
+  },
+  {
+    "video_id": "libero_goal_000011_agentview_camera",
+    "inference_seconds": 2.7968921661376953,
+    "export_plus_inference_seconds": 3.8986194133758545,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 939487232
+  },
+  {
+    "video_id": "libero_goal_000011_wrist_camera",
+    "inference_seconds": 2.8221232891082764,
+    "export_plus_inference_seconds": 3.916360855102539,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 939487232
+  },
+  {
+    "video_id": "libero_10_000010_agentview_camera",
+    "inference_seconds": 14.134138584136963,
+    "export_plus_inference_seconds": 18.50202226638794,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 1110478336
+  },
+  {
+    "video_id": "libero_10_000010_wrist_camera",
+    "inference_seconds": 13.592908143997192,
+    "export_plus_inference_seconds": 18.432551383972168,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 1110478336
+  },
+  {
+    "video_id": "libero_10_000011_agentview_camera",
+    "inference_seconds": null,
+    "export_plus_inference_seconds": 2.777181625366211,
+    "timer_note": "CPU export only; original interrupted inference time unknown",
+    "peak_allocated_bytes": 0
+  },
+  {
+    "video_id": "libero_10_000011_wrist_camera",
+    "inference_seconds": 7.9165709018707275,
+    "export_plus_inference_seconds": 10.871299982070923,
+    "timer_note": "measured",
+    "peak_allocated_bytes": 979940352
+  }
+]

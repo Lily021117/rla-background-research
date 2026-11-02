@@ -1,0 +1,354 @@
+{
+  "libero_spatial/000010/16/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "0fe47ea170b7d8c543e415d8545e333a1cd10d9d84713297a6d11681db1d136d",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/masks_224.npz",
+    "sha256": "6007440a1abdfe770f89edde63bc130f34dea5ee75ce0544ddca585c701f4aab",
+    "frame_index": 16
+  },
+  "libero_spatial/000010/33/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "cd5e4c568a7b9bd724d802ad45cc1d316c322a36763dcced6701c7eb699dae7f",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/masks_224.npz",
+    "sha256": "6007440a1abdfe770f89edde63bc130f34dea5ee75ce0544ddca585c701f4aab",
+    "frame_index": 33
+  },
+  "libero_spatial/000010/16/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "db4b5d36d15278c641325f2c9eb4dc78908593824d41f110e5d0fabd89ba7c87",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/masks_224.npz",
+    "sha256": "a2cc7e7c874b33925cd8ee9d1b4525d5def398b6b201583b53934e29024c93f9",
+    "frame_index": 16
+  },
+  "libero_spatial/000010/33/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "34db87c4a918ef90b5126891b8d6ecf69d4432fda4cb14b1e8577b4e1e50728b",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/masks_224.npz",
+    "sha256": "a2cc7e7c874b33925cd8ee9d1b4525d5def398b6b201583b53934e29024c93f9",
+    "frame_index": 33
+  },
+  "libero_object/000010/94/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "884e96f862e1ad778e5f72ff2a92d8918fc9c0f6fb3b2df558506e0eba128946",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/masks_224.npz",
+    "sha256": "324b93cabed1afd347df8a1e8ed17d6b074a43998865a8714fe8804f63e151ac",
+    "frame_index": 94
+  },
+  "libero_object/000010/118/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "90e81c9adc1d2063b97b3324d3e4ab91b807bf98d2ec420b841c6c3ccafbaaf1",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/masks_224.npz",
+    "sha256": "324b93cabed1afd347df8a1e8ed17d6b074a43998865a8714fe8804f63e151ac",
+    "frame_index": 118
+  },
+  "libero_object/000010/94/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "85cd3aae4e399209f1a0495491c15ca4b6cc2333fbaaad20eeedf08f2bfa753d",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/masks_224.npz",
+    "sha256": "3784f44b1b4501fee4c16e4b28f8cc3e83274f1ac630cccc291be6138942f0cb",
+    "frame_index": 94
+  },
+  "libero_object/000010/118/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "10c7534ca4433f3a5c51ce0a1872fe37e608e970e4528a071cc4927a7d87238c",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/masks_224.npz",
+    "sha256": "3784f44b1b4501fee4c16e4b28f8cc3e83274f1ac630cccc291be6138942f0cb",
+    "frame_index": 118
+  },
+  "libero_10/000010/191/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "80b6e3f65f3ac750e4de07089357d8f69945c76d14fa9ff8054854bcd130b4ae",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/masks_224.npz",
+    "sha256": "c4cb7a0c8a790532ade73fe66c9fc2145d33fa58682e0d54d79f1c344a7eb0a3",
+    "frame_index": 191
+  },
+  "libero_10/000010/254/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "afb5997150f19e794e5d7f136e148555738ca662ef83d28be4f3a83c8348d6b5",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/masks_224.npz",
+    "sha256": "c4cb7a0c8a790532ade73fe66c9fc2145d33fa58682e0d54d79f1c344a7eb0a3",
+    "frame_index": 254
+  },
+  "libero_10/000010/191/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "226742ad2308e31323ff77983fb3d791411d2d3234fe9dbd50b044ec59330b54",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/masks_224.npz",
+    "sha256": "a8682beb7f1825ce3c8800748039e8873e5f421764c79670640c55b8c1122e04",
+    "frame_index": 191
+  },
+  "libero_10/000010/254/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "436ef7a69fe09d26182eda65b20a5af990816b9da61093c33f6b779b71a141e9",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/masks_224.npz",
+    "sha256": "a8682beb7f1825ce3c8800748039e8873e5f421764c79670640c55b8c1122e04",
+    "frame_index": 254
+  },
+  "libero_10/000011/144/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "e7a03b84ca2dac7fd27b813fd765e665da2f665127085f5fa84d70f9fa0ae76c",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/masks_224.npz",
+    "sha256": "343c84bd207ed47652a5db44445ce0a49283e2d7e3a1cb1aa4adb4a54ad74699",
+    "frame_index": 144
+  },
+  "libero_10/000011/180/agentview_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "da635e37277c0a4b0bf06e7714fd787cafc03780dd4db47320e97aac8aad5b96",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/masks_224.npz",
+    "sha256": "343c84bd207ed47652a5db44445ce0a49283e2d7e3a1cb1aa4adb4a54ad74699",
+    "frame_index": 180
+  },
+  "libero_10/000011/144/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "3c947307376c1edbc3bc8413981ab1f8b07f98711d7e7c2389857959fb17e67c",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/masks_224.npz",
+    "sha256": "8c2bfc474bd10e3013f56c42031a40e559c9f4d5a0635483592c52c4cc17325c",
+    "frame_index": 144
+  },
+  "libero_10/000011/180/wrist_camera": {
+    "source_kind": "reviewed_model_segmentation",
+    "semantic_status": "prototype_fixed_frame_pass",
+    "human_ground_truth": false,
+    "reviewer": "AI visual inspection; human signoff absent",
+    "review_evidence_sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9",
+    "model_checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+    "alignment_status": "reviewed_pass",
+    "alignment_evidence_sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a",
+    "allowed_classes": [
+      "table",
+      "wall"
+    ],
+    "actual_classes": [
+      "table"
+    ],
+    "original_rgb_sha256": "abb0c5ebdece1e473d519d059ccbd16e14da5713b6f3c45ec70ea239d6dee93f",
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/masks_224.npz",
+    "sha256": "8c2bfc474bd10e3013f56c42031a40e559c9f4d5a0635483592c52c4cc17325c",
+    "frame_index": 180
+  }
+}

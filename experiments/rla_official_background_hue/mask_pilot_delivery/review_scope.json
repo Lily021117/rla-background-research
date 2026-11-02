@@ -1,0 +1,22 @@
+{
+  "reviewer": "AI assistant visual inspection, not human annotation",
+  "original_fixed_sheets": 16,
+  "v1_overlay_fixed_sheets": 16,
+  "v2_overlay_fixed_sheets": 16,
+  "fixed_unique_frames": 120,
+  "color_quadriptych_sheets_viewed": [
+    "fixed_color_review_agentview_camera.png",
+    "fixed_color_review_wrist_camera.png"
+  ],
+  "supplemental_abnormal_sheets_viewed": [
+    "libero_spatial_000011_wrist_camera",
+    "libero_object_000011_wrist_camera",
+    "libero_goal_000010_wrist_camera",
+    "libero_goal_000011_wrist_camera"
+  ],
+  "human_reviewed_frames": 0,
+  "full_overlay_movies_human_watched": 0,
+  "automatic_checks": "All 2576 camera frames in both passes; exact source/length, finite binary masks, coverage, color difference, area jumps, outside-mask equality",
+  "pixel_precision_recall_IoU_against_ground_truth": null,
+  "reason": "No human pixel-level truth exists"
+}

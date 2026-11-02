@@ -1,0 +1,274 @@
+[
+  {
+    "trajectory": "libero_spatial_000010",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      16,
+      33
+    ]
+  },
+  {
+    "trajectory": "libero_spatial_000010",
+    "prototype_optin": true,
+    "result": "PASS_FIXED_PAIR_ONLY",
+    "frames": [
+      16,
+      33
+    ],
+    "delta_h": 0.116611829911421,
+    "original_rgb_hash": "78629e3cdf90c03e8a62a875522db0ecb2f77a09d601f5a96b96195cd78690d6",
+    "augmented_rgb_hash": "b52600d5f3016415e45862fb89668e5dd1b93e26924b35f026e914aa65178b6a",
+    "outside_mask_exact": true,
+    "reproducible": true,
+    "unchanged_metadata_fields": [
+      "depths",
+      "intrinsics",
+      "w2c",
+      "foreground_masks",
+      "static_masks",
+      "robot_masks",
+      "target_qpos",
+      "qpos",
+      "root_poses",
+      "eef_pose",
+      "object_poses",
+      "success",
+      "task_description",
+      "traj_id",
+      "robot_infos",
+      "frame_id",
+      "max_frames",
+      "horizon",
+      "task_ind",
+      "robot_id"
+    ],
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "production_admission": false
+  },
+  {
+    "trajectory": "libero_spatial_000011",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_spatial_000011",
+    "prototype_optin": true,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_object_000010",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      94,
+      118
+    ]
+  },
+  {
+    "trajectory": "libero_object_000010",
+    "prototype_optin": true,
+    "result": "PASS_FIXED_PAIR_ONLY",
+    "frames": [
+      94,
+      118
+    ],
+    "delta_h": 0.13796936279155841,
+    "original_rgb_hash": "293e65ef32ac42d1a30a8515dac9d0d27b06bb6bbadf6f083b04a738e8537d2d",
+    "augmented_rgb_hash": "c874709d18f165d2ab79b0fff14a11e58023ba22ccea03f83b8317cac6f48a77",
+    "outside_mask_exact": true,
+    "reproducible": true,
+    "unchanged_metadata_fields": [
+      "depths",
+      "intrinsics",
+      "w2c",
+      "foreground_masks",
+      "static_masks",
+      "robot_masks",
+      "target_qpos",
+      "qpos",
+      "root_poses",
+      "eef_pose",
+      "object_poses",
+      "success",
+      "task_description",
+      "traj_id",
+      "robot_infos",
+      "frame_id",
+      "max_frames",
+      "horizon",
+      "task_ind",
+      "robot_id"
+    ],
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "production_admission": false
+  },
+  {
+    "trajectory": "libero_object_000011",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_object_000011",
+    "prototype_optin": true,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_goal_000010",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_goal_000010",
+    "prototype_optin": true,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_goal_000011",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_goal_000011",
+    "prototype_optin": true,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      0,
+      1
+    ]
+  },
+  {
+    "trajectory": "libero_10_000010",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      191,
+      254
+    ]
+  },
+  {
+    "trajectory": "libero_10_000010",
+    "prototype_optin": true,
+    "result": "PASS_FIXED_PAIR_ONLY",
+    "frames": [
+      191,
+      254
+    ],
+    "delta_h": 0.03226026566315637,
+    "original_rgb_hash": "bbf0b01f2980ffe2c471509f4ebf20d2ea92d69eaf292b1b54e39731bfc5c287",
+    "augmented_rgb_hash": "e0ceb02905d7d7a3bd6a2984b6caadfc69b2c47b5054359dd06a2fd8bab8ca93",
+    "outside_mask_exact": true,
+    "reproducible": true,
+    "unchanged_metadata_fields": [
+      "depths",
+      "intrinsics",
+      "w2c",
+      "foreground_masks",
+      "static_masks",
+      "robot_masks",
+      "target_qpos",
+      "qpos",
+      "root_poses",
+      "eef_pose",
+      "object_poses",
+      "success",
+      "task_description",
+      "traj_id",
+      "robot_infos",
+      "frame_id",
+      "max_frames",
+      "horizon",
+      "task_ind",
+      "robot_id"
+    ],
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "production_admission": false
+  },
+  {
+    "trajectory": "libero_10_000011",
+    "prototype_optin": false,
+    "result": "EXPECTED_BLOCK",
+    "frames": [
+      144,
+      180
+    ]
+  },
+  {
+    "trajectory": "libero_10_000011",
+    "prototype_optin": true,
+    "result": "PASS_FIXED_PAIR_ONLY",
+    "frames": [
+      144,
+      180
+    ],
+    "delta_h": 0.04288191628660304,
+    "original_rgb_hash": "fd47c58b482aaddba1fcc3474e8d41b70d1a1316ed13fd8c73d547fc4b02f66d",
+    "augmented_rgb_hash": "74d53a6f5b0c795ab6e134765f63ddeb294eae22cffdc0d6707d9df0367d2cb1",
+    "outside_mask_exact": true,
+    "reproducible": true,
+    "unchanged_metadata_fields": [
+      "depths",
+      "intrinsics",
+      "w2c",
+      "foreground_masks",
+      "static_masks",
+      "robot_masks",
+      "target_qpos",
+      "qpos",
+      "root_poses",
+      "eef_pose",
+      "object_poses",
+      "success",
+      "task_description",
+      "traj_id",
+      "robot_infos",
+      "frame_id",
+      "max_frames",
+      "horizon",
+      "task_ind",
+      "robot_id"
+    ],
+    "cameras": [
+      "agentview_camera",
+      "wrist_camera"
+    ],
+    "production_admission": false
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "checkpoint": "$DATA_ROOT/models/sam2.1_hiera_base_plus_background_pilot.pt",
+  "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+  "config": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+  "config_sha256": "37d6c56b07a7f8d08baaa314315c60dc3aabe2edc66cd92bac6d1ed50038e788",
+  "torch": "2.8.0+cu128",
+  "gpu_uuid": "GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e",
+  "compile": false,
+  "autocast": "bfloat16",
+  "official_extra_postprocessing": false,
+  "offload_video_to_cpu": true,
+  "masks_source": "reviewed_model_segmentation_PENDING_REVIEW",
+  "prompt_sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2",
+  "selection_sha256": "71c8b2b494d7acc92c716078c90d6003f674c0cf0927a323920113becb6b4782"
+}

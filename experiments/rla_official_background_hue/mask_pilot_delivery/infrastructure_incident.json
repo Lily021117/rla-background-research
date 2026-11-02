@@ -1,0 +1,18 @@
+{
+ "incident": "v2 process exited143 (SIGTERM), no CUDA exception observed",
+ "completed_full_exports_before_interrupt":14,
+ "inference_completed_but_export_interrupted":"libero_10_000011_agentview_camera",
+ "evidence":"Full218-frame raw_model_masks.npz and conservative_masks_native.npz retained; progress reached218/218 before termination",
+ "unfinished_video":"libero_10_000011_wrist_camera",
+ "recovery":"CPU export from saved front masks into v2_recovered_front; only previously unprocessed wrist video inferred into v2_tail",
+ "replayed_segmentation_frames":0,
+ "incomplete_overlay_preserved":"v2/libero_10_000011_agentview_camera/overlay_full.mp4",
+ "lost_timer":"exact per-video inference/export timing for interrupted front video not persisted; report unknown, not fabricated",
+ "forward_accounting":"218 image,mask,memory forward calls for interrupted front inferred from complete masks and single frame0 prompt execution; remaining counts from hooks",
+ "checkpoint_download_incident":"Initial official weight curl exited143 with partial file; resumed same official URL, full file strict-loaded and SHA256 recorded",
+ "AE_updates":0,
+ "policy_updates":0,
+ "DINO_updates":0,
+ "backward":0,
+ "rollouts":0
+}

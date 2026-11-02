@@ -1,0 +1,442 @@
+[
+  {
+    "video_id": "libero_spatial_000010_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      16,
+      33,
+      50,
+      66,
+      83,
+      100
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [
+      16,
+      33
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/overlay_review.png",
+    "evidence_sha256": "24a9e1dca8dfb40a45475eb1df8b13cf2e8002883c785a14a4dd744f40a82974"
+  },
+  {
+    "video_id": "libero_spatial_000010_wrist_camera",
+    "status": "NEEDS_CORRECTION",
+    "notes": "t66 plate rim suspected contamination; fragmented first/middle keyframes",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      16,
+      33,
+      50,
+      66,
+      83,
+      100
+    ],
+    "known_issue_frames": [
+      66
+    ],
+    "prototype_pair_frames": [
+      16,
+      33
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/overlay_review.png",
+    "evidence_sha256": "ffa7a28d6cfe86538969c6092426f980b6e5bc95c4bf67e89a1d06f54ccd4406"
+  },
+  {
+    "video_id": "libero_spatial_000011_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      13,
+      27,
+      41,
+      42,
+      55,
+      69,
+      83
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/overlay_review.png",
+    "evidence_sha256": "dc025a1e80b52a6d6d876bf0cb65c4d8c81754cc3313da6601f00de31e6f45b8"
+  },
+  {
+    "video_id": "libero_spatial_000011_wrist_camera",
+    "status": "NEEDS_CORRECTION",
+    "notes": "t27 plate interior incorrectly included; long near-empty segments despite visible table",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      13,
+      27,
+      41,
+      42,
+      55,
+      69,
+      83
+    ],
+    "known_issue_frames": [
+      27,
+      41,
+      55,
+      69,
+      83
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/overlay_review.png",
+    "evidence_sha256": "d8a0663ae39564a22759a6dff17299d70b749f6403be92f4406c1989ae8b332f"
+  },
+  {
+    "video_id": "libero_object_000010_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      23,
+      47,
+      71,
+      94,
+      118,
+      142
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [
+      94,
+      118
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/overlay_review.png",
+    "evidence_sha256": "184337d0164c61c6e3e373ec72428d85096c97ce35a147ba4fca8ebe06f5819c"
+  },
+  {
+    "video_id": "libero_object_000010_wrist_camera",
+    "status": "NEEDS_CORRECTION",
+    "notes": "t0/23/47 mostly empty; table recovered later; early coverage missing",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      23,
+      47,
+      71,
+      94,
+      118,
+      142
+    ],
+    "known_issue_frames": [
+      0,
+      23,
+      47
+    ],
+    "prototype_pair_frames": [
+      94,
+      118
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/overlay_review.png",
+    "evidence_sha256": "ebdce1c09cdd87f8253a2f41b273b81ce247cad8a0515a41e6a412ab66a6d2c9"
+  },
+  {
+    "video_id": "libero_object_000011_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      27,
+      54,
+      81,
+      82,
+      108,
+      135,
+      163
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/overlay_review.png",
+    "evidence_sha256": "1dd9985437e302ab90a9b882caad209b1fe72e8e4caf132479168f647f592881"
+  },
+  {
+    "video_id": "libero_object_000011_wrist_camera",
+    "status": "FAILED_TRACKING",
+    "notes": "Most fixed frames empty despite visible table; only middle prompt fragments",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      27,
+      54,
+      81,
+      82,
+      108,
+      135,
+      163
+    ],
+    "known_issue_frames": [
+      0,
+      27,
+      54,
+      108,
+      135,
+      163
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/overlay_review.png",
+    "evidence_sha256": "4d462092c0f7c8e244067700a3c3dd00ed8f26201299d929e1668c818a3f9991"
+  },
+  {
+    "video_id": "libero_goal_000010_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      18,
+      37,
+      56,
+      57,
+      75,
+      94,
+      113
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/overlay_review.png",
+    "evidence_sha256": "57ca957b0dc3be23c8aaee140ffbb9d63916cf7ec0bd07f463024ee1b58e6688"
+  },
+  {
+    "video_id": "libero_goal_000010_wrist_camera",
+    "status": "FAILED_TRACKING",
+    "notes": "Visible table mostly unsegmented throughout fixed checks",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      18,
+      37,
+      56,
+      57,
+      75,
+      94,
+      113
+    ],
+    "known_issue_frames": [
+      0,
+      18,
+      37,
+      56,
+      75,
+      94,
+      113
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/overlay_review.png",
+    "evidence_sha256": "2f7a2db5ac2cea84a9f03bcb87902ecf5eb7dfff2ecae585c90363ebdd8cfc2f"
+  },
+  {
+    "video_id": "libero_goal_000011_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      13,
+      26,
+      40,
+      53,
+      66,
+      80
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/overlay_review.png",
+    "evidence_sha256": "a04180723bbe99d87fed352eafeba13d76794a81bfe3e992bcbc3780ac6f517a"
+  },
+  {
+    "video_id": "libero_goal_000011_wrist_camera",
+    "status": "FAILED_TRACKING",
+    "notes": "Early/late table missed; t40 possible stovetop boundary inclusion",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      13,
+      26,
+      40,
+      53,
+      66,
+      80
+    ],
+    "known_issue_frames": [
+      0,
+      13,
+      26,
+      40,
+      66,
+      80
+    ],
+    "prototype_pair_frames": [],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/overlay_review.png",
+    "evidence_sha256": "01649727cfd235c4920fe4d90b1a1f363d58d0674305e79f7a25dda8c0d2985e"
+  },
+  {
+    "video_id": "libero_10_000010_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      63,
+      127,
+      191,
+      254,
+      318,
+      382
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [
+      191,
+      254
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/overlay_review.png",
+    "evidence_sha256": "de0e6323ad11e77869f41aa0055b03bb29dc2fbe591d0debe61b3eac03d3d079"
+  },
+  {
+    "video_id": "libero_10_000010_wrist_camera",
+    "status": "NEEDS_CORRECTION",
+    "notes": "First and middle prompt frames fragmented; later fixed frames have useful conservative table",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      63,
+      127,
+      191,
+      254,
+      318,
+      382
+    ],
+    "known_issue_frames": [
+      0,
+      191
+    ],
+    "prototype_pair_frames": [
+      191,
+      254
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/overlay_review.png",
+    "evidence_sha256": "de404870487c3219d73002bcc0094cb1d095c9197077d33d12abe1f776fc8155"
+  },
+  {
+    "video_id": "libero_10_000011_agentview_camera",
+    "status": "PARTIAL_USABLE_FIXED_FRAMES",
+    "notes": "Table visible in later fixed frames; prompt frame fragmented; no obvious interior foreground contamination observed in fixed sheets",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      36,
+      72,
+      108,
+      109,
+      144,
+      180,
+      217
+    ],
+    "known_issue_frames": [
+      0
+    ],
+    "prototype_pair_frames": [
+      144,
+      180
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/overlay_review.png",
+    "evidence_sha256": "93cac99c80fce767e919907f4bd8d9a4380b5a74812ba65b87461e0ed12d5a52"
+  },
+  {
+    "video_id": "libero_10_000011_wrist_camera",
+    "status": "NEEDS_CORRECTION",
+    "notes": "t0/109 prompt frames fragmented; remaining fixed checks useful conservative table",
+    "semantic_review": "AI visual review, NOT human ground truth",
+    "fixed_frames_viewed": [
+      0,
+      36,
+      72,
+      108,
+      109,
+      144,
+      180,
+      217
+    ],
+    "known_issue_frames": [
+      0,
+      109
+    ],
+    "prototype_pair_frames": [
+      144,
+      180
+    ],
+    "full_video_human_review": false,
+    "human_reviewed_frames": 0,
+    "all_frames_semantically_verified": false,
+    "evidence": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/overlay_review.png",
+    "evidence_sha256": "0f2ca01ea5453a206bd8aff6b02c8e3b6264ce0d4ab04d6bed2720b21efc8bf0"
+  }
+]

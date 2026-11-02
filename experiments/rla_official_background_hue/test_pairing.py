@@ -2,6 +2,9 @@
 import unittest
 import numpy as np
 import cv2
+import tempfile, hashlib
+from pathlib import Path
+from paired_hue import array_hash
 from paired_hue import hue_rgb, hue_parameter, PairedHueReader, VerifiedMaskProvider
 
 class Tests(unittest.TestCase):
@@ -31,6 +34,21 @@ class Tests(unittest.TestCase):
             self.assertLessEqual(float(np.max(abs(a[...,1]-b[...,1]))),.02)
     def test_missing_mask_rejected(self):
         with self.assertRaises(RuntimeError): VerifiedMaskProvider({}).get('s','0',0,'cam',self.rgb[0,0])
+    def test_estimated_mask_gate_and_identity(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d)/'mask.npz';np.savez_compressed(p,masks=self.mask[0].astype('uint8'))
+            entry=dict(source_kind='reviewed_model_segmentation',semantic_status='prototype_fixed_frame_pass',
+              model_checkpoint_sha256='test-only',prompt_sha256='test-only',human_ground_truth=False,
+              review_evidence_sha256='test-only',alignment_status='reviewed_pass',alignment_evidence_sha256='test-only',
+              allowed_classes=['table','wall'],original_rgb_sha256=array_hash(self.rgb[0,0]),path=str(p),
+              sha256=hashlib.sha256(p.read_bytes()).hexdigest(),frame_index=0)
+            registry={'s/0/0/cam':entry}
+            with self.assertRaises(RuntimeError): VerifiedMaskProvider(registry).get('s','0',0,'cam',self.rgb[0,0])
+            provider=VerifiedMaskProvider(registry,allow_reviewed_model=True)
+            self.assertTrue(np.array_equal(provider.get('s','0',0,'cam',self.rgb[0,0]),self.mask[0,0]))
+            with self.assertRaises(RuntimeError): provider.get('s','0',0,'cam',self.rgb[0,1])
+            entry['semantic_status']='FAILED_TRACKING'
+            with self.assertRaises(RuntimeError): provider.get('s','0',0,'cam',self.rgb[0,0])
     def test_metadata_preserved(self):
         sample={'rgbs':np.moveaxis(self.rgb,-1,2),'frame_id':np.array([0,1]),'qpos':np.arange(10),'task_description':'test'}
         class Dataset:

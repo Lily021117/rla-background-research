@@ -1,0 +1,7 @@
+{
+  "gpu": "index, uuid, memory.free [MiB], memory.used [MiB]\n0, GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e, 81065 MiB, 15 MiB\n1, GPU-ddacf049-4261-ed6e-5772-bc75bd71dcf9, 81065 MiB, 14 MiB\n",
+  "active_inference_or_audit_processes": [],
+  "ECC_unchanged": true,
+  "other_processes_untouched": true,
+  "training_started": false
+}

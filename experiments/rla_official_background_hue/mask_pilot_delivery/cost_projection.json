@@ -1,0 +1,36 @@
+{
+  "pilot_camera_frames": 2576,
+  "all_data_camera_frames": 546930,
+  "full_data_videos": 3386,
+  "v1_measured_inference_seconds": 90.26776194572449,
+  "v2_known_inference_seconds": 84.51380610466003,
+  "v2_unknown_frames": 218,
+  "full_single_pass_inference_hours_estimate": [
+    5.323730486647591,
+    5.445190836492992
+  ],
+  "full_v1_inference_export_hours": 7.9088830919114885,
+  "artifact_bytes_now": 111783182,
+  "full_two_revision_artifacts_bytes_linear": 23733530951.576088,
+  "human_review_actual_hours": 0,
+  "human_estimate_only": {
+    "prompts_minutes_per_video": [
+      1,
+      3
+    ],
+    "prompt_hours": [
+      56.43333333333333,
+      169.3
+    ],
+    "fixed_frames_per_video": 8,
+    "seconds_per_frame": [
+      5,
+      15
+    ],
+    "review_hours": [
+      37.62222222222222,
+      112.86666666666666
+    ]
+  },
+  "warning": "Linear extrapolation only; sequence length, occlusion and corrections dominate. No full expansion authorized."
+}

@@ -1,0 +1,43 @@
+{
+  "physical_trajectories": 8,
+  "physical_frames": 1288,
+  "camera_videos": 16,
+  "unique_camera_frames": 2576,
+  "intentional_segmentation_passes": 2,
+  "forward_v1": {
+    "image_encoder": 2576,
+    "sam_mask_decoder": 2576,
+    "memory_encoder": 2576
+  },
+  "forward_v2": {
+    "image_encoder": 2592,
+    "sam_mask_decoder": 2576,
+    "memory_encoder": 2576
+  },
+  "forward_total": {
+    "image_encoder": 5168,
+    "sam_mask_decoder": 5152,
+    "memory_encoder": 5152
+  },
+  "counts_inferred_not_hook_persisted": {
+    "video": "libero_10_000011_agentview_camera",
+    "each_component": 218
+  },
+  "segmentation_infrastructure_replay_frames": 0,
+  "interrupted_processes": 1,
+  "completed_overlay_videos": 32,
+  "known_v1_wall_seconds": 134.1009237766266,
+  "known_v2_inference_seconds": 84.51380610466003,
+  "unknown_inference_timers": 1,
+  "peak_gpu_allocated_bytes": 1110478336,
+  "artifact_bytes_at_audit": 110241802,
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0,
+  "AE_updates": 0,
+  "DINO_updates": 0,
+  "policy_updates": 0,
+  "backward": 0,
+  "rollouts": 0,
+  "simulation_replays": 0
+}

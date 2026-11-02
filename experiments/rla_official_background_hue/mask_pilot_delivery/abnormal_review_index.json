@@ -1,0 +1,135 @@
+[
+  {
+    "video_id": "libero_spatial_000010_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_spatial_000010_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_spatial_000010_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000010_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1,
+      51
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_spatial_000010_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_spatial_000011_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_spatial_000011_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_spatial_000011_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_spatial_000011_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      0,
+      83
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_spatial_000011_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_object_000010_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_object_000010_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_object_000010_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000010_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      0,
+      79
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_object_000010_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_object_000011_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_object_000011_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_object_000011_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_object_000011_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      0,
+      163
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_object_000011_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_goal_000010_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_goal_000010_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_goal_000010_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000010_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      0,
+      113
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_goal_000010_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_goal_000011_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_goal_000011_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_goal_000011_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_goal_000011_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      0,
+      80
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_goal_000011_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_10_000010_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_10_000010_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_10_000010_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/libero_10_000010_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_10_000010_wrist_camera.png"
+  },
+  {
+    "video_id": "libero_10_000011_agentview_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_recovered_front/libero_10_000011_agentview_camera/abnormal_frames.json",
+    "supplementary_frames": [],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_10_000011_agentview_camera.png"
+  },
+  {
+    "video_id": "libero_10_000011_wrist_camera",
+    "all_automatic_flags": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2_tail/libero_10_000011_wrist_camera/abnormal_frames.json",
+    "supplementary_frames": [
+      1,
+      125
+    ],
+    "supplemental_image": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_libero_10_000011_wrist_camera.png"
+  }
+]

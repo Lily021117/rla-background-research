@@ -1,0 +1,102 @@
+[
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/report.md",
+    "sha256": "7d39d36b8a9326502bb53e7300e4762198c7fa315bcf785fb9bd6fd3854e148c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/prompt_editing.md",
+    "sha256": "714e6deddd43e23405e55aafa7c49dab1ceddba311fb58f25edf11018c6e9114"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/selection_and_protocol.json",
+    "sha256": "71c8b2b494d7acc92c716078c90d6003f674c0cf0927a323920113becb6b4782"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/prompts_v1.json",
+    "sha256": "b0fd20eda00f7b0283e7a6982e4124ef46f6c94f4e1da093313c9852f1f06792"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/prompts_v2.json",
+    "sha256": "911aee3a26518aa52a1efe185c59705718252c81d0591361857628012d58cbc2"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/correction_log_v2.json",
+    "sha256": "646236326940e5509ff2e912bb1d027bb254a09d90a6b075f6418cfcbe1e3598"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/infrastructure_incident.json",
+    "sha256": "cb405e26669f8cce961e8568202af8eda6c0f7bdd424e4060f741e23a5c218ca"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/v2/model_identity.json",
+    "sha256": "e7993705b9148abbfeffd20c4225ecb4a6e5916eb066a25d94aaa7d795d796fd"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/segmentation_environment.txt",
+    "sha256": "00481fc63a2788a8e3d709a68516783428a0a25cb23282a4ac4bbf0441ecca6c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/trajectory_status.json",
+    "sha256": "45d5f2f8c2f8e959a254f875dfed475adb8284764c20be3f2656232e43509e09"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/paired_loader_validation.json",
+    "sha256": "8dea1a1ad3808b0153addca9e925fa65366414e35b60cc12c9d89cbea0564ef1"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/software_checks.json",
+    "sha256": "79e2bf5a29955d327a186b5562185cd9ec0d97354d34b2ac55bd7f8385267d7c"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/execution_summary.json",
+    "sha256": "6a8db8e17020f373b5e7194529511e7f75439fcafd36aa4245e9a1db451ecc74"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/timings.json",
+    "sha256": "1f727de8cb7cc0dfa527e5c4535b36a538f5bfdf91d506cd908d299c6c2e8ec4"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/alignment_evidence.json",
+    "sha256": "86a174615f657bd5fea34299580e7b3638242aa06f8c84f606e37c38f6cae41a"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/evidence_manifest.json",
+    "sha256": "5537a134f9807f1b91e367d45c04092fbc1ad2d7d465743f17f70fb73689debe"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/prototype_mask_registry.json",
+    "sha256": "46ff45068aaacd44daaa3bf25d5bc129f1ae4b01e451477de753181b4445b1ed"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/semantic_review.json",
+    "sha256": "305010a591e197a8ad5c006d3c55e6ec9f65a2374de0f9b8ced6b90bc96bfec9"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/release_record.json",
+    "sha256": "d7bb1fb51f41f229640f1874030fba56789661cc7785f96b49ed413e142c75f2"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/cost_projection.json",
+    "sha256": "9da57c8aac7f85a618566ca0dadf054ecb88be8483fa0dc2a780ece4cdebb979"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/review_scope.json",
+    "sha256": "e86008c4d7db320fddbb416ce04f6b8105e645d9f0ac91d0af2e9973c3929987"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/abnormal_review_index.json",
+    "sha256": "d59e33e835fe6f1d55017aa54f83295fa5354c980ea73e7015cdf593b61f3b23"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/overlay_video_inventory.csv",
+    "sha256": "880aa50832ba6d480801ad1ee56ae24d0cc4919c30d8c36b0fabad4334186441"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/coverage_by_video.csv",
+    "sha256": "4ac6f1215867e6c23ffadcd0d1103bd6dcd1cd7644d17929d427f513996ae5e1"
+  },
+  {
+    "path": "$RLA_ROOT/experiments/rla_official_background_hue/mask_pilot_20261102_01/audit_final/all_frame_metrics.csv",
+    "sha256": "7ae9957a3f7e70dfa0b6e54273e91055c073d717554f0278074e8bd188132173"
+  }
+]
