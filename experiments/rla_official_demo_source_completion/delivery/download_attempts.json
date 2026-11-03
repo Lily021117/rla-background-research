@@ -102,13 +102,20 @@
     "sha256": "4d503d447028f437211880bea4ee1a7f6732113ea8560181fcca163251864794",
     "existing_path": null,
     "attempt": 1,
-    "verified": false,
+    "verified": true,
     "reused": false,
     "started_unix": 1793707366.690549,
     "resume_source": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads/.cache/huggingface/download/libero_spatial/vYwnpdZkRo_FHy0rd2VOI9h4MK4=.4d503d447028f437211880bea4ee1a7f6732113ea8560181fcca163251864794.incomplete",
     "resume_bytes": 325058560,
-    "network_bytes": 0,
-    "status": "STARTED"
+    "network_bytes": 363710204,
+    "http_status": 206,
+    "content_range": "bytes 325058560-688768763/688768764",
+    "etag": "\"73cc3caae6a409a04233c61a44cc31ca24a57687ceb51ea4ea037303fd123a08\"",
+    "actual_bytes": 688768764,
+    "actual_sha256": "4d503d447028f437211880bea4ee1a7f6732113ea8560181fcca163251864794",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+    "status": "VERIFIED",
+    "seconds": 41.214927673339844
   },
   {
     "filename": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5",

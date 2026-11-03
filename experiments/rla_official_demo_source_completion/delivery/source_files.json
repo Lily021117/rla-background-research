@@ -49,6 +49,18 @@
   },
   {
     "suite": "libero_10",
+    "filename": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+    "sha256": "3173ebc709b064683956b757ae8737909457d730aa305b23c5735292e59066af",
+    "bytes": 1467540242,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a"
+  },
+  {
+    "suite": "libero_10",
     "filename": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_demo.hdf5",
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_demo.hdf5",
     "sha256": "a2a75bc6c301a914d0998ccac9dcf1d70d0f501897fbb6baf86aa61315b57b31",
@@ -133,6 +145,30 @@
   },
   {
     "suite": "libero_goal",
+    "filename": "put_the_bowl_on_the_stove_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_goal/put_the_bowl_on_the_stove_demo.hdf5",
+    "sha256": "ff77d3bf0f89a147d423840ecbd842cd63c3c55aeead91f88dbc0917be473e99",
+    "bytes": 509123820,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_goal/put_the_bowl_on_the_stove_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_goal",
+    "filename": "put_the_bowl_on_top_of_the_cabinet_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_goal/put_the_bowl_on_top_of_the_cabinet_demo.hdf5",
+    "sha256": "e14c84ebc820a13ef9a92ca82a7f04bb299f0ee96dfe9cc907bab71aeb2683b2",
+    "bytes": 510414285,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_goal/put_the_bowl_on_top_of_the_cabinet_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_goal",
     "filename": "put_the_cream_cheese_in_the_bowl_demo.hdf5",
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads/libero_goal/put_the_cream_cheese_in_the_bowl_demo.hdf5",
     "sha256": "ee58a7d72c143a71bf1448674e70940ac7781c1d1bb10a1b0c7a5c69b26abbef",
@@ -205,6 +241,30 @@
   },
   {
     "suite": "libero_object",
+    "filename": "pick_up_the_butter_and_place_it_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_butter_and_place_it_in_the_basket_demo.hdf5",
+    "sha256": "07f48f1c0c06b5e10bc219e63701f0240d8205f85ccd0daab3ff9bd27bc35fb9",
+    "bytes": 785532626,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_butter_and_place_it_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_object",
+    "filename": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket_demo.hdf5",
+    "sha256": "b5b57f36cd78e598e258e0e2a1a9d4e8d37d387901487eecd22d503e0e222302",
+    "bytes": 797322420,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_object",
     "filename": "pick_up_the_cream_cheese_and_place_it_in_the_basket_demo.hdf5",
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads/libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket_demo.hdf5",
     "sha256": "7ae50ed3a64bab8418fd6c8e346ba1c39da0fdaa62916a87b9d20f3745b45406",
@@ -235,6 +295,42 @@
     "bytes": 727315202,
     "copies": [
       "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/source_hdf5/libero_object/pick_up_the_milk_and_place_it_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_object",
+    "filename": "pick_up_the_orange_juice_and_place_it_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket_demo.hdf5",
+    "sha256": "53e40490c62e94c678233eefbfd874a61c93d92c8088f59d426ae6c3fd90d288",
+    "bytes": 696180446,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_object",
+    "filename": "pick_up_the_salad_dressing_and_place_it_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket_demo.hdf5",
+    "sha256": "45960606a85b9c68980eb8130e0fe16bf3621539cf5d4147f35aa8139573c5ac",
+    "bytes": 664188039,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_object",
+    "filename": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket_demo.hdf5",
+    "sha256": "43c52bdaa78b4c6aff3afb54d932d6a0e065f5c30c8e30a6c17f78749d487ea9",
+    "bytes": 735593408,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket_demo.hdf5"
     ],
     "source": "existing official published HDF5; previous download provenance retained",
     "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
@@ -301,6 +397,18 @@
   },
   {
     "suite": "libero_spatial",
+    "filename": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+    "sha256": "bf1090dd4826eacb49eb052f17d04798e2a1eb2f74f8d024bc3b9c5d234c25f9",
+    "bytes": 671583385,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_spatial",
     "filename": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5",
     "path": "<PROJECT>/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5",
     "sha256": "0c053db7317e584632549bddb963bee8a237661b4bd29f0581a245f715e8eb72",
@@ -332,6 +440,18 @@
     "bytes": 711715594,
     "copies": [
       "<PROJECT>/data/libero_original_minimal/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5"
+    ],
+    "source": "existing official published HDF5; previous download provenance retained",
+    "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"
+  },
+  {
+    "suite": "libero_spatial",
+    "filename": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+    "sha256": "4d503d447028f437211880bea4ee1a7f6732113ea8560181fcca163251864794",
+    "bytes": 688768764,
+    "copies": [
+      "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/downloads/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5"
     ],
     "source": "existing official published HDF5; previous download provenance retained",
     "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466"

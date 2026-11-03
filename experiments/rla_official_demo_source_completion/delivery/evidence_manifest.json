@@ -1,7 +1,11 @@
 [
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/phase_audit.csv",
-    "sha256": "120848a4c969df257010716e46bf7ec29ab5494c98cb82632408acae1f7e2887"
+    "sha256": "9a82f30d3cbda78a2b57b47038c8dbf375aaba41e76e489f264e0c4534d81bdf"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/render_failures.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/protocol.json",
@@ -9,19 +13,27 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/source_files.json",
-    "sha256": "52c29874ae0bb4fc7a906c653b3cb9a6fef0711617d363a5378a17de2b50e7c9"
+    "sha256": "1b6f8ac23a17ecb345a02061e0dc8717299a5915ff81fa0c5498ee72e563b1bd"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/phase_summary.json",
+    "sha256": "048e554ddaea6be9cfc90d8aeef28d1b29fa0191eab1a119b7199ae8c6cd8a05"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/source_rule_diff.csv",
-    "sha256": "f1913616727cad3b15237c3e0f9000b28018010ab35e0733404e5f00d8a926ae"
+    "sha256": "1c010103d92f0b363499460424bc4240dfd9f3373c02a42ae52f3566ced4473a"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/frozen_data_manifest.csv",
-    "sha256": "11bf5f628c8bd73f4722c362221971480b68791310bb477e87e38d4f1af7f4df"
+    "sha256": "4af14405c2dbc41644bfe085286a141e10a8e2210eaf5d0dd9b4eea452a80d10"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/coverage_by_task_split.csv",
-    "sha256": "d7541e176eea6c41572e2405b4b813b7e9d0e9d05534d37366284ee3d06fbe2f"
+    "sha256": "da0234c09c099e4c428cc4767eb491fc5707dba1ca82e76616323d27b966bdaf"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/rejected_source_files.json",
+    "sha256": "a4cb5c0edd8847fe0e5a03b889b5d21530934c576f97a219d311745090c2255b"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_plan.json",
@@ -33,23 +45,31 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_accounting.json",
-    "sha256": "e56079631b1bccd14f2a29c684ca1bdb31b2186ed557655e17df63d0c385c5bb"
+    "sha256": "d37b2eb809b7e68bad4f0fd9d9d8cd008c19ebb364d23641421aa4aed5f31b9d"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/report.md",
-    "sha256": "2a417186fd4fb29c0f5f8b2f1c1a647a984fbd105c6591d4f64bec03bf8fb417"
+    "sha256": "829d8eb41b2b6b3742a3396432661e8c977b21b495c36d484b32aba938b175d5"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/reuse_audit.json",
+    "sha256": "872b0b139ff93bb66d44ac4b0da34ebf84ce517e22a796a626ef7f90ff7be4e8"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/unfinished_entries.csv",
-    "sha256": "11bf5f628c8bd73f4722c362221971480b68791310bb477e87e38d4f1af7f4df"
+    "sha256": "902ff11461d50070fac120acd8b6658288010615b94acb147aa02cffe8dc44b2"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/counts.json",
-    "sha256": "81b88496f4841551f8cd06d06294c870d8332473dae2c4706a28a3f690ab55c2"
+    "sha256": "8803db7bf52e2f2c9d9ced5708ad5928fca0ebd3c3a8e8f2a3ebe25d3776cb0e"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_rule_v2.json",
     "sha256": "02fc6716136d0d9855c3e7c52b442d09eb9f572195a578fd570d299381216f82"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_complete.json",
+    "sha256": "be2e12e393dea47a837b7d81eba69778888ab5639b53dcfd4c7ea5f9434584ab"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/generation_code_evidence.json",
@@ -61,11 +81,11 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_attempts.json",
-    "sha256": "9210ec6f8e555524dff9d142d8c06a1abd156be8f18700c59bb87b3370db8ea0"
+    "sha256": "cc9539f5abaad15860d10fc4b5552341de29f87c62b6c5e46afde2befe3b050d"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_audit.csv",
-    "sha256": "77bb6c6de53ab0a871b2c5d167e923238d16d7922f7256bf02d3b32a1b8cf794"
+    "sha256": "09cf5bc5e91ad272535fb77136292d961156f59c40ebc0ef12a71795869a3406"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/previous_210_audit.csv",

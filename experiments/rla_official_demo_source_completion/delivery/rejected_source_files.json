@@ -1,0 +1,10 @@
+[
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_demo.hdf5",
+    "expected_sha256": "1cef1974f76176214dfd1d983a1961507c2b23d54be9dbf9abb2f243f3efacef",
+    "actual_sha256": "a7bbc74810587d01ebdac7326d6b70a7b72b5d3e7aa5dff57e7b653e76dc4a0e",
+    "expected_bytes": 1511189856,
+    "actual_bytes": 1511189856,
+    "status": "QUARANTINED_NOT_READ_AS_HDF5"
+  }
+]

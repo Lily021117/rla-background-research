@@ -1,0 +1,222 @@
+[
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000000",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000000",
+    "source_rule_unchanged": true,
+    "rgb_files": 440,
+    "result_sha256": "1fd30f7c95766087cd29fcbb79fd16eb6689295331c26e126239529606f594bb",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000002",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002",
+    "source_rule_unchanged": true,
+    "rgb_files": 508,
+    "result_sha256": "5a6f87a322bf3324f24c5f5f3e4506ab6b76beb722ffd1133b1f54dba42f5452",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000004",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004",
+    "source_rule_unchanged": true,
+    "rgb_files": 464,
+    "result_sha256": "d6a7dd5566e2a07972496ce58e91ca96038173fb0d3ea6306ac70c7c93a6ac05",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000006",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006",
+    "source_rule_unchanged": true,
+    "rgb_files": 496,
+    "result_sha256": "7160f8aad7fc1cacbc5567a6964c0bc5d54cafb5fdb3aaf98614079ff908f25b",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000007",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007",
+    "source_rule_unchanged": true,
+    "rgb_files": 516,
+    "result_sha256": "eb71a291349f8049575b6dc634f2403947ed5f7ba6d43800a20892076822b868",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000009",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009",
+    "source_rule_unchanged": true,
+    "rgb_files": 592,
+    "result_sha256": "b389f63975eaeac0c5b5700ce9652431426e5b9d788544aecc1e6e77752fac0e",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000010",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010",
+    "source_rule_unchanged": true,
+    "rgb_files": 404,
+    "result_sha256": "d002993dcd476b1ca539b910891c78efc6367cc57511277bfdb2b7e643ae70ba",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000013",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000013",
+    "source_rule_unchanged": true,
+    "rgb_files": 452,
+    "result_sha256": "bb09056c2aad9e9e6bf391911a8f6dc879cf825d7fad645f8170a657f1cb6f4c",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000014",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000014",
+    "source_rule_unchanged": true,
+    "rgb_files": 512,
+    "result_sha256": "30ed2cb418fb5ede04b7cf31ad5cc09dbb2ac7fac8819247a645c9cf0f33b5e9",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000015",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015",
+    "source_rule_unchanged": true,
+    "rgb_files": 560,
+    "result_sha256": "63d7df293648d02dfab29da61e579c42ebb4ef633650208717a67dc9fd86eb7b",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000016",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000016",
+    "source_rule_unchanged": true,
+    "rgb_files": 444,
+    "result_sha256": "7edc00f155cef3169b15a25abbccac0cd56256dd219eb7181e91203ac8b5ff4d",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000018",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018",
+    "source_rule_unchanged": true,
+    "rgb_files": 384,
+    "result_sha256": "35083e9ec2b356708318f930902f4cebf72ff4de340c338be9f73a33bc6df490",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000019",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000019",
+    "source_rule_unchanged": true,
+    "rgb_files": 428,
+    "result_sha256": "5eb107971e3f4c27c45a1cce9a985c37c3ab7b8b8a1b8536a5a3a2ba8132f53b",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000022",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000022",
+    "source_rule_unchanged": true,
+    "rgb_files": 540,
+    "result_sha256": "381fdf22a133dbf3b841a32aea469162bdb3142520d12f81a41db0aef5bf044f",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000023",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023",
+    "source_rule_unchanged": true,
+    "rgb_files": 596,
+    "result_sha256": "ebca5127435fa109dc674b05c9771998d39b978e5e604fb737108eb49f736412",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000024",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000024",
+    "source_rule_unchanged": true,
+    "rgb_files": 500,
+    "result_sha256": "30514d45ec65ec8270f8a875446f8d5f329cfe1f660ea283ad0df841c7406a36",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000026",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000026",
+    "source_rule_unchanged": true,
+    "rgb_files": 400,
+    "result_sha256": "dccabdb2a678b966f1bfde9952d7c42bec298a344f6784b248005f07d1c8da0b",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000027",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027",
+    "source_rule_unchanged": true,
+    "rgb_files": 344,
+    "result_sha256": "3b839765afc6a821191d414daa1479d218e7114b1755d91ec6436f49b73f5652",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000030",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000030",
+    "source_rule_unchanged": true,
+    "rgb_files": 500,
+    "result_sha256": "8079cc416ba9d4e7990e306f5d3c094082359a7b06a2093c8ba51a66e30f9003",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000031",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000031",
+    "source_rule_unchanged": true,
+    "rgb_files": 628,
+    "result_sha256": "84a6fd22e4274278af0e9902bb68c17369922b7975dc60a6c2eab8a6ce34382e",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000032",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000032",
+    "source_rule_unchanged": true,
+    "rgb_files": 508,
+    "result_sha256": "5cf828424b2a340328536bbe121aa151d7f668447d313be1b3ca0f4f4340e12f",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  },
+  {
+    "suite": "libero_spatial",
+    "trajectory_id": "000034",
+    "status": "REUSED_VERIFIED",
+    "original": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000034",
+    "source_rule_unchanged": true,
+    "rgb_files": 484,
+    "result_sha256": "c63f9d0bdb27dc76b9776333aab97fe2f95d55f2d51d1598cd527f287fa58f8f",
+    "validation": "Recorded model and state-cache hashes; all PNG signatures/end markers and frame counts; prior full-sequence numerical audit. PNG bytes have no historical per-file digest, so not claimed byte-hash reverified."
+  }
+]

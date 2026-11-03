@@ -1,0 +1,22 @@
+{
+  "source_postobs_vs_same_prestate_rmse": {
+    "n": 1610,
+    "median": 0.012760163968969743,
+    "p90": 0.01625001716999612
+  },
+  "source_postobs_vs_next_prestate_rmse": {
+    "n": 1610,
+    "median": 0.0,
+    "p90": 0.0
+  },
+  "filtered_postobs_vs_rlds_preobs_rmse": {
+    "n": 1610,
+    "median": 0.025657357499007237,
+    "p90": 0.05549607571625566
+  },
+  "filtered_prestate_vs_rlds_preobs_rmse": {
+    "n": 1610,
+    "median": 0.021244707354407887,
+    "p90": 0.053035805023216503
+  }
+}

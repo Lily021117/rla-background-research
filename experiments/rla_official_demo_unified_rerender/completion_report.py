@@ -51,6 +51,9 @@ def main():
  reasons=collections.Counter()
  for x in audit.values():
   if x['old_status']=='UNRESOLVED':reasons.update(filter(None,x['old_numeric_failed_conditions'].split(';')))
+ phase_rows=list(csv.DictReader(open(RUN/'phase_audit.csv'))) if (RUN/'phase_audit.csv').exists() else []
+ phase_summary={k:dict(n=len(phase_rows),median=float(np.median([float(x[k]) for x in phase_rows])),p90=float(np.quantile([float(x[k]) for x in phase_rows],.9))) for k in ['source_postobs_vs_same_prestate_rmse','source_postobs_vs_next_prestate_rmse','filtered_postobs_vs_rlds_preobs_rmse','filtered_prestate_vs_rlds_preobs_rmse']} if phase_rows else {}
+ dump(out/'phase_summary.json',phase_summary)
  completed=counts['new_trajectories']+counts['reused_trajectories'];missing=sum(x['source_status']=='MISSING_OFFICIAL_HDF5' for x in rows);unresolved=sum(x['source_status']=='UNRESOLVED' for x in rows)
  text=f'''# 官方示范统一重渲染派生版：来源补齐与统一复核
 
@@ -66,7 +69,7 @@ def main():
 
 v2修正上述解释，不降低ratio=2或提高RMSE=.1，也没有只给失败条目更宽规则。原有路径一致性仅作为保守的正向佐证；缺少它时，本轮仍没有取得独立的再生成demo映射/初态元信息来补足来源证据。因此保留隔离，而不是把所有唯一动作匹配自动升级。这里承认原判定可能造成假阴性，不把隔离写成身份已被否定。不同轨迹归一化进度不代表相同时刻，也不能用于输出状态插值。
 
-源完整初态哈希、RLDS首个机器人观测哈希和差异均记录；二者不是同相位，未将其差异用于自动放行。`phase_audit.csv`同时给出源动作后obs与同列/下一列pre-state、原始pre-state与RLDS的诊断距离，不根据最小距离猜移位。没有新的动作重放或环境版本搜索。缺少的最小资料是发布者的regenerated HDF5或逐RLDS episode→原demo映射、初态及生成配置；原始demo本身的初态不能证明RLDS的初态。
+源完整初态哈希、RLDS首个机器人观测哈希和差异均记录；二者不是同相位，未将其差异用于自动放行。`phase_audit.csv`同时给出源动作后obs与同列/下一列pre-state、原始pre-state与RLDS的诊断距离，汇总见`phase_summary.json`。检查方向先由生成代码确定，再用数组核验，不根据最小距离猜移位；输出数据不移位。没有新的动作重放或环境版本搜索。缺少的最小资料是发布者的regenerated HDF5或逐RLDS episode→原demo映射、初态及生成配置；原始demo本身的初态不能证明RLDS的初态。
 
 ## 下载、复用与增量
 

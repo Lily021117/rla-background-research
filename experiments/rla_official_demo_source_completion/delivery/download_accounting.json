@@ -1,5 +1,5 @@
 {
   "new_attempts": 14,
-  "network_bytes_recorded": 4272661775,
+  "network_bytes_recorded": 4636371979,
   "note": "Application-delivered bytes only; interrupted partial chunks/TLS retransmissions not measured; old resume prefixes not new network bytes."
 }
