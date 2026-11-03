@@ -1,9 +1,9 @@
 suite,split,requested,source_file_available,joined,unresolved,missing,split_conflicts
-libero_spatial,train,422,150,114,36,272,0
-libero_spatial,val,10,9,5,4,1,0
-libero_object,train,444,44,39,5,400,0
-libero_object,val,10,1,1,0,9,0
-libero_goal,train,418,89,64,25,329,0
-libero_goal,val,10,1,0,1,9,0
-libero_10,train,369,29,28,1,340,0
-libero_10,val,10,0,0,0,10,0
+libero_spatial,train,422,333,272,61,89,0
+libero_spatial,val,10,10,6,4,0,0
+libero_object,train,444,217,186,31,227,0
+libero_object,val,10,8,8,0,2,0
+libero_goal,train,418,324,232,92,94,0
+libero_goal,val,10,10,7,3,0,0
+libero_10,train,369,256,239,17,113,0
+libero_10,val,10,7,5,2,3,0
