@@ -68,6 +68,23 @@ def reuse():
     if filename=='state_cache.npz' and not f.exists():
      choices=list(p.glob('*.npz'));assert len(choices)==1;f=choices[0]
     assert sha(f)==result[key],str(f)
+   cache=np.load(p/'source_state_geometry.npz');ids=np.array(json.loads(x['filtered_indices']),dtype=int)
+   assert np.array_equal(ids,cache['source_indices'])
+   with h5py.File(x['source_file']) as source:
+    demo=source['data'][x['demo']]
+    assert np.array_equal(demo['states'][:][ids],cache['states'])
+    assert np.array_equal(demo['actions'][:][ids],cache['actions'])
+    assert str(demo.attrs['model_file'])==(p/'original_source.xml').read_text()
+   ct=json.loads((p/'camera_time.json').read_text())
+   for app in ['clean','background']:
+    with h5py.File(PREVIOUS/'official_loader'/app/x['suite']/p.name/'metadata.h5') as h:
+     for field,expected in [('action',cache['actions'].astype('float32')),('qpos',cache['qpos'].astype('float32')),('eef_pose',cache['eef_pose'].astype('float32')),('source_frame_index',ids),('source_time_s',cache['states'][:,0])]:
+      assert np.array_equal(h[field][:],expected),(str(p),app,field)
+     for camera in ct['cameras']:
+      cid=camera['model_id'];stream=camera['stream']
+      extr=np.concatenate([cache['camera_rotations'][:,cid].reshape(-1,3,3)@np.diag([1.,-1.,-1.]),cache['camera_positions'][:,cid,:,None]],axis=2)[:,None].astype('float32')
+      assert np.array_equal(h[stream+'_extrinsics'][:],extr)
+      assert np.array_equal(h[stream+'_intrinsics'][:],np.tile(np.array(camera['K']),(len(ids),1,1,1)).astype('float32'))
    rgb_count=0
    for app in ['clean','background']:
     for stream in STREAMS:

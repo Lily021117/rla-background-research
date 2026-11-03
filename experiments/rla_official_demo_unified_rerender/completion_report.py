@@ -10,7 +10,9 @@ def main():
  audit={(x['suite'],x['trajectory_id']):x for x in csv.DictReader(open(RUN/'lineage_audit.csv'))} if (RUN/'lineage_audit.csv').exists() else {}
  reuse=json.loads((RUN/'reuse_audit.json').read_text()) if (RUN/'reuse_audit.json').exists() else []
  reused={(x['suite'],x['trajectory_id']) for x in reuse if x['status']=='REUSED_VERIFIED'}
- taskrows=[];frozen=[];counts=dict(new_trajectories=0,reused_trajectories=0,new_source_frames=0,reused_source_frames=0,loader_pass=0,state_restores=0,kinematic_forwards=0,rgb_renders=0,segmentation_renders=0,depth_renders=0,physics_steps=0,action_replay=0,model_forwards=0,updates=0,backward=0,policy_rollouts=0)
+ taskrows=[];frozen=[];render_failures=[];counts=dict(new_trajectories=0,reused_trajectories=0,new_source_frames=0,reused_source_frames=0,loader_pass=0,state_restores=0,kinematic_forwards=0,rgb_renders=0,segmentation_renders=0,depth_renders=0,physics_steps=0,action_replay=0,model_forwards=0,updates=0,backward=0,policy_rollouts=0)
+ batch_records=json.loads((RUN/'batch_results.json').read_text()) if (RUN/'batch_results.json').exists() else []
+ batch_by_id={(x['suite'],x['trajectory_id']):x for x in batch_records}
  for x in rows:
   key=x['suite'],x['trajectory_id'];p=RUN/'trajectories'/x['suite']/f"traj_{x['trajectory_id']}";r=p/'result.json';l=p/'loader_audit.json'
   x.update(result_path=str(r) if r.exists() else '',output_reused=key in reused,paired_complete=r.exists(),loader_status=json.loads(l.read_text())['status'] if l.exists() else 'NOT_TESTED',remaining_reason=audit.get(key,{}).get('decision_reason','PENDING_REVIEW'))
@@ -18,6 +20,12 @@ def main():
    d=json.loads(r.read_text());prefix='reused' if key in reused else 'new';counts[prefix+'_trajectories']+=1;counts[prefix+'_source_frames']+=d['frames']
    if prefix=='new':
     for k,v in d['counts'].items():counts[k]+=v
+  elif (p/'failure.json').exists():
+   failed=json.loads((p/'failure.json').read_text());render_failures.append(dict(suite=x['suite'],trajectory_id=x['trajectory_id'],**failed))
+   x['remaining_reason']='RENDER_FAILURE: '+str(failed.get('error','see preserved failure.json'))
+   for k,v in failed.get('counts',{}).items():counts[k]+=v
+  elif key in batch_by_id:
+   x['remaining_reason']=batch_by_id[key]['status']
   if l.exists() and x['loader_status']=='PASS':counts['loader_pass']+=1
   frozen.append(x)
  for suite,task in sorted({(x['suite'],x['task']) for x in rows}):
@@ -28,7 +36,7 @@ def main():
  assert len(taskrows)==80
  csvout(out/'coverage_by_task_split.csv',taskrows);csvout(out/'frozen_data_manifest.csv',frozen)
  csvout(out/'unfinished_entries.csv',[x for x in frozen if not x['paired_complete'] or x['loader_status']!='PASS'] or [dict(status='NONE')])
- dump(out/'counts.json',counts)
+ dump(out/'counts.json',counts);dump(out/'render_failures.json',render_failures)
  failures=[];downloads=[]
  for p in (RUN/'download_attempts').glob('*/*/attempt_*.json'):
   d=json.loads(p.read_text());downloads.append(d)
