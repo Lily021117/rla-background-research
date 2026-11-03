@@ -1,0 +1,162 @@
+[
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/protocol.json",
+    "sha256": "937ac756894f3979a403da66d5d5e81d64cd3e221da756f55940bb97eefa067d",
+    "bytes": 3574
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_manifest.csv",
+    "sha256": "86d31221493f72885920344f6fa5ebd5ea4fbe8924c8f94245d7b9920076ffa7",
+    "bytes": 726850
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_files.json",
+    "sha256": "a563076f9b22a6580cc573a624b9c94ed05450a6c5cd06b6ab83cbca900e35f3",
+    "bytes": 6118
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_coverage.csv",
+    "sha256": "178a0ae50f873d248252f6c69fa7c776c58d060f1bc9b0db8817b2b31efaf0dd",
+    "bytes": 357
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/split_conflicts.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/code/experiments/rla_official_demo_unified_rerender/report.py",
+    "sha256": "80698e4c2067ab0a01a21a1ea95357b5450ba3be1c1c38f46bf7483bb91b7445",
+    "bytes": 12064
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/scripts/create_dataset.py",
+    "sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f",
+    "bytes": 8813
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/download_plan.json",
+    "sha256": "8a821c336f3748ca501dd6c93e38fc5cbed9bd6b27a8e2703f727a22bc75ddf6",
+    "bytes": 14087
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/pilot_admission.json",
+    "sha256": "2f7f5611e923a3a176c7758bbc0a387f09b1d534511b8e3c5d68f422b7fe9cbe",
+    "bytes": 4656
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/resource_estimate.json",
+    "sha256": "e5e0b0a77a8945ff053e0670908de3967295400367cf076b8fe1d66a6b36b1e3",
+    "bytes": 624
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/visual_state_repair_record.json",
+    "sha256": "887ba45d94f4e0486266c385252f67aa78d2cfd288657ecee78ff2b6a265e7e3",
+    "bytes": 1727
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/loader_audit.json",
+    "sha256": "c2e5a1e823a13876a77610d8dc3c8f1082e3361c1612674a7d650e84a9102842",
+    "bytes": 14035
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/result.json",
+    "sha256": "6eaf15ec29ba530f295a3b20170e721b2bcd57b3a8a8c64aaca8283557927649",
+    "bytes": 828
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/static_state_audit.json",
+    "sha256": "3a30bc7528b06f4ec9fb1f7f7e5b222e0ab16fb627ec4d2e8305f6efe171b240",
+    "bytes": 4460
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/appearance.json",
+    "sha256": "35de01f7e5f18707dde6f2a6d02380d7839a07b540a79f97f48ca250de0fb487",
+    "bytes": 10557
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/frame_mapping.csv",
+    "sha256": "0e60bccbc5d487c5ac3a061cb70a9f736608e82d79906725174a8408b6e317db",
+    "bytes": 91816
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/camera_time.json",
+    "sha256": "f8da313357b980a537f1246ab7030b61efd3d474f707129945b035828267f4c8",
+    "bytes": 13853
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/result.json",
+    "sha256": "d002993dcd476b1ca539b910891c78efc6367cc57511277bfdb2b7e643ae70ba",
+    "bytes": 829
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/static_state_audit.json",
+    "sha256": "68312143d4c3b643c140009be5aa869158f143d70b55bdd05c8019716de7e28e",
+    "bytes": 4552
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/frame_mapping.csv",
+    "sha256": "5889b0fb8028ae9b415b6617526a21bdf41f3444009f233ea6a6b2930b5a4967",
+    "bytes": 24229
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/camera_time.json",
+    "sha256": "60b72c8d5245353ea9c4065f15d138b0afe7917cf4d6dc8c00fbb0a68012d3db",
+    "bytes": 4480
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/result.json",
+    "sha256": "7c599c07aeba8e165dda08b2911c0eab16d5503fe6fa7412defc0fabb977d22d",
+    "bytes": 827
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/static_state_audit.json",
+    "sha256": "fe4c9273000115f0aca7f17a802404aef70b7f508830dcbc3056f0acdbadc2b0",
+    "bytes": 4385
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/frame_mapping.csv",
+    "sha256": "5a3421e9a38446f4d627f123d1cdf7363873f18f68da28fa91842a3d3a854e59",
+    "bytes": 27323
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/camera_time.json",
+    "sha256": "a96fadaf28de0c4d068ff0bff0f99f558a84cbe9cec0753f76fb7ea48963bfdd",
+    "bytes": 4894
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/result.json",
+    "sha256": "2831cc32025f31c5d8b6ff12ae8f480716a93f88d3bd8dea2ee31f1a49dd7e4f",
+    "bytes": 829
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/static_state_audit.json",
+    "sha256": "ab96276e7326087b6de2788b00609b991ec378fdfce756eb7fb68ab634c62ccf",
+    "bytes": 4323
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/appearance.json",
+    "sha256": "73e6be57addc2a4ca78da9be854e9862155f68ded6ec1ed71d85de77b03f8a39",
+    "bytes": 11072
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/frame_mapping.csv",
+    "sha256": "72c7911e96a78b1baea7775fe2ed3db2e4da2a04ebee0ee8a8d66837cc01f0d1",
+    "bytes": 34335
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/camera_time.json",
+    "sha256": "52be8c8bf3e435bb214fc947ff3279b23725041f16c3dced54fe01c682a82251",
+    "bytes": 5819
+  }
+]

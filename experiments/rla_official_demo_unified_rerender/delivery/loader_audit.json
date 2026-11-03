@@ -1,0 +1,445 @@
+{
+  "trajectories": 4,
+  "all_pass": true,
+  "rows": [
+    {
+      "suite": "libero_spatial",
+      "trajectory_id": "000010",
+      "status": "PASS",
+      "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+      "checks": [
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_spatial",
+            "traj_id": "000010",
+            "frame_id": 0,
+            "sampled_horizon": 2,
+            "feasible_horizon": 2,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_spatial"
+          },
+          "physical_time": {
+            "source_indices": [
+              0,
+              1
+            ],
+            "source_times_s": [
+              0.25000000000000017,
+              0.3000000000000002
+            ],
+            "horizon_count": 2,
+            "elapsed_time_s": 0.050000000000000044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 24.58376182504252
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_spatial",
+            "traj_id": "000010",
+            "frame_id": 50,
+            "sampled_horizon": 10,
+            "feasible_horizon": 10,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_spatial"
+          },
+          "physical_time": {
+            "source_indices": [
+              50,
+              59
+            ],
+            "source_times_s": [
+              2.7499999999999187,
+              3.199999999999869
+            ],
+            "horizon_count": 10,
+            "elapsed_time_s": 0.44999999999995044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 25.04714571375425
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_spatial",
+            "traj_id": "000010",
+            "frame_id": 36,
+            "sampled_horizon": 64,
+            "feasible_horizon": 64,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_spatial"
+          },
+          "physical_time": {
+            "source_indices": [
+              36,
+              99
+            ],
+            "source_times_s": [
+              2.049999999999996,
+              5.199999999999649
+            ],
+            "horizon_count": 64,
+            "elapsed_time_s": 3.1499999999996535
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 25.705745774872447
+        }
+      ],
+      "model_forwards": 0,
+      "training_enabled": false
+    },
+    {
+      "suite": "libero_object",
+      "trajectory_id": "000010",
+      "status": "PASS",
+      "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+      "checks": [
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_object",
+            "traj_id": "000010",
+            "frame_id": 0,
+            "sampled_horizon": 2,
+            "feasible_horizon": 2,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_object"
+          },
+          "physical_time": {
+            "source_indices": [
+              0,
+              1
+            ],
+            "source_times_s": [
+              0.25000000000000017,
+              0.3000000000000002
+            ],
+            "horizon_count": 2,
+            "elapsed_time_s": 0.050000000000000044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 28.21900244472789
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_object",
+            "traj_id": "000010",
+            "frame_id": 71,
+            "sampled_horizon": 10,
+            "feasible_horizon": 10,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_object"
+          },
+          "physical_time": {
+            "source_indices": [
+              71,
+              80
+            ],
+            "source_times_s": [
+              3.799999999999803,
+              4.249999999999754
+            ],
+            "horizon_count": 10,
+            "elapsed_time_s": 0.4499999999999509
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 26.463503467793366
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_object",
+            "traj_id": "000010",
+            "frame_id": 78,
+            "sampled_horizon": 64,
+            "feasible_horizon": 64,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_object"
+          },
+          "physical_time": {
+            "source_indices": [
+              78,
+              141
+            ],
+            "source_times_s": [
+              4.149999999999765,
+              7.299999999999418
+            ],
+            "horizon_count": 64,
+            "elapsed_time_s": 3.149999999999653
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 23.057652064732142
+        }
+      ],
+      "model_forwards": 0,
+      "training_enabled": false
+    },
+    {
+      "suite": "libero_goal",
+      "trajectory_id": "000010",
+      "status": "PASS",
+      "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+      "checks": [
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_goal",
+            "traj_id": "000010",
+            "frame_id": 0,
+            "sampled_horizon": 2,
+            "feasible_horizon": 2,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_goal"
+          },
+          "physical_time": {
+            "source_indices": [
+              1,
+              2
+            ],
+            "source_times_s": [
+              0.3000000000000002,
+              0.35000000000000026
+            ],
+            "horizon_count": 2,
+            "elapsed_time_s": 0.050000000000000044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 21.931338355654763
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_goal",
+            "traj_id": "000010",
+            "frame_id": 57,
+            "sampled_horizon": 10,
+            "feasible_horizon": 10,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_goal"
+          },
+          "physical_time": {
+            "source_indices": [
+              58,
+              67
+            ],
+            "source_times_s": [
+              3.1499999999998747,
+              3.599999999999825
+            ],
+            "horizon_count": 10,
+            "elapsed_time_s": 0.44999999999995044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 18.76470490539966
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_goal",
+            "traj_id": "000010",
+            "frame_id": 49,
+            "sampled_horizon": 64,
+            "feasible_horizon": 64,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_goal"
+          },
+          "physical_time": {
+            "source_indices": [
+              50,
+              113
+            ],
+            "source_times_s": [
+              2.7499999999999187,
+              5.899999999999572
+            ],
+            "horizon_count": 64,
+            "elapsed_time_s": 3.1499999999996535
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 19.2592391448767
+        }
+      ],
+      "model_forwards": 0,
+      "training_enabled": false
+    },
+    {
+      "suite": "libero_10",
+      "trajectory_id": "000010",
+      "status": "PASS",
+      "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+      "checks": [
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_10",
+            "traj_id": "000010",
+            "frame_id": 0,
+            "sampled_horizon": 2,
+            "feasible_horizon": 2,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_10"
+          },
+          "physical_time": {
+            "source_indices": [
+              0,
+              1
+            ],
+            "source_times_s": [
+              0.25000000000000017,
+              0.3000000000000002
+            ],
+            "horizon_count": 2,
+            "elapsed_time_s": 0.050000000000000044
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 27.81889415922619
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_10",
+            "traj_id": "000010",
+            "frame_id": 191,
+            "sampled_horizon": 10,
+            "feasible_horizon": 10,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_10"
+          },
+          "physical_time": {
+            "source_indices": [
+              191,
+              200
+            ],
+            "source_times_s": [
+              9.799999999999942,
+              10.250000000000092
+            ],
+            "horizon_count": 10,
+            "elapsed_time_s": 0.4500000000001503
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 27.335221686330783
+        },
+        {
+          "handle": {
+            "version": 1,
+            "dataset_idx": 0,
+            "group_name": "libero_10",
+            "traj_id": "000010",
+            "frame_id": 318,
+            "sampled_horizon": 64,
+            "feasible_horizon": 64,
+            "camera_keys": [
+              "agentview_camera",
+              "wrist_camera"
+            ],
+            "rgb_variant": "base",
+            "interaction_frame_indices": null,
+            "dataset_root": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_10"
+          },
+          "physical_time": {
+            "source_indices": [
+              318,
+              381
+            ],
+            "source_times_s": [
+              16.150000000001928,
+              19.300000000000182
+            ],
+            "horizon_count": 64,
+            "elapsed_time_s": 3.149999999998254
+          },
+          "paired_metadata_equal": true,
+          "base_duplicate_exact": true,
+          "aug_rgb_mae": 29.369916228210034
+        }
+      ],
+      "model_forwards": 0,
+      "training_enabled": false
+    }
+  ],
+  "training_not_authorized": true,
+  "coverage_not_full": true,
+  "learned_model_forwards": 0
+}

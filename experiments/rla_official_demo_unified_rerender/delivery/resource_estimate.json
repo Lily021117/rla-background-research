@@ -1,0 +1,16 @@
+{
+  "measured_pilot_frames": 741,
+  "sum_worker_seconds": 746.8151485919952,
+  "seconds_per_frame": 1.0078477039028275,
+  "author_manifest_frames": 273465,
+  "serial_hours_if_all_frames": 76.55863120771853,
+  "ideal_8worker_hours": 9.569828900964817,
+  "caveat": "Extrapolation only; compilation, disk, concurrency and download overhead not guaranteed. Confirmed subset may be smaller.",
+  "pilot_bytes": 2014666873,
+  "conservative_full_data_bytes_by_trajectory": 1279061630995.875,
+  "free_disk_bytes": 50202785284096,
+  "cpu_workers": 8,
+  "osmesa_threads_per_worker": 2,
+  "gpu_use": false,
+  "min_disk_free_gib": 100
+}

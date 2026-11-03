@@ -1,0 +1,20 @@
+{
+  "state_restores": 3372,
+  "kinematic_forwards": 3372,
+  "rgb_renders": 6744,
+  "segmentation_renders": 2248,
+  "depth_renders": 140,
+  "physics_steps": 0,
+  "action_replay": 0,
+  "completed_unique_trajectories": 4,
+  "completed_source_frames": 741,
+  "paired_rgb_frames": 2964,
+  "repeated_render_source_frames": 383,
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0,
+  "updates": 0,
+  "backward": 0,
+  "policy_rollouts": 0,
+  "download_wire_bytes": "not instrumented"
+}

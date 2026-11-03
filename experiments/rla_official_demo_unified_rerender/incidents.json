@@ -1,0 +1,6 @@
+[
+  {"stage":"official_loader_attempt1","exit_code":143,"cause":"unknown external termination; no Python traceback","learned_forwards":0,"render_replay":0},
+  {"stage":"official_loader_attempt2","error":"Dataset root mismatch","fix":"Pair retains episode/time/horizon/camera; background handle explicitly names background dataset root. No source images or simulation rerun.","learned_forwards":0},
+  {"stage":"libero10_pilot_visual_review","error":"Static XML omits qpos-derived burner site visibility","fix":"Pinned official FlatStove visualization rule, identically applied to Clean/aug/reload. First 383-frame attempt retained in failed_attempts; corrected full render separately counted.","physics_steps":0},
+  {"stage":"download_transport_restart","old_pid":946533,"reason":"Resume same official URLs/revisions via HF HTTP transport with two workers; initial Xet download stalled after two verified files. Preserve verified files and partial cache; no mirror change.","wire_bytes":"not instrumented"}
+]

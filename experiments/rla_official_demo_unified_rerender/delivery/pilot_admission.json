@@ -1,0 +1,99 @@
+{
+  "all_four_pass": true,
+  "scope": "Only four complete ORIGINAL HDF5-state pilots; not full 1693 coverage and not old-video exact reproduction",
+  "rows": [
+    {
+      "suite": "libero_spatial",
+      "trajectory_id": "000010",
+      "result_sha256": "d002993dcd476b1ca539b910891c78efc6367cc57511277bfdb2b7e643ae70ba",
+      "loader_audit_sha256": "1e1d35cadd705d96163c20b1a8b5a04f3857c2c12dd811d7f09677807116d74d",
+      "review_image": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/fixed_comparison.jpg",
+      "review_image_sha256": "2715ac02506cdb0923ee5bade2f4af88e96f46aebca6c56c6bbb3ffea46b6ad3",
+      "fixed_frame_ids": [
+        0,
+        16,
+        33,
+        50,
+        66,
+        83,
+        100
+      ],
+      "review_type": "AI visual inspection by main agent via view_image",
+      "human_review": false,
+      "whole_video_manually_reviewed": false,
+      "full_sequence_numeric_checks": true,
+      "visual_pass": true,
+      "notes": "Seven fixed times, both views: robot/bowls/plate/cabinet remain excluded; same-state Clean/H+S geometry visually aligned; table/wall hue visibly changes. Old video path differences are descriptive."
+    },
+    {
+      "suite": "libero_object",
+      "trajectory_id": "000010",
+      "result_sha256": "2831cc32025f31c5d8b6ff12ae8f480716a93f88d3bd8dea2ee31f1a49dd7e4f",
+      "loader_audit_sha256": "970f5f6576d92b1a8719fdc746072d73490018abf0bdf07bfd65be48cf1e2724",
+      "review_image": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_object/traj_000010/fixed_comparison.jpg",
+      "review_image_sha256": "ab167b45c4f7d96d9c31c75f06f268e911a9bacbc788338f05a687de0c448de4",
+      "fixed_frame_ids": [
+        0,
+        23,
+        47,
+        71,
+        94,
+        118,
+        142
+      ],
+      "review_type": "AI visual inspection by main agent via view_image",
+      "human_review": false,
+      "whole_video_manually_reviewed": false,
+      "full_sequence_numeric_checks": true,
+      "visual_pass": true,
+      "notes": "Seven fixed times, both views: floor/wall recolored, basket and all grocery objects excluded; milk transport and occlusion remain plausible; wrist background stays geometrically aligned."
+    },
+    {
+      "suite": "libero_goal",
+      "trajectory_id": "000010",
+      "result_sha256": "7c599c07aeba8e165dda08b2911c0eab16d5503fe6fa7412defc0fabb977d22d",
+      "loader_audit_sha256": "955484ffbd4f57d5efcf357ca3aa08f494981dcb5bec6fe7997d022ee32ecd9f",
+      "review_image": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/fixed_comparison.jpg",
+      "review_image_sha256": "6844cadd93e3914776924154841bfb4aea21fbd123d5a5774a23f6c4f1018bfd",
+      "fixed_frame_ids": [
+        0,
+        18,
+        37,
+        56,
+        75,
+        94,
+        113
+      ],
+      "review_type": "AI visual inspection by main agent via view_image",
+      "human_review": false,
+      "whole_video_manually_reviewed": false,
+      "full_sequence_numeric_checks": true,
+      "visual_pass": true,
+      "notes": "Seven fixed times, both views: bottle/cabinet/cutting board/knife excluded; background changes around them; preserved source sequence includes first retained raw index1 without shifting or deleting failures."
+    },
+    {
+      "suite": "libero_10",
+      "trajectory_id": "000010",
+      "result_sha256": "6eaf15ec29ba530f295a3b20170e721b2bcd57b3a8a8c64aaca8283557927649",
+      "loader_audit_sha256": "98ee6f6d2ccb4bb275fab52fc4ca53cf87b4e5093c0bdd8051cdf1a58ca0ba22",
+      "review_image": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010/fixed_comparison.jpg",
+      "review_image_sha256": "3d8394aa181268f43cee7fa40e7d146869dd548ce49d11ed677562b2f1424d01",
+      "fixed_frame_ids": [
+        0,
+        63,
+        127,
+        191,
+        254,
+        318,
+        382
+      ],
+      "review_type": "AI visual inspection by main agent via view_image",
+      "human_review": false,
+      "whole_video_manually_reviewed": false,
+      "full_sequence_numeric_checks": true,
+      "visual_pass": true,
+      "notes": "Seven fixed times, both views AFTER correction: two moka pots and stove excluded; burner now correctly red for button>=0.5 in both Clean and H+S; cupboard background remains excluded; no obvious object/camera geometry mismatch between pair."
+    }
+  ],
+  "approved_batch": "Only source-joined and split-nonconflicting entries; no model task"
+}

@@ -1,0 +1,5 @@
+suite,source_demo,source_sha256,frames,source_start_s,source_end_s,filtered_gaps,self_restore,pair_geometry,loader,visual,seconds
+libero_spatial,demo_6,d9b2da7399a88bea39024c8ef97713a20734e9b765e14b3399e2755890c828b7,101,0.25000000000000017,5.249999999999644,0,PASS,PASS,PASS,see pilot_admission.json,114.72090339660645
+libero_object,demo_11,e56d954928e613f9db58085b7677ccf9c4824f1ab982265f71405d5bb14cfb4a,143,0.25000000000000017,7.349999999999413,0,PASS,PASS,PASS,see pilot_admission.json,122.70286870002747
+libero_goal,demo_19,7dc087a7596d5cbbe394f681b21a0be434438b0dca73ac430c293fe4c818404a,114,0.3000000000000002,5.949999999999567,0,PASS,PASS,PASS,see pilot_admission.json,118.20156359672546
+libero_10,demo_24,e329bb21a8ded3457854faf6a23513c90cb4b34f0e40f3f4e9e70451fc9ba504,383,0.25000000000000017,19.350000000000154,0,PASS,PASS,PASS,see pilot_admission.json,391.18981289863586

@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "old": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_10/traj_000010",
+      "new": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/failed_attempts/libero_10/traj_000010_missing_burner_state",
+      "reason": "AI fixed-frame review found burner off despite button>=.5; static XML alone omits official qpos-derived visualization"
+    },
+    {
+      "old": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/clean/libero_10/traj_000010",
+      "new": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/failed_attempts/libero_10/traj_000010_missing_burner_state/previous_loader_clean"
+    },
+    {
+      "old": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/official_loader/background/libero_10/traj_000010",
+      "new": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/failed_attempts/libero_10/traj_000010_missing_burner_state/previous_loader_background"
+    }
+  ],
+  "previous_result_sha256": "665b6b7ad69a0ba55c62bd65def36e47c1d74d1495eb0b8943ca01d8905840d2",
+  "source_code": "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/libero/libero/envs/objects/articulated_objects.py",
+  "source_code_sha256": "f5187b0381d69a2a8736c1dcb646e5fa7c138a42950f92e30c21c2efaed52faa",
+  "correction": "qpos-derived display only; same source states/actions/camera/lighting; no environment search or replay",
+  "repeated_source_frames": 383,
+  "old_attempt_preserved": true
+}
