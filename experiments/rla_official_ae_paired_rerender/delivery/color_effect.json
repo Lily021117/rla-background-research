@@ -1,0 +1,13 @@
+{
+  "per_view": {
+    "front": {
+      "mean_rgb_abs_change": 0.1460909543337522,
+      "zero_change_frames": 0
+    },
+    "wrist": {
+      "mean_rgb_abs_change": 0.0,
+      "zero_change_frames": 143
+    }
+  },
+  "interpretation": "Object arena has no table_visual; whitelist changes six walls only. Floor excluded. Wrist wall region invisible; no compensation with saturation/brightness or new geom."
+}

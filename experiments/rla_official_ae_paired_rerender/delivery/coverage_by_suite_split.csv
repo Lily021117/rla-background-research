@@ -1,0 +1,9 @@
+suite,split,trajectories,frames,valid_starts,possible_time_pairs,rlds_sources_matched,hdf5_demo_candidates,candidate_state_sequences,original_state_sequences,clean_correspondence_pass,paired_sequences,candidate_pairs_generated
+libero_spatial,train,422,51732,50888,2381778,422,1,1,0,0,0,0
+libero_spatial,val,10,1238,1138,47740,10,0,0,0,0,0,0
+libero_object,train,444,65552,64664,3206700,444,1,1,0,0,0,1
+libero_object,val,10,1432,1332,58410,10,0,0,0,0,0,0
+libero_goal,train,418,50545,49709,2315313,418,1,1,0,0,0,0
+libero_goal,val,10,1497,1397,61985,10,0,0,0,0,0,0
+libero_10,train,369,98711,97973,5451642,369,1,1,0,0,0,0
+libero_10,val,10,2758,2658,131340,10,0,0,0,0,0,0

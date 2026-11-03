@@ -1,0 +1,8 @@
+{
+  "reviewer_type": "AI_visual_review_not_human_or_segmentation_ground_truth",
+  "complete_sequence_pass": true,
+  "scope": "All 143 frames in six contact sheets; seven fixed full-resolution dual-view pairs also inspected. Every frame independently covered by automatic numeric and pixel checks.",
+  "evidence": ["all_frame_review/page_00.jpg", "all_frame_review/page_01.jpg", "all_frame_review/page_02.jpg", "all_frame_review/page_03.jpg", "all_frame_review/page_04.jpg", "all_frame_review/page_05.jpg", "fixed_clean_comparison.png", "frame_alignment.csv"],
+  "observed": "Milk approach, gripper enclosure, lift, transport and placement in basket correspond at the same frame indices in both cameras. Distractor can tipping and occlusion sequence also correspond. No visible event-time offset or object/camera displacement beyond the frozen numeric/image tolerance was identified.",
+  "limitations": "Thumbnail inspection cannot certify subpixel geometry, exact contacts or original solver state. Replayed states remain reconstructed candidates, not author-saved states. Slight texture/shading and edge differences retained. This admits this one reconstructed trajectory under the frozen criteria, not the suite or whole dataset."
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "path": "/data/lyc/projects/rla-wm/AGENTS.md",
+    "bytes": 3040,
+    "sha256": "fadfb5b7a4d8b7e1a132d68aa57e59dc802ff574faa3340a01a84c38f17485c6"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/check_pair_loader.py",
+    "bytes": 2909,
+    "sha256": "dff3526b1ddb2b9124be503e3f75edcdd62580a5fe5a2df00ab5525d3a714c97"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/deliver.py",
+    "bytes": 27905,
+    "sha256": "372aaf793ebd8a0bafc45d19c0eca109d5e80dedbf9551c9a9880941ea2c5dcb"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/download_pilot_hdf5.py",
+    "bytes": 2691,
+    "sha256": "aed2a27ebfc2963fe0f3e1d4f95b5705716f478800cc7e38e69b86da840563f5"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/download_rlds.py",
+    "bytes": 2109,
+    "sha256": "a1f09f848c84aa75e20fcd4d5b96f4be91d1f21ea7958aa1eb22a460296aac2b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/export_pair.py",
+    "bytes": 5331,
+    "sha256": "246478bd39628219ce872d2a491609bd293117168826af7936d406f7805730dc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/final_check.py",
+    "bytes": 2291,
+    "sha256": "bc9d14a85d9732c5a2500012ce3e0989b2fea803739612777989b1f10ae8d14b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/map_rlds.py",
+    "bytes": 5701,
+    "sha256": "cd8c0d3d270a1e459cbac8d60dee58068bcd75dfbc636bdeb894de1140430881"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/paired_renderer.py",
+    "bytes": 8032,
+    "sha256": "fbcb2952448d78904c111b399b9f2ca6aaf7cdab8de73cdbdda1f403297c9edd"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/post_audit.py",
+    "bytes": 4704,
+    "sha256": "369c622d9d051b3def60b0796d9c08e8015e92f7ac47d1218d81c7172a2a4ef8"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/prepare.py",
+    "bytes": 4453,
+    "sha256": "67504286e4b1ac74c14fac9c33a0e7e4574325f52e805fe3921120ed8018ac35"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/replay_pilot.py",
+    "bytes": 9603,
+    "sha256": "e7b937763c7aaf20833fae73ecf1ebbf8ae53634e27fa2d868f159e1b1524dec"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/code/experiments/rla_official_ae_paired_rerender/review_contact.py",
+    "bytes": 1171,
+    "sha256": "32916f6c65288cd45905fee67f94c0daf458bbbcd92527f5e0d7b4b5baab7841"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/frozen_protocol.json",
+    "bytes": 4964,
+    "sha256": "f58c439b2ccbe5cad8c297072011b1114d687e63b8ab5f5916e9f119eb526fcd"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/hdf5_download_complete.json",
+    "bytes": 2595,
+    "sha256": "43c11a6039431a8f8f27b1dde8c1217d6492b0bbaa850eb4965a1705b35aafdc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/hdf5_download_plan.json",
+    "bytes": 1391,
+    "sha256": "36108be6c342da489cf8edc83d10c4908feecd60462478bf8441dfaa65424e38"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/initial_evidence.json",
+    "bytes": 1435,
+    "sha256": "c3f4b8c3c98db020a197aab3fd6bda5ef5198e4aa1134f3c211cc5648d232243"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/background.npz",
+    "bytes": 28452520,
+    "sha256": "6540c5a1e597f3783d4bbf0e7a931f187744351b86ad2fa0c7b50db04a3bda21"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/camera_poses.npz",
+    "bytes": 14491,
+    "sha256": "2b585170ee40bf7a8094005e4844e609f64725e1ce0bb3d1d16bc256f6c8a58d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/clean.npz",
+    "bytes": 28462868,
+    "sha256": "0cdcc16246cc1f816e4811bf4658e48ab20e47918f908178ddb6ce82b7d84f99"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/export_audit.json",
+    "bytes": 1440,
+    "sha256": "2dad50311d094a78245a03249c528bd2d5304d2fe228102336ae32578d800180"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/final_admission.json",
+    "bytes": 982,
+    "sha256": "6a9ee87e24558d46f57026574af3bee0666a53aa2707db88dde60ca65ef3b8e0"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/final_clean_original_pixel_check.csv",
+    "bytes": 12286,
+    "sha256": "2b2b787f25b49f65443d87d7770127a010dfb70995a61f438080b98db691dd11"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/loader_audit.json",
+    "bytes": 1479,
+    "sha256": "438d3e06d48efcffe326f25cf8da2ff9656e3ff015e297e9fa39bd2291db60ec"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/pairing_manifest.csv",
+    "bytes": 16923,
+    "sha256": "4dfaf1465f8e9e092bc57acefe45a8cf39ad8475453f59aaad1c90fdeca50dfd"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/result.json",
+    "bytes": 366,
+    "sha256": "52a04507ffd813487dbf8dd41162148d8b029488ded10aa547732e651376dd0c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_rendered/libero_object/same_state_render_checks.csv",
+    "bytes": 10725,
+    "sha256": "2c67d5595e869f2de6500adfae36a2065c6bb3a3b26de85609059994cdb4e9fb"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/asset_and_model_comparison.json",
+    "bytes": 48131,
+    "sha256": "f2feb64d04d9025c0f0a8c9daeb5ed42249deec20036dd3c45ed916fe99f8d88"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/camera_and_time_audit.json",
+    "bytes": 5485,
+    "sha256": "96be65f506c2920224280155b176112b9316c002b544151e73ed5918eb03ddd9"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/candidate_replay.npz",
+    "bytes": 44045625,
+    "sha256": "7cbae1e019e9fbb3f9ee39efb2d96ba98738b30125d190fb30f0e907c7572b51"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/environment.json",
+    "bytes": 1221,
+    "sha256": "1b8a5e4504b551e0bde065a8f55ea7b16acdab709f584c33f0bc5c72c7b1ab7f"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/frame_alignment.csv",
+    "bytes": 55318,
+    "sha256": "a20fceaa88009f3bdb65a33a6fdbffd91c5d137b876b68392ef570fe9c70ecb5"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/original_source.xml",
+    "bytes": 59152,
+    "sha256": "b4de84f7a2eecb77976011d3c22a42839665d3d68a04a73eb8a2980b1af16b9a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/result.json",
+    "bytes": 1253,
+    "sha256": "84f167b78d3138c33791cffeda87d447fe0d2cbd9590cb9db9fe1a843c783dc0"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/runtime_model.xml",
+    "bytes": 62000,
+    "sha256": "40015d131d927bf48090c46a6679dab71c1c5f364f645c99d52564ab7b7e96a1"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/source_model_identity.json",
+    "bytes": 3007,
+    "sha256": "fbc90c9dc0af7ae01db6be57c22b3bc465a256cd01fc69a0978131f831868617"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/asset_and_model_comparison.json",
+    "bytes": 53536,
+    "sha256": "99b019d7ec8cc613a50779203c5e99edd2134a96e319856b860e1d92d9608710"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/camera_and_time_audit.json",
+    "bytes": 3068,
+    "sha256": "d5a89370ff4140fdb982da890f1f2c7de70bf61fade4a897c4bc0e95b47c74a1"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/candidate_replay.npz",
+    "bytes": 17251721,
+    "sha256": "c4fdedf8b531abb1b27f7cf2ad6535eab8bbdff3e37fed03c1074e1b39b3a36b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/environment.json",
+    "bytes": 1388,
+    "sha256": "56c8bac5ecbdca2f72f7a2a8a18764019a63dd329ee8a9367243000fca58ba03"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/frame_alignment.csv",
+    "bytes": 16222,
+    "sha256": "4737413857f1b64b1d5ea81cbfa578e69bb9379a8a86f6b1a0ed9c5fe9e4beef"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/original_source.xml",
+    "bytes": 91306,
+    "sha256": "319d70350815c2929b32878ff1ca654848873f04c012cab2cd365f7b56dc16a7"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/result.json",
+    "bytes": 1251,
+    "sha256": "93a9a9b170c81d9bfed5f835636e48c796ab3fe2bf77952eebb9ca47f874ea7e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/runtime_model.xml",
+    "bytes": 93263,
+    "sha256": "ddd9ca06639b7b79063a18b684a8bd23930ffea8306f41688229820dd008931d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_goal/source_model_identity.json",
+    "bytes": 3969,
+    "sha256": "258c0747b42727a704107962bcbaf5e625a0dc5bebc007aa33752e7f91ab5ba3"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/asset_and_model_comparison.json",
+    "bytes": 43527,
+    "sha256": "dc34e774238b00c6b503b96f18cd44a768cd194672e900cc1bc983d14959e669"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/camera_and_time_audit.json",
+    "bytes": 3328,
+    "sha256": "9163feadeadb7aa37bf63dd2dcaac349631ed7c56712791b26a7b919ec3dfafd"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/candidate_replay.npz",
+    "bytes": 28600581,
+    "sha256": "b1f7fc503bf8c34f3fab96177b04ddce8d4c8aa3c066a096edf89ddb4741b377"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/environment.json",
+    "bytes": 1333,
+    "sha256": "f684d47bde482a1e62df6c5cb3e437a154fb3f423c9f49807e215ae6b2318bc2"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/frame_alignment.csv",
+    "bytes": 20567,
+    "sha256": "af38ad883014f1db1ba241485fc3f464db3e5dcfe7ea265ddddf9d252bedcf22"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/original_source.xml",
+    "bytes": 52684,
+    "sha256": "4b30a4c28ddd99e1c64983dc550aa20f14b3091905a0a418a0312f06e1f779d2"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/result.json",
+    "bytes": 1245,
+    "sha256": "531cb4ec3683902fcc1a218234723cf7f7a3fd8ac05fc40f295b839b3bebeac9"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/runtime_model.xml",
+    "bytes": 55831,
+    "sha256": "0396b1d6be8e99db41320aeca77eacf84f1efb3cfc176e0889e600077f77565a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_object/source_model_identity.json",
+    "bytes": 3024,
+    "sha256": "230d15214d0fffc9b36deb896e5914191c914053e8ee8f9189cc395cc1f00d84"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/asset_and_model_comparison.json",
+    "bytes": 50578,
+    "sha256": "1f90956aebc6f375929e2af5bd2ddde329a19c6cb6314c74d4eb34a627697dbc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/camera_and_time_audit.json",
+    "bytes": 2952,
+    "sha256": "22c23700a72d8c5898655bfd02770c38fb4ae93f5b17b5c7d73731f600b26812"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/candidate_replay.npz",
+    "bytes": 15838317,
+    "sha256": "48737eaf3d125cf182435ee1fb75b2d99db909723dd9b1ee821bd8f5bc5bbb38"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/environment.json",
+    "bytes": 1457,
+    "sha256": "41a4e85de13706426f3f3e975076c571b93483c478b1ae95a103318dbe320b08"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/frame_alignment.csv",
+    "bytes": 14557,
+    "sha256": "59f0eb9b0b3d937a8162a86d8b65b6a7612f0dea5120aa3a96cc407082d32789"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/original_source.xml",
+    "bytes": 99549,
+    "sha256": "46b0aee11d4ddec1df675b4088d5e00e9a4eed45fd6dd6f9fe89a942f3041e86"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/result.json",
+    "bytes": 1249,
+    "sha256": "341831bd8f6f1afe7e0cd5157608407398e492970bcc4ebd8e27aa052bfe2938"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/runtime_model.xml",
+    "bytes": 100701,
+    "sha256": "21902ea121147bcfa1a1d3166cdadc415c01205736033e8b428a1a9a24e46d50"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/source_model_identity.json",
+    "bytes": 4075,
+    "sha256": "8f32834982096b57c6cf6b212bbfbc28d0d05ae8c8cddd06eb1479bea4718089"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/rlds_download_complete.json",
+    "bytes": 47809,
+    "sha256": "de96b13d93266a855f38342c2c4c3890c525b7fc661f6a3d358cadb5f8b8115f"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/rlds_mapping_v2/libero_10/complete.json",
+    "bytes": 609971,
+    "sha256": "5a21f7087c9ed05d0d1f9b4f77c2d997fbd87b76f725d803a361b07b5849534c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/rlds_mapping_v2/libero_goal/complete.json",
+    "bytes": 623885,
+    "sha256": "a98c1104b709cae5b90cb484ba63c009d39774e5fe4395ae37021262d8b49188"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/rlds_mapping_v2/libero_object/complete.json",
+    "bytes": 689304,
+    "sha256": "1b3f963d19aa3646051c1690c75437f8633d391ffc620be60a1d7b812e8c4019"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/rlds_mapping_v2/libero_spatial/complete.json",
+    "bytes": 681840,
+    "sha256": "1ccf147c48a7b3d2a79e8e9a652a61ab681918118ef86d338118a95c091b2efc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/sam_pause.json",
+    "bytes": 128,
+    "sha256": "2814d033f55ee0ed0f675fe8ac50b8ce88c746c35badaf6095eb29bf0edfe364"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_background_hue/run_20261102_01/delivery/report.md",
+    "bytes": 10572,
+    "sha256": "c2d5e4d5b45a2dc8e95c1a62fb18d50e925dfba352a83c783d216173412c882c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_background_hue/run_20261102_01/loader_validation.json",
+    "bytes": 98556,
+    "sha256": "19f5899c6ab6dc99e3fa26cc9cc352c5ab577cabc7de6bd9493e333c4ca09a4c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/scripts/pilot/download_libero_converted.sh",
+    "bytes": 1388,
+    "sha256": "1044b87bf6cd54815e2843ab615a65c1c212489eb351857c7b92c2dcf7089d13"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/datalib/dataset.py",
+    "bytes": 100315,
+    "sha256": "def3d3903f8ee5f3de865ec85d4ee78d117883a45b1eb655efa6ddc7c6ebaf3c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/DATA.md",
+    "bytes": 7176,
+    "sha256": "6234aad4570549a3dd4f445bfd611aae78378e2a02fc99e15aa2ca6ce1a78c9e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/README.md",
+    "bytes": 7506,
+    "sha256": "229074e34cfb8d39b86a61cb1bb9ab8bad4beaaecfc24d1f28a529bd569cbefa"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/configs/rla/16x64_libero.yaml",
+    "bytes": 5525,
+    "sha256": "8b2a1fd1a2972293eacaccd0bdaa7e41bb24b4c63eaeccc74caa266f7b106db1"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/libero_prep/convert_libero_to_trajectory.py",
+    "bytes": 17889,
+    "sha256": "b98f8fb36044cca272b51cee2714631c33f0bcc260ba238a6d77e99e49143d6c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/setup/download_vla_adapter_assets.sh",
+    "bytes": 3798,
+    "sha256": "74e3b1d9714416e010cde6dce7e3b8e376d864ef8d939a19b03ea75f31bd0916"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/src/datasets/trajectory_dataset.py",
+    "bytes": 112648,
+    "sha256": "fb1e48699b17452df698a664839cdb7ba883ee7736e672681683c82ad5bfbe4a"
+  },
+  {
+    "path": "/data/lyc/projects/vla-adapter-ref/experiments/robot/libero/regenerate_libero_dataset.py",
+    "bytes": 11225,
+    "sha256": "f17dd49e61659b515ccd691c0ee57d20fb57909af3b8b53ef7e7e6bee55ceb49"
+  }
+]

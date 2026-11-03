@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "checks": [
+    {
+      "source_frames": [
+        0,
+        1
+      ],
+      "horizon": 2,
+      "rgb_shape": [
+        2,
+        2,
+        3,
+        224,
+        224
+      ],
+      "camera_order": [
+        "agentview_camera",
+        "wrist_camera"
+      ],
+      "metadata_equal": true,
+      "rgb_mean_abs_delta": 0.0814366762329932,
+      "returned_frame_id": [
+        0,
+        1
+      ]
+    },
+    {
+      "source_frames": [
+        71,
+        80
+      ],
+      "horizon": 10,
+      "rgb_shape": [
+        2,
+        2,
+        3,
+        224,
+        224
+      ],
+      "camera_order": [
+        "agentview_camera",
+        "wrist_camera"
+      ],
+      "metadata_equal": true,
+      "rgb_mean_abs_delta": 0.0736241762329932,
+      "returned_frame_id": [
+        71,
+        80
+      ]
+    },
+    {
+      "source_frames": [
+        78,
+        141
+      ],
+      "horizon": 64,
+      "rgb_shape": [
+        2,
+        2,
+        3,
+        224,
+        224
+      ],
+      "camera_order": [
+        "agentview_camera",
+        "wrist_camera"
+      ],
+      "metadata_equal": true,
+      "rgb_mean_abs_delta": 0.07457250478316327,
+      "returned_frame_id": [
+        78,
+        141
+      ]
+    }
+  ],
+  "full_dataset_training_authorized": false,
+  "scope": "one admitted pilot; not reduced-scope training",
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0
+}

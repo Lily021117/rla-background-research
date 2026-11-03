@@ -1,0 +1,13 @@
+{
+  "new_verified_source_bytes": 12226065269,
+  "network_actual_wire_bytes": "UNKNOWN: retry/partial transfer overhead not instrumented",
+  "rlds_new_verified_bytes": 8316052983,
+  "hdf5_new_verified_bytes": 3910012286,
+  "git_checkout_disk_bytes": 667411598,
+  "disk_free_bytes": 50272928489472,
+  "total_published_frames": 273465,
+  "uncompressed_two_appearances_two_views_RGB_bytes": 215061626880,
+  "hypothetical_single_worker_replay_hours": 43.27367888836645,
+  "hypothetical_single_worker_paired_render_hours": 53.85767952162069,
+  "estimate_caveat": "Only if source admission succeeds; OSMesa CPU pilot measurements, not guaranteed throughput/ETA; no batch started. PNG, compressed caches, review videos and download archives require extra space."
+}

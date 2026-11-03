@@ -1,0 +1,5 @@
+suite,trajectory_id,demo_candidate,frames,numeric_gate,pixel_gate,max_joint_error,max_eef_error_m,front_max_mae,wrist_max_mae,front_max_p99,wrist_max_p99,source_state_origin,original_saved_states_acquired,rolling_replay_visual_pass,clean_admitted,paired_admitted
+libero_spatial,000010,demo_6,101,True,False,0.0016329812568134372,0.0004279535177034166,5.046549479166667,6.5258534749348955,87.0,135.0,replay candidate,0,False,False,False
+libero_object,000010,demo_11,143,True,True,0.0016231414723364423,0.0004825989749909221,3.1478118896484375,3.2350565592447915,28.0,34.0,replay candidate,0,True,False,False
+libero_goal,000010,demo_19,114,False,False,0.046493052289852455,0.011610547786955916,8.310104370117188,19.014002482096355,119.0,161.0,replay candidate,0,False,False,False
+libero_10,000010,demo_24,383,False,False,0.04371761040529698,0.011527393959957416,7.995849609375,16.86986796061198,139.0,195.0,replay candidate,0,False,False,False

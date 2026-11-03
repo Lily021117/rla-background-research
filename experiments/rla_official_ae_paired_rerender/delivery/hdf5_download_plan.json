@@ -1,0 +1,30 @@
+{
+  "repository": "yifengzhu-hf/LIBERO-datasets",
+  "reason_libero10_revision_diff": "97773100 contains only spatial/object/goal; source published later, pin exact current commit before file download; do not substitute Cosmos",
+  "files": [
+    {
+      "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466",
+      "filename": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+      "bytes": 581087722,
+      "expected_sha256": "d9b2da7399a88bea39024c8ef97713a20734e9b765e14b3399e2755890c828b7"
+    },
+    {
+      "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466",
+      "filename": "libero_object/pick_up_the_milk_and_place_it_in_the_basket_demo.hdf5",
+      "bytes": 727315202,
+      "expected_sha256": "e56d954928e613f9db58085b7677ccf9c4824f1ab982265f71405d5bb14cfb4a"
+    },
+    {
+      "revision": "97773100c1474cd0d686ebd173cc0e4fd5442466",
+      "filename": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet_demo.hdf5",
+      "bytes": 540179470,
+      "expected_sha256": "7dc087a7596d5cbbe394f681b21a0be434438b0dca73ac430c293fe4c818404a"
+    },
+    {
+      "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+      "filename": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5",
+      "bytes": 2061429892,
+      "expected_sha256": "e329bb21a8ded3457854faf6a23513c90cb4b34f0e40f3f4e9e70451fc9ba504"
+    }
+  ]
+}

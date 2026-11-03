@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "initial RLDS join",
+    "issue": "Initially assumed enumeration==converted ID and PIL JPEG decode; first 32 numeric joins passed but exact image criteria failed and later enumeration diverged.",
+    "fix": "Whole-sequence numeric signature join + actual TFDS TensorFlow decoder; final 1693 joins verified. Initial files retained in rlds_mapping/."
+  },
+  {
+    "stage": "source mapping engineering",
+    "issue": "Missing Path import in one attempt",
+    "fix": "Import fixed; no simulator/model computation in failed attempt."
+  },
+  {
+    "stage": "network",
+    "issue": "Official HF truncated transfers / proxy TLS errors; initial RLDS and HDF5 commands failed.",
+    "fix": "Pinned same-origin resumable retries, verify final sizes/SHA-256; no mirror substitution. Cache and error JSON retained."
+  },
+  {
+    "stage": "CPU job interruption",
+    "issue": "One resumed RLDS download and two Object mapping attempts ended with exit143; cause not established.",
+    "fix": "Verified files reused; Object mapping resumes persisted record prefix after rechecking actions/state/joints and identities. No physics replay repeated."
+  },
+  {
+    "stage": "official loader smoke",
+    "issue": "Test initially used field extrinsics; official output field is w2c. One manually chosen end handle included the final frame reserved by official sampler.",
+    "fix": "Use actual w2c; freeze legal boundary start=N-65,h=64; prior boundary audit preserved. No original or rendered RGB changed."
+  },
+  {
+    "stage": "final restored-Clean direct gate",
+    "issue": "Continuous Object replay passed, but final state-restored Clean vs original fails p99<=40 at 12 wrist frames (84-92,96,99,139), max56. Pair vs rolling replay tolerance alone is not transitive.",
+    "fix": "No rerender retry, threshold relaxation or frame removal. Candidate data retained but final admission revoked. Earlier delivery draft archived separately; final public report corrected."
+  }
+]

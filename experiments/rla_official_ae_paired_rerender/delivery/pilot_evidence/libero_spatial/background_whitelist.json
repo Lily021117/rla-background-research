@@ -1,0 +1,100 @@
+{
+  "geom_whitelist": [
+    "table_visual",
+    "wall_leftcorner_visual",
+    "wall_rightcorner_visual",
+    "wall_left_visual",
+    "wall_right_visual",
+    "wall_rear_visual",
+    "wall_front_visual"
+  ],
+  "changed_geoms": [
+    "wall_leftcorner_visual",
+    "wall_rightcorner_visual",
+    "wall_left_visual",
+    "wall_right_visual",
+    "wall_rear_visual",
+    "wall_front_visual",
+    "table_visual"
+  ],
+  "material_texture_changes": [
+    {
+      "original_material": "walls_mat",
+      "cloned_material": "walls_mat_paired_hue",
+      "original_texture": "tex-wall",
+      "source_asset": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/libero/libero/assets/textures/light-gray-plaster.png",
+      "source_asset_sha256": "d0bdaf13b44ab6ef3122451f6b3853e40bdf20bb9be7662649683ba525dfe191",
+      "changed_asset": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_prepare/libero_spatial/tex-wall_hue.png",
+      "changed_asset_sha256": "bbdcdd8399014d244f9526c7d403e696efb185218abf025326a3179a85898bc0",
+      "low_saturation_fraction": 0.8671177685950413,
+      "mean_texture_rgb_change": 3.5384383608815426,
+      "original_material_users": [
+        "wall_leftcorner_visual",
+        "wall_rightcorner_visual",
+        "wall_left_visual",
+        "wall_right_visual",
+        "wall_rear_visual",
+        "wall_front_visual"
+      ]
+    },
+    {
+      "original_material": "table_texture",
+      "cloned_material": "table_texture_paired_hue",
+      "original_texture": "tex-table",
+      "source_asset": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/libero/libero/assets/textures/martin_novak_wood_table.png",
+      "source_asset_sha256": "9d714fbf44d4d44f279761c0ddd0b2fd7271446cdbb85fcbef8677fe5f929850",
+      "changed_asset": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/paired_prepare/libero_spatial/tex-table_hue.png",
+      "changed_asset_sha256": "8b13fec37c5e566eac5d0d273b9964b7038ed2b3436a7a17d6b2388bb700140b",
+      "low_saturation_fraction": 0.0,
+      "mean_texture_rgb_change": 12.008685390704114,
+      "original_material_users": [
+        "table_visual"
+      ]
+    }
+  ],
+  "delta_h": -0.16632409131235448,
+  "key": "2bfd2be05d731cf308105cfa2eeb118af9f719efd67bd69850e80c3e9b767ace",
+  "original_XML": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_spatial/runtime_model.xml",
+  "original_XML_sha256": "21902ea121147bcfa1a1d3166cdadc415c01205736033e8b428a1a9a24e46d50",
+  "augmented_XML_sha256": "a8a3847447113ae03b41ed14516326be82ef9a65f9eb2dc8020e8077078bdb7b",
+  "physical_fields_exact": [
+    "body_mass",
+    "body_inertia",
+    "body_pos",
+    "body_quat",
+    "geom_pos",
+    "geom_quat",
+    "geom_size",
+    "geom_type",
+    "geom_friction",
+    "geom_contype",
+    "geom_conaffinity",
+    "geom_solref",
+    "geom_solimp",
+    "jnt_type",
+    "jnt_pos",
+    "jnt_axis",
+    "jnt_range",
+    "dof_damping",
+    "dof_armature",
+    "actuator_gainprm",
+    "actuator_biasprm",
+    "cam_pos",
+    "cam_quat",
+    "cam_fovy",
+    "mesh_vert",
+    "mesh_face",
+    "light_pos",
+    "light_dir",
+    "light_diffuse",
+    "light_specular",
+    "light_ambient"
+  ],
+  "shared_references_isolated": true,
+  "lights_unchanged": true,
+  "reflection_not_disabled": true,
+  "shadows_not_disabled": true,
+  "state_restores": 0,
+  "render_calls": 0,
+  "augmentation_admission": "NOT_GRANTED_BY_ASSET_PREPARATION"
+}

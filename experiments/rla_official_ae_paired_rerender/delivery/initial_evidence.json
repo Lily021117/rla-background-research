@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/README.md",
+    "sha256": "229074e34cfb8d39b86a61cb1bb9ab8bad4beaaecfc24d1f28a529bd569cbefa"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/configs/rla/16x64_libero.yaml",
+    "sha256": "8b2a1fd1a2972293eacaccd0bdaa7e41bb24b4c63eaeccc74caa266f7b106db1"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/libero_prep/convert_libero_to_trajectory.py",
+    "sha256": "b98f8fb36044cca272b51cee2714631c33f0bcc260ba238a6d77e99e49143d6c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/exp2_vla_adapter/setup/download_vla_adapter_assets.sh",
+    "sha256": "74e3b1d9714416e010cde6dce7e3b8e376d864ef8d939a19b03ea75f31bd0916"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/worktrees/rla-official-0fc6e97/rebuttal/DATA.md",
+    "sha256": "6234aad4570549a3dd4f445bfd611aae78378e2a02fc99e15aa2ca6ce1a78c9e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_background_hue/run_20261102_01/delivery/report.md",
+    "sha256": "c2d5e4d5b45a2dc8e95c1a62fb18d50e925dfba352a83c783d216173412c882c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/scripts/pilot/download_libero_converted.sh",
+    "sha256": "1044b87bf6cd54815e2843ab615a65c1c212489eb351857c7b92c2dcf7089d13"
+  }
+]

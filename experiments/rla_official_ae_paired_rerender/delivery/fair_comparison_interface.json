@@ -1,0 +1,13 @@
+{
+  "status": "DATA_INCOMPLETE_DO_NOT_TRAIN",
+  "scope_trajectories": 1693,
+  "train": 1653,
+  "val": 40,
+  "base": "same admitted rerender Clean as augmented arms; never compare untouched original videos against only-augmented rerenders without disclosing renderer confound",
+  "aug": "Clean + hue of same restored full state; independent RNG fixed per trajectory",
+  "aug_cons": "same data as aug; future loss choice not executed",
+  "geometry": "per-frame actual c2w stored under official extrinsics/w2c convention and negative fx; wrist never static",
+  "sampling": "official uniform suite/trajectory/start and feasible horizon; original IDs/splits, no final-frame fabrication or cross-episode pairs",
+  "validation": "fixed independent hue seed 20261104; zero val augmented trajectories generated",
+  "prohibition": "one passing prototype does not authorize subset AE training or a different split"
+}

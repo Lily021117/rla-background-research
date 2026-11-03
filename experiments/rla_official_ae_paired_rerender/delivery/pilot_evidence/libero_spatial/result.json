@@ -1,0 +1,41 @@
+{
+  "status": "BLOCKED_CLEAN_REPRODUCTION",
+  "source_candidate": "demo_6",
+  "source_hdf5_sha256": "d9b2da7399a88bea39024c8ef97713a20734e9b765e14b3399e2755890c828b7",
+  "numeric_gate": true,
+  "pixel_gate": false,
+  "max_joint_error": 0.0016329812568134372,
+  "max_eef_error": 0.0004279535177034166,
+  "frames": 101,
+  "first_frame": {
+    "frame": 0,
+    "raw_action_index": 0,
+    "candidate_time": 0.7500000000000006,
+    "joint_max_abs": 6.369337493983274e-06,
+    "eef_max_abs_m": 8.505174667659907e-07,
+    "obs_joint_max_abs": 9.894257146925156e-08,
+    "front_mae": 4.780120849609375,
+    "wrist_mae": 6.152262369791667,
+    "front_p99": 87.0,
+    "wrist_p99": 135.0,
+    "obs_vs_direct_max": 54
+  },
+  "counters": {
+    "render_calls": 434,
+    "physics_substeps": 2775,
+    "state_restores": 1,
+    "action_control_steps": 101,
+    "settling_control_steps": 10
+  },
+  "seconds": 73.02592277526855,
+  "recovered_candidate_states": 101,
+  "certified_original_states": 0,
+  "paired_frames": 0,
+  "original_source_identity": "action candidate; confirmation requires complete replay correspondence, not actions alone",
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0,
+  "updates": 0,
+  "backward": 0,
+  "policy_rollouts": 0
+}

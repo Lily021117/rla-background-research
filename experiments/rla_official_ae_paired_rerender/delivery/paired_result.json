@@ -1,0 +1,14 @@
+{
+  "status": "PAIRED_PENDING_LOADER_CHECK",
+  "state_restores": 286,
+  "render_calls": 572,
+  "simulation_steps": 0,
+  "frames": 143,
+  "input_is_replay_candidate": true,
+  "seconds": 101.38750267028809,
+  "same_state_camera_and_body_geometry_exact": true,
+  "restored_clean_vs_replay_gate": true,
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0
+}

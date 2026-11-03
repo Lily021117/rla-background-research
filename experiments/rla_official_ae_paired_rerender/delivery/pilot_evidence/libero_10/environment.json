@@ -1,0 +1,31 @@
+{
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "mujoco": "3.3.2",
+  "robosuite": "1.4.1",
+  "bddl": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/libero/libero/bddl_files/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl",
+  "bddl_sha256": "ae1299a707d3e810096ad648948c517de40474bcdacca93a15e17d191e34454a",
+  "runtime_xml_sha256": "40015d131d927bf48090c46a6679dab71c1c5f364f645c99d52564ab7b7e96a1",
+  "joint_order_exact": true,
+  "joint_names": [
+    "robot0_joint1",
+    "robot0_joint2",
+    "robot0_joint3",
+    "robot0_joint4",
+    "robot0_joint5",
+    "robot0_joint6",
+    "robot0_joint7",
+    "gripper0_finger_joint1",
+    "gripper0_finger_joint2",
+    "moka_pot_1_joint0",
+    "moka_pot_2_joint0",
+    "flat_stove_1_button"
+  ],
+  "source_demo": "demo_24",
+  "first_original_state_time": 0.25000000000000017,
+  "first_candidate_time": 0.7500000000000006,
+  "no_policy_loaded": true,
+  "render_backend": "OSMesa CPU",
+  "init_seed": 0,
+  "source_env_version": "not recorded in published dataset",
+  "note": "Pinned official environment, not LIBERO-Plus. No alternate environment search. Replay is candidate reconstruction."
+}

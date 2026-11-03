@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED_BY_FIXED_PILOTS",
+  "required_pilot_passes": 4,
+  "actual": 0,
+  "candidate_pairs_generated": 1,
+  "bulk_trajectories_started": 0,
+  "source_scope": 1693,
+  "clean_original_correspondence_failed": [
+    "libero_spatial/000010",
+    "libero_object/000010",
+    "libero_goal/000010",
+    "libero_10/000010"
+  ],
+  "disk_sufficient": true
+}

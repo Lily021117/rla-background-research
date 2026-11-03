@@ -1,0 +1,47 @@
+{
+  "frames": 143,
+  "state_restores": 143,
+  "kinematic_forwards": 143,
+  "simulation_steps": 0,
+  "render_calls": 0,
+  "metadata_changes": [
+    {
+      "field": "qpos",
+      "max_abs_change": 0.0016231536865234375
+    },
+    {
+      "field": "target_qpos",
+      "max_abs_change": 0.0016231536865234375
+    },
+    {
+      "field": "eef_pose",
+      "max_abs_change": 0.7197055220603943
+    },
+    {
+      "field": "agentview_camera_intrinsics",
+      "max_abs_change": 0.0
+    },
+    {
+      "field": "agentview_camera_extrinsics",
+      "max_abs_change": 8.566340738980216e-07
+    },
+    {
+      "field": "wrist_camera_intrinsics",
+      "max_abs_change": 0.0
+    },
+    {
+      "field": "wrist_camera_extrinsics",
+      "max_abs_change": 0.0017036646604537964
+    }
+  ],
+  "actions_language_unchanged": true,
+  "proprio_and_camera": "derived synchronized FK and per-frame actual camera; source metadata preserved untouched",
+  "placeholder_masks": "copied official placeholders, never used for background selection",
+  "target_qpos_tail": "official legacy achieved-qpos field repeats final qpos, not a future RGB/AE target; valid AE horizon excludes terminal extrapolation",
+  "stream_storage": "lossless PNG frame directories supported by official datalib; comparison MP4 for viewing only",
+  "frames_per_camera": 143,
+  "RGB_frames_two_appearances_two_views": 572,
+  "AE_forwards": 0,
+  "DINO_forwards": 0,
+  "policy_forwards": 0
+}

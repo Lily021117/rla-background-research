@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED_FINAL_CLEAN_PIXELS",
+  "full_frame_original_vs_final_clean_check": false,
+  "all_metadata_equal_between_appearances": true,
+  "paired_RGB_sha256": {
+    "clean.npz": "0cdcc16246cc1f816e4811bf4658e48ab20e47918f908178ddb6ce82b7d84f99",
+    "background.npz": "6540c5a1e597f3783d4bbf0e7a931f187744351b86ad2fa0c7b50db04a3bda21"
+  },
+  "frames": 143,
+  "pixel_rows": 286,
+  "full_original_scene_state_identity": "not directly available; reconstructed trajectory passes frozen tolerance, not bitwise identity",
+  "foreground_pixel_equality_required": false,
+  "reason": "legitimate reflection/shadow response allowed; foreground material references and physics unchanged",
+  "visuals_reviewed": "AI fixed seven full-resolution triplets; Object original/replay all-frame contact sheets reviewed separately",
+  "known_limitation": "walls only; wrist RGB effect zero. No source video overwritten.",
+  "simulation_steps": 0,
+  "render_calls": 0,
+  "model_forwards": 0
+}
