@@ -40,7 +40,7 @@ def main():
  dump(out/'counts.json',counts);dump(out/'batch_failures.json',failures)
  batchdone=(RUN/'batch_complete.json').exists();status='PARTIAL_DATA_BUILD_COMPLETE' if batchdone else 'IN_PROGRESS_NOT_FINAL'
  evidence=[RUN/'protocol.json',RUN/'source_manifest.csv',RUN/'source_files.json',RUN/'source_coverage.csv',RUN/'split_conflicts.json',Path(__file__),OLD/'libero_official/scripts/create_dataset.py']
- for name in ['download_plan.json','download_complete.json','rejected_source_files.json','pilot_admission.json','resource_estimate.json','visual_state_repair_record.json','batch_frozen_manifest.csv','batch_complete.json','loader_audit.json']:
+ for name in ['protocol.json','source_files.json','source_coverage.csv','split_conflicts.json','download_plan.json','download_complete.json','rejected_source_files.json','pilot_admission.json','resource_estimate.json','visual_state_repair_record.json','batch_frozen_manifest.csv','batch_complete.json','loader_audit.json']:
   p=RUN/name
   if p.exists():evidence.append(p);shutil.copy2(p,out/name)
  for p in (RUN/'trajectories').glob('*/*/result.json'):

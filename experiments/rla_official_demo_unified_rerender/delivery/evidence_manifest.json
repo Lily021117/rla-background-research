@@ -26,13 +26,33 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/code/experiments/rla_official_demo_unified_rerender/report.py",
-    "sha256": "80698e4c2067ab0a01a21a1ea95357b5450ba3be1c1c38f46bf7483bb91b7445",
-    "bytes": 12064
+    "sha256": "d775ce42038387bad52999d048ee0cca08ebe06f16fbe173a2728be24907695f",
+    "bytes": 12145
   },
   {
     "path": "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/scripts/create_dataset.py",
     "sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f",
     "bytes": 8813
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/protocol.json",
+    "sha256": "937ac756894f3979a403da66d5d5e81d64cd3e221da756f55940bb97eefa067d",
+    "bytes": 3574
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_files.json",
+    "sha256": "a563076f9b22a6580cc573a624b9c94ed05450a6c5cd06b6ab83cbca900e35f3",
+    "bytes": 6118
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_coverage.csv",
+    "sha256": "178a0ae50f873d248252f6c69fa7c776c58d060f1bc9b0db8817b2b31efaf0dd",
+    "bytes": 357
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/split_conflicts.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/download_plan.json",

@@ -1,0 +1,9 @@
+suite,split,requested,source_file_available,joined,unresolved,missing,split_conflicts
+libero_spatial,train,422,150,114,36,272,0
+libero_spatial,val,10,9,5,4,1,0
+libero_object,train,444,44,39,5,400,0
+libero_object,val,10,1,1,0,9,0
+libero_goal,train,418,89,64,25,329,0
+libero_goal,val,10,1,0,1,9,0
+libero_10,train,369,29,28,1,340,0
+libero_10,val,10,0,0,0,10,0
