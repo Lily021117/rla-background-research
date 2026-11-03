@@ -105,6 +105,106 @@
     "bytes": 13853
   },
   {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007/result.json",
+    "sha256": "eb71a291349f8049575b6dc634f2403947ed5f7ba6d43800a20892076822b868",
+    "bytes": 804
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007/static_state_audit.json",
+    "sha256": "12e658d1a66e202cc90edf87ca562cb955c348c7a16d8bf2277c5aa0576c59e8",
+    "bytes": 4841
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007/frame_mapping.csv",
+    "sha256": "0ebbf677abee1cb6669837b5d7ecf1fad163828ae2ddd02149eb4cb7f0f01624",
+    "bytes": 30918
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000007/camera_time.json",
+    "sha256": "acd4da01572d680992c57f0a303f2892088c6aee48aa4f553c0d5b3871feccf6",
+    "bytes": 5578
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027/result.json",
+    "sha256": "3b839765afc6a821191d414daa1479d218e7114b1755d91ec6436f49b73f5652",
+    "bytes": 805
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027/static_state_audit.json",
+    "sha256": "7f0bb2cdf3e032747bb71a973e4231e2834d071f212544dbba2f68c1e49af281",
+    "bytes": 4757
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027/frame_mapping.csv",
+    "sha256": "68596b9b949cf5a58c81dc788475b1451ffe824bc56185db3646ca71a070b644",
+    "bytes": 20697
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000027/camera_time.json",
+    "sha256": "c157fef80a0b104082dbbb36d1a9a0c9036caabf2b291b94905348d9e721c2ec",
+    "bytes": 4222
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023/result.json",
+    "sha256": "ebca5127435fa109dc674b05c9771998d39b978e5e604fb737108eb49f736412",
+    "bytes": 806
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023/static_state_audit.json",
+    "sha256": "a11a7410d2d756a6d145c2b93d8b8405e7602cb64145925f1308959de538e889",
+    "bytes": 4844
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023/frame_mapping.csv",
+    "sha256": "733e772de7ea28f6628bdd24a5d0c11e0fbeb1670dedcf7387469584fe771c8d",
+    "bytes": 35760
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000023/camera_time.json",
+    "sha256": "e91a888490ccb9f966bbbad825a722ed0cc6ae55dbf4ee65269216e159b35eaa",
+    "bytes": 6220
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015/result.json",
+    "sha256": "63d7df293648d02dfab29da61e579c42ebb4ef633650208717a67dc9fd86eb7b",
+    "bytes": 807
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015/static_state_audit.json",
+    "sha256": "db4f3b7ebb6bf96f0650774cf9262c2bc4b5d3161f6738b5dc2e95ff249f71c9",
+    "bytes": 4843
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015/frame_mapping.csv",
+    "sha256": "c0d8f735818ecae79a52bd8b881343d4b38f29f3cd2e5bf4933d163c60c3150a",
+    "bytes": 33600
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000015/camera_time.json",
+    "sha256": "41eadee7f9d7a62d40deba6a8a6d0f3ec74b70b74217ae7666f4720d7d883393",
+    "bytes": 5929
+  },
+  {
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/result.json",
     "sha256": "d002993dcd476b1ca539b910891c78efc6367cc57511277bfdb2b7e643ae70ba",
     "bytes": 829
@@ -128,6 +228,131 @@
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000010/camera_time.json",
     "sha256": "60b72c8d5245353ea9c4065f15d138b0afe7917cf4d6dc8c00fbb0a68012d3db",
     "bytes": 4480
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002/result.json",
+    "sha256": "5a6f87a322bf3324f24c5f5f3e4506ab6b76beb722ffd1133b1f54dba42f5452",
+    "bytes": 805
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002/static_state_audit.json",
+    "sha256": "604c0d7a2170cb104fa191fc824a5c67014f1741da297eb3fef1136732a2a866",
+    "bytes": 4843
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002/frame_mapping.csv",
+    "sha256": "93827969f090c4b1d6ef24648e33716e1913ae032b7dce55b8133e710ee2330e",
+    "bytes": 30481
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000002/camera_time.json",
+    "sha256": "deacc1b122820f3d539fddfb496c8360e934156b6c0f380770731077e6104c53",
+    "bytes": 5515
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009/result.json",
+    "sha256": "b389f63975eaeac0c5b5700ce9652431426e5b9d788544aecc1e6e77752fac0e",
+    "bytes": 805
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009/static_state_audit.json",
+    "sha256": "df0768d009fc4fdbda52d1d4fd8a9ee33fdeff5ae6c9cffe9f2dd76f64d7cf09",
+    "bytes": 4710
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009/frame_mapping.csv",
+    "sha256": "fba1a195dbdd865d53508e1a5526523035b00c9c672aa81c961b9e18821844b1",
+    "bytes": 35505
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000009/camera_time.json",
+    "sha256": "f1757330389740fbb2e13fae999eb7d23f5393bbca53e468e129bb813c3f2135",
+    "bytes": 6187
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018/result.json",
+    "sha256": "35083e9ec2b356708318f930902f4cebf72ff4de340c338be9f73a33bc6df490",
+    "bytes": 806
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018/static_state_audit.json",
+    "sha256": "14f5ffdcf0a70b037c47175c17e5b5db6dd0ae8544c381529119d6aa699f16d7",
+    "bytes": 4731
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018/frame_mapping.csv",
+    "sha256": "d9488be0b90a53762b18379d5faa25752554936a861f39575524426edee2ad13",
+    "bytes": 23037
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000018/camera_time.json",
+    "sha256": "1857fb957498ac42ed429ddf9c7acdf203d526d8041e86931440a403ac264487",
+    "bytes": 4531
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006/result.json",
+    "sha256": "7160f8aad7fc1cacbc5567a6964c0bc5d54cafb5fdb3aaf98614079ff908f25b",
+    "bytes": 805
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006/static_state_audit.json",
+    "sha256": "133d197262816a9e311eed98b2d59d608f15e99b21561d6aefbd7a193bb7a589",
+    "bytes": 4710
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006/frame_mapping.csv",
+    "sha256": "2720c3955d771c8bbc5dde343d2b838c093cc5fff2091553b3aaa1e3f48e8f37",
+    "bytes": 29770
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000006/camera_time.json",
+    "sha256": "25ea7c6842b61bbf511ffaafc40e59497c0067eac5c1b40bd60ebde3b1a61c5f",
+    "bytes": 5419
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004/result.json",
+    "sha256": "d6a7dd5566e2a07972496ce58e91ca96038173fb0d3ea6306ac70c7c93a6ac05",
+    "bytes": 805
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004/static_state_audit.json",
+    "sha256": "7c27c8ed416c340fba26bc6d24eae25c9a9b234949509657b44e7282f640089a",
+    "bytes": 4761
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004/appearance.json",
+    "sha256": "dcee2df666aa12af65a94d7f1181bebac289054c662ffdedf445161c59e04054",
+    "bytes": 11550
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004/frame_mapping.csv",
+    "sha256": "12600bddf7b55876084ba379422c2481ce15a9cdc3af73630a77a8e5c25be7de",
+    "bytes": 27806
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_spatial/traj_000004/camera_time.json",
+    "sha256": "cfef506ec54b95d2036f9c366897a850b5f5dee4027fca3cf3770dad43e70b3d",
+    "bytes": 5164
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/trajectories/libero_goal/traj_000010/result.json",

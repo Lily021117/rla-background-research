@@ -21,11 +21,13 @@ def sha(p):
  return h.hexdigest()
 def digest(x):return hashlib.sha256(np.ascontiguousarray(x).tobytes()).hexdigest()
 def dump(p,x):
- p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2,ensure_ascii=False)+'\n')
+ p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_name(p.name+f'.tmp-{os.getpid()}');tmp.write_text(json.dumps(x,indent=2,ensure_ascii=False)+'\n');tmp.replace(p)
 def csvout(p,rows):
  p=Path(p);p.parent.mkdir(parents=True,exist_ok=True)
- with open(p,'w') as f:
+ tmp=p.with_name(p.name+f'.tmp-{os.getpid()}')
+ with open(tmp,'w') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
+ tmp.replace(p)
 def filtered(actions):
  ids=[];prev=None
  for i,a in enumerate(actions):
