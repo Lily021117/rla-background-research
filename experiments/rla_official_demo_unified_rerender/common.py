@@ -6,7 +6,7 @@ import csv, json, hashlib
 import numpy as np
 
 ROOT=Path('/data/lyc/projects/rla-wm')
-RUN=ROOT/'experiments/rla_official_demo_unified_rerender/run_20261103_01'
+RUN=ROOT/'experiments/rla_official_demo_source_completion/run_20261103_01'
 OLD=ROOT/'experiments/rla_official_ae_paired_rerender/run_20261103_01'
 REPAIR=ROOT/'experiments/rla_official_ae_sync_repair/run_20261103_01'
 OFFICIAL=ROOT/'worktrees/rla-official-0fc6e97'

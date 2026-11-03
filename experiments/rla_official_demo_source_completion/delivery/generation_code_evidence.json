@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "path": "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/libero_official/scripts/create_dataset.py",
+      "sha256": "6ff09687a6ca8cb5df16b828cce2326467099da2b4dd6e5af557644d3e60f37f"
+    },
+    {
+      "path": "<ENV_PROJECT>/experiments/robot/libero/regenerate_libero_dataset.py",
+      "sha256": "f17dd49e61659b515ccd691c0ee57d20fb57909af3b8b53ef7e7e6bee55ceb49"
+    },
+    {
+      "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/protocol.json",
+      "sha256": "937ac756894f3979a403da66d5d5e81d64cd3e221da756f55940bb97eefa067d"
+    },
+    {
+      "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/source_manifest.csv",
+      "sha256": "dc4d0efda238d4ceb34d36943a32e507a9090eb2ad5b55bd932ac583f09b7f1d"
+    },
+    {
+      "path": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01/download_plan.json",
+      "sha256": "8a821c336f3748ca501dd6c93e38fc5cbed9bd6b27a8e2703f727a22bc75ddf6"
+    }
+  ],
+  "regeneration_code_commit": "23fa0c9c159e2aa04341cdd3e924f44061311060",
+  "metainfo": "No *_metainfo.json in pinned local generation repository. No per-episode demo ID/initial scene state in archived RLDS metadata. No new replay or environment-version search.",
+  "phases": {
+    "source": "env.step(action) precedes obs append; saved states indexed at corresponding pre-action index",
+    "regenerated": "set orig_states[0]; 10 settling actions; filter noops without executing; record obs then execute retained action",
+    "initial_exception": "regenerated states[0] copies original state before settling; its first obs is after settling. Do not equate these fields."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v2_interpretation_same_conservative_admission",
+  "uniform_scope": 1693,
+  "admission_thresholds_changed": false,
+  "old_ratio": 2,
+  "old_nearest_rmse": 0.1,
+  "reason": "Original HDF5 obs are post-action; regenerated RLDS obs are pre-action after ten settling actions and a different integration with no-ops removed. Comparing normalized-progress trajectories is approximate corroboration, not a necessary identity criterion.",
+  "missing": "Released intermediate regenerated HDF5 or a per-episode RLDS-to-demo map plus generation initial-state metadata. Original source initial states alone cannot prove the RLDS episode initial state.",
+  "no_new_promotion_from_unique_actions_alone": true,
+  "initial_state_comparison": "Recorded with explicit phase mismatch; not admitted as a same-time equality test."
+}

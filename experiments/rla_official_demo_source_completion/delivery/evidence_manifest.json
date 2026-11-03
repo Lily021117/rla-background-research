@@ -1,0 +1,74 @@
+[
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/phase_audit.csv",
+    "sha256": "120848a4c969df257010716e46bf7ec29ab5494c98cb82632408acae1f7e2887"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/protocol.json",
+    "sha256": "dd570d1dcb96ba62b78f16e88cd4dd05d4ae3633a1c31ad421fe2142b63e096c"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/source_files.json",
+    "sha256": "52c29874ae0bb4fc7a906c653b3cb9a6fef0711617d363a5378a17de2b50e7c9"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/source_rule_diff.csv",
+    "sha256": "f1913616727cad3b15237c3e0f9000b28018010ab35e0733404e5f00d8a926ae"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/frozen_data_manifest.csv",
+    "sha256": "11bf5f628c8bd73f4722c362221971480b68791310bb477e87e38d4f1af7f4df"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/coverage_by_task_split.csv",
+    "sha256": "d7541e176eea6c41572e2405b4b813b7e9d0e9d05534d37366284ee3d06fbe2f"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_plan.json",
+    "sha256": "8a821c336f3748ca501dd6c93e38fc5cbed9bd6b27a8e2703f727a22bc75ddf6"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_failures.json",
+    "sha256": "a77aad381ccd027e9a7439c6831182cceb69793190764e7674b048f5444abb4a"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_accounting.json",
+    "sha256": "e56079631b1bccd14f2a29c684ca1bdb31b2186ed557655e17df63d0c385c5bb"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/report.md",
+    "sha256": "2a417186fd4fb29c0f5f8b2f1c1a647a984fbd105c6591d4f64bec03bf8fb417"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/unfinished_entries.csv",
+    "sha256": "11bf5f628c8bd73f4722c362221971480b68791310bb477e87e38d4f1af7f4df"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/counts.json",
+    "sha256": "81b88496f4841551f8cd06d06294c870d8332473dae2c4706a28a3f690ab55c2"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_rule_v2.json",
+    "sha256": "02fc6716136d0d9855c3e7c52b442d09eb9f572195a578fd570d299381216f82"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/generation_code_evidence.json",
+    "sha256": "e9ef2b863d257857f0c9a8904f562c75888b8aef6519d321e3eb76d008b719bf"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/split_conflicts.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/download_attempts.json",
+    "sha256": "9210ec6f8e555524dff9d142d8c06a1abd156be8f18700c59bb87b3370db8ea0"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_audit.csv",
+    "sha256": "77bb6c6de53ab0a871b2c5d167e923238d16d7922f7256bf02d3b32a1b8cf794"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/previous_210_audit.csv",
+    "sha256": "39f2ac71f8a2a3610cd2c8a084fe8b58adbfc06df7a6226a63de5253c58014fa"
+  }
+]

@@ -22,7 +22,7 @@ def freeze():
 def inventory():
  rows=list(csv.DictReader(open(OLD/'delivery/source_mapping.csv')))
  # Only local published-source directories, not Cosmos, derived-state caches or sealed data.
- roots=[OLD/'source_hdf5',ROOT/'data/libero_original_minimal',ROOT/'experiments/rla_new_task_baseline/run_20261028_02/downloads',RUN/'downloads']
+ roots=[OLD/'source_hdf5',ROOT/'data/libero_original_minimal',ROOT/'experiments/rla_new_task_baseline/run_20261028_02/downloads',ROOT/'experiments/rla_official_demo_unified_rerender/run_20261103_01/downloads',RUN/'downloads']
  candidates={}
  for root in roots:
   if root.exists():

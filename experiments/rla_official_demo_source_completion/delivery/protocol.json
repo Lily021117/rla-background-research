@@ -1,0 +1,84 @@
+{
+  "name": "官方示范统一重渲染派生版：来源补齐与统一核验",
+  "parent_commit": "ef99dd5aadf231407641b71612193a3a1aa7cbcb",
+  "official_rla_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "source_manifest": "<PROJECT>/experiments/rla_official_ae_paired_rerender/run_20261103_01/delivery/source_mapping.csv",
+  "source_manifest_sha256": "1bd7cb0a5dccc9c0ec07489aaefa2ac06e4a9ff74f4183ad5416a66a5b2d863b",
+  "train": 1653,
+  "val": 40,
+  "old_conclusion": "PARTIAL; original-video correspondence failed; unchanged",
+  "source_join": "Unique exact FULL filtered action array + exact task language/path + independently nearest complete robot joint trajectory among all demos in source HDF5; compare normalized-progress paths ONLY as identity evidence, never resample output states. Require runner-up distance at least twice winner and winner RMSE <=0.1rad. Ambiguity stays unresolved. Record all evidence and source hashes; not proof of byte-identical unpublished intermediate HDF5.",
+  "static_source": "Official HDF5 states at original indices, before corresponding source actions. Source RGB/obs are post-action and NOT reused as synchronized observations.",
+  "pilots": [
+    {
+      "suite": "libero_spatial",
+      "trajectory_id": "000010"
+    },
+    {
+      "suite": "libero_object",
+      "trajectory_id": "000010"
+    },
+    {
+      "suite": "libero_goal",
+      "trajectory_id": "000010"
+    },
+    {
+      "suite": "libero_10",
+      "trajectory_id": "000010"
+    }
+  ],
+  "acceptance": {
+    "state_model_layout": "exact 1+nq+nv; na=0; XML named joint order and finite values; monotonic source timestamps",
+    "restore_geometry_atol": 1e-12,
+    "restore_rgb_max": 0,
+    "paired_model": "all compiled model arrays except tex_data exact bytes",
+    "paired_physics": "same time/qpos/qvel and synchronized body/camera/site arrays",
+    "visible_weak_threshold_uint8": 1.0,
+    "original_video_threshold": "NONE; descriptive comparison only"
+  },
+  "camera": {
+    "resolution": [
+      256,
+      256
+    ],
+    "names": [
+      "agentview",
+      "robot0_eye_in_hand"
+    ],
+    "orientation": "native MuJoCo top-down render followed by horizontal mirror; negative fx; c2w per actual source model and frame"
+  },
+  "timing": "Keep filtered source indices and real source times. Official h is retained-frame count, future index t+h-1, t+h<N; actual elapsed seconds supplied separately, never assert fixed .05s across filtered gaps.",
+  "augmentation": {
+    "delta_h": 0.2,
+    "saturation": "S + .35*(1-S)",
+    "V": "unchanged before RGB quantization",
+    "background_whitelist": [
+      "floor",
+      "table_visual",
+      "wall_leftcorner_visual",
+      "wall_rightcorner_visual",
+      "wall_left_visual",
+      "wall_right_visual",
+      "wall_rear_visual",
+      "wall_front_visual"
+    ],
+    "shared_across": "all frames and both cameras",
+    "texture_alias": "fail closed if foreground shares texture; no hidden foreground recolor",
+    "lights_reflection_geometry": "unchanged"
+  },
+  "batch_gate": "Four original-state pilot sequences pass self-restore, geometry/time and visual checks, then source-confirmed entries only; split conflicts withheld; resumable; minimum 100GiB remaining disk",
+  "visual_rule": "7 equally spaced frames each pilot + full sequence automated checks, full videos retained; AI review explicitly distinguished from human review",
+  "learned_model_forwards": 0,
+  "updates": 0,
+  "backward": 0,
+  "policy_rollout": 0,
+  "source_action_replay": 0,
+  "previous_run": "<PROJECT>/experiments/rla_official_demo_unified_rerender/run_20261103_01",
+  "previous_manifest_sha256": "dc4d0efda238d4ceb34d36943a32e507a9090eb2ad5b55bd932ac583f09b7f1d",
+  "previous_rendered": 955,
+  "download_scope": "12 missing files only; fixed parent plan; max two new attempts each; prior verified 28 hash-checked and reused; old caches immutable",
+  "source_review": "All 1693 under same conservative evidence rule. v2 fixes diagnostic interpretation, not thresholds. Do not automatically admit on unique actions alone. Full initial state and generation mapping absent remains explicit.",
+  "reuse": "Source SHA, demo, filtered indices and split unchanged, state/model hashes and PNG structure/counts verified; recheck official loader without writing old results",
+  "model_forwards": 0
+}
