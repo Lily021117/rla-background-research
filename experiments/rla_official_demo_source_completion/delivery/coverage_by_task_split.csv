@@ -5,8 +5,8 @@ libero_10,put both moka pots on the stove,train,29,VERIFIED,28,28,28,0,28,1,0,0
 libero_10,put both moka pots on the stove,val,0,VERIFIED,0,0,0,0,0,0,0,0
 libero_10,put both the alphabet soup and the cream cheese box in the basket,train,41,VERIFIED,39,39,39,0,39,2,0,0
 libero_10,put both the alphabet soup and the cream cheese box in the basket,val,2,VERIFIED,1,1,1,0,1,1,0,0
-libero_10,put both the alphabet soup and the tomato sauce in the basket,train,32,VERIFIED,30,0,0,0,0,2,0,0
-libero_10,put both the alphabet soup and the tomato sauce in the basket,val,1,VERIFIED,1,0,0,0,0,0,0,0
+libero_10,put both the alphabet soup and the tomato sauce in the basket,train,32,VERIFIED,30,30,0,30,30,2,0,0
+libero_10,put both the alphabet soup and the tomato sauce in the basket,val,1,VERIFIED,1,1,0,1,1,0,0,0
 libero_10,put both the cream cheese box and the butter in the basket,train,49,MISSING_OR_UNVERIFIED,0,0,0,0,0,0,49,0
 libero_10,put both the cream cheese box and the butter in the basket,val,0,MISSING_OR_UNVERIFIED,0,0,0,0,0,0,0,0
 libero_10,put the black bowl in the bottom drawer of the cabinet and close it,train,35,VERIFIED,34,34,34,0,34,1,0,0
@@ -27,9 +27,9 @@ libero_goal,push the plate to the front of the stove,train,32,VERIFIED,24,24,24,
 libero_goal,push the plate to the front of the stove,val,1,VERIFIED,1,1,1,0,1,0,0,0
 libero_goal,put the bowl on the plate,train,48,VERIFIED,35,35,35,0,35,13,0,0
 libero_goal,put the bowl on the plate,val,1,VERIFIED,1,1,1,0,1,0,0,0
-libero_goal,put the bowl on the stove,train,48,VERIFIED,43,0,0,0,0,5,0,0
+libero_goal,put the bowl on the stove,train,48,VERIFIED,43,43,0,43,43,5,0,0
 libero_goal,put the bowl on the stove,val,0,VERIFIED,0,0,0,0,0,0,0,0
-libero_goal,put the bowl on top of the cabinet,train,46,VERIFIED,39,0,0,0,0,7,0,0
+libero_goal,put the bowl on top of the cabinet,train,46,VERIFIED,39,39,0,39,39,7,0,0
 libero_goal,put the bowl on top of the cabinet,val,0,VERIFIED,0,0,0,0,0,0,0,0
 libero_goal,put the cream cheese in the bowl,train,39,VERIFIED,31,31,31,0,31,8,0,0
 libero_goal,put the cream cheese in the bowl,val,1,VERIFIED,1,1,1,0,1,0,0,0
@@ -43,9 +43,9 @@ libero_object,pick up the alphabet soup and place it in the basket,train,43,VERI
 libero_object,pick up the alphabet soup and place it in the basket,val,1,VERIFIED,1,1,1,0,1,0,0,0
 libero_object,pick up the bbq sauce and place it in the basket,train,44,VERIFIED,36,36,36,0,36,8,0,0
 libero_object,pick up the bbq sauce and place it in the basket,val,2,VERIFIED,2,2,2,0,2,0,0,0
-libero_object,pick up the butter and place it in the basket,train,45,VERIFIED,29,0,0,0,0,16,0,0
+libero_object,pick up the butter and place it in the basket,train,45,VERIFIED,29,29,0,29,29,16,0,0
 libero_object,pick up the butter and place it in the basket,val,0,VERIFIED,0,0,0,0,0,0,0,0
-libero_object,pick up the chocolate pudding and place it in the basket,train,50,VERIFIED,38,0,0,0,0,12,0,0
+libero_object,pick up the chocolate pudding and place it in the basket,train,50,VERIFIED,38,38,0,38,38,12,0,0
 libero_object,pick up the chocolate pudding and place it in the basket,val,0,VERIFIED,0,0,0,0,0,0,0,0
 libero_object,pick up the cream cheese and place it in the basket,train,44,VERIFIED,39,39,39,0,39,5,0,0
 libero_object,pick up the cream cheese and place it in the basket,val,1,VERIFIED,1,1,1,0,1,0,0,0
@@ -53,11 +53,11 @@ libero_object,pick up the ketchup and place it in the basket,train,42,VERIFIED,3
 libero_object,pick up the ketchup and place it in the basket,val,3,VERIFIED,3,3,3,0,3,0,0,0
 libero_object,pick up the milk and place it in the basket,train,44,VERIFIED,39,39,39,0,39,5,0,0
 libero_object,pick up the milk and place it in the basket,val,1,VERIFIED,1,1,1,0,1,0,0,0
-libero_object,pick up the orange juice and place it in the basket,train,44,VERIFIED,36,0,0,0,0,8,0,0
+libero_object,pick up the orange juice and place it in the basket,train,44,VERIFIED,36,36,0,36,36,8,0,0
 libero_object,pick up the orange juice and place it in the basket,val,1,VERIFIED,0,0,0,0,0,1,0,0
-libero_object,pick up the salad dressing and place it in the basket,train,46,VERIFIED,34,0,0,0,0,12,0,0
+libero_object,pick up the salad dressing and place it in the basket,train,46,VERIFIED,34,34,0,34,34,12,0,0
 libero_object,pick up the salad dressing and place it in the basket,val,1,VERIFIED,0,0,0,0,0,1,0,0
-libero_object,pick up the tomato sauce and place it in the basket,train,42,VERIFIED,39,0,0,0,0,3,0,0
+libero_object,pick up the tomato sauce and place it in the basket,train,42,VERIFIED,39,39,0,39,39,3,0,0
 libero_object,pick up the tomato sauce and place it in the basket,val,0,VERIFIED,0,0,0,0,0,0,0,0
 libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,train,45,VERIFIED,37,37,37,0,37,8,0,0
 libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,val,0,VERIFIED,0,0,0,0,0,0,0,0
@@ -69,7 +69,7 @@ libero_spatial,pick up the black bowl next to the cookie box and place it on the
 libero_spatial,pick up the black bowl next to the cookie box and place it on the plate,val,1,VERIFIED,1,1,1,0,1,0,0,0
 libero_spatial,pick up the black bowl next to the plate and place it on the plate,train,47,VERIFIED,44,44,44,0,44,3,0,0
 libero_spatial,pick up the black bowl next to the plate and place it on the plate,val,0,VERIFIED,0,0,0,0,0,0,0,0
-libero_spatial,pick up the black bowl next to the ramekin and place it on the plate,train,45,VERIFIED,36,0,0,0,0,9,0,0
+libero_spatial,pick up the black bowl next to the ramekin and place it on the plate,train,45,VERIFIED,36,36,0,36,36,9,0,0
 libero_spatial,pick up the black bowl next to the ramekin and place it on the plate,val,0,VERIFIED,0,0,0,0,0,0,0,0
 libero_spatial,pick up the black bowl on the cookie box and place it on the plate,train,43,VERIFIED,35,35,35,0,35,8,0,0
 libero_spatial,pick up the black bowl on the cookie box and place it on the plate,val,0,VERIFIED,0,0,0,0,0,0,0,0
@@ -77,5 +77,5 @@ libero_spatial,pick up the black bowl on the ramekin and place it on the plate,t
 libero_spatial,pick up the black bowl on the ramekin and place it on the plate,val,3,VERIFIED,1,1,1,0,1,2,0,0
 libero_spatial,pick up the black bowl on the stove and place it on the plate,train,32,VERIFIED,21,21,21,0,21,11,0,0
 libero_spatial,pick up the black bowl on the stove and place it on the plate,val,3,VERIFIED,2,2,2,0,2,1,0,0
-libero_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,train,44,VERIFIED,43,0,0,0,0,1,0,0
+libero_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,train,44,VERIFIED,43,43,0,43,43,1,0,0
 libero_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,val,0,VERIFIED,0,0,0,0,0,0,0,0

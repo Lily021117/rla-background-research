@@ -25,11 +25,11 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/frozen_data_manifest.csv",
-    "sha256": "611c224e94da6ea6c03f8ad8bb9c509250bf32fe0213302b6707dce7a1d66430"
+    "sha256": "465461c0ea8f69c7eaaa441108946b11174f5d659b8e7f00eb78000c402519e0"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/coverage_by_task_split.csv",
-    "sha256": "9511dce3ae947c50d0c35c6734a92826621cb3207cd4d553a231b0cf9205f43e"
+    "sha256": "739bdedcbe6024dd28fd0300d20e098a965e0283cd87c0124114f3c9fd491dcc"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/rejected_source_files.json",
@@ -49,7 +49,7 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/report.md",
-    "sha256": "525a06d235a4e1a18fbf97466210dac6e40f26aa1ac781fa3f728467b9da903c"
+    "sha256": "5307727b1e9baaf8c500bf17e999ebbd969eb59bc691def700cdce75314c448c"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/reuse_audit.json",
@@ -57,11 +57,15 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/unfinished_entries.csv",
-    "sha256": "5f96408c6f1f7d4817acf40373ccba0b7cb4884508d0e8d6f9456f2a214c5200"
+    "sha256": "43f0e38f235fa05c4cf5231d360a2623f480535427624ab0c0d7c1d14772c8c5"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/counts.json",
-    "sha256": "6875a2d4fa1f0aeab7060dfddc65f9936114113328eba70be2458ec812d3adbe"
+    "sha256": "6cb55ab73ee0ff164ac23b91d1f372ee2987bd06ee3fe645b132202c46e81c86"
+  },
+  {
+    "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/batch_complete.json",
+    "sha256": "fd4e386242cf6231431048662202fc4f1d1efda76b7210ec7989252b68497678"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_rule_v2.json",
