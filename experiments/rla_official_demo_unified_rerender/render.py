@@ -62,8 +62,8 @@ def rgb(r,d,o,counts):
   r.update_scene(d,camera=c,scene_option=o);images.append(r.render().copy()[:,::-1]);counts['rgb_renders']+=1
  return np.stack(images)
 
-def main(suite,tid):
- row=next(x for x in csv.DictReader(open(RUN/'source_manifest.csv')) if x['suite']==suite and x['trajectory_id']==tid)
+def main(suite,tid,manifest=None):
+ row=next(x for x in csv.DictReader(open(manifest or RUN/'source_manifest.csv')) if x['suite']==suite and x['trajectory_id']==tid)
  assert row['source_status']=='MULTI_EVIDENCE_JOIN' and row['split_conflict']=='False',row
  out=RUN/'trajectories'/suite/f'traj_{tid}'
  if (out/'result.json').exists():
@@ -183,4 +183,4 @@ def export_loader(out,row,m,qpos,eef,cpos,crot,actions,ids,times):
   if not (dest/'metadata.json').exists():shutil.copy2(original.parent/'metadata.json',dest/'metadata.json')
  dump(out/'camera_time.json',dict(cameras=cameras,resolution=[256,256],source_times=times.tolist(),source_indices=ids.tolist(),future_indices='t,t+h-1; t+h<N',horizon_is='retained frame count, NOT uniform physical duration',last_target_qpos='legacy loader achieved-qpos field only; not used as extrapolated future RGB',root_poses='retained official identity placeholder, NOT measured robot base pose; not used to derive camera or FK',success_attribute='original source label, no new policy or success evaluation',camera_geometry_source='per-demo HDF5 XML and synchronized source state'))
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--suite',required=True,choices=SUITES);p.add_argument('--id',default='000010');a=p.parse_args();main(a.suite,a.id)
+ p=argparse.ArgumentParser();p.add_argument('--suite',required=True,choices=SUITES);p.add_argument('--id',default='000010');p.add_argument('--manifest');a=p.parse_args();main(a.suite,a.id,a.manifest)

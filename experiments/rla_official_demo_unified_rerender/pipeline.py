@@ -23,7 +23,8 @@ def main():
   shutil.copy2(RUN/name,archive/name)
  run(CPU,'prepare.py')
  run(CPU,'report.py')
- run(CPU,'batch.py')
+ try:run(CPU,'batch.py')
+ finally:run(CPU,'report.py')
  try:run(IO,'loader_check.py')
  finally:run(CPU,'report.py')
  dump(RUN/'pipeline_complete.json',dict(status='DATA_SCOPE_FINISHED_WITH_REPORTED_EXCLUSIONS',time_unix=time.time(),gpu_use=False,all_models_forwards_updates_backward_rollouts=0))
@@ -41,6 +42,7 @@ def main():
   remote=subprocess.check_output(git+['ls-remote','origin',f'refs/heads/{branch}'],cwd=CODE,env=env,timeout=90,text=True).split()[0];assert remote==commit
   dump(RUN/'final_sync.json',dict(commit=commit,remote=remote,verified=True))
  except Exception as e:dump(RUN/'final_sync.json',dict(commit=commit,verified=False,error=repr(e)))
+ dump(RUN/'resource_release.json',dict(cpu_render_workers=0,data_loader_workers=0,gpu_allocations=0,learned_model_processes=0,supervisor_finishing=True,time_unix=time.time()))
 if __name__=='__main__':
  try:main()
  except BaseException as e:
