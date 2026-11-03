@@ -1,0 +1,21 @@
+{
+  "frames": 383,
+  "A_self_restore": true,
+  "B_original_numeric_pixel": false,
+  "counts": {
+    "state_restores": 1532,
+    "kinematic_forwards": 1532,
+    "rgb_renders": 3064,
+    "segmentation_renders": 766,
+    "physics_steps": 0
+  },
+  "seconds": 495.956969499588,
+  "canonical_model_sha256": "0dcefe4df7c9ccaa3ba6ae3078c53b1884461ee8f5ca95ffc69dfa0fe13fa837",
+  "pairing_exact": true,
+  "admitted_as_original_augmentation": false,
+  "reason": "Diagnostic pair only; original-correspondence and full admission separate",
+  "models_inference": 0,
+  "updates": 0,
+  "backward": 0,
+  "policy_rollout": 0
+}

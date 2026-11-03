@@ -1,0 +1,342 @@
+[
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/delivery/report.md",
+    "sha256": "5a1050360fc0b00b636a4ec61aa9e80e19161be177cdff73e11da6653247f8cb"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/delivery/source_mapping.csv",
+    "sha256": "1bd7cb0a5dccc9c0ec07489aaefa2ac06e4a9ff74f4183ad5416a66a5b2d863b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/frozen_protocol.json",
+    "sha256": "f58c439b2ccbe5cad8c297072011b1114d687e63b8ab5f5916e9f119eb526fcd"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/frame_results.csv",
+    "sha256": "8a53f9b52624bd2c495b02adc05922ccc945075442fbb15e023f4e57ac29ded3"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/model_serialization.json",
+    "sha256": "27469406423420de933a246aa1d636a053e39b5bca09591c2e77a718537b191e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/progress.json",
+    "sha256": "8e2c473d0ba926788ae0437e7a698946ea4da72bd29185117e3e1d227e94c0a3"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/render_options.json",
+    "sha256": "ca8df0c7205d0ae366a856cb4de7bb29a69e29e809264a9f8e7bdbb764df876e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/result.json",
+    "sha256": "b522ca6fcfd41f88bcd4e9bc13eec39f29bc55bc4737e65b85a45d061d1db5f4"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_10/sensor_timing.json",
+    "sha256": "e40eb2addc6e5e8b77532f1f8ccc3e1be83ab1f05300e1e9accdd0e5a1de7e51"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/frame_results.csv",
+    "sha256": "b7af59ca4ba841b924230f9ce917c1538c64bc99a695959a46e06dbf8f434d04"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/model_serialization.json",
+    "sha256": "a53cf45b81dad58cfbd9d1a4cdfde3b54395cab1f43b454934028f2f21525a4e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/progress.json",
+    "sha256": "d2674fb69b5ffa2fd881e429c96e2ee98f0f2877d27c94ff8e4bcd952eb63bf7"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/render_options.json",
+    "sha256": "ca8df0c7205d0ae366a856cb4de7bb29a69e29e809264a9f8e7bdbb764df876e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/result.json",
+    "sha256": "eda37c1a2466f886345be124361a79f157089380a3d32faa74f0df6a50471b85"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_goal/sensor_timing.json",
+    "sha256": "38d315c644abebce88009be6d9532dad4752b96f2eb4938c4d285c0cc1635674"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_object/failure.json",
+    "sha256": "501e10c24d03b3333e283b241ed45e0536f72a776b3c5ca1995d54b0061a4f96"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_object/render_options.json",
+    "sha256": "ca8df0c7205d0ae366a856cb4de7bb29a69e29e809264a9f8e7bdbb764df876e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_spatial/failure.json",
+    "sha256": "af002f59e9e67be195d686fa0459c8bf973d63e265875a7d5c3228235cc79f7e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_spatial/frame_results.csv",
+    "sha256": "90fb5d02a72ce3d07f652611e2b85c3a7a9587e43b6528e8c96d5827fecf5d7b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_spatial/progress.json",
+    "sha256": "d2674fb69b5ffa2fd881e429c96e2ee98f0f2877d27c94ff8e4bcd952eb63bf7"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_spatial/render_options.json",
+    "sha256": "ca8df0c7205d0ae366a856cb4de7bb29a69e29e809264a9f8e7bdbb764df876e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/capture/libero_spatial/sensor_timing.json",
+    "sha256": "3551e45f972e23791f516eef5022bfbb5ffc7dc80bafe0432f6965fff83275b3"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/capture.py",
+    "sha256": "e621ca565258b418d6bc67f52ae14001694648aedd46881533537838ebd598be"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/color_audit.py",
+    "sha256": "3ad645cc81473e314bf4ddd50f3bb4beef5aa62eb9991d230213027a8071541f"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/common.py",
+    "sha256": "9322a1a935e38feaaab2dd180df2450216b40074ec13324b267cd4052188338d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/deliver.py",
+    "sha256": "4a6bbd117f2d876c20dae4adfa5401e5ae08ed2c6c062ac8dc75cfa11414f0d0"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/index_pairs.py",
+    "sha256": "ada05a64438660aa6db5b7c185acd8b248b184c70e0cbb14b83bd6905b37c601"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/model_snapshot.py",
+    "sha256": "151d0bb39b4579c41bb305594a0351cd6b409ef4bf06ec566efa30082c7aeee5"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/offline.py",
+    "sha256": "48e1d9d185c92b16de3e7a76eb9c9f9bc6fa12c8c20ed7cbb7f43e8f9c5f33a7"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color/libero_object/appearance_configuration.json",
+    "sha256": "61dbf5881dfd6d4944e208b871188e13999d7e6044e23026de2e377c1d57e00b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color/libero_object/frame_color_metrics.csv",
+    "sha256": "303936b8533ae8c075fbe226f70ae2e4559a6c85e20b1265d5c34c6905a15234"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color/libero_object/frame_correspondence.csv",
+    "sha256": "d832ce2cfccf5e87fd6d7be3073ba7bb2edcfa76c5ee4461eae96586708acca4"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color/libero_object/result.json",
+    "sha256": "660364281af85ccb4b3c0c1034fe8037455e2d5c5697a1bbc32c597085853a44"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color/libero_object/visible_geoms.json",
+    "sha256": "0987d603cf40367b9ca9489e639223491d527ee8ce63b1e2067fc11cf1c8cf8a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/appearance_configuration.json",
+    "sha256": "57d46d0d64f65d31499fa062649231c53dabb2377a85203630f1cd87700b6f7a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/brightness_saturation.csv",
+    "sha256": "f9ba1823eb302bca5d00031593b82491b6778f1526e8628d6c64db3565f66f8d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/camera_time_metadata.json",
+    "sha256": "1bb8b26d1c5b50e5877b66cd545c92f2400e70a95ee12e2e77b77aea3b42d0da"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/frame_color_metrics.csv",
+    "sha256": "cf8fcc85309a284d735a69886d5690dc475eef4cec34c197b622d58a4d280e8a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/frame_correspondence.csv",
+    "sha256": "a34a6226f91d056fb7d9fe47bccb6d795a2b4840794ae431dce03c65f076082c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/fullstate_vs_legacy_render.json",
+    "sha256": "d9fddc1c0193a12e9059b67b50d7973d7b4f62d619f5dbd5e90dd1d9e488f815"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/pairing_manifest.csv",
+    "sha256": "06da2c96d8756b7782439a1acec64d440631d2cc75d61d60bd661d147ce4b42b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/result.json",
+    "sha256": "2e8f4e29ede2c19549e118803a03a648c54af8e706e4bde1fd378872faba6eda"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_10/visible_geoms.json",
+    "sha256": "5a82e5825ed91196309566f3c5953346f459e2702b39b39e7ea3e6acf5fec1f4"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/appearance_configuration.json",
+    "sha256": "87c2633a657b590cda5c567cfb61f7ddd719d93d1afa89fbe64bcaf12a354242"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/brightness_saturation.csv",
+    "sha256": "33c98d598ddbcdbdb6135752021c195c73bcb2869ac93642a6e160f67e6de6e4"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/camera_time_metadata.json",
+    "sha256": "56e2ab678d0bbeab0199d571ee02caeb02eb05bf67b3baeb1631359502b35ab9"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/frame_color_metrics.csv",
+    "sha256": "114ca52d910ddbd273adbaf2e0d09cdbca64f9d8935ac817b082966aae1ffe14"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/frame_correspondence.csv",
+    "sha256": "065a7b91dfa047ea5d3c70985703d92731c0e0623ac1598e77f8efd9bd14ac44"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/fullstate_vs_legacy_render.json",
+    "sha256": "a096d72f7524921a2d9764c6e20df15941a3501ed16ba63f695bfb2d2faceafc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/pairing_manifest.csv",
+    "sha256": "3cfb488789efe5fb51f79c5e34b26c531f2d36b49ca3e93de2d8af398b3ea80d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/result.json",
+    "sha256": "a0f1f592038bdc918904e29438d21deced93a9256603bc0a061511d80b403fa3"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_goal/visible_geoms.json",
+    "sha256": "49c88543a9c42d0fa3baea588d943b2dcbf2a6d1e19bbb833d5352740aef40d7"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/appearance_configuration.json",
+    "sha256": "802fdd903a8af1f41a82c1aff89a30c4e3894500b89e7c8c695d184cf802510f"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/brightness_saturation.csv",
+    "sha256": "843e66644a6a8da72f88e34752bd886c454fca0764fde3f4db1251cbe61ee6a5"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/camera_time_metadata.json",
+    "sha256": "9376cac125a24ef12e20ceed1e55806697f5274e013aa50cc4725e1382c9c403"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/frame_color_metrics.csv",
+    "sha256": "34295acdeeadb2d5f56faea86b47720d044b1e7cfe74e817d7ffca3ce4f1ec81"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/frame_correspondence.csv",
+    "sha256": "5ba5acbf8fba7dee355ffa4e3c8a60e370065f2b5061034e5b6b321bb7641b7f"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/pairing_manifest.csv",
+    "sha256": "86b55b08907ec5c06f504b3ef67d4c5ac5412e7f321a2fc6d921275dbfb934af"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/result.json",
+    "sha256": "26b88e91368952b8d441c9435f3d17cec738bbd27ade7f6381b7a82c48040371"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_object/visible_geoms.json",
+    "sha256": "06ba84ec454b9799b14c891cdfd26ae69000fc408c71f3edcb126bd77fc0b47e"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/appearance_configuration.json",
+    "sha256": "9a19230bdc97bc18ea229a38a6006b7d18f7b931ddbe329f8ac80104aa54e1ff"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/brightness_saturation.csv",
+    "sha256": "0aa121bde1e03c25e16f5660d8f89495ca6de01d585a845d5e22ff29aba2cfe8"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/camera_time_metadata.json",
+    "sha256": "a876b42ebf32fe7a2cb445bfd5a2def112f002d90af75105c20bb46f58fefd8d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/frame_color_metrics.csv",
+    "sha256": "df1a8a37ca234003942a55dfe2436bd61b6695252ee4e94a60681dee822c275a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/frame_correspondence.csv",
+    "sha256": "29a6f108b8adb195fcc127fb6d467dc1349efcdac4e71aea4ab3abf527a6eca5"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/fullstate_vs_legacy_render.json",
+    "sha256": "a0abb07e6531802f454f87e000fc8dcd21e74260e53eced48c91c2b614eaa286"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/pairing_manifest.csv",
+    "sha256": "b780ad9f19cb37040b93c5244400c75ade3c769b34bdef4a3df88245d98e54fe"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/result.json",
+    "sha256": "4c331f7fa7d61b7e1258937c9d0efc62fa93e39fe7cf1a4acbe4736de60288df"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_final/libero_spatial/visible_geoms.json",
+    "sha256": "7b887680a43db1e6071944cee435d9780c082d1bfec8b6cd626d7160aa388c2a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/color_v2/libero_object/failure.json",
+    "sha256": "afc7e4e12e69fb8b7be8be7f14fcc04fc047704694e0e7dd2ee26f00cf87e845"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/frozen_protocol.json",
+    "sha256": "f09a9d4092c7fcf60657f22836e0f006a711ccd24ba3ae1d5e37594dc10ab93b"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/model_snapshot/libero_object/result.json",
+    "sha256": "f42e18bcd25fad283776a25b0f2dbedbc2781c85be7d7ecc963916965675408c"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/model_snapshot/libero_spatial/result.json",
+    "sha256": "9f9849ee41f5f540c9b101622b6d5f87a5c25ea41d14e3d82d06a7c9f613c447"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_10/frames.csv",
+    "sha256": "270169f737e6086a7d37e4e285476e0d02ee0e4d42c995abf8d80083a6a27996"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_10/result.json",
+    "sha256": "7efd89f43c8ebe0d52a7e75390d4b3333f133df9bf86ab50053636ef20a6944a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_goal/frames.csv",
+    "sha256": "c8555a43944fa3408f46724b4db7252389327fe0d9cb5c61c4d6e07d6d263134"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_goal/result.json",
+    "sha256": "97569914ef9c9f576e6c5ab630f3bbafd9326a7ad52d8d790b664a9df425d166"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_object/frames.csv",
+    "sha256": "990ea8b4290c83cdfb3e86d2246b0d2996e51d235b93285e7906a4e7f19fa4ed"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_object/result.json",
+    "sha256": "63b62ff5ce3ea93a5a8b79f93c7e5f9b910fb8c64a77e15bcb9e9cda4441647d"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_spatial/frames.csv",
+    "sha256": "3a08f79c020955d9f67cc7750be7d144bc03ffae12399e95d4c8d7e90be9c56a"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/offline/libero_spatial/result.json",
+    "sha256": "cdbba6d6f1c90b4c8af375a05998af3ac8b43ab49d5513d6a49572e357efad67"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/visual_review.json",
+    "sha256": "16ef4e5c86c289c85d01652f37c33d21796e82b409110c7f9ed61f2dbb01acef"
+  },
+  {
+    "path": "/data/lyc/projects/vla-adapter-ref/.venv-cpu/lib/python3.10/site-packages/robosuite/environments/base.py",
+    "sha256": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519"
+  },
+  {
+    "path": "/data/lyc/projects/vla-adapter-ref/.venv-cpu/lib/python3.10/site-packages/robosuite/utils/observables.py",
+    "sha256": "19ea2e0e2cfb4ebcd5911cd2526dd645859535d25fc7bc55944c54a90e6672dc"
+  },
+  {
+    "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/verify_delivery.py",
+    "sha256": "84f790b07a96b32f1319e58ce314cd1317594ff7a7835055a55af61c1c80ddc6"
+  }
+]

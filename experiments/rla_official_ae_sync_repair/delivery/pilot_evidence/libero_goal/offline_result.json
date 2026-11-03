@@ -1,0 +1,11 @@
+{
+  "frames": 114,
+  "state_restores": 114,
+  "kinematic_forwards": 114,
+  "render_calls": 0,
+  "physics_steps": 0,
+  "max_body_delta_m": 0.0005071504943845451,
+  "max_camera_delta": 0.0013260029759316616,
+  "legacy_state_cannot_reproduce_unsynchronized_geometry": true,
+  "seconds": 0.10302138328552246
+}

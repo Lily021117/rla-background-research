@@ -1,0 +1,7 @@
+{
+  "frames": 383,
+  "exact": true,
+  "max_rgb_error": 0,
+  "mean_rgb_error": 0.0,
+  "explanation": "Full runtime integration snapshot vs previous legacy time/qpos/qvel with exact compiled model. Result only certifies these render outputs, not controller continuation."
+}

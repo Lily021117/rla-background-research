@@ -1,0 +1,12 @@
+{
+  "suite": "libero_object",
+  "counts": {
+    "render_calls": 8,
+    "physics_substeps": 0
+  },
+  "source_actions": 0,
+  "wait_steps": 0,
+  "xml_hash_identical_to_previous": true,
+  "model_sha256": "af30dddf3bc86d41d32305c35ab07208a44ab8d4e2371c23cf57598e5992280e",
+  "purpose": "Recover exact compiled model, no trajectory recreation or alternate environment"
+}

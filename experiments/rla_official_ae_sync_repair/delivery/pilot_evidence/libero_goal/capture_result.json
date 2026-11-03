@@ -1,0 +1,24 @@
+{
+  "status": "BLOCKED_ORIGINAL_CORRESPONDENCE",
+  "A_self_restore": true,
+  "B_original_numeric_pixel": false,
+  "frames": 114,
+  "counts": {
+    "source_actions": 114,
+    "wait_steps": 10,
+    "physics_substeps": 3100,
+    "env_render_calls": 486,
+    "diagnostic_rgb_renders": 912,
+    "state_restores": 229,
+    "copy_forwards": 342
+  },
+  "seconds": 212.79687643051147,
+  "main_replay_exact_previous": true,
+  "unified_renderer_exact": true,
+  "runtime_xml_sha256": "ddd9ca06639b7b79063a18b684a8bd23930ffea8306f41688229820dd008931d",
+  "source_checkpoint": "none",
+  "model_forwards": 0,
+  "updates": 0,
+  "backward": 0,
+  "policy_rollouts": 0
+}

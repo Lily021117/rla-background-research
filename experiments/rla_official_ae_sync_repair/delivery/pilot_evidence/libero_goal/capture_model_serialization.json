@@ -1,0 +1,15 @@
+{
+  "method": "exact compiled MJB",
+  "sha256": "9ab419ed9131618198116f324b06aaf55e3f0da8bb1d3fd944cd26842eef9d43",
+  "xml_roundtrip_max_deltas": {
+    "body_pos": 4.885173786883801e-07,
+    "body_quat": 1.0066920869133966e-07,
+    "body_inertia": 20.00726348429139,
+    "geom_pos": 0.0,
+    "geom_quat": 4.875215070948569e-07,
+    "cam_pos": 3.153986118054064e-06,
+    "cam_quat": 3.3701120311091515e-07,
+    "mesh_vert": 0.0
+  },
+  "prior_spatial_capture": "XML roundtrip retained as failed evidence; not rerun"
+}

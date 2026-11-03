@@ -1,0 +1,26 @@
+[
+  {
+    "id": "object_observable_hook",
+    "error": "__modality__ missing",
+    "impact": "1 wait physically executed,0 source actions; returned-observation recapture missing",
+    "resolution": "hook fixed; Object not replayed again; offline143 retained"
+  },
+  {
+    "id": "spatial_optional_archive",
+    "error": "duplicate sensor_geometry keyword in NPZ",
+    "impact": "101 source actions complete; all CSV/time/video/sync state saved; optional raw multi-path archive missing",
+    "resolution": "keyword fixed for remaining pilots; no replay"
+  },
+  {
+    "id": "XML_roundtrip",
+    "error": "XML recompile not exact model snapshot",
+    "impact": "rounding plus recalculated some inertias/masses; no original-correspondence claim",
+    "resolution": "MJB snapshots, texture-only isolated model copies; old XML color143frames preserved"
+  },
+  {
+    "id": "object_model_copy_check",
+    "error": "pre-existing mesh_polynormal NaNs compare unequal numerically",
+    "impact": "preflight only,0 render/action",
+    "resolution": "exact array-byte comparison; no tolerance relaxed"
+  }
+]

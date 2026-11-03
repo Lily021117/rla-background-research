@@ -1,0 +1,74 @@
+{
+  "cameras": [
+    {
+      "name": "agentview",
+      "runtime_id": 2,
+      "resolution": [
+        256,
+        256
+      ],
+      "K": [
+        [
+          -309.01933598375615,
+          0,
+          128
+        ],
+        [
+          0,
+          309.01933598375615,
+          128
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "rotation_field": "camera_rotations[:, runtime_id].reshape(T,3,3) is camera-to-world MuJoCo rotation",
+      "opencv_c2w_rule": "rotation @ diag(1,-1,-1), translation=camera_positions[:,runtime_id]",
+      "image_rule": "native top-down render, horizontal flip; negative fx accounts for mirror",
+      "dynamic": false
+    },
+    {
+      "name": "robot0_eye_in_hand",
+      "runtime_id": 7,
+      "resolution": [
+        256,
+        256
+      ],
+      "K": [
+        [
+          -166.81284772367434,
+          0,
+          128
+        ],
+        [
+          0,
+          166.81284772367434,
+          128
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "rotation_field": "camera_rotations[:, runtime_id].reshape(T,3,3) is camera-to-world MuJoCo rotation",
+      "opencv_c2w_rule": "rotation @ diag(1,-1,-1), translation=camera_positions[:,runtime_id]",
+      "image_rule": "native top-down render, horizontal flip; negative fx accounts for mirror",
+      "dynamic": true
+    }
+  ],
+  "frames": 383,
+  "frame_interval_s": 0.05,
+  "temporal_semantics": "synchronized pre-next-action boundary; not relabelled as source cached observation time",
+  "future_rule": "official train h=2..64 -> image indices t,t+h-1 with t+h<N; validation h=10..64; no frame repeat",
+  "train_possible_time_pairs": 22050,
+  "old_candidate_state_source": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_paired_rerender/run_20261103_01/pilot_replay/libero_10/candidate_replay.npz",
+  "source_actions_unchanged": true,
+  "original_videos_replaced": false,
+  "formal_loader_admission": false,
+  "model_sha256": "0dcefe4df7c9ccaa3ba6ae3078c53b1884461ee8f5ca95ffc69dfa0fe13fa837",
+  "array_sha256": "b1f9ceb76b5a6f2650669cd97f98368cd10aa0159cc3fad111173a9bd921e4fa",
+  "metadata_sha256": "fd6088c0d768929378ec2ee7cc070fbea8654c5b044c02002e4cf18d6bd22a79"
+}

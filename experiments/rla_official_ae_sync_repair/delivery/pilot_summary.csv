@@ -1,0 +1,5 @@
+suite,frames,A_self_restore,B_original_gate,joint_max,eef_max_m,front_max_mae,wrist_max_mae,front_max_p99,wrist_max_p99,failed_frames,previous_numeric_gate,previous_pixel_gate,admitted_original_augmentation
+libero_spatial,101,True,False,0.0016329812568134372,0.0008500332116918585,5.2311859130859375,6.777689615885417,88.0,135.0,101,True,False,False
+libero_object,143,True,False,0.0016231414723364423,0.0009626275727912526,3.2616678873697915,4.2049407958984375,30.0,56.0,12,True,True,False
+libero_goal,114,True,False,0.046493052289852455,0.011389455028277151,8.274363199869791,18.79998779296875,118.0,161.0,114,False,False,False
+libero_10,383,True,False,0.04371761040529698,0.011507260548055454,7.9786834716796875,16.942942301432293,139.0,195.0,383,False,False,False

@@ -1,0 +1,12 @@
+{
+  "suite": "libero_spatial",
+  "counts": {
+    "render_calls": 8,
+    "physics_substeps": 0
+  },
+  "source_actions": 0,
+  "wait_steps": 0,
+  "xml_hash_identical_to_previous": true,
+  "model_sha256": "42af4e180877ff8cf79d359e33d1436c4eb414e87a7c485ad75b90de4823ed3c",
+  "purpose": "Recover exact compiled model, no trajectory recreation or alternate environment"
+}

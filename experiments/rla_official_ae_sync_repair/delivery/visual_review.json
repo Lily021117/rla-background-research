@@ -1,0 +1,14 @@
+{
+  "reviewer_type": "AI visual inspection, not human annotation or segmentation ground truth",
+  "selection": "7 evenly spaced frame indices per fixed pilot, frozen before inspection; both cameras",
+  "reviewed_artifact": "color_final/<suite>/fixed_comparison.jpg",
+  "complete_videos_created_but_not_human_watched": true,
+  "automatic_coverage": "all 741 frames, both cameras, exact geometry/state pairing and direct original RGB comparison",
+  "suites": [
+    {"suite":"libero_object","frames":[0,23,47,71,94,118,142],"observations":"Floor is clearly visible in both cameras and absent from the old wall-only whitelist. Mask excludes basket, milk and other task items, robot and gripper at sampled frames. Expanded H is subtle, fixed H+S visibly green with floor pattern retained. Original versus synchronized Clean is visually similar at these samples; this does not override the 12 automatically failed wrist frames."},
+    {"suite":"libero_spatial","frames":[0,16,33,50,66,83,100],"observations":"Table and wall coloring visible; robot, bowls, plate, cabinet and stove excluded from mask. H+S retains wood pattern. Fine bowl texture/specular appearance differs between author and rerender at some sampled views. No original-video admission from visual similarity."},
+    {"suite":"libero_goal","frames":[0,18,37,56,75,94,113],"observations":"Table and wall coloring visible while cabinet, rack, bottle and robot remain outside the mask. Original versus candidate wrist/robot/target alignment varies during manipulation. Numeric joint/EEF mismatch independently blocks correspondence; visual evidence does not isolate its cause."},
+    {"suite":"libero_10","frames":[0,63,127,191,254,318,382],"observations":"Table coloring visible in both cameras, stove/moka pots/robot and cabinet fixtures excluded. Author wrist video has block-like artifacts in several selected frames and relative pose differences also occur. Do not explain measured joint drift as video encoding. New H+S is visibly different without replacing foreground textures."}
+  ],
+  "limits": ["No full-sequence human review", "Sampled visual checks do not prove every boundary pixel is semantically correct", "Automatic GEOM identity and model-array checks cover the complete sequence", "No policy or segmentation model used", "No threshold or color changed after viewing these images"]
+}

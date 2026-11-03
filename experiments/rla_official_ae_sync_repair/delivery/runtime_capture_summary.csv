@@ -1,0 +1,5 @@
+suite,frames,status,main_previous_exact,renderer_exact,A_geometry_max,obs_time_lag_s,geometry_time_lag_s,cached_obs_joint_max,sensor_geometry_recovery_rgb_max
+libero_spatial,101,FULL_METRICS_ARCHIVE_PARTIAL,True,True,3.153986118054064e-06,[0.002],[0.004],1.9753340680939147e-05,58.0
+libero_object,0,FAILED_AFTER_ONE_WAIT_NO_RETRY,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE
+libero_goal,114,BLOCKED_ORIGINAL_CORRESPONDENCE,True,True,0.0,[0.002],[0.004],0.05071501063249184,0.0
+libero_10,383,BLOCKED_ORIGINAL_CORRESPONDENCE,True,True,0.0,[0.002],[0.004],0.043217828019912696,0.0

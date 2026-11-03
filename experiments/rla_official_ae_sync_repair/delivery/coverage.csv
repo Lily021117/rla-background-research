@@ -1,0 +1,9 @@
+suite,split,trajectories,frames,rlds_mapped,candidate_hdf5,restored_candidate_trajectories,original_correspondence_passed,diagnostic_pairs,admitted_augmented_trajectories
+libero_spatial,train,422,51732,422,1,1,0,1,0
+libero_spatial,val,10,1238,10,0,0,0,0,0
+libero_object,train,444,65552,444,1,1,0,1,0
+libero_object,val,10,1432,10,0,0,0,0,0
+libero_goal,train,418,50545,418,1,1,0,1,0
+libero_goal,val,10,1497,10,0,0,0,0,0
+libero_10,train,369,98711,369,1,1,0,1,0
+libero_10,val,10,2758,10,0,0,0,0,0

@@ -1,0 +1,13 @@
+{
+  "error": "AttributeError(\"'function' object has no attribute '__modality__'\")",
+  "counts": {
+    "source_actions": 0,
+    "wait_steps": 0,
+    "physics_substeps": 25,
+    "env_render_calls": 12,
+    "diagnostic_rgb_renders": 0,
+    "state_restores": 1,
+    "copy_forwards": 0
+  },
+  "completed_frames": 0
+}

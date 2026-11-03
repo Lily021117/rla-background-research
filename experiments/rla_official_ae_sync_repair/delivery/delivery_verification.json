@@ -1,0 +1,52 @@
+{
+  "status": "PASS_WITH_REPORTED_EVIDENCE_GAPS",
+  "train": 1653,
+  "val": 40,
+  "frames": 741,
+  "A_pass": 4,
+  "B_pass": 0,
+  "counts": {
+    "download_bytes": 0,
+    "source_actions": 598,
+    "wait_steps": 31,
+    "physics_substeps": 15725,
+    "state_restores": 5477,
+    "rgb_render_calls": 14652,
+    "segmentation_render_calls": 1768,
+    "explicit_diagnostic_forward_calls": 6071,
+    "render_calls": 16420,
+    "source_replay_attempts": 4,
+    "complete_source_replays": 3,
+    "offline_old_candidate_frames": 741,
+    "final_diagnostic_paired_frames": 741,
+    "final_diagnostic_rgb_frames": 4446,
+    "admitted_author_pairs": 0,
+    "AE_forwards": 0,
+    "DINO_forwards": 0,
+    "policy_forwards": 0,
+    "AE_updates": 0,
+    "DINO_updates": 0,
+    "policy_updates": 0,
+    "backward": 0,
+    "policy_rollouts": 0,
+    "GPU_processes": 0,
+    "implicit_environment_forward_calls": "not separately instrumented; explicit diagnostic forward calls listed separately",
+    "retries_with_source_actions": 0
+  },
+  "input_hash_updates": [
+    {
+      "path": "/data/lyc/projects/rla-wm/experiments/rla_official_ae_sync_repair/run_20261103_01/code/experiments/rla_official_ae_sync_repair/deliver.py",
+      "previous_sha256": "922f1ae484ee3f0cbccfcddac0587bb2f2688c18365dcbed30601c6d8c48d28d",
+      "current_sha256": "4a6bbd117f2d876c20dae4adfa5401e5ae08ed2c6c062ac8dc75cfa11414f0d0",
+      "reason": "Clarified weak-color threshold units; no data/threshold changed"
+    }
+  ],
+  "missing": [
+    "Object fresh runtime four-path recapture",
+    "Spatial optional raw diagnostic_paths.npz"
+  ],
+  "scope_frozen": true,
+  "source_action_budget_respected": true,
+  "no_threshold_relaxation": true,
+  "bulk_started": 0
+}

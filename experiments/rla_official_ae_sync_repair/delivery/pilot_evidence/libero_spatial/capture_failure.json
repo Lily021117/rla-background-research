@@ -1,0 +1,13 @@
+{
+  "error": "TypeError(\"numpy.savez_compressed() got multiple values for keyword argument 'sensor_geometry'\")",
+  "counts": {
+    "source_actions": 101,
+    "wait_steps": 10,
+    "physics_substeps": 2775,
+    "env_render_calls": 434,
+    "diagnostic_rgb_renders": 808,
+    "state_restores": 203,
+    "copy_forwards": 303
+  },
+  "completed_frames": 101
+}

@@ -1,0 +1,98 @@
+{
+  "geomgroup": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "sitegroup": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "flags": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "render_flags": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "raw_env_orientation": "bottom-up -> reverse both axes",
+  "native_orientation": "top-down -> horizontal flip",
+  "resolution": [
+    256,
+    256
+  ],
+  "cameras": [
+    "agentview",
+    "robot0_eye_in_hand"
+  ],
+  "mj_state_type": "mjSTATE_INTEGRATION",
+  "includes": [
+    "time",
+    "qpos",
+    "qvel",
+    "act",
+    "warmstart",
+    "ctrl",
+    "applied forces",
+    "eq_active",
+    "mocap",
+    "userdata",
+    "plugin"
+  ],
+  "missing_in_legacy": [
+    "ctrl",
+    "warmstart",
+    "applied forces",
+    "eq_active",
+    "mocap",
+    "userdata",
+    "derived transforms"
+  ],
+  "source_note": "Controller/cache state is not claimed resumable; needed here only for image reproduction, not control continuation"
+}
