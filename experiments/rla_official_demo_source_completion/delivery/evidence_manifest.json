@@ -25,11 +25,11 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/frozen_data_manifest.csv",
-    "sha256": "4af14405c2dbc41644bfe085286a141e10a8e2210eaf5d0dd9b4eea452a80d10"
+    "sha256": "611c224e94da6ea6c03f8ad8bb9c509250bf32fe0213302b6707dce7a1d66430"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/coverage_by_task_split.csv",
-    "sha256": "da0234c09c099e4c428cc4767eb491fc5707dba1ca82e76616323d27b966bdaf"
+    "sha256": "9511dce3ae947c50d0c35c6734a92826621cb3207cd4d553a231b0cf9205f43e"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/rejected_source_files.json",
@@ -49,19 +49,19 @@
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/report.md",
-    "sha256": "829d8eb41b2b6b3742a3396432661e8c977b21b495c36d484b32aba938b175d5"
+    "sha256": "525a06d235a4e1a18fbf97466210dac6e40f26aa1ac781fa3f728467b9da903c"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/reuse_audit.json",
-    "sha256": "872b0b139ff93bb66d44ac4b0da34ebf84ce517e22a796a626ef7f90ff7be4e8"
+    "sha256": "54160523a6df62caa77c1a5425eabcfe3e851825f9c5da8880104086a176a01b"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/unfinished_entries.csv",
-    "sha256": "902ff11461d50070fac120acd8b6658288010615b94acb147aa02cffe8dc44b2"
+    "sha256": "5f96408c6f1f7d4817acf40373ccba0b7cb4884508d0e8d6f9456f2a214c5200"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/counts.json",
-    "sha256": "8803db7bf52e2f2c9d9ced5708ad5928fca0ebd3c3a8e8f2a3ebe25d3776cb0e"
+    "sha256": "6875a2d4fa1f0aeab7060dfddc65f9936114113328eba70be2458ec812d3adbe"
   },
   {
     "path": "<PROJECT>/experiments/rla_official_demo_source_completion/run_20261103_01/delivery/lineage_rule_v2.json",

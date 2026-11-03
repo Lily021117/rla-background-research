@@ -1,9 +1,9 @@
 {
   "new_trajectories": 0,
-  "reused_trajectories": 22,
+  "reused_trajectories": 955,
   "new_source_frames": 0,
-  "reused_source_frames": 2675,
-  "loader_pass": 22,
+  "reused_source_frames": 157964,
+  "loader_pass": 955,
   "state_restores": 0,
   "kinematic_forwards": 0,
   "rgb_renders": 0,
