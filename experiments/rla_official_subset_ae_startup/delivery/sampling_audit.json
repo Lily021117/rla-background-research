@@ -1,0 +1,27 @@
+{
+  "status": "PASS_METADATA_ONLY",
+  "official_random_sampler_called": true,
+  "global_numpy_rng_restored_each_call": true,
+  "train_horizon": [
+    2,
+    64
+  ],
+  "val_horizon": [
+    10,
+    64
+  ],
+  "future_index": "t+h-1",
+  "physical_elapsed_time_recorded": true,
+  "train_samples": 25600,
+  "calibration_samples": 12800,
+  "fixed_train": 128,
+  "fixed_validation": 81,
+  "hashes": {
+    "startup_samples.csv": "ead0544a5fea13ff3f5a490313d8c6f5b6690e7b73b4810b76431432f3c6b16b",
+    "fixed_train_samples.csv": "e52d89e4fe1670bd8bc498e4a5c3a80b2435807973ae39100c5dfeae678f2dcc",
+    "validation_samples.csv": "c98fc554feea46c0e4a1c47387ad2f10950b92e978b6fc20cc0d19c6b2bbd2b0",
+    "calibration_samples.csv": "08a7d050cae304acfe756de9e1c0163dda8afee3cb9f693ec57890d931280c25"
+  },
+  "model_forwards": 0,
+  "updates": 0
+}

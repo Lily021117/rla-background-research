@@ -1,0 +1,128 @@
+{
+  "status": "FROZEN_CPU_PLAN_GPU_STARTUP_PENDING",
+  "init_seed": 20261104,
+  "model_train_seed": 20261105,
+  "sampler_seed": 20261106,
+  "calibration_sampler_seed": 20261107,
+  "validation_sampler_seed": 20261108,
+  "augmentation_rng": "none: fixed per-trajectory H+S; never consumes sampler/model RNG",
+  "official_commit": "0fc6e97212442ebccffa06f1d42f5481e5f22950",
+  "effective_physical_batch": 128,
+  "target_microbatch_physical": 1,
+  "accumulation_steps": 128,
+  "microbatch_status": "pending actual full-effective-batch GPU test, identical for all arms",
+  "calibration_updates": 100,
+  "calibration_nodes": [
+    0,
+    10,
+    30,
+    60,
+    100
+  ],
+  "startup_updates_each": 200,
+  "max_total_updates": 700,
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200
+  ],
+  "formal_training_authorized": false,
+  "formal_init": "reload same newly constructed untrained step0; discard calibration and startup endpoints",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08
+  },
+  "scheduler": null,
+  "precision": "official mixed FP16 torso / FP32 masters; fixed loss scale256; fail on nonfinite, no silent scaler/precision changes",
+  "backend": "Math SDPA, preflight required",
+  "load_dir": null,
+  "resume": null,
+  "auto_resume": false,
+  "AE_pretrained_loading": false,
+  "DINO": {
+    "model": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "freeze": true,
+    "eval": true,
+    "patch_size": 16,
+    "channels": 1024,
+    "patches_per_view": 196,
+    "silent_dinov2_fallback": false,
+    "source_identity_status": "local weight path/revision/hash must be verified before GPU execution"
+  },
+  "image_decoder": "not constructed; not feature decoder",
+  "loss": {
+    "reconstruction": "0.5*(mean L1+mean MSE branch0 + mean L1+mean MSE branch1)",
+    "consistency": "mean MSE(z_clean,z_bg) over effective B,16,64",
+    "feature_reduction": "mean over effective B,2 cameras,196 patches,1024 channels"
+  },
+  "calibration_rule": "100 rec-only paired updates on train, separate sampler. Same fixed 128 train pairs at10/30/60/100. lambda=min(median(0.1*g_rec/g_cons), min(0.1*L_rec/L_cons)) over those four nodes. Require all poststartup unscaled encoder norms finite and >1e-12; otherwise STOP, no alternate calibration/search. step0 measured/excluded due zero output layer. Freeze before all three 200-update runs; AE-cons applies from update1.",
+  "latent_normalization": "At each evaluation node compute per-position mean and global RMS scale on same fixed 128 training pairs, pooled both appearances; no validation fitting; report raw/unit/standardized distances, raw norms variance rank; near-zero scale marked invalid, not hidden.",
+  "shuffle_z": "fixed derangement among validation samples in same task when possible; no self pairing; record task/horizon differences; unavailable groups explicitly missing",
+  "exposures": {
+    "each_arm_physical": 25600,
+    "each_arm_reconstruction_branches": 51200,
+    "calibration_physical": 12800
+  },
+  "stops": [
+    "successful update budgets",
+    "nonfinite loss/gradient/parameters",
+    "CUDA or new ECC anomaly",
+    "OOM",
+    "data/hash/paired-index mismatch"
+  ],
+  "policy_updates": 0,
+  "rollouts": 0,
+  "arm": "AE-aug",
+  "branches": [
+    "clean",
+    "background"
+  ],
+  "consistency_enabled": false,
+  "lambda_cons": 0,
+  "models": {
+    "encoder": {
+      "name": "MultiViewTokenTransformer",
+      "args": {
+        "in_channels": 1024,
+        "model_channels": 1024,
+        "out_channels": 64,
+        "num_blocks": 12,
+        "num_heads": 16,
+        "mlp_ratio": 4.0,
+        "use_fp16": true,
+        "num_tokens": 16,
+        "norm_output_tokens": false,
+        "num_views": 2,
+        "use_view_embed": false,
+        "pos_embed_mode": "plucker",
+        "plucker_num_frequencies": 8
+      }
+    },
+    "decoder": {
+      "name": "MultiViewTokenTransformer",
+      "args": {
+        "in_channels": 1024,
+        "model_channels": 1024,
+        "out_channels": 1024,
+        "token_channels": 64,
+        "num_blocks": 12,
+        "num_heads": 16,
+        "mlp_ratio": 4.0,
+        "use_fp16": true,
+        "num_tokens": 16,
+        "zero_init": true,
+        "num_views": 2,
+        "use_view_embed": false,
+        "pos_embed_mode": "plucker",
+        "plucker_num_frequencies": 8
+      }
+    }
+  }
+}

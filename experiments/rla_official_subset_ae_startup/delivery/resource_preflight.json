@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-11-04T01:39:09.802123+00:00",
+  "memory": "index, uuid, memory.free [MiB], memory.total [MiB]\n0, GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e, 8595 MiB, 81559 MiB\n1, GPU-ddacf049-4261-ed6e-5772-bc75bd71dcf9, 81065 MiB, 81559 MiB\n",
+  "ecc": "\n==============NVSMI LOG==============\n\nTimestamp                                              : Wed Nov  4 01:39:09 2026\nDriver Version                                         : 580.178.04\nCUDA Version                                           : 13.0\n\nAttached GPUs                                          : 2\nGPU 00000000:35:00.0\n    ECC Mode\n        Current                                        : Enabled\n        Pending                                        : Enabled\n    ECC Errors\n        Volatile\n            SRAM Correctable                           : 2\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n        Aggregate\n            SRAM Correctable                           : 10\n            SRAM Uncorrectable Parity                  : 0\n            SRAM Uncorrectable SEC-DED                 : 0\n            DRAM Correctable                           : 0\n            DRAM Uncorrectable                         : 0\n            SRAM Threshold Exceeded                    : No\n        Aggregate Uncorrectable SRAM Sources\n            SRAM L2                                    : 0\n            SRAM SM                                    : 0\n            SRAM Microcontroller                       : 0\n            SRAM PCIE                                  : 0\n            SRAM Other                                 : 0\n        Channel Repair Pending                         : No\n        TPC Repair Pending                             : No\n        Unrepairable Memory                            : No\n\n",
+  "required_free_MiB": 26624,
+  "eligible_uuid": "GPU-205a3f5a-d91b-6385-c588-4e4cf3505f7e",
+  "current_index1_uuid": "GPU-ddacf049-4261-ed6e-5772-bc75bd71dcf9",
+  "index1_status": "historical uncorrectable ECC UUID prohibited; no new permission inferred from index",
+  "GPU_process_launched": false,
+  "queue_started": false
+}

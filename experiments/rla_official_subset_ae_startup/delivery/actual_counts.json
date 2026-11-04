@@ -1,0 +1,12 @@
+{
+  "AE_updates": 0,
+  "calibration_updates": 0,
+  "DINO_updates": 0,
+  "policy_updates": 0,
+  "model_forwards": 0,
+  "backward": 0,
+  "policy_rollouts": 0,
+  "checkpoint_constructions": 1,
+  "CPU_state_dict_reload_checks": 1,
+  "GPU_optimizer_resume_checks": 0
+}

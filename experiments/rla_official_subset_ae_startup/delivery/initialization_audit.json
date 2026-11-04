@@ -1,0 +1,28 @@
+{
+  "status": "CPU_CONSTRUCTION_AND_STATE_DICT_STRICT_RELOAD_PASS_GPU_FORWARD_PENDING",
+  "path": "<PROJECT>/experiments/rla_official_subset_ae_startup/run_20261104_01/common_untrained_step0.pt",
+  "sha256": "e4a9e91df93ea21ff6a1afadebad7786580b14cb81e9851f0c4b8e86fc1f0024",
+  "parameter_sha256": "ba01275a207694682c6e935039ec0e6124f709ca060290ac722856980dfea21a",
+  "seed": 20261104,
+  "parameters": {
+    "encoder": 152344640,
+    "decoder": 153395200
+  },
+  "pretrained_AE_load": false,
+  "torch_load_blocked_during_construction": true,
+  "decoder_output_zero": true,
+  "load_dir": null,
+  "auto_resume": false,
+  "image_decoder_constructed": false,
+  "DINO_constructed": false,
+  "model_forwards": 0,
+  "updates": 0,
+  "backward": 0,
+  "cuda_rng": "Not initialized on CPU. Capture new matching training RNG on authorized GPU before any updates; do not claim full GPU resume tested.",
+  "code_hashes": {
+    "<PROJECT>/worktrees/rla-official-0fc6e97/src/models/simple_token_transformer.py": "d21a02e24d4657ffa287e319ecca5f6f5514340a01dfd26bc471d135c5f945bb",
+    "<PROJECT>/worktrees/rla-official-0fc6e97/rebuttal/src/models/multiview_token_transformer.py": "ef88538ad18258886a574fd93081efa816a366f1ff73656745e12f7bc0085335",
+    "<PROJECT>/worktrees/rla-official-0fc6e97/rebuttal/src/models/plucker_embedding.py": "ffdb8bd1c23517af784718462c829c5c2e51327e75db5dcf6ff63016c26355a0",
+    "<PROJECT>/experiments/rla_official_subset_ae_startup/run_20261104_01/code/experiments/rla_official_subset_ae_startup/initialize_cpu.py": "be96bb4d32c1aa8260c131296f2e7a9e1fcb6c526627721cf01dbfba3eef16ab"
+  }
+}

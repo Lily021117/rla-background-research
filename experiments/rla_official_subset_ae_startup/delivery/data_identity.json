@@ -1,0 +1,21 @@
+{
+  "name": "官方LIBERO示范统一重渲染子集",
+  "counts": {
+    "train": {
+      "trajectories": 1296,
+      "tasks": 38,
+      "frames": 207204
+    },
+    "val": {
+      "trajectories": 27,
+      "tasks": 19,
+      "frames": 4604
+    }
+  },
+  "parent_manifest_sha256": "465461c0ea8f69c7eaaa441108946b11174f5d659b8e7f00eb78000c402519e0",
+  "parent_commit": "382766d2078edb3ae421483bfb754af93200fc01",
+  "excluded_unresolved": 287,
+  "excluded_missing": 83,
+  "full_author_data_reproduction": false,
+  "no_download_or_rerender": true
+}
